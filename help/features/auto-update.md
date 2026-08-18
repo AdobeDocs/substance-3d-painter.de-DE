@@ -34,7 +34,7 @@ Sie können sich ein kurzes Tutorial ansehen, um einen Überblick über die Funk
 
 ![](../assets/auto_update_red_icon.png)
 
-Um die automatische Aktualisierung <b>1} zu aktivieren, klicken Sie unten im Fenster &quot;Elemente&quot; auf das Doppelpfeilsymbol. </b>Dadurch wird das Menü für die automatische Aktualisierung mit allen Einstellungen geöffnet. Aktivieren Sie dann eine der Optionen, die im Abschnitt <b>Automatische Updates</b> verfügbar sind.
+Um die automatische Aktualisierung <b>1&rbrace; zu aktivieren, klicken Sie unten im Fenster &quot;Elemente&quot; auf das Doppelpfeilsymbol. </b>Dadurch wird das Menü für die automatische Aktualisierung mit allen Einstellungen geöffnet. Aktivieren Sie dann eine der Optionen, die im Abschnitt <b>Automatische Updates</b> verfügbar sind.
 
 ### Automatische Updates
 

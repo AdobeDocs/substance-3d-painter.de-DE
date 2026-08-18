@@ -52,7 +52,7 @@ Die Linie unter jeder Miniaturansicht auf einer Ebene zeigt an, ob Effekte vorha
 
 ![](../../assets/effect.gif)
 
-Weitere Informationen [finden Sie auf der dedizierten Seite ](../../features/effects/effects.md).
+Weitere Informationen [finden Sie auf der dedizierten Seite &#x200B;](../../features/effects/effects.md).
 
 ## Intelligente Masken
 

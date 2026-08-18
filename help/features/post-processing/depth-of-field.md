@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ![](../../assets/dof-example.jpg)![](../../assets/dof.png)
 
-Die **Tiefe von Feld** (DOF) hat keinen Direktparameter. Wenn diese Option aktiviert ist, überschreibt **die DOF von** Iray ****.
+Die **Tiefe von Feld** (DOF) hat keinen Direktparameter. Wenn diese Option aktiviert ist, überschreibt **die DOF von** Iray **&#x200B;**.
 
 Zur Steuerung des Erscheinungsbilds der DOF im Viewport sind zwei Einstellungen über die Kamera verfügbar:
 

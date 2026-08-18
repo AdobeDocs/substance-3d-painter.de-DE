@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Der **Backmodus** bietet Zugriff auf alle Tools und Parameter, die Sie zum Erstellen großartiger Backs mit hoher Qualität benötigen.
 
-Um auf den **Backmodus** zuzugreifen, klicken Sie auf die (gebackene) Croissant-Schaltfläche oben rechts im Viewport. Alternativ können Sie den [Tastaturbefehl ](../interface/settings/shortcuts.md)**F8** verwenden oder **Modus > Gitterzuordnungen backen** auswählen.
+Um auf den **Backmodus** zuzugreifen, klicken Sie auf die (gebackene) Croissant-Schaltfläche oben rechts im Viewport. Alternativ können Sie den [Tastaturbefehl &#x200B;](../interface/settings/shortcuts.md)**F8** verwenden oder **Modus > Gitterzuordnungen backen** auswählen.
 
 ![](../assets/baking/mode_select_buttons.png)
 

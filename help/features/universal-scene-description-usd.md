@@ -27,5 +27,5 @@ Der USD-Arbeitsablauf ist in Painter 8.3 verfügbar. [USD](https://graphics.pixa
 Im Rahmen von Painter können nun folgende Aktionen durchgeführt werden:
 
 * [Erstellen Sie ein Projekt](../getting-started/project-creation.md), indem Sie auf USD-spezifische Funktionen zurückgreifen, z. B. die Auswahl des Umfangs und der Varianten, Unterteilungsebenen und Animationsframes.
-* [Exportieren Sie ](../export/export-window/export-settings.md) Materialien und Texturen im USD-Format.
+* [Exportieren Sie &#x200B;](../export/export-window/export-settings.md) Materialien und Texturen im USD-Format.
 * Außerdem wurde USD als neues Dateiformat für den Nur-Gitter-Export hinzugefügt.

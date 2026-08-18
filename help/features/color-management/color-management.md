@@ -95,7 +95,7 @@ Wenn das Farbmanagement aktiviert ist, ändert sich das Verhalten der [Farbauswa
 * Die Farben werden auf der Grundlage der aktuell ausgewählten Anzeige bearbeitet.
 * Der Benutzeroberfläche werden einige zusätzliche Informationen hinzugefügt.
 
-Weitere Informationen finden Sie auf der Dokumentationsseite &quot;](../../interface/color-picker.md)&quot; des Farbwählers &quot;[&quot;.
+Weitere Informationen finden Sie auf der Dokumentationsseite &quot;[&#128279;](../../interface/color-picker.md)&quot; des Farbwählers &quot;&quot;.
 
 ## Viewport-Steuerelemente
 

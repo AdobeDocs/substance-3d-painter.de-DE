@@ -96,7 +96,7 @@ Syntaxbeispiel:
 
 Standardmäßig haben Bildeingaben eines Substance-Graphen keine Auffüllung, der Bereich außerhalb der UV-Insel wird aus Leistungsgründen in der Regel mit einer einheitlichen Farbe gefüllt. Die Füllungseinstellung kann stattdessen verwendet werden, um eine unendliche Dilatation anzufordern, die für Filter verwendet werden kann, um z. B. das Erzeugen von Nähten zu vermeiden.
 
-Syntaxbeispiel: **p****adding=extend**
+Syntaxbeispiel: **p**&#x200B;**adding=extend**
 
 ## Deaktivieren einer Ausgabe standardmäßig
 

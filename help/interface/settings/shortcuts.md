@@ -26,7 +26,7 @@ Auf dieser Seite werden alle verfügbaren Tastatur- und Mauskürzel aufgeführt.
 
 ## Übersicht über Tastaturbefehle
 
-Einen kurzen Überblick über alle verfügbaren Tastaturbefehle finden Sie in der Grafik [, die in unseren Tutorials ](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) verfügbar ist.
+Einen kurzen Überblick über alle verfügbaren Tastaturbefehle finden Sie in der Grafik [, die in unseren Tutorials &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) verfügbar ist.
 
 ## So ändern Sie einen Tastaturbefehl
 
@@ -74,8 +74,8 @@ Um einen Tastaturbefehl auf seinen Standardwert zurückzusetzen, klicken Sie ein
 | **Kopierwerkzeug auswählen (relative Quelle)** | 6 | 6 |  |
 | **Kopierwerkzeug auswählen (absolute Quelle)** | Strg+6 | ⌘+6 |  |
 | **Gitterzuordnungen backen** | Strg+Umschalt+B | ⌘+Umschalt+B | Öffnen Sie das Fenster Backeinstellungen. |
-| **Werkzeuggröße erhöhen** | **&amp;rbrack;** | **&amp;rbrack;** | Erhöhen Sie die Größe des Pinsels für das Malwerkzeug. |
-| **Werkzeuggröße verringern** | **&amp;lbrack;** | **&amp;lbrack;** | Verkleinern Sie den Pinsel für das Malwerkzeug. |
+| **Werkzeuggröße erhöhen** | **&rbrack;** | **&rbrack;** | Erhöhen Sie die Größe des Pinsels für das Malwerkzeug. |
+| **Werkzeuggröße verringern** | **&lbrack;** | **&lbrack;** | Verkleinern Sie den Pinsel für das Malwerkzeug. |
 | **Graustufen-Werkzeug umkehren** | X | X | Aktuellen Graustufenwert umkehren, wenn sich das Malwerkzeug auf einer Maske befindet. |
 | **Strichmaterial auswählen** | P | P | Aktiviere den Materialwähler. |
 | **Faule Maus** | D | D | Aktivieren Sie das Verhalten der träge Maus für das aktuelle Werkzeug. |
@@ -125,7 +125,7 @@ Um einen Tastaturbefehl auf seinen Standardwert zurückzusetzen, klicken Sie ein
 
 ## Liste der nicht bearbeitbaren Tastaturbefehle
 
-Einige Tastaturbefehle funktionieren möglicherweise nur ****, wenn sich die **Maus über dem** bestimmten Fenster befindet.
+Einige Tastaturbefehle funktionieren möglicherweise nur **&#x200B;**, wenn sich die **Maus über dem** bestimmten Fenster befindet.
 
 Beispiel: **Kopieren** und **Einfügen** erfordert, dass sich die Maus **über dem Ebenenstapel** befindet.
 

@@ -24,4 +24,4 @@ Im [**Backing-Modus**](../../baking/baking.md) zeigt der Bereich **Allgemeine Ei
 > 1. Ändern Sie die allgemeinen Einstellungen **Ausgabegröße**.
 > 1. **Bake** der Normalmap.
 
-Eine vollständige Liste der in den **allgemeinen Einstellungen** und den [**Fenstern für die Mesh-Map-Einstellungen**](mesh-map-settings.md) verfügbaren Einstellungen für die Mesh-Map ist im Backing-Abschnitt der Dokumentation ](../../baking/mesh-map-settings.md) [ verfügbar.
+Eine vollständige Liste der in den **allgemeinen Einstellungen** und den [**Fenstern für die Mesh-Map-Einstellungen**](mesh-map-settings.md) verfügbaren Einstellungen für die Mesh-Map ist im Backing-Abschnitt der Dokumentation [&#128279;](../../baking/mesh-map-settings.md)  verfügbar.
