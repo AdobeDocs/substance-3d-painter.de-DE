@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export/creating-export-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter benutzerdefinierte Ausgabevorlagen erstellen, um Ihre eigenen Texturexportkonfigurationen zu definieren.
 helpx_creative_field: ""

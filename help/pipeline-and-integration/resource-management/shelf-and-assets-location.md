@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie die Ablage und den Speicherort von Elementen in Substance 3D Painter konfigurieren, um Ihre Ressourcenbibliothek zu organisieren und darauf zuzugreifen.
 helpx_creative_field: ""
