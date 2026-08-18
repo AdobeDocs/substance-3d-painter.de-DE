@@ -84,7 +84,7 @@ Klicken Sie auf **Start** und anschließend auf **Ausführen** (oder drücken Si
 
 Geben Sie **regedit** in das Textfeld ein, und drücken Sie **OK**.
 
-![&#39;regedit&#39; im Windows-Dialogfeld &quot;Ausführen&quot; ](../../../assets/run-regedit-2.png "&#39;regedit&#39; im Windows-Dialogfeld &quot;Ausführen&quot; "){zoomable="yes"}
+![&#39;regedit&#39; im Windows-Dialogfeld &quot;Ausführen&quot; &#x200B;](../../../assets/run-regedit-2.png "&#39;regedit&#39; im Windows-Dialogfeld &quot;Ausführen&quot; "){zoomable="yes"}
 
 ### 3 - Navigieren Sie zum Registrierungsschlüssel GraphicsDrivers .
 
@@ -99,7 +99,7 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers
 Vergewissern Sie sich, dass **auf** &quot;GraphicsDrivers&quot; (Grafiktreiber) und **auf** auf der Registrierung **Schlüssel unten** nicht klicken, bevor Sie die nächsten Schritte ausführen.
 
 +++&#39;GraphicsDrivers&#39; in der Windows-Registrierungsstruktur
-![ &quot;GraphicsDrivers&quot; in der Windows-Registrierungsstruktur ](../../../assets/reg-left-pane.png " &quot;GraphicsDrivers&quot; in der Windows-Registrierungsstruktur "){zoomable="yes"}
+![&#x200B; &quot;GraphicsDrivers&quot; in der Windows-Registrierungsstruktur &#x200B;](../../../assets/reg-left-pane.png " &quot;GraphicsDrivers&quot; in der Windows-Registrierungsstruktur "){zoomable="yes"}
 
 
 
@@ -117,7 +117,7 @@ Doppelklicken Sie im **rechten Fensterbereich** auf den Wert **TdrDelay**. Ände
 
 Dieser Wert gibt in Sekunden an, wie lange das Betriebssystem warten wird, bevor es berücksichtigt, dass die GPU während einer Berechnung nicht reagiert.
 
-![ &#39;TdrDelay&#39; DWORD-Wert im Windows-Registrierungs-Editor ](../../../assets/tdrdelay-edit.png " &#39;TdrDelay&#39; DWORD-Wert im Windows-Registrierungs-Editor "){zoomable="yes"}
+![&#x200B; &#39;TdrDelay&#39; DWORD-Wert im Windows-Registrierungs-Editor &#x200B;](../../../assets/tdrdelay-edit.png " &#39;TdrDelay&#39; DWORD-Wert im Windows-Registrierungs-Editor "){zoomable="yes"}
 
 ### 5 - Hinzufügen oder Bearbeiten des TdrDdiDelay-Werts
 

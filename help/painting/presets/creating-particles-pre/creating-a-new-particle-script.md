@@ -58,7 +58,7 @@ Ersetzen Sie dann im Fenster &quot;Node Properties&quot; (Knoteneigenschaften) d
 
 **Klonen Sie nun &quot;\_Receiver** **&quot;** (im Ordner &quot;Particle&quot;), um Ihren eigenen Receiver aus diesem zu erstellen.
 
-Öffne die Maske. Ersetze das Dummy-Gitter wie der Emitter durch dein Modell in &quot;Layer\_Model&quot;. Wir **haben das auf dem Bildschirm** angezeigte Gitter **** geändert, aber wir müssen auch **das von den Partikeln** verwendete Gitter **** ändern.
+Öffne die Maske. Ersetze das Dummy-Gitter wie der Emitter durch dein Modell in &quot;Layer\_Model&quot;. Wir **haben das auf dem Bildschirm** angezeigte Gitter **&#x200B;**&#x200B;geändert, aber wir müssen auch **das von den Partikeln** verwendete Gitter **&#x200B;**&#x200B;ändern.
 
 Klicken Sie dazu im Fenster &quot;Particle Treeview&quot; auf &quot;**Shape** &quot;, das sich in folgendem Verzeichnis befinden sollte: &quot;Partikeleffekt => Spawner => Ebene\_1 => Sampler => Gitter&quot;.
 

@@ -62,7 +62,7 @@ Das alte Shelf-Fenster wurde verbessert und in Assets-Fenster umbenannt. Das neu
 * **Verbesserte Leistung** Die Lade- und Generierungszeit von Miniaturansichten wurde in mehreren Aspekten verbessert und sollte jetzt viel schneller sein.
 
 * **Das Vorschauspeicherbudget erhöhen, um mehr Miniaturansichten zu laden**\
-  Standardmäßig wird der Anzeige von Miniaturansichten ein begrenzter Speicherplatz zugewiesen, um Performance-Einsparungen zu erzielen. Eine Bibliothek mit vielen Ressourcen kann jedoch dazu führen, dass Miniaturansichten ständig geladen und entladen werden, was die Navigation und die Suche nach Ressourcen erschwert. Es ist jetzt eine neue [Umgebungsvariable ](../../pipeline-and-integration/configuration/environment-variables.md) vorhanden, mit der der standardmäßige Budgetwert überschrieben werden kann.
+  Standardmäßig wird der Anzeige von Miniaturansichten ein begrenzter Speicherplatz zugewiesen, um Performance-Einsparungen zu erzielen. Eine Bibliothek mit vielen Ressourcen kann jedoch dazu führen, dass Miniaturansichten ständig geladen und entladen werden, was die Navigation und die Suche nach Ressourcen erschwert. Es ist jetzt eine neue [Umgebungsvariable &#x200B;](../../pipeline-and-integration/configuration/environment-variables.md) vorhanden, mit der der standardmäßige Budgetwert überschrieben werden kann.
 
 ### Neuer Adobe Standard Material-Workflow
 

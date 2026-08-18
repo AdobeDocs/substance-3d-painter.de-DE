@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## lib-sampler.glsl
 
-**Öffentliche Funktionen:** *getAO* *getShadowFactor* *getGlossiness* *getRoughness* *getMetallic* *getAnisotropyLevel* *getAnisotropyAngle* *getOpacity* *getHeight* *getDisplacement* *getSpecularLevel* *getBaseColor* *getDiffuse* *getSpecularColor* *getScattering* *generateAnisotropicRoughness* *generateDiffuseColor 5}* generateSpecularColor **
+**Öffentliche Funktionen:** *getAO* *getShadowFactor* *getGlossiness* *getRoughness* *getMetallic* *getAnisotropyLevel* *getAnisotropyAngle* *getOpacity* *getHeight* *getDisplacement* *getSpecularLevel* *getBaseColor* *getDiffuse* *getSpecularColor* *getScattering* *generateAnisotropicRoughness* *generateDiffuseColor 5&rbrace;* generateSpecularColor **
 
 Aus Bibliothek importieren
 

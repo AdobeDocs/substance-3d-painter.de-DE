@@ -44,7 +44,7 @@ Abgeflachte Elemente des Ebenenstapels können auch direkt auf die Festplatte ex
 
 >[!NOTE]
 >
-> Weitere Informationen zum Reduzieren von Ebenen finden Sie auf der [dedizierten Dokumentationsseite ](../interface/layer-stack/flatten-layers.md).
+> Weitere Informationen zum Reduzieren von Ebenen finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](../interface/layer-stack/flatten-layers.md).
 
 ### Neuer Modus &quot;Verformen in Geometrie&quot; für Projektionen
 
@@ -67,7 +67,7 @@ Aufkleber können sich jetzt automatisch an komplexe Oberflächen anpassen, soda
 
 >[!NOTE]
 >
-> Weitere Informationen zur Verkrümmungsprojektion finden Sie auf der [dedizierten Dokumentationsseite ](../painting/fill-projections/warp-projection.md).
+> Weitere Informationen zur Verkrümmungsprojektion finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](../painting/fill-projections/warp-projection.md).
 
 ### Neue Post-Effekte
 

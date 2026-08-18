@@ -12,7 +12,7 @@ Automatisiert das Generieren des Markdown-Dokuments für bekannte Probleme für 
 
 Probleme stammen aus dem Jira-Epos `SBSFOUR-6267`. Das Skript ruft alle Probleme ab, filtert alle bereits in der Zielversion behobenen Elemente heraus und gibt eine formatierte Markdown-Datei aus, die zum Commit bereit ist.
 
----
+&#x200B;---
 
 ## Schnellstart
 
@@ -25,12 +25,13 @@ Bei diesen Schritten wird davon ausgegangen, dass Sie die einmalige Einrichtung 
    ```
    python fetch_known_issues.py
    ```
+
 4. Überprüfen Sie die Ausgabebeschreibung. Sie zeigt an, wie viele Probleme abgerufen und wie viele davon ausgeschlossen wurden.
 5. Generierte `known-issues.md` in `help/release-notes/known-issues.md` kopieren
 
 > Wenn Probleme fehlen oder unerwartet auftreten, überprüfen Sie `raw_issues.json`, um genau zu sehen, was Jira zurückgegeben hat, bevor die Filterung angewendet wurde.
 
----
+&#x200B;---
 
 ## Einmalige Einrichtung
 
@@ -64,7 +65,7 @@ OUTPUT_FILE=known-issues.md
 
 `TARGET_VERSION` ist die Version von Substance 3D Painter, für die Sie die Seite mit bekannten Problemen generieren. Es steuert, welche behobenen Probleme ausgeschlossen werden — siehe [Filtering Logic](#filtering-logic) weiter unten.
 
----
+&#x200B;---
 
 ## Repository-Struktur
 
@@ -78,7 +79,7 @@ OUTPUT_FILE=known-issues.md
 └── known-issues.md            # Generated output from last run — gitignored
 ```
 
----
+&#x200B;---
 
 ## Jira Reference
 
@@ -90,7 +91,7 @@ OUTPUT_FILE=known-issues.md
 
 Alle bekannten Probleme müssen mit diesem Epos verknüpft sein, damit es im generierten Dokument angezeigt wird. Wenn ein Problem hinzugefügt oder von der Seite entfernt werden muss, aktualisieren Sie das Epos in Jira, anstatt das Markdown manuell zu bearbeiten.
 
----
+&#x200B;---
 
 ## Funktionsweise des Skripts
 
@@ -126,8 +127,8 @@ Die vollständige Entscheidungstabelle finden Sie unter [Filtering Logic](#filte
 
 Jede Problemzusammenfassung wird nach Kategorie-Tags am Anfang der Zeichenfolge analysiert:
 
-- `[Shader] Some description` →: 1, Beschreibung: 2`["Shader"]``"Some description"`
-- `[Crash][Engine] Some description` →: 1, Beschreibung: 2`["Crash", "Engine"]``"Some description"`
+- `[Shader] Some description` →: 1, Beschreibung: 2`["Shader"]`&#x200B;`"Some description"`
+- `[Crash][Engine] Some description` →: 1, Beschreibung: 2`["Crash", "Engine"]`&#x200B;`"Some description"`
 - `No brackets here` → keine Kategorien, behandelt als nicht kategorisiert
 
 Die **primäre Kategorie** ist immer das erste Tag. Sie bestimmt die Gruppierung und die Abschnittsplatzierung.
@@ -153,7 +154,7 @@ Das Skript gibt `known-issues.md` aus mit:
 - Leere Linien zwischen Kategoriegruppen
 - Ein `## Stability`-Abschnitt am Ende für Absturzprobleme
 
----
+&#x200B;---
 
 ## Filterlogik
 
@@ -165,7 +166,7 @@ Das Skript gibt `known-issues.md` aus mit:
 | `Fixed` | Ja | Version ≤ Ziel korrigieren | Nein (bereits ausgeliefert) |
 | `Fixed` | Ja | Version korrigieren > Ziel | Ja (Korrektur erfolgt in einer zukünftigen Version) |
 
----
+&#x200B;---
 
 ## Ausgabeformat
 
@@ -194,7 +195,7 @@ This page lists all the active known issues present in v12.0.3 of Substance 3D P
 
 **Die Formatierungshinweise:** Kategorie-Tags verwenden einen einzelnen Backtick-Wrapping — `` `[Category]` `` — nicht doppelte Backtick-Wrapping. Das ältere manuell verwaltete Dokument enthielt Fehler mit doppeltem Backtick. das Skript immer das richtige Format erzeugt.
 
----
+&#x200B;---
 
 ## Fehlerbehebung
 

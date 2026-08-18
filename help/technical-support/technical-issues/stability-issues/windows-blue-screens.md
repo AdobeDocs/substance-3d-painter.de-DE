@@ -59,7 +59,7 @@ Seit der Einführung von [Spare Virtual Textures](../../../features/sparse-virtu
 Es gibt zwei einfache Lösungen für dieses Problem:
 
 * Geben Sie Speicherplatz auf der Festplatte frei, um mehr Platz für das Cache-System zu schaffen.
-* Verschieben Sie das Cache-Verzeichnis auf ein anderes Laufwerk mit mehr Speicherplatz. Dieser Speicherort kann über die Haupteinstellungen der Anwendung geändert werden. Weitere Informationen finden Sie in der [-Einstellung &quot;Temporäre Dateien&quot; ](https://docs.substance3d.com/display/SPDOC/General) .
+* Verschieben Sie das Cache-Verzeichnis auf ein anderes Laufwerk mit mehr Speicherplatz. Dieser Speicherort kann über die Haupteinstellungen der Anwendung geändert werden. Weitere Informationen finden Sie in der [-Einstellung &quot;Temporäre Dateien&quot; &#x200B;](https://docs.substance3d.com/display/SPDOC/General) .
 
 ### Defektes Laufwerk (HDD oder SSD)
 

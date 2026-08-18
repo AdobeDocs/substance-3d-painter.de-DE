@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Beim Starten der Anwendung wird möglicherweise die folgende Fehlermeldung angezeigt:
 
->> 
+&#x200B;>> 
 
 Diese Anwendung konnte nicht gestartet werden, da kein Qt-Plattform-Plug-in initialisiert werden konnte. Das Problem kann durch eine Neuinstallation der Anwendung behoben werden.
 

@@ -21,7 +21,7 @@ ht-degree: 0%
 # Absturz mit wenig virtuellem Speicher
 
 Substance 3D Painter kann instabil sein, wenn die Datei **paging** ( **swap** Speicher/ **virtueller** Speicher) mit einem Wert **zu niedrig** festgelegt ist.\
-Es wird empfohlen, diese Einstellungen vom Betriebssystem behandeln zu lassen (was in der Regel standardmäßig der Fall ist). Substance 3D Painter benötigt mindestens **** **16 GB** virtuellen Speicher, damit es ordnungsgemäß funktioniert.
+Es wird empfohlen, diese Einstellungen vom Betriebssystem behandeln zu lassen (was in der Regel standardmäßig der Fall ist). Substance 3D Painter benötigt mindestens **&#x200B;**&#x200B;**16 GB** virtuellen Speicher, damit es ordnungsgemäß funktioniert.
 
 ## Wie kann ich die Größe des virtuellen Arbeitsspeichers unter Windows ändern?
 
