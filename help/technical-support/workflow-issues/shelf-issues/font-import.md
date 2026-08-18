@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Probleme beim Importieren von Schriftdateien in Substance 3D Painter beheben können, um Schriftartenressourcen erfolgreich zu importieren und zu verwenden.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-2.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-7-2.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 7.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Version 7.2
 
-**Substance 3D Painter 7.2** bietet neue Rendering-Funktionen im Adobe-Standardmaterial-Workflow, neue Möglichkeiten zur Freigabe von Inhalten in [Substance 3D-Anwendungen](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) und ein überarbeitetes Elementfenster.
+**Substance 3D Painter 7.2** bietet neue Rendering-Funktionen im Adobe-Standardmaterial-Workflow, neue Möglichkeiten zur Freigabe von Inhalten in [Substance 3D-Anwendungen](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html) und ein überarbeitetes Elementfenster.
 
 Freigabedatum: *23. Juni 2021*
 

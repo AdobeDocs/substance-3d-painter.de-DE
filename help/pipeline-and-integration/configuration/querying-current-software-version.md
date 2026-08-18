@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die aktuelle Substance 3D Painter-Softwareversion programmgesteuert nach Pipelineintegration und Automatisierung abfragen.
 helpx_creative_field: ""

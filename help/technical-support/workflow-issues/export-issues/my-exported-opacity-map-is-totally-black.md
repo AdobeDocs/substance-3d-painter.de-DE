@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter die Deckkraft einer exportierten Karte komplett schwarz anzeigst, um sie transparent zu exportieren.
 helpx_creative_field: ""

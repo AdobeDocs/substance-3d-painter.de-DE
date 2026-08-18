@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2019.3 , um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Sie können Ihre Photoshop-Pinsel jetzt in der Substance Painter verwenden. Inde
 
 Wenn Sie keine ABR-Dateien zum Importieren haben, können Sie viele davon online finden:
 
-* [Websters Pinselvorgaben auf dem Adobe](https://www.adobe.com/products/photoshop/brushes.html)
+* [Websters Pinselvorgaben auf dem Adobe](https://www.adobe.com/de/products/photoshop/brushes.html)
 * [Pinselvorgaben auf ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Pinselvorgaben auf DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Pinselvorgaben für Cubebrush](https://cubebrush.co/marketplace?categories=354,57)
@@ -115,7 +115,7 @@ Neben der Unterstützung von Photoshop-Pinselvorgaben wurden zahlreiche Verbesse
 Substance Painter entpackt jetzt automatisch Gitter mit fehlenden UV-Koordinaten. Dies ermöglicht, jede Art von Geometrie zu importieren und sofort zu malen beginnen. Unser UV-Entpackungssystem generiert eine UV-Insel pro Subnetz, während es gleichzeitig die Materialzuweisung zur Erstellung von Textursets befolgt. Diese Funktion befindet sich derzeit in der Beta-Version und wird in zukünftigen Versionen weiterentwickelt. Das automatische Ausgliedern wird nur auf Projekte angewendet, die **nicht den UDIM-Workflow verwenden**.
 
 * **Automatisches Ausgliedern von UVs**\
-  Standardmäßig generiert der Substance Painter jetzt automatisch UV-Koordinaten für Gitter, bei denen sie fehlen. Dies gilt sowohl für die Projekterstellung als auch für den erneuten Netzimport. Es ist jedoch möglich, dieses Verhalten zu deaktivieren, indem Sie die [Haupteinstellungen](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) aufrufen und **Automatisches UV-Ausgliedern aktivieren** unter **Importoptionen** deaktivieren.
+  Standardmäßig generiert der Substance Painter jetzt automatisch UV-Koordinaten für Gitter, bei denen sie fehlen. Dies gilt sowohl für die Projekterstellung als auch für den erneuten Netzimport. Es ist jedoch möglich, dieses Verhalten zu deaktivieren, indem Sie die [Haupteinstellungen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/general-71008262.html) aufrufen und **Automatisches UV-Ausgliedern aktivieren** unter **Importoptionen** deaktivieren.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Fortschrittsleiste für das Entpacken von UV**\
@@ -215,7 +215,7 @@ In dieser Version wurden viele neue Inhalte hinzugefügt:
 * **Neue Pinselvorgaben**
 
   * **102 Photoshop-Pinselvorgaben**\
-    Mit der Einführung der Fotoshop-Pinselunterstützung wurde ein neuer Satz von Vorgaben hinzugefügt, um ihn zu präsentieren. Diese Vorgaben wurden aus den Paketen von Kyle T. Webster ausgewählt, die auf der [Adobe-Website verfügbar sind](https://www.adobe.com/products/photoshop/brushes.html).
+    Mit der Einführung der Fotoshop-Pinselunterstützung wurde ein neuer Satz von Vorgaben hinzugefügt, um ihn zu präsentieren. Diese Vorgaben wurden aus den Paketen von Kyle T. Webster ausgewählt, die auf der [Adobe-Website verfügbar sind](https://www.adobe.com/de/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 neue Pinselvorgaben**\

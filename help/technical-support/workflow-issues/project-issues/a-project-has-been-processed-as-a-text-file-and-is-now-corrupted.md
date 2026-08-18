@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie beschädigte Substance 3D Painter-Projektdateien wiederherstellen, die als Textdateien verarbeitet wurden.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/projection.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/projection.html"
 breadcrumb-title: ''
 description: Nutze das Projektionswerkzeug in Substance 3D Painter, um 2D-Bilder auf 3D-Oberflächen zu projizieren und dort Strukturen zu erzeugen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/loading-files-from-a-network.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/project-issues/loading-files-from-a-network.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter Dateien von Netzlaufwerken laden, um auf freigegebene Ressourcen und Projekte zuzugreifen.
 helpx_creative_field: ""

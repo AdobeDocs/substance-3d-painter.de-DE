@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Befehlszeilenargumente mit Substance 3D Painter für Automatisierung, Skripterstellung und Pipelineintegration verwenden.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/creating-particles-presets.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter Vorgaben für Partikelpinsel erstellen, um Ihrem Workflow dynamische Texturmalereieffekte hinzuzufügen.
 helpx_creative_field: ""
@@ -26,6 +26,6 @@ Die Partikelpinsel bestehen aus zwei Teilen: den **Emitter** und den **Receiver*
 
 Weitere Informationen finden Sie auf den entsprechenden Seiten:
 
-* [Installieren des Partikel-Editors](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Überblick über den Partikel-Editor](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Installieren des Partikel-Editors](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [Überblick über den Partikel-Editor](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [Erstellen eines neuen Partikelskripts](creating-a-new-particle-script.md)

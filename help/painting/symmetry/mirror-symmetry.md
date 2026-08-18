@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
 breadcrumb-title: ''
 description: Verwenden Sie die Spiegelsymmetrie in Substance 3D Painter, um symmetrisch über eine Achse zu malen und so ausgewogene Texturen zu erstellen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
 breadcrumb-title: ''
 description: Rufen Sie die Shader-API-Referenz "Alle Rendering-Status-Parameter" für Substance 3D Painter auf, um die Rendering-Status-Parameter zu steuern.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
 breadcrumb-title: ''
 description: Lernen Sie Best Practices für die Einrichtung von Gittern und UVs in Substance 3D Painter kennen, um die Leistung und die Texturqualität zu optimieren.
 helpx_creative_field: ""

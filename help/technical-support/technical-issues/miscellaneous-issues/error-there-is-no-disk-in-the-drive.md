@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie den Fehler "Keine Festplatte im Laufwerk" in Substance 3D Painter für den ordnungsgemäßen Dateizugriff und das Laden von Projekten beheben können.
 helpx_creative_field: ""

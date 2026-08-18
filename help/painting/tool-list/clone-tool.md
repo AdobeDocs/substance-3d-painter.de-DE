@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/clone-tool.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/clone-tool.html"
 breadcrumb-title: ''
 description: Mit dem Kopierwerkzeug in Substance 3D Painter können Sie Strukturdetails von einem Bereich in einen anderen kopieren und so nahtlos Strukturen zeichnen.
 helpx_creative_field: ""

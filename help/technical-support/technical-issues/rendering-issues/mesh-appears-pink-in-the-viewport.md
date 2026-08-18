@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das rosa Gitteraussehen im Substance 3D Painter-Viewport korrigieren, um das richtige Material-Rendering wiederherzustellen.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ Das Gitter kann **pink** im Viewport erscheinen, da der **Shader**, der es gezei
 So kann es behoben werden:
 
 * Für **Standardshader**: befolgen Sie die schrittweise Anleitung auf der Seite [Aktualisieren eines Shaders](../../../interface/shader-settings/updating-a-shader.md).
-* Für **benutzerdefinierten Shader**: sehen Sie sich die Fehlermeldung im Protokollfenster sowie auf der Seite [Shader-API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) an.
+* Für **benutzerdefinierten Shader**: sehen Sie sich die Fehlermeldung im Protokollfenster sowie auf der Seite [Shader-API](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) an.

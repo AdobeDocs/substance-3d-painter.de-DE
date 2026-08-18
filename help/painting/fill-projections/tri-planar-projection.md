@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/tri-planar-projection.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections/tri-planar-projection.html"
 breadcrumb-title: ''
 description: Verwende die dreiflächige Projektion in Substance 3D Painter, um Texturen aus drei orthogonalen Ebenen für eine nahtlose Abdeckung zu projizieren.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie in Substance 3D Painter die Anschnitte von Malwerkzeugen über UV-Inseln hinweg korrigieren, um saubere Strukturgrenzen zu erhalten.
 helpx_creative_field: ""

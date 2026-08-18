@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/remote-control-with-scripting.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/scripts-and-plugins/remote-control-with-scripting.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Skripterstellung per Fernsteuerung in Substance 3D Painter verwenden können, um Workflows zu automatisieren und die Anwendung programmgesteuert zu steuern.
 helpx_creative_field: ""

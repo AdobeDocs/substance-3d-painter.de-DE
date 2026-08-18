@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter Ressourcenpfade manuell hinzufügen können, indem Sie die Voreinstellungen bearbeiten und so Ihre Bibliothek erweitern.
 helpx_creative_field: ""

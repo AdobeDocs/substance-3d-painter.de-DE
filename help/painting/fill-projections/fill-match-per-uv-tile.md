@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ''
 description: Verwenden Sie die Füllübereinstimmung pro UV-Kachel in Substance 3D Painter, um Texturmuster über UV-Kacheln hinweg für eine nahtlose Kachelung abzugleichen.
 helpx_creative_field: ""
