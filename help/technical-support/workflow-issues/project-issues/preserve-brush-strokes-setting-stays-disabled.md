@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Einstellung "Pinselstriche erhalten" korrigieren, die in Substance 3D Painter deaktiviert bleibt, um den Pinselstrich korrekt beizubehalten.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die träge Maus in Substance 3D Painter verwenden, um sanfte, fließende Pinselstriche mit verzögerter Cursorreaktion zu erstellen.
 helpx_creative_field: ""

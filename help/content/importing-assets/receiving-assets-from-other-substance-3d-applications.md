@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Elemente aus anderen Substance 3D-Applikationen in Substance 3D Painter für nahtlose Workflows importieren und empfangen.
 helpx_creative_field: ""

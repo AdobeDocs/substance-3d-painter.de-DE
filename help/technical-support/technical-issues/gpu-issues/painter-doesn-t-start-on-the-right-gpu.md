@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Substance 3D Painter so konfigurieren, dass es auf der richtigen GPU startet, um eine optimale Leistung und Kompatibilität zu erzielen.
 helpx_creative_field: ""

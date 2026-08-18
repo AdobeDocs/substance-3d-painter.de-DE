@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-opencolorio.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/color-management/color-management-with-opencolorio.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das OpenColorIO-Farbmanagement in Substance 3D Painter für konsistente Farb-Workflows über Pipelines hinweg verwenden.
 helpx_creative_field: ""

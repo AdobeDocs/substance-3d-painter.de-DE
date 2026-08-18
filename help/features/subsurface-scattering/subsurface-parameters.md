@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter die Parameter für die Volumenstreuung von Untergründen konfigurieren kannst, um realistische, durchsichtige Materialien zu erstellen.
 helpx_creative_field: ""

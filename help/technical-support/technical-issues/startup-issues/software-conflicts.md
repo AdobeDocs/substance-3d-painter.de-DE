@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Softwarekonflikte beheben, die verhindern, dass Substance 3D Painter auf Ihrem System ordnungsgemäß gestartet wird.
 helpx_creative_field: ""

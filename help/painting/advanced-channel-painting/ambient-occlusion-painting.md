@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter direkt Umgebungskarten übermalen kannst, um Strukturen realistische Verdeckungen und Tiefen zu verleihen.
 helpx_creative_field: ""

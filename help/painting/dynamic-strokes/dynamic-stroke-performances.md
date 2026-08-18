@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über Überlegungen zur Leistung dynamischer Pinselstriche in Substance 3D Painter, um das Rendern von Pinselstrichen und die Reaktionsfähigkeit zu optimieren.
 helpx_creative_field: ""

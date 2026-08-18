@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter unscharfe Viewports und Strukturen anpasst, um eine scharfe, klare Bildqualität zu erzielen.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Die Viewports können aus verschiedenen Gründen verschwommen angezeigt werden.
 
 Standardmäßig verkleinert Substance 3D Painter die Viewport-Auflösung auf dem Bildschirm mit hoher DPI-/Retina-Auflösung, um die Leistung zu verbessern.
 
-Dieses Verhalten kann in den [Haupteinstellungen](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) geändert werden, indem der Parameter **Viewport-Skalierung** geändert wird.
+Dieses Verhalten kann in den [Haupteinstellungen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/general-71008262.html) geändert werden, indem der Parameter **Viewport-Skalierung** geändert wird.
 
 ## Texturfilterung
 

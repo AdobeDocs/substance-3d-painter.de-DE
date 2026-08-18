@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/quick-mask.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/quick-mask.html"
 breadcrumb-title: ''
 description: Mit dem Maskierungswerkzeug in Substance 3D Painter können Sie Masken schnell erstellen und bearbeiten, um die präzise Steuerung des Strukturbilds zu gewährleisten.
 helpx_creative_field: ""

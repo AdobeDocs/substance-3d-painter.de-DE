@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/path.html"
 breadcrumb-title: ''
 description: Mit dem Pfadwerkzeug in Substance 3D Painter können Sie Pfade für ein präzises Strukturmalen und die Platzierung von Konturen erstellen und bearbeiten.
 helpx_creative_field: ""

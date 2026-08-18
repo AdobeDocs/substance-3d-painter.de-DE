@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/radial-symmetry.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/symmetry/radial-symmetry.html"
 breadcrumb-title: ''
 description: Verwenden Sie die Radialsymmetrie in Substance 3D Painter, um symmetrisch um einen Mittelpunkt zu malen und so kreisförmige Muster zu erstellen.
 helpx_creative_field: ""

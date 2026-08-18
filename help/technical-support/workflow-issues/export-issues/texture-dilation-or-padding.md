@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter die Texturerweiterung und -auffüllung verwenden, um Kantenartefakte in exportierten Texturen zu verhindern.
 helpx_creative_field: ""

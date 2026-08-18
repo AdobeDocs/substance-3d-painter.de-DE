@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Gitterzuordnungen in benutzerdefinierten Effekten für Substance 3D Painter verwenden, um auf geometriebasierte Texturinformationen zuzugreifen.
 helpx_creative_field: ""

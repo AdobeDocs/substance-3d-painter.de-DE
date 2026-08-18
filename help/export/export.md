@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export.html"
 breadcrumb-title: ''
 description: Lerne, wie du Texturen aus Substance 3D Painter in verschiedene Formate für andere Programme und Game-Engines exportieren kannst.
 helpx_creative_field: ""

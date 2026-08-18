@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie blockartige Artefakte, die auf Texturen angezeigt werden, im Substance 3D Painter-Viewport für eine klare visuelle Qualität korrigieren.
 helpx_creative_field: ""

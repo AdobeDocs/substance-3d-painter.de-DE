@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/spherical-projection.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections/spherical-projection.html"
 breadcrumb-title: ''
 description: In Substance 3D Painter kannst du mit sphärische Projektion Strukturen aus einer Kugel projizieren, um Strukturen um Objekte zu legen.
 helpx_creative_field: ""

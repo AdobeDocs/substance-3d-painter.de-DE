@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/assets/sub-library-tab.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Registerkarte "Unterbibliothek" in Substance 3D Painter verwenden, um verschachtelte Ressourcenbibliotheken zu organisieren und darauf zuzugreifen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Visualisierungseinstellungen für Backups in Substance 3D Painter konfigurieren, um die Backergebnisse von Mesh-Maps in der Vorschau anzuzeigen und zu debuggen.
 helpx_creative_field: ""

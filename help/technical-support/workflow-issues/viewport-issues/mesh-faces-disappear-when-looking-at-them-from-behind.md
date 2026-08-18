@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie im Substance 3D Painter-Viewport für eine korrekte Gittersichtbarkeit festlegen können, dass bei einer rückwärtigen Betrachtung Gitterflächen verschwinden.
 helpx_creative_field: ""

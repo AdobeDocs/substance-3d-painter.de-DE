@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
 description: Verwenden Sie das Verwischen-Werkzeug in Substance 3D Painter, um Malstriche zu vermischen und zu verwischen, um glatte Texturübergänge zu erstellen.
 helpx_creative_field: ""
