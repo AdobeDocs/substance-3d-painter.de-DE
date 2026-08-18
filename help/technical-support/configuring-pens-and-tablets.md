@@ -132,7 +132,7 @@ Auf die Einstellungen für Stift und Touch kann über die Systemsteuerung zugegr
 
 1. Öffnen Sie das Menü **Start**.
 1. Geben Sie **Systemsteuerung** ein, und klicken Sie auf das erste Suchergebnis.
-1. Wechseln Sie im Anzeigemodus der Systemsteuerung **** zum **kleinen Symbol** .\
+1. Wechseln Sie im Anzeigemodus der Systemsteuerung **&#x200B;**&#x200B;zum **kleinen Symbol** .\
    ![](../assets/control-panel-display-mode.png)
 1. Klicken Sie auf **Zeichenstift- und Touch**-Einstellungen.\
    ![](../assets/control-panel-pen-touch-settings.png)

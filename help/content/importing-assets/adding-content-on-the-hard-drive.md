@@ -32,7 +32,7 @@ Im Folgenden finden Sie die Speicherorte der standardmäßigen **Bibliothek &quo
 
 >[!WARNING]
 >
-> Die **Starter-Assets**, die mit der Anwendung geliefert wurden, befinden sich im Installationsordner und werden in jeder neuen Version ersetzt. Es wird nicht empfohlen, persönliche Inhalte an diesem Speicherort abzulegen, da sie bei jedem Update **** gelöscht werden und sogar Lese-/Schreibberechtigungsprobleme verursachen können.\
+> Die **Starter-Assets**, die mit der Anwendung geliefert wurden, befinden sich im Installationsordner und werden in jeder neuen Version ersetzt. Es wird nicht empfohlen, persönliche Inhalte an diesem Speicherort abzulegen, da sie bei jedem Update **&#x200B;**&#x200B;gelöscht werden und sogar Lese-/Schreibberechtigungsprobleme verursachen können.\
 > Es empfiehlt sich, den Speicherort **Ihre Assets** oder einen anderen benutzerdefinierten Speicherort zu verwenden. Weitere Informationen zum Hinzufügen eines benutzerdefinierten Bibliothekspfads finden Sie unter [Hinzufügen einer neuen Bibliothek](../../interface/assets/adding-a-new-library.md).
 
 ## Dateiformate und Verwendungen

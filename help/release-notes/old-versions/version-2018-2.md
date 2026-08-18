@@ -190,7 +190,7 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 
 (Release 25. September 2018)
 
-****Fest:****
+**&#x200B;**&#x200B;Fest:**&#x200B;**
 
 * [2D-Ansicht] Die 2D-Ansicht wird bei der Erstellung eines neuen Projekts mit einigen Gittern unterbrochen.
 * [Absturz] Das Umschalten von der UV-Projektion- auf die dreiplanare Projektion führt zu einem Absturz

@@ -21,7 +21,7 @@ ht-degree: 0%
 # Parameter des Untergrunds
 
 Die Echtzeit-Subsurface-Implementierung von Substance 3D Painter ist ein Subsurface-Scattering-Effekt für den Bildschirmbereich. Die Parameter zur Steuerung werden auf dieser Seite erläutert.\
-Die aktuelle Implementierung basiert auf der von PIXAR](http://graphics.pixar.com/library/ApproxBSSRDF/) veröffentlichten Methode &quot;[&quot; &quot;Approximate Reflectances Profiles for Efficient Subsurface Scattering&quot; (Ungefähre Reflexionsprofile für effiziente Untergrundstreuung).
+Die aktuelle Implementierung basiert auf der von PIXAR[&#128279;](http://graphics.pixar.com/library/ApproxBSSRDF/) veröffentlichten Methode &quot;&quot; &quot;Approximate Reflectances Profiles for Efficient Subsurface Scattering&quot; (Ungefähre Reflexionsprofile für effiziente Untergrundstreuung).
 
 Beispiele für Materialien, die auf diesen Parametern basieren, finden Sie unter: [Materialtyp Untergrund](subsurface-material-type.md).
 

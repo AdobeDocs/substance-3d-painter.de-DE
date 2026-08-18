@@ -30,7 +30,7 @@ Freigabedatum: <b>11. März 2025</b>
 > 
 > Diese Version erhöht auch die unterstützte Mindestversion von Windows 10 auf 22H2.
 > 
-> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
+> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 

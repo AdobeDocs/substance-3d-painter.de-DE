@@ -13,4 +13,4 @@ ht-degree: 0%
 
 Im [**Sicherungsmodus**](../../baking/baking.md) zeigt das **Fenster für die Einstellungen für die Mesh-Map** Parameter für den aktuell ausgewählten Mesh-Map-Typ im Fenster **Fenster für die Mesh-Map-Baker** an.
 
-Eine vollständige Liste der in den [**allgemeinen Einstellungen**](common-mesh-map-settings.md) und den **Fenstern für die Mesh-Map-Einstellungen** verfügbaren Einstellungen für die Mesh-Map ist im Backing-Abschnitt der Dokumentation ](../../baking/mesh-map-settings.md) [ verfügbar.
+Eine vollständige Liste der in den [**allgemeinen Einstellungen**](common-mesh-map-settings.md) und den **Fenstern für die Mesh-Map-Einstellungen** verfügbaren Einstellungen für die Mesh-Map ist im Backing-Abschnitt der Dokumentation [&#128279;](../../baking/mesh-map-settings.md)  verfügbar.

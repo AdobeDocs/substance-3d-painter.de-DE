@@ -101,7 +101,7 @@ Das Arbeiten mit einer nicht angedockten Ansicht ist einfacher, das Layout der A
 
 Die **SpaceMouse®** ist ein Gerät mit 3D-Verbindung, mit dem die 3D-Viewport-Kamera intuitiver und benutzerfreundlicher bearbeitet werden kann. Es wird jetzt nativ und direkt mit Painter Plug-and-Play unterstützt.
 
-Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite ](../../features/spacemouse-by-3dconnexion.md).
+Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite &#x200B;](../../features/spacemouse-by-3dconnexion.md).
 
 >[!NOTE]
 >

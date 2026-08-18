@@ -57,7 +57,7 @@ In dieser neuen Version setzen wir die Entwicklung des Pfad-Werkzeugs (eingefüh
 
 >[!NOTE]
 >
-> Weitere Informationen über das Pfad-Tool [finden Sie in der dedizierten Dokumentation ](../painting/tool-list/path.md).
+> Weitere Informationen über das Pfad-Tool [finden Sie in der dedizierten Dokumentation &#x200B;](../painting/tool-list/path.md).
 
 ### Neue Unterstützung für Transparenz, Transparenz und Absorption im Viewport
 
@@ -147,7 +147,7 @@ Diese Version ermöglicht es, eine externe Datei per Drag &amp; Drop in verschie
 
 >[!NOTE]
 >
-> Weitere Informationen zum Importieren von Ressourcen [finden Sie in der dedizierten Dokumentation ](../content/importing-assets/import-drag-and-drop.md).
+> Weitere Informationen zum Importieren von Ressourcen [finden Sie in der dedizierten Dokumentation &#x200B;](../content/importing-assets/import-drag-and-drop.md).
 
 ### Neue Verhalten beim Ziehen und Ablegen von Ressourcen
 
@@ -172,7 +172,7 @@ Verbesserungen beim Ziehen und Ablegen sind nicht auf den Import von Ressourcen 
 
   Wenn Painter auswählt, wo eine Ressource abgelegt wird, erstellt es automatisch eine neue Ebene oder einen neuen Effekt:
 
-  ![Drag &amp; Drop im Ebenenstapel ](../assets/v91_drop_filter_stack.gif)
+  ![Drag &amp; Drop im Ebenenstapel &#x200B;](../assets/v91_drop_filter_stack.gif)
 * <b>Auswählen zwischen dem Effektstapel &quot;Inhalt&quot; oder &quot;Maske&quot; beim Ziehen\
   </b>
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Mit dem Kanal für die umgebende Verdeckung können Sie Details in den Umgebungsschatten eines Objekts zeichnen. Es kann verwendet werden, um AO-Details aus Materialien hinzuzufügen oder einfach manuell Backfehler zu beheben, wenn nötig.
 
->> 
+&#x200B;>> 
 
 In der Computergrafik wird die Umgebungsbeleuchtung als Schattierung- und Rendering-Technik verwendet, um zu berechnen, wie stark jeder Verdeckung in einer Szene der Umgebungsbeleuchtung ausgesetzt ist. Das Innere einer Röhre ist in der Regel verdeckter (und damit dunkler) als die freiliegenden äußeren Oberflächen, und je tiefer man in die Röhre geht, desto verdeckter (und dunkler) wird die Beleuchtung. Die umgebende Verdeckung kann als Barrierefreiheitswert betrachtet werden, der für jeden Oberflächenpunkt berechnet wird.\
 Quelle: &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>

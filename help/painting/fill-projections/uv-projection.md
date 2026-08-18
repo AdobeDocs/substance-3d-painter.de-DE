@@ -52,7 +52,7 @@ Mehrere Einstellungen und Werkzeuge sind in der [Kontextsymbolleiste](../../inte
 
 ## Manipulator
 
-Die UV-Projektion verwendet einen Manipulator, der nur in der [2D-Ansicht ](../../interface/viewport/2d-view.md) verfügbar ist.
+Die UV-Projektion verwendet einen Manipulator, der nur in der [2D-Ansicht &#x200B;](../../interface/viewport/2d-view.md) verfügbar ist.
 
 | Aktion | Tastaturbefehl | Beschreibung |
 | --- | --- | --- |

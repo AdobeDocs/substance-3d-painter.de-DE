@@ -177,7 +177,7 @@ Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefü
 * **Kurzes Umschalten der Schaltflächen für den Materialkanal**\
   Sie können jetzt ALT drücken und auf eine Kanalschaltfläche klicken, um sie zu isolieren. Wenn Sie erneut klicken, werden alle Kanäle wieder aktiviert.\
   ![](../../assets/channels-toggle.gif)
-* **Dithering beim Export** Dithering kann jetzt über eine dedizierte Einstellung im Exportfenster neben dem Dateiformat und der Bittiefe deaktiviert werden. Weitere Informationen dazu, wie und wann Dithering angewendet wird [finden Sie in der Exportdokumentation ](../../export/export-window/export-window.md).\
+* **Dithering beim Export** Dithering kann jetzt über eine dedizierte Einstellung im Exportfenster neben dem Dateiformat und der Bittiefe deaktiviert werden. Weitere Informationen dazu, wie und wann Dithering angewendet wird [finden Sie in der Exportdokumentation &#x200B;](../../export/export-window/export-window.md).\
   ![](../../assets/dithering.png)
 * **Bessere Histogramme**\
   Wir überarbeiteten unseren Histogrammgenerator. Histogramme sollten jetzt genauere Informationen anzeigen und nach einer Änderung im Ebenenstapel ordnungsgemäß aktualisieren.\

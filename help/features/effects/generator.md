@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Generatoren
 
-Generatoren sind Substanzen, die eine Maske oder Texturen basierend auf der Gittertopologie [ mithilfe von gebackenen Dienstprogrammkarten wie Position, Krümmung und World Space Normal ](../../baking/baking.md) generieren.
+Generatoren sind Substanzen, die eine Maske oder Texturen basierend auf der Gittertopologie [&#x200B; mithilfe von gebackenen Dienstprogrammkarten wie Position, Krümmung und World Space Normal &#x200B;](../../baking/baking.md) generieren.
 
 >[!NOTE]
 >
