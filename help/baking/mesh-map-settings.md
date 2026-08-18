@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html'
+helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Einstellungen für die Gitterzuordnung in Substance 3D Painter konfigurieren, um Backparameter und Ausgabequalität zu steuern.
 helpx_creative_field: ''

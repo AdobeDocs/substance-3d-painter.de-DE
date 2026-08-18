@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/automatic-uv-unwrapping.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das automatische Ausgliedern von UV-Licht in Substance 3D Painter verwenden, um UV-Layouts für Ihre 3D-Modelle automatisch zu generieren.
 helpx_creative_field: ""

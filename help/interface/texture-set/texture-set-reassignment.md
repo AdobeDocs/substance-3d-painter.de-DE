@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter Texturensätze neu zuweisen, um Maschenzuweisungen und Texturzuordnung neu zu organisieren.
 helpx_creative_field: ""

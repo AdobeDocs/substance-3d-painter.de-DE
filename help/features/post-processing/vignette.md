@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/vignette.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter den Nachbearbeitungseffekt "Vignette" anwendest, um den Viewport abdunkeln zu lassen.
 helpx_creative_field: ""

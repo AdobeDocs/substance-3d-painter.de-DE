@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/custom-shaders.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/custom-shaders.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter eigene Shader erstellst und einsetzt, um die Rendering-Funktionen für Material zu erweitern.
 helpx_creative_field: ""
@@ -36,4 +36,4 @@ Standardmäßig umfasst Substance Painter die folgenden Shader:
 
 Das Erstellen neuer benutzerdefinierter Shader ist durch einfaches Erstellen neuer **.glsl**-Dateien möglich.
 
-Ein detaillierter [Shader-API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) ist verfügbar und stellt Hilfsfunktionen bereit, um neue Effekte zu erstellen und in den vorhandenen Workflow zu integrieren.
+Ein detaillierter [Shader-API](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) ist verfügbar und stellt Hilfsfunktionen bereit, um neue Effekte zu erstellen und in den vorhandenen Workflow zu integrieren.

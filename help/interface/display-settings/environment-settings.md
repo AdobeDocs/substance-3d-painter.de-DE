@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/environment-settings.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/display-settings/environment-settings.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter Umgebungseinstellungen konfigurieren, um Beleuchtung und Hintergrund für die Materialvorschau zu steuern.
 helpx_creative_field: ""

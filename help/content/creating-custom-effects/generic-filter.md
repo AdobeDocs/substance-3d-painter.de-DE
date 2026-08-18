@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generic-filter.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/creating-custom-effects/generic-filter.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie generische Filtereffekte für Substance 3D Painter erstellen, um benutzerdefinierte Bildverarbeitungs- und Texturfilter anzuwenden.
 helpx_creative_field: ""

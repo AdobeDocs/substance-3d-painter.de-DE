@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/levels.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter mit dem Effekt "Tonwertkorrektur" Helligkeit, Kontrast und den Farbtonbereich von Strukturen anpassen kannst.
 helpx_creative_field: ""

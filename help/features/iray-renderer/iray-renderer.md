@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ''
 description: Lerne, wie du mit dem Renderer "Iray" in Substance 3D Painter fotorealistische Materialvorschauen und Renderings erstellst.
 helpx_creative_field: ""

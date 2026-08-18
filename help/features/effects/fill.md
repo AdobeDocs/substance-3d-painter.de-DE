@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie den Effekt "Füllung" in Substance 3D Painter verwenden, um Ebenen mit Volltonfarben, Texturen oder Materialien zu füllen.
 helpx_creative_field: ""

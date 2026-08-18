@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export/export-presets.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter mithilfe von Ausgabevorlagen Texturexportformate und Kanalzuordnungen konfigurieren.
 helpx_creative_field: ""

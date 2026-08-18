@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/iray-settings.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/iray-renderer/iray-settings.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Einstellungen für den Renderer "Iray" in Substance 3D Painter konfigurieren, um die Rendering-Qualität und -Performance zu steuern.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/blending-modes.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack/blending-modes.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter mithilfe von Mischmodi Ebenen kombinieren und verschiedene Textur-Mischeffekte erzeugen kannst.
 helpx_creative_field: ""

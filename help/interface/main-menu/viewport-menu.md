@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/viewport-menu.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/viewport-menu.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Viewport-Menü in Substance 3D Painter verwenden, um auf die Viewport-Einstellungen und Anzeigeoptionen zuzugreifen.
 helpx_creative_field: ""

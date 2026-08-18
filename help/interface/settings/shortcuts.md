@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/settings/shortcuts.html'
+helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Tastaturbefehle in Substance 3D Painter anpassen, um Ihren Arbeitsablauf zu optimieren und die Effizienz zu verbessern.
 helpx_creative_field: ''
@@ -26,7 +26,7 @@ Auf dieser Seite werden alle verfügbaren Tastatur- und Mauskürzel aufgeführt.
 
 ## Übersicht über Tastaturbefehle
 
-Einen kurzen Überblick über alle verfügbaren Tastaturbefehle finden Sie in der Grafik [, die in unseren Tutorials &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) verfügbar ist.
+Einen kurzen Überblick über alle verfügbaren Tastaturbefehle finden Sie in der Grafik [, die in unseren Tutorials &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) verfügbar ist.
 
 ## So ändern Sie einen Tastaturbefehl
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking.html'
+helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/baking.html'
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter Mesh Maps backen, um Umgebungstexturen, Krümmungen und andere geometriebasierte Texturen zu erzeugen.
 helpx_creative_field: ''

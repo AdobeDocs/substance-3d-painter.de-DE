@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Funktion für dynamische Konturen in Substance 3D Painter aktivieren, um responsive Pinselstriche mit variablen Effekten zu erstellen.
 helpx_creative_field: ""

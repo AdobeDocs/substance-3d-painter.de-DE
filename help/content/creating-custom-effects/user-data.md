@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/creating-custom-effects/user-data.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Benutzerdaten in benutzerdefinierten Effekten für Substance 3D Painter verwenden, um benutzerdefinierte Informationen an Shader-Effekte zu übergeben.
 helpx_creative_field: ""
