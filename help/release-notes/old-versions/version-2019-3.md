@@ -299,7 +299,7 @@ Zusammenfassung: **Bugfix mit Upgrade auf Irak 2019.3**
 * [Tablet] Fehlerhafte Erkennung beim Verschieben von Schiebereglern
 * [Tastaturbefehle] Mit &quot;Strg+Alt+Mausklick&quot; können keine Tastaturbefehle eingerichtet werden
 * [Shelf] Die Ressourcen-QuickInfo wird bei Verwendung eines Stifttabletts nicht angezeigt
-* [2D-Ansicht][Exportieren] Die Voreinstellung &quot;2D-Ansicht&quot; berücksichtigt nicht die normalen Informationen
+* [2D-Ansicht]&#x200B;[Exportieren] Die Voreinstellung &quot;2D-Ansicht&quot; berücksichtigt nicht die normalen Informationen
 * Einfrieren beim Malen in UV-Ausrichtung mit bestimmten Pinseln
 * Malen unter einem Filter erzeugt Artefakt auf dem laufenden Strich
 * [Viewport] Falscher Textur-Cache im Viewport nach dem erneuten Importieren eines Gitters
@@ -380,28 +380,28 @@ Zusammenfassung: **Hauptversion mit Verbesserung der Benutzererfahrung beim Hand
 * [UV-Entpacken] Automatisches UV-Entpacken im Substance Painter, wenn keine UVs oder partielle UVs vorhanden sind
 * [UV-Entpackung] Eine globale Einstellung zum Aktivieren und Deaktivieren
 * [UV-Entpackung] In Protokolldatei gemeldete Version
-* [UV-Entpacken][UI] Zeigt den Fortschritt des UV-Entpackens an
+* [UV-Entpacken]&#x200B;[UI] Zeigt den Fortschritt des UV-Entpackens an
 * [UI] Neue Einstellungen in der kontextabhängigen Symbolleiste zur Auswahl der Pinselvorschau: Vollständige Vorschau, Pinselkontur und Fadenkreuz
 * [Tool] Neuer erweiterter Mischmodus im Alpha-Abschnitt: Aufhellen (maximal) zusätzlich zur normalen
 * [Ebenenstapel] Gammakorrektur-Option pro Ebene für Alpha oder Maske (Kontextmenü)
-* [Ebenenstapel][UI] Fügen Sie das Symbol &quot;i&quot; hinzu, wenn ein Alpha-Layer gamma-korrigiert wird
-* [Tablet][Tool] Mindestdruck für Größe und Fluss freilegen
-* [Tablet][UI] Neue Einstellung in der kontextabhängigen Symbolleiste zur Auswahl des Kurvendrucks: linear, easy-in, easy-in-out
-* [Tablet][UX] Strg+Alt+Klick zum Scrollen hinzufügen
+* [Ebenenstapel]&#x200B;[UI] Fügen Sie das Symbol &quot;i&quot; hinzu, wenn ein Alpha-Layer gamma-korrigiert wird
+* [Tablet]&#x200B;[Tool] Mindestdruck für Größe und Fluss freilegen
+* [Tablet]&#x200B;[UI] Neue Einstellung in der kontextabhängigen Symbolleiste zur Auswahl des Kurvendrucks: linear, easy-in, easy-in-out
+* [Tablet]&#x200B;[UX] Strg+Alt+Klick zum Scrollen hinzufügen
 * Importieren von Photoshop-Pinselvorgaben (ABR-Format)
 * [ABR] Support Shape-Parameter
 * [ABR] Unterstützung von Parametern für die Formdynamik
 * [ABR] Support Transfer-Parameter
 * [ABR] Unterstützung von Streuungsparametern
-* [ABR][Dynamische Pinselstriche] Unterstützung von Rundheit und Spiegelung
-* [ABR][Shelf] Stellen Sie die Pinselordnerstruktur im Filter-Editor bereit.
-* [ABR][Regal] Photoshop-Symbol zu Miniaturansichten hinzufügen
-* [ABR][Regal] Fügen Sie eine Liste nicht unterstützter Parameter zur detaillierten Miniaturansicht von ABR hinzu.
-* [Tool][Dynamische Pinselstriche] Neue dynamische Stricheinstellung zur Steuerung der Anzahl der zu generierenden Zufallszahlen
-* [Tool][UI] Neue Verteilungs- und Achseneinstellungen für &quot;Jitter bei Streuung&quot; hinzufügen
+* [ABR]&#x200B;[Dynamische Pinselstriche] Unterstützung von Rundheit und Spiegelung
+* [ABR]&#x200B;[Shelf] Stellen Sie die Pinselordnerstruktur im Filter-Editor bereit.
+* [ABR]&#x200B;[Regal] Photoshop-Symbol zu Miniaturansichten hinzufügen
+* [ABR]&#x200B;[Regal] Fügen Sie eine Liste nicht unterstützter Parameter zur detaillierten Miniaturansicht von ABR hinzu.
+* [Tool]&#x200B;[Dynamische Pinselstriche] Neue dynamische Stricheinstellung zur Steuerung der Anzahl der zu generierenden Zufallszahlen
+* [Tool]&#x200B;[UI] Neue Verteilungs- und Achseneinstellungen für &quot;Jitter bei Streuung&quot; hinzufügen
 * [Tastaturbefehl] Fügen Sie Strg+Umschalt+B hinzu, um das Backfenster zu öffnen
-* [UI][Menu] Eintrag im Menü &quot;Bearbeiten&quot; hinzufügen, um das Backfenster zu öffnen
-* [UI][Einstellungen] Verbesserte Ausrichtung der Liste der Tastaturbefehle
+* [UI]&#x200B;[Menu] Eintrag im Menü &quot;Bearbeiten&quot; hinzufügen, um das Backfenster zu öffnen
+* [UI]&#x200B;[Einstellungen] Verbesserte Ausrichtung der Liste der Tastaturbefehle
 * [UI] Ersetzen von Drucksteuerelementen (Größe und Fluss) durch Schaltflächen zum Ein- und Ausschalten
 * [Viewport] Ermöglicht die separate Fokussierung von 2D- und 3D-Viewport.
 * Update auf QT 5.12.5
@@ -432,9 +432,9 @@ Zusammenfassung: **Hauptversion mit Verbesserung der Benutzererfahrung beim Hand
 * [Tablet] Verknüpfungen zum Ändern von Pinseln mit dem Stift führen in seltenen Fällen zu geringer Leistung
 * [Tablet] Verzögerung beim Malen auf einer bestimmten Ebene
 * Unscharfe Strukturen können in seltenen Fällen beim Wechseln des Viewports auftreten.
-* [UI][Substance] Bildeingaben werden nicht immer angezeigt
+* [UI]&#x200B;[Substance] Bildeingaben werden nicht immer angezeigt
 * Beim Bereinigen werden keine Vorgaben aus der Ablage entfernt, die in ein Projekt importiert wurden
-* [Tool][Dynamischer Strich] Leistungsproblem beim Anpassen der Stempelzyklusanzahl
+* [Tool]&#x200B;[Dynamischer Strich] Leistungsproblem beim Anpassen der Stempelzyklusanzahl
 * Aktualisierungsprobleme beim Malen im 3D/2D-Viewport-Modus in seltenen Fällen
 * Wenn Sie einen sehr langen Pinselstrich zeichnen, kann dies zum Einfrieren führen
 * [Tool] Leistungsproblem beim Malen mit bestimmten Dynamischen Pinselstrichen

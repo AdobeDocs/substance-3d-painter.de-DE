@@ -190,7 +190,7 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 
 (Release 25. September 2018)
 
-****Fest:****
+**&#x200B;**&#x200B;Fest:**&#x200B;**
 
 * [2D-Ansicht] Die 2D-Ansicht wird bei der Erstellung eines neuen Projekts mit einigen Gittern unterbrochen.
 * [Absturz] Das Umschalten von der UV-Projektion- auf die dreiplanare Projektion führt zu einem Absturz
@@ -210,8 +210,8 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 **Hinzugefügt:**
 
 * Zusammenfassung: Hotfix mit Inhaltsaktualisierung, neuen Skriptfunktionen und der Möglichkeit, die automatische Aktualisierung zu deaktivieren
-* [Inhalt][Regal] Hinzufügen einer Skin-Regalvorgabe
-* [Inhalt][Regal] Konvertierung von 19 Hautnormalen in Materialien zur Untergrundstreuung
+* [Inhalt]&#x200B;[Regal] Hinzufügen einer Skin-Regalvorgabe
+* [Inhalt]&#x200B;[Regal] Konvertierung von 19 Hautnormalen in Materialien zur Untergrundstreuung
 * [Scripting] Erstellen einer Projektvorlage aus einem geöffneten Projekt
 * [Scripting] Abrufen/Festlegen von Exporteinstellungen eines geöffneten Projekts
 * [Updates] Deaktivieren des Popups &quot;Automatische Aktualisierung&quot; in den Einstellungen und der Umgebungsvariablen
@@ -223,11 +223,11 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 * [Anzeige] Einige Maps werden linear anstelle von sRGB angezeigt
 * [Viewports] Der Gitterfokus verhält sich nicht ordnungsgemäß.
 * [2D-Ansicht] Projekt mit kaputter Kamera enthält verschwindende UVs-Schalen
-* [SSS][QuickInfo] QuickInfos für die unterirdische Streuung werden im Protokoll angezeigt
+* [SSS]&#x200B;[QuickInfo] QuickInfos für die unterirdische Streuung werden im Protokoll angezeigt
 * Einige Projekte können nicht in 2018.2 geöffnet werden und die Fehlermeldung kann kein Null-Substance-Paket speichern
 * [Maske] Die Farbe des Malwerkzeugs kann in einigen Fällen beim Arbeiten in einer Maske hängen bleiben
 * [Material] Karten werden in bestimmten Situationen nicht angezeigt
-* [Proj][Tools] Manipulator aktiv mit einem Generator
+* [Proj]&#x200B;[Tools] Manipulator aktiv mit einem Generator
 * [Substance] Fehlende Substance-Parametergruppen
 * [Skripterstellung] Falscher Software-Name in der Dokumentation
 * [UDIMs] Keine Informationen im Protokoll über UVs-Schalen auf mehreren UVs-Kacheln
@@ -257,50 +257,50 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 **Hinzugefügt:**
 
 * Zusammenfassung: Sommerversion, Streuung auf Untergrund Unterstützung, Verbesserungen bei Projektion und Füllung, Kameraimport und -auswahl, Alembic-/glTF-Unterstützung, Drag-and-Drop-Funktionen für ID-Maps, verbesserte Unterstützung für Substance-Formate und neue Inhalte
-* [SSS][Viewport][Iray] Generische Untergrundstreuung
+* [SSS]&#x200B;[Viewport]&#x200B;[Iray] Generische Untergrundstreuung
 * [SSS] Synchronisierungsparameter für MDL und Untergrundstreuung
 * [SSS] Es wurde ein neuer Graustufenkanal mit dem Namen &quot;Streuung&quot; hinzugefügt.
-* [SSS][Schattierungseinstellungen] Streuungstyp-Parameter für Volumenstreuung (Haut oder transluzent)
-* [SSS][Schattierungseinstellungen] Streuungsmaßstabsparameter für Untergrundstreuung
-* [SSS][Schattierungseinstellungen] Streuender Farbparameter für Untergrundstreuung
-* [SSS][Anzeigeeinstellungen] Streuung Abtastanzahl für Untergrundstreuung
-* [Shader][Iray] Integrieren Sie die unterirdische Streuungs-MDL für Iray
+* [SSS]&#x200B;[Schattierungseinstellungen] Streuungstyp-Parameter für Volumenstreuung (Haut oder transluzent)
+* [SSS]&#x200B;[Schattierungseinstellungen] Streuungsmaßstabsparameter für Untergrundstreuung
+* [SSS]&#x200B;[Schattierungseinstellungen] Streuender Farbparameter für Untergrundstreuung
+* [SSS]&#x200B;[Anzeigeeinstellungen] Streuung Abtastanzahl für Untergrundstreuung
+* [Shader]&#x200B;[Iray] Integrieren Sie die unterirdische Streuungs-MDL für Iray
 * [Shader] Shader-Update über den Ressourcen-Updater
 * [Shader] API und Dokumentation für Änderungsprotokoll aktualisieren
-* [Werkzeugeigenschaften][Proj] Neue Parameter für die triplanare Projektion
-* [Viewport][Proj] Steuern Sie die Eigenschaften der Füllebene in der 3D-Ansicht direkt mit Manipulatoren (triplanare Projektion).
-* [Shortcuts][Proj] Neue Shortcuts Q, W, E, R, T für triplanare Projektionsmanipulatoren
-* [Viewport][Proj] Steuern Sie die Eigenschaften der Füllebene in der 2D-Ansicht direkt mit den Manipulatoren (UV-Projektion).
-* [Shortcuts][Proj] Neuer Shortcut Q für UV-Projektion-Manipulatoren
-* [Contextual Toolbar][Proj] Steuern von triplanaren Projektionsmanipulatoren
-* [Kontextsymbolleiste][Proj] Manipulatoren für die UV-Projektion steuern
+* [Werkzeugeigenschaften]&#x200B;[Proj] Neue Parameter für die triplanare Projektion
+* [Viewport]&#x200B;[Proj] Steuern Sie die Eigenschaften der Füllebene in der 3D-Ansicht direkt mit Manipulatoren (triplanare Projektion).
+* [Shortcuts]&#x200B;[Proj] Neue Shortcuts Q, W, E, R, T für triplanare Projektionsmanipulatoren
+* [Viewport]&#x200B;[Proj] Steuern Sie die Eigenschaften der Füllebene in der 2D-Ansicht direkt mit den Manipulatoren (UV-Projektion).
+* [Shortcuts]&#x200B;[Proj] Neuer Shortcut Q für UV-Projektion-Manipulatoren
+* [Contextual Toolbar]&#x200B;[Proj] Steuern von triplanaren Projektionsmanipulatoren
+* [Kontextsymbolleiste]&#x200B;[Proj] Manipulatoren für die UV-Projektion steuern
 * [Werkzeugeigenschaften] Deaktivieren der Texturkachelung mit Projektions- und Schablonenwerkzeug
 * [Schablone] Verwenden von nicht quadratischen Bildern mit dem Projektionswerkzeug/der Schablone
 * [Schablone] Steuerung des Kachelmodus im Eigenschaftenfenster zulassen
 * [Schablone] Der Zoom ist nicht auf einer nicht gekachelten Schablone zentriert
 * [Kameras] Importieren von Kameras aus Maya, Max, Blender, Modo, DAE
-* [Kameras][Viewport] Wählen und steuern Sie die importierten Kameras im Viewport
-* [Kameras][Iray] Auswählen und Steuern von importierten Kameras in Iray
-* [Kameras][UI][Neues Projekt][Projektkonfiguration] &quot;Kameras importieren&quot; ist standardmäßig aktiviert.
-* [Kameras][Tastaturbefehle] Fügen Sie die Tastaturbefehle &quot;&lt;&quot; und &quot;>&quot; hinzu, um zwischen den Kameras zu wechseln.
-* [Kameras][Viewport] Frame im Viewport hinzufügen
-* [Kameras][Viewport-Einstellungen] Steuerung der Frame-Deckkraft
-* [Kameras][Kameraeinstellungen] Maximale Brennweite bei 500 mm
-* [Kameras][Kameraeinstellungen] Belichtungsverhältnis
-* [Kameras][Kameraeinstellungen] Fügen Sie eine Sperroption hinzu
-* [Kameras][Kameraeinstellungen] Hinzufügen einer Wiederherstellungsoption
-* [Kameras][Kameraeinstellungen] Attribut für den Fokusabstand hinzufügen
+* [Kameras]&#x200B;[Viewport] Wählen und steuern Sie die importierten Kameras im Viewport
+* [Kameras]&#x200B;[Iray] Auswählen und Steuern von importierten Kameras in Iray
+* [Kameras]&#x200B;[UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] &quot;Kameras importieren&quot; ist standardmäßig aktiviert.
+* [Kameras]&#x200B;[Tastaturbefehle] Fügen Sie die Tastaturbefehle &quot;&lt;&quot; und &quot;>&quot; hinzu, um zwischen den Kameras zu wechseln.
+* [Kameras]&#x200B;[Viewport] Frame im Viewport hinzufügen
+* [Kameras]&#x200B;[Viewport-Einstellungen] Steuerung der Frame-Deckkraft
+* [Kameras]&#x200B;[Kameraeinstellungen] Maximale Brennweite bei 500 mm
+* [Kameras]&#x200B;[Kameraeinstellungen] Belichtungsverhältnis
+* [Kameras]&#x200B;[Kameraeinstellungen] Fügen Sie eine Sperroption hinzu
+* [Kameras]&#x200B;[Kameraeinstellungen] Hinzufügen einer Wiederherstellungsoption
+* [Kameras]&#x200B;[Kameraeinstellungen] Attribut für den Fokusabstand hinzufügen
 * [glTF] Import einer glTF-Datei
 * [glTF] Umgebungskarte für die Verdeckung importieren
 * [Alembic] Importieren Sie Alembic 1-Rahmen mit statischer Geometrie
 * [Shelf] Ziehen Sie Materialien per Drag &amp; Drop direkt auf das Gitter, indem Sie ID-Zuordnungen mit einem Modifizierer (STRG/Befehlstaste) verwenden.
 * [Ebenenstapel] Automatische Erstellung von ID-Masken durch Ziehen und Ablegen von Materialien auf einem Gitter mit ID-Maps
 * [Ebenenstapel] Automatischer Bildlauf von Ebenen per Drag &amp; Drop über den Ebenenstapel
-* [UI][Werkzeugeigenschaften] Zeigt die Vorgabe des Substance an.
-* [UI][Hilfemenü] Verbesserung des Hilfemenüs
-* [UI][Neues Projekt][Projektkonfiguration] Reorganisation des Fensters
-* [UI][Neues Projekt][Projektkonfiguration] Ersetzen Sie &quot;Mesh&quot; durch &quot;File&quot;.
-* [UI][Substance] Anzeigen von Substance-Attributen in der Benutzeroberfläche
+* [UI]&#x200B;[Werkzeugeigenschaften] Zeigt die Vorgabe des Substance an.
+* [UI]&#x200B;[Hilfemenü] Verbesserung des Hilfemenüs
+* [UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] Reorganisation des Fensters
+* [UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] Ersetzen Sie &quot;Mesh&quot; durch &quot;File&quot;.
+* [UI]&#x200B;[Substance] Anzeigen von Substance-Attributen in der Benutzeroberfläche
 * [Tastaturbefehle] &quot;F4&quot; wechselt zwischen 2D- und 3D-Ansicht
 * [Tastaturbefehle] Neue Tastaturbefehle für Umschaltschablone &quot;N&quot; und Schnellmaske &quot;U&quot;
 * [Substance-Integration] Berücksichtigung von &quot;visible if&quot;-Anweisungen in den Substance-Parametern
@@ -309,10 +309,10 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 * [Inhalt] Muster mit aktivierter Volumenstreuung hinzufügen - JadeToad
 * [Inhalt] Neue PBR-Projektvorlage mit aktivierter Untergrundstreuung hinzufügen
 * [Inhalt] Exportvorgaben wurden aktualisiert, um einen neuen Streuungskanal hinzuzufügen
-* [Content][Shelf] Zusätzliche Untergrund-Streuunterstützung für: pbr-metal-rau, pbr-metal-rau-alpha-test, pbr-coated, pbr-spec-gloss
-* [Content][Shelf] Hinzugefügter Streuungskanal zu 5 intelligenten Materialien (Marmor und Skins)
-* [Inhalt][Regal] 1 neues Jadematerial
-* [Inhalt][Regal] 1 neues Wachsmaterial
+* [Content]&#x200B;[Shelf] Zusätzliche Untergrund-Streuunterstützung für: pbr-metal-rau, pbr-metal-rau-alpha-test, pbr-coated, pbr-spec-gloss
+* [Content]&#x200B;[Shelf] Hinzugefügter Streuungskanal zu 5 intelligenten Materialien (Marmor und Skins)
+* [Inhalt]&#x200B;[Regal] 1 neues Jadematerial
+* [Inhalt]&#x200B;[Regal] 1 neues Wachsmaterial
 
 **Fest:**
 

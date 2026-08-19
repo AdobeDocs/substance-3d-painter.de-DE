@@ -266,15 +266,15 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 
 * Das Gitter verschwindet manchmal aus dem 3D-Viewport (drücken Sie F, um die Kamera zurückzusetzen)
 * [glTF] Aktualisieren des Substance Painter Sketchfab-Uploaders mit den neuen Sketchfab-Lizenztypen
-* [Import][glTF] Falsche Handhabung der Eingabetexturmodulation wie in glTF-Dateien definiert
-* [Import][glTF] Grundebene wird beim glTF-Import in einigen Fällen falsch angezeigt
-* [Exportieren][USD] Deckkraft funktioniert nicht in Arkit
-* [Export][USD] Der USDz-Export stürzt in einigen Fällen ab.
-* [Exportieren][USD] Exportieren in USD ohne Speichern führt zum Absturz
-* [Export][USD] Falscher Unterteilungsmodus für Texturen, Unterteilungsmodus für Gitter und Ausgabetypen für Shader
-* [Export][USD] Wenig Exporte von nur einigen Textursätzen mit allen Geometrien
+* [Import]&#x200B;[glTF] Falsche Handhabung der Eingabetexturmodulation wie in glTF-Dateien definiert
+* [Import]&#x200B;[glTF] Grundebene wird beim glTF-Import in einigen Fällen falsch angezeigt
+* [Exportieren]&#x200B;[USD] Deckkraft funktioniert nicht in Arkit
+* [Export]&#x200B;[USD] Der USDz-Export stürzt in einigen Fällen ab.
+* [Exportieren]&#x200B;[USD] Exportieren in USD ohne Speichern führt zum Absturz
+* [Export]&#x200B;[USD] Falscher Unterteilungsmodus für Texturen, Unterteilungsmodus für Gitter und Ausgabetypen für Shader
+* [Export]&#x200B;[USD] Wenig Exporte von nur einigen Textursätzen mit allen Geometrien
 * [Instanz] Absturz beim Versuch, eine beschädigte Instanzebene zu löschen
-* [Regression][Exportieren] Einige Maps werden nicht in die ausgewählte Bittiefe exportiert
+* [Regression]&#x200B;[Exportieren] Einige Maps werden nicht in die ausgewählte Bittiefe exportiert
 * [Linux] Problem mit der Bibliothek libtbb.so.2
 
 **Bekannte Probleme:**
@@ -324,7 +324,7 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 **Hinzugefügt:**
 
 * Zusammenfassung: Hotfix
-* [Symmetrie][Viewport] Symmetrie-Malerei in der 2D-Ansicht ist wieder da und zeigt jetzt eine fixierte Vorschau des Klonpinsels
+* [Symmetrie]&#x200B;[Viewport] Symmetrie-Malerei in der 2D-Ansicht ist wieder da und zeigt jetzt eine fixierte Vorschau des Klonpinsels
 
 **Fest:**
 
@@ -347,25 +347,25 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 <b><b>Hinzugefügt:</b></b>
 
 * Zusammenfassung: Viewport-Upgrades, richtiger Export von 2D-Ansichten, neue UI-Helfer, ein verbessertes Symmetrie-Tool, neue Inhalte und eine enorme Leistungssteigerung
-* [Glätten][Viewport] Neue temporale Anti-Aliasing-Filterung für 3D-Viewport (über Anzeigeeinstellungen)
+* [Glätten]&#x200B;[Viewport] Neue temporale Anti-Aliasing-Filterung für 3D-Viewport (über Anzeigeeinstellungen)
 * [Exportieren] Exportieren Sie den Inhalt des 2D-Viewports als einzelne Textur
-* [Exportieren][Dithering] Setzen Sie das Dithering beim Export frei.
+* [Exportieren]&#x200B;[Dithering] Setzen Sie das Dithering beim Export frei.
 * [Ebenenstapel] Farben auf Ebenen und Ordnern
 * [Ebenenstapel] Schnelle Aktivierung und Deaktivierung mehrerer Ebenen und Effekte
 * [Ebenenstapel] Einfachere Navigation für Mischmodi mit Nach-oben-Tasten und Mausbildlauf
-* [Proj][UI] Zusätzlicher Rotationsmanipulator auf allen drei Achsen für triplanar
-* [Proj][Tastaturbefehle] - und +, um die Größe des UV-Projektion-Manipulators zu ändern
+* [Proj]&#x200B;[UI] Zusätzlicher Rotationsmanipulator auf allen drei Achsen für triplanar
+* [Proj]&#x200B;[Tastaturbefehle] - und +, um die Größe des UV-Projektion-Manipulators zu ändern
 * [Shader] Steuern der Parameter der beschichteten Schicht mit Kanälen im PBR-beschichteten Shader
 * [Substance] Stellen Sie neue netzbasierte Textureingaben für Filter und Generatoren bereit.
-* [Symmetrie][Viewport][UI] Steuern des Symmetrie-Offsets mit Manipulatoren
-* [Symmetrie][Kontextsymbolleiste][UI] Neues Symmetrie-Fenster mit Optionen
+* [Symmetrie]&#x200B;[Viewport]&#x200B;[UI] Steuern des Symmetrie-Offsets mit Manipulatoren
+* [Symmetrie]&#x200B;[Kontextsymbolleiste]&#x200B;[UI] Neues Symmetrie-Fenster mit Optionen
 * [Symmetrie] Neuer Schnittmodus für Symmetrielinien
 * [Symmetrie] Neuer Symmetrie-Clone-Cursor
-* [Symmetrie][Tastaturbefehle] Q zum Ausblenden und -, + zum Ändern der Größe und Umschalttaste zum Ausrichten
+* [Symmetrie]&#x200B;[Tastaturbefehle] Q zum Ausblenden und -, + zum Ändern der Größe und Umschalttaste zum Ausrichten
 * [Protokoll] Verbessern von Fehlermeldungen, wenn Texturen nicht exportiert werden können
 * [Scripting] Ressourcen in den Anzeigeeinstellungen ändern oder aktualisieren
 * [Scripting] Erlaubt das Erstellen oder Entfernen von Kanälen in Textursätzen
-* [Inhalt][Schattierungen] Unterstützung für Anisotropie mit einem dedizierten Schattierer hinzufügen (pbr-metal-rau-Anisotropie-angle)
+* [Inhalt]&#x200B;[Schattierungen] Unterstützung für Anisotropie mit einem dedizierten Schattierer hinzufügen (pbr-metal-rau-Anisotropie-angle)
 * [Inhalt] Aktualisierung der Vorschaukugel mit Anisotropie und verändertem Winkel
 * [Content] Aktualisierte matFx-Shutline
 * [Content] Neue Texturierung.XYZ nahtloser Gesichtsscan
@@ -374,16 +374,16 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 * [Inhalt] Neue Umgebungszuordnung: Studio Automotive Neutral
 * [Inhalt] Neue Projektvorlage: PBR - Anisotropie der metallischen Raueit (mit Kanälen für die Anisotropie)
 * [Inhalt] Neue Projektvorlage: PBR - Metallische Raueit beschichtet
-* [SVT][Engine] Spare virtuelle Texturen (SVT)
-* [SVT][Voreinstellungen][UI] Beschleunigungsoption für SVT-Hardware-Unterstützung
-* [SVT][Protokoll] Zusätzliche Informationen für die Funktion &quot;Virtuelle Texturierung mit geringer Dichte&quot; (z. B. Festplatte in Größe)
-* [SVT][UI] Meldungsfenster beim Start, wenn die Größe auf der Festplatte für den Cache zu niedrig ist
-* [SVT][Voreinstellungen][UI] Substance Painter globaler Cachespeicherort
+* [SVT]&#x200B;[Engine] Spare virtuelle Texturen (SVT)
+* [SVT]&#x200B;[Voreinstellungen]&#x200B;[UI] Beschleunigungsoption für SVT-Hardware-Unterstützung
+* [SVT]&#x200B;[Protokoll] Zusätzliche Informationen für die Funktion &quot;Virtuelle Texturierung mit geringer Dichte&quot; (z. B. Festplatte in Größe)
+* [SVT]&#x200B;[UI] Meldungsfenster beim Start, wenn die Größe auf der Festplatte für den Cache zu niedrig ist
+* [SVT]&#x200B;[Voreinstellungen]&#x200B;[UI] Substance Painter globaler Cachespeicherort
 * [SVT] Neue Umgebungsvariable zur Angabe des Pfads des Substance Painter-Cache
 * [SVT] Neue Umgebungsvariable zum Aktivieren der SVT-Hardware-Support-Beschleunigung
 * [SVT] Erkennen von geringer Unterstützung durch Hardware
-* [SVT][Hardware Sparse] Erhöhen der Mindesttreiberversion für Nvidia-GPU
-* [SVT][Shader][Viewport][UI] Warnen Sie den Benutzer, wenn beim Öffnen des Projekts Artefakte mit virtueller Texturierung mit geringer Dichte vorhanden sind
+* [SVT]&#x200B;[Hardware Sparse] Erhöhen der Mindesttreiberversion für Nvidia-GPU
+* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Warnen Sie den Benutzer, wenn beim Öffnen des Projekts Artefakte mit virtueller Texturierung mit geringer Dichte vorhanden sind
 
 <b><b>Fest:</b>\
 </b>
@@ -391,7 +391,7 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 * [Farbwähler] Beim Auswählen einer Farbe wird ein Malcursor angezeigt
 * Absturz durch Auswählen oder Aufheben der Auswahl von Ebenen in einer bestimmten Reihenfolge kann zum Absturz führen
 * Absturz beim Einfügen einer Ebene mit einer Maske als Instanz
-* [Benutzerkanal][Regression] Absturz beim Umbenennen des Benutzerkanals
+* [Benutzerkanal]&#x200B;[Regression] Absturz beim Umbenennen des Benutzerkanals
 * [Benutzerkanal] Graue Pinselvorschau
 * [Alembic] Nur ein Textursatz aus mehreren Materialien nach dem Import
 * [Engine] Exportierte Textur unterscheidet sich vom Viewport für Pinselstempel
@@ -401,7 +401,7 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 * Gitterzuordnungs-Verknüpfungen werden beim Umbrechen oder Instanziieren von Ebenen nicht ordnungsgemäß aktualisiert
 * [Substance] UserData ColorSpace funktioniert nicht bei der als Eingabe angeforderten Option &quot;Standard für gepuffertes Gitter&quot;
 * MDL-Zuordnungskonflikt bei Verwendung mehrerer Shader-Instanzen
-* [Symmetrie][Füllebene] Symmetrieebene und ihr Manipulator in der Füllebene aktiv
+* [Symmetrie]&#x200B;[Füllebene] Symmetrieebene und ihr Manipulator in der Füllebene aktiv
 * [Viewport] Drehpunkt für Übersetzung wird nach dem Klicken nicht immer aktualisiert
 * [UI] Symbole und Entfernen von Platzhaltern für HDPI-Monitore wurden korrigiert
 

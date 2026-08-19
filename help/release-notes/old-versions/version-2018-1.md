@@ -144,7 +144,7 @@ Wir haben in dieser Version auch einige neue Inhalte hinzugefügt:
   Die Richtung kann mit zwei 3D-Positionen definiert werden, die direkt auf der Positionskarte ausgewählt werden können.\
   Beispiel :
 
-1. 
+1. &#x200B;
    1. Erstellen Sie den Maskengenerator **3D Linear gradient** in einer Ihrer Ebenen.
    1. Wechseln Sie die Viewport-Anzeige zu &quot;**Position**&quot; (über die Viewport-Dropdownliste oder mithilfe der Taste &quot;**B**&quot;).
    1. Klicken Sie auf den Parameter &quot;**3D-Positionsstart**&quot;, um das Popup **Farbwähler** zu öffnen.
@@ -253,7 +253,7 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 * [Treiber] Aktualisierung der Mindestanforderungen für Treiber
 * [3Dview] Normale, die nicht korrekt auf UDIM-Netzen ohne Normaleninformationen generiert wurden
 * [Intel] Absturz mit Substance Painter 2018.1.0
-* [Intel][Viewport] Problem mit der Auffüllung (schwarze Artefakte)
+* [Intel]&#x200B;[Viewport] Problem mit der Auffüllung (schwarze Artefakte)
 
 **Bekannte Probleme:**
 
