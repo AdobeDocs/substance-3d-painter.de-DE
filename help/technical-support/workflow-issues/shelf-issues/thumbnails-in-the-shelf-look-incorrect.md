@@ -1,0 +1,44 @@
+---
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
+breadcrumb-title: ''
+description: Erfahren Sie, wie Sie eine falsche Miniaturansicht in der Substance 3D Painter-Bibliothek korrigieren, um eine präzise Ressourcenvorschau zu gewährleisten.
+helpx_creative_field: ""
+helpx_description: Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Miniaturen im Regal sehen falsch aus
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 0%
+
+---
+
+
+# Miniaturen im Regal sehen falsch aus
+
+Wenn die Miniaturansichten im Regal anders als gewöhnlich erscheinen, kann dies an dem Shader liegen, der zum Rendern der Vorschauen verwendet wird.
+
+| Fehlerhafte Miniaturen | Normale Miniaturen |
+| --- | --- |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/shelf-broken-preview.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../assets/shelf-normal-preview.png" width="300px"/></div> |
+
+## 1 - Öffnen Sie das Hauptfenster mit den Einstellungen.
+
+Gehen Sie zu **Bearbeiten** und klicken Sie auf **Einstellungen** :
+
+![](../../../assets/pref-menu.png)
+
+## 2 - Entfernen Sie den Regalvorschau-Shader
+
+Scrollen Sie in der Ansicht **Allgemein** nach unten, bis der Abschnitt &quot;Vorschauoptionen&quot; angezeigt wird.\
+Klicken Sie auf die Schaltfläche **cross** vor dem **Materialvorschau-Shader** , um den angegebenen aktuellen Shader zu entfernen.
+
+![](../../../assets/remove-preview-shader.png){width="450px"}
+
+## 3 - Substance 3D Painter neu starten
+
+Um die Miniaturansichten neu zu generieren, damit sie richtig aussehen, muss Substance 3D Painter neu gestartet werden.

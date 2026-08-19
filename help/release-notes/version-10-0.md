@@ -226,16 +226,16 @@ Zusammenfassung: <b>Hauptversion, Edition des Ebenenstapels mit Python-API, Lese
 <b>Hinzugefügt</b>:
 
 * [Illustrator] Verwenden von Illustrator-Dateien mit Zeichenflächen in Painter
-* [Illustrator][SVG] Hinzufügen von Vorschauen in der Bereichsauswahl
+* [Illustrator]&#x200B;[SVG] Hinzufügen von Vorschauen in der Bereichsauswahl
 * [Substance 3D Assets] Durchsuchen, Auswählen und Herunterladen von 3D-Assets direkt in Painter
-* [Substance 3D Assets][UI] Neues Bedienfeld
+* [Substance 3D Assets]&#x200B;[UI] Neues Bedienfeld
 * [Substance 3D Assets] Unterstützung von Umgebungskarten und -materialien
 * [Substance 3D Assets] Ermöglicht das erneute Laden und Navigieren im Speicherortordner und das Öffnen im neuen Bedienfeld &quot;Substance 3D Assets&quot;.
 * [Substance 3D Assets] Hinzufügen eines Download-Managers
 * [Textressource] Einbettbare Schriftarten verwenden
 * [Textressource] Erlaubt das Rendern einer Schriftart/eines Texts in einem Gitter.
 * [Textressource] Anzeigen von Schriftarten von Benutzer- und anderen freigegebenen Pfaden im Bedienfeld &quot;Elemente&quot; mit einer neuen Kategorie
-* [Textressource][Eigenschaften] Unterstützung für erweiterte Schriftarteigenschaften hinzufügen
+* [Textressource]&#x200B;[Eigenschaften] Unterstützung für erweiterte Schriftarteigenschaften hinzufügen
 * [Textressource] Ermöglicht das Suchen/Anzeigen von Schriftarten in Mini-Shelves
 * [Textressource] Fehlermeldung/Dialogfeld hinzufügen, wenn eine inkompatible Schriftart importiert wird
 * Sonstiges
@@ -298,9 +298,9 @@ Zusammenfassung: <b>Hauptversion, Edition des Ebenenstapels mit Python-API, Lese
 <b>Bekannte Probleme</b>:
 
 * [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Absturz][Linux][AMD] Ziehen und Ablegen von Ressourcen im Ebenenstapel unter Wayland OS
-* [Regression][UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Crash][Python] USD-Export, ausgelöst durch TextureStateEvent
+* [Absturz]&#x200B;[Linux]&#x200B;[AMD] Ziehen und Ablegen von Ressourcen im Ebenenstapel unter Wayland OS
+* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
+* [Crash]&#x200B;[Python] USD-Export, ausgelöst durch TextureStateEvent
 * [Speichern] Spp-Projektdatei geht verloren, wenn &quot;Speichern unter&quot; fehlschlägt
 * [MacOS Intel] Absturz beim Importieren einiger Vorgaben
 * [Illustrator] Ai-Dateien können nach Serverabsturz nicht importiert werden, ohne Painter neu zu starten
