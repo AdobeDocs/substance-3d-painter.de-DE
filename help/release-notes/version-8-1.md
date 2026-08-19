@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-8-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 8.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""

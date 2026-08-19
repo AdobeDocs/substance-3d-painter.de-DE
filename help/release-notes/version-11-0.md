@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-11-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-11-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 11.0, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Freigabedatum: <b>11. März 2025</b>
 > 
 > Diese Version erhöht auch die unterstützte Mindestversion von Windows 10 auf 22H2.
 > 
-> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
+> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 

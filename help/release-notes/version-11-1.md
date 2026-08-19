@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-11-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-11-1.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 11.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Freigabedatum: <b>18. November 2025</b>
 >
 > In dieser Version von Painter wird die Grafik-API von OpenGL auf Vulkan umgestellt. Diese Änderung kann sich darauf auswirken, welche GPUs von der Anwendung unterstützt werden, insbesondere für das Backen mit GPU-basiertem Raytracing.
 > 
-> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
+> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 

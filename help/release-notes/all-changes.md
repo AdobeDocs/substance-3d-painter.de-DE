@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/release-notes/all-changes.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: Prüfe alle Änderungen und Updates in den verschiedenen Substance 3D Painter-Versionen, um den Funktionsverlauf und Verbesserungen im Laufe der Zeit nachzuverfolgen.
 helpx_creative_field: ''
@@ -123,7 +123,7 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Backerverbe
 * [Auto-Cage] Unendliche Belastung, wenn der hohe Poly-Dateipfad ungültig ist
 * [Linux][Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
 * [Polygon-Füllwerkzeug] Das Werkzeug funktioniert nicht mit Nicht-PBR
-* &lbrack;[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
+* [[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
 * [USD] Shader-Instanzen werden nicht alle korrekt erkannt.
 * [Substance] Es wird nur die erste Verwendung eines Eingabe-/Ausgabeknotens berücksichtigt
 * [Shader] Umgebungsbelichtung wird zweimal mit Textur-Sets unter Verwendung verschiedener Mischmethoden angewendet.
