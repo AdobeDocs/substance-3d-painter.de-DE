@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections/spherical-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/spherical-projection.html"
 breadcrumb-title: ''
 description: In Substance 3D Painter kannst du mit sphärische Projektion Strukturen aus einer Kugel projizieren, um Strukturen um Objekte zu legen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sphärische Projektion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 7e24e45387178db5efa813e64e4b86ac2ae2e5aa
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Mit der Sphärische Projektion &quot;Füllen&quot; können Bilder und Muster um 
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Filtern** | Steuert, wie die Textur oder das Material gefiltert wird. Diese Einstellung kann sich darauf auswirken, wie die Textur aussieht, wenn sie mehrmals wiederholt wird. Wenn hohe Skalierungswerte mit einer anderen Filterung als der Standardeinstellung verwendet werden, kann das Ergebnis möglicherweise besser aussehen. Aktuelle Einstellungen verfügbar:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinear | HQ</strong> (Standard): Erweiterte bilineare Filterung, die bei hohen Kachelwerten die Qualität der Textur verbessern soll.</li><li data-preserve-html="true"><strong>Bilinear | Sharp</strong>: Eine einfache bilineare Filterung glättet die Textur leicht, versucht aber, Details zu erhalten.</li><li data-preserve-html="true"><strong>Nächste</strong>: Keine Filterung, nützlich, wenn die bilineare Filterung zu einem verschwommenen Ergebnis führt und feine Details sprengt. Kann Aliasing in die Textur einführen.</li></ul> |
+| **Filtern** | Steuert, wie die Textur oder das Material gefiltert wird. Diese Einstellung kann sich darauf auswirken, wie die Textur aussieht, wenn sie mehrmals wiederholt wird. Wenn hohe Skalierungswerte mit einer anderen Filterung als der Standardeinstellung verwendet werden, kann das Ergebnis möglicherweise besser aussehen. Aktuelle Einstellungen verfügbar:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinear `\|` HQ</strong> (Standard): Erweiterte bilineare Filterung, die bei hohen Kachelwerten die Qualität der Textur verbessern soll.</li><li data-preserve-html="true"><strong>Bilinear `\|` Sharp</strong>: Eine einfache bilineare Filterung glättet die Textur leicht, versucht aber, Details zu erhalten.</li><li data-preserve-html="true"><strong>Nächste</strong>: Keine Filterung, nützlich, wenn die bilineare Filterung zu einem verschwommenen Ergebnis führt und feine Details sprengt. Kann Aliasing in die Textur einführen.</li></ul> |
 | **Abwicklung** | Lege fest, wie sich die Struktur in der Projektion wiederholt. Mögliche Werte sind:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Keine</strong>: die Textur wiederholt sich nicht. Alles, was außerhalb der Textur liegt, ist schwarz/transparent.</li><li data-preserve-html="true"><strong>Horizontal wiederholen</strong>: Die Textur wird nur horizontal wiederholt.</li><li data-preserve-html="true"><strong>Vertikal wiederholen</strong>: Die Textur wird nur vertikal wiederholt.</li><li data-preserve-html="true"><strong>Wiederholen</strong> (Standard): Die Textur wiederholt sich auf beiden Achsen.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/spherical-repeat.jpg" width="500px"/></div> |
 | **Formzuschnitt** | Legen Sie fest, ob die projizierte Textur außerhalb des Projektionsbereichs sichtbar sein soll. Mögliche Werte sind:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Projekt auf Form zugeschnitten</strong>: die Projektion ist innerhalb der Projektionsfläche begrenzt.</li><li data-preserve-html="true"><strong>Projektion erstreckt sich außerhalb von Form </strong> (Standard): die Projektion geht über die Projektionsfläche hinaus.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/spherical-shape-crop.jpg" width="500px"/></div> |
 

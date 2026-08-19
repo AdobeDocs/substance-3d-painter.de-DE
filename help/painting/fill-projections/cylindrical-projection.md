@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections/cylindrical-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/cylindrical-projection.html"
 breadcrumb-title: ''
 description: Mit der Zylinderprojektion in Substance 3D Painter lassen sich Strukturen aus einem Zylinder projizieren, um Strukturen um zylindrische Objekte zu legen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Zylindrische Projektion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 67d4a1ed7e1c56a6dc58940efe620a06c159064e
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Mit der zylindrischen Projektion der Fläche können Bilder und Muster um ein Ob
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Filtern** | Steuert, wie die Textur oder das Material gefiltert wird. Diese Einstellung kann sich darauf auswirken, wie die Textur aussieht, wenn sie mehrmals wiederholt wird. Wenn hohe Skalierungswerte mit einer anderen Filterung als der Standardeinstellung verwendet werden, kann das Ergebnis möglicherweise besser aussehen. Aktuelle Einstellungen verfügbar:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinear | HQ</strong> (Standard): Erweiterte bilineare Filterung, die bei hohen Kachelwerten die Qualität der Textur verbessern soll.</li><li data-preserve-html="true"><strong>Bilinear | Sharp</strong>: Eine einfache bilineare Filterung glättet die Textur leicht, versucht aber, Details zu erhalten.</li><li data-preserve-html="true"><strong>Nächste</strong>: Keine Filterung, nützlich, wenn die bilineare Filterung zu einem verschwommenen Ergebnis führt und feine Details sprengt. Kann Aliasing in die Textur einführen.</li></ul> |
+| **Filtern** | Steuert, wie die Textur oder das Material gefiltert wird. Diese Einstellung kann sich darauf auswirken, wie die Textur aussieht, wenn sie mehrmals wiederholt wird. Wenn hohe Skalierungswerte mit einer anderen Filterung als der Standardeinstellung verwendet werden, kann das Ergebnis möglicherweise besser aussehen. Aktuelle Einstellungen verfügbar:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinear `\|` HQ</strong> (Standard): Erweiterte bilineare Filterung, die bei hohen Kachelwerten die Qualität der Textur verbessern soll.</li><li data-preserve-html="true"><strong>Bilinear `\|` Sharp</strong>: Eine einfache bilineare Filterung glättet die Textur leicht, versucht aber, Details zu erhalten.</li><li data-preserve-html="true"><strong>Nächste</strong>: Keine Filterung, nützlich, wenn die bilineare Filterung zu einem verschwommenen Ergebnis führt und feine Details sprengt. Kann Aliasing in die Textur einführen.</li></ul> |
 | **Abwicklung** | Lege fest, wie sich die Struktur in der Projektion wiederholt. Mögliche Werte sind:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Keine</strong>: die Textur wiederholt sich nicht. Alles, was außerhalb der Textur liegt, ist schwarz/transparent.</li><li data-preserve-html="true"><strong>Horizontal wiederholen</strong>: Die Textur wird nur horizontal wiederholt.</li><li data-preserve-html="true"><strong>Vertikal wiederholen</strong>: Die Textur wird nur vertikal wiederholt.</li><li data-preserve-html="true"><strong>Wiederholen</strong> (Standard): Die Textur wiederholt sich auf beiden Achsen.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cyl-repeat.jpg" width="500px"/></div> **Hinweis:** Im obigen Bild ist der Winkel auf 90 Grad gesetzt, wodurch die Ausdehnung der Projektion begrenzt wird. |
 | **Formzuschnitt** | Legen Sie fest, ob die projizierte Textur außerhalb des Projektionsbereichs sichtbar sein soll. Mögliche Werte sind:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Projekt auf Form zugeschnitten</strong>: die Projektion ist innerhalb der Projektionsfläche begrenzt.</li><li data-preserve-html="true"><strong>Projektion erstreckt sich außerhalb von Form </strong> (Standard): die Projektion geht über die Projektionsfläche hinaus.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cylindrical-extend.jpg" width="500px"/></div> |
 | **Winkel** | Steuern Sie die Größe der Projektion auf den Umfang des Zylinders. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/cylindrical-angle.gif"/></div> |

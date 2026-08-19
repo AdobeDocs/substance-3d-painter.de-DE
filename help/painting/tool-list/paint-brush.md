@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/paint-brush.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ''
 description: Mit dem Pinsel-Werkzeug von Substance 3D Painter können Sie Strukturen mit anpassbaren Pinseleinstellungen direkt auf 3D-Modelle auftragen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pinsel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Die Pinselparameter definieren das Aussehen des Pinselstrichs, wenn er am 3D-Git
 | **Flussjitter** | Wenden Sie einen zufälligen Flusswert pro Stempel innerhalb des Pinselstrichs an. Ein Wert von 0 bedeutet keine Zufälligkeit, ein Wert von 1 bedeutet volle Zufälligkeit. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **Angle Jitter** | Wenden Sie einen zufälligen zusätzlichen Drehwinkel pro Stempel innerhalb des Pinselstrichs an. Ein Wert von 0 bedeutet keine Zufälligkeit, ein Wert von 1 bedeutet volle Zufälligkeit. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
 | **Positionsjitter** | Wenden Sie einen zufälligen Positionsversatz pro Stempel innerhalb des Pinselstrichs an. Ein Wert von 0 bedeutet keine Zufälligkeit, ein Wert von 1 bedeutet volle Zufälligkeit. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
-| **Ausrichtung** | Legt fest, wie die Stempel innerhalb des Pinselstrichs auf die Oberfläche des 3D-Gitters projiziert/ausgerichtet werden. Die folgenden Werte sind verfügbar:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Kamera </strong> : Richten Sie den Stempel zur Viewport-Ansicht aus.</li><li data-preserve-html="true"><strong> Tangente | Eingliedern (Standard) </strong> : Richten Sie den Stempel so aus, dass er mit der 3D-Netzfläche ausgerichtet ist. Der Stempel wird ebenfalls so verformt, dass er der Oberfläche entspricht.</li><li data-preserve-html="true"><strong> Tangente | Planar </strong> :  Richten Sie den Stempel so aus, dass er mit der 3D-Netzfläche ausgerichtet ist. Der Stempel verblasst seine Grenze sind zu weit von der 3D-Meshfläche entfernt. </li><li data-preserve-html="true"><strong> UV </strong> : Richten Sie den Stempel basierend auf den 3D-Mesh-UVs aus.</li></ul> |
+| **Ausrichtung** | Legt fest, wie die Stempel innerhalb des Pinselstrichs auf die Oberfläche des 3D-Gitters projiziert/ausgerichtet werden. Die folgenden Werte sind verfügbar:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Kamera </strong> : Richten Sie den Stempel zur Viewport-Ansicht aus.</li><li data-preserve-html="true"><strong> Tangente `\|` Umbruch (Standard) </strong> : Richten Sie den Stempel so aus, dass er mit der 3D-Netzfläche ausgerichtet ist. Der Stempel wird ebenfalls so verformt, dass er der Oberfläche entspricht.</li><li data-preserve-html="true"><strong> Tangente `\|` planar </strong> :  Richten Sie den Stempel so aus, dass er mit der 3D-Netzfläche ausgerichtet ist. Der Stempel verblasst seine Grenze sind zu weit von der 3D-Meshfläche entfernt. </li><li data-preserve-html="true"><strong> UV </strong> : Richten Sie den Stempel basierend auf den 3D-Mesh-UVs aus.</li></ul> |
 | **Rückseitenkultur** | Ermöglicht das Ignorieren von Flächen im 3D-Gitter, die nicht mit dem Stempel ausgerichtet sind. Um zu berechnen, welche Teile des 3D-Gitters ignoriert werden sollen, schaut die Mal-Engine auf die Normale an der Oberfläche des 3D-Gitters und vergleicht ihren Winkel mit dem definierten Wert. |
 | **Speicherkapazität** | Steuert, in welchem relativen Abstand die Pinselgröße berechnet wird. Mögliche Werte sind:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Objekt (Standard) </strong> : Die Pinselgröße wird mit der 3D-Gittergröße synchronisiert. Wenn du die Kamera im Viewport bewegst, wirkt sich das auf die Größe aus, damit sie im Verhältnis zum 3D-Mesh bleibt.</li><li data-preserve-html="true"><strong> Viewport </strong> : Die Pinselgröße ist mit dem Viewport verknüpft. Die Änderung der Größe der Benutzeroberfläche wirkt sich auf die Pinselgröße aus. Das Bewegen der Kamera hat keine Auswirkungen.</li><li data-preserve-html="true"><strong> Textur </strong> : Die Pinselgröße ist mit der 2D-Viewport-Ebene des Zooms verknüpft.</li></ul> |
 

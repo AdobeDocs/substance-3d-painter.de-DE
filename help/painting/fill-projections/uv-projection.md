@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections/uv-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/uv-projection.html"
 breadcrumb-title: ''
 description: Nutze die UV-Projektion in Substance 3D Painter , um Strukturen auf Basis von UV-Koordinaten zu projizieren und so eine präzise Strukturplatzierung zu erzielen.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UV-Projektion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
@@ -28,7 +28,7 @@ Die UV-Projektion der Fläche ist eine 2D-Projektion, die nur im 2D-Texturraum f
 
 | *Einstellung* | *Beschreibung* |
 | --- | --- |
-| **Filtern** | Steuert, wie die Textur oder das Material gefiltert wird. Diese Einstellungen können sich darauf auswirken, wie die Textur aussieht, wenn sie mehrmals wiederholt wird. Bei hohen Skalierungswerten kann die Verwendung einer anderen Filtermethode als die Standardfiltermethode zu einem besser aussehenden Ergebnis führen. Derzeit verfügbare Einstellungen:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinear | Hauptquartier </strong>: (Standard) Erweiterte bilineare Filterung, die versucht, die Qualität der Textur bei hohen Kachelwerten zu verbessern.</li><li data-preserve-html="true"><strong>Bilinear | Sharp </strong>: Mit einer einfachen bilinearen Filterung wird die Textur leicht geglättet, es wird jedoch versucht, Details zu erhalten.</li><li data-preserve-html="true"><strong>Nächste </strong>: Keine Filterung, nützlich, wenn die bilineare Filterung zu einem verschwommenen Ergebnis führt und feine Details sprengt. Kann Aliasing in die Textur einführen.</li></ul> |
+| **Filtern** | Steuert, wie die Textur oder das Material gefiltert wird. Diese Einstellungen können sich darauf auswirken, wie die Textur aussieht, wenn sie mehrmals wiederholt wird. Bei hohen Skalierungswerten kann die Verwendung einer anderen Filtermethode als die Standardfiltermethode zu einem besser aussehenden Ergebnis führen. Derzeit verfügbare Einstellungen:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Bilinear `\|` HQ </strong>: (Standard) Erweiterte bilineare Filterung, die versucht, die Qualität der Textur bei hohen Kachelwerten zu verbessern.</li><li data-preserve-html="true"><strong>Bilinear `\|` Sharp </strong>: Mit einer einfachen bilinearen Filterung wird die Textur leicht geglättet, es wird jedoch versucht, Details zu erhalten.</li><li data-preserve-html="true"><strong>Nächste </strong>: Keine Filterung, nützlich, wenn die bilineare Filterung zu einem verschwommenen Ergebnis führt und feine Details sprengt. Kann Aliasing in die Textur einführen.</li></ul> |
 | **Abwicklung** | Steuert, wie das projizierte Material/Bild in der Projektionsform wiederholt werden soll. Mögliche Werte sind:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Keine</strong> : Es gibt keine Wiederholung der Projektion.</li><li data-preserve-html="true"><strong>Horizontal wiederholen</strong> : Wiederholen Sie diesen Vorgang nur horizontal.</li><li data-preserve-html="true"><strong>Vertikal wiederholen</strong> : Wiederholen Sie diesen Vorgang nur vertikal.</li><li data-preserve-html="true"><strong>Wiederholen</strong> (Standard) : Wiederholen Sie diesen Vorgang sowohl horizontal als auch vertikal.</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-repeat.jpg" width="500px"/></div> |
 
 ### UV-Transformation
@@ -52,7 +52,7 @@ Mehrere Einstellungen und Werkzeuge sind in der [Kontextsymbolleiste](../../inte
 
 ## Manipulator
 
-Die UV-Projektion verwendet einen Manipulator, der nur in der [2D-Ansicht &#x200B;](../../interface/viewport/2d-view.md) verfügbar ist.
+Die UV-Projektion verwendet einen Manipulator, der nur in der [2D-Ansicht ](../../interface/viewport/2d-view.md) verfügbar ist.
 
 | Aktion | Tastaturbefehl | Beschreibung |
 | --- | --- | --- |
