@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2017.3 , um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Freigabedatum: *28. September 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Einer der neuen Exporteure, die in dieser Version enthalten sind, ist die Unterstützung für Adobe-Standardmaterialien, die mit Adobe Dimension (früher Adobe Project Felix) verwendet werden sollen. Sie können das Szenengitter und seine Texturen exportieren, um sie mit einem Klick in Project Felix zu importieren. Um darauf zuzugreifen, wählen Sie einfach &quot;**Adobe Standard Material**&quot; im Fenster &quot;Texturen exportieren&quot; aus. Weitere Informationen finden Sie unter: [http://www.adobe.com/de/products/dimension.html](https://www.adobe.com/de/products/dimension.html)
+Einer der neuen Exporteure, die in dieser Version enthalten sind, ist die Unterstützung für Adobe-Standardmaterialien, die mit Adobe Dimension (früher Adobe Project Felix) verwendet werden sollen. Sie können das Szenengitter und seine Texturen exportieren, um sie mit einem Klick in Project Felix zu importieren. Um darauf zuzugreifen, wählen Sie einfach &quot;**Adobe Standard Material**&quot; im Fenster &quot;Texturen exportieren&quot; aus. Weitere Informationen finden Sie unter: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 Sie können auch unseren Blogpost darüber lesen: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter: <https://github.com/KhronosGroup/glTF>
 ![](../../assets/autosave-details.png)
 
 In dieser Version wurde auch ein neues Plug-In hinzugefügt, mit dem **Sicherungen** des derzeit geöffneten Projekts erstellt werden können. Es wird eine Sicherungsdatei auf der Seite des derzeit geöffneten Projekts erstellt.\
-Aus diesem Grund haben wir auch den Eintrag &quot;**Als Kopie speichern**&quot; im Menü &quot;Datei&quot; hinzugefügt. Das **automatische Speichern** kann gestoppt werden, indem das Plug-In selbst deaktiviert wird. Auf die **Einstellungen** kann über den Konfigurationsbereich **&#x200B;**&#x200B;zugegriffen werden. Wenn die Warnungszeitverzögerung erreicht ist, wird eine **Fortschrittsleiste** unter der Schaltfläche in der Hauptsymbolleiste angezeigt, die es ermöglicht, bei Bedarf einige Minuten lang zu schnüffeln (praktisch, wenn Sie vor der Sicherung etwas fertigstellen möchten).
+Aus diesem Grund haben wir auch den Eintrag &quot;**Als Kopie speichern**&quot; im Menü &quot;Datei&quot; hinzugefügt. Das **automatische Speichern** kann gestoppt werden, indem das Plug-In selbst deaktiviert wird. Auf die **Einstellungen** kann über den Konfigurationsbereich **** zugegriffen werden. Wenn die Warnungszeitverzögerung erreicht ist, wird eine **Fortschrittsleiste** unter der Schaltfläche in der Hauptsymbolleiste angezeigt, die es ermöglicht, bei Bedarf einige Minuten lang zu schnüffeln (praktisch, wenn Sie vor der Sicherung etwas fertigstellen möchten).
 
 Wenn eine Sicherung erstellt wird, das Projekt aber nicht gespeichert wurde (auch Untilted genannt), wird die Sicherung im Ordner **Documents/Allegorithmic/Substance Painter/autosave** gespeichert. Andernfalls befindet sich die Sicherung neben dem Projekt selbst (es sei denn, der Pfad wird vom Konfigurationsbereich überschrieben).
 
@@ -55,7 +55,7 @@ Wenn eine Sicherung erstellt wird, das Projekt aber nicht gespeichert wurde (auc
 
 ![](../../assets/gradient-rust.jpg)
 
-Der **Verlaufsfilter** wurde vollständig überarbeitet. Die Funktion ähnelt der des **Verlaufsumsetzung**-Knotens, der in **Substance Designer** verfügbar ist. Es unterstützt jetzt bis zu **10 verschiedene Farben**, mit der Möglichkeit, **anzugeben, wo sich die Farbe innerhalb** des Farbverlaufs **&#x200B;**&#x200B;befindet, und damit viele neue Türen zu öffnen. Dadurch können weitere **erweiterte Farbmuster**, aber auch **Relaishöhenzuordnungen**&#x200B;erstellt und **neue Formen**&#x200B;erstellt werden.
+Der **Verlaufsfilter** wurde vollständig überarbeitet. Die Funktion ähnelt der des **Verlaufsumsetzung**-Knotens, der in **Substance Designer** verfügbar ist. Es unterstützt jetzt bis zu **10 verschiedene Farben**, mit der Möglichkeit, **anzugeben, wo sich die Farbe innerhalb** des Farbverlaufs ****befindet, und damit viele neue Türen zu öffnen. Dadurch können weitere **erweiterte Farbmuster**, aber auch **Relaishöhenzuordnungen**erstellt und **neue Formen**erstellt werden.
 
 Der Hauptregler (Farbmenge) legt die Anzahl der Gesamtfarben fest, die zum Erstellen des Verlaufs verwendet werden. Die Schaltfläche direkt unten definiert den Farbüberblendmodus (sRGB oder Linear). Dies ist wichtig, wenn Sie eine ordnungsgemäße Überblendung zwischen Farben haben möchten. Wenn Sie beispielsweise ein reines Rot und ein reines Grün mischen, erhalten Sie dazwischen ein schönes Gelb. Dies ist nicht der Fall, wenn die Schaltfläche deaktiviert ist (stattdessen wird dunkelbraun angezeigt). Wenn Sie das Height oder andere Graustufenkanäle neu zuordnen, sollte diese Schaltfläche deaktiviert sein, um eine Gamma-Konvertierung zu vermeiden.
 
