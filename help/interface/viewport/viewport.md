@@ -3,9 +3,9 @@ helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/viewport.h
 description: Lerne, wie du mit dem Viewport von Substance 3D Painter deine 3D-Modelle und Texturen während des Malvorgangs visualisieren kannst.
 helpx_description: Painter > Interface > Viewport
 title: Viewport
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -74,19 +74,19 @@ Beim Standardlayout wird die 3D-Ansicht links und die 2D-Ansicht rechts platzier
     <th><em>Beschreibung</em></th>
   </tr>
   <tr>
-    <td><strong>Viewport-Modus</strong><br>![](../../assets/viewport-viewmode.png)</td>
+    <td><strong>Viewport-Modus</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
     <td>Diese Einstellungen steuern das Layout des Viewports:<br><ul><li><strong>3D/2D</strong> (Standard): sowohl die 3D- als auch die 2D-Ansicht im Viewport anzeigen</li><li><strong>Nur 3D</strong>: Maximieren Sie die 3D-Ansicht und blenden Sie die 2D-Ansicht aus.</li><li><strong>Nur 2D</strong>: Maximieren Sie die 2D-Ansicht und blenden Sie die 3D-Ansicht aus.</li><li><strong>3D/2D austauschen</strong>: die Reihenfolge austauschen, in der die Ansichten angezeigt werden. Wenn die 3D-Ansicht auf der linken Seite war, wird sie nach Auswahl dieser Aktion auf der rechten Seite angezeigt.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Perspektivmodus</strong><br>![](../../assets/viewport-camera-projection.png)</td>
+    <td><strong>Perspektivmodus</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
     <td>Mit diesen Einstellungen wird gesteuert, wie das 3D-Mesh in der 3D-Ansicht angezeigt wird:<br><ul><li><strong>Perspektivische Ansicht</strong> (Standard): zeigt das 3D-Mesh so an, wie es vom menschlichen Auge oder von der Kamera gesehen würde.</li><li><strong>Orthografische Ansicht</strong>: zeigt das 3D-Mesh an, da jede Richtung dieselbe Länge misst.</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Kameradrehungsmodus</strong><br>![](../../assets/viewport-camera-axis.png)</td>
+    <td><strong>Kameradrehungsmodus</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>
     <td>Diese Einstellungen steuern, wie viele Achsen die Viewport-Kamera drehen kann.<br><ul><li><strong>Freie Drehung</strong>: die Kamera um die X-, Y- und Z-Achse drehen.</li><li><strong>Eingeschränkte Drehung</strong> (Standard): Die Kamera dreht sich nur um die X- und Y-Achse (keine Rolle).</li></ul></td>
   </tr>
   <tr>
-    <td><strong>Rendermodus</strong><br>![](../../assets/viewport-rendering.png)</td>
+    <td><strong>Rendermodus</strong><br><img src="../../assets/viewport-rendering.png"/></td>
     <td>Wechseln Sie in den <a href="../../features/iray-renderer/iray-renderer.md">-Rendermodus </a>.</td>
   </tr>
 </table>
