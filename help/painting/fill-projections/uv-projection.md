@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/uv-projection.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections/uv-projection.html"
 breadcrumb-title: ''
 description: Nutze die UV-Projektion in Substance 3D Painter , um Strukturen auf Basis von UV-Koordinaten zu projizieren und so eine präzise Strukturplatzierung zu erzielen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ''
 description: Nutze die Verkrümmungsprojektion in Substance 3D Painter, um Texturen mit Verzerrung-Effekten für kreatives Texturmalen zu projektieren.
 helpx_creative_field: ""
