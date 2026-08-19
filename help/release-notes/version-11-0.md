@@ -30,7 +30,7 @@ Freigabedatum: <b>11. März 2025</b>
 > 
 > Diese Version erhöht auch die unterstützte Mindestversion von Windows 10 auf 22H2.
 > 
-> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
+> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
@@ -271,9 +271,9 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Automatische Aktualisierung] Automatische Aktualisierung standardmäßig deaktiviert lassen
 * [Automatische Aktualisierung] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen (.sbsar, .glsl, .ai, .svg)
 * [Automatische Aktualisierung] Umgebungsvariable hinzufügen, um die automatische Aktualisierung zu deaktivieren
-* [Automatische Aktualisierung][SBSAR] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen
+* [Automatische Aktualisierung]&#x200B;[SBSAR] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen
 * Ausgefüllter Pfad
-* [Pfad][Füllen] Fügen Sie ein neues Werkzeug hinzu, um gefüllte Pfade zu erstellen.
+* [Pfad]&#x200B;[Füllen] Fügen Sie ein neues Werkzeug hinzu, um gefüllte Pfade zu erstellen.
 * Verbesserungen an Pfaden
 * [Pfad] Erstellen von Pfaden, die an Polygonen ausgerichtet werden
 * [Pfad] Wechsel der Pfadtypen zulassen
@@ -283,7 +283,7 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Pfad] Form mit einem Klick schließen
 * [Pfad] Anzeigen von Pfadinformationen
 * [Pfad] Skalieren und Drehen von Pfadscheitelpunkten zulassen
-* [Pfad][UX] Einfacherer Zugriff auf Transformations-Gizmos
+* [Pfad]&#x200B;[UX] Einfacherer Zugriff auf Transformations-Gizmos
 * [Pfad] Pfadvorschau hinzufügen
 * [Pfad] Deaktivieren der Pfadvorschau mit Umschalt + P
 * [Pfad] Verbesserung der Tangentenausgabe in der Seitenansicht
@@ -291,7 +291,7 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Pfad] Scheitelpunkte sollten den Auswahlstatus beibehalten, wenn die Benutzeroberfläche aus- und wieder aktiviert wird
 * [Path] Löschen von Pfaden mit Rücktaste zulassen
 * [Pfad] Die Pfadliste offen halten, wenn der Benutzer sie erweitert
-* [Pfad][Ebenenstapel] Duplikate beim Kopieren/Einfügen richtig umbenennen
+* [Pfad]&#x200B;[Ebenenstapel] Duplikate beim Kopieren/Einfügen richtig umbenennen
 * Verbesserungen an der Benutzeroberfläche und der QuickInfo [Path]
 * Leistung
 * [Leistung] Verbessern der Viewport-Leistung bei Verwendung einer hohen Tesselierungsstufe
@@ -305,11 +305,11 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Inhalt] 3 neue Texturgeneratoren hinzufügen (Kachelzufall, Triangle Grid, Scratches-Generator)
 * [Inhalt] Unreal Engine-Vorlage umbenennen und Vorgaben exportieren
 * Python
-* [Shelf][Python] Speichern Sie Smart-Material oder Smart-Maske von Python auf der Festplatte.
+* [Shelf]&#x200B;[Python] Speichern Sie Smart-Material oder Smart-Maske von Python auf der Festplatte.
 * [Python] Hinzufügen des automatischen Käfigs zum Python-API
 * [Python] Bearbeiten von Namen und Beschreibungen von Textursätzen/UV-Kacheln zulassen
 * [Python] Freigeben von Auflösungseinstellungen für Vektor- und Schriftartenquellen
-* [Automatische Aktualisierung][Python] Stellen Sie die Funktionen zur automatischen Aktualisierung von Projekten in Python bereit.
+* [Automatische Aktualisierung]&#x200B;[Python] Stellen Sie die Funktionen zur automatischen Aktualisierung von Projekten in Python bereit.
 * Verschiedenes
 * [Exportieren] Erleichtern Sie den Zugriff auf die Optionen für Senden an mit einem neuen Fenster
 * [Nvidia] Warnung über die neuesten Nvidia-Treiber hinzufügen (572.16)
@@ -321,7 +321,7 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 
 <b>Fest</b>:
 
-* [NVIDIA][Backen] Die Ergebnisse von Bäckereien mit umgebender Verdeckung weisen Artefakte auf
+* [NVIDIA]&#x200B;[Backen] Die Ergebnisse von Bäckereien mit umgebender Verdeckung weisen Artefakte auf
 * [Absturz] Alt-Klick zum Umschalten der Sichtbarkeit für deaktivierten Textursatz führt zu einem Absturz
 * [Backen] Käfig wird mit niedrigem Poly- als hohem Poly-Param berücksichtigt
 * [Backen] Materialfarbe für ID Map Baker funktioniert nicht mit USD-Dateiformat
@@ -338,8 +338,8 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 <b>Bekannte Probleme</b>:
 
 * [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression][UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Crash][Python] USD-Export, ausgelöst durch TextureStateEvent
+* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
+* [Crash]&#x200B;[Python] USD-Export, ausgelöst durch TextureStateEvent
 * [Engine] Malen mit dem Kopierwerkzeug in normalen Kanalverschiebungsfarben falsch
 * [Python] Das Ghost-Widget wird durch das noch funktionierende Skript gelöscht.
 * [RedHat] Probleme mit dem Farbwähler

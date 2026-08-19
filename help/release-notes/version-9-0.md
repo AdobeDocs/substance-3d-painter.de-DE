@@ -167,9 +167,9 @@ Zusammenfassung: <b>Hauptversion mit &quot;Paint along path&quot;, die 3D-Kurven
 * [Dynamische Pinselstriche] Eigenschaft &quot;Abstand&quot; für Dynamische Pinselstriche hinzufügen
 * [Dynamische Pinselstriche] Hinzufügen von Größen- und Abstandseigenschaften zu Dynamischen Pinselstrichen
 * [Dynamische Pinselstriche] Hinzufügen der Eigenschaft &quot;Anfang&quot;, &quot;Mitte&quot; und &quot;Ende&quot; für Dynamische Pinselstriche
-* [Python][USD] Stellen Sie die Projektkonfigurationsparameter für das USD-Format bereit.
-* [Python][USD] Stellen Sie die Projekterstellungsparameter für das USD-Format bereit.
-* [Exportieren][USD] Fügen Sie Projektpfadinformationen in die exportierte USD-Datei ein
+* [Python]&#x200B;[USD] Stellen Sie die Projektkonfigurationsparameter für das USD-Format bereit.
+* [Python]&#x200B;[USD] Stellen Sie die Projekterstellungsparameter für das USD-Format bereit.
+* [Exportieren]&#x200B;[USD] Fügen Sie Projektpfadinformationen in die exportierte USD-Datei ein
 * [GLTF] Texturen in der Bibliothek beim erneuten Laden einer GLTF-Datei aktualisieren
 * [Shader] Reduzieren von Nahtartefakten für UV-Inseln mit unterschiedlicher Ausrichtung
 * [Engine] Update auf Substance-Engine Version 9.0
