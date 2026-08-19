@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-7-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-4.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 7.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -101,7 +101,7 @@ Das Arbeiten mit einer nicht angedockten Ansicht ist einfacher, das Layout der A
 
 Die **SpaceMouse®** ist ein Gerät mit 3D-Verbindung, mit dem die 3D-Viewport-Kamera intuitiver und benutzerfreundlicher bearbeitet werden kann. Es wird jetzt nativ und direkt mit Painter Plug-and-Play unterstützt.
 
-Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite &#x200B;](../../features/spacemouse-by-3dconnexion.md).
+Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite ](../../features/spacemouse-by-3dconnexion.md).
 
 >[!NOTE]
 >

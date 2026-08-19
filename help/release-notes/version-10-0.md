@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-10-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-10-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 10.0, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -203,7 +203,7 @@ Einige weitere Verbesserungen wurden hinzugefügt, insbesondere:
 * <b>Farbraum in SBSAR-Ausgabe</b>\
   Wenn der Farbmanagement-Workflow für veraltete Versionen oder OCIO aktiviert ist, verweist der SBSAR-Export jetzt auf die Farbraumnamen, die im Projekt an den jeweiligen Ausgaben verwendet werden.
 * <b>Schnellere Ressourcenermittlung</b>\
-  Mit der Einführung der <b>Textressource</b> haben wir einen neuen Cache hinzugefügt, um das Crawlen von Ressourcen auf dem Datenträger beim nächsten Start zu beschleunigen. Dies ist bemerkenswert, wenn Ressourcen auf einer Festplatte installiert sind oder wenn eine Bibliothek über Gigabyte an Ressourcen verfügt. Dieser neue Cache kann über eine Befehlszeile deaktiviert werden. Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite &#x200B;](../pipeline-and-integration/configuration/command-lines.md).
+  Mit der Einführung der <b>Textressource</b> haben wir einen neuen Cache hinzugefügt, um das Crawlen von Ressourcen auf dem Datenträger beim nächsten Start zu beschleunigen. Dies ist bemerkenswert, wenn Ressourcen auf einer Festplatte installiert sind oder wenn eine Bibliothek über Gigabyte an Ressourcen verfügt. Dieser neue Cache kann über eine Befehlszeile deaktiviert werden. Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite ](../pipeline-and-integration/configuration/command-lines.md).
 
 Vielen Dank an die Website [ist dies arabisch ?](https://isthisarabic.com/) was bei der Entwicklung dieser Version sehr hilfreich war.
 
