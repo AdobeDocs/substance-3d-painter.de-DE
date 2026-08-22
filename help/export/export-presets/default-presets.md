@@ -24,7 +24,7 @@ Im Folgenden finden Sie eine Liste zusätzlicher Ausgabevorlagen, die standardm�
 
 >[!NOTE]
 >
-> Einige andere Software, die hier nicht aufgeführt ist, wird möglicherweise ebenfalls unterstützt (z. B. **Octane**). Weitere Informationen finden Sie im [Ökosystem und Plug-Ins](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
+> Einige andere Software, die hier nicht aufgeführt ist, wird möglicherweise ebenfalls unterstützt (z. B. **Octane**). Weitere Informationen finden Sie im [Ökosystem und Plug-Ins](https://experienceleague.adobe.com/de/docs/substance-3d/ecosystem/home).
 
 | *Vorgabe* | *Beschreibung* |
 | --- | --- |

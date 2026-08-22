@@ -37,4 +37,4 @@ Einen kurzen Überblick über den Backmodus finden Sie in unserem Video-Tutorial
 
 >[!NOTE]
 >
-> Weitere Informationen zum Backen im Allgemeinen finden Sie in der dedizierten [Backdokumentation](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Weitere Informationen zum Backen im Allgemeinen finden Sie in der dedizierten [Backdokumentation](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).
