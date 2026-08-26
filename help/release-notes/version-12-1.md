@@ -2,9 +2,9 @@
 title: Version 12.1
 description: Versionshinweise zu Version 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Freigabedatum: <b>22. Juni 2026</b>
 
 >[!NOTE]
 >
-> Diese Version erhöht die mindestens unterstützte macOS-Version auf 13.0 (Ventura). Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
+> Diese Version erhöht die mindestens unterstützte macOS-Version auf 13.0 (Ventura). Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
@@ -150,6 +150,24 @@ Sehen Sie sich unser neuestes Tutorial auf YouTube an:
 
 ## Versionshinweise
 
+### 12.1.3
+
+Freigabedatum: **2026/08/25**
+
+Zusammenfassung: **Nebenversion**
+
+**Hinzugefügt:**
+
+* Aktualisieren der Substance-Engine auf Version 9.4.6v
+
+**Fest:**
+
+* [Graustufenwähler] Die Auswahl bleibt nach dem Ändern des Tools geöffnet
+* [Verkrümmungssicherung] Verkrümmungskorrekturunterbrechungen beim Malen und Rückgängigmachen
+* [Projektionstool] Die Viewport-Interaktion wird vom Projektionstool blockiert
+* [Dynamische Kontur] Fehlende dynamische Konturparameter in den Pinseleigenschaften
+* Export in ein Netzwerk funktioniert nicht mehr
+
 ### 12.1.2
 
 Freigabedatum: **2026/08/03**
@@ -218,7 +236,7 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Backerverbe
 * [OpenPBR] Exportieren von OpenPBR-Materialien und -Texturen über USD
 * [OpenPBR] Fenster &quot;Export Textures&quot; aktualisieren, um die OpenPBR-Benennungskonvention anzuzeigen
 * [OpenPBR] Hinzufügen von Dokumentationen zu Änderungen an der Support-OpenPBR
-* [OpenPBR]&#x200B;[Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen
+* [OpenPBR][Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen
 * Mehrere geringfügige Verbesserungen bei den USD-Exporten
 * [UI] Fügen Sie eine Warnung im Viewport hinzu, wenn Sie versuchen, auf einem anderen Textursatz zu malen
 * [Reduzieren] Reduzieren aller instanzierten Ebenen über Textursätze hinweg zulassen
@@ -237,14 +255,14 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Backerverbe
 
 <b>Fest</b>:
 
-* [Absturz]&#x200B;[Einstellungen für Gitterzuordnungen] Anwenden von Einstellungen auf andere Textursätze
+* [Absturz][Einstellungen für Gitterzuordnungen] Anwenden von Einstellungen auf andere Textursätze
 * [Absturz] Wenn die Krümmung von der Karte ohne den Weltraum normal gebacken wird
-* [Absturz]&#x200B;[Backen] Backen mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl stürzt ab
+* [Absturz][Backen] Backen mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl stürzt ab
 * [Absturz] Abbrechen des AO-Backens
 * [Auto-Cage] Unendliche Belastung, wenn der hohe Poly-Dateipfad ungültig ist
-* [Linux]&#x200B;[Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
+* [Linux][Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
 * [Polygon-Füllwerkzeug] Das Werkzeug funktioniert nicht mit Nicht-PBR
-* &lbrack;[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
+* [[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
 * [USD] Shader-Instanzen werden nicht alle korrekt erkannt.
 * [Substance] Es wird nur die erste Verwendung eines Eingabe-/Ausgabeknotens berücksichtigt
 * [Shader] Umgebungsbelichtung wird zweimal mit Textur-Sets unter Verwendung verschiedener Mischmethoden angewendet.

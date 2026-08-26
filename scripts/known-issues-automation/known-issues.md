@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/know-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ''
 description: Informieren Sie sich über bekannte Probleme bei Substance 3D Painter , um über die aktuellen Einschränkungen und Problemumgehungen in der neuesten Version auf dem Laufenden zu bleiben.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bekannte Probleme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99ba6e8d891dab9cebbf6035a6850bab331e7472
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 0%
 
 # Bekannte Probleme
 
-Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.0 von Substance 3D Painter aufgeführt:
-
-* `[Engine]` Fehler bei Verwendung von Smart-Materialien, wenn der Textursatz keine Kachel 1001 aufweist
-* `[Engine]` Malen mit dem Kopierwerkzeug in normalen Kanalverschiebungsfarben falsch
-* `[Engine]` Geometriemaske zeigt Artefakte an UV-Rändern mit instanzierten Ebenen
-* `[Engine]` UV-Auffüllung &quot;3D Space Neighbor&quot;-Modus funktioniert nicht gut bei dünnen Dreiecken
-* Das Ergebnis des `[Engine]`-Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert.
+Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.3 von Substance 3D Painter aufgeführt:
 
 * `[Baking]` Falsche AO bei einfachen Würfeln
 * `[Baking]` Die Interpretation des Namensuffixes stimmt nicht überein.
 * `[Baking]` UV-Nähte werden nach dem erneuten Importieren von Mes nicht angezeigt
 * `[Baking]` Rasterähnliche Artefakte mit einigen Einstellungen
+* `[Baking]` Umgebungsvariable &quot;Rückfläche nach Netznamen ignorieren&quot; funktioniert nicht.
+* `[Baking]` `[AMD]` Gerät verloren beim Backen mit einem hohen Poly-Gitter
 
 * `[Substance]` Mehrere Rechtschreibfehler in Ressourcen
 * `[Substance]` Bedingung für leere Leerraumunterbrechungen für Sichtbarkeit
 * Das Laden von `[Substance]`-Vorgaben für einige Materialien dauert zu lange
 * `[Substance]` Ressource mit gemischten Verwendungen kann nicht importiert werden.
+
+* `[Engine]` Fehler bei Verwendung von Smart-Materialien, wenn der Textursatz keine Kachel 1001 aufweist
+* `[Engine]` Malen mit dem Kopierwerkzeug in normalen Kanalverschiebungsfarben falsch
+* `[Engine]` Geometriemaske zeigt Artefakte an UV-Rändern mit instanzierten Ebenen
 
 * `[Color Management]` Inkompatible Bindungen mit Generator werden nicht in der Maske verwendet
 * `[Color Management]` Filterausgabe wird nicht ordnungsgemäß berücksichtigt.
@@ -50,6 +50,9 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.0 von Su
 
 * `[Scripting]` `[Javascript]` Tippfehler &quot;deaktiviert&quot; beim Festlegen des Dithering-Parameters in Exportfunktionen
 * `[Scripting]` `[Python]` Verschiedene Tippfehler im Modul substance_painter.project
+
+* `[USD]` Falsche Benutzerzuweisung in einigen Fällen
+* `[USD]` Die exportierte USD-Geometrie wird entlang der UV-Ränder verschoben.
 
 * Das in der Grundfarbenansicht gespeicherte Projekt &quot;`[Single Channel View]`&quot; sieht nach dem Painter-Versionsupdate dunkler aus
 * Das in der Grundfarbenansicht gespeicherte Projekt &quot;`[Single Channel View]`&quot; sieht nach dem Painter-Versionsupdate dunkler aus
@@ -91,15 +94,10 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.0 von Su
 * Die Geometrieauswahl &quot;`[Mask]`&quot; ist nach dem Wechsel in den Aktivierungsmodus noch aktiv.
 * `[Sonoma]` Symbole werden nicht in Menüs angezeigt
 * `[Path]` Height-Überblendung vieler Pfade kann Artefakte verursachen
-* `[USD]` Falsche Benutzerzuweisung in einigen Fällen
 * `[Polygon Fill]` Das Ändern des Farbraums der Grundfarbe aktualisiert die Farbauswahl nicht
-* `[Paint Skew]` Das ausgewählte Werkzeug in der Pinselneigung bleibt nach dem Wechsel in den Malmodus ausgewählt
-* `[Color Picker]` Picker bleibt nach dem Ändern des Tools geöffnet
 * `[UV Padding]` Artefakte beim Hochskalieren der Textur von 4k auf 8k beim Export
-* `[Baking Common Settings]` Einstellungen für &quot;Käfigentfernung&quot; aktualisieren die Darstellung von Käfig-Drahtgitter und Shader nicht
-* `[Send to Photoshop]`: Fehler beim Exportieren der Ebenenmaske.
-* `[Skew Baking]` Pausen der Neigungskorrektur beim Malen und Rückgängigmachen
-* `[Projection Tool]` Viewport-Interaktion wird vom Projektionswerkzeug blockiert
+* `[Performances]` Painter nutzt VRAM nicht.
+* `[Generator]` Durch die Einstellung &quot;Textur verwenden&quot; auf &quot;false&quot; wird die Verwendung der Textureingabe nicht deaktiviert.
 * Nicht quadratische Ressourcen werden bei Verwendung in den Steckplätzen des Pinselkanals gestreckt
 * Substanz konnte nicht decodiert werden
 * Nicht perfekt überlagerte UVs können Artefakte erzeugen
@@ -118,7 +116,8 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.0 von Su
 * Pinselparameter, die von der kontextabhängigen Symbolleiste geändert werden, werden im Verlauf nicht angezeigt
 * Exportvorgaben können nicht umbenannt oder gelöscht werden, wenn Sie sie in dieser Sitzung bereits gelöscht und neu erstellt haben
 * Kanalzuordnung funktioniert in einigen Fällen nicht für die Vorschau des Projektionswerkzeugs
-* Das Öffnen und Speichern einiger Projekte kann länger als gewöhnlich dauern
+* Viewport friert beim Speichern beim Bearbeiten der 3D-Projektion ein
+* Die Auflösung der Materialebenen ist zu niedrig
 
 ## Stabilität
 
@@ -130,7 +129,3 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.0 von Su
 * `[Crash]` Zurück zum Malmodus, nachdem das Gerät beim Backen verloren hat
 * `[Crash]` Beenden Sie Painter nach dem Abbrechen des Kartenexports
 * `[Crash]` Exportieren des Gitters mit einigen speziellen Symbolen im Kameranamen
-* `[Crash]` Das Löschen eines Kanals im Maskenansichtsmodus führt zu einem Absturz
-* `[Crash]` Einige Substance können beim Rendern zu einem Absturz führen
-* `[Crash]` Wiederholen des Gitters im Backmodus
-* `[Crash]` Das erneute Laden mehrerer Meshes kann zu einem Absturz führen
