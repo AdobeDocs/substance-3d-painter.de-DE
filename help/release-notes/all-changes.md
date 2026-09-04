@@ -11,9 +11,9 @@ title: Alle Änderungen
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 9bb3d9d70fb00c8817a11c2938292aa337279b74
 workflow-type: tm+mt
-source-wordcount: '33932'
+source-wordcount: '33992'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,24 @@ Diese Seite enthält Versionshinweise für alle früheren Versionen von Substanc
 > Informationen zum Anzeigen bekannter Probleme, die sich auf Painter auswirken können, finden Sie auf der [Seite zur dedizierten Dokumentation](known-issues.md).
 
 ## Version 12
+
+### 12.1.3
+
+Freigabedatum: **2026/08/26**
+
+Zusammenfassung: **Nebenversion**
+
+**Hinzugefügt:**
+
+* Aktualisieren der Substance-Engine auf Version 9.4.6
+
+**Fest:**
+
+* [Graustufenwähler] Die Auswahl bleibt nach dem Ändern des Tools geöffnet
+* [Verkrümmungssicherung] Verkrümmungskorrekturunterbrechungen beim Malen und Rückgängigmachen
+* [Projektionstool] Die Viewport-Interaktion wird vom Projektionstool blockiert
+* [Dynamische Kontur] Fehlende dynamische Konturparameter in den Pinseleigenschaften
+* Export in ein Netzwerk funktioniert nicht mehr
 
 ### 12.1.2
 

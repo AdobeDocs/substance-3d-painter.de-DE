@@ -2,9 +2,9 @@
 title: Version 12.1
 description: Versionshinweise zu Version 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,24 @@ Sehen Sie sich unser neuestes Tutorial auf YouTube an:
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## Versionshinweise
+
+### 12.1.3
+
+Freigabedatum: **2026/08/25**
+
+Zusammenfassung: **Nebenversion**
+
+**Hinzugefügt:**
+
+* Aktualisieren der Substance-Engine auf Version 9.4.6v
+
+**Fest:**
+
+* [Graustufenwähler] Die Auswahl bleibt nach dem Ändern des Tools geöffnet
+* [Verkrümmungssicherung] Verkrümmungskorrekturunterbrechungen beim Malen und Rückgängigmachen
+* [Projektionstool] Die Viewport-Interaktion wird vom Projektionstool blockiert
+* [Dynamische Kontur] Fehlende dynamische Konturparameter in den Pinseleigenschaften
+* Export in ein Netzwerk funktioniert nicht mehr
 
 ### 12.1.2
 
