@@ -136,11 +136,11 @@ Die **kontextbezogene Symbolleiste**, wenn das **Pfad**-Tool ausgewählt ist, st
     <td>Öffnen oder schließen Sie den aktuellen Pfad. Um einen Pfad zu schließen, muss zuerst einer der beiden Endpunkte des aktuellen Pfads ausgewählt werden.<br><img src="../../assets/v90_path_open_close.gif" alt="GIF-Datei, die einen geöffneten und dann geschlossenen Pfad zeigt"/></td>
   </tr>
   <tr>
-    <td><strong>Eckpunkt löschen</strong><br><img src="../../assets/path_contextual_toolbar_delete.png" alt="Symbol zum Löschen des Scheitelpunkts "Pfad""/></td>
+    <td><strong>Eckpunkt löschen</strong><br><img src="../../assets/path_contextual_toolbar_delete.png" alt="Symbol zum Löschen des Scheitelpunkts &quot;Pfad&quot;"/></td>
     <td>Entfernt die aktuell markierten Scheitelpunkt eines Pfades.</td>
   </tr>
   <tr>
-    <td><strong>Symmetrie</strong><br><img src="../../assets/path_contextual_toolbar_symmetry.png" alt="Funktion "Symbol der Symmetrie""/></td>
+    <td><strong>Symmetrie</strong><br><img src="../../assets/path_contextual_toolbar_symmetry.png" alt="Funktion &quot;Symbol der Symmetrie&quot;"/></td>
     <td>Aktivieren oder deaktivieren Sie die Symmetrie für den aktuellen Pfad. Weitere Informationen finden Sie in der <a href="../symmetry/symmetry.md">Symmetrie-Dokumentation</a>.<br><img src="../../assets/v90_path_symmetry.gif" alt="GIF, das einen in Symmetrie gezeichneten Pfad zeigt"/></td>
   </tr>
   <tr>
