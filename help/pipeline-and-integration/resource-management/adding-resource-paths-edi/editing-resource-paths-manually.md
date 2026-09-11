@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Ressourcenpfade in den Substance 3D Painter-Voreinstellungen manuell bearbeiten, um Ihre Ablageressourcenspeicherorte anzupassen.
+description: Erfahren Sie, wie Sie Ressourcenpfade in den Substance 3D Painter-Voreinstellungen manuell bearbeiten, um die Speicherorte für Regal-Ressourcen anzupassen.
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Editing resource paths manually
 helpx_experience_level: ""
@@ -52,8 +52,8 @@ Unter Windows können Pfade über die Windows-Registrierung verwaltet werden:
 1. Navigieren Sie in der Strukturansicht auf der linken Seite des Fensters **Registrierungs-Editor** und navigieren Sie zu dem oben genannten Registrierungsschlüssel.
 1. **Fügen Sie einen Schlüssel** unter **pathInfos** mit einer **number** als Namen hinzu. Erhöhen Sie die Anzahl basierend auf den bereits vorhandenen Schlüsseln (beginnend bei 1).
 1. Führen Sie im rechten Teil des Fensters einen **Rechtsklick** > **Neu** > **Zeichenfolgenwert** aus. Benennen Sie ihn &quot;**disabled**&quot;, und legen Sie den Wert auf &quot;**false**&quot; fest.
-1. Führen Sie im rechten Teil des Fensters einen **Rechtsklick** > **Neu** > **Zeichenfolgenwert** aus. Benennen Sie ihn **Name**, und geben Sie den Namen der benutzerdefinierten Ablage ein.
-1. Führen Sie im rechten Teil des Fensters einen **Rechtsklick** > **Neu** > **Zeichenfolgenwert** aus. Benennen Sie ihn **Pfad**, und legen Sie den Wert auf den Pfad fest, in dem sich die Ablage befindet.
+1. Führen Sie im rechten Teil des Fensters einen **Rechtsklick** > **Neu** > **Zeichenfolgenwert** aus. Benennen Sie ihn **name**, und geben Sie den Namen des benutzerdefinierten Regals ein.
+1. Führen Sie im rechten Teil des Fensters einen **Rechtsklick** > **Neu** > **Zeichenfolgenwert** aus. Benennen Sie ihn **Pfad**, und legen Sie den Wert auf den Pfad fest, in dem sich das Regal befindet.
 1. Vergessen Sie nicht, den Schlüssel &quot;**size** &quot; innerhalb von &quot;**pathInfos** &quot; um 1 zu erhöhen.
 1. Schließen Sie das Fenster.
 1. Starten Sie die Anwendung.
@@ -68,9 +68,9 @@ Auf **Linux** können zusätzliche Pfade über die Konfigurationsdatei der Benut
 
 1. Navigieren Sie zu dem oben genannten Pfad.
 1. Öffnen Sie die Datei **Substance 3D Painter.config**.
-1. Scrollen Sie nach unten zum Abschnitt **[Shelf]**
+1. Scrollen Sie nach unten zum Abschnitt **[Regal]**
 
-Fügen Sie einen neuen Regalpfad hinzu, indem Sie die zuletzt angezeigte Zahl erhöhen. Beispiel:
+Fügen Sie einen neuen Regal-Pfad hinzu, indem Sie die zuletzt angezeigte Zahl erhöhen. Beispiel:
 
 ```
 pathInfos2disabled=false  

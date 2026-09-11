@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-10-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-10-0.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 10.0, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 10.0
 
-<b>Substance 3D Painter 10.0</b> bietet Unterstützung für Illustrator-Dateien (.ai), integriert Substance 3D Assets, importiert Schriftarten über die Textressourcen, fügt Ebenenstapelfunktionen in der Python-API hinzu und verbessert die Lebensqualität in mehrfacher Hinsicht.
+<b>Substance 3D Painter 10.0</b> bietet Unterstützung für Illustrator-Dateien (.ai), integriert Substance 3D Assets, importiert Schriften über die Textressourcen, fügt Ebenenstapel-Funktionen in der Python-API hinzu und verbessert die Lebensqualität in mehrfacher Hinsicht.
 
 Freigabedatum: *16. Mai 2024*
 
@@ -30,18 +30,18 @@ Freigabedatum: *16. Mai 2024*
 
 ![](../assets/v10_banner_text-1.jpg)
 
-Mit dieser neuen Version wird die <b>Textressource</b> eingeführt, mit der Schriftdateien zum Schreiben von Text in verschiedenen Kontexten (Pinsel, Füllprojektion, Substance von Bildeingaben usw.) geladen werden können. um Strukturen zu verzieren.
+Mit dieser neuen Version wird die <b>Textressource</b> eingeführt, mit der Schriftdateien zum Schreiben von Text in verschiedenen Kontexten (Pinsel, Füllfarbe, Substance-Projektion usw.) geladen werden können. um Ihre Texturen zu verschönern.
 
 * <b>Schriften im Fenster &quot;Elemente&quot; durchsuchen</b>\
   Schriften werden jetzt im Fenster &quot;Elemente&quot; unter einem eigenen Filter aufgelistet. Sie werden von verschiedenen Speicherorten auf dem Betriebssystem (und auch in den Bibliotheken) gesammelt.
 
   ![](../assets/v10_text_assets-1.png)
 * <b>Schriften wie andere Ressourcen ziehen und ablegen</b>\
-  Schriften können wie jede andere Ressource als Textressourcen verwendet werden. Ziehen Sie sie per Drag &amp; Drop, um automatisch eine Füllprojektion zu erstellen. Sie können auch in Pinseln oder als Eingabe in Substance-Filtern verwendet werden.
+  Schriften können wie jede andere Ressource als Textressourcen verwendet werden. Ziehe sie per Drag-and-Drop, um die Projektion automatisch zu erstellen. Sie können auch in Pinseln oder als Eingabe in Substance-Filtern verwendet werden.
 
   ![](../assets/v10_text_drag_drop.gif)
 * <b>Textressourcenparameter</b>\
-  Beim Erstellen einer Textressource können Sie einige Parameter optimieren, um das Aussehen Ihres Texts anzupassen: vertikale und horizontale Ausrichtung, automatische oder manuelle Größe, Zeilen- und Zeichenabstand, Farbe usw.
+  Beim Erstellen einer Textressource können Sie einige Parameter optimieren, um das Aussehen Ihres Texts anzupassen: vertikale und horizontale Ausrichtung, automatische oder manuelle Größe, Zeilen- und Zeichen-Abstand, Farbe usw.
 
   ![](../assets/v10_text_features.gif)
 * <b>Breite Zeichenbreite und unterstützte Funktion</b>\
@@ -108,26 +108,26 @@ Es ist ein neues Fenster verfügbar, in dem die Substance 3D Assets-Website dire
 >
 > Das Substance 3D Assets-Dock ist in der Steam-Version nicht verfügbar.
 
-### Neues Ebenenstapelmodul in Python API
+### Neues Ebenenstapel-Modul in der Python-API
 
 ![](../assets/v10_banner_python-1.jpg)
 
-In dieser Version wird das neue Ebenen-Stack-Modul in unserer Python-API hinzugefügt. Mit dieser API können Sie den Ebenenstapel eines Projekts steuern und so die Tür zur Erstellung erweiterter Ebenenstapel-Plug-ins und benutzerdefinierter Werkzeuge öffnen.
+In dieser Version wurde das neue Ebenenstapel-Modul in unsere Python-API aufgenommen. Mit dieser API können Sie den Ebenenstapel eines Projekts steuern und so die Erstellung erweiterter Ebenenstapel-Plug-ins und benutzerdefinierter Tools ermöglichen.
 
 * <b>Neue Ebenenstapel-API</b>\
-  Das neue <b>layerStack</b>-Modul ermöglicht es, den Ebenenstapel eines Projekts auf vielerlei Weise zu steuern. Sie haben folgende Möglichkeiten:
+  Das neue <b>Layerstack</b>-Modul ermöglicht es, den Ebenenstapel eines Projekts auf vielerlei Weise zu steuern. Sie haben folgende Möglichkeiten:
 
   * Fragen Sie die Auswahl von Ebenen und Effekten ab und legen Sie sie fest.
   * Erstellen neuer Ebenen, Ordner und Effekte (einschließlich Filter, Ankerpunkte usw.)
-  * Instanziieren von Ebenen.
+  * Ebenen instanziieren.
   * Parameter von Ebenen und Effekten abrufen und festlegen, Ressourcen laden.
   * Rufen Sie Substance-Parameter ab und legen Sie sie fest.
-* <b>Änderungen des Gültigkeitsbereichs und Pause des Moduls</b>\
-  Das Bearbeiten des Ebenenstapels könnte zu langen Berechnungen führen. Aus diesem Grund haben wir auch die Möglichkeit offen gelegt, die Engine über die API anzuhalten und anzuhalten (wie in der Benutzeroberfläche). Wir haben es auch möglich gemacht, Änderungen aus beiden Performance-Gründen zu gruppieren, aber auch mehrere Operationen gleichzeitig rückgängig zu machen.
+* <b>Änderungen des Gültigkeitsbereichs und Pause des Engine</b>\
+  Das Bearbeiten des Ebenenstapels kann zu langen Berechnungen führen. Aus diesem Grund haben wir auch die Möglichkeit gelegt, das Engine von der API anzuhalten und nicht anzuhalten (wie in der Benutzeroberfläche). Wir haben es auch möglich gemacht, Änderungen aus beiden Performance-Gründen zu gruppieren, aber auch mehrere Operationen gleichzeitig rückgängig zu machen.
 * <b>Grundlegendes Farbmanagement</b>\
-  Mit der Bereitstellung des Ebenen-Stacks mussten wir das Konzept des Farb-Managements in unsere API aufnehmen. Ein neues <b>Farbmanagement</b>-Modul wurde hinzugefügt, um Farben zu erstellen, zu optimieren und den Farbraum von Bitmaps auszuwählen. (Dieser Teil der API ist noch nicht vollständig und wird in zukünftigen Versionen erweitert.)
+  Mit der Präsentation des Ebenenstapels mussten wir das Konzept des Farbmanagements in unsere API einführen. Ein neues <b>Farbmanagement</b>-Modul wurde hinzugefügt, um Farben zu erstellen, zu optimieren und den Farbraum von Bitmaps auszuwählen. (Dieser Teil der API ist noch nicht vollständig und wird in zukünftigen Versionen erweitert.)
 * <b>Informationen zu Exportvorgaben abfragen</b>\
-  Exportvorgaben werden jetzt in unserer API angezeigt, sodass Sie die Liste der (sowohl vordefinierten als auch benutzerdefinierten) Vorgaben abfragen können. Ihre Inhalte können auch in einem ähnlichen Format wie unsere vorhandene Export Textures API abgerufen werden.
+  Exportvorgaben werden jetzt in unserer API gelegt, sodass Sie die Liste der (sowohl vordefinierten als auch benutzerdefinierten) Vorgaben abfragen können. Ihre Inhalte können auch in einem ähnlichen Format wie unsere bestehende Export-Texturen-API abgerufen werden.
 * <b>Neue Möglichkeiten!\
   </b> Dieser neue Teil der API ermöglicht viele neue Dinge, wie das Speichern und Wiederherstellen einer Auswahl von Ebenen oder das Ändern der Zufallsgeschwindigkeit aller Ressourcen in einem Projekt. Beispiel:
 
@@ -141,11 +141,11 @@ In dieser Version wird das neue Ebenen-Stack-Modul in unserer Python-API hinzuge
 >
 > Beispiele für Ebenenstapel-Plug-ins finden Sie auch in unserer [Onlinedokumentation](https://adobedocs.github.io/painter-python-api/).
 
-### Verbessertes normales Kartenmalen
+### Verbessertes Normalen-Map-Malen
 
 ![](../assets/v10_banner_flow-1.jpg)
 
-In dieser Version haben wir den normalen Arbeitsablauf zum Malen von Karten überarbeitet. Wir haben vor allem die Art und Weise verändert, wie wir normale Pinselstempel sammeln und mischen. Diese Änderungen wurden vorgenommen, um Probleme beim Malen von Flussdiagrammen zu beheben.
+In dieser Version haben wir den Arbeitsablauf für das Normalen-Map-Malen überarbeitet. Wir haben vor allem die Art und Weise verändert, wie wir normale Pinselstempel sammeln und mischen. Diese Änderungen wurden vorgenommen, um Probleme beim Malen von Flussdiagrammen zu beheben.
 
 * <b>Akkumulierungsproblem behoben</b>\
   Wenn Sie über einen Bereich im normalen Kanal malen, wird dieser nicht mehr gesättigt oder verklemmt und es entstehen keine Löcher oder Artefakte mehr. Auch das Umschalten des Normalkanals auf RGB32F entfällt.
@@ -156,7 +156,7 @@ In dieser Version haben wir den normalen Arbeitsablauf zum Malen von Karten übe
 
   ![](../assets/v10_normal_stroke_undo.gif)
 * <b>Transparenz bei Null Alpha</b>\
-  Pinselstempel mit einer Struktur mit einem Alpha-Wert von 0 werden jetzt als transparent gezeichnet. Das folgende Beispiel zeigt einen Pinselstempel (links) im Vergleich zu einer planaren Projektion (rechts).
+  Pinselstempel, die mit einer Textur mit einem Alphawert von Null erstellt wurden, werden jetzt als transparent gezeichnet. Das folgende Beispiel zeigt einen Pinselstempel (links) und eine planare Projektion (rechts).
 
   ![](../assets/v10_normal_alpha.jpg)
 
@@ -164,31 +164,31 @@ In dieser Version haben wir den normalen Arbeitsablauf zum Malen von Karten übe
 >
 > Weitere Informationen zum Malen der Flusszuordnung finden Sie auf der [Dokumentationsseite](../painting/advanced-channel-painting/flow-map-painting.md).
 
-### Verbesserte Transformationsmanipulatoren
+### Verbesserte transformieren-Manipulator
 
 ![](../assets/v10_banner_transform_v2-1.jpg)
 
-Es wurden mehrere Verbesserungen vorgenommen, um die Verwendung der Transformationsmanipulatoren zu verbessern.
+Mehrere Verbesserungen wurden vorgenommen, um die Nutzung der transformieren Manipulatoren zu verbessern.
 
 * <b>Präzisionsmodus mit STRG</b>\
-  Das Drücken der Steuerung beim Ziehen eines Manipulators führt nun zu einem neuen Präzisionsmodus, der präzisere Operationen ermöglicht. Diese Änderung gilt für die Manipulatoren zum Übersetzen, Drehen und Skalieren.\
+  Das Drücken der Steuerung beim Ziehen eines Manipulators geht nun in einen neuen Präzisionsmodus über, der präzisere Operationen ermöglicht. Diese Änderung gilt für die Manipulator &quot;Kamera beweg&quot;, &quot;rotate&quot; und &quot;scale&quot;.\
   Hier ein Beispiel vor und nach dem Drücken der STRG-Taste beim Ziehen:
 
   ![](../assets/v10_ctrl_precise_mode.gif)
 * <b>Neues Skalierungsverhalten</b>\
-  Die Skalenintensität basiert nun auf dem aktuellen Skalenwert selbst und nicht mehr auf der Szenengröße. Dadurch sind relative Änderungen einfacher, insbesondere bei kleinen Werten. In Kombination mit dem präzisen Modus macht es das Skalieren viel angenehmer.\
+  Die Skalenintensität basiert nun auf dem aktuellen Skalenwert selbst und nicht mehr auf der Szene. Dadurch sind relative Änderungen einfacher, insbesondere bei kleinen Werten. In Kombination mit dem präzisen Modus macht es das Skalieren viel angenehmer.\
   Eine weitere Änderung ist die Skalierung nach unten, bis 0 nicht mehr in negative Werte übergeht. Dadurch wird vermieden, dass eine Projektion verkleinert und versehentlich umgedreht werden muss.
 
   ![](../assets/v10_translate_new.gif)
-* <b>Verbesserte Drehung des Oberflächenmanipulators</b>\
-  Der Oberflächenabziehmanipulator ist jetzt viel stabiler, wenn er um eine Oberfläche gezogen wird. Es erhöht seine Rotation nicht, wenn es nur Hin- und Herübersetzungen vornimmt.\
+* <b>Verbesserte Drehung des Manipulators der Oberfläche</b>\
+  Der Manipulator für die Aufhellung der Oberfläche ist jetzt viel stabiler, wenn Sie um eine Oberfläche ziehen. Es erhöht seine Rotation nicht, wenn es nur Hin- und Herübersetzungen vornimmt.\
   Hier ist das <b>alte</b>-Verhalten im Vergleich zum <b>neuen</b>-Verhalten:
 
   ![](../assets/v10_decal_old.gif)
 
   ![](../assets/v10_decal_new.gif)
-* <b>Kameraausgerichtete Projektion beim Ziehen und Ablegen</b>\
-  Wenn du eine Ressource per Drag-and-Drop in das Viewport ziehst, wird direkt auf der Gitteroberfläche eine Verkrümmungsprojektion angezeigt. Diese Projektion wurde zuvor falsch gedreht und ist nun an der Kamera ausgerichtet.
+* <b>Projektion mit Ausrichtung der Kamera beim Ziehen und Ablegen</b>\
+  Das Ziehen und Ablegen einer Ressource in den Viewport ermöglicht das Erstellen einer Verkrümmungs-Projektion direkt auf der Oberfläche des Meshs. Diese Projektion wurde zuvor falsch gedreht und ist nun an der Kamera ausgerichtet.
 
   ![](../assets/v10_projection_aligned_screen.gif)
 
@@ -201,9 +201,9 @@ Einige weitere Verbesserungen wurden hinzugefügt, insbesondere:
 * <b>Banding-/Qualitätsprobleme bei einigen Filtern behoben</b>\
   Mehrere Filter wurden auf 8-Bit-Präzision statt auf 16-Bit-Präzision fixiert, was bei ihrer Verwendung zu Streifenbildung/Artefakten führte (wie der Histogramm-Scan oder die Richtungsunschärfe). Dieses Problem wurde nun behoben.
 * <b>Farbraum in SBSAR-Ausgabe</b>\
-  Wenn der Farbmanagement-Workflow für veraltete Versionen oder OCIO aktiviert ist, verweist der SBSAR-Export jetzt auf die Farbraumnamen, die im Projekt an den jeweiligen Ausgaben verwendet werden.
+  Wenn der Farbmanagement-Arbeitsablauf aus Vorgängerversionen oder OCIO aktiviert ist, verweist der SBSAR-Export jetzt auf die Farbraumnamen, die im Projekt in den jeweiligen Ausgaben verwendet werden.
 * <b>Schnellere Ressourcenermittlung</b>\
-  Mit der Einführung der <b>Textressource</b> haben wir einen neuen Cache hinzugefügt, um das Crawlen von Ressourcen auf dem Datenträger beim nächsten Start zu beschleunigen. Dies ist bemerkenswert, wenn Ressourcen auf einer Festplatte installiert sind oder wenn eine Bibliothek über Gigabyte an Ressourcen verfügt. Dieser neue Cache kann über eine Befehlszeile deaktiviert werden. Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite &#x200B;](../pipeline-and-integration/configuration/command-lines.md).
+  Mit der Einführung der <b>Textressource</b> haben wir einen neuen Cache hinzugefügt, um das Crawlen von Ressourcen auf dem Datenträger beim nächsten Start zu beschleunigen. Dies ist bemerkenswert, wenn Ressourcen auf einer Festplatte installiert sind oder wenn eine Bibliothek über Gigabyte an Ressourcen verfügt. Dieser neue Cache kann über eine Befehlszeile deaktiviert werden. Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite ](../pipeline-and-integration/configuration/command-lines.md).
 
 Vielen Dank an die Website [ist dies arabisch ?](https://isthisarabic.com/) was bei der Entwicklung dieser Version sehr hilfreich war.
 
@@ -226,17 +226,17 @@ Zusammenfassung: <b>Hauptversion, Edition des Ebenenstapels mit Python-API, Lese
 <b>Hinzugefügt</b>:
 
 * [Illustrator] Verwenden von Illustrator-Dateien mit Zeichenflächen in Painter
-* [Illustrator]&#x200B;[SVG] Hinzufügen von Vorschauen in der Bereichsauswahl
+* [Illustrator][SVG] Hinzufügen von Vorschauen in der Bereichsauswahl
 * [Substance 3D Assets] Durchsuchen, Auswählen und Herunterladen von 3D-Assets direkt in Painter
-* [Substance 3D Assets]&#x200B;[UI] Neues Bedienfeld
-* [Substance 3D Assets] Unterstützung von Umgebungskarten und -materialien
+* [Substance 3D Assets][UI] Neues Bedienfeld
+* [Substance 3D Assets] Unterstützung für Umgebungs-Map und Materials
 * [Substance 3D Assets] Ermöglicht das erneute Laden und Navigieren im Speicherortordner und das Öffnen im neuen Bedienfeld &quot;Substance 3D Assets&quot;.
 * [Substance 3D Assets] Hinzufügen eines Download-Managers
 * [Textressource] Einbettbare Schriftarten verwenden
-* [Textressource] Erlaubt das Rendern einer Schriftart/eines Texts in einem Gitter.
+* [Textressource] Erlaubt das Rendern einer Schriftart/eines Texts auf einem Mesh.
 * [Textressource] Anzeigen von Schriftarten von Benutzer- und anderen freigegebenen Pfaden im Bedienfeld &quot;Elemente&quot; mit einer neuen Kategorie
-* [Textressource]&#x200B;[Eigenschaften] Unterstützung für erweiterte Schriftarteigenschaften hinzufügen
-* [Textressource] Ermöglicht das Suchen/Anzeigen von Schriftarten in Mini-Shelves
+* [Textressource][Eigenschaften] Unterstützung für erweiterte Schriftarteigenschaften hinzufügen
+* [Textressource] Ermöglicht das Suchen/Anzeigen von Schriftarten in Mini-Regalen
 * [Textressource] Fehlermeldung/Dialogfeld hinzufügen, wenn eine inkompatible Schriftart importiert wird
 * Sonstiges
 * [Füllprojektion] Verbessern des Skalierungsmanipulatorverhaltens bei Verwendung kleiner Werte
@@ -264,7 +264,7 @@ Zusammenfassung: <b>Hauptversion, Edition des Ebenenstapels mit Python-API, Lese
 * [Python] Navigation zu gleichrangigen und übergeordneten Knoten zulassen
 * [Python] Erstellen eines Filter-/Generatoreffekts zulassen
 * [Python] Hinzufügen des Ebeneneffekts zulassen
-* [Python] Hinzufügen einer Smartmaske zu einer Ebene zulassen
+* [Python] Hinzufügen von intelligente Maske zu einer Ebene zulassen
 * [Python] Erstellen/Bearbeiten von Ankerpunkten zulassen
 * [Python] Maske für Ebenen abrufen/festlegen
 * [Python] Erstellen des Effekts &quot;Maske vergleichen&quot; zulassen
@@ -277,31 +277,31 @@ Zusammenfassung: <b>Hauptversion, Edition des Ebenenstapels mit Python-API, Lese
 <b>Fest</b>:
 
 * [Absturz] Rückgängigmachen von &quot;Shader-Instanz entfernen&quot; mit Strg+Z
-* [Absturz] Erstellen einer Ebene auf einem leeren Stapel, wenn die letzte Auswahl ein Effekt war
+* [Absturz] Erstellen einer Ebene auf leerem Stapel, wenn die letzte Auswahl ein Effekt war
 * [SVG] Problem mit benutzerdefiniertem Wert für den zugeschnittenen Bereich
-* [Auto-Unwrap] Die Neuberechnung nur des Packings ohne Änderung der UV-Ausrichtung führt zum Absturz
+* [Automatisches Entpacken] Die Neuberechnung nur des Packings ohne Änderung der Ausrichtung der UV führt zu einem Absturz
 * [Drag &amp; Drop] Verzögerung aufgrund externer Ressourcen wird mehrmals vorgeladen
-* [UI] Drag-and-Drop-Ressourcen-Miniaturansicht kann Warnmeldung im Ebenenstapel ausblenden
-* [Leistung] Maskierte UV-Kacheln werden noch berechnet
+* [UI] Miniaturansicht der Ressource per Drag &amp; Drop kann Warnmeldung im Ebenenstapel ausblenden
+* [Performance] Maskierte UV-Kacheln werden noch berechnet
 * [USD] Falsche Markierung für die Bereichsauswahl
 * [Ressource] Bitmapbild wird beschädigt, nachdem im normalen Kanal gemalt und das Projekt gespeichert wurde
-* [USD] Unterstützung für linksläufige Vertex-Maschenreihenfolge
+* [USD] Unterstützung für die Bestellung von Meshs für den linkshändigen Scheitelpunkt
 * [Substance] Auf die Standardeinstellung zurücksetzen, um immer auf null für Winkel-Widget zurückzusetzen
-* [Engine] Das Malen mit einer SVG in einer Schablone funktioniert nicht
-* [Engine] Normale Pinselstriche brechen nach einem Rückgängigmachen des Vorgangs ab.
-* [Inhalt] Grafik-zu-Material-Filter hat falsche Alpha-Überblendung und falschen Farbraum
+* [Engine] Das Malen mit einem SVG in einer Schablone funktioniert nicht
+* [Engine] Normalen-Map-Pinselstriche brechen nach einem Rückgängigmachen
+* [Inhalt] Grafik zu Materialfilter hat falsche Alpha-Überblendung und falschen Farbraum
 * [Inhalt] Füllmethoden auf dem Tile Generator funktionieren nicht
 * [Inhalt] Histogramm-Scanfilter erzeugt in einigen Fällen Streifenbildung
-* [Inhalt] Bei der stilisierten Hintergrundbeleuchtung wird das gemalte Height nicht berücksichtigt.
+* [Inhalt] Baking geführt stilisierte Beleuchtung berücksichtigt kein gemaltes Height
 * [Python] Unerwarteter Fehler beim Abrufen instanzierter Ebeneninformationen nach Shader-Änderung
 
 <b>Bekannte Probleme</b>:
 
-* [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Absturz]&#x200B;[Linux]&#x200B;[AMD] Ziehen und Ablegen von Ressourcen im Ebenenstapel unter Wayland OS
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Crash]&#x200B;[Python] USD-Export, ausgelöst durch TextureStateEvent
+* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* [Absturz][Linux][AMD] Ziehen und Ablegen von Ressourcen im Ebenenstapel unter Wayland OS
+* [Regression][UI] Kontextmenü auf HD-Bildschirmen ist zu klein
+* [Absturz][Python] USD durch TextureStateEvent ausgelöst
 * [Speichern] Spp-Projektdatei geht verloren, wenn &quot;Speichern unter&quot; fehlschlägt
 * [MacOS Intel] Absturz beim Importieren einiger Vorgaben
-* [Illustrator] Ai-Dateien können nach Serverabsturz nicht importiert werden, ohne Painter neu zu starten
+* [Illustrator] Ai-Dateien können nach dem Server-Absturz nicht importiert werden, ohne Painter neu zu starten
 * [Importieren] Assets mit demselben Namen, aber unterschiedlichen Erweiterungen werden überschrieben

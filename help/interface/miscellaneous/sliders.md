@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/miscellaneous/sliders.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/sliders.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie mit den Reglern in Substance 3D Painter numerische Werte und Parameter präzise anpassen können.
 helpx_creative_field: ""

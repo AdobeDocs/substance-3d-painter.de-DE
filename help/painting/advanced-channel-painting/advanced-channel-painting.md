@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/advanced-channel-painting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting.html"
 breadcrumb-title: ''
-description: Lerne erweiterte Techniken für das Kanalmalen in Substance 3D Painter kennen. So kannst du genau kontrollieren, wie du direkt auf bestimmten Strukturen malen kannst.
+description: Lerne erweiterte Techniken für das Kanalmalen in Substance 3D Painter kennen. Erfahre, wie du direkt auf bestimmten Textur-Kanälen Malen erstellst, um präzise steuern zu können.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Advanced channel painting
 helpx_experience_level: ""
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Erweiterte Kanalbemalung
 
-Einige der Standardkanäle, die in Shadern verwendet werden, können für erweiterte oder komplexe Effekte übermalt werden. Zum Beispiel beim Malen von Height-Informationen, die in eine normale Map konvertiert werden.
+Einige der Standardkanäle, die in Shadern verwendet werden, können für erweiterte oder komplexe Effekte übermalt werden. Zum Beispiel beim Malen von Height-Informationen, die in eine Normalen-Map konvertiert werden.
 
 Die derzeit verfügbaren Kanäle:
 
-* [Malen mit umgebender Verdeckung](ambient-occlusion-painting.md)
+* [Ambient occlusion Painting](ambient-occlusion-painting.md)
 * [Flow Map Painting](flow-map-painting.md)
-* [Height Map Painting](height-map-painting.md)
-* [Normales Kartenmalen](normal-map-painting.md)
+* [Höhen-Map Painting](height-map-painting.md)
+* [Normalen-Map Painting](normal-map-painting.md)

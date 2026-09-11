@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface.html"
 breadcrumb-title: ''
-description: Erfahren Sie mehr über die Substance 3D Painter-Benutzeroberfläche, um Bedienfelder, Menüs und Werkzeuge für effiziente Workflows zum Texturmalen zu verstehen.
+description: Erfahren Sie mehr über die Substance 3D Painter-Benutzeroberfläche, um Bedienfelder, Menüs und Werkzeuge für effiziente Workflows zum Malen mit Texturen zu verstehen.
 helpx_creative_field: ""
 helpx_description: Painter > Interface
 helpx_experience_level: ""

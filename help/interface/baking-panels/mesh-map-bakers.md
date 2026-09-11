@@ -1,6 +1,6 @@
 ---
 title: Baker für Mesh-Maps
-description: Erfahren Sie, wie Sie mit dem Bedienfeld für Gittermaskenbaker steuern, welche Gittermappen über Textursätze hinweg gebacken werden.
+description: Erfahren Sie, wie Sie das Bedienfeld "Mesh-Map Baker" verwenden, um zu steuern, welche Mesh-Map auf verschiedenen Textursätzen Baking geführt werden.
 source-git-commit: 987b94e15c1dbe4ddf392ea7878126ecdf989423
 workflow-type: tm+mt
 source-wordcount: '716'
@@ -9,78 +9,78 @@ ht-degree: 0%
 ---
 
 
-# Fenster &quot;Gittermaskenbäcker&quot;
+# Bedienfeld &quot;Mesh-Map Baker&quot;
 
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../assets/baking/mesh-map-bakers-panel.png" alt=""/></td>
-    <td style="border: 0;" valign="top">Im Bereich "<strong>Mesh Map Baker"</strong> können Sie auswählen, welche Maps gebacken werden sollen, und auf die Einstellungen für jeden Map-Typ zugreifen.</td>
+    <td style="border: 0;" valign="top">Im Bereich "<strong>Mesh-Map Baker"</strong> können Sie auswählen, welche Maps Baking geführt werden sollen, und auf die Einstellungen für jeden Map-Typ zugreifen.</td>
   </tr>
 </table>
 
 ## Steuerelemente pro Karte
 
-Für jede Karte in der Liste der Gitterzuordnungen steht eine Reihe von Steuerelementen zur Verfügung:
+Für jede Karte in der Liste der Mesh-Map steht eine Reihe von Steuerelementen zur Verfügung:
 
 ![](../../assets/baking/mesh-map-controls.png)
 
-1. **Überprüfen** oder **Deaktivieren** für die Zuordnung.
-1. **Die Karte im Ansichtsfenster visualisieren**.
-1. **Schnellbake** nur diese Karte.
-1. Aktivieren Sie **Automatische Wiederherstellung** für die ausgewählte Netzzuordnung. **Automatisch gebrochene** Maps werden automatisch wiederhergestellt, wenn Änderungen an den Backparametern oder der Neigungskorrektur vorgenommen werden.
-1. **Synchronisieren Sie** Einstellungen für diesen Zuordnungstyp über Textursätze hinweg. Deaktivieren Sie diese Option, um die Backeinstellungen für einzelne Maps anzupassen.
+1. **Überprüfen** oder **Deaktivieren** des Bakings für die Zuordnung.
+1. **Die Map im Viewport visualisieren**.
+1. **Quick Baking** nur diese Zuordnung.
+1. Aktivieren Sie **Automatische Aktualisierung** für den ausgewählten Mesh-Map. **Karten mit automatischem Rebaked** werden automatisch umgebrochen, wenn Änderungen an den Baking-Parametern oder der Verzerrungskorrektur vorgenommen werden.
+1. **Einstellungen für diesen Zuordnungstyp auf allen Textursätzen synchronisieren**. Deaktivieren Sie diese Option, um die Baking-Einstellungen für einzelne Maps anzupassen.
 
-## Verwalten von Einstellungen für Mesh-Maps
+## Mesh-Map-Einstellungen verwalten
 
-Es gibt mehrere Möglichkeiten, Ihr Projekt so zu verwalten, dass Backeinstellungen in Gitterkarten oder Texturensätzen gemeinsam verwendet werden. Bei komplexen Projekten hilft es, den Backvorgang zu vereinfachen, wenn Sie wissen, wie Einstellungen freigegeben werden.
+Es gibt mehrere Möglichkeiten, Ihr Projekt so zu verwalten, dass die Baking-Einstellungen von Mesh-Map oder Textursätzen gemeinsam genutzt werden. Bei komplexen Projekten hilft es, den Baking führ zu vereinfachen, wenn du die Freigabeeinstellungen verstehst.
 
-Es gibt zwei Arten von Einstellungen, die Sie für verschiedene Textursätze freigeben können:
+Es gibt zwei Einstellungstypen, die Sie für alle Textursatz freigeben können:
 
-* Backeinstellungen: Dies sind Parameter, die Sie in den Einstellungsfenstern **Allgemeine Einstellungen** und **Mesh Map ändern können**.
-* Status überprüfen: Verwenden Sie diese, um das Backen für bestimmte Gitterzuordnungen zu aktivieren oder zu deaktivieren.
+* Baking-Einstellungen: Dies sind Parameter, die Sie in den **allgemeinen Einstellungen** und den **Mesh-Map-Einstellungsbedienfeldern** ändern können.
+* Status überprüfen: Verwenden Sie diese, um das Baking für bestimmte Mesh-Map ein- oder auszuschalten.
 
-### Synchronisieren von Backeinstellungen über Textursätze hinweg
+### Synchronisieren von Baking-Einstellungen zwischen Textursätzen
 
-Wenn Ihr Projekt über mehrere Textursätze verfügt, werden die Optionen zum Synchronisieren zwischen den Textursätzen im Bedienfeld &quot;**Gittermapbakers&quot; angezeigt**.
+Wenn Ihr Projekt über mehrere Textursatz verfügt, werden die Optionen zum Synchronisieren zwischen Textursätzen im Bereich &quot;**Mesh-Map Baker&quot; angezeigt**.
 
 ![](../../assets/baking/synchronize-texture-sets.png)
 
-Wenn Sie die Schaltfläche **Einstellungen synchronisieren** oben im Bereich **Gitterzuordnungs-Bäcker** auswählen, wird das Synchronisierungsfenster für **Allgemeine Einstellungen** geöffnet.
+Wenn Sie die Schaltfläche **Einstellungen synchronisieren** oben im Bedienfeld **Mesh-Map-Baker** auswählen, wird das **Allgemeine Synchronisierungsfenster für Einstellungen** geöffnet.
 
 ![](../../assets/baking/synchronize-common-settings.png)
 
-In diesem Fenster können Sie auswählen, welche Textursätze für die Synchronisierung allgemeiner Einstellungen verwendet werden sollen. Wenn alle Textursätze ausgewählt sind, werden sie durch Ändern der allgemeinen Einstellungen in allen anderen Textursätzen geändert.
+In diesem Fenster können Sie auswählen, auf welchen Textursätzen allgemeine Einstellungen synchronisiert werden sollen. Wenn alle Textursatz ausgewählt sind, werden sie durch Ändern der allgemeinen Einstellungen in einem beliebigen Textursatz für alle anderen Textursatz geändert.
 
-Wenn Sie die Schaltfläche **Einstellungen synchronisieren** neben einer einzelnen Netzzuordnung verwenden, können Sie in ähnlicher Weise Textursätze auswählen, um die für die Netzzuordnung spezifischen Einstellungen freizugeben.
+Wenn Sie die **Schaltfläche &quot;Einstellungen synchronisieren&quot;** neben einer einzelnen Mesh-Map verwenden, können Sie Textursatz auswählen, um die für die Mesh-Map spezifischen Einstellungen freizugeben.
 
 ![](../../assets/baking/synchronize-ao-settings.png)
 
-#### Einstellungen für nicht synchronisierte Texturensätze freigeben
+#### Einstellungen für nicht synchronisierte Textursatz freigeben
 
-Manchmal möchten Sie vielleicht Netzzuordnungen über Textursätze hinweg nicht synchronisieren, aber dennoch die Backeinstellungen von einem Textursatz in einen anderen kopieren.
+Manchmal ist es sinnvoll, die Mesh-Map auf verschiedenen Textursätzen nicht zu synchronisieren, die Baking-Einstellungen sollten jedoch von einem Textursatz auf einen anderen kopiert werden.
 
-Um allgemeine Einstellungen in bestimmte Textursätze zu kopieren, ohne sie zu synchronisieren, wählen Sie **Alle Einstellungen mit weiteren Textursätzen synchronisieren...** aus dem Dropdown-Menü **Gittermapbaker**.
+Um allgemeine Einstellungen auf bestimmte Textursatz zu kopieren, ohne sie zu synchronisieren, wählen Sie **Alle Einstellungen auf weitere Textursatz synchronisieren...** aus der Dropdown-Liste **Mesh-Map-Baker**.
 
-Sie können auch **Alle Einstellungen mit allen Textursätzen synchronisieren** verwenden, um die Einstellungen in alle Textursätze im Projekt zu kopieren.
+Sie können auch **Alle Einstellungen mit allen Textursätzen synchronisieren** verwenden, um die Einstellungen in alle Textursatz im Projekt zu kopieren.
 
 ![](../../assets/baking/copy-common-baking-settings.png)
 
-Wenn Sie die Einstellungen für eine einzelne Gitterzuordnung in bestimmte Texturensätze kopieren möchten:
+Wenn Sie die Einstellungen für eine einzelne Mesh-Map auf einen bestimmten Textursatz kopieren möchten, gehen Sie wie folgt vor:
 
-1. Klicken Sie mit der rechten Maustaste auf die Gitterzuordnung.
-1. Wählen Sie **Einstellungen für &lt;Mesh Map> auf weitere Textursätze anwenden...**
+1. Klicken Sie mit der rechten Maustaste auf die Mesh-Map.
+1. Wählen Sie **Mesh-Map-Einstellungen auf weitere Textursatz anwenden...**
 
 ![](../../assets/baking/copy-ao-settings.gif)
 
-*Im obigen Beispiel beginnt jeder Textursatz mit unterschiedlichen Einstellungen für AO. Ohne die zu synchronisierende AO-Gitterzuordnung verwenden wir **Umgebungseinstellungseinstellungen auf weitere Textursätze anwenden...**, damit wir die AO-Einstellungen für den neuen Textursatz von derselben Grundlinie aus ändern können.*
+*Im obigen Beispiel beginnt jeder Textursatz mit unterschiedlichen Einstellungen für AO. Ohne die zu synchronisierende AO-Mesh-Map festzulegen, verwenden wir **Umgebungsabschattungseinstellungen auf weitere Textursatz anwenden...**, damit wir die AO-Einstellungen für den neuen Textursatz von derselben Grundlinie aus ändern können.*
 
-### Verwalten des Überprüfungsstatus für Netzzuordnungen
+### Verwalten des Überprüfungsstatus für Mesh-Map
 
-Der Überprüfungsstatus bestimmt, ob eine bestimmte Karte enthalten ist, wenn Sie Gitterkarten backen. Es gibt viele Möglichkeiten, den Überprüfungsstatus für den aktuellen Textursatz zu verwalten:
+Der Überprüfungsstatus bestimmt, ob eine bestimmte Map beim Baking von Mesh-Map einbezogen wird. Es gibt viele Möglichkeiten, den Überprüfungsstatus für den aktuellen Textursatz zu verwalten:
 
 * Aktivieren oder deaktivieren Sie einzelne Karten.
-* Verwenden Sie **Alle überprüfen** oder **Alle deaktivieren**, um alle Netzzuordnungen zu überprüfen oder zu deaktivieren.
-* Verwenden Sie **Überprüfte Gitterzuordnungen umkehren** aus dem Dropdown-Menü **Gitterzuordnungs-Bäcker**, um den Überprüfungsstatus aller Zuordnungen zu ändern.
+* Verwenden Sie **Alle überprüfen** oder **Alle deaktivieren**, um alle Mesh-Map zu überprüfen oder zu deaktivieren.
+* Verwenden Sie **Aktivierte Mesh-Map** aus der Dropdown-Liste **Mesh-Map-Baker umkehren**, um den Überprüfungsstatus aller Maps zu ändern.
 
 ![](../../assets/baking/click-drag-check.gif)
 
@@ -90,10 +90,10 @@ Der Überprüfungsstatus bestimmt, ob eine bestimmte Karte enthalten ist, wenn S
 
 ![](../../assets/baking/invert-checked.gif)
 
-*Im obigen Beispiel verwenden wir **Überprüfte Gitterzuordnungen umkehren**, um schnell zwischen der Auswahl zu wechseln, und backen dann Gitterzuordnungen, die noch nicht gebacken wurden.*
+*Im obigen Beispiel verwenden wir **Aktivierte Mesh-Map umkehren**, um schnell zwischen den Auswahlbereichen zu wechseln. Anschließend werden Mesh-Map Baking geführt, die noch nicht Baking geführt wurden.*
 
-Wenn Sie mit mehreren Textursätzen arbeiten, können Sie auch den Überprüfungsstatus von Maps auf andere Textursätze kopieren, indem Sie **Auf weitere Textursätze anwenden...** aktivieren oder den Überprüfungsstatus auf alle Textursätze kopieren, wobei **Auf alle Textursätze anwenden aktiviert ist**.
+Wenn Sie mit mehreren Textursätzen arbeiten, können Sie den Überprüfungsstatus von Zuordnungen auch auf andere Textursatz kopieren, indem Sie **Auf weitere Textursatz überprüft anwenden...** auswählen oder den Überprüfungsstatus auf alle Textursatz kopieren, bei denen **Auf alle Textursatz überprüft anwenden**.
 
 ![](../../assets/baking/copy-checked-status.gif)
 
-*Im obigen Beispiel haben wir das Height, die gebogenen Normalen oder die Deckkraft im Textursatz **Material.001**&#x200B;noch nicht gebacken. Diese Netzzuordnungen sind bereits im **Material**-Textursatz ausgewählt. Daher verwenden wir **Auf weitere Textursätze anwenden...**&#x200B;und wählen **Material.001**, um den Überprüfungsstatus zu kopieren. Anschließend backen wir die Maps zusammen - beachten Sie, dass die Visualisierung die Gittermaps zweimal durchläuft, während die Maps gebacken werden - da sie für beide Textursätze gebacken werden.*
+*Im obigen Beispiel haben wir das Height, die bent normals oder die Deckkraft im Textursatz **Material.001**noch nicht Baking geführt. Diese Mesh-Map sind bereits im Textursatz &quot;**Material**&quot; ausgewählt. Daher verwenden wir &quot;**Auf weitere Textursatz anwenden&quot; aktiviert...**und wählen &quot;**Material.001**&quot;, um den Überprüfungsstatus zu kopieren. Anschließend werden die Maps Baking geführt. Beachten Sie, dass die Visualisierung zweimal durch die Mesh-Map navigiert, während die Maps Baking geführt werden. Das liegt daran, dass sie für beide Textursatz Baking geführt werden.*

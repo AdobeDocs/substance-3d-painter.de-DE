@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Lib Random Shader-API-Referenz für Substance 3D Painter zu, um zufällige Werte in der Entwicklung benutzerdefinierter Shader zu generieren.
+description: Greifen Sie auf die Lib Random Shader-API-Referenz für Substance 3D Painter zu, um zufällige Werte in der benutzerdefinierten Shader-Entwicklung zu generieren.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Random - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-defines.glsl
 ```
 
 
-Eine 2D-Struktur für blaues Rauschen mit Skalarwerten
+Eine 2D-Rauschen-Textur in Blau mit Skalarwerten
 
 ```
 //: param auto texture_blue_noise 
@@ -40,14 +40,14 @@ uniform sampler2D texture_blue_noise;
 ```
 
 
-Strukturauflösung für blaues Rauschen
+Blaue Rauschen-Textur
 
 ```
 const ivec2 texture_blue_noise_size = ivec2(256);
 ```
 
 
-Aktuelle Frame-Zufallswert
+Aktuelle Zufallsverteilung des Rahmens
 
 ```
 //: param auto random_seed 
@@ -69,7 +69,7 @@ float getBlueNoiseThreshold()
 ```
 
 
-Erhalten Sie einen einheitlichen Zufallswert basierend auf Pixelkoordinaten und Frame-ID.
+Erhalten Sie einen einheitlichen zufälligen Wert basierend auf Pixelkoordinaten und Rahmen-ID.
 
 ```
 float getBlueNoiseThresholdTemporal() 
@@ -114,7 +114,7 @@ vec2 fibonacci2D(int i, int nbSamples)
 ```
 
 
-Gibt das i *th*-Paar aus der Fibonacci-Sequenz zurück. nbSample ist erforderlich, um eine einheitliche Verteilung zu erhalten. Bei dieser Version wird eine pseudozufällige Drehung pro Frame und Pixel angewendet.
+Gibt das i *th*-Paar aus der Fibonacci-Sequenz zurück. nbSample ist erforderlich, um eine einheitliche Verteilung zu erhalten. Bei dieser Version wird eine pseudozufällige Drehung pro Rahmen und Pixel angewendet.
 
 ```
 vec2 fibonacci2DDitheredTemporal(int i, int nbSamples) 

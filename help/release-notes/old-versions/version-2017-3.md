@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2017.3 , um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Freigabedatum: *28. September 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Einer der neuen Exporteure, die in dieser Version enthalten sind, ist die Unterstützung für Adobe-Standardmaterialien, die mit Adobe Dimension (früher Adobe Project Felix) verwendet werden sollen. Sie können das Szenengitter und seine Texturen exportieren, um sie mit einem Klick in Project Felix zu importieren. Um darauf zuzugreifen, wählen Sie einfach &quot;**Adobe Standard Material**&quot; im Fenster &quot;Texturen exportieren&quot; aus. Weitere Informationen finden Sie unter: [http://www.adobe.com/de/products/dimension.html](https://www.adobe.com/de/products/dimension.html)
+Einer der neuen Exporteure, die in dieser Version enthalten sind, ist die Unterstützung für Adobe-Standardmaterialien, die mit Adobe Dimension (früher Adobe Project Felix) verwendet werden sollen. Sie können den Szene-Mesh und seine Texturen exportieren, um sie mit einem Klick in Project Felix zu importieren. Um darauf zuzugreifen, wählen Sie einfach &quot;**Adobe Standard Material**&quot; im Fenster &quot;Texturen exportieren&quot; aus. Weitere Informationen finden Sie unter: [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 Sie können auch unseren Blogpost darüber lesen: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -38,7 +38,7 @@ Sie können auch unseren Blogpost darüber lesen: <https://www.allegorithmic.com
 
 ![](../../assets/gltf-export.jpg)
 
-Wir haben außerdem Unterstützung für das Dateiformat **glTF** mit dem Export des **Szenengitters** und der **PBR-Texturen** (Metallisch/Raueit) hinzugefügt. Um darauf zuzugreifen, wählen Sie einfach &quot;**glTF PBR Metal Roughness**&quot; im Fenster &quot;Exporttexturen&quot; aus. **glTF** ist ein Open-Source-Dateiformat, das von der Gruppe Khronos geleitet wird. Sie können Ihre glTF-Datei in **Windows 10** anzeigen oder einfach einen WebGL-Viewer wie [**Babylon**](http://sandbox.babylonjs.com/) verwenden.
+Wir haben außerdem Unterstützung für das Dateiformat **glTF** mit dem Export des **Szenengitters** und der **PBR-Texturen** (Metallisch/Raueit) hinzugefügt. Um darauf zuzugreifen, wählen Sie im Fenster &quot;Exporteinstellungen&quot; einfach &quot;**glTF PBR Metal Rauheit**&quot; aus. **glTF** ist ein Open-Source-Dateiformat, das von der Gruppe Khronos geleitet wird. Sie können Ihre glTF-Datei in **Windows 10** anzeigen oder einfach einen WebGL-Viewer wie [**Babylon**](http://sandbox.babylonjs.com/) verwenden.
 
 Weitere Informationen finden Sie unter: <https://github.com/KhronosGroup/glTF>
 
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter: <https://github.com/KhronosGroup/glTF>
 ![](../../assets/autosave-details.png)
 
 In dieser Version wurde auch ein neues Plug-In hinzugefügt, mit dem **Sicherungen** des derzeit geöffneten Projekts erstellt werden können. Es wird eine Sicherungsdatei auf der Seite des derzeit geöffneten Projekts erstellt.\
-Aus diesem Grund haben wir auch den Eintrag &quot;**Als Kopie speichern**&quot; im Menü &quot;Datei&quot; hinzugefügt. Das **automatische Speichern** kann gestoppt werden, indem das Plug-In selbst deaktiviert wird. Auf die **Einstellungen** kann über den Konfigurationsbereich **&#x200B;**&#x200B;zugegriffen werden. Wenn die Warnungszeitverzögerung erreicht ist, wird eine **Fortschrittsleiste** unter der Schaltfläche in der Hauptsymbolleiste angezeigt, die es ermöglicht, bei Bedarf einige Minuten lang zu schnüffeln (praktisch, wenn Sie vor der Sicherung etwas fertigstellen möchten).
+Aus diesem Grund haben wir auch den Eintrag &quot;**Als Kopie speichern**&quot; im Menü &quot;Datei&quot; hinzugefügt. Das **automatische Speichern** kann gestoppt werden, indem das Plug-In selbst deaktiviert wird. Auf die **Einstellungen** kann über den Konfigurationsbereich **** zugegriffen werden. Wenn die Warnungszeitverzögerung erreicht ist, wird eine **Fortschrittsleiste** unter der Schaltfläche in der Hauptsymbolleiste angezeigt, die es ermöglicht, bei Bedarf einige Minuten lang zu schnüffeln (praktisch, wenn Sie vor der Sicherung etwas fertigstellen möchten).
 
 Wenn eine Sicherung erstellt wird, das Projekt aber nicht gespeichert wurde (auch Untilted genannt), wird die Sicherung im Ordner **Documents/Allegorithmic/Substance Painter/autosave** gespeichert. Andernfalls befindet sich die Sicherung neben dem Projekt selbst (es sei denn, der Pfad wird vom Konfigurationsbereich überschrieben).
 
@@ -55,11 +55,11 @@ Wenn eine Sicherung erstellt wird, das Projekt aber nicht gespeichert wurde (auc
 
 ![](../../assets/gradient-rust.jpg)
 
-Der **Verlaufsfilter** wurde vollständig überarbeitet. Die Funktion ähnelt der des **Verlaufsumsetzung**-Knotens, der in **Substance Designer** verfügbar ist. Es unterstützt jetzt bis zu **10 verschiedene Farben**, mit der Möglichkeit, **anzugeben, wo sich die Farbe innerhalb** des Farbverlaufs **&#x200B;**&#x200B;befindet, und damit viele neue Türen zu öffnen. Dadurch können weitere **erweiterte Farbmuster**, aber auch **Relaishöhenzuordnungen**&#x200B;erstellt und **neue Formen**&#x200B;erstellt werden.
+Der **Verlaufsfilter** wurde vollständig überarbeitet. Die Funktion ähnelt der des **Verlaufsumsetzung**-Knotens, der in **Substance Designer** verfügbar ist. Es unterstützt jetzt bis zu **10 verschiedene Farben**, mit der Möglichkeit, **anzugeben, wo sich die Farbe innerhalb** des Farbverlaufs ****befindet, und damit viele neue Türen zu öffnen. Dadurch können weitere **erweiterte Farbmuster**, aber auch **Relaishöhenzuordnungen**erstellt und **neue Formen**erstellt werden.
 
 Der Hauptregler (Farbmenge) legt die Anzahl der Gesamtfarben fest, die zum Erstellen des Verlaufs verwendet werden. Die Schaltfläche direkt unten definiert den Farbüberblendmodus (sRGB oder Linear). Dies ist wichtig, wenn Sie eine ordnungsgemäße Überblendung zwischen Farben haben möchten. Wenn Sie beispielsweise ein reines Rot und ein reines Grün mischen, erhalten Sie dazwischen ein schönes Gelb. Dies ist nicht der Fall, wenn die Schaltfläche deaktiviert ist (stattdessen wird dunkelbraun angezeigt). Wenn Sie das Height oder andere Graustufenkanäle neu zuordnen, sollte diese Schaltfläche deaktiviert sein, um eine Gamma-Konvertierung zu vermeiden.
 
-Über die Schaltfläche oben kann das Ergebnis des Filters durch den Verlauf selbst ersetzt werden, um den Verlauf in der 2D-Ansicht darzustellen.
+Mit der Schaltfläche oben kann das Filterergebnis durch den Verlauf selbst ersetzt werden, um den Verlauf in der 2D-Ansicht darzustellen.
 
 ![](../../assets/gradient-height-demo.jpg)
 
@@ -67,15 +67,15 @@ Der Hauptregler (Farbmenge) legt die Anzahl der Gesamtfarben fest, die zum Erste
 
 ![](../../assets/tabs-top.png)
 
-In dieser Version befinden sich die **Registerkarten** der verschiedenen Docks der Anwendung jetzt **oben anstatt unten** in ihren jeweiligen Fenstern. Diese Auswahl wurde getroffen, um die Lesbarkeit der Benutzeroberfläche zu verbessern, aber auch, um mit anderen Anwendungen konsistenter zu sein. Nach dieser Änderung folgt die Einführung des **kleinen Kreuzes** neben dem Registerkartentitel, um es **einfach zu schließen**. Es ist auch möglich, **mit der rechten Maustaste** auf die Registerkarte zu klicken, um ein **Kontextmenü** aufzurufen (mit dem Sie das Fenster schließen oder abdocken können). Um das Fenster abzudocken, ziehen Sie die Registerkarte einfach aus dem Fensterbereich heraus.
+In dieser Version befinden sich die **Registerkarten** der verschiedenen Docks der Anwendung jetzt **oben anstatt unten** in ihren jeweiligen Fenstern. Diese Auswahl wurde getroffen, um die Lesbarkeit der Benutzeroberfläche zu verbessern, aber auch, um mit anderen Anwendungen konsistenter zu sein. Nach dieser Änderung folgt die Einführung des **kleinen Kreuzes** neben dem Registerkartentitel, um es **einfach zu schließen**. Es ist auch möglich, **mit der rechten Maustaste** auf die Registerkarte zu klicken, um ein **Kontextmenü** aufzurufen (mit dem Sie das Fenster schließen oder abdocken können). Ein Tastaturbefehl zum Abdocken des Fensters besteht darin, die Registerkarte einfach aus dem Fensterbereich heraus zu ziehen und abzulegen.
 
-Es ist jetzt auch möglich, **Projekte** zu öffnen, indem Sie sie einfach **per Drag &amp; Drop aus dem Datei-Explorer in den Viewport** ziehen. Dies funktioniert auch mit **mesh**-Dateien: Durch Ziehen und Ablegen einer Gitterdatei in einem **leeren Viewport** wird das **neue Projektfenster** geöffnet. Wenn Sie dies jedoch in einem **bereits geöffneten Projekt** tun, wird das **Projektkonfigurationsdialogfeld** geöffnet, sodass ein Gitter schnell **aktualisiert werden kann**.
+Es ist jetzt auch möglich, **Projekte** zu öffnen, indem Sie sie einfach **per Drag &amp; Drop aus dem Explorer in den Viewport** ziehen. Dies funktioniert auch mit **Mesh**-Dateien: Durch Ziehen und Ablegen einer Meshdatei in einen **leeren Viewport** wird das **neue Projektfenster** geöffnet. Wenn Sie dies jedoch in einem **bereits geöffneten Projekt** tun, wird das **Projektkonfigurationsdialogfeld** geöffnet, sodass ein Mesh schnell **aktualisiert werden kann**.
 
 **Hinweis** : Wenn Sie Probleme mit dem Ziehen und Ablegen haben, stellen Sie sicher, dass Sie [unsere FAQ zum Thema](../../technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md) überprüfen.
 
 ### Geschwindigkeitssteigerungen
 
-Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistungsverbesserung für die Verwaltung des GPU-Speichers (VRam). Einheitliche Farben (wie z. B. Füllebenen) werden jetzt in kleinere Texturen komprimiert, wodurch ihre Übertragung zwischen dem Hauptspeicher und dem GPU-Speicher beschleunigt wird, aber auch ihr Speicherbedarf und ihre Berechnungszeit reduziert werden. Dies sollte besonders beim Öffnen großer Projekte und beim Erreichen der Grenzen des GPU-Speichers sichtbar sein.
+Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistungsverbesserung für die Verwaltung des GPU-Speichers (VRam). Einheitliche Farben (z. B. Füllebenen) werden jetzt in kleinere Texturen komprimiert, wodurch ihre Übertragung zwischen dem Hauptspeicher und dem GPU-Speicher beschleunigt wird, aber auch ihr Speicherbedarf und ihre Berechnung reduziert werden. Dies sollte besonders beim Öffnen großer Projekte und beim Erreichen der Grenzen des GPU-Speichers sichtbar sein.
 
 ## Versionshinweise
 
@@ -130,7 +130,7 @@ Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistu
 * Absturz beim Löschen mehrerer Unterböden
 * Absturz beim Umschalten von einem Level auf einen anderen während einer Motorberechnung
 * [Mac] Absturz auf der Intel-GPU während der Engine-Berechnungen
-* [Mac]&#x200B;[Viewport] Fehlerhafte Bewegungen, wenn Dithering aktiviert ist
+* [Mac][Viewport] Fehlerhafte Bewegungen, wenn Dithering aktiviert ist
 * [Mac] MacOS 10.13 wird in der Protokolldatei als &quot;Unbekannte Version&quot; erkannt
 * [Bäcker] Backen mit einem Käfig funktioniert nicht mehr
 * [Ebenen] Strg + C (Aktion kopieren) funktioniert nicht mehr
@@ -163,7 +163,7 @@ Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistu
 * [Ebene] Legen Sie die Standardeinstellung für die Kachelung standardmäßig auf 1 fest.
 * [Shelf] Verbesserter Verlaufsfilter zur Unterstützung von 10 dynamischen Farben
 * [Shelf] Fügen Sie in der Standardabfrage des Mini-Shelf ein Leerzeichen hinzu
-* [Shelf] Hinzufügen einer Aktion &quot;In Explorer öffnen&quot; für lokale Ressourcen im Shelf
+* [Regal] Hinzufügen einer Aktion &quot;Im Explorer öffnen&quot; für lokale Ressourcen im Regal
 * [Shelf] Vorlage und Shader für Adobe Material Standard hinzufügen (Project Felix)
 * [Shelf] Erhöhen der maximalen Kachelung auf 128 in den Materialschichtschattierungen
 * [Shelf] Zusätzliche Sobelkrümmung für Mikrodetails von Maskengeneratoren

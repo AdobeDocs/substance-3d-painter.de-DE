@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-3.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2.3, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 2.3
 
-**Substance Painter 2.3** verbessert die Skript-API, um ihr erstes offizielles Plug-in zu veröffentlichen: einem Photoshop-Export mit dem vollständigen Ebenenstapel verfügbar.
+**Substance Painter 2.3** verbessert die Skript-API, um ihr erstes offizielles Plug-in zu veröffentlichen: einem Photoshop-Export mit dem vollen verfügbaren Ebenenstapel.
 
 Freigabedatum : *15. September 2016*
 
@@ -30,7 +30,7 @@ Freigabedatum : *15. September 2016*
 
 ![](../../assets/ps-230.jpg)
 
-Mit dieser Version haben wir uns darauf konzentriert, neue Möglichkeiten in der Skript-API hinzuzufügen, um **einen erweiterten Exporteur für Photoshop** zu implementieren. Um auf diesen neuen Export zuzugreifen, klicken Sie einfach auf das Photoshop-Symbol in der Hauptsymbolleiste (wenn das Plug-in aktiviert ist, was standardmäßig der Fall ist). Mit diesem Plug-in kannst du den gesamten Ebenen-Stapel aus einem Texturensatz exportieren und eine ähnliche Struktur innerhalb einer PSD-Datei erstellen. Für diese Funktion **muss Photoshop auf dem Computer installiert sein**, damit die PSD-Datei generiert werden kann.
+Mit dieser Version haben wir uns darauf konzentriert, neue Möglichkeiten in der Skript-API hinzuzufügen, um **einen erweiterten Exporter für Photoshop** zu implementieren. Um auf diesen neuen Export zuzugreifen, klicken Sie einfach auf das Photoshop-Symbol in der Hauptsymbolleiste (wenn das Plug-in aktiviert ist, was standardmäßig der Fall ist). Mit dem Plug-in kannst du den gesamten Ebenenstapel eines Textursatzes exportieren und eine ähnliche Struktur innerhalb einer PSD-Datei erstellen. Für diese Funktion **muss Photoshop auf dem Computer installiert sein**, damit die PSD-Datei generiert werden kann.
 
 Einige Optionen sind über die Schaltfläche &quot;Konfigurieren&quot; im Plug-in-Menü verfügbar:
 
@@ -48,7 +48,7 @@ Unser neuestes Tutorial erklärt den Exportvorgang mit dem neuen Plug-in :
 
 **Hinzugefügt:**
 
-* [Plugin]&#x200B;[Photoshop] Geben Sie an, welches Material/welcher Stapel/welche Kanäle exportiert werden sollen.
+* [Plugin][Photoshop] Geben Sie an, welches Material/welcher Stapel/welche Kanäle exportiert werden sollen.
 * [Scripting] Funktionsnamen weisen einige Inkonsistenzen auf.
 
 **Fest:**

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/creating-custom-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects.html"
 breadcrumb-title: ''
-description: Lerne, wie du in Substance 3D Painter eigene Effekte erzeugst, um die Funktionalität mit eigenen Filtern, Generatoren und Materialien auszubauen.
+description: Erfahren Sie, wie Sie benutzerdefinierte Effekte für Substance 3D Painter erstellen, um die Funktionalität mit benutzerdefinierten Filtern, Generatoren und Materialien zu erweitern.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects
 helpx_experience_level: ""
@@ -24,13 +24,13 @@ Substance-Effekte müssen in **Substance 3D Designer** auf bestimmte Weise erste
 
 >[!NOTE]
 >
-> Benutzerdefinierte Effekte können in ein Projekt der Standardablage importiert werden. Weitere Informationen finden Sie unter : [Elemente werden importiert](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+> Benutzerdefinierte Effekte können in ein Projekt der Standardablage importiert werden. Weitere Informationen finden Sie unter : [Elemente werden importiert](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 Weitere Informationen zum Erstellen benutzerdefinierter Effekte finden Sie auf den folgenden Seiten :
 
 * [Generischer Filter](generic-filter.md)
 * [Kanalspezifischer Filter](channel-specific-filter.md)
 * [Generatoren](generators.md)
-* [Gitterkarte](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
+* [Mesh-Map](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
 * [Gitterbasierte Eingabe](mesh-based-input.md)
 * [Benutzerdaten](user-data.md)

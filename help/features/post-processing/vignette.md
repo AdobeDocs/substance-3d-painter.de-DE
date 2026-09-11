@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing/vignette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
-description: Erfahre, wie du in Substance 3D Painter den Nachbearbeitungseffekt "Vignette" anwendest, um den Viewport abdunkeln zu lassen.
+description: Lerne, wie du in Substance 3D Painter den Nachbearbeitungseffekt "Vignette" einsetzen kannst, um den Viewport an den Rändern abzudunkeln.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Post Processing > Vignette
 helpx_experience_level: ""
@@ -22,6 +22,6 @@ ht-degree: 5%
 
 ![](../../assets/vignette-22.png)
 
-Mit dem Effekt &quot;Vignette&quot; werden die Ecken des Viewports abgedunkelt, um einen Kameraschatten zu simulieren.
+Mit dem Effekt &quot;Vignette&quot; werden die Ecken des Viewports abgedunkelt, um einen Kamera-Schatten zu simulieren.
 
 ![](../../assets/vignette-example-2.jpg)

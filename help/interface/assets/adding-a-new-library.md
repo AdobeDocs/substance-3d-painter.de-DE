@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/assets/adding-a-new-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/adding-a-new-library.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie eine neue Bibliothek zu Substance 3D Painter hinzufügen können, um Ihre Ressourcensammlung zu erweitern und auf weitere Elemente zuzugreifen.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Neue Bibliothek hinzufügen
 
-Es ist möglich, einen neuen Bibliotheksspeicherort hinzuzufügen, falls Sie den Importspeicherort in einen anderen als den Ordner &quot;Dokumente&quot; ändern möchten oder auf dem Datenträger bereits eine Elementsammlung vorhanden ist, auf die Sie in Painter zugreifen möchten. Sie können Ihre Bibliotheken über das Menü &quot;Einstellungen&quot; verwalten. Beachten Sie jedoch, dass **kein Projekt geöffnet sein darf**, um dieses Menü zu verwenden. Nachdem Sie eine neue Bibliothek zu Painter hinzugefügt haben, werden automatisch dieselben (leeren) Ordner erstellt, wie Sie sie im Standardspeicherort des Assets sehen (*alphas*, *colorluts*, *effects* usw.). Wenn Assets in einem bestimmten Ordner abgelegt werden, werden sie genau dieser Verwendung zugewiesen (weitere Informationen finden Sie hier [hier](../../content/importing-assets/adding-content-on-the-hard-drive.md)). Wenn Sie beispielsweise möchten, dass Ihre benutzerdefinierten Graustufenbilder in der Painter-Benutzeroberfläche unter der Bildkategorie angezeigt werden, müssen Sie diese Alphas im Ordner &quot;*alphas*&quot; platzieren.
+Es ist möglich, einen neuen Bibliotheksspeicherort hinzuzufügen, falls Sie den Importspeicherort in einen anderen als den Ordner &quot;Dokumente&quot; ändern möchten oder auf dem Datenträger bereits eine Elementsammlung vorhanden ist, auf die Sie in Painter zugreifen möchten. Sie können Ihre Bibliotheken über das Menü &quot;Einstellungen&quot; verwalten. Beachten Sie jedoch, dass **kein Projekt geöffnet sein darf**, um dieses Menü zu verwenden. Nachdem Sie eine neue Bibliothek zu Painter hinzugefügt haben, werden automatisch dieselben (leeren) Ordner erstellt, wie Sie sie im Standardspeicherort des Assets sehen (*alphas*, *colorluts*, *effects* usw.). Wenn Assets in einem bestimmten Ordner abgelegt werden, werden sie genau dieser Verwendung zugewiesen (weitere Informationen finden Sie hier [hier](../../content/importing-assets/adding-content-on-the-hard-drive.md)). Wenn Sie beispielsweise möchten, dass Ihre benutzerdefinierten Graustufenbilder in der Bildkategorie in der Painter-Benutzeroberfläche angezeigt werden, müssen Sie diese Alphas im Ordner &quot;*alphas*&quot; ablegen.
 
 So fügen Sie eine neue Bibliothek hinzu
 

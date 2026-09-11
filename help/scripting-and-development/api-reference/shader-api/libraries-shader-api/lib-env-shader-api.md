@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Lib Env Shader-API-Referenz für Substance 3D Painter zu, um mit Umgebungskarten und Beleuchtung in benutzerdefinierten Shadern zu arbeiten.
+description: Rufe die Substance 3D Painter-Referenz "Lib Env Shader-API" auf, um mit Umgebungs-Map und Beleuchtung in benutzerdefinierten Shadern zu arbeiten.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-defines.glsl
 ```
 
 
-Parameter des Motors
+Vom Engine bereitgestellte Parameter
 
 ```
 //: param auto texture_environment 
@@ -60,7 +60,7 @@ uniform mat4 irrad_mat_blue;
 ```
 
 
-Helper, der es ermöglicht, die Umgebung zu testen. Die Drehung wird berücksichtigt. Die Umgebungskarte ist eine Panorama-Env-Karte hinter der Szene, deshalb gibt es eine zusätzliche Berechnung von dir Vektor.
+Helfer, der es ermöglicht, die Umgebung zu testen. Die Drehung wird berücksichtigt. Die Umgebungs-Map ist eine Panorama-Env-Map hinter der Szene, deshalb gibt es zusätzliche Berechnung von dir Vektor.
 
 ```
 vec3 envSampleLOD(vec3 dir, float lod) 

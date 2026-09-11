@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/features/effects/generator.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Generatoreffekte in Substance 3D Painter verwenden, um prozedurale Texturen und Muster automatisch zu erstellen.
 helpx_creative_field: ''
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Generatoren
 
-Generatoren sind Substanzen, die eine Maske oder Texturen basierend auf der Gittertopologie [&#x200B; mithilfe von gebackenen Dienstprogrammkarten wie Position, Krümmung und World Space Normal &#x200B;](../../baking/baking.md) generieren.
+Generatoren sind Stoffe, die eine Maske oder Texturen auf der Grundlage der Mesh-Topologie [ mithilfe Baking geführt Dienstprogrammzuordnungen wie &quot;Position&quot;, &quot;Krümmung&quot; und &quot;Welt-Raum-Normale&quot; ](../../baking/baking.md) generieren.
 
 >[!NOTE]
 >
-> Die meisten Generatoren erzeugen monochrome (Schwarz-Weiß-)Texturen, was sie für die Erstellung von Masken, die eine Materialebene steuern, am nützlichsten macht. Es gibt jedoch nichts, was Sie daran hindert, einen Schwarzweißgenerator als Füllebene oder einen Vollfarbgenerator als Maske zu verwenden.
+> Die meisten Generatoren geben Schwarz-Weiß-Texturen aus. Sie eignen sich daher am besten für die Erstellung von Masken, die eine Material-Ebene steuern. Es gibt jedoch nichts, was Sie daran hindert, einen Schwarzweißgenerator als Füllebene oder einen Vollfarbgenerator als Maske zu verwenden.
 
 So fügen Sie einen Generator zu einer Maske hinzu:
 
@@ -47,7 +47,7 @@ So fügen Sie einen Generator zu einer Ebene hinzu:
 ![](../../assets/generators/generator_spectrum.png)
 
 Jeder Generator verfügt über einen Satz von Parametern, mit denen Sie die resultierende Maske optimieren können.\
-Informationen zum Hinzufügen benutzerdefinierter Generatoren in der Ablage finden Sie unter: [Hinzufügen von Inhalt zur Ablage](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Informationen zum Hinzufügen benutzerdefinierter Generatoren zum Regal finden Sie unter: [Hinzufügen von Inhalten zum Regal](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

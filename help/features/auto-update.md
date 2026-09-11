@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/auto-update.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die automatische Ressourcenaktualisierung in Substance 3D Painter verwenden, um Ihre Ressourcenbibliotheken synchronisiert und auf dem neuesten Stand zu halten.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Sie können sich ein kurzes Tutorial ansehen, um einen Überblick über die Funk
 
 ![](../assets/auto_update_red_icon.png)
 
-Um die automatische Aktualisierung <b>1&rbrace; zu aktivieren, klicken Sie unten im Fenster &quot;Elemente&quot; auf das Doppelpfeilsymbol. </b>Dadurch wird das Menü für die automatische Aktualisierung mit allen Einstellungen geöffnet. Aktivieren Sie dann eine der Optionen, die im Abschnitt <b>Automatische Updates</b> verfügbar sind.
+Um die automatische Aktualisierung <b>1} zu aktivieren, klicken Sie unten im Fenster &quot;Elemente&quot; auf das Doppelpfeilsymbol. </b>Dadurch wird das Menü für die automatische Aktualisierung mit allen Einstellungen geöffnet. Aktivieren Sie dann eine der Optionen, die im Abschnitt <b>Automatische Updates</b> verfügbar sind.
 
 ### Automatische Updates
 
@@ -44,7 +44,7 @@ Die Einstellungen für die automatische Aktualisierung legen fest, wie oft und w
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| <b>Bedienfeld &quot;Elemente&quot;</b> | Wenn diese Option aktiviert ist, sucht die automatische Aktualisierung nach Elementen, die in allen derzeit geladenen Bibliotheken aktualisiert werden sollen. Dies schließt das aktuelle Projekt ein. Ressourcen, die im Ebenenstapel verwendet werden, Anzeigeeinstellungen, Shader-Einstellungen usw. werden jedoch nicht aktualisiert. |
+| <b>Bedienfeld &quot;Elemente&quot;</b> | Wenn diese Option aktiviert ist, sucht die automatische Aktualisierung nach Elementen, die in allen derzeit geladenen Bibliotheken aktualisiert werden sollen. Dies schließt das aktuelle Projekt ein. Die im Ebenenstapel verwendeten Ressourcen, Anzeigeeinstellungen, Shader-Einstellungen usw. werden jedoch nicht aktualisiert. |
 | <b>Im Projekt </b> verwendete Ressourcen | Wenn diese Option aktiviert ist, sucht die automatische Aktualisierung nach zu aktualisierenden Elementen, die derzeit importiert und vom aktuellen Projekt verwendet werden. Dies gilt für Ressourcen, die im Ebenenstapel verwendet werden, Anzeigeeinstellungen, Shader-Einstellungen usw. |
 | <b>Alle x Minuten aktualisieren</b> | Steuern Sie, wie oft die Anwendung nach einer Aktualisierung der Ressourcen sucht. Eine Verzögerung von 0 Minuten löst alle paar Sekunden ein Update aus. Beachten Sie, dass eine so geringe Verzögerung Leistungsprobleme verursachen kann. |
 
@@ -71,7 +71,7 @@ Mit den erweiterten Einstellungen können Sie das Verhalten des Aktualisierungsv
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| <b>Elemente überspringen, wenn ihre Parameter nicht übereinstimmen</b> | Wenn diese Option aktiviert ist, werden Ressourcen beim automatischen Update nicht aktualisiert, wenn die neue Version nicht mit der alten Version übereinstimmt. Zum Beispiel, wenn ein Substance-Material Parameter enthält, die in der neuen Version nicht mehr vorhanden sind (weil sie entfernt oder umbenannt wurden), wird die Ressource beim Aktualisierungsprozess ignoriert und stattdessen die alte Version beibehalten. |
+| <b>Elemente überspringen, wenn ihre Parameter nicht übereinstimmen</b> | Wenn diese Option aktiviert ist, werden Ressourcen beim automatischen Update nicht aktualisiert, wenn die neue Version nicht mit der alten Version übereinstimmt. Wenn ein Substance-Material beispielsweise Parameter enthält, die in der neuen Version nicht mehr vorhanden sind (weil sie entfernt oder umbenannt wurden), wird die Ressource beim Aktualisierungsprozess ignoriert und stattdessen die alte Version beibehalten. |
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Je nachdem, wie der Aktualisierungsprozess abläuft, können verschiedene Arten 
 | Problem | Beschreibung |
 | --- | --- |
 | <b>Im Bedienfeld &quot;Elemente&quot; konnte keine Aktualisierung durchgeführt werden</b> | Diese Meldung bedeutet, dass ein Problem verhindert hat, dass das Aktualisierungssystem fortfährt. Erweitern Sie den Ressourcennamen, um weitere Informationen zu erhalten. |
-| <b>(Dateiname).(Format) ist nicht vorhanden. (Ressourcenname)</b> kann nicht neu geladen werden. | Diese Meldung bedeutet, dass die Quelldatei einer Ressource nicht mehr gefunden werden kann (entweder, weil sie verschoben oder entfernt wurde). Eine einfache Lösung besteht darin, die Ressource erneut zu importieren oder im Fenster &quot;Elemente&quot; (über das Kontextmenü) zu verschieben. |
+| <b>(Dateiname).(Format) ist nicht vorhanden. (Ressourcenname)</b> kann nicht neu geladen werden. | Diese Meldung bedeutet, dass die Quelldatei einer Ressource nicht mehr gefunden werden kann (entweder, weil sie verschoben oder entfernt wurde). Die einfache Lösung besteht darin, die Ressource erneut zu importieren oder im Fenster &quot;Elemente&quot; verlagern (über das Kontextmenü). |
 
 ## Alte Projektmeldung
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter Ressourcen per Drag-and-Drop hinzufügen kannst, um Elemente schnell in dein Projekt zu importieren.
 helpx_creative_field: ""
@@ -32,17 +32,17 @@ Dadurch wird das Fenster Ressource importieren geöffnet, in dem Sie steuern kö
 
 ### Importieren in den Viewport
 
-Um ein Material direkt in Ihr Projekt zu importieren und anzuwenden, ziehen Sie es einfach in den Viewport. Beim Ziehen der Datei sollte das Gitter hervorgehoben werden, um anzugeben, auf welchen Teil des Projekts es angewendet wird.
+Um ein Material direkt in Ihr Projekt zu importieren und anzuwenden, ziehen Sie es einfach in den Viewport. Während Sie die Datei ziehen, sollte der Mesh hervorgehoben werden, um anzugeben, auf welchen Teil des Projekts er angewendet wird.
 
-![Gid zeigt Ziehen und Ablegen einer Ressource im Ansichtsfenster an](../../assets/import_dragdrop_material_viewport.gif)
+![Gid zeigt Ziehen und Ablegen einer Ressource in den Viewport an](../../assets/import_dragdrop_material_viewport.gif)
 
-Es ist auch möglich, eine SVG-Datei durch Ziehen und Ablegen in den Viewport zu importieren. Dadurch wird eine neue Ebene mit dem Warp-Projektionsmodus und der Ressource <b>Grafik zu Material</b> erstellt, wodurch Aufkleber leicht erstellt werden können.
+Es ist auch möglich, eine SVG-Datei durch Ziehen und Ablegen in den Viewport zu importieren. Dadurch wird eine neue Ebene mit dem Modus &quot;Projektion verformen&quot; und der Ressource <b>Grafik zu Material</b> erstellt, sodass Aufkleber leicht erstellt werden können.
 
-![Gid zeigt Ziehen und Ablegen einer Ressource im Ansichtsfenster an](../../assets/import_dragdrop_material_svg.gif)
+![Gid zeigt Ziehen und Ablegen einer Ressource in den Viewport an](../../assets/import_dragdrop_material_svg.gif)
 
 ### Importieren in den Ebenenstapel
 
-Wenn du eine Ressource per Drag-and-Drop auf die Ebene ziehst, werden beim Ablegen Ebenen (oder Effekte) erstellt. Möglicherweise wird ein Menü angezeigt, in dem Sie gefragt werden, in welchen Kanal die Ressource gespeichert werden soll, wenn es sich nicht um Substance-Materialien oder -Filter handelt.
+Wenn du eine Ressource per Drag-and-Drop auf die Ebene ziehst, werden beim Ablegen Ebenen (oder Effekte) erstellt. Es wird möglicherweise ein Menü angezeigt, in dem Sie gefragt werden, in welchem Kanal die Ressource gespeichert werden soll, wenn es sich nicht um ein Substance-Material oder einen Filter handelt.
 
 <table>
 <tr style="border: 0;">

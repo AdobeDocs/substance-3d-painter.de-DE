@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2017.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Freigabedatum: *27. Juli 2017*
 
 ![](../../assets/anchor-height-blend-optim.gif)
 
-**Ein neuer Effekttyp** wurde dem Substance Painter hinzugefügt. Neben den bereits vorhandenen Effekttypen **Filter** und **Ebene** finden Sie jetzt den neuen **Ankerpunkt**. Mit diesem neuen Effekt können Sie einen **Speicherort** im **Ebenenstapel** definieren, auf den dann **verwiesen** für den Rest des Projekts in allen anderen Ebenen verwendet werden kann. So kannst du z. B. die Height-Informationen einer Ebene in die Maske einer Ebene direkt darüber einfügen, um eine natürlichere Überblendung zu ermöglichen (siehe GIF oben).
+**Ein neuer Effekttyp** wurde dem Substance Painter hinzugefügt. Neben den bereits vorhandenen Effekttypen **Filter** und **Ebene** finden Sie jetzt den neuen **Ankerpunkt**. Mit diesem neuen Effekt kann ein **Speicherort** im **Ebenenstapel** definiert werden, auf den dann **verwiesen** für den Rest des Projekts in allen anderen Ebenen verwendet werden kann. So kannst du z. B. die Height-Informationen einer Ebene in die Maske einer Ebene direkt darüber einfügen, um eine natürlichere Überblendung zu ermöglichen (siehe GIF oben).
 
 Da der Anker als Effekt fungiert, kann in **vielen Situationen** erstellt werden: den **Inhalt** einer Ebene, die **Maske** und sogar als **Pass-Through**-Filter. Der Effekt funktioniert auch, wenn die Ebene, in der er sich befindet, deaktiviert ist. Beachten Sie, dass der Anker nur einen Speicherort definiert, nicht den, den Sie daraus abrufen können. Diese Informationen werden an der Stelle definiert, an der der Verweis auf den Anker erstellt wird.
 
@@ -40,7 +40,7 @@ Weitere technische Einzelheiten und Beispiele finden Sie auf der entsprechenden 
 
 Neben dem neuen Ankerpunkt-Effekt arbeiteten wir auch an folgenden Themen:
 
-* Die Möglichkeit, einige Effekte umzubenennen, wie z. B. die Füllung und die Farbe
+* Die Möglichkeit, einige Effekte umzubenennen, z. B. die Füllung und die Malen
 * Neue Skriptfunktionen, die das Erstellen einer Live-Verknüpfung mit anderen Anwendungen wie Unity ermöglichen
 
 ## Tutorial

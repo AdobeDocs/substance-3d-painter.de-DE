@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Substance 3D Painter-Abstürze beim Öffnen oder Speichern von Dateien für eine zuverlässige Projektverwaltung beheben können.
+description: Erfahren Sie, wie Sie Substance 3D Painter-Absturz beim Öffnen oder Speichern von Dateien für eine zuverlässige Projektverwaltung beheben können.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Absturz beim Öffnen oder Speichern einer Datei
 
-Es gibt einige Gründe, warum Substance 3D Painter unter Windows abstürzte, wenn ein Dateidialogfeld geöffnet wurde. Auf dieser Seite werden die Gründe und Lösungen für dieses Problem zusammengefasst.
+Es gibt einige Gründe, warum Substance 3D Painter unter Windows beim Öffnen eines Dateidialogs einen Absturz auslöst. Auf dieser Seite werden die Gründe und Lösungen für dieses Problem zusammengefasst.
 
 ## Softwarekonflikte
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Lib SSS Shader-API-Referenz für Substance 3D Painter zu, um unterirdische Streueffekte in benutzerdefinierten Shadern zu erstellen.
+description: Greifen Sie auf die Bibliothek SSS Shader-API reference für Substance 3D Painter zu, um Volumenstreuung-Effekte in benutzerdefinierten Shadern zu erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-sampler.glsl
 ```
 
 
-Die skalare SSS-Koeffizientextur
+Die skalare SSS-Koeffizient-Textur
 
 ```
 //: param auto channel_scattering 
@@ -91,7 +91,7 @@ uniform int sssType;
 ```
 
 
-Globale Skalierung auf den Effekt &quot;Untergrundstreuung&quot;
+Globale Skalierung bis zum Effekt &quot;Volumenstreuung&quot;
 
 ```
 //: param custom { 
@@ -135,7 +135,7 @@ uniform vec3 sssColor;
 ```
 
 
-Gibt die materiellen SSS-Koeffizienten zurück
+Gibt die Material-SSS-Koeffizienten zurück
 
 ```
 vec4 getSSSCoefficients(float scattering) { 

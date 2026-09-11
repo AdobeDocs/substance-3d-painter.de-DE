@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/file-menu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
 breadcrumb-title: ''
-description: Hier erfahren Sie, wie Sie in Substance 3D Painter über das Menü "Datei" Projekte verwalten, Elemente importieren und Texturen exportieren.
+description: Erfahren Sie, wie Sie das Dateimenü in Substance 3D Painter verwenden, um Projekte zu verwalten, Elemente zu importieren und Texturen zu exportieren.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Main menu > File menu
 helpx_experience_level: ""
@@ -38,8 +38,8 @@ Das Dateimenü enthält die Aktionen zum Erstellen und Speichern der Projekte so
 | **Als Vorlage speichern** | Speichern Sie die aktuellen Projekteinstellungen in einer Vorlagendatei, die für ein neues Projekt verwendet werden kann. |
 | **Bereinigen** | Entfernen Sie alle nicht verwendeten Ressourcen aus dem aktuellen Projekt (wird nach dem nächsten **Speichern** wirksam). |
 | **Ressourcen importieren** | Öffnen Sie das Importressourcenfenster. |
-| **Gitter exportieren** | Öffnen Sie das Fenster &quot;Gitterexport&quot;, in dem Sie das aktuelle Projekt als 3D-Modelldatei exportieren können. |
-| **Texturen exportieren** | Öffnen Sie das Fenster Texturexport , in dem Sie das aktuelle Projekt als Bitmaptexturen exportieren können. |
+| **Mesh exportieren** | Öffnen Sie das Fenster zum Exportieren von Meshs, in dem Sie das aktuelle Projekt als 3D-Modelldatei exportieren können. |
+| **Texturen exportieren** | Öffnen Sie das Exportfenster für Texturen, in dem Sie das aktuelle Projekt als Bitmap-Texturen exportieren können. |
 | **Senden an** | Listet alle **Aktionen zum Senden an** auf, um ein Projekt an eine andere Anwendung zu senden. |
 | **Beenden** | Schließen Sie die Anwendung. Wenn das aktuelle Projekt nicht gespeicherte Änderungen enthält, wird eine Meldung angezeigt. |
 

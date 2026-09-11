@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Painter das Darstellen von Darstellungen mithilfe von Nachbearbeitungseffekten durch Farbkorrekturen und Spezialeffekte verbessern können.
+description: Erfahren Sie, wie Sie in Substance 3D Painter das Rendern von Viewport mithilfe von Nachbearbeitungseffekten durch Farbkorrekturen und Spezialeffekte optimieren können.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Post Processing
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 12%
 
 ![](../../assets/v12_banner_post_effects2.jpg)
 
-Post-Effects sind Filter, die auf Bilder angewendet werden können, die im Viewport von Substance 3D Painter gerendert werden, um gängige Kameraeffekte zu simulieren.
+Post-Effects sind Filter, die auf Bilder angewendet werden können, die im Viewport von Substance 3D Painter gerendert werden, um häufige Effekte auf die Kamera zu simulieren.
 
 Post-Effekte können in jedem Projekt über das Fenster [Anzeigeeinstellungen](../../interface/display-settings/display-settings.md) aktiviert werden.
 
@@ -43,4 +43,4 @@ Auf den folgenden Seiten werden die verschiedenen Nachbearbeitungseffekte beschr
 * [Tone Mapping](tone-mapping.md)
 * [Farbkorrektur](color-correction.md)
 
-Die Tabelle &quot;Lookup Texture&quot; kann auch zur Feinabstimmung des endgültigen Bildergebnisses verwendet werden. Weitere Informationen finden Sie in der Dokumentation zum [Farbprofil](color-profile.md).
+Die Tabelle &quot;Lookup-Textur&quot; kann auch zur Feinabstimmung des endgültigen Bildergebnisses verwendet werden. Weitere Informationen finden Sie in der Dokumentation zu [Farbprofil](color-profile.md).

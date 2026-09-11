@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack/managing-layers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/managing-layers.html"
 breadcrumb-title: ''
-description: Erfahre, wie du in Substance 3D Painter Ebenen verwaltest, um deinen Workflow für das Texturmalen zu organisieren, neu anzuordnen und zu steuern.
+description: Erfahre, wie du in Substance 3D Painter Ebenen verwaltest, um deinen Textur-Malworkflow zu organisieren, neu anzuordnen und zu steuern.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Layer stack > Managing layers
 helpx_experience_level: ""

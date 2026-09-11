@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie JavaScript-Plug-ins für Substance 3D Painter erstellen, um die Funktionalität zu erweitern und benutzerdefinierte Workflows zu automatisieren.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Diese Schritt-für-Schritt-Anleitung beschreibt, wie Sie ein einfaches Plug-in erstellen, mit dem Sie die Maske der aktuell ausgewählten Ebene in einem Projekt exportieren können.
 
-Ziel des Plug-ins in diesem Leitfaden ist es, alle Kanäle des aktuellen Textursatzes in einem Projekt als einzelne Texturen zu exportieren.
+Ziel des Plug-ins in diesem Leitfaden ist es, alle Kanäle des aktuellen Textursatzes in einem Projekt als individuelle Texturen zu exportieren.
 
 ## 1 - Navigation zum Ordner &quot;Plug-ins&quot;
 
@@ -36,7 +36,7 @@ Um auf den Ordner &quot;**plugins**&quot; zuzugreifen, navigieren Sie zu:
 
 Ein Plug-in-Name basiert auf dem Namen seines übergeordneten Ordners.
 
-Erstellen Sie für dieses Beispiel einfach einen neuen Ordner mit dem Namen **export-textures** im Ordner &quot;plugins&quot;.
+Erstellen Sie für dieses Beispiel einfach einen neuen Ordner mit dem Namen **export-Texturen** im Ordner &quot;plugins&quot;.
 
 ### 3 - Erstellen der Plug-in-Dateien
 

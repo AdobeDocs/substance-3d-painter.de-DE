@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Dialogfeld, in dem die Wartung abgelaufen ist, beheben, das beim Start in Substance 3D Painter für die Lizenzverwaltung angezeigt wird.
 helpx_creative_field: ""

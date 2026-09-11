@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing/color-correction.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-correction.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Farbkorrektur-Nachbearbeitung in Substance 3D Painter verwenden, um Helligkeit, Kontrast und Sättigung anzupassen.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Farbkorrekturparameter :
 
 | *Einstellung* | *Beschreibung* |
 | --- | --- |
-| **Sättigung** | Steuert die Intensität/Sättigung der Farbe im Ansichtsfenster. Verwenden Sie eine Sättigung bei 0, um ein Graustufen-Rendering zu erhalten. |
+| **Sättigung** | Steuert die Farbintensität/-sättigung im Viewport. Verwenden Sie eine Sättigung bei 0, um ein Graustufen-Rendering zu erhalten. |
 | **Kontrast** | Steuert den Unterschied zwischen hellen und dunklen Farben. |
 | **Helligkeit** | Steuert die Helligkeit/Luminanz der Farben. |
 | **Voreinstellung** | Legt die Luminanz des Viewports global fest. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/settings/general-preferences.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/general-preferences.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie allgemeine Voreinstellungen in Substance 3D Painter konfigurieren, um das Anwendungsverhalten und die Benutzererfahrung anzupassen.
 helpx_creative_field: ""
@@ -31,20 +31,20 @@ Auf dieser Seite werden die Haupteinstellungen der Anwendung erläutert.
 | Einstellung | Beschreibung |
 | --- | --- |
 | **Sprache** | Definieren Sie die Sprache, die von der Benutzeroberfläche in der Anwendung verwendet wird. Diese Einstellung erfordert einen Neustart der Anwendung, damit diese wirksam wird.Mögliche Werte:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Standard (Systemsprache)</strong>: Abrufen der kompatiblen Sprache vom Betriebssystem</li><li data-preserve-html="true"><strong>Englisch</strong></li><li data-preserve-html="true"><strong>Deutsch</strong></li><li data-preserve-html="true"><strong>Französisch</strong></li><li data-preserve-html="true"><strong>Japanisch</strong></li><li data-preserve-html="true"><strong>Chinesisch</strong> (vereinfacht)</li></ul> |
-| **Tastaturhilfe anzeigen** | Wenn diese Option aktiviert ist, werden die Tastaturbefehle links unten in den Ansichtsfenstern angezeigt, wenn eine Taste (wie STRG oder UMSCHALT) gedrückt wird. |
-| **Weltachsen anzeigen** | Wenn aktiviert, wird die Weltachse unten rechts in der 3D-Ansicht angezeigt. |
-| **Hintergrundfarbe** | Wählt die Farben aus, die als Hintergrund für die Viewports verwendet werden. Es sind zwei Farben verfügbar, um einen Verlauf zu erstellen. |
-| **Nur beim Malen ausgewähltes Material anzeigen** | Wenn diese Option aktiviert ist, wird beim Malen nur der aktuell ausgewählte Textursatz in der 3D-Ansicht angezeigt (dabei werden die anderen Textursätze vorübergehend ausgeblendet).  **Hinweis:** Es wird empfohlen, diese Einstellung auszuschalten, da sich das schnelle Ändern der Sichtbarkeit im Viewport auf die Leistung der [Virtuellen Texturen mit geringer Dichte](../../features/sparse-virtual-textures.md) auswirken kann. |
-| **Viewport-Skalierung** | Ermöglicht die Reduzierung der Auflösung des Viewports für HDPI-/Retina-Bildschirme, um die Leistung zu verbessern.Mögliche Werte:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Keine</strong>: Ohne Skalierung wird der Viewport mit der nativen Bildschirmauflösung gerendert.</li><li data-preserve-html="true"><strong>Auto</strong>: teilen Sie die Bildschirmauflösung durch zwei (nur auf HDPI-Bildschirmen).</li></ul> |
+| **Helfer der Tastatur anzeigen** | Wenn diese Option aktiviert ist, werden die Tastaturbefehle links unten in den Viewporten angezeigt, wenn eine Taste gedrückt wird (z. B. STRG oder UMSCHALT). |
+| **Weltweite Achsen anzeigen** | Wenn diese Option aktiviert ist, wird die Welt-Achse unten rechts in der 3D-Ansicht angezeigt. |
+| **Hintergrundfarbe** | Wählt die Farben, die als Hintergrund für die Viewport verwendet werden. Es sind zwei Farben verfügbar, um einen Verlauf zu erstellen. |
+| **Nur das ausgewählte Material beim Malen anzeigen** | Wenn diese Option aktiviert ist, wird beim Malen nur der aktuell ausgewählte Textursatz in der 3D-Ansicht angezeigt (die anderen Textursatz werden vorübergehend ausgeblendet).  **Hinweis:** Es wird empfohlen, diese Einstellung so auszuschalten, wie eine schnelle Änderung der Sichtbarkeit im Viewport die Leistung der [Dünn besetzte virtuelle Texturen](../../features/sparse-virtual-textures.md) beeinträchtigen kann. |
+| **Skalierung des Viewports** | Ermöglicht die Reduzierung der Auflösung des Viewports für HDPI-/Retina-Bildschirme, um die Leistung zu verbessern.Mögliche Werte:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Keine</strong>: Ohne Skalierung wird der Viewport mit der nativen Bildschirmauflösung gerendert.</li><li data-preserve-html="true"><strong>Auto</strong>: teilen Sie die Bildschirmauflösung durch zwei (nur auf HDPI-Bildschirmen).</li></ul> |
 
-## Ebenenstapeloptionen
+## Ebenenstapel-Optionen
 
 ![](../../assets/settings-layerstack.png)
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Standard-UV-Skalierung für Materialien** | Definiert die Standardwerte für Kacheln/Wiederholung für Füllebenen und Fülleffekte im Ebenenstapel beim Anwenden von Materialien. |
-| **Vereinfachte Miniaturansichten verwenden** | Wenn diese Option aktiviert ist, zeigt der Ebenenstapel nur Symbole an, anstatt Miniaturansichten zu berechnen. Die Verwendung von Symbolen verbessert die Leistung. Diese Einstellung gilt nicht für Projekte, die den Workflow &quot;UV-Kacheln&quot; verwenden, da sie immer Symbole anzeigen. |
+| **Standard-UV-Skalierung für Material** | Definiert den standardmäßigen Kachelung-/Wiederholungswert für Füllebenen und den Fülleffekt im Ebenenstapel beim Anwenden von Materialien. |
+| **Vereinfachte Miniaturansichten verwenden** | Wenn diese Option aktiviert ist, zeigt der Ebenenstapel nur Symbole an, anstatt Miniaturansichten zu berechnen. Die Verwendung von Symbolen verbessert die Leistung. Diese Einstellung gilt nicht für Projekte, die den Arbeitsablauf &quot;UV-Kachel&quot; verwenden, da sie immer Symbole anzeigen. |
 
 ## Kameraoptionen
 
@@ -52,8 +52,8 @@ Auf dieser Seite werden die Haupteinstellungen der Anwendung erläutert.
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Drehgeschwindigkeit** | Multiplikator der Standarddrehzahl der Kamera in den Darstellungsfenstern. |
-| **Zoomgeschwindigkeit** | Multiplikator der Standard-Zoomgeschwindigkeit der Kamera in den Darstellungsfenstern.Mit der umgekehrten Richtung können Sie die Richtung des Zooms basierend auf der Mausbewegung umkehren. |
+| **Drehgeschwindigkeit** | Multiplikator der Standarddrehzahl der Kamera in den Viewporten. |
+| **Zoomgeschwindigkeit** | Multiplikator der standardmäßigen Zoomgeschwindigkeit der Kamera in den Viewporten.Mit der umgekehrten Richtung können Sie die Richtung des Zooms basierend auf der Mausbewegung umkehren. |
 | **Radgeschwindigkeit** | Multiplikator für die Zoomgeschwindigkeit des Mausrads.Mit der umgekehrten Richtung können Sie die Richtung des Zooms basierend auf der Radbewegung umkehren. |
 
 ## Baking-Optionen
@@ -62,9 +62,9 @@ Auf dieser Seite werden die Haupteinstellungen der Anwendung erläutert.
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Vorverarbeitete Szenendateien speichern** | Wenn diese Option aktiviert ist, werden die von den Bäckereien verwendeten, vorverarbeiteten Gitter mit hohem Poly-Anteil zur späteren Wiederverwendung auf der Festplatte gespeichert. Diese Einstellung ermöglicht ein schnelleres Nachbacken. |
-| **Aktiviert den Live-Vorschau-Backvorgang**. | Wenn diese Option aktiviert ist, zeigt der 3D- und 2D-Viewport die aktuelle Bäckerstruktur an, die für das Gitter berechnet wird. |
-| **GPU-Raytracing aktivieren** | Wenn diese Option aktiviert ist, versuchen die Bäcker, die GPU anstelle der CPU für das Raytracing zu verwenden. Dadurch können Bäcker im Allgemeinen schneller arbeiten.Diese Option kann nur auf kompatibler Hardware aktiviert werden. Weitere Informationen finden Sie in den [Systemanforderungen](../../getting-started/system-requirements.md). |
+| **Vorverarbeitete Szene speichern** | Wenn diese Option aktiviert ist, werden von den Bakern verwendete vorverarbeitete Mesh mit hohem Poly-Anteil zur späteren Wiederverwendung auf der Festplatte gespeichert. Diese Einstellung ermöglicht ein schnelleres erneutes Baking. |
+| **Baking der Live-Vorschau aktivieren** | Wenn diese Option aktiviert ist, zeigt der 3D- und 2D-Viewport die Textur des aktuellen Bakers an, der auf dem Mesh berechnet wird. |
+| **GPU-Raytracing aktivieren** | Wenn diese Option aktiviert ist, versuchen die Baker, die GPU zum Ausführen von Raytracing anstelle der CPU zu verwenden. Mit dieser Funktion können Baker im Allgemeinen schneller arbeiten.Diese Option kann nur auf kompatibler Hardware aktiviert werden. Weitere Informationen finden Sie in den [Systemanforderungen](../../getting-started/system-requirements.md). |
 
 ## Vorschauoptionen
 
@@ -90,7 +90,7 @@ Auf dieser Seite werden die Haupteinstellungen der Anwendung erläutert.
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Beschleunigung des Hardware-Supports** | Wenn diese Option aktiviert ist, versucht die Anwendung, die spärlichen Texturen mit der GPU zu verwenden. Weitere Informationen finden Sie auf der Seite [Virtuelle Strukturen mit geringer Dichte](../../features/sparse-virtual-textures.md). Diese Einstellung kann von [Umgebungsvariablen](../../pipeline-and-integration/configuration/environment-variables.md) überschrieben werden. |
+| **Beschleunigung des Hardware-Supports** | Wenn diese Option aktiviert ist, versucht die Anwendung, die &quot;Sparse&quot;-Texturen mit der GPU zu verwenden. Weitere Informationen finden Sie auf der Seite [Dünn besetzte virtuelle Texturen](../../features/sparse-virtual-textures.md). Diese Einstellung kann von [Umgebungsvariablen](../../pipeline-and-integration/configuration/environment-variables.md) überschrieben werden. |
 
 ## IRay-Hardware
 

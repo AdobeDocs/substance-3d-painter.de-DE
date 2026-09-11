@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie die Voreinstellungen in der virtuellen Bibliothek mithilfe von Python-Skripten in Substance 3D Painter für automatisiertes Ressourcenpfadmanagement bearbeiten können.
+description: Erfahren Sie, wie Sie Voreinstellungen für Regal mithilfe von Python-Skripten in Substance 3D Painter für die automatisierte Verwaltung von Ressourcenpfaden bearbeiten.
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Edit Shelf Preferences with Python
 helpx_experience_level: ""
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Bearbeiten der Shelf-Voreinstellungen mit Python
+# Bearbeiten der Regal-Voreinstellungen mit Python
 
 Im Folgenden finden Sie Beispiele für Python-Skripte zum Ändern der Windows-Registrierung zum Bearbeiten von Ressourcenpfaden.
 
@@ -32,11 +32,11 @@ In der folgenden Tabelle finden Sie Informationen zum Verwenden des entsprechend
 
 Zum Hinzufügen eines Ressourcenpfads muss überprüft werden, welcher bereits vorhanden ist, um die Liste mit einem neuen zu inkrementieren.
 
-Mit dem folgenden Code wird dem Registrierungsschlüssel ein neuer Ablagepfad hinzugefügt, nachdem überprüft wurde, welche Anzahl von Pfaden bereits definiert ist.
+Mit dem folgenden Code wird dem Registrierungsschlüssel ein neuer Regal-Pfad hinzugefügt, nachdem überprüft wurde, wie viele Pfade bereits definiert sind.
 
 >[!NOTE]
 >
-> Der Unterschlüssel **Shelf** (neben **pathInfos**) ist möglicherweise nicht in der Registrierung vorhanden. Um den Text in der Anwendung zu starten, öffnen Sie die Voreinstellungen (&quot;Bearbeiten&quot; > &quot;Einstellungen&quot;), klicken Sie auf &quot;OK&quot; und schließen Sie die Anwendung.
+> Der Unterschlüssel **Regal** (neben **pathInfos**) ist möglicherweise nicht in der Registrierung vorhanden. Um den Text in der Anwendung zu starten, öffnen Sie die Voreinstellungen (&quot;Bearbeiten&quot; > &quot;Einstellungen&quot;), klicken Sie auf &quot;OK&quot; und schließen Sie die Anwendung.
 
 ```
 import winreg 
@@ -123,7 +123,7 @@ Key.Close()
 
 Jeder erstellte Pfad kann entfernt werden, wenn er nicht mehr benötigt wird, aber auch deaktiviert werden für den Standardpfad, der nicht vollständig entfernt werden kann.
 
-Der folgende Code analysiert die Windows-Registrierung und deaktiviert die Standardablage (mit dem Namen &quot;starter\_assets&quot;).
+Mit dem folgenden Code wird die Windows-Registrierung analysiert und das Standard-Regal (mit dem Namen &quot;starter\_assets&quot;) deaktiviert.
 
 ```
 import winreg 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/symmetry.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Painter Symmetrie-Werkzeuge verwenden, um ausgewogene und gespiegelte Texturmaleffekte zu erstellen.
+description: Lerne, wie du in Substance 3D Painter mithilfe von Symmetrie-Tools ausgewogene und gespiegelte Textur-Painting-Effekte erstellen kannst.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Symmetry
 helpx_experience_level: ""
@@ -22,33 +22,33 @@ ht-degree: 5%
 
 ![](../../assets/radial-demo.gif)
 
-Symmetrie ist eine hilfreiche Einstellung, die Sie auf Pinsel- und Füllebenen verwenden können, um Inhalte basierend auf geometrischen Einschränkungen einfach und präzise zu duplizieren:
+Symmetrie ist eine hilfreiche Einstellung, die Sie für Pinsel und Füllebenen verwenden können, um Inhalte basierend auf geometrischen Einschränkungen einfach und präzise zu duplizieren:
 
-* Verwenden Sie bei Pinselebenen die Symmetrie, um Ihre einzelnen Pinselstriche basierend auf der Symmetrieachse an anderen Stellen im Gitter zu duplizieren.
-* Verwenden Sie bei Füllebenen die Symmetrie, um die gesamte Füllebene um die Symmetrieachse zu duplizieren.
+* Mit Pinselebenen kannst du deine individuellen Pinselstriche mit der Symmetrie an anderen Stellen auf deinem Mesh duplizieren, je nach Achse der Symmetrie.
+* Bei Füllebenen kannst du die gesamte Füllebene um die Achse der Symmetrie herum mit der Symmetrie duplizieren.
 
-Erfahren Sie mehr über die Symmetrietypen, die Sie in Painter verwenden können:
+Erfahren Sie mehr über die verschiedenen Arten von Symmetrien, die Sie in Painter verwenden können:
 
 * [Spiegelsymmetrie](mirror-symmetry.md)
 * [Radialsymmetrie](radial-symmetry.md)
 
-## Symmetrie mit dem Malwerkzeug verwenden
+## Symmetrie mit dem Malen-Werkzeug verwenden
 
-Sie können die Symmetrie mit der <b>-Symmetrie-Schaltfläche </b> in der kontextbezogenen Symbolleiste aktivieren.
+Sie können die Symmetrie mit der Schaltfläche &quot;<b> Symmetrie&quot; </b> in der kontextabhängigen Symbolleiste aktivieren.
 
 ![](../../assets/SymmetryToggle.png)
 
-Passen Sie die Symmetrie-Optionen mit der Schaltfläche <b>Symmetrie-Einstellungen</b> in der kontextbezogenen Symbolleiste an.
+Passen Sie die Symmetrie-Optionen mit der Schaltfläche &quot;<b> Symmetrie-Einstellungen&quot;</b> in der kontextabhängigen Symbolleiste an.
 
 ![](../../assets/BrushSymmetrySettings.png)
 
 >[!NOTE]
 >
-> Die Malprojektion und die Schablonenprojektion in der 2D-Ansicht unterstützen keine Symmetrie. Wir empfehlen, stattdessen bei Bedarf die 3D-Ansicht zu verwenden.
+> Malen Projektion und Schablone Projektion in der 2D-Ansicht unterstützen keine Symmetrie. Wir empfehlen, stattdessen bei Bedarf die 3D-Ansicht zu verwenden.
 
 ## Symmetrie mit Füllebenen verwenden
 
-Wenn eine Füllebene ausgewählt ist, können Sie die <b>Symmetrie-Schaltfläche</b> in der kontextabhängigen Symbolleiste verwenden, genau wie bei der Symmetrie des Pinselwerkzeugs. Mit Füllebenen können Sie auch Symmetrie-Optionen im <b>Eigenschaften-Bedienfeld</b> aktivieren und darauf zugreifen. Symmetrie ist nur mit den folgenden Projektionsmethoden verfügbar:
+Wenn eine Füllebene ausgewählt ist, können Sie die <b>Symmetrie-Schaltfläche</b> in der kontextabhängigen Symbolleiste verwenden, genau wie bei der Symmetrie des Pinselwerkzeugs. Mit Füllebenen können Sie auch im <b>Eigenschaftenbedienfeld</b> die Optionen für die Symmetrie aktivieren und darauf zugreifen. Symmetrie ist nur mit den folgenden Methoden zur Projektion verfügbar:
 
 <table>
 <tr style="border: 0;">
@@ -56,13 +56,13 @@ Wenn eine Füllebene ausgewählt ist, können Sie die <b>Symmetrie-Schaltfläche
 
 * Triplanare Projektion
 * Planarprojektion
-* Sphäre Projektion
+* Sphere Projektion
 * Zylindrische Projektion
 * Verkrümmungsprojektion
 
-Wenn eine geeignete Projektionsmethode ausgewählt ist, wählen Sie im Bedienfeld &quot;Eigenschaften&quot; im Abschnitt &quot;Symmetrie&quot; die Option &quot;Symmetrie aktivieren&quot;, um auf die Symmetrieoptionen zuzugreifen.
+Wenn eine geeignete Methode für die Projektion ausgewählt wurde, aktivieren Sie im Bedienfeld &quot;Eigenschaften&quot; im Abschnitt &quot;Symmetrie&quot; die Option &quot;Symmetrie aktivieren&quot;, um auf die Optionen für die Symmetrie zuzugreifen.
 
-Wenn eine nicht unterstützte Projektionsmethode ausgewählt wird, ist die Option <b>Symmetrie aktivieren</b> nicht verfügbar, und die Schaltfläche <b>Symmetrie aktivieren</b> in der kontextbezogenen Symbolleiste ist ausgegraut.
+Wenn eine nicht unterstützte Projektion ausgewählt ist, ist die Option <b>Symmetrie aktivieren</b> nicht verfügbar, und die Schaltfläche <b>Symmetrie aktivieren</b> in der kontextbezogenen Symbolleiste ist ausgegraut.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -75,4 +75,4 @@ Wenn eine nicht unterstützte Projektionsmethode ausgewählt wird, ist die Optio
 
 >[!NOTE]
 >
-> Symmetrie-Anzeigeoptionen sind nur über die Schaltfläche <b>Symmetrie-Einstellungen</b> in der kontextbezogenen Symbolleiste verfügbar. Sie können die Einstellungen für die Symmetrie-Anzeige nicht im <b>Eigenschaftenbedienfeld</b> ändern.
+> Anzeigeoptionen für Symmetrien sind nur über die Schaltfläche &quot;<b> Symmetrien-Einstellungen&quot;</b> in der kontextbezogenen Symbolleiste verfügbar. Sie können die Einstellungen für die Symmetrien-Anzeige nicht im <b>Eigenschaftenbereich</b> ändern.

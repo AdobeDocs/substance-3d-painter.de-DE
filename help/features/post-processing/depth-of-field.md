@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing/depth-of-field.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/depth-of-field.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie die Tiefe der Feldnachbearbeitung in Substance 3D Painter verwenden, um realistische Kamerafokus-Weichzeichnungseffekte zu erstellen.
+description: Erfahren Sie, wie Sie die Tiefe der Feldnachbearbeitung in Substance 3D Painter verwenden, um realistische Unschärfe-Effekte für die Kamera zu erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Post Processing > Depth of Field
 helpx_experience_level: ""
@@ -22,11 +22,11 @@ ht-degree: 4%
 
 ![](../../assets/dof-example.jpg)![](../../assets/dof.png)
 
-Die **Tiefe von Feld** (DOF) hat keinen Direktparameter. Wenn diese Option aktiviert ist, überschreibt **die DOF von** Iray **&#x200B;**.
+Die **Tiefe von Feld** (DOF) hat keinen Direktparameter. Wenn diese Option aktiviert ist, wird **die DOF von** Iray **überschrieben**.
 
-Zur Steuerung des Erscheinungsbilds der DOF im Viewport sind zwei Einstellungen über die Kamera verfügbar:
+Zur Steuerung des Erscheinungsbilds der DOF im Viewport stehen zwei Einstellungen über die Kamera zur Verfügung:
 
 | *Einstellung* | *Beschreibung* |
 | --- | --- |
-| **Fokusentfernung** | Definiert den Abstand, in dem sich der Fokuspunkt befindet.  Dieser Punkt wird von der Tiefe des Effekts &quot;Feld&quot; verwendet. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/focus-distance-optim.gif"/></div> **Hinweis:** Die Fokusentfernung kann automatisch festgelegt werden, indem Sie mit der Tastenkombination **STRG + mittlere Maustaste auf einen Punkt des Gitters klicken.** |
-| **Blende** | Definiert die Breite der Tiefe des Felds. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dof-aperture-optim.gif"/></div> **Hinweis:** Wenn Iray diesen Parameter steuert, wird durch Ändern des Parameters eine Berechnung erneut ausgelöst. |
+| **Fokusentfernung** | Definiert den Abstand, in dem sich der Fokuspunkt befindet.  Dieser Punkt wird von der Tiefe des Effekts &quot;Feld&quot; verwendet. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/focus-distance-optim.gif"/></div> **Hinweis:** Die Fokusentfernung kann automatisch festgelegt werden, indem Sie auf einen Punkt des Meshs mit der Tastaturbefehl-Taste **STRG + Mittlere Maustaste klicken.** |
+| **Blende** | Definiert die Breite der Tiefe des Felds. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dof-aperture-optim.gif"/></div> **Hinweis:** Wenn Iray diesen Parameter steuert, wird durch Ändern eine Berechnung erneut ausgelöst. |

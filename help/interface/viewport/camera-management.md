@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/viewport/camera-management.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
-description: Erfahre, wie du die Kameraperspektive in Substance 3D Painter verwalten kannst, um 3D-Modelle effektiv zu navigieren und Bilder hinzuzufügen.
+description: Erfahre, wie du in Substance 3D Painter Viewport die Ansicht einer Kamera verwaltest, um deine 3D-Modelle effektiv zu navigieren und mit Rahmen zu versehen.
 helpx_creative_field: ''
 helpx_description: Painter > Interface > Viewport > Camera management
 helpx_experience_level: ''
@@ -28,11 +28,11 @@ In Maya, Max, Blender, Modo und DAE erstellte Kameras können in Substance 3D Pa
 
 ## Kameras in Substance 3D Painter importieren
 
-Die Kameras sollten in der Gitterdatei enthalten sein, entweder im FBX- oder im ABC-Format (Alembic).
+Die Kameras sollten in die Meshdatei aufgenommen werden, entweder im FBX- oder im ABC-Format (Alembic).
 
 Der Name, die Transformationsparameter, das FOV und das Seitenverhältnis (sofern vorhanden) werden importiert.
 
-Wählen Sie im Fenster Neues Projekt die Gitterdatei aus, die die Kameras enthält, und überprüfen Sie, ob das Kontrollkästchen **Kameras importieren** aktiviert ist. Wenn Sie im **Bearbeiten > Projektkonfigurationsfenster** das **Wiederholen-Importgitter** aktivieren, können Sie auch **Kameras importieren** aktivieren, wenn Sie sie bei der ersten Projekterstellung verpasst haben.
+Wählen Sie im Fenster Neues Projekt die Meshdatei aus, in der die Kameras enthalten sind, und überprüfen Sie, ob das Kontrollkästchen **Kameras importieren** aktiviert ist. Wenn Sie im **Bearbeiten > Projektkonfigurationsfenster** auf **Mesh neu importieren** umschalten, können Sie auch **Kameras importieren** aktivieren, wenn Sie sie bei der ersten Projekterstellung verpasst haben.
 
 Klicken Sie dann auf **OK**:
 
@@ -45,23 +45,23 @@ Klicken Sie dann auf **OK**:
 
 ## Kameras auswählen
 
-Wenn Kameras in Ihr aktuelles Projekt importiert wurden, können Sie im **3D Viewport** aus der Dropdown-Liste **auswählen, welche Kamera aktiv ist.**
+Wenn Kameras in Ihr aktuelles Projekt importiert wurden, können Sie im **Dropdown** im **3D-Viewport** auswählen, welche Kamera aktiviert ist.
 
 Standardmäßig ist die Painter-Kamera mit dem Namen &quot;Standardkamera&quot; ausgewählt und befindet sich im Perspektivmodus.
 
 ![](../../assets/camera-select.png)
 
-Im obigen Beispiel werden 3 Kameras importiert, sodass insgesamt 4 Kameras in der Dropdown-Liste angezeigt werden, wenn die Standardkamera enthalten ist.
+Im obigen Beispiel werden 3 Kameras importiert. Wenn die Standard -Kamera einbezogen wird, werden insgesamt 4 Kameras in der Dropdown-Liste angezeigt.
 
-## Kameras steuern.
+## Steuern der Kameras
 
-Wenn eine importierte Kamera ausgewählt ist, wird beim Verschieben der Kamera durch Schwenken, Zoomen oder Drehen im Viewport die Standardkamera aktiviert. Dies verhindert, dass die importierten Kameras in der Szene verschoben werden.
+Wenn eine importierte Kamera ausgewählt ist, wird das Verschieben der Kamera durch Schwenken, Zoomen oder Drehen im Viewport auf die Standard-Kamera umgeschaltet. Dadurch wird verhindert, dass importierte Kameras in die Szene verschoben werden.
 
 >[!NOTE]
 >
 > Wenn Sie die importierte Kameraposition ändern müssen, können Sie diese in der ausgewählten Szenenbearbeitungsanwendung aktualisieren und die Szene mit **Bearbeiten > Projektkonfiguration** erneut importieren.
 
-Sie können die Parameter der importierten Kameras im Fenster **Anzeigeeinstellungen** steuern.
+Sie können die Parameter der importierten Kameras im **Einstellungsfenster anzeigen** steuern.
 
 ![](../../assets/display-settings-cameras.png)
 
@@ -71,19 +71,19 @@ Wenn eines der Attribute geändert wird, können Sie mit der Schaltfläche **Wie
 
 ![](../../assets/camera-restore.png)
 
-Wenn ein Parameter für eine importierte Kamera geändert wurde, wird der Kameraname kursiv formatiert und ein &quot;\*&quot; wird dem Kameranamen hinzugefügt.
+Wenn ein Parameter für eine importierte Kamera geändert wurde, wird der Name der Kamera kursiv dargestellt und ein &quot;\*&quot; wird dem Namen der Kamera hinzugefügt.
 
-### Kameraattribute
+### Attribute der Kamera
 
-Das Blickfeld oder das FOV wird in Grad ausgedrückt.
+Das Sichtfeld oder das FOV wird in Grad angegeben.
 
 Die Brennweite wird in mm angegeben.
 
-Im Viewport-Modus (OpenGL) sind der Fokusabstand und die Blende deaktiviert. Um sie zu aktivieren, müssen Post Effects und DOF aktiviert sein.
+Im Viewport-Modus (OpenGL) sind Fokusabstand und Blende deaktiviert. Um sie zu aktivieren, müssen Post Effects und DOF aktiviert sein.
 
 ### Anzeigeverhältnis
 
-Wenn das Anzeigeverhältnis in der Gitterdatei vorhanden ist, wird es im Abschnitt Kamera angezeigt. Wenn eine Kamera kein definiertes Anzeigeverhältnis hat, wird sie als **Nicht angegeben** aufgeführt (wie die Standardkamera).
+Wenn das Anzeigeverhältnis in der Meshdatei vorhanden ist, wird es im Abschnitt &quot;Kamera&quot; angezeigt. Wenn eine Kamera kein definiertes Anzeigeverhältnis hat, wird sie als **Nicht angegeben** aufgeführt (wie die standardmäßige Kamera).
 
 ### Sperren
 
@@ -93,7 +93,7 @@ Eine Kamera kann durch Klicken auf das Schlosssymbol gesperrt werden. Das Sperre
 
 ## Kamerarahmen
 
-Der Kamerarahmen kann in **Anzeigeeinstellungen > Viewport-Einstellungen** umgeschaltet werden:
+Der Kamera-Rahmen kann in **Anzeigeeinstellungen > Viewport-Einstellungen** umgeschaltet werden:
 
 ![](../../assets/image2018-7-26-15-54-58.png)
 

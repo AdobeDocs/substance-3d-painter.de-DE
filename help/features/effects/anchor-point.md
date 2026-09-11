@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects/anchor-point.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/anchor-point.html"
 breadcrumb-title: ''
-description: Lerne, wie du in Substance 3D Painter für komplexere Kompositionen Ankerpunkte verwenden kannst, um Strukturen aus anderen Ebenen zu referenzieren.
+description: Lerne, wie du in Substance 3D Painter mithilfe von Ankerpunkteffekten Texturen aus anderen Ebenen für Compositing-Aufgaben referenzieren kannst.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Anchor Point
 helpx_experience_level: ""
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Ankerpunkt
 
-Ein Ankerpunkt ist eine Möglichkeit, eine beliebige Ressource oder ein Element im Ebenenstapel anzuzeigen und in verschiedenen Bereichen des Ebenenstapels zu referenzieren, und zwar für unterschiedliche Zwecke und mit unterschiedlichen Korrekturen. Mit ihnen eröffnen sich völlig neue Möglichkeiten. Ebenen und Masken können miteinander verknüpft werden. Ein einziger Ankerpunkt wirkt sich auf mehrere Aspekte deines Projekts aus und verwandelt Substance 3D Painter in ein wirklich nichtlineares Erlebnis.
+Mit einem Ankerpunkt können beliebige Ressourcen oder Elemente im Ebenenstapel gelegt und in verschiedenen Bereichen des Ebenenstapels mit unterschiedlichen Einstellungen referenziert werden. Mit ihnen eröffnen sich völlig neue Möglichkeiten. Ebenen und Masken können miteinander verknüpft werden. Ein einziger Ankerpunkt hat Auswirkungen auf mehrere Aspekte deines Projekts und Substance 3D Painter wird so zu einem nichtlinearen Erlebnis transformieren.
 
 >[!NOTE]
 >
-> Ein Ankerpunkt kann nur innerhalb der gleichen Struktur referenziert werden, die erstellt wurde. Das Erstellen von Verknüpfungen zwischen einem Anker und seinen Referenzen ist in Textursätzen nicht möglich.
+> Ein Ankerpunkt kann nur innerhalb derselben Textur referenziert werden, die erstellt wurde. Das Erstellen von Verknüpfungen zwischen einem Anker und seinen Referenzen ist in Textursätzen nicht möglich.
 
 ## Ankerpunkt hinzufügen
 
@@ -34,13 +34,13 @@ Ankerpunkte sind im Menü &quot;Effekte&quot; verfügbar. Sie können sowohl auf
 
 ## Ankerpunkt als Referenz verwenden.
 
-Ein Ankerpunkt kann von einer anderen Ebene referenziert werden: Dadurch wird der Inhalt des Ankerpunkts in die Ebene instanziiert, die ihn referenziert.
+Ein Ankerpunkt kann von einer anderen Ebene referenziert werden: Dadurch wird der Inhalt des Ankerpunkts in die Ebene instanziieren, die darauf verweist.
 
 Ankerpunkte können in den folgenden Ressourcen als Referenz verwendet werden:
 
 * Füllebene
 * Fülleffekt
-* Eingabe eines Substance-Filters (Effekt, Procedural, Generator)
+* Eingabe eines Substance-Filters (Effekt, Prozedural, Generator)
 
 ![](../../assets/anchor-point-resource.png)
 
@@ -57,6 +57,6 @@ Wenn Sie auf einen Ankerpunkt klicken, können Sie in den Eigenschaften die List
 
 ## Ankerpunkt suchen
 
-Wenn Sie eine Füllebene/ein Effekt sind, der einen Ankerpunkt als Referenz verwendet, können Sie zum Ankerpunkt springen.
+Wenn Sie als Füllebene/Effekt einen Ankerpunkt als Referenz verwenden, können Sie zum Ankerpunkt springen.
 
 ![](../../assets/jump-to-anchor-point.png)

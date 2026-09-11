@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/baking.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking.html'
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Painter Mesh Maps backen, um Umgebungstexturen, Krümmungen und andere geometriebasierte Texturen zu erzeugen.
+description: Erfahre, wie du in Substance 3D Painter Mesh-Map Baking führe, um ambient occlusion, Krümmung und andere geometriebasierte Texturen zu erzeugen.
 helpx_creative_field: ''
 helpx_description: Painter > Baking
 helpx_experience_level: ''
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 ![](../assets/banner-baking.jpg)
 
-Backen bezieht sich auf die Aktion **Übertragen von netzwerkbasierten Informationen in Texturen**. Diese Informationen werden dann von Shadern und/oder Substance-Filtern gelesen, um erweiterte Effekte zu erzeugen. Smart-Materialien und Smart-Masken basieren beispielsweise neben anderen bereits vorhandenen Informationen auf Kurven und Normalmaps.
+Backen bezieht sich auf die Aktion **Übertragen von netzwerkbasierten Informationen in Texturen**. Diese Informationen werden dann von Shadern und/oder Substance-Filtern gelesen, um erweiterte Effekte zu erzeugen. Intelligente Materialien und Intelligente Masken sind beispielsweise neben anderen Baking geführt Informationen auf Baking geführt Krümmungen und Normalen-Map angewiesen.
 
-In Painter erfolgt das Backen über den dedizierten Backmodus. Auf diesen Modus kann über das dedizierte Symbol (kleines Croissant in der kontextabhängigen Symbolleiste), über das [Modus-Menü](../interface/main-menu/mode-menu.md) oder mit dem [Tastaturbefehl](../interface/settings/shortcuts.md) zugegriffen werden.
+In Painter erfolgt das Baking über den dedizierten Baking-Modus. Auf diesen Modus kann über das dedizierte Symbol (kleines Croissant in der kontextabhängigen Symbolleiste), über das [Modusmenü](../interface/main-menu/mode-menu.md) oder mit dem [Tastatur-Tastaturbefehl](../interface/settings/shortcuts.md) zugegriffen werden.
 
 Weitere Informationen zum Backen in Painter finden Sie auf den folgenden Seiten:
 
@@ -33,8 +33,8 @@ Weitere Informationen zum Backen in Painter finden Sie auf den folgenden Seiten:
 * [Visualisierungseinstellungen für Backen](baking-visualization-settings.md)
 * [Verzerrungskorrektur](skew-correction.md)
 
-Einen kurzen Überblick über den Backmodus finden Sie in unserem Video-Tutorial:
+Einen kurzen Überblick über den Baking-Modus erhalten Sie in unserem Video-Tutorial:
 
 >[!NOTE]
 >
-> Weitere Informationen zum Backen im Allgemeinen finden Sie in der dedizierten [Backdokumentation](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/home).
+> Weitere Informationen zum Baking im Allgemeinen finden Sie in der dedizierten [Dokumentation zum Baking](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).

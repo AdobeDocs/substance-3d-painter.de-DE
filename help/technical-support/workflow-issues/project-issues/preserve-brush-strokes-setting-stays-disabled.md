@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Einstellung "Pinselstriche erhalten" korrigieren, die in Substance 3D Painter deaktiviert bleibt, um den Pinselstrich korrekt beizubehalten.
 helpx_creative_field: ""
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Die Einstellung &quot;Pinselstriche beibehalten&quot; bleibt deaktiviert
 
-Aufgrund eines unglücklichen Fehlers, der in Substance 3D Painter 1.5 eingeführt wurde (teilweise behoben in 1.7), haben einige Projekte Metadaten im Zusammenhang mit dem Gitter verloren. Dieser Fehler führt dazu, dass die Einstellung &quot;Konturpositionen im Gitter beibehalten&quot; im Fenster [Projektkonfiguration](../../../interface/project-configuration.md) deaktiviert bleibt.
+Aufgrund eines unglücklichen Fehlers, der in Substance 3D Painter 1.5 eingeführt wurde (teilweise behoben in 1.7), haben einige Projekte Metadaten im Zusammenhang mit dem Mesh verloren. Dieser Fehler führt dazu, dass die Einstellung &quot;Konturpositionen auf dem Mesh beibehalten&quot; im Fenster [Projektkonfiguration](../../../interface/project-configuration.md) deaktiviert bleibt.
 
 Um das Problem zu lösen, müssen einige spezifische Schritte befolgt werden:
 
 * Öffnen Sie das Projekt mit dem Problem in Substance 3D Painter 1.7 oder höher
 * Gehen Sie zu Bearbeiten > Projektkonfiguration.
-* Das ursprüngliche Gitter, das Sie im aktuellen Projekt verwendet haben (nicht die aktualisierte Version), auswählen und erneut importieren
-* Validieren Sie die Ebenen und lassen Sie Substance 3D Painter die Ebenen berechnen. Wenn es sich um dasselbe Gitter handelt, sollte sich nichts ändern.
+* Den ursprünglichen Mesh, den Sie im aktuellen Projekt verwendet haben (nicht die aktualisierte Version), auswählen und erneut importieren
+* Validieren Sie die Ebenen und lassen Sie Substance 3D Painter die Ebenen berechnen. Wenn es sich um denselben Mesh handelt, sollte sich nichts ändern.
 * Gehen Sie erneut zu Bearbeiten > Projektkonfiguration
-* &quot;Konturpositionen im Gitter beibehalten&quot; sollte jetzt wieder aktiviert werden, sodass Sie das neue Gitter importieren können
+* Die Option &quot;Konturpositionen auf dem Mesh beibehalten&quot; sollte jetzt wieder aktiviert werden, sodass Sie den neuen Mesh importieren können.

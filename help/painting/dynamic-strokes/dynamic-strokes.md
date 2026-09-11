@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie mit Dynamischen Pinselstrichen in Substance 3D Painter responsive Pinselstriche erstellen, die sich an die Malgeschwindigkeit und den -druck anpassen.
 helpx_creative_field: ""

@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/baking/mesh-map-settings.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie die Einstellungen für die Gitterzuordnung in Substance 3D Painter konfigurieren, um Backparameter und Ausgabequalität zu steuern.
+description: Erfahren Sie, wie Sie die Mesh-Map-Einstellungen in Substance 3D Painter konfigurieren, um die Parameter für das Baking und die Ausgabequalität zu steuern.
 helpx_creative_field: ''
 helpx_description: Substance 3D Painter
 helpx_experience_level: ''
@@ -20,19 +20,19 @@ ht-degree: 10%
 
 # Einstellungen für Mesh-Maps
 
-<b>Das Einstellungsfenster für die Gitterzuordnung &quot;</b>&quot; ist im Backmodus verfügbar und verfügt über Steuerelemente, mit denen das Gitter für das Backen vorbereitet wird. Um die Einstellungen für die Mesh-Map für eine bestimmte Map anzupassen, wählen Sie die Map im Bedienfeld &quot;<b>Mesh-Map-Bäcker&quot; aus</b>. Für jede Mesh-Map können unterschiedliche Einstellungen verfügbar sein. Eine Sammlung von <b>Allgemeine Einstellungen </b>, die von allen Gitterzuordnungen gemeinsam genutzt werden, ist oben im Fenster Gitterzuordnungs-Bäcker verfügbar.
+<b>Das Bedienfeld &quot;Mesh-Map-Einstellungen&quot; </b> ist im Baking-Modus verfügbar und verfügt über Steuerelemente, mit denen Sie Ihren Mesh für das Baking vorbereiten können. Um die Mesh-Map-Einstellungen für eine bestimmte Map anzupassen, wählen Sie die Map im <b>Mesh-Map-Baker-Bedienfeld</b> aus. Für jede Mesh-Map können unterschiedliche Einstellungen verfügbar sein. Eine Sammlung von <b>allgemeinen Einstellungen </b>, die von allen Mesh-Map gemeinsam genutzt werden, ist oben im Bedienfeld &quot;Mesh-Map-Baker&quot; verfügbar.
 
-Alle Einstellungen, die über Gitterzuordnungen hinweg gemeinsam genutzt werden, werden auf der Seite Allgemeine Einstellungen und nicht auf jeder einzelnen Gitterzuordnung angezeigt.
+Alle von Mesh-Map gemeinsam genutzten Einstellungen werden auf der Seite &quot;Allgemeine Einstellungen&quot; und nicht auf den einzelnen Mesh-Map angezeigt.
 
 ## Allgemeine Einstellungen
 
-Die Seite &quot;Allgemeine Einstellungen&quot; enthält Steuerelemente, die beeinflussen, wie alle Gitterzuordnungen gebacken werden.
+Die Seite &quot;Allgemeine Einstellungen&quot; enthält Steuerelemente, die beeinflussen, wie alle Mesh-Map Baking geführt werden.
 
 ### Ausgabeeinstellungen
 
 | Einstellung | Funktion |
 | --- | --- |
-| Ausgabegröße | Definieren Sie die X- und Y-Auflösung generierter Gitterzuordnungen. Klicken Sie auf das Schloss, um nicht quadratische Auflösungen zuzulassen. |
+| Ausgabegröße | Definieren Sie die X- und Y-Auflösung generierter Mesh-Map. Klicken Sie auf das Schloss, um nicht quadratische Auflösungen zuzulassen. |
 | Dehnungsbreite | Passen Sie an, wie weit die gespeicherten Informationen über die Grenzen von UV-Inseln hinausgehen. |
 | Diffusion anwenden | Aktivieren Sie dieses Kontrollkästchen, um Diffusion auf die Kanten der generierten Informationen anzuwenden. |
 
@@ -40,30 +40,30 @@ Die Seite &quot;Allgemeine Einstellungen&quot; enthält Steuerelemente, die beei
 
 | Einstellung | Funktion |
 | --- | --- |
-| Niedriges Polygitter als hohes Polygitter verwenden | Aktivieren Sie diese Einstellung, um Maps basierend auf Ihrem Projektgitter zu backen. |
-| Hochauflösende Meshes | Fügen Sie Ihrem Projekt hohe Poly-Meshes hinzu, um aus einem hohen Poly-Mesh ein niedriges Poly-Mesh in Ihrem Projekt zu erstellen. Es können mehrere Gitter importiert werden. |
-| Käfig | Legen Sie fest, wie der Backkäfig erzeugt wird.<ul data-preserve-html="true"> <li data-preserve-html="true">Entfernungsabhängig: Blasen Sie die Scheitelpunkte vom Gitter aus in einem gleichmäßigen Abstand über das Modell auf, um einen Käfig zu erstellen.</li> <li data-preserve-html="true">Automatisch (experimentell): Painter analysiert dein Gitter und generiert automatisch einen Käfig. Der Käfig bleibt nahe an der Oberfläche, ohne Schnittpunkte zu erstellen.</li> <li data-preserve-html="true">Benutzerdefinierte Datei: Importieren Sie eine Datei, die Sie erstellt haben, um sie als Käfig zu verwenden. Beachten Sie, dass importierte Dateien dieselbe Anzahl an Scheitelpunkten wie das Basisgitter haben müssen, damit sie ordnungsgemäß funktionieren.</li> </ul> |
-| Rückseite ignorieren | Stellt ein, ob die Rückseiten beim Backen ignoriert werden. Dies kann Artefakte reduzieren, aber auch in bestimmten Fällen zu Fehlern führen. |
-| Abgleichen | Ändern Sie, wie der Bäcker bestimmt, ob Objekte beim Backen einbezogen werden:<ul data-preserve-html="true"> <li data-preserve-html="true">Immer: Schließen Sie alle hohen Poly-Maschen ein, die beim Backen im Käfig getroffen werden.</li> <li data-preserve-html="true">Nach Maschenname: Backen Sie für jeden Käfig die Gitter nur mit dem entsprechenden Gittersuffix.</li> </ul> |
-| Suffix für Low-Poly-Mesh | Verwenden Sie dieses Suffix, wenn Sie den Netznamen &quot;Angleichen nach&quot; verwenden, um niedrige Poly-Meshes zu definieren. |
-| Suffix für High-Poly-Mesh | Verwenden Sie dieses Suffix, wenn Sie den Netznamen &quot;Angleichen nach&quot; verwenden, um hohe Polygitter zu definieren und mit dem entsprechenden niedrigen Polygitter abzugleichen. |
-| Antialiasing | Passen Sie den Grad des Antialiasing in den generierten Maps an. |
+| Niedriges Polygitter als hohes Polygitter verwenden | Aktivieren Sie diese Einstellung, um Maps auf der Grundlage Ihres Projekt-Meshs Baking führen. |
+| Hochauflösende Meshes | Füge hohe Poly-Mesh zu deinem Projekt hinzu, um aus einer High-Poly-Mesh ein Low-Poly-Mesh in deinem Projekt zu machen. Es können mehrere Mesh importiert werden. |
+| Käfig | Legen Sie fest, wie der Baking führend Käfig generiert wird.<ul data-preserve-html="true"> <li data-preserve-html="true">Entfernungsabhängig: Blasen Sie die Scheitelpunkt vom Mesh aus in einer gleichmäßigen Entfernung über das Model hinweg auf, um einen Käfig zu erzeugen.</li> <li data-preserve-html="true">Automatisch (experimentell): Painter analysiert Ihren Mesh und generiert automatisch einen Käfig. Dabei wird versucht, den Käfig in der Nähe der Oberfläche zu halten, ohne dass Schnittpunkte erstellt werden, um optimale Ergebnisse zu erzielen.</li> <li data-preserve-html="true">Benutzerdefinierte Datei: Importieren Sie eine Datei, die Sie erstellt haben, um sie als Käfig zu verwenden. Beachten Sie, dass importierte Dateien dieselbe Anzahl an Scheitelpunkten wie das Basisgitter haben müssen, damit sie ordnungsgemäß funktionieren.</li> </ul> |
+| Rückseite ignorieren | Stellt ein, ob rückseitige Flächen beim Baking ignoriert werden. Dies kann Artefakte reduzieren, aber auch in bestimmten Fällen zu Fehlern führen. |
+| Abgleichen | Ändern Sie, wie der Baker bestimmt, ob Objekte beim Baking einbezogen werden sollen:<ul data-preserve-html="true"> <li data-preserve-html="true">Immer: Schließen Sie alle hohen Poly-Maschen ein, die beim Backen im Käfig getroffen werden.</li> <li data-preserve-html="true">Nach Name des Meshs: Für jeden Käfig werden nur Mesh mit dem entsprechenden Mesh-Suffix Baking geführt.</li> </ul> |
+| Suffix für Low-Poly-Mesh | Verwenden Sie bei Verwendung des Namens &quot;Mit Mesh abgleichen&quot; dieses Suffix, um niedrige Poly-Meshs zu definieren. |
+| Suffix für High-Poly-Mesh | Verwenden Sie bei Verwendung des Namens &quot;Mit Mesh abgleichen&quot; dieses Suffix, um hohe Poly-Meshs zu definieren und mit den entsprechenden Low-Poly-Mesh abzugleichen. |
+| Antialiasing | Passen Sie die Menge des Antialiasings in den generierten Maps an. |
 
 #### Verzerrungskorrektur
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Korrektur der Farbneigung** | Wechseln Sie in den Skew-Korrekturmodus. |
-| **Kantenschutz** | Schalten Sie den Kantenschutz um, um die Werte der bemalten Neigungskorrektur in der Nähe harter Kanten zu maskieren. |
+| **Malen Verzerrungskorrektur** | Rufen Sie den Verzerrungskorrektur-Malmodus auf. |
+| **Kantenschutz** | Aktiviere/deaktiviere die Option &quot;Kantenschutz&quot;, um die Werte für die gemalte Verzerrungskorrektur in der Nähe harter Kanten zu maskieren. |
 | **Kantenabstand** | Legt fest, wie weit der Kantenschutz von harten Kanten reicht. |
 | **Kantenkontrast** | Legt fest, wie stark der Kantenschutzverlauf vom vollständigen Schutz zum Nichtschutz übergeht. |
 
-## ID-Zuordnungseinstellungen
+## ID-Map-Einstellungen
 
 | Einstellung | Funktion |
 | --- | --- |
-| Farbquelle | Ändern Sie, wie die vordefinierten Farben der ID-Map bestimmt werden:<ul data-preserve-html="true"> <li data-preserve-html="true">Vertexfarbe</li> <li data-preserve-html="true">Materialfarbe</li> <li data-preserve-html="true">Datei-ID</li> <li data-preserve-html="true">Gitter-ID/Polygruppe</li> </ul> |
-| Farbgenerator | Wenn Sie die Datei-ID oder die Gitter-ID/Polygruppe als Farbquelle verwenden, bestimmen Sie, wie Farben generiert werden:<ul data-preserve-html="true"> <li data-preserve-html="true">Zufallswert</li> <li data-preserve-html="true">Farbtonverschiebung</li> <li data-preserve-html="true">Graustufen</li> </ul> |
+| Farbquelle | Ändern Sie, wie die Baking geführt Farben der ID-Map bestimmt werden:<ul data-preserve-html="true"> <li data-preserve-html="true">Vertexfarbe</li> <li data-preserve-html="true">Materialfarbe</li> <li data-preserve-html="true">Datei-ID</li> <li data-preserve-html="true">Mesh-ID/Polygruppe</li> </ul> |
+| Farbgenerator | Wenn Sie die Datei-ID oder Mesh-ID/Polygruppe als Farbquelle verwenden, bestimmen Sie, wie Farben generiert werden:<ul data-preserve-html="true"> <li data-preserve-html="true">Zufallswert</li> <li data-preserve-html="true">Farbtonverschiebung</li> <li data-preserve-html="true">Graustufen</li> </ul> |
 
 ## Umgebungszuordnungseinstellungen für die Verdeckung
 
@@ -71,24 +71,24 @@ Die Seite &quot;Allgemeine Einstellungen&quot; enthält Steuerelemente, die beei
 | --- | --- |
 | Sekundäre Strahlen | Ändern Sie die Anzahl der Sekundärstrahlen. Mehr Strahlen können bessere Ergebnisse liefern, was auf Kosten einer erhöhten Verarbeitungszeit geht. |
 | Min Occluder-Abstand | Passen Sie den Mindestabstand für die Strahlen so an, dass sie auf eine hohe Poly-Geometrie treffen und auf die resultierende AO-Karte wirken. |
-| Max. Occluder-Distanz | Strahlen, die sich über diese Entfernung hinaus erstrecken, ohne das hohe Polygitter zu treffen, gelten als nicht verdeckt und wirken sich nicht auf die AO-Karte aus. |
-| Relativ zum Begrenzungsrahmen | Wenn dieses Kontrollkästchen aktiviert ist, werden andere Einstellungen, die sich auf den Abstand beziehen, auf den Begrenzungsrahmen des Projektnetzes angewendet. Ein Abstand von 1 entspricht der Größe des Begrenzungsrahmens. |
+| Max. Occluder-Distanz | Strahlen, die sich über diese Entfernung hinaus erstrecken, ohne die High-Poly-Mesh zu treffen, gelten als nicht verdeckt und wirken sich nicht auf die AO-Karte aus. |
+| Relativ zum Begrenzungsrahmen | Wenn dieses Kontrollkästchen aktiviert ist, werden andere Einstellungen, die sich auf den Abstand beziehen, auf den Begrenzungsrahmen des Projekt-Meshs angewendet. Ein Abstand von 1 entspricht der Größe des Begrenzungsrahmens. |
 | Ausbreitungswinkel | Passen Sie den angular-Bereich der generierten Strahlen an. Ein höherer Spreizwinkel ermöglicht es, eine Oberfläche leichter durch Geometrie zu verschließen, die nicht senkrecht von der Oberfläche weg angeordnet ist. |
 | Verteilung | Legen Sie fest, wie die Strahlen verteilt werden. |
 | Rückseite ignorieren | Ändert, ob Flächen hinter Objekten verborgen werden. |
-| Selbstverdeckung | Wählen Sie aus, welche Gitter die Verdeckung des aktuellen Gitters beeinflussen sollen. |
-| Abmilderung | Ändere, wie die Verdeckung durch die Entfernung der Augenringe gedämpft wird. |
-| Grundebene | Aktivieren Sie diese Option, um eine Grundebene zu erstellen, die als Okklusion fungiert. |
-| Versatz der Grundebene | Ändern Sie die Position der Grundebene. |
+| Selbstverdeckung | Wählen Sie aus, welche Mesh das ambient occlusion für den aktuellen Mesh betreffen sollen. |
+| Abmilderung | Ändert, wie Verdeckung durch Verdeckungsabstand gedämpft wird. |
+| Grundebene | Aktivieren Sie diese Option, um eine Boden-Ebene zu erstellen, die als Okklusion fungiert. |
+| Versatz der Grundebene | Ändern Sie die Position des Bodens. |
 
-## Einstellungen für die Krümmungskarte
+## Krümmungs-Map-Einstellungen
 
 | Einstellung | Funktion |
 | --- | --- |
-| Methode | Wählen Sie, wie die Krümmungszuordnung generiert werden soll. |
+| Methode | Legen Sie fest, wie die Krümmungs-Map generiert werden soll. |
 | Sekundäre Strahlen | Passen Sie an, wie viele Sekundärstrahlen zum Generieren der Krümmungszuordnung verwendet werden. Mehr Sekundärstrahlen können bessere Ergebnisse erzielen, was auf Kosten einer höheren Verarbeitungszeit geht. |
-| Sampling-Radius | Passen Sie an, wie weit der Bäcker sucht, um die Rundung des aktuellen Punktes zu berechnen. |
-| Relativ zum Begrenzungsrahmen | Wenn diese Option aktiviert ist, basieren alle Abstände auf der Größe des Gitterbegrenzungsrahmens. |
+| Sampling-Radius | Passen Sie an, wie weit der Baker sucht, um die Krümmung des aktuellen Punktes zu berechnen. |
+| Relativ zum Begrenzungsrahmen | Wenn diese Einstellung aktiviert ist, werden alle Abstände anhand der Größe des Mesh-Begrenzungsrahmens berechnet. |
 | Selbstüberschneidung | Wählen Sie aus, welche Objekte bei der Bestimmung der Krümmung berücksichtigt werden sollen. |
 | Automatisches Tonemapping (pro UV-Kachel) | Lassen Sie diese Option aktiviert, um die Tonemap-Krümmungszuordnungen automatisch auf Basis einer UV-Kachel anzupassen. |
 | Min. Tonemapping | Wenn die automatische Tonzuordnung deaktiviert ist, passen Sie den Mindestwert für die Tonzuordnung an. |
@@ -103,35 +103,35 @@ Die Seite &quot;Allgemeine Einstellungen&quot; enthält Steuerelemente, die beei
 | Normalisierungstyp | Ändern Sie, wie Positionswerte normalisiert werden, entweder mit einem Begrenzungsrahmen oder einer Begrenzungskugel, oder deaktivieren Sie die Normalisierung. |
 | Normalisierungsskala | Ändert die maximale Begrenzung des Positionsraums. |
 
-## Thickness-Map-Einstellungen
+## Dicken-Map-Einstellungen
 
 | Einstellung | Funktion |
 | --- | --- |
 | Sekundäre Strahlen | Ändern Sie die Anzahl der Sekundärstrahlen. Mehr Strahlen können bessere Ergebnisse liefern, was auf Kosten einer erhöhten Verarbeitungszeit geht. |
-| Min Occluder-Abstand | Passen Sie den Mindestabstand für die zu bewegenden Strahlen an, um auf eine hohe Poly-Geometrie zu treffen und die resultierende Thickness anzuzeigen. |
-| Max. Occluder-Entfernung | Strahlen, die sich über diese Entfernung hinaus erstrecken, ohne das hohe Polygitter zu treffen, gelten als nicht verdeckt und wirken sich nicht auf die Thickness aus. |
-| Relativ zum Begrenzungsrahmen | Wenn dieses Kontrollkästchen aktiviert ist, werden andere Einstellungen, die sich auf den Abstand beziehen, auf den Begrenzungsrahmen des Projektnetzes angewendet. Ein Abstand von 1 entspricht der Größe des Begrenzungsrahmens. |
+| Min Occluder-Abstand | Passen Sie den Mindestabstand für die Strahlen an, damit diese auf die hohe Poly-Geometrie treffen und auf den resultierenden Dicken-Map treffen. |
+| Max. Verdeckungsabstand | Strahlen, die sich über diese Entfernung hinaus erstrecken, ohne das hohe Polygitter zu treffen, gelten als nicht verdeckt und wirken sich nicht auf die Thickness aus. |
+| Relativ zum Begrenzungsrahmen | Wenn dieses Kontrollkästchen aktiviert ist, werden andere Einstellungen, die sich auf den Abstand beziehen, auf den Begrenzungsrahmen des Projekt-Meshs angewendet. Ein Abstand von 1 entspricht der Größe des Begrenzungsrahmens. |
 | Ausbreitungswinkel | Passen Sie den angular-Bereich der generierten Strahlen an. Ein höherer Spreizwinkel ermöglicht es, eine Oberfläche leichter durch Geometrie zu verschließen, die nicht senkrecht von der Oberfläche weg angeordnet ist. |
 | Verteilung | Legen Sie fest, wie die Strahlen verteilt werden. |
 | Selbstverdeckung | Wählen Sie aus, welche Gitter die Thickness des aktuellen Gitters beeinflussen sollen. |
 | Normalisierung | Ändern Sie, wie Werte für Thicknessen normalisiert werden. |
 
-## Height-Map-Einstellungen
+## Höhen-Map-Einstellungen
 
 | Einstellung | Funktion |
 | --- | --- |
 | Normalisierung | Ändern Sie, wie die Werte von Heights normalisiert werden. |
 | Skalierungsdivisor | Wenn &quot;Normalisierung&quot; auf &quot;Manuell&quot; eingestellt ist, können Sie mit diesem Schieberegler den Skalierungs-Divisor anpassen und die Normalisierung der Height-Map anpassen. |
 
-## Gebeugte Normal-Zuordnungseinstellungen
+## Bent normals-Map-Einstellungen
 
 | Einstellung | Funktion |
 | --- | --- |
 | Sekundäre Strahlen | Ändern Sie die Anzahl der Sekundärstrahlen. Mehr Strahlen können bessere Ergebnisse liefern, was auf Kosten einer erhöhten Verarbeitungszeit geht. |
-| Min Occluder-Abstand | Passen Sie den minimalen Abstand für die Strahlen an, um auf eine hohe Poly-Geometrie zu treffen und die resultierende gebogene Normal-Map zu treffen. |
-| Max. Occluder-Entfernung | Strahlen, die sich über diese Entfernung hinaus erstrecken, ohne das hohe Polygitter zu treffen, gelten als nicht verdeckt und wirken sich nicht auf die gebogene Normalenmaske aus. |
-| Relativ zum Begrenzungsrahmen | Wenn dieses Kontrollkästchen aktiviert ist, werden andere Einstellungen, die sich auf den Abstand beziehen, auf den Begrenzungsrahmen des Projektgitters angewendet. Ein Abstand von 1 entspricht der Größe des Begrenzungsrahmens. |
+| Min Occluder-Abstand | Passen Sie den Mindestabstand für die Strahlen so an, dass sie auf die hohe Poly-Geometrie treffen und auf die resultierende bent normals-Map wirken. |
+| Max. Verdeckungsabstand | Strahlen, die sich über diese Entfernung hinaus erstrecken, ohne das hohe Polygitter zu treffen, gelten als nicht verdeckt und wirken sich nicht auf die gebogene Normalenmaske aus. |
+| Relativ zum Begrenzungsrahmen | Wenn dieses Kontrollkästchen aktiviert ist, werden andere Einstellungen, die sich auf den Abstand beziehen, auf den Begrenzungsrahmen des Projekt-Meshs angewendet. Ein Abstand von 1 entspricht der Größe des Begrenzungsrahmens. |
 | Ausbreitungswinkel | Passen Sie den angular-Bereich der generierten Strahlen an. Ein höherer Spreizwinkel ermöglicht es, eine Oberfläche leichter durch Geometrie zu verschließen, die nicht senkrecht von der Oberfläche weg angeordnet ist. |
 | Verteilung | Legen Sie fest, wie die Strahlen verteilt werden. |
 | Rückseite ignorieren | Legen Sie fest, ob die Rückseiten als Okklusionen behandelt werden sollen. |
-| Selbstverdeckung | Wählen Sie aus, welche Gitter die gebogenen Normalen des aktuellen Gitters beeinflussen sollen. |
+| Selbstverdeckung | Wählen Sie aus, welche Mesh sich auf die bent normals für den aktuellen Mesh auswirken sollen. |

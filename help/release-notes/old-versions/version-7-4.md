@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-7-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-4.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 7.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 7.4
 
-**Substance 3D Painter 7.4** bietet Unterstützung für OpenColorIO mit der Einführung des neuen Farbmanagement-Workflows.
+**Substance 3D Painter 7.4** bietet mit der Einführung des neuen Farbmanagement-Workflows Unterstützung für OpenColorIO.
 
 Freigabedatum: *24. November 2021*
 
@@ -30,9 +30,9 @@ Freigabedatum: *24. November 2021*
 
 ![](../../assets/banner-cm.jpg)
 
-In dieser Version wird das Farbmanagement mit Unterstützung von [OpenColorIO](https://opencolorio.org/) (kurz OCIO) Version 2 eingeführt.
+In dieser Version wird das Farbmanagement mit Unterstützung von [OpenColorIO](https://opencolorio.org/) (OCIO) Version 2 eingeführt.
 
-Mit diesem neuen Arbeitsablauf können Sie Farben vom Import bis zum Export und auch innerhalb des Viewports verwalten und kalibrieren, sodass Inhalte über verschiedene Anwendungen hinweg einfacher abgeglichen werden können.
+Mit diesem neuen Arbeitsablauf können Sie Farben vom Import bis zum Export sowie innerhalb des Viewports verwalten und kalibrieren, sodass Inhalte unterschiedlicher Anwendungen einfacher abgeglichen werden können.
 
 * **Projekteinstellungen**\
   Beim Erstellen eines neuen Projekts ist es jetzt möglich, das Farb-Management zu aktivieren. Vorhandenes Projekt kann auch das Farbmanagement über die Projekteinstellungen aktivieren.\
@@ -40,23 +40,23 @@ Mit diesem neuen Arbeitsablauf können Sie Farben vom Import bis zum Export und 
 
   ![](../../assets/cm-settings.png){width="400px"}
 
-* **Viewport-Anzeigeeinstellungen**\
+* **Anzeigeeinstellungen für Viewport**\
   Am oberen Rand der 2D- und 3D-Ansichten befinden sich zwei Steuerelemente für das Farbmanagement:\
   **Farbschaltfläche**: die Farbtransformation des Viewports aktivieren oder deaktivieren.\
-  **Dropdown der Transformation anzeigen**: Wählen Sie aus, welche Anzeigetransformation zum Konvertieren der Farben verwendet werden soll.
+  **Dropdown der Anzeige transformieren**: Wählen Sie aus, welche Anzeige zum Konvertieren der Farben transformieren werden soll.
 
   ![](../../assets/cm-viewport.jpg){width="500px"}
 
 * **Farbwählereinstellungen**\
   Wenn Farbmanagement aktiviert ist, bietet der Farbwähler neue Steuerelemente. Die Farbe wird im Arbeitsfarbraum bearbeitet, der in der Konfiguration festgelegt ist.\
-  Unterhalb der HSV-/RGB-Schieberegler wird der endgültige Farbwert angezeigt, der vom Arbeitsfarbraum in den Anzeigefarbraum transformiert wurde.
+  Unterhalb der HSV-/RGB-Schieberegler wird der endgültige Farbwert angezeigt, der vom Arbeitsfarbraum zum Anzeigefarbraum transformieren wird.
 
   ![](../../assets/color-picker-demo.png)
 
   ![](../../assets/cm-picker-display-value.png)
 
-* **Importieren von Bitmaps und Substance-Materialien mit benutzerdefiniertem Farbraum**\
-  Es stehen spezielle Einstellungen zur Verfügung, die festlegen, wie Ressourcen behandelt werden sollen, einschließlich der Interpretation der Substance-Materialausgabe.\
+* **Importieren von Bitmaps und Substance von Materialien mit benutzerdefiniertem Farbraum**\
+  Es sind spezielle Einstellungen verfügbar, die festlegen, wie Ressourcen behandelt werden sollen, einschließlich der Interpretation der Ausgabe von Substance-Materialien.\
   Es ist auch möglich, durch Analysieren des Dateinamens zu wissen, welchen Farbraum eine Ressource verwendet.
 
   ![](../../assets/auto-color-space.png)
@@ -72,11 +72,11 @@ Mit diesem neuen Arbeitsablauf können Sie Farben vom Import bis zum Export und 
 >
 > Weitere Informationen zur Funktionsweise des Farbmanagements in der Anwendung finden Sie auf der [dedizierten Seite](../../features/color-management/color-management.md).
 
-### Neues Abdocken von 2D- und 3D-Ansichtsfenstern
+### Neues Abdocken von 2D- und 3D-Viewport
 
 ![](../../assets/banner-undock.jpg)
 
-Die 2D- und 3D-Ansicht kann jetzt abgedockt und an eine andere Stelle verschoben werden. Beispielsweise, indem die 3D-Ansicht auf einem Hauptbildschirm angezeigt wird, während die 2D-Ansicht auf einem anderen Bildschirm angezeigt wird.
+Die 2D- und 3D-Ansicht kann jetzt abgedockt und an eine andere Stelle verschoben werden. Zum Beispiel, wenn die 3D-Ansicht auf einem Hauptbildschirm liegt, während die 2D-Ansicht auf einem anderen Bildschirm sitzt.
 
 Das Arbeiten mit einer nicht angedockten Ansicht ist einfacher, das Layout der Anwendung zu organisieren und die Dinge im Auge zu behalten, ohne zu viel Malbereich zu verlieren.
 
@@ -91,7 +91,7 @@ Das Arbeiten mit einer nicht angedockten Ansicht ist einfacher, das Layout der A
   ![](../../assets/swap-undock.gif){width="500px"}
 
 * **Kompatibel mit Farbmanagement**\
-  Die abgedockte Ansicht verfügt über eine eigene Farbmanagement-Display-Transformation, was die Verwaltung auf verschiedenen Monitoren vereinfacht.
+  Die abgedockte Ansicht verfügt über ein eigenes Farbmanagement-Display transformieren, was die Verwaltung auf verschiedenen Monitoren vereinfacht.
 
   ![](../../assets/false-colors-undock.jpg){width="500px"}
 
@@ -101,7 +101,7 @@ Das Arbeiten mit einer nicht angedockten Ansicht ist einfacher, das Layout der A
 
 Die **SpaceMouse®** ist ein Gerät mit 3D-Verbindung, mit dem die 3D-Viewport-Kamera intuitiver und benutzerfreundlicher bearbeitet werden kann. Es wird jetzt nativ und direkt mit Painter Plug-and-Play unterstützt.
 
-Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite &#x200B;](../../features/spacemouse-by-3dconnexion.md).
+Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite ](../../features/spacemouse-by-3dconnexion.md).
 
 >[!NOTE]
 >
@@ -131,9 +131,9 @@ Dem Standardinhalt, der in der Anwendung verfügbar ist, wurde ein neuer Satz vo
     * Aufblasen Schrumpfen/Umhüllen
 
 * Neue Schmutz-Bitmaps (von **Emil Sleegers**):
-  * Schmutz Gipsfarbe
+  * Schmutz Plaster Malen
   * Schmutz Gips verblasst
-  * Schmutz Paint Peeled
+  * Schmutz Malen Peeled
   * Schmutz Feuchtigkeit
   * Schmutz Fluff
   * Schmutz Cobweb
@@ -143,13 +143,13 @@ Dem Standardinhalt, der in der Anwendung verfügbar ist, wurde ein neuer Satz vo
   * Schmutz ist tief gerissen
   * Schmutz Brushed Dust
 
-### Verbessertes automatisches Ausgliedern von UVs
+### Verbesserter automatischer entpack von UV
 
 ![](../../assets/banner-uv-1.jpg)
 
 Die automatische UV-Entpackung wurde mit einer neuen Option aktualisiert, die die Unterstützung von 3D-Modellen mit erweiterten Oberflächen verbessert.
 
-Diese neue Einstellung mit dem Namen **Vermeiden Sie verlängerte UV-Inseln**, die den UV-Raum besser nutzen, indem Sie UV-Inseln aufteilen, die zu lang sein könnten.
+Diese neue Einstellung mit dem Namen **Vermeiden Sie verlängerte UV-Inseln**, die den UV-Bereich besser ausnutzen, indem Sie UV-Inseln aufteilen, die zu lang sein könnten.
 
 Im Folgenden finden Sie ein Beispiel für diese neuen Einstellungen, ohne sie im Vergleich zu verwenden:
 
@@ -161,7 +161,7 @@ Im Folgenden finden Sie ein Beispiel für diese neuen Einstellungen, ohne sie im
 
 Die Python-API verfügt über eine neue Methode, mit der die JavaScript-API aufgerufen werden kann.
 
-Diese neue Methode erleichtert die Migration alter Plug-ins zur neuen Python-API. Außerdem werden einige Funktionen wie **Backen** und **Shader**-Verwaltung entsperrt, die noch nicht in Python verfügbar gemacht wurden.
+Diese neue Methode erleichtert die Migration alter Plug-ins zur neuen Python-API. Es werden auch einige Funktionen freigeschaltet, z. B. **Baking** und **Shader** Verwaltung, die noch nicht in Python gelegt wurden.
 
 Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion **evaluation()** des neuen **js**-Untermoduls. Weitere Informationen finden Sie in der API-Dokumentation (verfügbar über das Hilfemenü der Anwendung).
 
@@ -173,9 +173,9 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 
 **Hinzugefügt:**
 
-* [SpaceMouse]&#x200B;[Windows] Unterstützung der 3D-Verbindung von SpaceMouse im 3D-Viewport für die Navigation
-* [SpaceMouse]&#x200B;[Windows] Grundlegende Tastaturbefehle/Tasten für Pro- und Enterprise-SpaceMouse-Modelle im 3D-Viewport
-* [SpaceMouse]&#x200B;[Windows] Dediziertes Drehmittelsymbol im 3D-Viewport
+* [SpaceMouse][Windows] Unterstützung der 3D-Verbindung von SpaceMouse im 3D-Viewport für die Navigation
+* [SpaceMouse][Windows] Grundlegende Tastaturbefehle/Tasten für Pro- und Enterprise-SpaceMouse-Modelle im 3D-Viewport
+* [SpaceMouse][Windows] Dediziertes Drehmittelsymbol im 3D-Viewport
 * [Farbmanagement] Verwenden Sie Rollen aus der OCIO-Konfiguration, um Standardeinstellungen zu ändern
 * [Farbmanagement] Farbmanagement des Eigenschaftenfensters für Farb-Widgets
 * [Farbmanagement] Farbmanagement des Eigenschaftsfensters für die Materialvorschau
@@ -193,7 +193,7 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Deaktivieren der Farbwähler-Dropdown-Liste &quot;Anzeige&quot; für Datenkanäle
 * [Optimierung] Verkrümmungsraster berechnet nur überdeckte UV-Kacheln neu
 * [Exportieren] Exportieren von UV-Kachelprojekten für Sketchfab, USD und glTF zulassen
-* [Scripting]&#x200B;[Python] Ändern der Tonzuordnungsfunktion zulassen
+* [Scripting][Python] Ändern der Tonzuordnungsfunktion zulassen
 
 **Fest:**
 
@@ -209,9 +209,9 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Polygon-Füllwerkzeug zeigt die falsche Farbe an
 * [Color Management] ACES-Tonabnehmer wird im Solomodus auf Kanäle angewendet
 * [Farbmanagement] Die Kugelbeleuchtung der Werkzeugvorschau ist nicht farbverwaltet
-* [Farbmanagement]&#x200B;[Exportieren] Konvertierte Karten werden falsch konvertiert.
-* [Scripting]&#x200B;[Python]&#x200B;[Farbmanagement] Projekte, die mit Vorlage und OCIO-Umgebungsvariablen erstellt wurden, befinden sich im Modus &quot;Veraltet&quot;.
-* [Scripting]&#x200B;[Python] Die JavaScript-Evaluierungsfunktion kann beim Start nicht verwendet werden.
+* [Farbmanagement][Exportieren] Konvertierte Karten werden falsch konvertiert.
+* [Scripting][Python][Farbmanagement] Projekte, die mit Vorlage und OCIO-Umgebungsvariablen erstellt wurden, befinden sich im Modus &quot;Veraltet&quot;.
+* [Scripting][Python] Die JavaScript-Evaluierungsfunktion kann beim Start nicht verwendet werden.
 * [3D-Adobe-Angebot] Painter kann nicht gestartet werden, wenn regionale Einstellungen mit Sprachen verwendet werden, die nicht standardmäßig unterstützt werden
 
 **Bekannte Probleme:**
@@ -230,19 +230,19 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 
 * [Farbmanagement] Verwenden der Datenrolle in exportierten Dateinamen
 * [Farbmanagement] Erweitern Sie den Abschnitt Farbmanagement standardmäßig, wenn OCIO in den Fenstern für neue Projekt- und Projekteinstellungen ausgewählt ist.
-* [Farbmanagement] ACES-Tonzuweiser im Legacy-Modus hinzufügen
+* [Farbmanagement] Hinzufügen ACE Tonwertumsetzers im Legacy-Modus
 * [Farbmanagement] Standardkonfigurationseinstellungen anpassen
-* [Farbmanagement]&#x200B;[Exportieren] Fill $colorSpace in Dateinamen für Datenkanäle
+* [Farbmanagement][Exportieren] Fill $colorSpace in Dateinamen für Datenkanäle
 * [Exportieren] Exportieren eines UV-Kachelprojekts in Stager
 * [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
-* [Interoperabilität] Senden eines UV-Kachelprojekts an Stager zulassen
+* [Interoperabilität] Senden eines UV-Kachel-Projekts an Stager zulassen
 
 **Fest:**
 
-* [MacOS]&#x200B;[Absturz] Painter startet nicht mit Catalina
-* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
+* [MacOS][Absturz] Painter startet nicht mit Catalina
+* [Farbmanagement][Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
 * [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen den Farbraum an Neues Menü
-* [Farbmanagement] Benutzerkanal ist im Ansichtsfenster im Legacy-Modus + Solo-Ansicht dunkler
+* [Farbmanagement] Benutzerkanal ist im Viewport im Legacy-Modus + Solo-Ansicht dunkler
 * [Farbmanagement] Die Env-Map ist immer linear, wenn sie in iRay verwendet wird
 * [Farbmanagement] Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
 * [Farbmanagement] Farbwähler in einer Substance im Legacy-Modus funktioniert nicht
@@ -272,18 +272,18 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Extrahieren des Farbraumnamens aus dem importierten Bitmap-Dateinamen
 * [Farbmanagement] Überschreiben des Farbraums mit einem Farbraum aus der Konfiguration im Eigenschaftenfenster zulassen
 * [Farbmanagement] Hinzufügen von Farbmanagementoptionen in den Textursatzeinstellungen
-* [Farbmanagement]&#x200B;[Viewport] Ermöglicht das separate Farbmanagement für 2D- und 3D-Ansichten.
+* [Farbmanagement][Viewport] Ermöglicht das separate Farbmanagement für 2D- und 3D-Ansichten.
 * [Farbmanagement] Umgebungszuordnung laden und in den Arbeitsfarbraum konvertieren
 * [Farbmanagement] Anpassen des Farbwählers und Editors mit dem aktuellen Farbraum
 * [Farbmanagement] Erlauben Sie mit einem neuen Dropdown-Menü die Auswahl des Anzeigetransformationsfarbraums im Viewport.
 * [Farbmanagement] Anwenden der Anzeigetransformation mit Iray-Renderingergebnissen
 * [Farbmanagement] Exportieren von Texturen mit verschiedenen Farbräumen
-* [Farbmanagement]&#x200B;[Python] Anwenden von Farbmanagementeinstellungen der Umgebungsvariablen (OCIO) auf neue Projekte
+* [Farbmanagement][Python] Anwenden von Farbmanagementeinstellungen der Umgebungsvariablen (OCIO) auf neue Projekte
 * [Viewport] Abdocken des 2D- oder 3D-Viewports zulassen
 * [Automatisches Ausgliedern] Neue Option zur Vermeidung länglicher Inseln
 * [Scripting Python] Aufrufen von JavaScript-Funktionen über die Python-API
 * [Neues Projektfenster] Reduzieren des Abschnitts &quot;Importierte Karten&quot;
-* [Projektion]&#x200B;[Verkrümmen] Normale als Option in den Verkrümmungseinstellungen können ausgeblendet werden.
+* [Projektion][Verkrümmen] Normale als Option in den Verkrümmungseinstellungen können ausgeblendet werden.
 * [Content] 11 neue Schmutz-Maps
 * [Inhalt] 8 neue Werkzeugvorgaben (Reißverschluss, Spannschnur, Glitter)
 * [Inhalt] 8 neue Materialien (Narbe, Tasche, ...)
@@ -292,10 +292,10 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 **Bekannte Probleme:**
 
 * [Mac M1] Smart-Materialien werden nicht korrekt angezeigt
-* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
+* [Farbmanagement][Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
 * [Farbmanagement] Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
-* [Farbmanagement]&#x200B;[Iray] Das Speichern des Renderings in EXR oder TIFF, während das Farbmanagement im Viewport aktiviert ist, wird immer linear gespeichert
+* [Farbmanagement][Iray] Das Speichern des Renderings in EXR oder TIFF, während das Farbmanagement im Viewport aktiviert ist, wird immer linear gespeichert
 * [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen das falsche Farbraummenü an
-* [Farbmanagement]&#x200B;[Iray] Die Env-Map ist immer linear, wenn sie in Iray verwendet wird
-* [Farbmanagement]&#x200B;[Exportieren] Konvertierte Karten werden nicht als farbverwaltete Kanäle exportiert
-* [Farbmanagement]&#x200B;[Exportieren] Der Export ignoriert, wenn der Benutzerkanal farbverwaltet ist oder nicht im Legacy-Modus ausgeführt wird
+* [Farbmanagement][Iray] Die Env-Map ist immer linear, wenn sie in Iray verwendet wird
+* [Farbmanagement][Exportieren] Konvertierte Karten werden nicht als farbverwaltete Kanäle exportiert
+* [Farbmanagement][Exportieren] Der Export ignoriert, wenn der Benutzerkanal farbverwaltet ist oder nicht im Legacy-Modus ausgeführt wird

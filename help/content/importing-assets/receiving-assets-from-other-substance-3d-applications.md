@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Elemente aus anderen Substance 3D-Applikationen in Substance 3D Painter für nahtlose Workflows importieren und empfangen.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Sobald das Element gesendet wurde, wird es im Bedienfeld Elemente von Painter an
 
 ## Asset aus Designer an Painter senden
 
-1. Wählen Sie im Explorer-Bedienfeld Ihr Hauptpaket aus.
+1. Wählen Sie im Bedienfeld Explorer Ihr Hauptpaket aus.
 1. Klicken Sie auf das Dropdown-Menü Publish (alternativ können Sie auch mit der rechten Maustaste auf das Hauptpaket klicken).
 1. Wählen Sie die Option **An Substance 3D Painter senden** aus (Painter wird automatisch gestartet, wenn es noch nicht geöffnet ist).
 1. Das gesendete Element wird im Fenster &quot;Elemente&quot; angezeigt.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-8-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-2.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 8.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Freigabedatum: *6. Oktober 2022*
 
 ![](../assets/banner-blend-mode-copy.jpg)
 
-Es wurden mehrere Tastaturbefehle und Aktionen hinzugefügt, damit es schnell und einfach ist, Füllmethoden und die Deckkraft auf mehreren Kanälen im Ebenenstapel zu kopieren und anzuwenden.
+Es wurden mehrere Tastaturbefehle und Aktionen hinzugefügt, mit denen Sie schnell und einfach Füllmethoden kopieren und anwenden sowie die Deckkraft auf mehreren Kanälen im Ebenenstapel anpassen können.
 
 * **Klicken Sie mit der rechten Maustaste auf einen Mischmodus oder ein Deckkraftsteuerelement**\
   Wenn Sie mit der rechten Maustaste auf einen Mischmodus oder eine Deckkraft klicken, wählen Sie die Aktion **Auf alle Kanäle anwenden** aus, um diesen Mischmodus auf alle anderen Kanäle der Ebene anzuwenden. Diese Aktion ist auch für Effekte mit Füllmethode- und Deckkraftsteuerelementen verfügbar.
@@ -48,11 +48,11 @@ Es wurden mehrere Tastaturbefehle und Aktionen hinzugefügt, damit es schnell un
 
   ![](../assets/blending-actions.png)
 
-### Neue Füllmethode und Deckkraft für Filter- und Farbauswahleffekte
+### Neue Füllmethode und Deckkraft für Filter- und Farbauswahl-Effekte
 
 ![](../assets/banner-blend-color-selection.jpg)
 
-Filter- und Farbauswahleffekte können jetzt mit Füllmethoden und Deckkraft-Steuerelementen verwendet werden.
+Filter- und Farbauswahl-Effekte können jetzt mit Füllmethoden und Deckkrafteinstellungen verwendet werden.
 
 * **Füllmethode und Deckkraft für Filter**\
   Für Filter können jetzt Füllmethoden und Deckkraftwerte verwendet werden. Sie verwenden standardmäßig **Ersetzen**, um das gleiche Verhalten wie zuvor beizubehalten und eine Verdoppelung der Alphakomponenteninformationen zu vermeiden. Mit Füllmethoden für Filter lassen sich Effekte berechnen und ihre Ergebnisse direkt auf Ebenen kombinieren. So ist es nicht erforderlich, Ankerpunkte und Fülleffekte zu verwenden, um dasselbe Ergebnis zu erzielen. Dadurch entfällt auch die manuelle Implementierung von Füllmethoden innerhalb des Filters.
@@ -66,8 +66,8 @@ Filter- und Farbauswahleffekte können jetzt mit Füllmethoden und Deckkraft-Ste
 
   ![](../assets/color-selection-background.png)
 
-* **Vereinfachter Effektstapel**\
-  Früher, als Effekte auf bestimmte Weise kombiniert werden mussten (z. B. mithilfe von Füllmethoden), waren Ankerpunkte und Fülleffekte eine Notwendigkeit. Mit Mischmodi, die direkt auf Filtern angewendet werden, kann die Komplexität des Effektstapels nicht mehr unbedingt verringert werden.
+* **Stapel des vereinfachten Effekts**\
+  Früher, als Effekte auf bestimmte Weise kombiniert werden mussten (z. B. mithilfe von Füllmethoden), waren Ankerpunkte und Fülleffekte eine Notwendigkeit. Mit Mischmodi, die direkt auf Filtern angewendet werden, ist es nicht mehr zwingend erforderlich, die Komplexität des Effekts im Stapel erheblich zu reduzieren.
 
   ![](../assets/effect-stack.png){width="400px"}
 
@@ -81,15 +81,15 @@ Ordnerinhalte (der Farbteil einer Ebene) können jetzt Effekte jeder Art empfang
 
 ![](../assets/banner-sbsar.png)
 
-Beim Exportieren von Texturen ist jetzt das Dateiformat Substance-Archiv (SBSAR) verfügbar. Ein SBSAR ist ein Container, der in vielen Anwendungen mit Substance-Integration geöffnet werden kann, was das Plug-and-Play benutzerdefinierter Texturen beschleunigt und erleichtert.
+Das Dateiformat Substance-Archiv (SBSAR) ist jetzt beim Exportieren von Texturen verfügbar. Ein SBSAR ist ein Container, der in vielen Anwendungen mit Substance-Integration geöffnet werden kann, was das Plug-and-Play benutzerdefinierter Texturen beschleunigt und erleichtert.
 
 * **Exportieren eines Substance-Archivs (SBSAR)**\
-  Es ist jetzt möglich, das SBSAR-Dateiformat aus der Liste der Dateiformate im Fenster **Texturen exportieren** anzugeben. Dadurch wird eine einzelne SBSAR-Datei exportiert, die alle angegebenen Texturen enthält. Die Benennung der Ausgabeknoten und ihrer Verwendungen wird anhand der ausgewählten Exportvorgabe und ihrer Kanaltypen definiert.
+  Es ist jetzt möglich, das Datenformat aus der Liste der Dateiformate im Fenster &quot;**Sbsar-Dateien exportieren**&quot; Textur. Dadurch wird eine einzige Sbsar-Datei exportiert, die alle angegebenen Texturen enthält. Die Benennung der Ausgabeknoten und ihrer Verwendungen wird anhand der ausgewählten Exportvorgabe und ihrer Kanaltypen definiert.
 
   ![](../assets/sbsar-export.png)
 
-* **Hybridexportvorgaben mit PSD- und SBSAR-Dateiformaten**\
-  Exportvorgaben können jetzt zusätzlich zu allen anderen Bildformaten auch Ausgabemaps als PSD oder SBSAR angeben. PSD- und SBSAR-Formate werden als &quot;Container&quot; betrachtet, d. h., es können mehrere Texturen innerhalb des Containers gespeichert werden. Wenn in einer Exportvorgabe sowohl Containerformate als auch eigenständige Bildformate festgelegt sind, werden alle Ausgaben in der Vorlage, die eine SBSAR-Datei betreffen, gruppiert, während die anderen Ausgaben als einzelne Dateien exportiert werden.
+* **Hybrid-Exportvorgaben mit PSD- und Sbsar-Datei-Formaten**\
+  Exportvorgaben können jetzt zusätzlich zu allen anderen Bildformaten auch Ausgabemaps als PSD oder SBSAR angeben. PSD- und SBSAR-Formate gelten als &quot;Container&quot;, d. h., es können mehrere Texturen innerhalb des Containers gespeichert werden. Wenn in einer Exportvorgabe sowohl Containerformate als auch eigenständige Bildformate festgelegt sind, werden alle Ausgaben in der Vorlage, die auf eine Sbsar-Datei abzielen, gruppiert, während die anderen Ausgaben als Einzeldateien exportiert werden.
 
   ![](../assets/export-preset-sbsar.png)
 
@@ -97,12 +97,12 @@ Beim Exportieren von Texturen ist jetzt das Dateiformat Substance-Archiv (SBSAR)
 
 ![](../assets/env-align-lighting2.gif)
 
-Mit einer neuen Einstellung in den [Anzeigeeinstellungen](../interface/display-settings/environment-settings.md) kann die Umgebungszuordnung an der Kamera ausgerichtet werden, wodurch es möglich ist, den Beleuchtungswinkel anzupassen und Teile unterhalb des 3D-Modells aufzuhellen.
+Mit einer neuen Einstellung in den [Anzeigeeinstellungen](../interface/display-settings/environment-settings.md) kann die Umgebungs-Map an der Kamera ausgerichtet werden, sodass der Beleuchtungswinkel angepasst und Teile unterhalb des 3D-Modells beleuchtet werden können.
 
 Um diese neue Einstellung zu verwenden, wechseln Sie zu [Anzeigeeinstellungen](../interface/display-settings/environment-settings.md) und ändern Sie die Einstellung **Umgebungsausrichtung**:
 
-* **Welt**: Die Umgebungskarte wird an der Szene ausgerichtet.
-* **Lokal**: Die Umgebungskarte wird an der Kamera ausgerichtet.
+* **Welt**: Die Umgebungs-Map wird an der Szene ausgerichtet.
+* **Lokal**: Die Umgebungs-Map wird an der Kamera ausgerichtet.
 
 Schatten werden automatisch entsprechend der Konfiguration dieser Einstellung angepasst.
 
@@ -118,7 +118,7 @@ Dem Fenster &quot;[Assets](../interface/assets/assets.md)&quot; wurden neue Akti
   ![](../assets/favorite-right-click.png){width="350px"}
 
 * **Ressourcen auf dem Datenträger löschen und neu laden**\
-  Ressourcen, die sich in Benutzerbibliotheken befinden, können jetzt gelöscht, neu geladen oder umbenannt werden (mit Ausnahme von Ressourcen, die Teil eines Pakets sind, wie Substance-Graphen oder ABR-Pinseln).
+  Ressourcen, die sich in Benutzerbibliotheken befinden, können jetzt gelöscht, neu geladen oder umbenannt werden (mit Ausnahme von Ressourcen, die Teil eines Pakets sind, wie Substance-Graf oder ABR-Pinsel).
 
 ### Verschiedene Funktionen und Verbesserungen
 
@@ -134,7 +134,7 @@ In dieser neuen Version wurden viele kleine zusätzliche Verbesserungen und Funk
   ![](../assets/whats-new-4.jpg){width="400px"}
 
 * **Neue Aktion zum schnellen erneuten Importieren eines 3D-Modells**\
-  Ein neuer Tastaturbefehl (**CTRL+SHIFT+R** standardmäßig) wurde hinzugefügt und ermöglicht ein schnelles erneutes Importieren des 3D-Modells des aktuellen Projekts. Dies vereinfacht und beschleunigt die Iteration eines Assets. Wenn die Quelldatei nicht gefunden werden kann, wird eine Fehlermeldung im Protokoll ausgelöst. Dem Menü &quot;**Bearbeiten**&quot; wurde ebenfalls eine Aktion hinzugefügt.
+  Ein neuer Tastatur-Tastaturbefehl (**CTRL+SHIFT+R** standardmäßig) wurde hinzugefügt und ermöglicht ein schnelles erneutes Importieren des 3D-Modells des aktuellen Projekts. Dies vereinfacht und beschleunigt die Iteration eines Assets. Wenn die Quelldatei nicht gefunden werden kann, wird eine Fehlermeldung im Protokoll ausgelöst. Dem Menü &quot;**Bearbeiten**&quot; wurde ebenfalls eine Aktion hinzugefügt.
 
   ![](../assets/reimport-mesh.png)
 
@@ -142,26 +142,26 @@ In dieser neuen Version wurden viele kleine zusätzliche Verbesserungen und Funk
   Es wurden mehrere Korrekturen in Bezug auf HDPI-Bildschirme und Systemskalierung vorgenommen. Wir unterstützen jetzt auch Zwischenwerte für die Skalierung (z. B. 125 %), wodurch vermieden werden sollte, dass die Benutzeroberfläche auf bestimmten Bildschirmen zu groß oder zu klein ist. Das Verschieben von Fenstern zwischen HDPI-Bildschirmen mit unterschiedlichen Skalierungswerten sollte sich ebenfalls korrekt verhalten.
 
 * **Substance-Diagrammparameter auf Standard zurücksetzen**\
-  Überall, wo ein Substance-Diagramm verwendet wird (als Alpha, Material, Filter usw.) Es ist nun möglich, die Parameter auf die Standardwerte zurückzusetzen.
+  Überall, wo ein Substance-Graf verwendet wird (als Alpha, Materialien, Filter usw.) Es ist nun möglich, die Parameter auf die Standardwerte zurückzusetzen.
 
   * **Alle Parameter zurücksetzen**: Verwenden Sie die Schaltfläche &quot;Standardeinstellungen wiederherstellen&quot; unter der Parameterliste, um die gesamte Substance-Ressource zurückzusetzen.
   * **Klicken Sie mit der rechten Maustaste auf**: Klicken Sie mit der rechten Maustaste auf einen bestimmten Parameter, um ein Menü mit einer für diesen Parameter spezifischen Rücksetzaktion zu öffnen.
 
   ![](../assets/restore-default.png) ![](../assets/restore-specific.png)
 
-* **Anzeigen einzelner RGBA-Komponenten in Viewports**\
-  Wenn Sie einen Kanal in den Viewports anzeigen, gibt es eine neue Einstellung mit dem Namen **Farbkanäle** unter **Anzeigeeinstellungen > Kanalanzeige**, mit der Sie RGBA-Komponenten einzeln betrachten können. Dies kann nützlich sein, um Texturen zu analysieren oder bestimmte Komponenten in Benutzerkanälen zu isolieren.
+* **Anzeigen einzelner RGBA-Komponenten in Viewporten**\
+  Wenn Sie sich einen Kanal in den Viewporten ansehen, gibt es eine neue Einstellung mit dem Namen **Farbkanäle** unter **Anzeigeeinstellungen > Kanalanzeige**, mit der Sie RGBA-Komponenten einzeln betrachten können. Dies kann nützlich sein, um Texturen zu analysieren oder bestimmte Komponenten innerhalb von Benutzerkanälen zu isolieren.
 
   ![](../assets/channels-display-component.png)
 
   ![](../assets/viewport-channels.jpg){width="450px"}
 
-* **Kacheln von Füllebenen und Effekten über 128 hinaus**\
-  Der Kachelparameter von Füllebenen und Effekten wurde geändert, um einen weichen Bereich zu erhalten. Dadurch ist es nun möglich, einen beliebigen Kachelwert einzugeben. Der Standardbereich des Schiebereglers wurde ebenfalls von [-128,128] auf [-32,32] reduziert, um das Ziehen zu vereinfachen.
+* **Füllebenen und Effekte der Kachelung über 128 hinaus**\
+  Der Parameter &quot;Kachelung&quot; von Füllebenen und Effekten wurde so angepasst, dass er einen weichen Bereich aufweist. Dadurch ist es nun möglich, einen beliebigen Kachelwert einzugeben. Der Standardbereich des Schiebereglers wurde ebenfalls von [-128,128] auf [-32,32] reduziert, um das Ziehen zu vereinfachen.
 
   ![](../assets/fill-tiling.gif)
 
-* **Neue Exporteinstellung für EXR-Texturen 16f und 32f**\
+* **Neue Exporteinstellungen für 16f und 32f EXR Textur**\
   Früher wurde der EXR-Texturexport auf 32f Bit in der Schnittstelle erzwungen, aber innerhalb der tatsächlichen Datei führte er zu 16f Bit-Daten (Halbschwebetyp). Es wurde nun behoben, und es besteht eine explizite Möglichkeit, zwischen 16f und 32f Bits zu wählen. Alte Projekte und Exportvorgaben, die EXR als Dateiformat verwenden, verwenden standardmäßig 16f Bit, um dem alten Verhalten zu entsprechen (vor allem, um die Produktion größerer Dateien als zuvor zu vermeiden).
 
   ![](../assets/exr-export.png)
@@ -192,13 +192,13 @@ Der Python-API wurden mehrere neue Funktionen hinzugefügt. Ausführliche Inform
   Ressourcenobjekte können jetzt ihre übergeordneten und untergeordneten Objekte auflisten, sodass sie beispielsweise zwischen Substance-Paketen und Substance-Graphen navigieren können.
 
 * **substance\_painter.textureset**\
-  Es wurden zwei neue Funktionen (und eine Enumeration) zum Abrufen und Festlegen von Gitterzuordnungen in den Einstellungen für den Textursatz hinzugefügt: **get\_mesh\_map\_resource()** und **set\_mesh\_map\_resource()**.
+  Zwei neue Funktionen (und eine Enumeration) wurden hinzugefügt, um Mesh-Map in den Textursatz-Einstellungen abzurufen und festzulegen: **get\_mesh\_map\_resource()** und **set\_mesh\_map\_resource()**.
 
 * **substance\_painter.ui**\
   Mehrere Funktionen wurden hinzugefügt, um das UI-Layout zu speichern und neu zu laden. Beachten Sie, dass das Layout auch vom aktuellen Anwendungsmodus (Malen oder Rendern) abhängt.
 
 * **substance\_painter.event**\
-  Ein neues **TextureStateEvent** wurde hinzugefügt, um Änderungen im Ebenenstapel von Textursätzen sowie andere Parameteränderungen zu verfolgen. Dieses Ereignis löst beim Malen oder Hinzufügen/Entfernen von Kanälen aus.
+  Ein neues **TextureStateEvent** wurde hinzugefügt, um Änderungen im Ebenenstapel von Textursätzen sowie andere Parameteränderungen zu verfolgen. Dieses Ereignis löst beim Malen von Konturen oder beim Hinzufügen/Entfernen von Kanälen aus.
 
 ## Versionshinweise
 
@@ -275,10 +275,10 @@ Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrü
   Unter Anzeigeeinstellungen > Viewport-Einstellungen > Kanalanzeige gibt es eine neue Farbkanaleinstellung, mit der nur die R-, G-, B- oder Alpha-Komponente eines Kanals im Einzelanzeigemodus angezeigt werden kann.
 * [Shader] Benutzerkanäle als RGBA in Material Layer-Shadern festlegen
 
-  Wenn Sie die Konfiguration Textursatz-Kanäle innerhalb eines Shaders für die Materialschichtung einstellen, ist es jetzt möglich, das Format des Kanals so festzulegen, dass es vom Standardwert abweicht. Auf diese Weise können insbesondere Farb-Benutzerkanäle anstelle von nur Graustufen angefordert werden.
+  Wenn Sie die Kanalkonfiguration innerhalb eines Shader für die Kanalschichtung einstellen, ist es nun möglich, das Material des Textursatzes so festzulegen, dass es vom Standardwert abweicht. Auf diese Weise können insbesondere Farb-Benutzerkanäle anstelle von nur Graustufen angefordert werden.
 * [Exportieren] Texturen als SBSAR exportieren
 
-  Beim Exportieren von Texturen über das Fenster Datei > Texturen exportieren kann das Dateiformat SBSAR (Substance Archive) ausgewählt werden, um sie neu zu gruppieren. Der Inhalt des SBSAR richtet sich nach der verwendeten Ausgabevorlage.\
+  Beim Exportieren von Texturen über das Fenster Datei > Texturen exportieren kann das SBSAR-Dateiformat (Substance Archive) ausgewählt werden, um sie neu zu gruppieren. Der Inhalt des SBSAR richtet sich nach der verwendeten Ausgabevorlage.\
   Das SBSAR-Dateiformat kann auch in den Exportvorgaben festgelegt werden. Bei Verwendung einer Hybrid-Konfiguration (SBSAR + Anderes Format) werden Texturen, die auf ein SBSAR abzielen, gruppiert, während der Rest parallel exportiert wird.
 * [Export] 16-Bit-Option für EXR-Dateiformat verfügbar machen
 
@@ -294,7 +294,7 @@ Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrü
   Die Option, Javascript-Plugins zu erhalten, wurde entfernt, da sie auf der veralteten Share-Website gehostet wurden.
 * [Inhalt] Neue Roblox-Vorlage hinzufügen und Vorgabe exportieren
 
-  Eine neue Roblox-Projektvorlage &quot;Materialvariante&quot; und &quot;Oberflächenerscheinung&quot; sowie eine Exportvorgabe wurden hinzugefügt, um den Export von PBR-Texturen nach Roblox zu erleichtern. Auf die Vorlage kann über das Fenster Datei > Neues Projekt zugegriffen werden.
+  Eine neue Roblox-Projektvorlage &quot;Material Variant&quot; und &quot;Surface Appearance&quot; sowie eine Exportvorgabe wurden hinzugefügt, um den Export von PBR-Texturen nach Roblox zu erleichtern. Auf die Vorlage kann über das Fenster Datei > Neues Projekt zugegriffen werden.
 * Substance Engine auf die neueste Version (8.6.3) aktualisieren
 * [Steam] Optimierter Build für Apple Silicon Chipsatz (Apple M1 / M2)
 
@@ -303,11 +303,11 @@ Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrü
 * Absturz bei Verwendung von 16k exr
 * [Absturz] Strg Z Nach dem Löschen einer Shader-Instanz
 * [Iray] IoR ist für einige Shader auf 1 blockiert
-* [Win]&#x200B;[Backen] Einige hohe Poly-Fehler beim Laden.
+* [Win][Baking] Einige hohe Poly-Dateien können nicht geladen werden
 * [Farbmanagement] Falscher Farbraumname in der Benutzeroberfläche mit Filtern
 * [Python] Von der Importfunktion zurückgegebene Ressourcenobjekte haben keinen Typ
 
-  Beim Importieren des Substance-Pakets in Python gab die Funktion das Paket zurück, anstelle der Diagramme. Das Ressourcenmodul stellt nun Funktionen und Parameter bereit, um die Graphen eines Substance-Pakets abzurufen.
+  Beim Importieren des Substance-Pakets in Python gab die Funktion das Paket anstelle der Graf zurück. Das Ressourcenmodul stellt nun Funktionen und Parameter bereit, um die Graphen eines Substance-Pakets abzurufen.
 
 **Bekannte Probleme:**
 

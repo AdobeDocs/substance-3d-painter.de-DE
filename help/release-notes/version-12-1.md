@@ -18,7 +18,7 @@ Freigabedatum: <b>22. Juni 2026</b>
 
 >[!NOTE]
 >
-> Diese Version erhöht die mindestens unterstützte macOS-Version auf 13.0 (Ventura). Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
+> Diese Version erhöht die mindestens unterstützte macOS-Version auf 13.0 (Ventura). Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
@@ -118,7 +118,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
 * <b>Mehrere Kanäle gleichzeitig hinzufügen oder entfernen</b>
 
-  Nach der Einführung von OpenPBR können Sie in einem neuen Fenster, das über die <b>Einstellungen für den Textursatz</b> zugänglich ist, mehrere Kanäle gleichzeitig auswählen. Dies ist praktisch, wenn Sie die vom OpenPBR-Arbeitsablauf verwendete große Kanalliste einrichten.
+  Nach der Einführung von OpenPBR können Sie in einem neuen Fenster, auf das über die <b>Kanaleinstellungen</b> zugegriffen werden kann, mehrere Textursätze gleichzeitig auswählen. Dies ist praktisch, wenn Sie die vom OpenPBR-Workflow verwendete große Kanalliste einrichten möchten.
 
   * Das neue Fenster ist über die Schaltfläche <b>Kanäle hinzufügen oder entfernen</b> in den Einstellungen für den Textursatz verfügbar.
 
@@ -128,7 +128,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
     ![](../assets/v12/v12_channel_window_small.jpg)
 
-  * Mit der Schaltfläche <b>Auf alle Textursätze anwenden</b> können Sie die Kanalkonfiguration aller Textursätze gleichzeitig bearbeiten.
+  * Mit der Schaltfläche <b>Auf alle Textursatz anwenden</b> kann die Kanalkonfiguration aller Textursatz gleichzeitig bearbeitet werden.
 
     ![](../assets/v12/v12_channel_apply_all.png)
 
@@ -140,7 +140,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
 * <b>Einheitlicher Rückgängig-Verlauf</b>
 
-  Backen und Malen haben jetzt denselben Verlauf zum Rückgängigmachen. Das Umschalten zwischen dem Backmodus und dem Malmodus wird als Schritt aufgezeichnet, der rückgängig gemacht werden kann. Aktionen können daher nur in dem Modus rückgängig gemacht werden, in dem sie ausgeführt wurden.
+  Backen und Malen haben jetzt denselben Verlauf zum Rückgängigmachen. Das Umschalten zwischen dem Baking- und dem Malen-Modus wird als Schritt zum Rückgängigmachen aufgezeichnet. Aktionen können daher nur in dem Modus rückgängig gemacht werden, in dem sie ausgeführt wurden.
 
 ## Tutorials
 
@@ -193,10 +193,10 @@ Zusammenfassung: Nebenversion
 
 Hinzugefügt:
 
-* [Skew-Backing] Stellen Sie den normalen Modus der Skew-Basis bereit: Geflecht oder pro Dreieck
-* [Eigenschaften] Stellen Sie sicher, dass einheitliche Farben immer auf den Standardwert ihres Kanals zurückgesetzt werden
+* [Skew-Baking] Gelegt: Normaler Neigungsbasismodus: Mesh oder pro Dreieck
+* [Eigenschaften] einheitliche Farben immer auf den Standardwert ihres Kanals zurücksetzen lassen
 * [OpenPBR] Kanäle nach Kategorien im Fenster &quot;Texturen exportieren&quot; für die Erstellung von Ausgabevorlagen neu gruppieren
-* Aktualisieren der Substance-Engine auf Version 9.4.5
+* Substance Engine auf Version 9.4.5 aktualisieren
 
 Fest:
 
@@ -206,18 +206,18 @@ Fest:
 * [Absturz] Einige Substance können beim Rendern zu einem Absturz führen
 * [Neigung malen] Das ausgewählte Werkzeug in der Neigung bleibt nach dem Wechsel in den Malmodus ausgewählt
 * [Allgemeine Einstellungen sichern] Einstellungen für die Käfigentfernung aktualisieren die Drahtgitter- und Shader-Visualisierung für Käfige nicht
-* [Der Modus &quot;3D-Raum-Nachbar&quot; der Engine]-UV-Auffüllung funktioniert nicht gut bei dünnen Dreiecken
-* [Engine]-Ankerpunktergebnis wird nicht zwischen einer Maske und einem Farbkanal gerendert
+* [Engine] UV-Auffüllmodus &quot;3D Space Neighbor&quot; funktioniert nicht gut bei dünnen Dreiecken
+* Das Ergebnis des [Engine]-Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert
 
 ### 12.1.0
 
 Freigabedatum: <b>2026/06/23</b>
 
-Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Backerverbesserungen mit neuem Backstandardbenutzeroberflächenstatus, Zeichnen einer Skew-Map, automatischem Rebake, neue Option für automatisches UV-Entpacken für Oberflächenmaschen und OpenPBR. Weitere Informationen finden Sie in den vollständigen Versionshinweisen.</b>
+Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserungen an Bakern mit dem Standardzustand &quot;Neues Baking&quot;, der Zeichnungs-Skew-Map, dem automatischen Reake, einer neuen Option für den automatischen entpack von UV für Mesh und OpenPBR mit fester Oberfläche. Weitere Informationen finden Sie in den vollständigen Versionshinweisen.</b>
 
 <b>Hinzugefügt</b>:
 
-* [Backen mit Neigung] Malwerkzeuge mit Neigung
+* [Baking Neigen] Malwerkzeuge Neigen
 * [Skew Baking] Hinzufügen von Skew Preview Shader und Skew Direction Vektorgrafiken beim Malen von Skew Map
 * [Skew-Backing] Option &quot;Kantenschutz hinzufügen&quot;
 * [Backen mit Neigung] Automatische Wiederherstellung
@@ -236,7 +236,7 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Backerverbe
 * [OpenPBR] Exportieren von OpenPBR-Materialien und -Texturen über USD
 * [OpenPBR] Fenster &quot;Export Textures&quot; aktualisieren, um die OpenPBR-Benennungskonvention anzuzeigen
 * [OpenPBR] Hinzufügen von Dokumentationen zu Änderungen an der Support-OpenPBR
-* [OpenPBR]&#x200B;[Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen
+* [OpenPBR][Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen
 * Mehrere geringfügige Verbesserungen bei den USD-Exporten
 * [UI] Fügen Sie eine Warnung im Viewport hinzu, wenn Sie versuchen, auf einem anderen Textursatz zu malen
 * [Reduzieren] Reduzieren aller instanzierten Ebenen über Textursätze hinweg zulassen
@@ -255,14 +255,14 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Backerverbe
 
 <b>Fest</b>:
 
-* [Absturz]&#x200B;[Einstellungen für Gitterzuordnungen] Anwenden von Einstellungen auf andere Textursätze
+* [Absturz][Einstellungen für Gitterzuordnungen] Anwenden von Einstellungen auf andere Textursätze
 * [Absturz] Wenn die Krümmung von der Karte ohne den Weltraum normal gebacken wird
-* [Absturz]&#x200B;[Backen] Backen mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl stürzt ab
+* [Absturz][Backen] Backen mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl stürzt ab
 * [Absturz] Abbrechen des AO-Backens
 * [Auto-Cage] Unendliche Belastung, wenn der hohe Poly-Dateipfad ungültig ist
-* [Linux]&#x200B;[Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
+* [Linux][Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
 * [Polygon-Füllwerkzeug] Das Werkzeug funktioniert nicht mit Nicht-PBR
-* &lbrack;[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
+* [[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
 * [USD] Shader-Instanzen werden nicht alle korrekt erkannt.
 * [Substance] Es wird nur die erste Verwendung eines Eingabe-/Ausgabeknotens berücksichtigt
 * [Shader] Umgebungsbelichtung wird zweimal mit Textur-Sets unter Verwendung verschiedener Mischmethoden angewendet.

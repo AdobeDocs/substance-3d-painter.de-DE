@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/uv-tiles.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie UV-Kacheln in Substance 3D Painter verwenden, um mit gekachelten UV-Layouts und mehreren Textursätzen zu arbeiten.
+description: Erfahren Sie, wie Sie in Substance 3D Painter UV-Kacheln verwenden, um mit gekachelten UV-Layouts und mehreren Textursätzen zu arbeiten.
 helpx_creative_field: ""
 helpx_description: Painter > Features > UV Tiles
 helpx_experience_level: ""
@@ -22,18 +22,18 @@ ht-degree: 2%
 
 ![](../../assets/banner-uvtiles.jpg)
 
-Mit UV-Kacheln lassen sich innerhalb eines Textursatzes mehrere Texturen innerhalb mehrerer UV-Bereiche texturieren.
+UV-Kacheln sind eine Möglichkeit zur Textur mehrerer Texturen über mehrere UV-Bereiche hinweg innerhalb eines Textursatzes.
 
-Bei einem herkömmlichen Arbeitsablauf wird eine Textur standardmäßig über jeden UV-Bereich hinweg wiederholt. Bei UV-Kacheln wird jeder Bereich stattdessen zu einer eigenen Textur. Mit diesem Workflow kann die allgemeine Texturauflösung virtuell erhöht werden, indem die UVs in mehrere Texturensätze aufgeteilt werden. UV-Kacheln unterstützen derzeit nur die UDIM-Benennungskonvention.
+Bei einem herkömmlichen Workflow wird eine Textur standardmäßig über jeden UV-Bereich hinweg wiederholt. Bei UV-Kacheln wird jeder Bereich stattdessen zu einer eigenen Textur. Mit diesem Workflow kann die allgemeine Texturauflösung virtuell erhöht werden, indem die UVs in mehrere Texturensätze aufgeteilt werden. UV-Kacheln unterstützen derzeit nur die UDIM-Namenskonvention.
 
-Weitere Informationen zum Arbeitsablauf für UV-Kacheln finden Sie auf den folgenden Seiten:
+Weitere Informationen zum Arbeitsablauf für die UV-Kachel finden Sie auf den folgenden Seiten:
 
 * [Projekterstellung](../../getting-started/project-creation.md) mit dem UV-Kachel-Workflow.
-* Anzeigen von UV-Kacheln in der [2D-Ansicht](../../interface/viewport/2d-view.md).
-* [UV-Kachelmaske](../../interface/layer-stack/geometry-mask.md), um die Leistung zu verbessern.
+* UV-Kacheln werden in der [2D-Ansicht](../../interface/viewport/2d-view.md) angezeigt.
+* [Leistungsmaske ](../../interface/layer-stack/geometry-mask.md) zur Verbesserung der UV-Kachel.
 * Importieren und Verwenden von [Bildsequenzen](image-sequence.md).
-* Anpassen der Auflösung pro UV-Kacheln in den [Einstellungen für den Textursatz](../../interface/texture-set/texture-set-settings.md).
+* Die Auflösung pro UV-Kachel wird in den [Textursatz-Einstellungen](../../interface/texture-set/texture-set-settings.md) angepasst.
 
 >[!NOTE]
 >
-> Die Arbeit mit UV Tile-Projekten kann sehr anspruchsvoll sein. Wir empfehlen die Verwendung einer SSD, um die Ladezeiten und die allgemeine Leistung zu verbessern. Wir empfehlen außerdem, den Cachespeicherort auf einer SSD festzulegen.
+> Die Arbeit mit UV-Kachel-Projekten kann sehr aufwändig sein. Wir empfehlen die Verwendung einer SSD, um die Ladezeiten und die allgemeine Leistung zu verbessern. Wir empfehlen außerdem, den Cachespeicherort auf einer SSD festzulegen.

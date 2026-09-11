@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-2.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Freigabedatum: *21. Juli 2016*
 
 ![](../../assets/dynamic-material-blending-materials-preview.jpg)
 
-Mit dieser neuen Version fügen wir einen neuen **Workflow** hinzu, der als **Materialschichtung** bezeichnet wird. Herkömmliche Texturierungs-Workflows basieren auf dem Erstellen von Texturen mit **hoher Auflösung** bis **Details erhalten**, dies ist jedoch **nicht praktisch** für den Anwendungsfall. Ein interessanterer Ansatz ist es stattdessen, **kleines Kachelmaterial zu erstellen** und **es in einem Shader zu wiederholen**. Dadurch können eine bestimmte Qualität beibehalten und **mit diesem Shader** ganz nah **an das Objekt heranzoomen, ohne dass Details verloren gehen**. Das einzige Problem ist, dass es für die Vorschau des Endergebnisses früher zwingend erforderlich war, zur Game-Engine/zum Renderer zu wechseln, die den endgültigen Shader anzeigt. Das stimmt nicht mehr, da es in dieser neuen Version jetzt möglich ist, einen ähnlichen Shader innerhalb von Substance Painter zu verwenden, mit dem Sie **das Endergebnis visualisieren und gleichzeitig malen können**.
+Mit dieser neuen Version fügen wir einen neuen **Workflow** hinzu, der als **Materialschichtung** bezeichnet wird. Herkömmliche Texturierungs-Workflows basieren auf dem Erstellen von Texturen mit **hoher Auflösung** bis **Details erhalten**, dies ist jedoch **nicht praktisch** für den Anwendungsfall. Ein interessanterer Ansatz ist es, **ein kleines Material zu erstellen** und **es in einem Shader zu wiederholen**. Es ermöglicht, eine bestimmte Qualität beizubehalten und **mit diesem Shader** sehr nah **an das Objekt heranzoomen, ohne dass Einzelheiten verloren gehen**. Das einzige Problem ist, dass es für die Vorschau des Endergebnisses vorher zwingend erforderlich war, zum Engine/Renderer zu gehen, der den endgültigen Shader anzeigt. Das stimmt nicht mehr, da es in dieser neuen Version jetzt möglich ist, einen ähnlichen Shader innerhalb von Substance Painter zu verwenden, mit dem Sie **das Endergebnis visualisieren und gleichzeitig malen können**.
 
 Ein **neues Beispielprojekt** mit dem Namen &quot;**FireHydrant**&quot; wurde hinzugefügt, um den neuen Arbeitsablauf zu präsentieren.
 
@@ -38,10 +38,10 @@ Ein **neues Beispielprojekt** mit dem Namen &quot;**FireHydrant**&quot; wurde hi
 
 Dieser neue Arbeitsablauf eröffnet zwei Arbeitsweisen:
 
-* Materialien sind im Shader definiert. Sie können Masken nur malen, um sie zu mischen
+* Materialien sind im Shader definiert, Sie können nur Malen Masken, um sie zu mischen
 * Materialien und Masken können gemeinsam bemalt werden
 
-Auf jeden Fall ist es möglich, jedes Mal einen neuen Ebenenstapel zu definieren, der mehr Freiheit beim Erstellen der Masken und Materialien gibt. Die Verwaltung von Ebenen ist auf diese Weise viel einfacher, und jeder Stapel kann über einen eigenen Satz spezifischer Kanäle verfügen, die im endgültigen Shader überblendet werden können.\
+In jedem Fall ist es möglich, jedes Mal einen neuen Ebenenstapel zu definieren, der mehr Spielraum beim Erstellen der Masken und Materialien bietet. Die Verwaltung von Ebenen ist auf diese Weise viel einfacher, und jeder Stapel kann über einen eigenen Satz spezifischer Kanäle verfügen, die im endgültigen Shader überblendet werden können.\
 Wir haben auch einen speziellen Shader für Unity 5 und Unreal Engine 4 auf Share :
 
 * [Einheit 5](https://share.allegorithmic.com/libraries/2126)
@@ -53,7 +53,7 @@ Weitere Informationen finden Sie auf der entsprechenden Seite der Dokumentation 
 
 ![](../../assets/mini-shelf-search.gif)
 
-Wir haben das **Mini-Shelf**, das an verschiedenen Stellen der Anwendung angezeigt wird, mit einem dedizierten Suchfeld verbessert. Diese Verbesserung macht die Suche nach Ressourcen viel bequemer und angenehmer zu bedienen. Die benutzerdefinierte Suche bleibt während der aktuellen Sitzung der Anwendung erhalten. Wenn Sie z. B. viele Schmutz-Geräusche verwenden, macht die Verwendung dieses Schlüsselworts
+Wir haben das **Mini-Regal**, das an verschiedenen Stellen der Anwendung angezeigt wird, mit einem dedizierten Suchfeld verbessert. Diese Verbesserung macht die Suche nach Ressourcen viel bequemer und angenehmer zu bedienen. Die benutzerdefinierte Suche bleibt während der aktuellen Sitzung der Anwendung erhalten. Wenn Sie z. B. viele Schmutz-Rauschen verwenden, macht die Verwendung dieses Schlüsselworts
 
 ## Tutorial
 
@@ -86,9 +86,9 @@ In unserem neuesten Video-Tutorial lernen Sie die neuen Funktionen kennen:
 * [Iray] Post-Effekte werden nicht aktualisiert, wenn Iray angehalten wird
 * [Iray] Kurzbefehl für den automatischen Fokus funktioniert nicht mehr
 * [Abray] Verhalten des Blendenreglers ändert sich je nach Elementgröße
-* [Ebenen] Der erste Materialkanal ist standardmäßig nicht aktiviert, wenn alle deaktiviert sind
-* [Shader] Es werden keine Fehler gedruckt, wenn ein &quot;param auto&quot; falsch ist
+* [Ebenen] Der Kanal des ersten Materials ist standardmäßig nicht aktiviert, wenn alle deaktiviert sind
+* [Shader] Es werden keine Fehler ausgegeben, wenn ein &quot;param auto&quot; nicht korrekt ist.
 
 **Bekanntes Problem :**
 
-* [Mac] Grenzwert für Texturproben ist auf 16 gesperrt (GPU-Treiberproblem)
+* [Mac] Grenzwert für Textur-Samples auf 16 gesperrt (GPU-Treiberproblem)

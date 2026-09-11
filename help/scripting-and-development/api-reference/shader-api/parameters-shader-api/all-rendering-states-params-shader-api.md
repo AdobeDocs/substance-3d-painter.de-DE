@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
 breadcrumb-title: ''
 description: Rufen Sie die Shader-API-Referenz "Alle Rendering-Status-Parameter" für Substance 3D Painter auf, um die Rendering-Status-Parameter zu steuern.
 helpx_creative_field: ""
@@ -24,14 +24,14 @@ ht-degree: 2%
 
 ## Rückseiten ausblenden
 
-Gesichter zurückziehen:
+Flächen zurücknehmen:
 
 ```
 //: state cull_face on
 ```
 
 
-Vordere und hintere Gesichter zeichnen:
+Flächen vorne und hinten zeichnen:
 
 ```
 //: state cull_face off
@@ -75,9 +75,9 @@ Multiplikative Füllmethode:
 ```
 
 
-## Lokalität der Shader-Probenahme
+## Ort der Shader-Probenahme
 
-Standardmäßig werden Dokumentkanäle mit nicht transformierten Texturkoordinaten aufgenommen, um beim Malen Optimierungen für das Rendering zu erzielen.
+Standardmäßig werden für die Darstellung von Optimierungen beim Malen Dokumentkanäle mit nicht transformierten Textur-Koordinaten aufgenommen.
 
 Wenn Artefakte angezeigt werden, setzen Sie den Status *nicht lokal* auf *am* .
 

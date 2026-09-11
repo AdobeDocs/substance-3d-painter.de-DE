@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/universal-scene-description-usd.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/universal-scene-description-usd.html"
 breadcrumb-title: ''
-description: Hier erfahren Sie, wie Sie mit Universal Scene Description-Dateien (USD) in Substance 3D Painter für eine moderne Pipelineintegration arbeiten.
+description: Erfahren Sie, wie Sie in Substance 3D Painter mit Universal Scene Description-Dateien (USD) für eine moderne Pipelineintegration arbeiten.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Universal Scene Description (USD)
 helpx_experience_level: ""
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 ![](../assets/banner-usd.jpg)
 
-Der USD-Arbeitsablauf ist in Painter 8.3 verfügbar. [USD](https://graphics.pixar.com/usd/release/intro.html) wurde von Pixar als kollaborationsfreundliches, austauschbares Format entwickelt, das es ermöglicht, viele verschiedene Datentypen zu übertragen.
+USD Arbeitsablauf ist in Painter 8.3 verfügbar. [USD](https://graphics.pixar.com/usd/release/intro.html) wurde von Pixar als kollaborationsfreundliches, austauschbares Format entwickelt, das es ermöglicht, viele verschiedene Datentypen zu übertragen.
 
 Im Rahmen von Painter können nun folgende Aktionen durchgeführt werden:
 
-* [Erstellen Sie ein Projekt](../getting-started/project-creation.md), indem Sie auf USD-spezifische Funktionen zurückgreifen, z. B. die Auswahl des Umfangs und der Varianten, Unterteilungsebenen und Animationsframes.
-* [Exportieren Sie &#x200B;](../export/export-window/export-settings.md) Materialien und Texturen im USD-Format.
-* Außerdem wurde USD als neues Dateiformat für den Nur-Gitter-Export hinzugefügt.
+* [Erstellen Sie ein Projekt](../getting-started/project-creation.md), indem Sie USD spezifischen Features nutzen, z. B. die Auswahl des Bereichs und der Varianten, Unterteilungsebenen und Animations-Rahmen.
+* [Exportieren Sie ](../export/export-window/export-settings.md) Materials und Texturen im USD.
+* Darüber hinaus wurde USD als neues Dateiformat für den reinen Mesh-Export hinzugefügt.

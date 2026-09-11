@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Referenz "Lib Utils Shader-API" für Substance 3D Painter zu, um Dienstprogrammfunktionen in der Entwicklung benutzerdefinierter Shader zu verwenden.
 helpx_creative_field: ""
@@ -43,7 +43,7 @@ vec3 tonemapSCurve(vec3 value, float sigma, float n)
 
 ## sRGB-Konvertierungen
 
-Dies sind die in Painter verwendeten Konvertierungen. Sie können die automatische Konvertierung von linear -> sRGB im Viewport überschreiben, indem Sie diese Zeile in Ihren benutzerdefinierten Shader einfügen:
+Dies sind die in Painter verwendeten Konvertierungen. Sie können die automatische Konvertierung von linear -> sRGB im Viewport außer Kraft setzen, indem Sie diese Zeile in Ihren benutzerdefinierten Shader einfügen:
 
 *#define DISABLE\_FRAMEBUFFER\_SRGB\_CONVERSION*
 
@@ -245,9 +245,9 @@ vec4 convertOutput(vec4 rgba)
 
 ## Dither
 
-Dies sind einige Hilfsmittel, um Shadern Dithering hinzuzufügen.
+Dies sind einige Helfer, um Dithering zu Shadern hinzuzufügen.
 
-8x8 Bayer-Matrix für Dithering-Modus verwenden
+8x8 Bayer-Matrix für den Dithering-Modus verwenden
 
 ```
 import lib-bayer.glsl 
@@ -278,7 +278,7 @@ vec4 RGB2Gray(vec4 rgba)
 ```
 
 
-Entfernen von AO und Schatten auf glänzenden Metalloberflächen (nahe bei Spiegeln)
+Entfernen von AO und Schatten auf glänzenden metallic Flächen (in der Nähe von Spiegeln)
 
 ```
 float specularOcclusionCorrection(float diffuseOcclusion, float metallic, float roughness) 

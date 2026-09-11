@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die PBR Metal Rough-Shader-API-Referenz für Substance 3D Painter zu, um physikalisch basierte Materialien zu erstellen.
 helpx_creative_field: ""
@@ -69,7 +69,7 @@ uniform SamplerSparse specularlevel_tex;
 ```
 
 
-Shader-Einstiegspunkt
+Shader-Einstiegspunkt.
 
 ```
 void shade(V2F inputs) 

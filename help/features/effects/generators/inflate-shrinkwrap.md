@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_inflate_shrinkwrap.webp" alt=""/><br><strong>In:</strong> Shrinkwrap, inflate, generator, randomseed</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Generator zum Aufblasen von Schrumpffolien fügt Falten hinzu, die den Effekt eines dünnen Materials nachahmen, das über die Oberfläche Ihres Gitters gestreckt wird.<br><br>Der Generator "Inflate Shrinkwrap" gibt eine monochrome (schwarz-weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken, die den Schrumpfumbrucheffekt erzeugen. Es kann jedoch auch direkt auf einer Füllebene platziert werden, um Falten zum Height und zu den Normalkanälen hinzuzufügen.<br><br>Eine gebackene Krümmungskarte ist als Bildeingabe erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Backen</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Generator zum Aufblasen von Schrumpffolien fügt Falten hinzu, die die Wirkung eines dünnen Materials nachahmen, das über die Oberfläche Ihres Meshs gedehnt wird.<br><br>Der Generator "Inflate Shrinkwrap" gibt eine monochrome (Schwarz-Weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken, die den Schrumpfumbrucheffekt erzeugen. Es kann jedoch auch direkt auf einer Füllebene platziert werden, um Falten zum Height und zu den Normalkanälen hinzuzufügen.<br><br>Eine Baking geführt Krümmungs-Map ist als Bildeingabe erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Baking</a>.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 | Eingabename | Beschreibung |
 | --- | --- |
-| **Krümmung** Graustufen | Verwenden Sie die Kurvenzeichner-Map. |
+| **Krümmung** Graustufen | Verwenden Sie die Baking geführt Krümmungs-Map. |
 
 ## Parameter
 
@@ -44,7 +44,7 @@ ht-degree: 3%
     <td>Wechseln Sie zwischen den Modi "Aufblasen" und "Einpassen".</td>
   </tr>
   <tr>
-    <td><strong>Nahtintensität</strong></td>
+    <td><strong>Naht Intensität</strong></td>
     <td>Passen Sie die Kantenstärke an.</td>
   </tr>
   <tr>

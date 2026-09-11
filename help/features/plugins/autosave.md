@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/plugins/autosave.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/autosave.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Plug-in "Automatisch speichern" in Substance 3D Painter verwenden, um Ihre Projekte automatisch in regelmäßigen Abständen zu speichern.
 helpx_creative_field: ""
@@ -56,7 +56,7 @@ Um das automatische Speicherverhalten zu konfigurieren, klicken Sie auf das Men�
 >
 > Der Zeitgeber für das automatische Speichern wird angehalten, wenn:
 > 
-> * Der Motor berechnet
+> * Das Engine macht eine Berechnung
 > * Texturen werden exportiert
 > * Das Konfigurationsfenster ist geöffnet
 > * Das Projekt wird derzeit gespeichert.

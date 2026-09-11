@@ -1,6 +1,6 @@
 ---
 title: UV-Randabstand
-description: Erfahren Sie, wie Sie den UV-Rahmendistanzgenerator von Substance 3D Painter verwenden.
+description: Erfahren Sie, wie Sie den UV-Rahmenabstandsgenerator von Substance 3D Painter verwenden.
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '141'
@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_uv_border_distance.png" alt=""/><br><strong>In:</strong> Mesh, UV, Abstand</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der UV-Randabstandsgenerator erstellt eine Graustufenmaske an den Rändern der UV-Inseln, sodass Sie ganz einfach verschiedene Effekte hinzufügen können, die den Rändern Ihrer UVs folgen.<br><br>Der UV-Randabstandsgenerator gibt eine monochrome (Schwarz-Weiß) Textur aus. Daher ist sie nützlich, um eine Maske zu generieren, die Bereiche in der Nähe Ihrer UV-Grenzen hervorhebt.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der UV-Randabstandsgenerator erstellt eine Graustufenmaske an den Rändern der UV-Inseln, sodass Sie ganz einfach verschiedene Effekte hinzufügen können, die den Rändern Ihrer UVs folgen.<br><br>Der UV-Randabstandsgenerator gibt eine monochrome (Schwarz-Weiß) Textur aus. Daher eignet sie sich gut zum Generieren einer Maske, die Bereiche in der Nähe der UV-Ränder hervorhebt.</td>
   </tr>
 </table>
 

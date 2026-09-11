@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Referenz "Lib Normal"-Shader-API für Substance 3D Painter zu, um mit Normalmaps und Flächennormalen in benutzerdefinierten Shadern zu arbeiten.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ const float HEIGHT_FACTOR = 400.0;
 ```
 
 
-Führen Sie die Überblendung zwischen 2 Normalmaps durch
+Mischen zwischen 2 Normalen-Map durchführen
 
 Dies basiert auf der Whiteout-Füllmethode http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -89,7 +89,7 @@ vec3 normalBlend(vec3 baseNormal, vec3 overNormal)
 ```
 
 
-Führen Sie eine detailorientierte Überblendung zwischen 2 Normalmaps durch
+Detailorientierte Überblendung zwischen 2 Normalen-Map
 
 Dies basiert auf der detailorientierten Füllmethode http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -172,7 +172,7 @@ vec3 normalUnpack(vec4 normal_alpha, float y_coeff)
 ```
 
 
-Entpacken eines normalen Alphakanals ohne Y-Invertierung
+Entpacken Sie einen normalen Alphakanal ohne Y-Invertierung.
 
 ```
 vec3 normalUnpack(vec4 normal_alpha) 
@@ -240,7 +240,7 @@ vec3 normalFromHeight(SparseCoord coord, float height_force)
 ```
 
 
-Helper zur Berechnung der Tangentenraumnormalität aus der Grundnormalität und einem Height-Wert sowie einer optionalen Detailnormalität.
+Helfer zum Berechnen der Tangente-Leerraumnormalität von der Basisnormalität und einem Height-Wert sowie einer optionalen Detailnormalität.
 
 ```
 vec3 getTSNormal(SparseCoord coord, vec3 normalFromHeight) 
@@ -279,7 +279,7 @@ vec3 getTSNormal(SparseCoord coord, vec3 normalFromHeight)
 ```
 
 
-Helper zur Berechnung der Tangentenraumnormalität aus Basisnormalität und Height und einer optionalen Detailnormalität.
+Helfer zur Berechnung der Tangente-Leerraumnormalität aus Basisnormalität und Height sowie einer optionalen Detailnormalität.
 
 ```
 vec3 getTSNormal(SparseCoord coord) 
@@ -319,7 +319,7 @@ vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 n
 ```
 
 
-Helper zum Berechnen der Weltraum-Normale aus der Tangenten-Weltraum-Normale, die von getTSNormal-Helfern angegeben wird, und des lokalen Rahmens des Gitters.
+Helfer zum Berechnen des Welt-Raum-Normale aus dem normalen Tangente-Speicherplatz, der von getTSNormal-Helfern angegeben wird, und dem lokalen Rahmen des Meshs.
 
 ```
 vec3 computeWSNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 

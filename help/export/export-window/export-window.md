@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export/export-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Exportfenster in Substance 3D Painter verwenden, um Ihre Texturen in verschiedenen Formaten zu konfigurieren und zu exportieren.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/export-textures-window.png){width="500px"}
 
-Öffnen Sie das <b>Exportfenster </b> mit <b>Datei > Texturen exportieren </b> oder dem Tastaturbefehl <b>Strg + Umschalt + E</b>.
+Öffnen Sie das <b>Exportfenster </b> mit <b>Datei > Texturen exportieren </b> oder Tastatur-Tastaturbefehl <b>Strg + Umschalt + E</b>.
 
 Das <b>Exportfenster </b> ist in drei Registerkarten unterteilt:
 

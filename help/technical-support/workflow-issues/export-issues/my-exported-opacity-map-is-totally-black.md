@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter die Deckkraft einer exportierten Karte komplett schwarz anzeigst, um sie transparent zu exportieren.
 helpx_creative_field: ""
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Meine exportierte Deckkraftkarte ist komplett schwarz
 
-Wenn Sie ein neues Projekt erstellen, kommt die Standardfarbe vom Shader und nicht von den Texturen. Wenn Sie also alle Teile exportieren, die Sie nicht gemalt haben, werden diese schwarz mit einem Alpha-Wert von 0 (da für diese Teile keine Daten vorhanden sind).
+Wenn Sie ein neues Projekt erstellen, kommt die Standardfarbe vom Shader und nicht von den Texturen. Wenn Sie also alle Teile exportieren, die Sie nicht Malen haben, werden sie schwarz sein und einen Alpha-Wert von 0 haben (da für diese Teile keine Daten vorhanden sind).
 
-Der einfachste Weg, dies zu beheben, ist, eine Füllebene an den unteren Rand Ihres Ebenenstapels zu legen: Füllen Sie alle UVs mit einer Standardfarbe, die mit der Standardfarbe des Shaders identisch ist.
+Der einfachste Weg, dies zu beheben, ist, eine Füllebene am unteren Rand Ihres Ebenenstapels zu platzieren: Es füllt alle UVs mit einer Standardfarbe, die mit der Standardfarbe des Shader identisch ist.

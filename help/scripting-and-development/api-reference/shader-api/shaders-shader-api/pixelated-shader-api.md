@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Referenz "Verpixelter Shader-API" für Substance 3D Painter zu, um benutzerdefinierte pixelierte Rendereffekte zu erstellen.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Verpixelt - Shader-API
 
-## Grundlegender pixelierender Shader
+## Grundlegender verpixelnder Shader
 
 Aus Bibliotheken importieren.
 
@@ -36,7 +36,7 @@ const vec3 light_pos = vec3(10.0, 10.0, 10.0);
 ```
 
 
-Wir **binden** die automatische param-Weltaugenposition an unsere einheitliche **Kamera\_Pos**.
+Wir **binden** die automatische param-Weltaugenposition an unsere Uniform **Kamera\_pos**.
 
 ```
 //: param auto world_eye_position 
@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-Wir **binden** den Kanal **Grundfarbe** des Dokuments an unsere einheitliche **Grundfarbe\_Text**.
+Wir **binden** den Dokumentkanal **Grundfarbe** an unsere Uniform **Grundfarbe\_Text**.
 
 ```
 //: param auto channel_basecolor 
@@ -54,7 +54,7 @@ uniform SamplerSparse basecolor_tex;
 ```
 
 
-Wir definieren ein neues benutzerdefiniertes Tweak für diesen Shader, zusammen mit seinem Standardwert. Dieses Werkzeug wird verwendet, um die Thickness der Kontur beim Schatten zu optimieren.
+Wir definieren eine neue benutzerdefinierte Anpassung für diesen Shader zusammen mit dem Standardwert. Dieses Werkzeug wird verwendet, um die Thickness der Kontur beim Schatten zu optimieren.
 
 ```
 //: param custom { 
@@ -73,7 +73,7 @@ uniform float unlit_outline_thickness;
 ```
 
 
-Wir definieren ein neues benutzerdefiniertes Tweak für diesen Shader, zusammen mit seinem Standardwert. Dieses dient dazu, die Thickness der Kontur zu optimieren, wenn sie beleuchtet wird.
+Wir definieren eine neue benutzerdefinierte Anpassung für diesen Shader zusammen mit dem Standardwert. Dieses dient dazu, die Thickness der Kontur zu optimieren, wenn sie beleuchtet wird.
 
 ```
 //: param custom { 
@@ -131,21 +131,21 @@ Wir berechnen einige nützliche Werte.
 ```
 
 
-Jitter in der Maskengröße basierend auf der Luminanz der Grundfarbe hinzufügen.
+Jitter zur Maskengröße hinzufügen, je nach Luminanz der Grundfarbe
 
 ```
   float maskRadiusJitter = pow(dot(baseColor, vec3(0.3333)), 0.1);
 ```
 
 
-Berechnen Sie einen Maskenwert basierend auf der Bildschirmraumposition des Fragments. Dadurch wird ein Raster wie ein Muster erstellt.
+Berechnen Sie einen Maskenwert basierend auf der Bildschirmraumposition des Fragments. Dadurch entsteht ein Raster wie ein Muster.
 
 ```
   float mask = pow(1.0 - length(fract(gl_FragCoord.xy / 7.0) - vec2(0.5)), maskRadiusJitter * 5.0) * 5.0;
 ```
 
 
-Hier nehmen wir die Grundfarbe auf und wenden eine einfache diffuse Dämpfung an
+Hier nehmen wir die Grundfarbe auf und wenden eine diffuse Dämpfung an
 
 ```
   vec3 color = baseColor * NdL; 

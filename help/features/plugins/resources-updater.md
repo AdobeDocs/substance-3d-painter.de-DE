@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/plugins/resources-updater.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/resources-updater.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Resources Updater-Plug-in in Substance 3D Painter verwenden, um Ressourcenbibliotheken und Assets automatisch zu aktualisieren.
 helpx_creative_field: ""
@@ -23,4 +23,4 @@ ht-degree: 0%
 ![](../../assets/resources-updater-window.png)
 
 Mit dem **Ressourcen-Updater**-Plug-in können Ressourcen durchsucht werden, die im derzeit geöffneten Projekt vorhanden sind.\
-Jede Ressource kann durch eine andere Ressource ersetzt werden, die in der Ablage vorhanden ist. Die in Rot dargestellten Ressourcen gelten als &quot;veraltet&quot;, es bedeutet, dass eine andere Version derselben Ressource im Regal vorhanden ist und (wahrscheinlich) aktueller ist.
+Jede Ressource kann durch eine andere Ressource ersetzt werden, die im Regal vorhanden ist. Die in Rot dargestellten Ressourcen gelten als &quot;veraltet&quot;, es bedeutet, dass eine andere Version derselben Ressource im Regal vorhanden ist und (wahrscheinlich) aktueller ist.

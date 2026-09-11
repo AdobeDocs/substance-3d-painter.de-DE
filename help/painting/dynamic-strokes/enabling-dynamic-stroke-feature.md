@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Funktion für dynamische Konturen in Substance 3D Painter aktivieren, um responsive Pinselstriche mit variablen Effekten zu erstellen.
 helpx_creative_field: ""
@@ -29,9 +29,9 @@ Beim Durchsuchen des Fensters &quot;[Assets](../../interface/assets/assets.md)&q
 | *Symbol* | *Beschreibung* |
 | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-dyn.png"/></div> | Diese Ressource kann eines oder mehrere der folgenden Verhalten verwenden:<ul data-preserve-html="true"><li data-preserve-html="true">Stempelindex</li><li data-preserve-html="true">Uhrzeit</li><li data-preserve-html="true">Zufällige Verteilung</li></ul> |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-random.png"/></div> | Diese Ressource macht nur den Parameter &quot;Zufallsverteilung&quot; verfügbar. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-random.png"/></div> | Diese Ressource legt nur den Parameter &quot;Zufallsverteilung&quot;. |
 
-Es ist auch möglich, Ressourcen über das Suchfeld im Shelf mit den folgenden Stichwörtern zu suchen:
+Es ist auch möglich, Ressourcen mithilfe des Suchfelds im Regal mit den folgenden Schlüsselwörtern zu suchen:
 
 * dynamischer Strich
 * randomseed
@@ -60,7 +60,7 @@ Die Einstellungen für dynamische Konturen sind nur mit den folgenden Werkzeugen
 | **Radiergummi** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li><li data-preserve-html="true">Material</li></ul> |
 | **Projektion** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
 | **Verwischen** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
-| **Clone** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
+| **Klon** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/assets/filter-by-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/filter-by-path.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Elemente in Substance 3D Painter nach Pfaden filtern können, um Ressourcen in Ihrer Bibliotheksstruktur schnell zu finden.
 helpx_creative_field: ""

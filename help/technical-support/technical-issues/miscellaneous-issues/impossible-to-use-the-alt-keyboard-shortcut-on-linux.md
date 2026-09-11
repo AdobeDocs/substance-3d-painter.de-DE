@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Probleme mit Alt-Tastaturbefehlen unter Linux in Substance 3D Painter beheben können, um eine korrekte Tastaturnavigation zu gewährleisten.
+description: Erfahren Sie, wie Sie Probleme mit dem Tastaturbefehl der ALT-Tastatur unter Linux in Substance 3D Painter beheben, um eine korrekte Tastaturnavigation zu gewährleisten.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Verwendung der ALT-Tastenkombination unter Linux nicht möglich
+title: Verwendung des ALT-Tastatur-Tastaturbefehl unter Linux nicht möglich
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Verwendung der ALT-Tastenkombination unter Linux nicht möglich
+# Verwendung des ALT-Tastatur-Tastaturbefehl unter Linux nicht möglich
 
 Wenn Sie eine Linux-Distribution (**Ubuntu** oder **CentOS**) ausführen, die **Gnome** als Benutzeroberfläche verwendet, sollten Sie das Standardverhalten des **ALT**-Schlüssels deaktivieren, damit Sie im Viewport navigieren können.
 

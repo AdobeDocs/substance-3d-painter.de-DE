@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Shader-API-Referenz für "Ebenen deklarieren" für Substance 3D Painter zu, um benutzerdefinierte Materialebenen-Stapel zu erstellen.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Painter > Scripting and development > API Reference > Shader 
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Declare Stacks - Shader-API
+title: Declare-Stapel überlagern - Shader-API
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Declare Stacks - Shader-API
+# Declare-Stapel überlagern - Shader-API
 
-## Materialschichtung: Bearbeitbare Stapel deklarieren
+## Materialschichtung: Deklarieren bearbeitbarer Stapel
 
 Ein bearbeitbarer Stapel wird durch eine eindeutige Kennung und eine Liste von Dokumentkanälen definiert. Mögliche Kanal-ID(en): *Ambientocclusion* *Anisotropyangle* *Anisotropylevel* *Basisfarbe* *Mischmaske* *diffuse* *Versatz* *emittierend* *Glanzgrad* *Height* *Metallisch* *Metallisch* *Normal* *Deckkraft* *Reflexion* *Raueit* *Streuung* *Specular* *Spiegelebene* *durchlässig* *Benutzer0* *Benutzer1* *user2* *user3* *user4* *user5* *user6* *user7*
 

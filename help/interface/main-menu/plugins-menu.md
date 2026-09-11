@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/plugins-menu.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/plugins-menu.html'
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie über das Menü "Plug-ins" in Substance 3D Painter auf installierte Plug-ins und Erweiterungen zugreifen und diese verwalten.
 helpx_creative_field: ''

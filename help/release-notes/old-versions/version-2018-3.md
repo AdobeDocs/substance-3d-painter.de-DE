@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2018.3 , um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -26,23 +26,23 @@ Freigabedatum: *20. November 2018*
 
 ## Wichtigste Funktionen
 
-### 2D-Ansicht exportieren
+### 2D-Ansicht Export
 
 ![](../../assets/export-2d-view.jpg)
 
-Es ist jetzt möglich, die 2D-Ansicht **, die** als Textur **rendert,** zu exportieren. Diese Funktion wurde von vielen Leuten angefordert und wir haben sie endlich verfügbar gemacht ! Der Exportprozess nimmt den aktuellen Status der **2D-Ansicht** an, um eine Textur mit den regulären Exporteinstellungen (Auffüllung, Dateiformat, Bittiefe) zu rendern. Das bedeutet, wenn der Ansichtsmodus auf **Solo** anstelle des Modus **Material** festgelegt ist, wird die 2D-Ansicht wie vorhanden exportiert.
+Es ist jetzt möglich, die 2D-Ansicht **, die** darstellt, als Textur **zu exportieren.** Diese Funktion wurde von vielen Leuten angefordert und wir haben sie endlich verfügbar gemacht ! Der Exportprozess nimmt den aktuellen Status der **2D-Ansicht** an, um eine Textur mit den regulären Exporteinstellungen (Auffüllung, Dateiformat, Bittiefe) zu rendern. Das bedeutet, wenn der Ansichtsmodus auf **Solo** anstatt auf **Material** festgelegt ist, werden die 2D-Ansichten unverändert exportiert.
 
-Wechseln Sie zum **Exportfenster** und wählen Sie die neue Konfiguration mit dem Namen &quot;**2D View**&quot; aus:\
+Wechseln Sie zum **Exportfenster** und wählen Sie die neue Konfiguration mit dem Namen &quot;**2D-Ansicht**&quot; aus:\
 ![](../../assets/2d-view-export-config.png)
 
 Eine neue **konvertierte Karte** mit dem Namen &quot;**2D-Ansicht**&quot; ist auch auf der Registerkarte **Konfiguration** des Exportfensters verfügbar, falls Sie Ihre eigene **Exportvorgabe** erstellen möchten.
 
-### Verbesserter Filter für gebackene Beleuchtung
+### Verbesserter Baking geführt Beleuchtungsfilter
 
 ![](../../assets/baked-lighting.jpg)
 
-Der **Umgebung mit vorberechnete Beleuchtung**-Filter wurde erheblich verbessert und unterstützt jetzt **HDR-Umgebungszuordnungen** ordnungsgemäß.\
-Sie können nun die Beleuchtung des Viewports (wie in der 2D-Ansicht angezeigt) replizieren und im Basiskanal backen. Der neue Filter stellt weitere Steuerelemente bereit, z. B. **Drehen** der **Umgebung**-Map **vertikal** und Ändern der **Belichtung**.
+Der **Umgebung mit vorberechnete Beleuchtung**-Filter wurde erheblich verbessert und unterstützt jetzt **HDR. Umgebungs-Map**.\
+Sie können nun die Beleuchtung des Viewports (wie in der 2D-Ansicht zu sehen) replizieren und in den Grundfarbe-Kanal Baking führen. Der neue Filter stellt weitere Steuerelemente bereit, z. B. **Drehen** der **Umgebung**-Map **vertikal** und Ändern der **Belichtung**.
 
 ![](../../assets/shelf-baked-lighting.png)
 
@@ -50,67 +50,67 @@ Sie können nun die Beleuchtung des Viewports (wie in der 2D-Ansicht angezeigt) 
 
 ![](../../assets/capture-optim.gif)
 
-In dieser neuen Version führen wir einen neuen Shader mit dem Namen &quot;**pbr-metal-raw-Anisotropie-angle**&quot; ein. Dieser Shader unterstützt zwei Kanäle mit den Namen &quot;**Anisotropie Angle**&quot; und &quot;**Anisotropie Level**&quot;, mit denen anisotrope Specular-Reflexionen erstellt werden können. Dieser Shader wird auch ohne Konvertierung in das heutige Irak übertragen.
+In dieser neuen Version führen wir einen neuen Shader mit dem Namen &quot;**pbr-metal-raw-Anisotropie-angle**&quot; ein. Dieser Shader unterstützt zwei Kanäle mit den Namen &quot;**Anisotropy angle**&quot; und &quot;**Anisotropy level**&quot;, die zum Erstellen anisotroper Specular-Reflexionen verwendet werden können. Dieser Shader Kamera bewegt auch ohne Umrüstung in Iray.
 
-Auf diesen neuen Shader kann über das [Shader-Fenster](../../interface/shader-settings/shader-settings.md) zugegriffen werden, indem Sie auf die Shader-Schaltfläche klicken und die Miniablage öffnen:
+Auf diesen neuen Shader kann über das [Shader-Fenster](../../interface/shader-settings/shader-settings.md) zugegriffen werden, indem Sie auf die Shader-Schaltfläche klicken und das Mini-Regal öffnen:
 
 ![](../../assets/shader-anisotropy.png)
 
-Das standardmäßige Beispielprojekt &quot;**Preview Sphere**&quot; wurde aktualisiert, um den neuen Shader zu nutzen und zu zeigen, wie die verschiedenen Kanäle eingerichtet werden.
+Das standardmäßige Beispielprojekt &quot;**Preview Sphere**&quot; wurde aktualisiert, um diesen neuen Shader zu nutzen und zu zeigen, wie die verschiedenen Kanäle eingerichtet werden.
 
 >[!NOTE]
 >
-> Wenn Sie bei der Verwendung von Verläufen im Kanal **Anisotropie Winkel** seltsam aussehende **Linienartefakte** sehen, ändern Sie den Filtermodus im Falle einer Füllebene in &quot;**Nächste**&quot;, da dies das Sampling für den Shader verbessern und das Problem beheben könnte.
+> Wenn bei der Verwendung von Verläufen im **Anisotropy angle**-Kanal **Linienartefakte** seltsam aussehen, versuchen Sie, die Filtermethode in &quot;**Nächste**&quot; zu ändern, falls eine Füllebene vorliegt, da dies das Sampling für den Shader verbessern und das Problem beheben könnte.
 
 ### Aktualisierter Clear Coat Shader
 
 ![](../../assets/coated.jpg)
 
-Der **Clear Coat**-Shader (**pbr-coated**) wurde verbessert und bietet nun mehr Steuerelemente und Rendering-Möglichkeiten. Wir haben auch die Gelegenheit genutzt, es mit **Iray** mit einer dedizierten **MDL** kompatibel zu machen.
+Der **Clear Coat**-Shader (**pbr-coated**) wurde verbessert und bietet nun mehr Steuerelemente und Rendering-Möglichkeiten. Wir haben die Gelegenheit auch genutzt, um sie mit **Iray** mit einer dedizierten **MDL** kompatibel zu machen.
 
 Hier ist eine Liste der Änderungen:
 
-* **Steuern** der sekundären **Raueit**-Ebene (über **Benutzer0**-Kanal).
+* **Steuern** der sekundären **Rauheit**-Ebene (über **Benutzerkanal0**).
 * **Mask** out the secondary layer (via **User1** channel).
-* Wählen Sie das Verhalten, das auf die Oberflächenebene angewendet werden soll: **Normale Details beibehalten** (Original) oder **Geglättete Oberfläche glätten** (neu, normale Netzzuordnung ignorieren)
+* Wählen Sie das Verhalten, das auf die Oberflächenebene angewendet werden soll: **Normaldetails beibehalten** (Original) oder **Fläche glätten** (neu, Mesh-Normal-Map ignorieren)
 
-Der Einfachheit halber haben wir auch eine neue Projektvorlage für die Texturierung dieses neuen Shaders mit dem Namen hinzugefügt: **PBR - Metallische Raueit beschichtet**.
+Der Einfachheit halber haben wir auch eine neue Projektvorlage für die Texturierung dieses neuen Shader mit dem Namen hinzugefügt: **PBR - Metallische Raueit beschichtet**.
 
 ![](../../assets/shader-coated.png)
 
-### Neues Viewport-Anti-Aliasing
+### Neuer Viewport-Glättungsschutz
 
 ![](../../assets/temporal-anti-aliasing.gif)
 
 Der Nachbearbeitungsprozess des Substance Painters &quot;We Anti-Aliasing&quot; wurde überarbeitet und in eine neue Methode mit dem Namen &quot;**Temporale Anti-Aliasing**&quot; (**TAA**) geändert.\
-Diese neue Technik bietet in jedem Fall viel bessere Ergebnisse bei sehr geringen Kosten. **TAA** funktioniert, indem Informationen über mehrere Frames hinweg gesammelt werden. So können sehr glatte Kanten erzeugt werden, ohne Details zu verlieren.
+Diese neue Technik bietet in jedem Fall viel bessere Ergebnisse bei sehr geringen Kosten. **TAA** funktioniert durch Akkumulation von Informationen über mehrere Rahmen hinweg, sodass sehr glatte Kanten erzeugt werden können, ohne Details zu verlieren.
 
 Da es sich nicht mehr um einen Post-Effekt handelt, wurde die Einstellung ein wenig in das Fenster **Anzeigeeinstellungen** verschoben und befindet sich jetzt **unter** dem Abschnitt **Post-Effects**.
 
-Dieses neue Anti-Aliasing bietet zudem neue Möglichkeiten in Kombination mit Transparenz. Wenn ein Projekt den Shader **Alpha-Test** verwendet, aktivieren Sie die Einstellung &quot;**Alpha-Dithering**&quot;:
+Dieses neue Anti-Aliasing bietet zudem neue Möglichkeiten in Kombination mit Transparenz. Wenn ein Projekt den **Alpha-Test**-Shader verwendet, aktivieren Sie die Einstellung &quot;**Alpha-Dithering**&quot;:
 
 ![](../../assets/dithering-aa.gif)
 
-Das neue **TAA** filtert auch das Blaurauschmuster, das in den **Specular-Reflexionen** sowie in den **Untergrundstreuungen** Samples sichtbar ist, gut.
+Das neue **TAA** filtert auch das Blue-Rauschen-Muster, das in den **Specular-Reflexionen** sowie in den **Volumenstreuung**-Beispielen sichtbar ist, gut.
 
 ### Virtuelle Texturierung mit geringer Dichte (SVT)
 
 ![](../../assets/svt-header.jpg)
 
-Eine große Änderung in dieser neuen Version ist die Einführung der **spärlichen virtuellen Texturen** oder **SVT**.
+Eine große Veränderung in dieser neuen Version ist die Einführung der **Dünn besetzte virtuelle Texturen** oder **SVT**.
 
-Dieses neue System ändert einige Grundlagen des Substance Painters und die Funktionsweise der Anwendung. Substance Painter verwendet die SVT-Datei jetzt als Möglichkeit, einen bestimmten Speicherbedarf für den Viewport beizubehalten, sodass **Texturen ein- und ausströmen können**. Der Hauptvorteil besteht in der Möglichkeit, größere Projekte einfacher zu laden und den Druck auf die GPU zu reduzieren, um **die Leistung zu verbessern**. Dies bedeutet, dass, wenn die Dinge beginnen, zu groß zu werden, einige Texturen auf der Festplatte entladen und sie später wieder abrufen wird, wenn nötig). Dies ist ein **flüchtiger Cache**, der beim Schließen der Anwendung gelöscht wird.
+Dieses neue System ändert einige Grundlagen des Substance Painters und die Funktionsweise der Anwendung. Substance Painter verwendet die SVT jetzt als Möglichkeit, einen bestimmten Speicherbedarf für den Viewport zu verwalten, sodass **Texturen ein- und ausströmen können**. Der Hauptvorteil besteht in der Möglichkeit, größere Projekte einfacher zu laden und den Druck auf die GPU zu reduzieren, um **die Leistung zu verbessern**. Dies bedeutet, dass, wenn die Dinge beginnen, zu groß zu werden, einige Texturen auf der Festplatte entladen und sie später wieder abrufen wird, wenn nötig). Dies ist ein **flüchtiger Cache**, der beim Schließen der Anwendung gelöscht wird.
 
 Ein weiterer Vorteil des Systems ist die Einführung von **Mipmaps** im **Viewport**, die die Texturqualität verbessern und den Moiré-Effekt reduzieren, der besonders bei Fabric-Mustern sichtbar ist.
 
-Wir haben einige Steuerelemente in Bezug auf dieses neue System bereitgestellt, die in den Hauptvoreinstellungen bearbeitet werden können (**Bearbeiten > Einstellungen**):
+Wir haben einige Steuerelemente zu diesem neuen System gelegt, die in den Haupteinstellungen bearbeitet werden können (**Bearbeiten > Einstellungen**):
 
 ![](../../assets/svt-settings.png)
 
 * **Cacheverzeichnis** : Diese Einstellung steuert, wo der Substance Painter seine temporären Dateien einschließlich des SVT-Caches schreibt.
-* **Beschleunigung des Hardware-Supports** : Wenn diese Option aktiviert ist, verwendet der Substance Painter die native Unterstützung von Sparse Textures durch die GPU (wenn sie deaktiviert ist, greift er auf eine Softwareimplementierung zurück).
+* **Beschleunigung des Hardware-Supports** : Wenn diese Option aktiviert ist, verwendet der Substance Painter die native Unterstützung von Sparse-Texturen durch die GPU (wenn sie deaktiviert ist, greift er auf eine Softwareimplementierung zurück).
 
-Weitere Informationen zur SVT finden Sie auf unserer Dokumentationsseite : [Virtuelle Strukturen mit geringer Dichte](../../features/sparse-virtual-textures.md)
+Weitere Informationen zur SVT finden Sie auf unserer Dokumentationsseite : [Dünn besetzte virtuelle Texturen](../../features/sparse-virtual-textures.md)
 
 >[!NOTE]
 >
@@ -118,62 +118,62 @@ Weitere Informationen zur SVT finden Sie auf unserer Dokumentationsseite : [Virt
 > 
 > Diese Einstellungen können über die Umgebungsvariable überschrieben werden: [Umgebungsvariablen](../../pipeline-and-integration/configuration/environment-variables.md).
 
-### Neues und verbessertes Symmetrie-Werkzeug
+### Neues und verbessertes Symmetrie-Tool
 
 ![](../../assets/symmetry-offset-optim.gif)
 
-Das Symmetrie-Werkzeug wurde überarbeitet und ermöglicht jetzt den Versatz des Ursprungspunktes. Wenn ein Projekt teilweise symmetrisch oder außermittig ist, kann der Plan jetzt angepasst werden. Der Versatz wird innerhalb des Projekts pro Achse gespeichert.
+Das Symmetrie-Werkzeug wurde überarbeitet und ermöglicht jetzt den Versatz des Ursprungspunkts. Wenn ein Projekt teilweise symmetrisch oder außermittig ist, kann der Plan jetzt angepasst werden. Der Offset wird pro Achse im Projekt gespeichert.
 
 Wir haben auch die Gelegenheit genutzt, um dieser Funktion etwas Liebe zu geben und haben jetzt ein neues visuelles Feedback :
 
-* Eine **Schnittlinie** wird jetzt von **default** im Gitter gezeichnet, um anzuzeigen, wo sich die Symmetrieebene befindet.
+* Eine **Schnittlinie** wird jetzt von **default** auf dem Mesh gezeichnet, um anzuzeigen, wo sich die Ebene der Symmetrie befindet.
 * Ein **gespiegelter Punkt** wird jetzt angezeigt, wenn Sie den **Cursor** bewegen, um anzuzeigen, wo der Spiegelpinselstrich angewendet wird.
 
-Alle neuen visuellen Elemente können über das neue Menü Symmetrie in der kontextbezogenen Symbolleiste angepasst werden:
+Alle neuen visuellen Elemente können über das neue Menü &quot;Symmetrie&quot; in der kontextbezogenen Symbolleiste angepasst werden:
 
 ![](../../assets/symmetry-menu.png)
 
-* **Mirror X, Mirror Y, Mirror Z** : Legen Sie fest, welche Richtung für die Symmetrie verwendet wird.
+* **Mirror X, Mirror Y, Mirror Z** : Definieren der Richtung, die für die Symmetrie verwendet wird
 * **Offset** : Steuert den Versatzwert pro Achse. Mit dem Kreuzpfeil können Sie alle Abstände auf 0 zurücksetzen.
-* **Symmetrieebene** : Mit &quot;Ebene einblenden&quot; können Sie eine Ebene zeichnen, die das Gitter schneidet. Schnittmenge anzeigen zeichnet eine Linie auf dem Gitter, an der die Ebene das Gitter schneidet.
-* **Symmetrie-Cursor** :Show Cursor zeichnet einen sekundären Pinselcursor, auf den die Symmetrie angewendet wird. &quot;Beim Malen ausblenden&quot; zeigt diesen Cursor nur an, wenn nicht gemalt wird.
-* **Manipulator** : Manipulator anzeigen zeigt einen Manipulator im Viewport an, um die Symmetrieebene zu versetzen. **Manipulatorgröße** steuert, wie groß der Controller im Viewport sein wird.
+* **Symmetrie Ebene** : Mit &quot;Ebene einblenden&quot; können Sie eine Ebene zeichnen, die den Mesh schneidet. Schnittmenge anzeigen : Zeichnet eine Linie auf dem Mesh, an der die Ebene den Mesh schneidet.
+* **Symmetrie-Cursor** :Show-Cursor zeichnet einen sekundären Pinselcursor an der Stelle, an der die Symmetrie angewendet wird. &quot;Beim Malen ausblenden&quot; zeigt diesen Cursor nur an, wenn nicht gemalt wird.
+* **Manipulator** : &quot;Manipulator anzeigen&quot; zeigt einen Manipulator im Viewport an, um die Symmetrie zu versetzen. **Manipulator-Größe** steuert, wie groß der Controller im Viewport sein wird.
 
-Die gleichen **Tastaturbefehle** wie für den Tri-Planar- und UV-Manipulator können verwendet werden, um den Symmetrie-Manipulator auszublenden/anzuzeigen:
+Die gleichen **Tastaturbefehle** wie für den Manipulator &quot;Planare Dreiecksverknüpfung&quot; und &quot;UV&quot; können zum Ausblenden/Anzeigen des Manipulators &quot;Symmetrie&quot; verwendet werden:
 
 * **Q** : Manipulator ein-/ausblenden
-* **Umschalttaste** : Ausrichtungsverschiebung (diskreter Versatz)
-* **+ / -** : Ändern der Größe des Manipulators
+* **Umschalttaste** : Einrasten Verschiebung (diskreter Versatz)
+* **+ / -** : Größe des Manipulators ändern
 
 ![](../../assets/symmetry-gizmo.gif)
 
-### Verbesserter triplanarer Manipulator
+### Verbesserter Tri-Planar-Manipulator
 
 ![](../../assets/trip-rotation-optim.gif)
 
-Zusätzlich zu den 3 Originalachsen zur Drehungssteuerung haben wir bei der Steuerung des Triplanar-Manipulators auch eine neue Drehkugel hinzugefügt. Die Kugel erleichtert es, zum Beispiel bei der Projektion von Rauschmustern schnell verschiedene Winkel auszuprobieren.
+Zusätzlich zu den 3 ursprünglichen Achsen zur Steuerung der Drehung haben wir auch eine neue Drehungskugel hinzugefügt, wenn wir den planaren Manipulator steuern. Die Kugel erleichtert es, zum Beispiel bei der Projektion von Rauschen-Mustern schnell verschiedene Blickwinkel auszuprobieren.
 
 ### Exportieren von 8-Bit-Dithering-Texturen
 
 ![](../../assets/dither-1.jpg)
 
-Beim Exportieren von Normal- und Height-Map-Texturen in Dateiformate im 8-Bit-Modus wendet Substance Painter jetzt automatisch **Dithering** an, um **Banding** **Probleme** zu reduzieren.
+Beim Exportieren von Normal- und Höhen-Map-Texturen in Dateiformate im 8-Bit-Modus wendet Substance Painter jetzt automatisch **Dithering** an, um **Banding** **Probleme** zu reduzieren.
 
 >[!NOTE]
 >
-> Wenn eine Exportvorgabe eine normale Map verwendet, aber etwas Anderes im Alpha (wie RGB = Normal, A = Raueit), wird nur die Normale dithering durchgeführt.
+> Wenn eine Exportvorgabe eine Normalen-Map verwendet, aber etwas Anderes im Alpha-Wert (z. B. RGB = Normal, A = Rauheit), wird nur die Normale gedithert.
 
-### Verbesserungen des Ebenenstapelverhaltens
+### Verbesserungen am Verhalten von Ebenenstapeln
 
 ![](../../assets/color-layers.gif)
 
-Es wurden einige Workflow-Verbesserungen am Ebenenstapel und an der Ebenenverwaltung vorgenommen:
+Am Ebenenstapel und an der Ebenenverwaltung wurden einige Workflow-Verbesserungen vorgenommen:
 
-* Weisen Sie **color** **layers** und **folders** im Ebenenstapel über das Menü **Rechtsklick** zu, um Ebenen zu organisieren.\
+* Weisen Sie **color** **layers** und **folders** im Ebenenstapel über das Kontextmenü **mit der rechten Maustaste** zu, um Ebenen zu organisieren.\
   Substance Painter-Ebenenfarben verhalten sich jedoch etwas anders als in anderen Softwarepaketen :
   * Ebenen in einem Ordner übernehmen die Ordnerfarbe (erscheinen jedoch abgeblendet).
   * Das Verschieben einer Ebene ohne zugewiesene Farbe innerhalb eines Ordners, der eine Farbe hat, übernimmt die Ordnerfarbe.
-  * Wenn eine Ebene über eine eigene Farbe verfügt, wird diese vom Ordner nicht überschrieben.Mit diesem ursprünglichen Verhalten können Sie den Ebenenstapel einfacher einfärben und organisieren, ohne zu viele Farben manuell zuweisen zu müssen.
+  * Wenn eine Ebene über eine eigene Farbe verfügt, wird diese vom Ordner nicht überschrieben.Dieses Originalverhalten erleichtert das Kolorieren und Organisieren des Ebenenstapels, ohne zu viele Farben manuell zuweisen zu müssen.
 
 ![](../../assets/hide-slider.gif)
 
@@ -183,32 +183,32 @@ Es wurden einige Workflow-Verbesserungen am Ebenenstapel und an der Ebenenverwal
 ![](../../assets/blend-mode_1.gif)
 
 * Mit der **Pfeiltasten**-Tastatur **Tastaturbefehle** können Sie schnell **zwischen den Mischmodi** wechseln.\
-  Nach **Schließen** des Popupmenüs &quot;Füllmethode&quot; bleibt **Fokus** **auf der Ebene** und kann mit derselben vorherigen Tastenkombination geändert werden.
+  Nach **Schließen** des Popupmenüs &quot;Füllmethode&quot; bleibt **Fokus** **auf der Ebene** und kann mit demselben vorherigen Tastaturbefehl geändert werden.
 
 ### Neue Substance-Eingänge für Filter und Generatoren
 
 ![](../../assets/uv-border-generator.gif)
 
-Neue Substance-Eingaben wurden für benutzerdefinierte Filter und Generatoren verfügbar gemacht. Diese neuen Textureingaben ermöglichen die Erstellung fortschrittlicherer Effekte dank neuer netzbezogener Informationen.
+Neue Substance-Eingänge wurden für benutzerdefinierte Filter und Generatoren gelegt. Diese neuen Textur-Inputs ermöglichen die Erstellung von fortschrittlicheren Effekten dank neuer Mesh-Informationen.
 
 Die neuen verfügbaren Eingaben sind:
 
-* Gitterposition
-* Mesh World Space Normal
-* Gitter-Weltraumtangente
-* Gitterweltraum-Bitangent
-* Gittertextilgröße
-* Gitter-UV-Maske
+* Mesh
+* Mesh Welt-Raum-Normale
+* Mesh Welt-Raum Tangente
+* Mesh Welt-Raum Bitangent
+* Mesh Texelgröße
+* Mesh UV-Maske
 
 Weitere Informationen finden Sie in der neuen Dokumentation : [Mesh-basierte Eingabe](../../content/creating-custom-effects/mesh-based-input.md)
 
-Als Beispiel stellen wir jetzt einen neuen **Maskengenerator** mit dem Namen &quot;**UV-Randabstand**&quot; bereit, der eine Schwarz-Weiß-Maske aus dem Rand der UV-Inseln des aktuellen Textursatzes erstellt.
+Als Beispiel stellen wir jetzt einen neuen **Maskengenerator** mit dem Namen &quot;**UV Border Distance**&quot; bereit, der vom Rand der UV-Inseln des aktuellen Textursatzes aus ein Schwarz und eine weiße Maske erstellt.
 
 ![](../../assets/uv-border.png)
 
 >[!NOTE]
 >
-> Diese Eingaben werden direkt vom Modul für den Substance Painter bereitgestellt, das auf dem Projekt Mesh basiert, und verwenden nicht die [Bäcker](../../baking/baking.md).
+> Diese Eingaben werden direkt aus dem Engine des Substance Painters auf der Grundlage des Projekt-Meshs bereitgestellt und verwenden nicht die [Baker](../../baking/baking.md).
 
 ### Neue und aktualisierte Inhalte
 
@@ -237,19 +237,19 @@ In dieser neuen Version haben wir neue Inhalte hinzugefügt:
     ![](../../assets/envmap.png)
 * Neues **Projekt** **Vorlagen** :
 
-  * PBR - Metallische Raueit Anisotropie Winkel
-  * PBR - Metallische Raueit beschichtet
+  * PBR - Metallische Rauheit Anisotropy angle
+  * PBR - mit Metallische Rauheit beschichtet
 * Neues **Material** :
 
-  * Human Female 30s Face 06 (über die Skin-Vorgabe im Regal schnell zu finden)\
-    Dieses neue Hautmaterial wurde von **Texturing.XYZ** bereitgestellt und bietet großartige Oberflächendetails, um realistische Haut zu malen.\
+  * Human Female 30s Fläche 06 (über die Skin-Vorgabe im Regal schnell zu finden)\
+    Dieses neue Skin-Material wurde von **Texturing.XYZ** bereitgestellt und verleiht realistischen Malen-Skins großartige Oberflächendetails.\
     ![](../../assets/skin-face.png)
 
 Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern:
 
 * Updaterfilter &quot;**Umgebung mit vorberechnete Beleuchtung**&quot; : Siehe oben.
-* Filter &quot;**MatFx Shutline**&quot; wurde aktualisiert: Erlaubt nun, den Materialeffekt auszublenden und nur das Height/Normalergebnis beizubehalten.
-* **Beispielprojekt** wurde aktualisiert: Die Vorschaukugel kann jetzt symmetrisch verwendet werden und verfügt über einen neuen Kamerawinkel für benutzerdefinierte Renderings. Der Standard-Shader ist jetzt &quot;Anisotropie Winkel&quot;.
+* Filter &quot;**MatFx Shutline**&quot; wurde aktualisiert: Ermöglicht jetzt das Ausblenden des Material-Effekts und nur das Height/Normalergebnis beizubehalten.
+* **Beispielprojekt** wurde aktualisiert: Die Vorschaukugel kann jetzt mit Symmetrie verwendet werden und hat einen neuen Kamera-Winkel für benutzerdefinierte Renderings. Der Standard-Shader ist jetzt &quot;Anisotropy angle&quot;.
 
 ## Versionshinweise
 
@@ -259,22 +259,22 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 
 **Hinzugefügt:**
 
-* [Inhalt] Neue Projektvorlage integrieren: &quot;PBR - Metallic Roughness Alpha-blend&quot;
+* [Inhalt] Neue Projektvorlage integrieren: &quot;PBR - Metallische Rauheit Alpha-blend&quot;
 * Die Suchreihenfolge der dynamischen Linux-Bibliothek wurde geändert, um Bibliotheken im Installationsverzeichnis Priorität einzuräumen, bevor sie auf dem System installiert werden.
 
 **Fest:**
 
-* Das Gitter verschwindet manchmal aus dem 3D-Viewport (drücken Sie F, um die Kamera zurückzusetzen)
+* Mesh verschwindet manchmal vom 3D-Viewport (drücken Sie F, um die Kamera zurückzusetzen)
 * [glTF] Aktualisieren des Substance Painter Sketchfab-Uploaders mit den neuen Sketchfab-Lizenztypen
-* [Import]&#x200B;[glTF] Falsche Handhabung der Eingabetexturmodulation wie in glTF-Dateien definiert
-* [Import]&#x200B;[glTF] Grundebene wird beim glTF-Import in einigen Fällen falsch angezeigt
-* [Exportieren]&#x200B;[USD] Deckkraft funktioniert nicht in Arkit
-* [Export]&#x200B;[USD] Der USDz-Export stürzt in einigen Fällen ab.
-* [Exportieren]&#x200B;[USD] Exportieren in USD ohne Speichern führt zum Absturz
-* [Export]&#x200B;[USD] Falscher Unterteilungsmodus für Texturen, Unterteilungsmodus für Gitter und Ausgabetypen für Shader
-* [Export]&#x200B;[USD] Wenig Exporte von nur einigen Textursätzen mit allen Geometrien
-* [Instanz] Absturz beim Versuch, eine beschädigte Instanzebene zu löschen
-* [Regression]&#x200B;[Exportieren] Einige Maps werden nicht in die ausgewählte Bittiefe exportiert
+* [Import][glTF] Falsche Handhabung der Modulation der Eingabe-Textur, wie in glTF-Dateien definiert
+* [Import][glTF] Boden-Ebene wird beim glTF-Import in einigen Fällen falsch angezeigt
+* [Exportieren][USD] Deckkraft funktioniert nicht in Arkit
+* [Exportieren][USD] USDz-Export-Absturz in einigen Fällen
+* [Exportieren][USD] Exportieren nach USD ohne Speichern führt zu Absturz
+* [Exportieren][USD] Falsche Kachelung für Texturen, Unterteilungsmodus für Mesh und Ausgabetypen für Shader
+* [Exportieren][USD] Wenig Exporte von nur einigen Textursätzen mit allen Geometrien
+* [Instanz] Absturz beim Löschen einer beschädigten Instanzebene
+* [Regression][Exportieren] Einige Maps werden nicht in die ausgewählte Bittiefe exportiert
 * [Linux] Problem mit der Bibliothek libtbb.so.2
 
 **Bekannte Probleme:**
@@ -324,7 +324,7 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 **Hinzugefügt:**
 
 * Zusammenfassung: Hotfix
-* [Symmetrie]&#x200B;[Viewport] Symmetrie-Malerei in der 2D-Ansicht ist wieder da und zeigt jetzt eine fixierte Vorschau des Klonpinsels
+* [Symmetrie][Viewport] Symmetrie-Malerei in der 2D-Ansicht ist wieder da und zeigt jetzt eine fixierte Vorschau des Klonpinsels
 
 **Fest:**
 
@@ -347,43 +347,43 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 <b><b>Hinzugefügt:</b></b>
 
 * Zusammenfassung: Viewport-Upgrades, richtiger Export von 2D-Ansichten, neue UI-Helfer, ein verbessertes Symmetrie-Tool, neue Inhalte und eine enorme Leistungssteigerung
-* [Glätten]&#x200B;[Viewport] Neue temporale Anti-Aliasing-Filterung für 3D-Viewport (über Anzeigeeinstellungen)
+* [Glätten][Viewport] Neue temporale Anti-Aliasing-Filterung für 3D-Viewport (über Anzeigeeinstellungen)
 * [Exportieren] Exportieren Sie den Inhalt des 2D-Viewports als einzelne Textur
-* [Exportieren]&#x200B;[Dithering] Setzen Sie das Dithering beim Export frei.
+* [Exportieren][Dithering] Dithering beim Exportieren Gelegt
 * [Ebenenstapel] Farben auf Ebenen und Ordnern
 * [Ebenenstapel] Schnelle Aktivierung und Deaktivierung mehrerer Ebenen und Effekte
-* [Ebenenstapel] Einfachere Navigation für Mischmodi mit Nach-oben-Tasten und Mausbildlauf
-* [Proj]&#x200B;[UI] Zusätzlicher Rotationsmanipulator auf allen drei Achsen für triplanar
-* [Proj]&#x200B;[Tastaturbefehle] - und +, um die Größe des UV-Projektion-Manipulators zu ändern
-* [Shader] Steuern der Parameter der beschichteten Schicht mit Kanälen im PBR-beschichteten Shader
-* [Substance] Stellen Sie neue netzbasierte Textureingaben für Filter und Generatoren bereit.
-* [Symmetrie]&#x200B;[Viewport]&#x200B;[UI] Steuern des Symmetrie-Offsets mit Manipulatoren
-* [Symmetrie]&#x200B;[Kontextsymbolleiste]&#x200B;[UI] Neues Symmetrie-Fenster mit Optionen
-* [Symmetrie] Neuer Schnittmodus für Symmetrielinien
+* [Ebenenstapel] Einfachere Navigation für Füllmethoden mit Nach-oben-Tasten und Mausbildlauf
+* [Proj][UI] Zusätzlicher Dreh-Manipulator auf allen drei Achsen für triplanar
+* [Proj][Tastaturbefehle] - und +, um die Größe des Manipulators der UV-Projektion zu ändern
+* [Shader] Kontrolle beschichteter Schichtparameter mit Kanälen im PBR-beschichteten Shader
+* [Substance] Leg neuer Mesh-basierter Textur-Eingänge für Filter und Generatoren
+* [Symmetrie][Viewport][UI] Steuern des Offsets der Symmetrie auf Manipulator
+* [Symmetrie][Kontextabhängige Symbolleiste][Benutzeroberfläche] Neues Bedienfeld &quot;Symmetrie&quot; mit Optionen
+* [Symmetrie] Neue Symmetrie Linienüberschneidungsmodus
 * [Symmetrie] Neuer Symmetrie-Clone-Cursor
-* [Symmetrie]&#x200B;[Tastaturbefehle] Q zum Ausblenden und -, + zum Ändern der Größe und Umschalttaste zum Ausrichten
-* [Protokoll] Verbessern von Fehlermeldungen, wenn Texturen nicht exportiert werden können
+* [Symmetrie][Tastaturbefehle] Q zum Ausblenden und -, + zum Ändern der Größe und Umschalttaste zum einrasten
+* [Log] Verbessern von Fehlermeldungen, wenn Texturen nicht exportiert werden können
 * [Scripting] Ressourcen in den Anzeigeeinstellungen ändern oder aktualisieren
 * [Scripting] Erlaubt das Erstellen oder Entfernen von Kanälen in Textursätzen
-* [Inhalt]&#x200B;[Schattierungen] Unterstützung für Anisotropie mit einem dedizierten Schattierer hinzufügen (pbr-metal-rau-Anisotropie-angle)
+* [Content][Shaders] Unterstützung für Anisotropie mit einem dedizierten Shader hinzufügen (pbr-metal-rau-Anisotropie-angle)
 * [Inhalt] Aktualisierung der Vorschaukugel mit Anisotropie und verändertem Winkel
 * [Content] Aktualisierte matFx-Shutline
-* [Content] Neue Texturierung.XYZ nahtloser Gesichtsscan
+* [Content] Neuer Scanner zur Texturierung.XYZ-Fläche
 * [Inhalt] Neue anisotrope Verfahren
 * [Inhalt] Neuer Filter: Umgebung mit vorberechnete Beleuchtung
-* [Inhalt] Neue Umgebungszuordnung: Studio Automotive Neutral
-* [Inhalt] Neue Projektvorlage: PBR - Anisotropie der metallischen Raueit (mit Kanälen für die Anisotropie)
-* [Inhalt] Neue Projektvorlage: PBR - Metallische Raueit beschichtet
-* [SVT]&#x200B;[Engine] Spare virtuelle Texturen (SVT)
-* [SVT]&#x200B;[Voreinstellungen]&#x200B;[UI] Beschleunigungsoption für SVT-Hardware-Unterstützung
-* [SVT]&#x200B;[Protokoll] Zusätzliche Informationen für die Funktion &quot;Virtuelle Texturierung mit geringer Dichte&quot; (z. B. Festplatte in Größe)
-* [SVT]&#x200B;[UI] Meldungsfenster beim Start, wenn die Größe auf der Festplatte für den Cache zu niedrig ist
-* [SVT]&#x200B;[Voreinstellungen]&#x200B;[UI] Substance Painter globaler Cachespeicherort
+* [Inhalt] Neue Umgebungs-Map: Studio Automotive Neutral
+* [Inhalt] Neue Projektvorlage: PBR - metallische Rauheit Anisotropy angle (mit Anisotropie-Kanälen)
+* [Inhalt] Neue Projektvorlage: PBR - mit metallische Rauheit beschichtet
+* [SVT][Engine] Dünn besetzte virtuelle Texturen (SVT)
+* [SVT][Voreinstellungen][UI] Beschleunigungsoption für SVT-Hardware-Unterstützung
+* [SVT][Protokoll] Zusätzliche Informationen für die Funktion &quot;Virtuelle Texturierung mit geringer Dichte&quot; (z. B. Festplatte in Größe)
+* [SVT][UI] Meldungsfenster beim Start, wenn die Größe auf der Festplatte für den Cache zu niedrig ist
+* [SVT][Voreinstellungen][UI] Substance Painter globaler Cachespeicherort
 * [SVT] Neue Umgebungsvariable zur Angabe des Pfads des Substance Painter-Cache
 * [SVT] Neue Umgebungsvariable zum Aktivieren der SVT-Hardware-Support-Beschleunigung
 * [SVT] Erkennen von geringer Unterstützung durch Hardware
-* [SVT]&#x200B;[Hardware Sparse] Erhöhen der Mindesttreiberversion für Nvidia-GPU
-* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Warnen Sie den Benutzer, wenn beim Öffnen des Projekts Artefakte mit virtueller Texturierung mit geringer Dichte vorhanden sind
+* [SVT][Hardware Sparse] Erhöhen der Mindesttreiberversion für Nvidia-GPU
+* [SVT][Shader][Viewport][UI] Warnen Sie den Benutzer, wenn beim Öffnen des Projekts Artefakte mit virtueller Texturierung mit geringer Dichte vorhanden sind
 
 <b><b>Fest:</b>\
 </b>
@@ -391,7 +391,7 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 * [Farbwähler] Beim Auswählen einer Farbe wird ein Malcursor angezeigt
 * Absturz durch Auswählen oder Aufheben der Auswahl von Ebenen in einer bestimmten Reihenfolge kann zum Absturz führen
 * Absturz beim Einfügen einer Ebene mit einer Maske als Instanz
-* [Benutzerkanal]&#x200B;[Regression] Absturz beim Umbenennen des Benutzerkanals
+* [Benutzerkanal][Regression] Absturz beim Umbenennen des Benutzerkanals
 * [Benutzerkanal] Graue Pinselvorschau
 * [Alembic] Nur ein Textursatz aus mehreren Materialien nach dem Import
 * [Engine] Exportierte Textur unterscheidet sich vom Viewport für Pinselstempel
@@ -401,7 +401,7 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 * Gitterzuordnungs-Verknüpfungen werden beim Umbrechen oder Instanziieren von Ebenen nicht ordnungsgemäß aktualisiert
 * [Substance] UserData ColorSpace funktioniert nicht bei der als Eingabe angeforderten Option &quot;Standard für gepuffertes Gitter&quot;
 * MDL-Zuordnungskonflikt bei Verwendung mehrerer Shader-Instanzen
-* [Symmetrie]&#x200B;[Füllebene] Symmetrieebene und ihr Manipulator in der Füllebene aktiv
+* [Symmetrie][Füllebene] Symmetrieebene und ihr Manipulator in der Füllebene aktiv
 * [Viewport] Drehpunkt für Übersetzung wird nach dem Klicken nicht immer aktualisiert
 * [UI] Symbole und Entfernen von Platzhaltern für HDPI-Monitore wurden korrigiert
 

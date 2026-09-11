@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie eine falsche Miniaturansicht in der Substance 3D Painter-Bibliothek korrigieren, um eine präzise Ressourcenvorschau zu gewährleisten.
+description: Erfahren Sie, wie Sie eine falsche Miniaturansicht in Substance 3D Painter Regal beheben, um eine präzise Ressourcenvorschau zu gewährleisten.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Miniaturen im Regal sehen falsch aus
 
-Wenn die Miniaturansichten im Regal anders als gewöhnlich erscheinen, kann dies an dem Shader liegen, der zum Rendern der Vorschauen verwendet wird.
+Wenn die Miniaturansichten im Regal anders zu sein scheinen als gewöhnlich, kann das an dem Shader liegen, der zum Rendern der Vorschauen verwendet wird.
 
 | Fehlerhafte Miniaturen | Normale Miniaturen |
 | --- | --- |
@@ -32,10 +32,10 @@ Gehen Sie zu **Bearbeiten** und klicken Sie auf **Einstellungen** :
 
 ![](../../../assets/pref-menu.png)
 
-## 2 - Entfernen Sie den Regalvorschau-Shader
+## 2 - Entfernen Sie den Regal-Vorschau-Shader
 
-Scrollen Sie in der Ansicht **Allgemein** nach unten, bis der Abschnitt &quot;Vorschauoptionen&quot; angezeigt wird.\
-Klicken Sie auf die Schaltfläche **cross** vor dem **Materialvorschau-Shader** , um den angegebenen aktuellen Shader zu entfernen.
+Scrollen Sie in der Ansicht **Allgemein** nach unten, bis der Abschnitt &quot;Vorschau-Optionen&quot; angezeigt wird.\
+Klicken Sie auf die Schaltfläche **cross** vor dem **Materialvorschau-Shader**, um den angegebenen aktuellen Shader zu entfernen.
 
 ![](../../../assets/remove-preview-shader.png){width="450px"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
 breadcrumb-title: ''
 description: Lernen Sie Best Practices für die Ebenenverwaltung in Substance 3D Painter kennen, mit denen Sie die Leistung optimieren und strukturierte Projekte beibehalten können.
 helpx_creative_field: ""
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 # Ebenenmanagement
 
-Painter berechnet den Ebenenstapel von unten nach oben. Wenn Sie also Änderungen an der obersten Ebene im Stapel vornehmen, muss Painter nur die Änderungen dieser Ebene berechnen. Wenn Sie jedoch an einer Ebene am unteren Rand des Stapels eine Änderung vornehmen, muss Painter alle Ebenen über dieser Ebene berechnen, um das Endergebnis zu berechnen.
+Painter berechnet den Ebenenstapel von unten nach oben. Wenn Sie also Änderungen an der obersten Ebene auf dem Stapel vornehmen, muss Painter nur die Änderungen dieser Ebene berechnen. Wenn Sie jedoch eine Ebene am unteren Rand des Stapels ändern, muss Painter alle Ebenen über dieser Ebene berechnen, um das Endergebnis zu berechnen.
 
 Es gibt verschiedene Optionen, mit denen Sie die Leistungskosten für Änderungen an Ebenen auf einer niedrigeren Ebene im Stapel senken können:
 
 +++Verwenden von Geometrie-Masken
-Geometriemasken sind das beste Optimierungswerkzeug. Wann immer Sie einen Teil Ihres Gitters zum Arbeiten isolieren können, tun Sie dies, entweder durch Maskieren von Ebenen oder Ordnern. Geometriemasken werden entweder durch UDIM oder durch ein Gitterteil isoliert, sodass Bereiche, die sich nicht in der Maske befinden, nicht verarbeitet werden, was die Leistung verbessert. Als Bonus kannst du diese Teile im Viewport auch visuell isolieren, um die Texturierung zu vereinfachen.
+Geometriemasken sind das beste Optimierungswerkzeug. Wann immer Sie einen Teil Ihres Meshs zum Arbeiten isolieren können, tun Sie dies, entweder durch Maskieren von Ebenen oder Ordnern. Geometriemasken arbeiten, indem sie entweder durch UDIM oder durch einen Mesh-Teil isoliert werden, sodass Bereiche, die nicht in der Maske enthalten sind, nicht verarbeitet werden, was die Leistung verbessert. Außerdem kannst du diese Bereiche im Viewport isolieren, um die Texturierung zu vereinfachen.
 
 Sie können [mehr über Geometriemasken in diesem Tutorial erfahren](https://www.youtube.com/watch?v=TGASuIGSUns) oder indem Sie [auf die Dokumentation verweisen](../../interface/layer-stack/geometry-mask.md).
 
@@ -46,18 +46,18 @@ Versuchen Sie, Ebenen nach Möglichkeit zu gruppieren, da sich Ordner wie ein un
 
 +++
 
-+++Begrenzte Verwendung von Filtern oben im Ebenenstapel
-Filter können teuer sein. Wenn Sie einen Filter am oberen Rand des Ebenenstapels verwenden müssen, verwenden Sie Geometriemasken, um ihre Leistungskosten zu senken.
++++Die Verwendung von Filtern am oberen Rand des Ebenenstapels beschränken
+Filter können teuer sein. Wenn Sie einen Filter in der Nähe des oberen Rands des Ebenenstapels verwenden müssen, können Sie Geometriemasken verwenden, um die Leistungskosten zu senken.
 
 +++
 
 +++Verwendung des Mischmodus &quot;Passthrough&quot; beschränken
-Passthrough wird häufig mit Filtern oder Pinselstrichebenen verwendet. Dieser Mischmodus ist sehr kostspielig, da er auf alle darunterliegenden Ebenen angewendet wird und deren Ergebnis transformiert, anstatt das Ergebnis wie der normale Mischmodus zu überschreiben. Versuchen Sie bei der Verwendung von Passthrough, sie mit Geometriemasken und Ordnern zu kombinieren, um die Auswirkungen auf die Leistung zu minimieren.
+Passthrough wird häufig mit Filtern oder Pinselstrichebenen verwendet. Dieser Mischmodus ist sehr kostspielig, da er auf alle darunterliegenden Ebenen angewendet wird und deren Ergebnis transformieren, anstatt das Ergebnis wie bei einem normalen Mischmodus zu überschreiben. Versuchen Sie bei der Verwendung von Passthrough, sie mit Geometriemasken und Ordnern zu kombinieren, um die Auswirkungen auf die Leistung zu minimieren.
 
 +++
 
 +++Tiefe der Projektion klein halten
-Halten Sie den Wert für die Tiefe der Projektion mit allen Werkzeugen oder Modi, die eine Tiefe der Projektion haben (Verformen, planar, Pfad usw.), so klein wie möglich. Je weiter sich die Projection-Tiefe erstreckt, desto weniger performant ist sie.
+Halten Sie den Wert für die Tiefe der Projektion mit allen Werkzeugen oder Modi, die eine Einstellung für die Tiefe der Projektion haben (Verformen, planar, Pfad usw.), so klein wie möglich. Je weiter sich die Tiefe der Projektion erstreckt, desto weniger performant ist sie.
 
 +++
 
@@ -68,12 +68,12 @@ Pinsel und Werkzeuge mit einem orangefarbenen Tag haben einen dynamischen Parame
 
 +++
 
-+++Arbeiten mit einer niedrigeren Texturauflösung
++++Arbeiten mit einer niedrigeren Textur
 Die Reduzierung der Dokumentauflösung ist der schnellste Weg zur Leistungssteigerung. Eine Verdoppelung der Auflösung bedeutet eine 4-mal größere Karte, sodass eine Erhöhung von 1 auf 2 K eine bis zu 4-mal höhere Performance-Kosten bedeutet. Daher ist es oft nützlich, so lange wie möglich mit einer niedrigeren Auflösung zu arbeiten.
 
 +++
 
-+++Abziehbilder auf planaren Projektionsmodus einstellen
-Der Standard-Aufklebermodus ist &quot;Verformen&quot;. Wenn Sie den Aufkleber jedoch nicht durch Verschieben der Punkte verformen, ist das Umschalten in den Modus &quot;Planar&quot; viel kostengünstiger.
++++Aufkleber auf Planare Projektion einstellen
+Der Standard-Aufklebermodus ist &quot;Verformen&quot;. Wenn Sie den Aufkleber jedoch nicht durch Verschieben der Ankerpunkte verformen, ist das Umschalten in den Planaren Modus viel kostengünstiger.
 
 +++

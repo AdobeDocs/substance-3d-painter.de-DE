@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/edit-menu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Menü "Bearbeiten" in Substance 3D Painter verwenden, um auf Vorgänge zum Rückgängigmachen, Wiederholen und Bearbeiten zuzugreifen.
 helpx_creative_field: ""
@@ -25,8 +25,8 @@ ht-degree: 2%
 
 | Aktion | Beschreibung |
 | --- | --- |
-| **Rückgängig** | Gehen Sie einen Schritt zurück im Stapel [Verlauf](../history.md). |
-| **Wiederholen** | Gehen Sie einen Schritt weiter im Stapel [Verlauf](../history.md). |
+| **Rückgängig** | Gehen Sie im Stapel [Verlauf](../history.md) einen Schritt zurück. |
+| **Wiederholen** | Gehen Sie im Stapel [Verlauf](../history.md) einen Schritt weiter. |
 | **Projektkonfiguration** | Öffnen Sie das Fenster [Projekteinstellungen](../project-configuration.md) des aktuellen Projekts. |
 | **Einstellungen** | Öffnen Sie das allgemeine Fenster [Anwendungseinstellungen](../settings/settings.md). |
-| **Gitterzuordnungen backen** | Öffnen Sie das Fenster [Backup](../../baking/baking.md). |
+| **Gitterzuordnungen backen** | Öffnen Sie das Fenster &quot;[Baking](../../baking/baking.md)&quot;. |

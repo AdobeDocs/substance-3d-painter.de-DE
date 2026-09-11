@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
-description: Verwenden Sie das Verwischen-Werkzeug in Substance 3D Painter, um Malstriche zu vermischen und zu verwischen, um glatte Texturübergänge zu erstellen.
+description: Verwenden Sie das Verwischen-Werkzeug in Substance 3D Painter, um Malen-Striche zu überblenden und zu verwischen, um glatte Übergänge von Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Smudge tool
 helpx_experience_level: ""
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 ![](../../assets/image2018-6-12-18-14-12.png)
 
-Das Wischfinger-Werkzeug wurde in Substance 3D Painter 2 eingeführt und verfügt über denselben Parametertyp wie das [Malwerkzeug](https://support.allegorithmic.com/documentation/display/SPDOC/Paint+brush) .
+Das Wischfinger-Werkzeug wurde in Substance 3D Painter 2 eingeführt und verfügt über denselben Parametertyp wie das [Malen-Werkzeug](https://support.allegorithmic.com/documentation/display/SPDOC/Paint+brush) .
 
 ![](../../assets/smudge.gif)
 
 ## Nutzung
 
-Der einfachste Weg, das Wischfinger-Werkzeug zu verwenden, besteht darin, es direkt auf den Inhalt einer Malebene anzuwenden, als normales Malwerkzeug.
+Der einfachste Weg, das Wischfinger-Werkzeug zu verwenden, besteht darin, es direkt auf dem Inhalt einer Malebene als normales Malen-Werkzeug zu verwenden.
 
 Mit dem Wischfinger-Werkzeug kannst du jetzt besser eine Malebene erstellen und alle Kanäle der Ebene auf den Mischmodus &quot;Hindurchwirken&quot; setzen. Auf diese Weise können Sie alle Ebenen, die sich unter der &quot;Verwischungsebene&quot; befinden, zerstörungsfrei verwischen. Die folgenden Ebenen bleiben intakt und alle später vorgenommenen Änderungen werden von der Verwisch-Ebene berücksichtigt.

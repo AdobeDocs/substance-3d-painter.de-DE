@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Painter Ressourcenpfade manuell hinzufügen können, indem Sie die Voreinstellungen bearbeiten und so Ihre Bibliothek erweitern.
+description: Erfahren Sie, wie Sie in Substance 3D Painter Ressourcenpfade manuell hinzufügen können, indem Sie die Voreinstellungen bearbeiten, um Ihre Regal-Ressourcenbibliothek zu erweitern.
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Add resource paths manually
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Hinzufügen von Ressourcenpfaden durch manuelles Bearbeiten der Voreinstellungen
 
-Sie können zusätzliche benutzerdefinierte Shelf- oder Assets-Pfade hinzufügen, ohne die Anwendung zu öffnen.
+Sie können zusätzliche benutzerdefinierte Regal- oder Assets-Pfade hinzufügen, ohne die Anwendung zu öffnen.
 
-Dazu müssen Sie die Anwendungseinstellungen bearbeiten (die je nach Plattform unterschiedlich gespeichert sind). Nach dem Hinzufügen sollte die neue Ablage in der Ablageliste in den Hauptvoreinstellungen angezeigt werden. Weitere Informationen finden Sie auf dieser Seite : [Bibliothekskonfiguration](../../../interface/settings/libraries-configuration.md)
+Dazu müssen Sie die Anwendungseinstellungen bearbeiten (die je nach Plattform unterschiedlich gespeichert sind). Nach dem Hinzufügen sollte das neue Regal in den Hauptvoreinstellungen in der Liste &quot;Regal&quot; angezeigt werden. Weitere Informationen finden Sie auf dieser Seite : [Bibliothekskonfiguration](../../../interface/settings/libraries-configuration.md)
 
 >[!NOTE]
 >

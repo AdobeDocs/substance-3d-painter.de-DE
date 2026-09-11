@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter die Texturerweiterung und -auffüllung verwenden, um Kantenartefakte in exportierten Texturen zu verhindern.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Painter > Technical support > Workflow Issues > Export Issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Texturerweiterung oder Auffüllung
+title: Ausdehnung der Textur oder Auffüllung
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,12 +18,12 @@ ht-degree: 0%
 ---
 
 
-# Texturerweiterung oder Auffüllung
+# Ausdehnung der Textur oder Auffüllung
 
-**Auffüllen** (manchmal auch als **Dilation** bezeichnet) ist ein Prozess, der nach dem Generieren einer Textur stattfindet. Sie dient dazu, die Ränder der UV-Inseln zu erweitern, um leere Bereiche mit ähnlichen Pixeln zu füllen.
+**Auffüllen** (manchmal auch als **Ausdehnung** bezeichnet) ist ein Prozess, der nach dem Generieren einer Textur ausgeführt wird. Sie dient dazu, die Ränder der UV-Inseln zu erweitern, um leere Bereiche mit ähnlichen Pixeln zu füllen.
 
-Das Generieren einer Auffüllung mit guter Qualität ist wichtig, um sicherzustellen, dass die [MIPMAPS](../../../getting-started/glossary.md)-Generierung von Game-Engines oder Offline-Renderern später gut ist.\
-Substance 3D Painter kann eine unendliche Auffüllung generieren: Das bedeutet, dass ein Pixel so lange gedehnt wird, bis eine andere UV-Insel oder die Ränder der Struktur erreicht sind.
+Das Generieren einer Auffüllung mit guter Qualität ist wichtig, um sicherzustellen, dass die [MIPMAPS](../../../getting-started/glossary.md)-Generierung von Game-Enginen oder Offline-Renderern später gut ist.\
+Substance 3D Painter kann eine unendliche Auffüllung generieren: Das bedeutet, dass ein Pixel gedehnt wird, bis es eine andere UV-Insel oder die Ränder der Textur erreicht.
 
 ## Generierung unendlicher Innenabstände
 
@@ -46,9 +46,9 @@ Im Folgenden finden Sie ein Beispiel für die unendliche Auffüllung :
 
 ## MipMaps
 
-In 3D-Computergrafiken sind **MIPMaps** vorberechnete, optimierte Sequenzen von Texturen, von denen jede eine progressiv niedrigere Auflösung des gleichen Bildes ist. Sie sollen die Rendering-Geschwindigkeit erhöhen und Aliasing-Artefakte reduzieren. Für Objekte in der Nähe der Kamera wird ein hochauflösendes Mipmap-Bild verwendet. Bilder mit geringerer Auflösung werden verwendet, wenn das Objekt weiter entfernt erscheint. Auf diese Weise lassen sich effizient alle Pixel der ursprünglichen Textur rendern oder lesen. Die Mipmaps (jede Ebene) sind in der Textur selbst eingebettet (wenn sie vom Dateiformat unterstützt werden).
+In 3D-Computergrafiken sind **MIPMaps** vorberechnete, optimierte Sequenzen von Texturen, von denen jede eine progressiv niedrigere Auflösung des gleichen Bildes ist. Sie sollen die Rendering-Geschwindigkeit erhöhen und Aliasing-Artefakte reduzieren. Für Objekte in der Nähe der Kamera wird ein hochauflösendes Mipmap-Bild verwendet. Bilder mit geringerer Auflösung werden verwendet, wenn das Objekt weiter entfernt erscheint. Auf diese Weise lassen sich alle Pixel der ursprünglichen Textur effizient rendern bzw. lesen. Die Mipmaps (jede Ebene) sind in der Textur selbst eingebettet (wenn sie vom Dateiformat unterstützt werden).
 
-Für Mipmaps ist eine Auffüllung sehr wichtig, da sie verhindert, dass bei niedrigeren Texturauflösungen falsche Farben in den UVs des Gitters verlaufen.
+Der Innenabstand ist sehr wichtig für Imagemaps, da er verhindert, dass falsche Farben innerhalb der UVs des Meshs verlaufen, wenn die Auflösungen der Textur niedriger sind.
 
 <table>
 <tr style="border: 0;">
@@ -75,6 +75,6 @@ In einer 3D-Anwendung ist dies das Ergebnis:
 
 Mit Substance 3D Painter können Sie das Verhalten der Generierung von Innenabständen an verschiedenen Stellen ändern (z. B. Deaktivieren):
 
-* **Beim Backen** : Weitere Informationen finden Sie in der [Backdokumentation](../../../baking/baking.md).
-* **Beim Generieren von Texturen für einen Textursatz** : Weitere Informationen finden Sie in der Dokumentation [Einstellungen für Textursatz](../../../interface/texture-set/texture-set-settings.md).
+* **Beim Baking von** : Weitere Informationen finden Sie in der [Dokumentation zum Baking](../../../baking/baking.md).
+* **Beim Generieren von Texturen für einen Textursatz** : Weitere Informationen finden Sie in der Dokumentation zu den [Textursatz-Einstellungen](../../../interface/texture-set/texture-set-settings.md).
 * **Beim Exportieren von Texturen** : Weitere Informationen finden Sie im Abschnitt &quot;Auffüllungseinstellungen&quot; in der Dokumentation [Exporteinstellungen](../../../export/export-window/export-window.md).

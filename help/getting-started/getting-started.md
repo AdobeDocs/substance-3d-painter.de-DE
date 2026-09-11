@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started.html"
 breadcrumb-title: ''
 description: Lernen Sie die Grundlagen der Projekterstellung, der Benutzeroberflächennavigation und der Workflows zum Malen mit Texturen in Substance 3D Painter kennen.
 helpx_creative_field: ""
@@ -29,7 +29,7 @@ Vom Fenster <b>Begrüßungsbildschirm</b> aus können Sie auf die folgenden Seit
 * [Foren](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter?filter=all&page=1&sort=latest_replies)
 * [Community-Assets](https://helpx.adobe.com/substance-3d-community-assets/home.html)
 
-Andernfalls beginnen Sie mit den Grundlagen der Projekterstellung und des Texturexports:
+Andernfalls beginnen Sie mit den Grundlagen der Projekterstellung und dem Exportieren von Texturen:
 
 * [Projekterstellung](project-creation.md)
 * [Exportieren](../export/export.md)

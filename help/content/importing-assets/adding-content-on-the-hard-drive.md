@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Inhalte von Ihrer Festplatte zu Substance 3D Painter hinzufügen, um Ihre Ressourcenbibliothek mit lokalen Dateien zu erweitern.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ Im Folgenden finden Sie die Speicherorte der standardmäßigen **Bibliothek &quo
 
 >[!WARNING]
 >
-> Die **Starter-Assets**, die mit der Anwendung geliefert wurden, befinden sich im Installationsordner und werden in jeder neuen Version ersetzt. Es wird nicht empfohlen, persönliche Inhalte an diesem Speicherort abzulegen, da sie bei jedem Update **&#x200B;**&#x200B;gelöscht werden und sogar Lese-/Schreibberechtigungsprobleme verursachen können.\
+> Die **Starter-Assets**, die mit der Anwendung geliefert wurden, befinden sich im Installationsordner und werden in jeder neuen Version ersetzt. Es wird nicht empfohlen, persönliche Inhalte an diesem Speicherort abzulegen, da sie bei jedem Update **** gelöscht werden und sogar Lese-/Schreibberechtigungsprobleme verursachen können.\
 > Es empfiehlt sich, den Speicherort **Ihre Assets** oder einen anderen benutzerdefinierten Speicherort zu verwenden. Weitere Informationen zum Hinzufügen eines benutzerdefinierten Bibliothekspfads finden Sie unter [Hinzufügen einer neuen Bibliothek](../../interface/assets/adding-a-new-library.md).
 
 ## Dateiformate und Verwendungen
@@ -41,24 +41,24 @@ Sie können verschiedene Dateitypen in Ihre Substance 3D Painter-Bibliothek impo
 
 | *Dateiformat* | *Nutzung* | *Ordner* |
 | --- | --- | --- |
-| **SBSAR** | Substance-Material | Assets/Materialien |
+| **SBSAR** | Substance-Material | Assets/Materials |
 | **SBSAR** | Filter | Assets/Effekte |
 | **SBSAR** | Generatoren | Assets/Generatoren |
-| **PNG, TGA, JPEG usw.** | Textur oder Alpha | Elemente / Texturen **oder** Shelf / Alphas |
-| **HDR, EXR** | Umgebung oder Farb-Lut | Assets/Umgebungen **oder** Shelf/Colorlut |
+| **PNG, TGA, JPEG usw.** | Textur oder Alpha | Assets/Texturen **oder** Regal/Alphas |
+| **HDR., EXR** | Umgebung oder Farb-Lut | Assets/Umgebungen **oder** Regal/Colorlut |
 | **GLSL** | Shader | assets / Shaders |
 | **SPPR** | Pinselvorgabe | Elemente/Vorgaben/Pinsel |
-| **SPPR** | Partikelvorgabe | Elemente/Vorgaben/Partikel |
-| **SPPR** | Materialvorgabe | Assets/Vorgaben/Materialien **oder** Assets/Materialien |
+| **SPPR** | Vorgabe &quot;Partikel&quot; | Assets/Vorgaben/Partikeln |
+| **SPPR** | Materialvorgabe | Assets/Vorgaben/Materials **oder** Assets/Materials |
 | **SPPR** | Werkzeugvorgabe | Assets/Vorgaben/Tools |
-| **SPSM** | Intelligentes Material | assets/Smart-materials |
+| **SPSM** | Intelligentes Material | Elemente/Smart-Material |
 | **SPMSK** | Smart-Maske | Elemente / Smart-Masken |
-| **SPEXP** | Exportvorgabe | Shelf / Export-presets |
+| **SPEXP** | Exportvorgabe | Regal/Exportvorgaben |
 
 >[!NOTE]
 >
-> Ab Version 7.2.0 können benutzerdefinierte Ordner und Kategorien in einer Bibliothek verwendet werden. Sie sind im Fenster &quot;Elemente&quot; über [Filter nach Pfad](../../interface/assets/filter-by-path.md) oder [Breadcrumbs](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html) zugänglich.
+> Ab Version 7.2.0 können benutzerdefinierte Ordner und Kategorien in einer Bibliothek verwendet werden. Sie sind im Fenster &quot;Elemente&quot; über [Filter nach Pfad](../../interface/assets/filter-by-path.md) oder [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html) zugänglich.
 
 >[!WARNING]
 >
-> **SBS**-Dateien (nicht SBSAR) können nicht direkt verwendet werden. Sie müssen als SBSAR aus Substance 3D Designer exportiert werden.
+> **SBS** (nicht SBSAR)-Dateien können nicht direkt verwendet werden. Sie müssen als SBSAR aus Substance 3D Designer exportiert werden.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/assets/advanced-search-queries.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/advanced-search-queries.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie erweiterte Suchabfragen in Substance 3D Painter erstellen, um bestimmte Elemente anhand komplexer Suchkriterien zu finden.
 helpx_creative_field: ""
@@ -45,12 +45,12 @@ Beispiel:
 
 ## Text
 
-Die Textabfrage unterstützt mehrere Arten von Filterung, wobei einige komplexer sind als die normale Oberfläche.\
+Die Textabfrage unterstützt mehrere Typen von Filterungen, wobei einige komplexer sind als die normale Benutzeroberfläche.\
 Sie können aktiviert werden, indem Sie die richtigen Stichwörter eingeben.
 
 * **Verfügbare Suchtypen** :
   * &quot; **n:** &quot;: name
-  * &quot; **s:** &quot;: Bibliothek/Bibliothek (enthält &quot;Sitzung&quot; und &quot;Projekt&quot;)
+  * &quot; **s:** &quot;: Regal/Bibliothek (einschließlich &quot;Sitzung&quot; und &quot;Projekt&quot;)
   * &quot; **p:** &quot;: Pfad
   * &quot; **u:** &quot;: Brauch
 * **Entkommen** : Sie können entweder &quot; **\** &quot; vor dem Zeichen verwenden, das escaped werden muss, oder stattdessen Anführungszeichen verwenden, z. B. :

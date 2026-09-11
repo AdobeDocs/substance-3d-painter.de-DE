@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Substance 3D Painter so konfigurieren, dass es auf der richtigen GPU startet, um eine optimale Leistung und Kompatibilität zu erzielen.
 helpx_creative_field: ""
@@ -75,10 +75,10 @@ Windows hat möglicherweise die falsche GPU-Einstellung für die Anwendung festg
 
 ### Deaktivieren Sie &quot;Bevorzugte nicht standardmäßige GPU&quot;.
 
-Stellen Sie beim Ausführen von Painter über eine Desktopverknüpfung oder beim Ausführen über Steam sicher, dass die Einstellung <b>PrefersNonDefaultGPU</b> in der Datei <b>\*.desktop</b> auf <b>false</b> festgelegt ist.
+Stellen Sie beim Ausführen von Painter von einem Desktop-Tastaturbefehl oder beim Ausführen über Steam sicher, dass die Einstellung <b>PrefersNonDefaultGPU</b> in der Datei <b>\*.desktop</b> auf <b>false</b> festgelegt ist.
 
-Diese Einstellung kann irreführend sein und dazu führen, dass die integrierte GPU anstelle der diskreten und leistungsfähigeren verwendet/erzwungen wird. Weitere Informationen [finden Sie in dieser Diskussion &#x200B;](https://github.com/ValveSoftware/steam-for-linux/issues/9940).
+Diese Einstellung kann irreführend sein und dazu führen, dass die integrierte GPU anstelle der diskreten und leistungsfähigeren verwendet/erzwungen wird. Weitere Informationen [finden Sie in dieser Diskussion ](https://github.com/ValveSoftware/steam-for-linux/issues/9940).
 
 ### Erzwingen einer bestimmten GPU mithilfe der Umgebungsvariable DRI\_PRIME
 
-Standardmäßig verwendet Painter die erste von der Vulkan-Grafik-API aufgeführte GPU, diese GPU könnte jedoch falsch sein (es könnte sich um die zuerst aufgeführte integrierte GPU handeln), was zu schlechten Leistungen führt. Die Umgebungsvariable DRI\_PRIME kann verwendet werden, um die gewünschte GPU zu erzwingen. Weitere Informationen [finden Sie in der Dokumentation des Arch-Wikis &#x200B;](https://wiki.archlinux.org/title/PRIME#For_open_source_drivers%E2%80%94PRIME). Sie können auch auf die [Mesa-Dokumentation](https://docs.mesa3d.org/envvars.html#envvar-DRI_PRIME) verweisen.
+Standardmäßig verwendet Painter die erste von der Vulkan-Grafik-API aufgeführte GPU, diese GPU könnte jedoch falsch sein (es könnte sich um die zuerst aufgeführte integrierte GPU handeln), was zu schlechten Leistungen führt. Die Umgebungsvariable DRI\_PRIME kann verwendet werden, um die gewünschte GPU zu erzwingen. Weitere Informationen [finden Sie in der Dokumentation des Arch-Wikis ](https://wiki.archlinux.org/title/PRIME#For_open_source_drivers%E2%80%94PRIME). Sie können auch auf die [Mesa-Dokumentation](https://docs.mesa3d.org/envvars.html#envvar-DRI_PRIME) verweisen.

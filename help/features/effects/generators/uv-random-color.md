@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_uv_random_color.png" alt=""/><br><strong>Im:</strong>-Dienstprogramm, Maske</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der UV-Zufallsfarbengenerator weist jeder UV-Insel eindeutige Farbflächen zu. Dies ist oft nützlich als Diagnosewerkzeug mit komplexen Netzen.<br><br>UV Random color kann entweder zum Erstellen einer Maske (Schwarzweißausgabe) oder direkt als Füllebene verwendet werden, um basierend auf UV-Inseln Farbvariationen auf Ihr Gitter anzuwenden, z. B. um jede Planke eines Holzbodens randomisieren zu lassen.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der UV Random Color-Generator weist jeder UV-Insel eindeutige Farbflächen zu. Dies ist oft hilfreich bei der Diagnose komplexer Mesh.<br><br>UV Die Zufallsfarbe kann entweder zum Erstellen einer Maske (Schwarzweißausgabe) oder direkt als Füllebene zum Anwenden von Farbvariationen auf Ihren Mesh auf der Grundlage von UV-Inseln verwendet werden, z. B. um jede Planke eines Holzbodens zufällig zu gestalten.</td>
   </tr>
 </table>
 

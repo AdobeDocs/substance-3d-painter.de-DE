@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Shader-API-Referenz "Alle benutzerdefinierten Parameter" für Substance 3D Painter zu, um benutzerdefinierte Shader-Parameter zu definieren und zu steuern.
+description: Rufen Sie die Shader-API-Referenz "Alle benutzerdefinierten Parameter" für Substance 3D Painter auf, um benutzerdefinierte Shader-Parameter zu definieren und zu steuern.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Alle benutzerdefinierten Parameter - Shader-API
 
-## Beispiel-Shader für benutzerdefinierte Parameter
+## Shader der Probe benutzerdefinierter Parameter
 
 **Beachten Sie, dass alle benutzerdefinierten Anpassungen mindestens einen *Standardwert*-Wert benötigen.**
 
@@ -132,7 +132,7 @@ uniform bool u_bool;
 
 ## Sampler-Parameter
 
-Die Textur wird durch ihren Namen in der Ablage definiert und muss sich in der Kategorie *Texturen* oder *Umgebungen* befinden.
+Die Textur ist durch ihren Namen im Regal definiert und muss in der Kategorie *Texturen* oder *Umgebungen* enthalten sein.
 
 ```
 //: param custom { "default": "", "default_color": [1.0, 1.0, 0.0, 1.0], "label": "Texture" } 

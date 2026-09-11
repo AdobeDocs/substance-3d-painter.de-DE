@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export/export-window/output-templates.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/output-templates.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Ausgabevorlagen im Substance 3D Painter-Exportfenster verwenden, um Texturexportformate und Benennungen zu konfigurieren.
+description: Erfahren Sie, wie Sie Ausgabevorlagen im Substance 3D Painter-Exportfenster verwenden, um Texturen-Exportformate und -Benennungen zu konfigurieren.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export window > Output templates
 helpx_experience_level: ""
@@ -44,11 +44,11 @@ Aus dieser Liste können Vorlagen <b>erstellt</b>, <b>umbenannt</b>, <b>duplizie
 
 ![](../../assets/export-preset-config.png)
 
-In diesem Abschnitt werden alle Texturen aufgeführt, die von der Vorlage und ihrer Komposition generiert werden.
+In diesem Abschnitt werden alle Texturen aufgelistet, die von der Vorlage und ihrer Komposition generiert werden.
 
 ### Zuordnungstypen und -schlüsselwörter
 
-In der oberen Zeile werden alle Texturtypen aufgeführt, die erstellt werden können:
+In der obersten Zeile werden alle Typen von Texturen aufgeführt, die erstellt werden können:
 
 | Button | Visuell | Beschreibung |
 | --- | --- | --- |
@@ -60,7 +60,7 @@ In der oberen Zeile werden alle Texturtypen aufgeführt, die erstellt werden kö
 
 >[!NOTE]
 >
-> Einige Typen können zusammengeführt/reduziert werden, wenn sie leer sind oder dieselbe Eingabezuordnung verwenden:
+> Einige Typen können zusammengeführt/reduziert werden, wenn sie leer sind oder dieselbe Eingabe-Map verwenden:
 > 
 > ![](../../assets/split-collapse.gif)
 
@@ -68,13 +68,13 @@ In der oberen Zeile werden alle Texturtypen aufgeführt, die erstellt werden kö
 
 ![](../../assets/outputmap-name.png)
 
-Jede Textur kann mit einer benutzerdefinierten Benennungskonvention benannt werden. Einige Stichwörter können (mithilfe der Schaltfläche **$**) hinzugefügt werden, um beim Generieren der endgültigen Datei automatisch durch die Anwendung ersetzt zu werden:
+Jede Textur kann mit einer benutzerdefinierten Namenskonvention benannt werden. Einige Stichwörter können (mithilfe der Schaltfläche **$**) hinzugefügt werden, um beim Generieren der endgültigen Datei automatisch durch die Anwendung ersetzt zu werden:
 
 | Stichwort | Beschreibung |
 | --- | --- |
 | **$Projekt** | Ersetzt durch den Namen der Projektdatei (.spp). |
-| **$mesh** | Ersetzt durch den Namen der Gitterdatei (Eingabe-Gitterdatei, wie .fbx) |
-| **$textureset** | Ersetzt durch den Namen des Materials/Textursatzes, aus dem die Textur generiert wird. |
+| **$Mesh** | Ersetzt durch den Namen der Meshdatei (Eingabe-Meshdatei, wie .fbx) |
+| **$textureset** | Ersetzt durch den Namen des Materials/Textursatzes, von dem die Textur generiert wird. |
 | **$udim** | Ersetzt durch die UDIM-Nummer, von der aus eine Textur generiert wird. |
 | **$colorSpace** | Ersetzt durch den Namen des Farbraums, der für den angegebenen Kanal verwendet wird (RGB oder G, ignoriert Alpha). |
 
@@ -96,7 +96,7 @@ Die zweite Dropdown-Liste wird verwendet, um die Bittiefe der Ausgabemap anzugeb
 
 ### Eingabe-Maps
 
-Die Eingabemapierungsliste gruppiert alle Kanäle, die über die [Textursatzeinstellungen](../../interface/texture-set/texture-set-settings.md) hinzugefügt werden können.
+Die Eingabe-Map-Liste gruppiert alle Kanäle neu, die über die [Textursatz-Einstellungen](../../interface/texture-set/texture-set-settings.md) hinzugefügt werden können.
 
 >[!NOTE]
 >
@@ -104,19 +104,19 @@ Die Eingabemapierungsliste gruppiert alle Kanäle, die über die [Textursatzeins
 
 ### Mesh-Maps
 
-Die Gitterkarten sind die gebackenen Texturen:
+Die Mesh-Map sind die Baking geführt Texturen:
 
 | Name | Beschreibung |
 | --- | --- |
 | **Normal** | Gebackene Normalkarte. |
-| **Normaler Weltraum** | Gebackener Weltraum normal. |
+| **Welt-Raum-Normale** | Baking geführt Welt-Raum-Normale. |
 | **ID** | Identitätsnachweis. |
-| **Umgebungs-Verdeckung** | Ausgebrannte Umgebungs-Verdeckung |
-| **Krümmung** | Gebackene Krümmung. |
-| **Position** | Backposition. |
+| **Ambient occlusion** | Baking geführt ambient occlusion |
+| **Krümmung** | Baking geführt Krümmung. |
+| **Position** | Baking geführt Position. |
 | **Thickness** | Gebackene Thickness. |
-| **Height** | Gebackenes Height. |
-| **Gebeugte Normale** | Gebackene gebogene Normale. |
+| **Height** | Baking geführt Height. |
+| **Gebeugte Normale** | Baking geführt bent normals. |
 
 ### Konvertierte Maps
 
@@ -124,15 +124,15 @@ Konvertierte Maps sind Maps, die von der Anwendung aus einer anderen Quelle gene
 
 | Name | Beschreibung |
 | --- | --- |
-| **Normales OpenGL** | Kombinierte Normalmap im OpenGL-Format des Normalkanals der gebackenen Normale und des Textursatzes. |
-| **Normale DirectX** | Kombinierte Normalmap im DirectX-Format des Standardkanals und des Textursatzes. |
+| **Normales OpenGL** | Kombiniertes Normalen-Map im OpenGL-Format des Baking geführt Normalkanals und des Normalkanals des Textursatzes. |
+| **Normale DirectX** | Kombinierte Normalen-Map im DirectX-Format des Baking geführt Normal- und des Normal-Kanals des Textursatzes. |
 | **Gemischte AO** | Kombinierte Umgebungs-Verdeckung der Verdeckung für die gebackene Umgebung und des Kanals für die Verdeckung des Textursatzes. |
-| **Diffus** | Diffuse Textur, die aus dem Kanal **Grundfarbe** und **Metallisch** generiert wurde (metallische Bereiche werden durch eine schwarze Farbe ersetzt). |
-| **Specular** | Specular-Textur, generiert aus dem **Grundfarbkanal** und dem **Metallkanal**. |
+| **Diffus** | Aus dem Kanal **Grundfarbe** und **Metallic** erzeugte Diffuse-Textur (metallic Bereiche werden durch eine schwarze  ersetzt). |
+| **Specular** | Specular-Textur aus **Grundfarbe** und **Metallic** Kanal generiert. |
 | **Glossarität** | Glanzstruktur, die aus der Umkehrung des Raueitskanals erzeugt wird. |
-| **Unity4 Diffuse** | Veraltet. Diffuse Textur, die aus dem Kanal **Grundfarbe** generiert wurde, um mit Unity 4-Shadern übereinzustimmen. |
-| **Unity4 Gloss** | Veraltet. Aus **Grobheit** und **Metallisch** Kanal wurde eine Glossarstruktur generiert, die mit Unity 4-Shadern übereinstimmt. |
+| **Unity4-Diffusen** | Veraltet. Diffuse-Textur aus **Grundfarbe**-Kanal generiert, um Unity 4-Shadern zu entsprechen. |
+| **Unity4 Gloss** | Veraltet. Glanz-Textur aus **Rauheit** und **Metallic** Kanal generiert, um Unity 4-Shadern zu entsprechen. |
 | **Spiegelung** | Texturen, bei denen Weiß auf ein dielektrisches Material und andere Farben als metallische Materialien hinweist. |
-| **1/ior** | Textur mit 1 dividiert durch den **IOR**-Wert. **IOR** wird aus der metallischen Karte generiert: 1.4 für Dielektrika, 100 für Metalle (schwarze Farbe). |
-| **Glossarität<sup>2</sup>** | Quadratische Version des **Glossiness**-Kanals (**Glossiness** \* **Glossiness**) |
-| **f0** | Textur, die einen Reflexionswert wie Fresnel 0 (0,04 für Dielektrika, 1,0 für Metallic) enthält. |
+| **1/ior** | Textur, die 1 dividiert durch den **IOR**-Wert enthält. **IOR** wird aus der metallic Map generiert: 1.4 für Dielektrika, 100 für Metalle (schwarze Farbe). |
+| **Glanz<sup>2</sup>** | Quadratische Version des **Glanz**-Kanals (**Glanz** \* **Glanz**) |
+| **f0** | Textur, die einen Reflexionswert wie Fresnel 0 (0,04 für Dielektrika, 1,0 für metallic) enthält. |

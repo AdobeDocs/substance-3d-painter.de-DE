@@ -1,6 +1,6 @@
 ---
 title: Verzerrungskorrektur
-description: Erfahren Sie, wie Sie die Neigungskorrektur verwenden, um Backartefakte zu beheben, wenn Sie einen hohen bis niedrigen Poly-Arbeitsablauf in Substance 3D Painter verwenden.
+description: Erfahren Sie, wie Sie mit Verzerrungskorrektur Baking führend Artefakte in Substance 3D Painter beheben können, wenn Sie einen Poly-Arbeitsablauf mit hohem bis niedrigem Wert verwenden.
 source-git-commit: db1c8daa33389f21699c53b0d6555c153fbc66d6
 workflow-type: tm+mt
 source-wordcount: '1027'
@@ -14,98 +14,98 @@ ht-degree: 0%
 <table>
   <tr style="border: 0;">
     <td style="border: 0; width: 35%" valign="top"><img src="../assets/baking/skew-correction-example.png" alt=""/></td>
-    <td style="border: 0; width: 65%" valign="top">Manchmal ist es beim Backen auf Low-Poly von einem High-Poly-Modell möglich, dass Details verzerrt oder verzerrt erscheinen. Dies geschieht in der Regel, wenn die Käfig- und Flächennormalen nicht gut übereinstimmen. Automatisches Backen projiziert das High-Poly auf das Low-Poly basierend auf diesen Normalwerten. Wenn sie also falsch sind, führt das Backen zu schlechten Ergebnissen.<br>Zum Glück ist eine Neigungskorrektur (oder Neigungszuordnung) verfügbar, um diesen Artefakttyp zu beheben.<br>Die Neigungskorrektur ermöglicht es Ihnen, Werte direkt auf das Gitter mit geringer Poly-Polung zu malen, um die beim Backen verwendete Projektion umzuleiten, ohne einen benutzerdefinierten Käfig erstellen zu müssen.</td>
+    <td style="border: 0; width: 65%" valign="top">Manchmal ist es beim Backen auf Low-Poly von einem High-Poly-Modell möglich, dass Details verzerrt oder verzerrt erscheinen. Dies geschieht in der Regel, wenn die Käfig- und Flächennormalen nicht gut übereinstimmen. Automatisches Backen projiziert das High-Poly auf das Low-Poly basierend auf diesen Normalwerten. Wenn sie also falsch sind, führt das Backen zu schlechten Ergebnissen.<br>Zum Glück ist eine Neigungskorrektur (oder Neigungszuordnung) verfügbar, um diesen Artefakttyp zu beheben.Mit <br>Verzerrungskorrektur können Sie Werte direkt auf den Mesh mit niedriger Poly-Malen, um die beim Baking verwendete Projektion umzuleiten, ohne einen benutzerdefinierten Käfig erstellen zu müssen.</td>
   </tr>
 </table>
 
 >[!NOTE]
 >
-> Die Neigungskorrektur wird im **Backmodus** gemalt und pro Textursatz gespeichert.
+> Die Verzerrungskorrektur wird im **Baking-Modus** gemalt und pro Textursatz gespeichert.
 
 ## Malen von Verzerrungskorrekturen
 
-Mit der Neigungskorrektur können Sie die Oberflächennormalen Ihres Gitters manuell anpassen, insbesondere für das Backen. Sie können zwar Schrägverzerrungskorrekturen ohne Backen zeichnen, aber Sie können dabei helfen, [zuerst Ihre Gitterzuordnungen zu backen](how-to-bake-mesh-maps.md).
+Mit Verzerrungskorrektur Painting können Sie die Oberflächennormalen Ihres Meshs speziell für das Baking manuell anpassen. Sie können zwar Verzerrungskorrekturen ohne Baking Malen, aber es kann helfen, [Ihre Mesh-Map zuerst Baking führen](how-to-bake-mesh-maps.md).
 
 ![](../assets/baking/mode_select_buttons.png)
 
-*Wechseln Sie in den Backmodus, um auf die Skew-Korrektureinstellungen zuzugreifen.*
+*Wechseln Sie in den Baking-Modus, um auf die Einstellungen für die Verzerrungskorrektur zuzugreifen.*
 
 >[!IMPORTANT]
 >
-> Das Zeichnen mit Neigungskorrektur erfordert die folgenden Einstellungen:
+> Zum Malen von Verzerrungskorrekturen sind die folgenden Einstellungen erforderlich:
 >
-> * Es muss eine High-Poly-Szene ausgewählt werden. Skew-Malerei ist nur beim Backen von hohem bis niedrigem Poly verfügbar; Wenn **Niedriges Poly-Gitter als hohes Poly-Gitter verwenden** aktiviert ist, ist das Verzerrungskorrekturmalen **nicht** verfügbar.
-> * **Der Käfig** muss auf **Entfernungsbasiert** festgelegt sein.
+> * Es muss eine hohe Poly-Szene ausgewählt werden. Skew-Painting ist nur beim Baking führ von hohen zu niedrigen Poly-Werten verfügbar. Wenn **Low-Poly-Mesh als High-Poly-Mesh** verwenden aktiviert ist, ist das Zeichnen von Verzerrungskorrekturen **nicht** verfügbar.
+> * **Käfig** muss auf **Entfernungsbasiert** festgelegt sein.
 > * **Durchschnittliche Normale** müssen überprüft werden.
 
-Mit den oben genannten Einstellungen können Sie im **Bedienfeld für allgemeine Einstellungen** auf **Korrektur der Farbneigung** klicken, um mit dem Malen zu beginnen. Wenn Sie den Zeichnungsmodus für die Neigungskorrektur zum ersten Mal aufrufen, wird **Auto-Rebake** automatisch für den normalen Kanal aktiviert. Falls gewünscht, können Sie **Auto-Reframe** deaktivieren oder den ausgewählten Kanal im Fenster [**Gitterzuordnungs-Bäcker**](../interface/baking-panels/mesh-map-bakers.md) ändern.
+Mit den oben genannten Einstellungen können Sie im **Bedienfeld für allgemeine Einstellungen** auf **Malen-Verzerrungskorrektur** klicken, um mit dem Malen zu beginnen. Wenn Sie zum ersten Mal den Verzerrungskorrektur-Malmodus aufrufen, wird **Auto-Rebake** automatisch für den normalen Kanal aktiviert. Falls gewünscht, können Sie **Auto-Rebake** deaktivieren oder den ausgewählten Kanal im [**Mesh-Map-Baker-Bedienfeld**](../interface/baking-panels/mesh-map-bakers.md) ändern.
 
 ![](../assets/baking/skew-correction-menu.png)
 
 ### Malwerkzeuge
 
-Beim Malen von Neigungskorrekturen können Sie viele der Werkzeuge und Verknüpfungen verwenden, die Sie vom Malmodus gewohnt sind, einschließlich der **Radiergummi**- und **Polygonfüllung**-Werkzeuge.
+Beim Malen von Verzerrungskorrekturen können Sie viele der Tools und Tastaturbefehle verwenden, die Sie vom Malmodus gewohnt sind, einschließlich der Tools **Radiergummi** und **Polygonfüllung**.
 
-* Sie können von der Symbolleiste aus zwischen **Pinsel**, **Radiergummi** und **Polygonfüllung** wechseln oder den standardmäßigen [Tastaturbefehl](../interface/settings/shortcuts.md) aus dem Malmodus verwenden.
-* Bei Verwendung des Pinsel- oder Radiergummis können Sie die Pinselgröße, den Fluss, die Deckkraft und den Abstand mit den Parametern oben im **Viewport** anpassen. Sofern verfügbar, können Sie auch den entsprechenden [Tastaturbefehl](../interface/settings/shortcuts.md) verwenden.
+* Sie können von der Symbolleiste aus zwischen **Pinsel**, **Radiergummi** und **Polygonfüllung** wechseln oder den standardmäßigen [Tastatur-Tastaturbefehl](../interface/settings/shortcuts.md) aus dem Malmodus verwenden.
+* Bei Verwendung der Pinsel- oder Radiergummi-Werkzeuge können Sie die Pinselgröße, den Fluss, die Deckkraft und den Abstand mit den Parametern oben im **Viewport** anpassen. Sie können auch den entsprechenden [Tastatur-Tastaturbefehl](../interface/settings/shortcuts.md) verwenden, sofern verfügbar.
 
 ### Kantenschutz
 
-Beim Kantenschutz wird die Korrektur der gestrichenen Schrägstellung in der Nähe von Kanten ignoriert, um einen glatten Verlauf der Flächennormalen beizubehalten. Sie können den **Kantenschutz** im Abschnitt **Neigungskorrektur** umschalten. Wenn **Kantenkorrektur** aktiviert ist, können Sie den Kantenabstand und den Kantenkontrast anpassen, um optimale Ergebnisse zu erzielen.
+Beim Kantenschutz wird die gestrichelte Verzerrungskorrektur in der Nähe der Kanten ignoriert, um einen gleichmäßigen Verlauf der Flächennormalen beizubehalten. Sie können den **Kantenschutz** im Abschnitt **Verzerrungskorrektur** umschalten. Wenn **Kantenkorrektur** aktiviert ist, können Sie den Kantenabstand und den Kantenkontrast anpassen, um optimale Ergebnisse zu erzielen.
 
 * Kantenabstand: Lege fest, wie weit der Kantenschutz vom Rand entfernt ist.
 * Kantenkontrast: Steuern Sie den Kantenschutzverlauf. Ein niedriger Kontrast erzeugt einen glatteren Verlauf.
 
 >[!TIP]
 >
-> Die Werte für **Kantenabstand** und **Kantenkontrast** basieren auf der Größe des Gitters. Bei Maschen mit sehr kleinen Details im Vergleich zur Maschengröße ist es möglicherweise einfacher, kleine Werte manuell einzugeben, anstatt die Schieberegler zu verwenden.
+> Die Werte für **Kantenabstand** und **Kantenkontrast** basieren auf der Größe des Meshs. Bei Meshs mit sehr kleinen Details im Vergleich zur Größe des Meshs ist es möglicherweise einfacher, kleine Werte manuell einzugeben, als die Schieberegler zu verwenden.
 
 >[!NOTE]
 >
-> Der Kantenschutz basiert auf der Gittermaske **Harte Kanten**, die an die Geometrie des Gitters gebunden ist, nicht an die UV-Grenzen.
+> Der Kantenschutz basiert auf der Mesh-Map **Harte Kanten**, die mit der Geometrie des Meshs verknüpft ist, nicht mit den UV-Rändern.
 
 ### Skew-Vektorvisualisierung
 
-Wenn Sie mit dem Zeichnen von Neigungskorrekturen beginnen, werden die Netzflächennormalen im **Viewport** standardmäßig als rote, gelbe und grüne Linien angezeigt. Sie können die Darstellung dieser Zeilen ändern oder sie im Abschnitt **Skew-Vektoren** des Menüs **Visualisierungen**, das im **Viewport** angezeigt wird, vollständig deaktivieren.
+Wenn Sie mit dem Malen von Verzerrungskorrekturen beginnen, werden die Flächennormalen des Meshs in **Viewport** standardmäßig als Rot-, Gelb- und Grünlinien angezeigt. Sie können die Darstellung dieser Zeilen ändern oder sie im Abschnitt **Skew-Vektoren** des Menüs **Visualisierungen**, das im Viewport **angezeigt wird, vollständig deaktivieren.**
 
 ![](../assets/baking/visualizations_menu.png)
 
-* **Vektorlänge**: Passen Sie die Länge der Linien im Darstellungsfenster an. Mit längeren Linien fällt es leichter, die Richtung des Vektors zu verstehen.
-* **UV-Dichte von Vektoren**: Ändern Sie die Anzahl der Linien auf der Oberfläche des Gitters. Vektoren werden im UV-Raum platziert. Wenn das Gitter also eine inkonsistente Texeldichte hat, variiert die Anzahl der Vektoren pro Flächeneinheit mit der Polygongröße in der UV-Karte.
+* **Vektorlänge**: Passen Sie die Zeilenlänge im Viewport an. Mit längeren Linien fällt es leichter, die Richtung des Vektors zu verstehen.
+* **UV-Vektordichte**: Ändern Sie die Anzahl der Linien auf der Fläche des Meshs. Vektorgrafiken werden im UV-Raum platziert. Wenn der Mesh eine inkonsistente Texeldichte hat, variiert die Anzahl der Vektorgrafiken pro Flächeneinheit entsprechend der Polygongröße in der UV-Map.
 * **Vektordeckkraft**: Mache die Vektoren mehr oder weniger transparent.
 
-Die Farbe der Vektoren gibt den Umfang der Neigungskorrektur an, die an jeder Vektorposition angewendet wird.
+Die Vektorfarbe gibt den Grad der Verzerrungskorrektur an, der an jeder Vektorposition angewendet wird.
 
-* Rote Vektoren zeigen keine Neigungskorrektur an - die Standardoberflächennormale werden verwendet.
+* Rote Vektoren zeigen keine Verzerrungskorrektur an - die Standardoberflächennormale werden verwendet.
 * Grüne Vektoren zeigen an, dass die Oberflächennormalen vollständig korrigiert und direkt senkrecht zur Oberfläche verlaufen.
 
-![](../assets/baking/skew-correction-painting.gif)*Das Malen mit einem niedrigen Flusswert gibt eine feine Kontrolle über die Stärke der Neigungskorrektur.*
+![](../assets/baking/skew-correction-painting.gif)*Das Malen mit einem niedrigen Flusswert ermöglicht eine Feinsteuerung der Stärke der Verzerrungskorrektur.*
 
 ## Optimieren der Leistung
 
 ### Organisieren von UVs
 
-**Auto-Rebake** ist optimiert, um beim Malen von Verzerrungskorrekturen das Nachzeichnen auf den Bereich zu beschränken, der von jedem Pinselstrich betroffen ist. Wenn Sie einen Strich zeichnen, zeichnet **Auto-rebake** einen Begrenzungsrahmen um den Strich im UV-Raum und ändert alles im Rahmen neu. Das bedeutet, wenn Ihr Strich nur einen kleinen Teil des UV-Raumes bedeckt, wird nur ein kleiner Bereich umgebrochen, was den Vorgang sehr effizient macht.
+**Auto-Rebake** ist optimiert, um beim Malen von Verzerrungskorrekturen das Rebake auf den Bereich zu beschränken, der von jedem Pinselstrich betroffen ist. Wenn Sie einen Strich Malen haben, zeichnet **Auto-rebake** einen Begrenzungsrahmen um den Strich im UV-Raum und ändert alles im Rahmen neu. Das bedeutet, wenn Ihr Strich nur einen kleinen Teil des UV-Platzes bedeckt, wird nur ein kleiner Bereich umgebrochen, was den Vorgang sehr effizient macht.
 
-Wenn der Strich jedoch zwei UV-Inseln auf gegenüberliegenden Seiten des UV-Raums kreuzt, muss möglicherweise schon ein kleiner Strich die gesamte Textur zurückgenommen und die Optimierung negiert werden.
+Wenn der Strich jedoch zwei UV-Inseln auf gegenüberliegenden Seiten des UV-Raums kreuzt, muss möglicherweise schon ein kleiner Strich die gesamte Textur zurückgebogen und die Optimierung negiert werden.
 
-Daher empfehlen wir, die Gitter-UVs so zu organisieren, dass UV-Inseln, die im 3D-Raum nahe beieinander liegen, auch im UV-Raum nahe beieinander liegen. Dadurch wird die Leistung von **Auto-Rebake** verbessert.
+Daher empfehlen wir, Mesh-UVs so zu organisieren, dass UV-Inseln, die im 3D-Raum nahe beieinander liegen, auch im UV-Raum nahe beieinander liegen. Dadurch wird die Leistung von **Auto-Rebake** verbessert.
 
 ### Ausrichtung auf UV festlegen
 
-Im Allgemeinen ist das Malen von Neigungskorrekturen mit **Projektion > Ausrichtung** auf UV leistungsfähiger. So ändern Sie die **Ausrichtung**:
+Im Allgemeinen ist das Malen von Verzerrungskorrekturen, bei denen **Projektion > Ausrichtung** auf UV festgelegt ist, leistungsfähiger. So ändern Sie die **Ausrichtung**:
 
-1. Wählen Sie &quot;**Paint skew correction**&quot; aus und statten Sie entweder den **Pinsel** oder den **Radiergummi** aus.
-1. Klicken Sie mit der rechten Maustaste in den **Viewport**, um das **Bedienfeld für Pinseleinstellungen** zu öffnen.
+1. Wählen Sie **Malen-Verzerrungskorrektur** und statten Sie entweder den **Pinsel** oder den **Radiergummi** aus.
+1. Klicken Sie mit der rechten Maustaste in den **Viewport**, um das **Pinseleinstellungsbedienfeld** zu öffnen.
 1. Scrollen Sie nach unten zu **Projektion**.
 1. Legen Sie **Ausrichtung** auf **UV** fest.
 
-Da **Alignment** auf **UV** festgelegt ist, ist es schwieriger, glatte Konturen über UV-Insel-Nähte zu malen. Dies ist jedoch im Allgemeinen beim Malen von Neigungskorrekturen weniger wichtig als beim Texturieren des Gitters.
+Da **Alignment** auf **UV** festgelegt ist, ist es schwieriger, glatte Konturen über UV-Insel-Nähte hinweg zu Malen. Dies ist jedoch beim Malen von Verzerrungskorrekturen im Allgemeinen weniger wichtig als beim Texturieren Ihres Meshs.
 
 >[!NOTE]
 >
-> Die Parameter für den **Pinsel** und den **Radiergummi** werden separat gespeichert. Um die Leistung für beide Tools zu maximieren, müssen Sie **Alignment** für jedes Werkzeug einzeln festlegen.
+> Die Parameter für **Brush** und **Radiergummi** werden separat gespeichert. Um die Leistung für beide Tools zu maximieren, müssen Sie **Alignment** für jedes Werkzeug einzeln festlegen.
 
-## Neigungskorrekturen und Rückgängigmachen des Stapels
+## Verzerrungskorrekturen und der Stapel &quot;Rückgängig&quot;
 
-Backen und Malen haben einen einzigen Verlauf, der rückgängig gemacht wird. Der Wechsel zwischen dem Backmodus und dem Malmodus kann rückgängig gemacht werden. Das Aktivieren oder Deaktivieren der Neigungskorrektur kann ebenfalls rückgängig gemacht werden. Wenn Sie eine Backaktion im Malmodus rückgängig machen, wird der Backmodus automatisch erneut geöffnet, bevor diese Schritte rückgängig gemacht werden. Eine Aktion wird also außerhalb des Modus, in dem sie ausgeführt wurde, nie rückgängig gemacht.
+Backen und Malen haben einen einzigen Verlauf, der rückgängig gemacht wird. Der Wechsel zwischen dem Backmodus und dem Malmodus kann rückgängig gemacht werden. Das Aktivieren oder Deaktivieren der Neigungskorrektur kann ebenfalls rückgängig gemacht werden. Wenn Sie einen Baking führend Vorgang rückgängig machen, während Sie sich im Malen-Modus befinden, wird der Baking führend Modus automatisch erneut geöffnet, bevor diese Schritte rückgängig gemacht werden. Eine Aktion wird daher außerhalb des Modus, in dem sie ausgeführt wurde, nie rückgängig gemacht.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Anforderungen an die GPU-Treiberkompatibilität für Substance 3D Painter, um ein stabiles Rendering und eine stabile Leistung zu gewährleisten.
 helpx_creative_field: ""
@@ -29,18 +29,18 @@ Die folgende Tabelle listet alle Treiberversionen auf, die bekannt sind, um Prob
 | *Treiberversion* | *Problembeschreibung* |
 | --- | --- |
 | <b> 425.xx </b> | GPU-Raytracing-Artefakte. |
-| <b> 429.xx oder älter </b> | Artefakte in schwarzen Strukturen. |
-| <b> 435.xx oder älter </b> | sRGB-Farbprobleme beim Berechnen von Texturen. |
-| <b> 439.xx </b> | Texturiert Korruption. |
+| <b> 429.xx oder älter </b> | Schwarze Texturen blockieren Artefakte. |
+| <b> 435.xx oder älter </b> | sRGB-Farbprobleme bei der Berechnung von Texturen. |
+| <b> 439.xx </b> | Texturen korrumpieren. |
 | <b> 441.08 </b> | Absturz- oder Stabilitätsprobleme. |
 | <b> 442.19 </b> | Absturz- oder Stabilitätsprobleme. |
 | <b>528.09</b> | Betriebssystem friert ein. |
-| <b>572.16 bis 572.42</b> | Artefakte oder Absturz beim Backen von Texturen. |
+| <b>572.16 bis 572.42</b> | Artefakte oder Absturz beim Baking führ von Texturen. |
 
 ### AMD
 
 | *Treiberversion* | *Problembeschreibung* |
 | --- | --- |
-| **20.7.x** bis **20.11.2** | Bei Texturen treten Störungen oder Beschädigungen auf. |
-| **20.11.3** bis **21.2.1** | Bei Texturen treten Bildstörungen oder Beschädigungen sowie Absturz- oder Stabilitätsprobleme auf. |
+| **20.7.x** bis **20.11.2** | Texturen treten auf oder sind beschädigt. |
+| **20.11.3** bis **21.2.1** | Texturen treten auf oder sind beschädigt, und es treten Absturz- oder Stabilitätsprobleme auf. |
 | **21.2.3** bis **21.6.1** | Absturz- oder Stabilitätsprobleme. |

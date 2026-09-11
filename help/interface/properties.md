@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/properties.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Eigenschaftenbedienfeld in Substance 3D Painter verwenden, um Ebenen-, Material- und Werkzeugparameter anzupassen.
 helpx_creative_field: ""
@@ -22,10 +22,10 @@ ht-degree: 2%
 
 ![](../assets/properties-window.png)
 
-Im Eigenschaftenfenster können die Werkzeug- und Pinselparameter sowie die Ebeneneigenschaften geändert werden. Auf das Eigenschaftenfenster kann über die [Dock-Symbolleiste](toolbars.md) oder durch einfaches **Klicken mit der rechten Maustaste** im [Viewport-Menü](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html) zugegriffen werden.
+Im Eigenschaftenfenster können die Werkzeug- und Pinselparameter sowie die Ebeneneigenschaften geändert werden. Auf das Eigenschaftenfenster kann über die [Dock-Symbolleiste](toolbars.md) oder durch einfaches **Klicken mit der rechten Maustaste** im Menü [Viewport](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html) zugegriffen werden.
 
 Weitere Informationen dazu, welche Parameter verfügbar sind und was sie tun, finden Sie in der Dokumentation der einzelnen Tools und Ebenen :
 
 * [Werkzeugeigenschaften](../painting/painting.md)
-* [Füllebeneneigenschaften](../painting/fill-projections/fill-projections.md)
+* [Eigenschaften der Füllebene](../painting/fill-projections/fill-projections.md)
 * [Effekteigenschaften](../features/effects/effects.md)

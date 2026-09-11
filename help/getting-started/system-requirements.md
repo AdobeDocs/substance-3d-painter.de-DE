@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Prüfen Sie die Systemanforderungen für Substance 3D Painter , um sicherzustellen, dass Ihr Computer die Hardware- und Softwarespezifikationen erfüllt.
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ Im Folgenden finden Sie eine Liste der von der Anwendung unterstützten Hardware
 
 ## Allgemeine Empfehlungen
 
-Um eine gute Leistung bei der Verwendung des UV-Kachel-Arbeitsablaufs zu erzielen, empfehlen wir die Verwendung von:
+Um bei der Verwendung des Arbeitsablaufs für die UV-Kachel eine gute Leistung zu erzielen, empfehlen wir Folgendes:
 
 * 32 GB RAM
 * GPU mit 8 GB VRAM
@@ -64,7 +64,7 @@ Sonstiges:
 * Für den Export mit <b>8K</b> (8192\*8192 Pixel) ist eine GPU mit <b> mehr als </b> 2 GB VRam erforderlich.
 * Nur die Versionen 2019.x und höher wurden notariell beglaubigt, um auf MacOS 10.15 (Catalina) ausgeführt zu werden.
 * Informationen zum Verwenden der Software über RDP (Remote Desktop) finden Sie auf der dedizierten [Dokumentationsseite](../pipeline-and-integration/configuration/remote-desktop.md).
-* Absturz auf Ryzen CPU beim Backen, kann durch Aktualisierung des BIOS behoben werden.
+* Absturz auf Ryzen CPU beim Baking, kann durch Aktualisierung des BIOS behoben werden.
 
 ## Nicht unterstützte Konfigurationen
 
@@ -105,13 +105,13 @@ Informationen zum Herunterladen neuer Treiber finden Sie unter: [GPU hat veralte
 
 Eine detaillierte Liste der Probleme mit GPU-Treibern pro Konstruktor finden Sie auf der [Seite zur dedizierten Dokumentation](../technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md).
 
-## GPU-Raytracing zum Backen
+## GPU-Raytracing zum Baking
 
 Um GPU-Raytracing über Optix oder DXR zu aktivieren, müssen die oben empfohlenen Mindesttreiber installiert sein.
 
 <b>DXR</b> erfordert ebenfalls die folgende Mindestkonfiguration:
 
-* <b>Windows 10</b> Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing).
+* <b>Windows 10</b> Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).
 * <b> GPU mit Pascal-Architektur</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -160,7 +160,7 @@ Im Folgenden finden Sie eine Liste der kompatiblen Grafiktabletts, die mit der S
 +++
 
 +++Xencelabs
-<b>Modell:</b> Stifttablettmedium
+<b>Modell:</b> Stift Tablet Medium
 
 
 | Betriebssystem | Treiberversion |

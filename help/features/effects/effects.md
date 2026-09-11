@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter Effekte verwenden, um Filter, Generatoren und Anpassungen auf Texturebenen anzuwenden.
 helpx_creative_field: ""
@@ -22,11 +22,11 @@ ht-degree: 4%
 
 ![](../../assets/new-filters.jpg){width="450px"}
 
-Die Effekte sind eine Reihe von **Aktionen**, die auf **den Inhalt** oder **die Maske** einer **Ebene** im Ebenenstapel von Substance 3D Painter angewendet werden können.\
+Bei den Effekten handelt es sich um verschiedene **Aktionen**, die auf **den Inhalt** oder **die Maske** einer **Ebene** im Ebenenstapel von Substance 3D Painter angewendet werden können.\
 Sie ermöglichen eine unendliche Reihe von Änderungen von einfachen Farbvariationen bis hin zu komplexen Maskenerstellungen. Im Lieferumfang von Substance 3D Painter sind standardmäßig mehrere Effekte enthalten. Sie können aber auch eigene Effekte in Substance 3D Designer erstellen.
 
-Effekte können dem Stapel durch **einen Rechtsklick** auf eine beliebige Ebene oder Maske oder durch Klicken auf die dedizierte **Schaltfläche oben** im Ebenenstapelfenster hinzugefügt werden.\
-Die meisten Effekte verfügen über eine Füllmethode und Deckkraft, wie normale Ebenen, und können neu angeordnet werden, sodass Sie einen ganzen Stapel von Effekten erstellen können, um beispielsweise eine komplexe Maske zu erstellen.
+Effekte können dem Stapel durch **einen Rechtsklick** auf eine beliebige Ebene oder Maske oder durch Klicken auf die dedizierte **Schaltfläche oben** im Fenster &quot;Ebenenstapel&quot; hinzugefügt werden.\
+Die meisten Effekte verfügen über eine Füllmethode und Deckkraft, wie normale Ebenen, und können neu angeordnet werden. So kannst du zum Beispiel einen ganzen Stapel an Effekten erstellen und eine komplexe Maske erstellen.
 
 >[!NOTE]
 >
