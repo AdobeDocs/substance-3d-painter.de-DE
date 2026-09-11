@@ -48,7 +48,7 @@ Unser neuestes Tutorial erklärt den Exportvorgang mit dem neuen Plug-in :
 
 **Hinzugefügt:**
 
-* [Plugin][Photoshop] Geben Sie an, welches Material/welcher Stapel/welche Kanäle exportiert werden sollen.
+* [Plugin]&#x200B;[Photoshop] Geben Sie an, welches Material/welcher Stapel/welche Kanäle exportiert werden sollen.
 * [Scripting] Funktionsnamen weisen einige Inkonsistenzen auf.
 
 **Fest:**

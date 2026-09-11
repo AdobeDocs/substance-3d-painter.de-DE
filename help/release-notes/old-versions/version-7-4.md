@@ -101,7 +101,7 @@ Das Arbeiten mit einer nicht angedockten Ansicht ist einfacher, das Layout der A
 
 Die **SpaceMouse®** ist ein Gerät mit 3D-Verbindung, mit dem die 3D-Viewport-Kamera intuitiver und benutzerfreundlicher bearbeitet werden kann. Es wird jetzt nativ und direkt mit Painter Plug-and-Play unterstützt.
 
-Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite ](../../features/spacemouse-by-3dconnexion.md).
+Weitere Informationen finden Sie auf der dedizierten [Dokumentationsseite &#x200B;](../../features/spacemouse-by-3dconnexion.md).
 
 >[!NOTE]
 >
@@ -173,9 +173,9 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 
 **Hinzugefügt:**
 
-* [SpaceMouse][Windows] Unterstützung der 3D-Verbindung von SpaceMouse im 3D-Viewport für die Navigation
-* [SpaceMouse][Windows] Grundlegende Tastaturbefehle/Tasten für Pro- und Enterprise-SpaceMouse-Modelle im 3D-Viewport
-* [SpaceMouse][Windows] Dediziertes Drehmittelsymbol im 3D-Viewport
+* [SpaceMouse]&#x200B;[Windows] Unterstützung der 3D-Verbindung von SpaceMouse im 3D-Viewport für die Navigation
+* [SpaceMouse]&#x200B;[Windows] Grundlegende Tastaturbefehle/Tasten für Pro- und Enterprise-SpaceMouse-Modelle im 3D-Viewport
+* [SpaceMouse]&#x200B;[Windows] Dediziertes Drehmittelsymbol im 3D-Viewport
 * [Farbmanagement] Verwenden Sie Rollen aus der OCIO-Konfiguration, um Standardeinstellungen zu ändern
 * [Farbmanagement] Farbmanagement des Eigenschaftenfensters für Farb-Widgets
 * [Farbmanagement] Farbmanagement des Eigenschaftsfensters für die Materialvorschau
@@ -193,7 +193,7 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Deaktivieren der Farbwähler-Dropdown-Liste &quot;Anzeige&quot; für Datenkanäle
 * [Optimierung] Verkrümmungsraster berechnet nur überdeckte UV-Kacheln neu
 * [Exportieren] Exportieren von UV-Kachelprojekten für Sketchfab, USD und glTF zulassen
-* [Scripting][Python] Ändern der Tonzuordnungsfunktion zulassen
+* [Scripting]&#x200B;[Python] Ändern der Tonzuordnungsfunktion zulassen
 
 **Fest:**
 
@@ -209,9 +209,9 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Polygon-Füllwerkzeug zeigt die falsche Farbe an
 * [Color Management] ACES-Tonabnehmer wird im Solomodus auf Kanäle angewendet
 * [Farbmanagement] Die Kugelbeleuchtung der Werkzeugvorschau ist nicht farbverwaltet
-* [Farbmanagement][Exportieren] Konvertierte Karten werden falsch konvertiert.
-* [Scripting][Python][Farbmanagement] Projekte, die mit Vorlage und OCIO-Umgebungsvariablen erstellt wurden, befinden sich im Modus &quot;Veraltet&quot;.
-* [Scripting][Python] Die JavaScript-Evaluierungsfunktion kann beim Start nicht verwendet werden.
+* [Farbmanagement]&#x200B;[Exportieren] Konvertierte Karten werden falsch konvertiert.
+* [Scripting]&#x200B;[Python]&#x200B;[Farbmanagement] Projekte, die mit Vorlage und OCIO-Umgebungsvariablen erstellt wurden, befinden sich im Modus &quot;Veraltet&quot;.
+* [Scripting]&#x200B;[Python] Die JavaScript-Evaluierungsfunktion kann beim Start nicht verwendet werden.
 * [3D-Adobe-Angebot] Painter kann nicht gestartet werden, wenn regionale Einstellungen mit Sprachen verwendet werden, die nicht standardmäßig unterstützt werden
 
 **Bekannte Probleme:**
@@ -232,15 +232,15 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Erweitern Sie den Abschnitt Farbmanagement standardmäßig, wenn OCIO in den Fenstern für neue Projekt- und Projekteinstellungen ausgewählt ist.
 * [Farbmanagement] Hinzufügen ACE Tonwertumsetzers im Legacy-Modus
 * [Farbmanagement] Standardkonfigurationseinstellungen anpassen
-* [Farbmanagement][Exportieren] Fill $colorSpace in Dateinamen für Datenkanäle
+* [Farbmanagement]&#x200B;[Exportieren] Fill $colorSpace in Dateinamen für Datenkanäle
 * [Exportieren] Exportieren eines UV-Kachelprojekts in Stager
 * [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
 * [Interoperabilität] Senden eines UV-Kachel-Projekts an Stager zulassen
 
 **Fest:**
 
-* [MacOS][Absturz] Painter startet nicht mit Catalina
-* [Farbmanagement][Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
+* [MacOS]&#x200B;[Absturz] Painter startet nicht mit Catalina
+* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
 * [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen den Farbraum an Neues Menü
 * [Farbmanagement] Benutzerkanal ist im Viewport im Legacy-Modus + Solo-Ansicht dunkler
 * [Farbmanagement] Die Env-Map ist immer linear, wenn sie in iRay verwendet wird
@@ -272,18 +272,18 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Extrahieren des Farbraumnamens aus dem importierten Bitmap-Dateinamen
 * [Farbmanagement] Überschreiben des Farbraums mit einem Farbraum aus der Konfiguration im Eigenschaftenfenster zulassen
 * [Farbmanagement] Hinzufügen von Farbmanagementoptionen in den Textursatzeinstellungen
-* [Farbmanagement][Viewport] Ermöglicht das separate Farbmanagement für 2D- und 3D-Ansichten.
+* [Farbmanagement]&#x200B;[Viewport] Ermöglicht das separate Farbmanagement für 2D- und 3D-Ansichten.
 * [Farbmanagement] Umgebungszuordnung laden und in den Arbeitsfarbraum konvertieren
 * [Farbmanagement] Anpassen des Farbwählers und Editors mit dem aktuellen Farbraum
 * [Farbmanagement] Erlauben Sie mit einem neuen Dropdown-Menü die Auswahl des Anzeigetransformationsfarbraums im Viewport.
 * [Farbmanagement] Anwenden der Anzeigetransformation mit Iray-Renderingergebnissen
 * [Farbmanagement] Exportieren von Texturen mit verschiedenen Farbräumen
-* [Farbmanagement][Python] Anwenden von Farbmanagementeinstellungen der Umgebungsvariablen (OCIO) auf neue Projekte
+* [Farbmanagement]&#x200B;[Python] Anwenden von Farbmanagementeinstellungen der Umgebungsvariablen (OCIO) auf neue Projekte
 * [Viewport] Abdocken des 2D- oder 3D-Viewports zulassen
 * [Automatisches Ausgliedern] Neue Option zur Vermeidung länglicher Inseln
 * [Scripting Python] Aufrufen von JavaScript-Funktionen über die Python-API
 * [Neues Projektfenster] Reduzieren des Abschnitts &quot;Importierte Karten&quot;
-* [Projektion][Verkrümmen] Normale als Option in den Verkrümmungseinstellungen können ausgeblendet werden.
+* [Projektion]&#x200B;[Verkrümmen] Normale als Option in den Verkrümmungseinstellungen können ausgeblendet werden.
 * [Content] 11 neue Schmutz-Maps
 * [Inhalt] 8 neue Werkzeugvorgaben (Reißverschluss, Spannschnur, Glitter)
 * [Inhalt] 8 neue Materialien (Narbe, Tasche, ...)
@@ -292,10 +292,10 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 **Bekannte Probleme:**
 
 * [Mac M1] Smart-Materialien werden nicht korrekt angezeigt
-* [Farbmanagement][Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
+* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
 * [Farbmanagement] Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
-* [Farbmanagement][Iray] Das Speichern des Renderings in EXR oder TIFF, während das Farbmanagement im Viewport aktiviert ist, wird immer linear gespeichert
+* [Farbmanagement]&#x200B;[Iray] Das Speichern des Renderings in EXR oder TIFF, während das Farbmanagement im Viewport aktiviert ist, wird immer linear gespeichert
 * [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen das falsche Farbraummenü an
-* [Farbmanagement][Iray] Die Env-Map ist immer linear, wenn sie in Iray verwendet wird
-* [Farbmanagement][Exportieren] Konvertierte Karten werden nicht als farbverwaltete Kanäle exportiert
-* [Farbmanagement][Exportieren] Der Export ignoriert, wenn der Benutzerkanal farbverwaltet ist oder nicht im Legacy-Modus ausgeführt wird
+* [Farbmanagement]&#x200B;[Iray] Die Env-Map ist immer linear, wenn sie in Iray verwendet wird
+* [Farbmanagement]&#x200B;[Exportieren] Konvertierte Karten werden nicht als farbverwaltete Kanäle exportiert
+* [Farbmanagement]&#x200B;[Exportieren] Der Export ignoriert, wenn der Benutzerkanal farbverwaltet ist oder nicht im Legacy-Modus ausgeführt wird

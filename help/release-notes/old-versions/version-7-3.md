@@ -129,18 +129,18 @@ Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion,
 
 **Hinzugefügt:**
 
-* [Projektion][Verkrümmen] Gelegt 3D-Verkrümmung als neue Projektion
-* [Projektion][Verformen] Erlauben Sie den Aufklebermodus für Alphas, Texturen und Prozedurale mit Drag &amp; Drop im Viewport
-* [Projektion][Verkrümmen] Verwenden Sie die Verkrümmungs-Projektion mit dem Decal-Tastaturbefehl (ALT).
-* [Projektion][Verkrümmen][Symbolleiste] Transformieren Verkrümmung als Ganzes oder pro Scheitelpunkt
-* [Projektion][Verkrümmen][Symbolleiste] Fügen Sie Raster-Punkte mit den Optionen &quot;Geteilte Verkrümmung&quot; quer, horizontal oder vertikal hinzu
-* [Projektion][Verkrümmen][Symbolleiste] Dediziertes Menü für Zurücksetzen-Aktionen
-* [Projektion][Verkrümmen][Symbolleiste] Option zum automatischen Anpassen der Tangenten beim Verschieben von Punkten
-* [Projektion][Verkrümmen][Symbolleiste] Spezielles Menü für die Raster-Edition (Größe, Zurücksetzen, Farbe und Griffgröße)
-* [Projektion][Verformen] Neuer Tastatur-Tastaturbefehl zum Schalten des Warp-Editionsmodus für ganze Scheitelpunkt (UMSCHALT+V)
-* [Projektion][Verformen] Klicken + Strg ermöglicht den Wechsel zwischen Flächenwerkzeug und anderen Werkzeugen.
-* [Projektion][Zylindrisch] Gelegt Projektion
-* [Projektion][Symbolleiste] Gruppeneinstellungen für Manipulator (Größe, Raster, Winkelschritte)
+* [Projektion]&#x200B;[Verkrümmen] Gelegt 3D-Verkrümmung als neue Projektion
+* [Projektion]&#x200B;[Verformen] Erlauben Sie den Aufklebermodus für Alphas, Texturen und Prozedurale mit Drag &amp; Drop im Viewport
+* [Projektion]&#x200B;[Verkrümmen] Verwenden Sie die Verkrümmungs-Projektion mit dem Decal-Tastaturbefehl (ALT).
+* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Transformieren Verkrümmung als Ganzes oder pro Scheitelpunkt
+* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Fügen Sie Raster-Punkte mit den Optionen &quot;Geteilte Verkrümmung&quot; quer, horizontal oder vertikal hinzu
+* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Dediziertes Menü für Zurücksetzen-Aktionen
+* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Option zum automatischen Anpassen der Tangenten beim Verschieben von Punkten
+* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Spezielles Menü für die Raster-Edition (Größe, Zurücksetzen, Farbe und Griffgröße)
+* [Projektion]&#x200B;[Verformen] Neuer Tastatur-Tastaturbefehl zum Schalten des Warp-Editionsmodus für ganze Scheitelpunkt (UMSCHALT+V)
+* [Projektion]&#x200B;[Verformen] Klicken + Strg ermöglicht den Wechsel zwischen Flächenwerkzeug und anderen Werkzeugen.
+* [Projektion]&#x200B;[Zylindrisch] Gelegt Projektion
+* [Projektion]&#x200B;[Symbolleiste] Gruppeneinstellungen für Manipulator (Größe, Raster, Winkelschritte)
 * [Farbwähler] Neue Benutzeroberfläche für Farbwähler
 * [Farbwähler] Verwenden von sRGB-Werten in Farbwähler-Widgets
 * [Farbwähler] Farbfelder speichern und löschen
@@ -151,9 +151,9 @@ Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion,
 * [Farbwähler] Durch Drücken von Esc wird das Farbwählerfenster geschlossen.
 * Leistungsverbesserung für UI-Interaktion und beim Malen
 * [Engine] Update auf die neue Substance-Engine-Version (8.3.0)
-* [Scripting][Python] Ermöglicht das erneute Laden des Meshs des aktuellen Projekts.
-* [Scripting][Python] Aktualisieren von Ressourcen in Projekten zulassen
-* [Scripting][Python] Festlegen und Abfragen der Auflösung von UV-Kacheln zulassen
+* [Scripting]&#x200B;[Python] Ermöglicht das erneute Laden des Meshs des aktuellen Projekts.
+* [Scripting]&#x200B;[Python] Aktualisieren von Ressourcen in Projekten zulassen
+* [Scripting]&#x200B;[Python] Festlegen und Abfragen der Auflösung von UV-Kacheln zulassen
 * [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
 * [Interoperabilität] Empfangen mehrerer Ressourcen von Bridge
 
@@ -168,9 +168,9 @@ Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion,
 
 **Bekannte Probleme:**
 
-* [Projektion][Verformen] Die Option &quot;Teilen&quot; bleibt nach dem Teilen ausgewählt.
-* [Projektion][Verkrümmen] Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum festgelegt ist
-* [Projektion][Verformen] Artefaktlinien zwischen Patches in seltenen Fällen
-* [Projektion][UV] Der Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt.
+* [Projektion]&#x200B;[Verformen] Die Option &quot;Teilen&quot; bleibt nach dem Teilen ausgewählt.
+* [Projektion]&#x200B;[Verkrümmen] Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum festgelegt ist
+* [Projektion]&#x200B;[Verformen] Artefaktlinien zwischen Patches in seltenen Fällen
+* [Projektion]&#x200B;[UV] Der Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt.
 * [Mac M1] Smart-Materialien werden nicht korrekt angezeigt
-* [M1][Regression] Materialschichtung funktioniert nicht
+* [M1]&#x200B;[Regression] Materialschichtung funktioniert nicht

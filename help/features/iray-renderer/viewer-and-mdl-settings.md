@@ -73,7 +73,7 @@ Standardmäßig ist der Wert so festgelegt, dass der untere Rand des Begrenzungs
 
 ## MDL- und Shader-Parameter
 
-Iray verwendet MDL zum Definieren der Material, die für das Rendern eines Objekts verwendet werden. Weitere Informationen finden Sie auf der [offiziellen Nvidia-Seite im Format ](http://www.nvidia.com/object/material-definition-language.html) .
+Iray verwendet MDL zum Definieren der Material, die für das Rendern eines Objekts verwendet werden. Weitere Informationen finden Sie auf der [offiziellen Nvidia-Seite im Format &#x200B;](http://www.nvidia.com/object/material-definition-language.html) .
 
 Standardmäßig ist in Substance 3D Painter eine MDL einem GLSL-Shader zugeordnet. Sie können zwischen dem regulären Viewport und dem Iray wechseln, ohne etwas konfigurieren zu müssen.\
 Die Parameter der MDL werden dann unten in den Anzeigeeinstellungen angezeigt. Im Folgenden finden Sie die Parameter der Standard-MDL (kompatibel mit dem PBR-Shader Metallic/Rauheit).

@@ -44,7 +44,7 @@ Wenn Sie vor dem 30. September 2022 eine unbefristete Lizenzdatei von der Substa
 
 Der Aktivierungsassistent verfügt über drei Optionen:
 
-* <b>Dieses Produkt auswerten</b>: Ältere Testversionen sind nicht mehr verfügbar. [Sie können stattdessen eine 30-tägige Testversion für jede Substance 3D-Anwendung hier ](https://www.adobe.com/products/substance3d/free-trial-download.html?msockid=35568f9be2b964ec22d09c04e3eb65af) oder mit Creative Cloud Desktop starten.
+* <b>Dieses Produkt auswerten</b>: Ältere Testversionen sind nicht mehr verfügbar. [Sie können stattdessen eine 30-tägige Testversion für jede Substance 3D-Anwendung hier &#x200B;](https://www.adobe.com/products/substance3d/free-trial-download.html?msockid=35568f9be2b964ec22d09c04e3eb65af) oder mit Creative Cloud Desktop starten.
 * <b>Mit einer Lizenzdatei aktivieren</b>: Aktivieren Sie das Produkt mit einer Lizenzdatei (<b>\*.key</b>), die Sie vor dem 30. September 2022 von Ihrer Kontoseite auf der Substance 3D-Website heruntergeladen haben.
 * <b>Aktivieren mit Ihrem Konto</b>: Ältere Substanzkonten können nicht mehr für die Aktivierung verwendet werden.
 

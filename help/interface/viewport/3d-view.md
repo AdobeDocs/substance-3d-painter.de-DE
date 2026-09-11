@@ -34,7 +34,7 @@ Oben links im Viewport wird möglicherweise ein Text angezeigt, der das aktuell 
 
 Wenn in der 3D-Modelldatei, die zum Erstellen des Projekts oder zum Importieren des Meshs verwendet wird, Kameras definiert sind, können sie in das Projekt importiert und verwendet werden, um den Speicherort und die Ausrichtung der Kamera zu ändern. Mit dieser Dropdown-Liste können Sie zwischen den im Projekt verfügbaren Kameras wechseln. Wenn es keine andere Kamera als die Standardeinstellung gibt, wird das Dropdown-Menü nicht angezeigt.
 
-Der Wechsel zwischen den Kameras kann schnell über den dedizierten [Tastatur-Tastaturbefehl ](../settings/shortcuts.md) erfolgen. Weitere Informationen finden Sie auf der Seite [Kameras verwalten](camera-management.md).
+Der Wechsel zwischen den Kameras kann schnell über den dedizierten [Tastatur-Tastaturbefehl &#x200B;](../settings/shortcuts.md) erfolgen. Weitere Informationen finden Sie auf der Seite [Kameras verwalten](camera-management.md).
 
 ## Anzeigemodus
 

@@ -27,5 +27,5 @@ USD Arbeitsablauf ist in Painter 8.3 verfügbar. [USD](https://graphics.pixar.co
 Im Rahmen von Painter können nun folgende Aktionen durchgeführt werden:
 
 * [Erstellen Sie ein Projekt](../getting-started/project-creation.md), indem Sie USD spezifischen Features nutzen, z. B. die Auswahl des Bereichs und der Varianten, Unterteilungsebenen und Animations-Rahmen.
-* [Exportieren Sie ](../export/export-window/export-settings.md) Materials und Texturen im USD.
+* [Exportieren Sie &#x200B;](../export/export-window/export-settings.md) Materials und Texturen im USD.
 * Darüber hinaus wurde USD als neues Dateiformat für den reinen Mesh-Export hinzugefügt.

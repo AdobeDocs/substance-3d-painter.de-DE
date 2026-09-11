@@ -13,7 +13,7 @@ ht-degree: 3%
 
 Der **Baking-Modus** bietet Zugriff auf alle Tools und Parameter, die Sie zum Erstellen großartiger, qualitativ hochwertiger Baking führte benötigen.
 
-Um auf den **Baking-Modus** zuzugreifen, klicken Sie auf die (Baking geführt) Croissant-Schaltfläche oben rechts im Viewport. Alternativ können Sie den [Tastatur-Tastaturbefehl ](../interface/settings/shortcuts.md)**F8** verwenden oder den **Modus > Mesh-Map-Baking** auswählen.
+Um auf den **Baking-Modus** zuzugreifen, klicken Sie auf die (Baking geführt) Croissant-Schaltfläche oben rechts im Viewport. Alternativ können Sie den [Tastatur-Tastaturbefehl &#x200B;](../interface/settings/shortcuts.md)**F8** verwenden oder den **Modus > Mesh-Map-Baking** auswählen.
 
 ![](../assets/baking/mode_select_buttons.png)
 

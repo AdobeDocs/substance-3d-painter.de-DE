@@ -72,7 +72,7 @@ Mehrere Einstellungen und Tools sind über die [Kontextsymbolleiste](../../inter
 
 ## Manipulator
 
-Dieser Projektion-Manipulator ist nur im [3D-Viewport ](../../interface/viewport/3d-view.md) verfügbar.
+Dieser Projektion-Manipulator ist nur im [3D-Viewport &#x200B;](../../interface/viewport/3d-view.md) verfügbar.
 
 | Aktion | Tastaturbefehl | Beschreibung |
 | --- | --- | --- |

@@ -24,8 +24,8 @@ ht-degree: 1%
 
 Vektorgrafik-Dateien (sowohl <b>.svg</b> als auch Illustrator <b>.ai</b>) können wie normale Bilder in Painter importiert werden. Mit einigen wenigen verfügbaren Einstellungen kannst du das Aussehen der Grafik anpassen und sie an die restlichen Strukturen anpassen.
 
-* Weitere Informationen zum SVG von Dateien [finden Sie auf dieser Seite ](https://www.adobe.com/creativecloud/file-types/image/vector/svg-file.html).
-* Weitere Informationen zu AI-Dateien [finden Sie auf dieser Seite ](https://www.adobe.com/ie/creativecloud/file-types/image/vector/ai-file.html).
+* Weitere Informationen zum SVG von Dateien [finden Sie auf dieser Seite &#x200B;](https://www.adobe.com/creativecloud/file-types/image/vector/svg-file.html).
+* Weitere Informationen zu AI-Dateien [finden Sie auf dieser Seite &#x200B;](https://www.adobe.com/ie/creativecloud/file-types/image/vector/ai-file.html).
 
 SVG- und AI-Dateien werden automatisch in Pixelbilder konvertiert, wenn sie innerhalb des [Ebenenstapels](../interface/layer-stack/layer-stack.md) verwendet werden (je nach ausgewählter Einstellung). Dies ist ein nicht destruktiver Prozess, bei dem das Ändern der Auflösung oder das Aktualisieren der Quelldatei das Endergebnis entsprechend aktualisiert.
 

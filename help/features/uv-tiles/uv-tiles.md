@@ -30,7 +30,7 @@ Weitere Informationen zum Arbeitsablauf für die UV-Kachel finden Sie auf den fo
 
 * [Projekterstellung](../../getting-started/project-creation.md) mit dem UV-Kachel-Workflow.
 * UV-Kacheln werden in der [2D-Ansicht](../../interface/viewport/2d-view.md) angezeigt.
-* [Leistungsmaske ](../../interface/layer-stack/geometry-mask.md) zur Verbesserung der UV-Kachel.
+* [Leistungsmaske &#x200B;](../../interface/layer-stack/geometry-mask.md) zur Verbesserung der UV-Kachel.
 * Importieren und Verwenden von [Bildsequenzen](image-sequence.md).
 * Die Auflösung pro UV-Kachel wird in den [Textursatz-Einstellungen](../../interface/texture-set/texture-set-settings.md) angepasst.
 

@@ -27,7 +27,7 @@ Auf dieser Seite werden Informationen darüber neu gruppiert, wie der Installati
 ### Creative Cloud Desktop
 
 1. Öffnen Sie den Windows-Registrierungseditor (**regedit**).
-1. Navigieren Sie zum Registrierungsschlüssel: ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Pfade\**
+1. Navigieren Sie zum Registrierungsschlüssel: **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Pfade\**
 1. Öffnen Sie den Unterschlüssel &quot;**Adobe Substance 3D Painter.exe**&quot;.
 1. Der Wert des Schlüssels enthält den Pfad zur ausführbaren Anwendungsdatei, in der er installiert ist
 

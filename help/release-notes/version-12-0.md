@@ -44,7 +44,7 @@ Reduzierte Elemente des Ebenenstapels können auch direkt auf die Festplatte exp
 
 >[!NOTE]
 >
-> Weitere Informationen zum Reduzieren von Ebenen finden Sie auf der [dedizierten Dokumentationsseite ](../interface/layer-stack/flatten-layers.md).
+> Weitere Informationen zum Reduzieren von Ebenen finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](../interface/layer-stack/flatten-layers.md).
 
 ### Neuer Modus &quot;Verformen in Geometrie&quot; für Projektionen
 
@@ -67,7 +67,7 @@ Aufkleber können sich jetzt automatisch an komplexe Oberflächen anpassen, soda
 
 >[!NOTE]
 >
-> Weitere Informationen zur Verkrümmungsseite finden Sie auf der [dedizierten Dokumentationsseite ](../painting/fill-projections/warp-projection.md).
+> Weitere Informationen zur Verkrümmungsseite finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](../painting/fill-projections/warp-projection.md).
 
 ### Neue Post-Effekte
 
@@ -130,7 +130,7 @@ Zusammenfassung: <b>Dies ist eine Hauptversion. Diese Version enthält die Funkt
 * [Post-Effekte] Ersetzen Sie Post-Effekte durch neue
 * [Post-Effects] Aktualisieren der Tonzuordnung
 * [Post-Effects] Neue Verwendung für Post-Effects-Assets hinzufügen
-* [Inhalt][Nacheffekte] Integrieren von Standard-Nacheffekt-Assets in die Bibliothek
+* [Inhalt]&#x200B;[Nacheffekte] Integrieren von Standard-Nacheffekt-Assets in die Bibliothek
 * [Neues Projekt] Verbessern der Benutzeroberfläche für die Projekterstellung
 * [Neues Projekt] Änderungen an der Funktion zum erneuten Importieren des Gitters
 * [Neues Projekt] Öffnen von \*.geo.usd-Dateien zulassen
@@ -148,5 +148,5 @@ Zusammenfassung: <b>Dies ist eine Hauptversion. Diese Version enthält die Funkt
 * [Import] EXR-Texturen werden beim Importieren von USD-Dateien in sRGB anstelle von linear erzwungen
 * [UV-Kacheln] Bildsequenz mit einem einzelnen Bild füllt auch andere UV-Kacheln
 * [Backen] AO unterscheidet sich zwischen CPU- und GPU-Backen
-* [Farbmanagement][MacOS] Viewport BaseColor stimmt nicht mit dem Farbwähler überein
+* [Farbmanagement]&#x200B;[MacOS] Viewport BaseColor stimmt nicht mit dem Farbwähler überein
 * [USD] Einheitliche Werte werden in einigen Fällen nicht importiert

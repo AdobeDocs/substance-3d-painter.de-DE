@@ -96,7 +96,7 @@ Syntaxbeispiel:
 
 Standardmäßig haben Bildeingaben eines Substance-Grafen keine Auffüllung, der Bereich außerhalb der UV-Insel wird aus Leistungsgründen in der Regel mit einer einheitliche Farbe gefüllt. Die Abstandseinstellung kann stattdessen verwendet werden, um eine unendliche Ausdehnung anzufordern, die für Filter verwendet werden kann, um z. B. das Erstellen von Nähte zu vermeiden.
 
-Syntaxbeispiel: **p****adding=extend**
+Syntaxbeispiel: **p**&#x200B;**adding=extend**
 
 ## Deaktivieren einer Ausgabe standardmäßig
 

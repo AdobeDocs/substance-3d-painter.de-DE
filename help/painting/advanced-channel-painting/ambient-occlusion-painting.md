@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Der ambient occlusion-Kanal ermöglicht das Malen von Details in den Umgebungsschatten eines Objekts. Es kann verwendet werden, um AO-Details aus Materialien hinzuzufügen oder einfach manuell Baking geführt Fehler zu beheben, wenn nötig.
 
->> 
+&#x200B;>> 
 
 In der Computergrafik ist das ambient occlusion eine Schattierung- und Rendering-Technik, mit der berechnet wird, wie gelegt jeder Punkt in einer Szene von der Umgebungsbeleuchtung ist. Das Innere eines Röhrchens ist in der Regel verdeckter (und damit dunkler) als die gelegt Außenflächen, und je tiefer man in das Innere des Röhrchens geht, desto verdeckter (und dunkler) wird die Beleuchtung. Ambient occlusion kann als Barrierefreiheitswert betrachtet werden, der für jeden Oberflächenpunkt berechnet wird.\
 Quelle: &lt;https://en.wikipedia.org/wiki/Ambient_occlusion>

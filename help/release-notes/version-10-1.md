@@ -156,7 +156,7 @@ Zusammenfassung: <b>Hauptversion, neuer Inhalt: Füllbereichsmaske/Farbfilter, S
 * [VFX Platform 2024] Update auf Python 3.11
 * [VFX Platform 2024] Update auf OpenEXR 3.2
 * [VFX Platform 2024] [USD] Update OpenSubdiv 3.6.0
-* [VFX Platform 2024][Color Management] Update auf OCIO 2.3.2
+* [VFX Platform 2024]&#x200B;[Color Management] Update auf OCIO 2.3.2
 * [Linux] Migration zu Linux RedHat
 * [Linux] Aktualisieren Sie den Nvidia-Treiber auf Version 535.171.04
 * [Importieren] Fügen Sie eine Option hinzu, um die normale Map beim Importieren eines GLTF-Gitters zu spiegeln.
@@ -170,10 +170,10 @@ Zusammenfassung: <b>Hauptversion, neuer Inhalt: Füllbereichsmaske/Farbfilter, S
 <b>Fest</b>:
 
 * [Illustrator] Absturz beim Exportieren einer UV-Kachel mit .ai-Grafik in bestimmten Fällen
-* [Dynamische Pinselstriche][Pfad] Zufällig pro Strich funktioniert nicht auf einem Pfad
-* [UI][Eigenschaften] Sperre ist aktiviert, wenn die Unterteilung nicht einheitlich ist
+* [Dynamische Pinselstriche]&#x200B;[Pfad] Zufällig pro Strich funktioniert nicht auf einem Pfad
+* [UI]&#x200B;[Eigenschaften] Sperre ist aktiviert, wenn die Unterteilung nicht einheitlich ist
 * &#x200B; TXT-Datei wird erstellt, wenn Sie auf ein Painter-Projekt doppelklicken
-* [USD][Export] Möglicherweise fehlen einige Texturen.
+* [USD]&#x200B;[Export] Möglicherweise fehlen einige Texturen.
 * [ASM] Beim Streufarbkanal werden metallische
 * [Inhalt] Weichzeichnungsfilter funktioniert nicht im &quot;funktionierenden&quot; Farbraum
 * [Inhalt] Height Der Filter &quot;Anpassen&quot; ändert auch das Alpha der Ebene.
@@ -181,9 +181,9 @@ Zusammenfassung: <b>Hauptversion, neuer Inhalt: Füllbereichsmaske/Farbfilter, S
 <b>Bekannte Probleme</b>:
 
 * [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Win][Absturz] [ACE] sRGB ICE-Farbraum wird für die Bildschirmtransformation nicht verwendet.
-* [Regression][UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Crash][Python] USD-Export, ausgelöst durch TextureStateEvent
+* [Win]&#x200B;[Absturz] [ACE] sRGB ICE-Farbraum wird für die Bildschirmtransformation nicht verwendet.
+* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
+* [Crash]&#x200B;[Python] USD-Export, ausgelöst durch TextureStateEvent
 * [MacOS Intel] Absturz beim Importieren einiger Vorgaben
 * [Absturz] Ressource verschieben und Projekt speichern
 * [Engine] Malen mit dem Kopierwerkzeug in normalen Kanalverschiebungsfarben falsch

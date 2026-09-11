@@ -31,7 +31,7 @@ Ein Shader ist eine Funktion, die definiert, wie ein Objekt aussehen soll, wenn 
 ![](../../assets/shader-undo.png)
 
 Dieser Abschnitt im Fenster &quot;Shader-Einstellungen&quot; steuert die Hauptparameter beim Bearbeiten von Shadern.\
-Der Stapel &quot;Rückgängig/Wiederholen&quot; für den Shader ist unabhängig vom Hauptverlauf [1}, sodass beim Malen keine Konflikte entstehen.](https://substance3d.adobe.com/display/DRAFTPAINTER/History)
+Der Stapel &quot;Rückgängig/Wiederholen&quot; für den Shader ist unabhängig vom Hauptverlauf [1&rbrace;, sodass beim Malen keine Konflikte entstehen.](https://substance3d.adobe.com/display/DRAFTPAINTER/History)
 
 Wenn die Shader-Datei als &quot;Veraltet&quot; markiert ist, wird empfohlen, sie nach Möglichkeit zu aktualisieren. Siehe :  [Shader wird aktualisiert](https://substance3d.adobe.com/display/DRAFTPAINTER/Updating+a+Shader)
 

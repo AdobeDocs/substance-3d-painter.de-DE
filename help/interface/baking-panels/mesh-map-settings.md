@@ -13,4 +13,4 @@ ht-degree: 0%
 
 Im [**Baking-Modus**](../../baking/baking.md) zeigt das **Mesh-Map-Einstellungsbedienfeld** die Parameter für den aktuell ausgewählten Mesh-Map-Typ im **Mesh-Map-Baker-Bedienfeld** an.
 
-Eine vollständige Liste der Mesh-Map-Einstellungen, die in den [**allgemeinen Einstellungen**](common-mesh-map-settings.md) und den **Mesh-Map-Einstellungsfenstern** verfügbar sind, ist [ im Abschnitt &quot;Baking&quot; der Dokumentation ](../../baking/mesh-map-settings.md) verfügbar.
+Eine vollständige Liste der Mesh-Map-Einstellungen, die in den [**allgemeinen Einstellungen**](common-mesh-map-settings.md) und den **Mesh-Map-Einstellungsfenstern** verfügbar sind, ist [&#x200B; im Abschnitt &quot;Baking&quot; der Dokumentation &#x200B;](../../baking/mesh-map-settings.md) verfügbar.

@@ -303,7 +303,7 @@ Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrü
 * Absturz bei Verwendung von 16k exr
 * [Absturz] Strg Z Nach dem Löschen einer Shader-Instanz
 * [Iray] IoR ist für einige Shader auf 1 blockiert
-* [Win][Baking] Einige hohe Poly-Dateien können nicht geladen werden
+* [Win]&#x200B;[Baking] Einige hohe Poly-Dateien können nicht geladen werden
 * [Farbmanagement] Falscher Farbraumname in der Benutzeroberfläche mit Filtern
 * [Python] Von der Importfunktion zurückgegebene Ressourcenobjekte haben keinen Typ
 

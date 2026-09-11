@@ -208,10 +208,10 @@ Zusammenfassung: **Hauptversion mit neuem Importmodus, neuem Baking und Export v
 * [USD] Importieren von in USD gehäuften Netzen in einem bestimmten Frame
 
   Wenn Sie ein neues Projekt mit einer USD-Gitterdatei erstellen, die Animationen enthält, können Sie den Frame mit einem Schieberegler auswählen, der die eingebettete Timeline-Sequenz widerspiegelt. Der Frame kann über die Projektkonfiguration geändert werden.
-* [USD][Exportieren] Fügen Sie eine Option zum Exportieren von USD-Dateien hinzu.
+* [USD]&#x200B;[Exportieren] Fügen Sie eine Option zum Exportieren von USD-Dateien hinzu.
 
   Das neue Kontrollkästchen &quot;USD exportieren&quot; wurde dem Fenster &quot;Texturen exportieren&quot; hinzugefügt. Wenn diese Option aktiviert ist, können Sie USD-Dateien sowie Texturmaps aus beliebigen Vorlagen exportieren.
-* [USD][Exportieren] Fügen Sie dem Gitterexport das USD-Dateiformat hinzu.
+* [USD]&#x200B;[Exportieren] Fügen Sie dem Gitterexport das USD-Dateiformat hinzu.
 * [USD] Benennen Sie die vorhandene Exportvoreinstellung &quot;USD PBR Metal Roughness&quot; um, um ein expliziteres Format zu erhalten
 
   Die USD-Exportvorlage, die zuvor als &quot;USD PBR Metal Roughness&quot; bekannt war, ist weiterhin über &quot;Texturen exportieren&quot; > &quot;Ausgabevorlage&quot; > &quot;USDz&quot; (Apple AR) verfügbar.
@@ -224,13 +224,13 @@ Zusammenfassung: **Hauptversion mit neuem Importmodus, neuem Baking und Export v
 * [Physische Größe] Physische Größe für UV-Projektion verfügbar machen
 
   Physische Größe-Skalierung ist jetzt für UV-Projektionen verfügbar - sie ermöglicht die automatische Größenänderung für ein Material basierend auf der Physische Größe eines Gitters. Sie kann über &quot;Skalieren > Physische Größe&quot; in der Füllebene oder im Effekteigenschaftsfenster ausgewählt werden.
-* [Scripting][Python] Abfrage der Anwendungsversion zulassen
-* [Scripting][JavaScript] Update-API für neue Backing-Parameter
-* [Scripting][Python] Backmodul: Backparameter bearbeiten
-* [Scripting][Python] Backmodul: Backen starten/abbrechen
-* [Scripting][Python] Backmodul: Methode der selektierten Krümmung
-* [Scripting][Python] Backmodul: Auswahl an Bäckereien/UV-Fliesen
-* [Scripting][Python] Backmodul: Bäckereinstellungen für alle Textursätze synchronisieren
+* [Scripting]&#x200B;[Python] Abfrage der Anwendungsversion zulassen
+* [Scripting]&#x200B;[JavaScript] Update-API für neue Backing-Parameter
+* [Scripting]&#x200B;[Python] Backmodul: Backparameter bearbeiten
+* [Scripting]&#x200B;[Python] Backmodul: Backen starten/abbrechen
+* [Scripting]&#x200B;[Python] Backmodul: Methode der selektierten Krümmung
+* [Scripting]&#x200B;[Python] Backmodul: Auswahl an Bäckereien/UV-Fliesen
+* [Scripting]&#x200B;[Python] Backmodul: Bäckereinstellungen für alle Textursätze synchronisieren
 * [SVT] Aktivieren der Unterstützung für wenig Hardware auf AMD-GPUs
 
   Hardwarebeschleunigung für das System &quot;Spare Virtual Textures&quot; kann jetzt mit AMD-GPUs aktiviert werden. Diese Einstellung wird in den allgemeinen Voreinstellungen automatisch aktiviert.
@@ -249,10 +249,10 @@ Zusammenfassung: **Hauptversion mit neuem Importmodus, neuem Baking und Export v
 **Fest:**
 
 * [Absturz] Ändern von Kanälen bei Filtern mit bestimmtem Stapel
-* [Mac][M1] Absturz beim Erstellen einer Füllebene und Verlassen des Ebenenstapels
+* [Mac]&#x200B;[M1] Absturz beim Erstellen einer Füllebene und Verlassen des Ebenenstapels
 
   Dieses Problem kann durch Aktualisieren auf Mac OS 13 (Ventura) behoben werden.
-* [Scripting][Python] Absturz bei Verwendung von ui.add\_dock\_widget() mit falschem Typ
+* [Scripting]&#x200B;[Python] Absturz bei Verwendung von ui.add\_dock\_widget() mit falschem Typ
 * [Backen] Unvollständige Fehlermeldung im Protokoll, wenn ein Backen fehlschlägt
 * [Backen] Speicher wird nach Abschluss des Backens nicht freigegeben
 * [Engine] Texturcache wird nicht aktualisiert, wenn die Effektsichtbarkeit geändert wird

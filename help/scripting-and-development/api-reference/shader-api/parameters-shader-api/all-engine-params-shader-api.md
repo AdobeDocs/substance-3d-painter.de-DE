@@ -62,7 +62,7 @@ Alle diese Texturen sind **vormultipliziert** und **erweitert**, um Nahtprobleme
 
 **Textursatz-Kanäle**
 
-*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_Versatz* *channel\_emissive* *channel\_Glanz* *8}Kanal\_Height* *Kanal\_Senior* *Kanal\_metallic* *Kanal\_Normal* *Kanal\_Deckkraft* *Kanal\_Spiegelung* *Kanal\_Rauheit* *Kanal\_Streuung* *Kanal\_Specular* 6}channel\_specularlevel ** channel\_transmissive **
+*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_Versatz* *channel\_emissive* *channel\_Glanz* *8&rbrace;Kanal\_Height* *Kanal\_Senior* *Kanal\_metallic* *Kanal\_Normal* *Kanal\_Deckkraft* *Kanal\_Spiegelung* *Kanal\_Rauheit* *Kanal\_Streuung* *Kanal\_Specular* 6&rbrace;channel\_specularlevel **&#x200B; channel\_transmissive &#x200B;**
 
 **Benutzerkanäle**
 

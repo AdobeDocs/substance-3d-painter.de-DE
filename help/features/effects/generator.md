@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Generatoren
 
-Generatoren sind Stoffe, die eine Maske oder Texturen auf der Grundlage der Mesh-Topologie [ mithilfe Baking geführt Dienstprogrammzuordnungen wie &quot;Position&quot;, &quot;Krümmung&quot; und &quot;Welt-Raum-Normale&quot; ](../../baking/baking.md) generieren.
+Generatoren sind Stoffe, die eine Maske oder Texturen auf der Grundlage der Mesh-Topologie [&#x200B; mithilfe Baking geführt Dienstprogrammzuordnungen wie &quot;Position&quot;, &quot;Krümmung&quot; und &quot;Welt-Raum-Normale&quot; &#x200B;](../../baking/baking.md) generieren.
 
 >[!NOTE]
 >

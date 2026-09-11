@@ -24,4 +24,4 @@ Im [**Einstellungsmodus**](../../baking/baking.md) zeigt das **Fenster für allg
 > 1. Ändern Sie die allgemeinen Einstellungen **Ausgabegröße**.
 > 1. **Baking** der Normalen-Map.
 
-Eine vollständige Liste der Mesh-Map-Einstellungen, die in den **allgemeinen Einstellungen** und den [**Mesh-Map-Einstellungsfenstern**](mesh-map-settings.md) verfügbar sind, ist [ im Abschnitt &quot;Baking&quot; der Dokumentation ](../../baking/mesh-map-settings.md) verfügbar.
+Eine vollständige Liste der Mesh-Map-Einstellungen, die in den **allgemeinen Einstellungen** und den [**Mesh-Map-Einstellungsfenstern**](mesh-map-settings.md) verfügbar sind, ist [&#x200B; im Abschnitt &quot;Baking&quot; der Dokumentation &#x200B;](../../baking/mesh-map-settings.md) verfügbar.
