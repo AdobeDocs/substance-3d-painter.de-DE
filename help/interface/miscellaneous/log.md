@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/log.html'
+helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie auf das Protokollfenster in Substance 3D Painter zugreifen und es verwenden, um Anwendungsmeldungen und Debuginformationen anzuzeigen.
 helpx_creative_field: ''

@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
+helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/viewport.html'
 description: Lerne, wie du mit dem Viewport von Substance 3D Painter deine 3D-Modelle und Texturen während des Malens visualisieren kannst.
 helpx_description: Painter > Interface > Viewport
 title: Viewport

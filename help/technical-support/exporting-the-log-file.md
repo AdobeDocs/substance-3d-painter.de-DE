@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-the-log-file.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/exporting-the-log-file.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Protokolldateien aus Substance 3D Painter zur Fehlerbehebung und für den technischen Support exportieren.
 helpx_creative_field: ""

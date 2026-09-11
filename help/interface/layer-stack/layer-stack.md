@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie den Ebenenstapel in Substance 3D Painter verwenden, um mehrere Texturen-Malebenen zu organisieren und zu verwalten.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Lib Sampler Shader-API-Referenz für Substance 3D Painter zu, um Texturen und Daten in der benutzerdefinierten Shader-Entwicklung zu testen.
 helpx_creative_field: ""

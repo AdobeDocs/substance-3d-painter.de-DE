@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Volumenstreuung in Substance 3D Painter-Projekten aktivieren, um realistische transluzente Material-Effekte zu erstellen.
 helpx_creative_field: ""

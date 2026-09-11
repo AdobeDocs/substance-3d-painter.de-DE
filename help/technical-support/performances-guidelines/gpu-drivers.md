@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/gpu-drivers.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/performances-guidelines/gpu-drivers.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über GPU-VRAM und Treiberanforderungen für Substance 3D Painter zur Optimierung der Rendering-Leistung und -Stabilität.
 helpx_creative_field: ""

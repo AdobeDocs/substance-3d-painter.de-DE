@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/polygon-fill.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/polygon-fill.html"
 breadcrumb-title: ''
 description: Mit dem Polygon-Füllwerkzeug in Substance 3D Painter können Sie ausgewählte Polygone mit Malen füllen, um effizient Texturen malen zu können.
 helpx_creative_field: ""

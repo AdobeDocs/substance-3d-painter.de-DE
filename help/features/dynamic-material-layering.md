@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/dynamic-material-layering.html"
 breadcrumb-title: ''
 description: Lerne, wie du mit dynamische Materialüberlagerung in Substance 3D Painter Materialien mithilfe prozeduraler Masken verblendest und kombinierst.
 helpx_creative_field: ""

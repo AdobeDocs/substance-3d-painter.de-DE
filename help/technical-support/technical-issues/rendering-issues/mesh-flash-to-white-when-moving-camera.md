@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie den Mesh, der weiß blinkt, wenn Sie die Kamera in Substance 3D Painter Viewport für ein stabiles Rendering verschieben, beheben können.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ Bei alten Projekten, die sich um die Kamera bewegen, kann der Viewport kurze Wei
 Um den weißen Blitz zu entfernen, **aktualisieren** Sie einfach den **Projekt-Shader**:
 
 * Für **Standardshader**: befolgen Sie die schrittweise Anleitung auf der Seite [Aktualisieren eines Shader](../../../interface/shader-settings/updating-a-shader.md).
-* Für **benutzerdefinierte Shader**: Sehen Sie sich die Fehlermeldung(en) im Protokoll sowie die [Shader-API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)-Seite an.
+* Für **benutzerdefinierte Shader**: Sehen Sie sich die Fehlermeldung(en) im Protokoll sowie die [Shader-API](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)-Seite an.

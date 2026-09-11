@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/remote-desktop.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/configuration/remote-desktop.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Substance 3D Painter für den Remote-Desktopzugriff konfigurieren, um Remote-Workflows und die Zusammenarbeit zu ermöglichen.
 helpx_creative_field: ""

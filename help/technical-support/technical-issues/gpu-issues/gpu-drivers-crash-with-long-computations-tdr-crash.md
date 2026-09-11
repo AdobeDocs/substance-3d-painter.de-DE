@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie GPU-Treiber-Absturz während langer Berechnungen in Substance 3D Painter beheben können, um TDR-Zeitüberschreitungsfehler zu vermeiden.
 helpx_creative_field: ""

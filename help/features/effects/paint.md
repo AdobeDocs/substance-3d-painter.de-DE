@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/paint.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects/paint.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie den Malen-Effekt in Substance 3D Painter verwenden, um Malen-Konturen und Textur-Maleffekte auf Ebenen anzuwenden.
 helpx_creative_field: ""

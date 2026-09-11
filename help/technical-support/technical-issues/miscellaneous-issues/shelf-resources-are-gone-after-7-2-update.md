@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Regal-Ressourcen wiederherstellen, die nach dem Update auf Substance 3D Painter 7.2 verschwunden sind, um Ihre Ressourcenbibliothek wiederherzustellen.
 helpx_creative_field: ""

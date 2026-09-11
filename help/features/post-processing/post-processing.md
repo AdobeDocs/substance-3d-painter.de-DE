@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter das Rendern von Viewport mithilfe von Nachbearbeitungseffekten durch Farbkorrekturen und Spezialeffekte optimieren können.
 helpx_creative_field: ""

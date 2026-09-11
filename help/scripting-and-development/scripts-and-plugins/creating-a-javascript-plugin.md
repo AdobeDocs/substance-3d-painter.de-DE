@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie JavaScript-Plug-ins für Substance 3D Painter erstellen, um die Funktionalität zu erweitern und benutzerdefinierte Workflows zu automatisieren.
 helpx_creative_field: ""

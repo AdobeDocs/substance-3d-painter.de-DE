@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Exportvorgabe USDz (Apple AR) in Substance 3D Painter verwenden, um Texturen für Apple AR-Workflows zu exportieren.
 helpx_creative_field: ""

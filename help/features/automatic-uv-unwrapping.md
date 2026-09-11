@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/automatic-uv-unwrapping.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter mit automatischem UV-entpack UV-Layouts für deine 3D-Modelle erstellen kannst.
 helpx_creative_field: ""

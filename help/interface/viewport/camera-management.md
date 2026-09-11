@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport/camera-management.html'
+helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter Viewport die Ansicht einer Kamera verwaltest, um deine 3D-Modelle effektiv zu navigieren und mit Rahmen zu versehen.
 helpx_creative_field: ''

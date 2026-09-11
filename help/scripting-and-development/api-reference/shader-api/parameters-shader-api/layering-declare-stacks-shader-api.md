@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Shader-API-Referenz für "Ebenen deklarieren" für Substance 3D Painter zu, um benutzerdefinierte Materialebenen-Stapel zu erstellen.
 helpx_creative_field: ""

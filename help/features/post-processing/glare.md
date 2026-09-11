@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/glare.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing/glare.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter den Nachbearbeitungseffekt "Blendeffekt" einsetzt, um hellen Bereichen Blendenflecke und Blüteneffekte hinzuzufügen.
 helpx_creative_field: ""

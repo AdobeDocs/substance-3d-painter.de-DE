@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Shader-API-Referenz für Substance 3D Painter zu, um benutzerdefinierte Shader zu erstellen und die Rendering-Funktionen zu erweitern.
 helpx_creative_field: ""

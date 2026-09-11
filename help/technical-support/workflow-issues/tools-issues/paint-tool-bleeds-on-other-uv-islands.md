@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Malen-Werkzeug über UV-Inseln hinweg in Substance 3D Painter ineinander verlaufen lassen können, um saubere Texturen zu erhalten.
 helpx_creative_field: ""

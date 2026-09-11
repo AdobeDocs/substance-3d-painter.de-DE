@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter Pinselvorgaben einsetzen und verwalten kannst, um deinen Workflow für das Malen mit Texturen zu optimieren.
 helpx_creative_field: ""
@@ -30,6 +30,6 @@ Vorgaben werden auf dem Datenträger im Ordner &quot;[Elemente](../../interface/
 
 Informationen zum Verwalten Ihrer Vorgaben finden Sie unter:
 
-* [Erstellen und Speichern von Vorgaben](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
+* [Erstellen und Speichern von Vorgaben](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
 * [Erstellen von Partikeln-Vorgaben](../../painting/presets/creating-particles-pre/creating-particles-presets.md)
 * [Photoshop-Pinselvorgaben (ABR)](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)

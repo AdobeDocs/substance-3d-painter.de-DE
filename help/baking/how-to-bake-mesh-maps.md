@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter Mesh-Map Baking führe, um ambient occlusion, Krümmung und andere geometriebasierte Texturen zu erzeugen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/straight-line.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/straight-line.html"
 breadcrumb-title: ''
 description: Verwenden Sie das Gerade-malen-Werkzeug in Substance 3D Painter, um präzise gerade Malstriche für das Strukturmalen zu erstellen.
 helpx_creative_field: ""

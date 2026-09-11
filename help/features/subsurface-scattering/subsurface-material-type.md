@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter realistische Materialien mit Untergründen in Haut, Wachs und organischen Materialien gestalten kannst.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-list.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/texture-set/texture-set-list.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie mit der Liste der Textursatz in Substance 3D Painter mehrere Textursatz in Ihrem Projekt verwalten und organisieren.
 helpx_creative_field: ""

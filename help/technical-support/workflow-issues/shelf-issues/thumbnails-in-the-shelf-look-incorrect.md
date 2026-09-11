@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie eine falsche Miniaturansicht in Substance 3D Painter Regal beheben, um eine präzise Ressourcenvorschau zu gewährleisten.
 helpx_creative_field: ""

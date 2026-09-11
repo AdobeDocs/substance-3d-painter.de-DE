@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Menü "Bearbeiten" in Substance 3D Painter verwenden, um auf Vorgänge zum Rückgängigmachen, Wiederholen und Bearbeiten zuzugreifen.
 helpx_creative_field: ""

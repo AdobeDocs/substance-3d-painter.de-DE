@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Referenz "Lib Vectors Shader-API" für Substance 3D Painter zu, um mit Vektorvorgängen in benutzerdefinierten Shadern zu arbeiten.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/window-menu.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/window-menu.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Menü "Fenster" in Substance 3D Painter verwenden, um Bedienfelder der Benutzeroberfläche zu verwalten und Ihr Arbeitsbereichlayout anzupassen.
 helpx_creative_field: ""

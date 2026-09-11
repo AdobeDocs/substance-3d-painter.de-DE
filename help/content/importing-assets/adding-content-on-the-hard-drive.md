@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Inhalte von Ihrer Festplatte zu Substance 3D Painter hinzufügen, um Ihre Ressourcenbibliothek mit lokalen Dateien zu erweitern.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Sie können verschiedene Dateitypen in Ihre Substance 3D Painter-Bibliothek impo
 
 >[!NOTE]
 >
-> Ab Version 7.2.0 können benutzerdefinierte Ordner und Kategorien in einer Bibliothek verwendet werden. Sie sind im Fenster &quot;Elemente&quot; über [Filter nach Pfad](../../interface/assets/filter-by-path.md) oder [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html) zugänglich.
+> Ab Version 7.2.0 können benutzerdefinierte Ordner und Kategorien in einer Bibliothek verwendet werden. Sie sind im Fenster &quot;Elemente&quot; über [Filter nach Pfad](../../interface/assets/filter-by-path.md) oder [Breadcrumbs](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html) zugänglich.
 
 >[!WARNING]
 >

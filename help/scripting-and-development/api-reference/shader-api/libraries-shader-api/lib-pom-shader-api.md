@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Lib POM Shader-API-Referenz für Substance 3D Painter zu, um Parallax-Verdeckung-Zuordnungseffekte in benutzerdefinierten Shadern zu erstellen.
 helpx_creative_field: ""

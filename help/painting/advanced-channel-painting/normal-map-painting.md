@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Normalmaps direkt in Substance 3D Painter zeichnen, um Ihren Texturen Oberflächendetails und Tiefe hinzuzufügen.
 helpx_creative_field: ""

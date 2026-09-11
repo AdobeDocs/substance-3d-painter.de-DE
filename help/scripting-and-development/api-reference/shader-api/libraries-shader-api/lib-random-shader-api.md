@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Lib Random Shader-API-Referenz für Substance 3D Painter zu, um zufällige Werte in der benutzerdefinierten Shader-Entwicklung zu generieren.
 helpx_creative_field: ""

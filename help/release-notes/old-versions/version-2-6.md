@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-6.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2-6.html"
 breadcrumb-title: ''
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2.6, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ Das **Plug-in** ist auf GitHub verfügbar. Zögern Sie nicht, Ihnen zu helfen, w
 ![](../../assets/texture-set-rename-description.png)
 
 Es ist jetzt möglich, den Namen eines Textursatzes direkt im Substance Painter zu ändern. Das Umbenennen eines Textursatzes wirkt sich auf den Namen der Texturen aus, die auf die Festplatte exportiert werden (abhängig von der verwendeten Exportvorgabe).\
-Um einen Textursatz umzubenennen, doppelklicken Sie einfach auf seinen Namen, um ihn zu ändern, oder öffnen Sie das Kontextmenü mit der rechten Maustaste. Es ist auch möglich, benutzerdefinierte Beschreibungen hinzuzufügen, um weitere Informationen darüber zu erhalten, was Textursatz tun. Dies kann sehr hilfreich sein, wenn Sie an einem [UDIM-Projekt &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html) arbeiten. Verwenden Sie die Schaltfläche &quot;**settings**&quot;, um die Anzeige von Beschreibungen in der Liste zu konfigurieren.
+Um einen Textursatz umzubenennen, doppelklicken Sie einfach auf seinen Namen, um ihn zu ändern, oder öffnen Sie das Kontextmenü mit der rechten Maustaste. Es ist auch möglich, benutzerdefinierte Beschreibungen hinzuzufügen, um weitere Informationen darüber zu erhalten, was Textursatz tun. Dies kann sehr hilfreich sein, wenn Sie an einem [UDIM-Projekt &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html) arbeiten. Verwenden Sie die Schaltfläche &quot;**settings**&quot;, um die Anzeige von Beschreibungen in der Liste zu konfigurieren.
 
 ![](../../assets/reasign-texture-set.png)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie benutzerdefinierte Shader in Substance 3D Painter aktualisieren, um Shader-Änderungen anzuwenden und Shader-Dateien neu zu laden.
 helpx_creative_field: ""

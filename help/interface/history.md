@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/history.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/history.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Bedienfeld "Verlauf" in Substance 3D Painter verwenden, um Ihren Bearbeitungsverlauf anzuzeigen und darin zu navigieren.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
 breadcrumb-title: ''
 description: Rufe die Substance 3D Painter-Referenz "Lib Env Shader-API" auf, um mit Umgebungs-Map und Beleuchtung in benutzerdefinierten Shadern zu arbeiten.
 helpx_creative_field: ""

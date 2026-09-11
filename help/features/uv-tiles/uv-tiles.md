@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/uv-tiles.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter UV-Kacheln verwenden, um mit gekachelten UV-Layouts und mehreren Textursätzen zu arbeiten.
 helpx_creative_field: ""

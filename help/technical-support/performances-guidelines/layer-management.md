@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
 breadcrumb-title: ''
 description: Lernen Sie Best Practices für die Ebenenverwaltung in Substance 3D Painter kennen, mit denen Sie die Leistung optimieren und strukturierte Projekte beibehalten können.
 helpx_creative_field: ""

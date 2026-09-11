@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/shader-settings.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter die Shader-Einstellungen konfigurieren, um das Rendern von Materialien und das Erscheinungsbild anzupassen.
 helpx_creative_field: ""

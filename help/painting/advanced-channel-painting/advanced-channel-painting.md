@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/advanced-channel-painting.html"
 breadcrumb-title: ''
 description: Lerne erweiterte Techniken für das Kanalmalen in Substance 3D Painter kennen. Erfahre, wie du direkt auf bestimmten Textur-Kanälen Malen erstellst, um präzise steuern zu können.
 helpx_creative_field: ""

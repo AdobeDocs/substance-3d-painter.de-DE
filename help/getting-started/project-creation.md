@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/project-creation.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/project-creation.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter ein neues Projekt erstellen kannst, um Texturen auf deine 3D-Modelle zu malen.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Im Folgenden werden alle Parameter erläutert, die im Fenster &quot;Neues Projek
 
 | *Parameter* | *Beschreibung* |
 | --- | --- |
-| **Datei** | Klicken Sie auf die Schaltfläche &quot;Auswählen&quot;, um eine zu ladende 3D-Modelldatei anzugeben. [Eine Liste der unterstützten Dateiformate ist hier verfügbar.](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
+| **Datei** | Klicken Sie auf die Schaltfläche &quot;Auswählen&quot;, um eine zu ladende 3D-Modelldatei anzugeben. [Eine Liste der unterstützten Dateiformate ist hier verfügbar.](https://experienceleague.adobe.com/de/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
 | **Vorlage** | Geben Sie eine Vorlage an, die die Standardeinstellungen des Projekts definiert. Eine Vorlage enthält die folgenden Parameter:<ul data-preserve-html="true"> <li data-preserve-html="true">Textursatz-Einstellungen.</li> <li data-preserve-html="true">Anzeigeeinstellungen.</li> <li data-preserve-html="true">Baking-Einstellungen.</li> <li data-preserve-html="true">Shader-Ressourcen (einschließlich angehängter Texturen)</li> <li data-preserve-html="true">Umgebungs-Map.</li> </ul>  **Hinweis:** Vorlagen sind <b>\*.spt</b> Dateien, die aus einem vorhandenen Projekt über das [Dateimenü](../interface/main-menu/file-menu.md) erstellt und im Ordner &quot;Assets&quot; gespeichert werden, um einfach für Teammitglieder freigegeben zu werden. |
 | <b>Auflösung</b> | Definieren Sie die Standardauflösung für die Textur des Projekts für jeden Textursatz. Die Auflösung kann bei der Arbeit innerhalb der Anwendung auf bis zu 4K (4096 x 4096 Pixel) und beim Export auf 8K (8192 x 8192 Pixel) steigen. Die Auflösung kann später jederzeit über die [Textursatz-Einstellungen](../interface/texture-set/texture-set-settings.md) geändert werden.  **Hinweis: Für den**-8K-Export sind mindestens 2,5 GB VRam auf der GPU erforderlich, um verfügbar zu sein. |
 

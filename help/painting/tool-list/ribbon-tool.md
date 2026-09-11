@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
 description: Verwenden Sie das Menüband-Werkzeug in Substance 3D Painter, um bandähnliche Malen-Konturen entlang von Pfaden für dekorative Texturen zu erstellen.
 helpx_creative_field: ""

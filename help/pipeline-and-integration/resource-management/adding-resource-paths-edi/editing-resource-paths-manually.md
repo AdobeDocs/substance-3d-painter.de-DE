@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Ressourcenpfade in den Substance 3D Painter-Voreinstellungen manuell bearbeiten, um die Speicherorte für Regal-Ressourcen anzupassen.
 helpx_creative_field: ""

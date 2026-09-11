@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie mit der verzögerte Mausbewegung in Substance 3D Painter flüssige Pinselstriche mit verzögerter Cursorreaktion erzeugen können.
 helpx_creative_field: ""

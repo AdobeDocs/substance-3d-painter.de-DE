@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ''
 description: Verwende das Malen-Pinsel-Werkzeug in Substance 3D Painter, um Texturen mit anpassbaren Pinseleinstellungen direkt auf 3D-Modelle Malen.
 helpx_creative_field: ""

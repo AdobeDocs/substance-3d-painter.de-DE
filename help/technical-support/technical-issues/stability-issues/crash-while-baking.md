@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Substance 3D Painter-Absturz beim Baking beheben können, um zuverlässige Workflows zum Baking von Texturen zu erhalten.
 helpx_creative_field: ""

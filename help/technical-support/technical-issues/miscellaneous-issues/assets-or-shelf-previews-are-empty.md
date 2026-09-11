@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie leere Asset- und Regal-Vorschauen in Substance 3D Painter korrigieren, um die Miniaturansicht wiederherzustellen.
 helpx_creative_field: ""

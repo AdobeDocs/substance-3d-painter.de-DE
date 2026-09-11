@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter Höhen-Map direkt auf die Malen von Fotos aufnimmst, um Versatz- und Oberflächeneffekte zu erzeugen.
 helpx_creative_field: ""

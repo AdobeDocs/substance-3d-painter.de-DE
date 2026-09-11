@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Referenz "Lib Utils Shader-API" für Substance 3D Painter zu, um Dienstprogrammfunktionen in der Entwicklung benutzerdefinierter Shader zu verwenden.
 helpx_creative_field: ""

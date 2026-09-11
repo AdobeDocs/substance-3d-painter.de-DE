@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Shader-API-Referenz zu Lib Alpha für Substance 3D Painter zu, um mit Alphakanälen und Transparenz in benutzerdefinierten Shadern zu arbeiten.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/toolbars.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/toolbars.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Symbolleisten in Substance 3D Painter verwenden und anpassen, um effizient auf Tools und Funktionen zuzugreifen.
 helpx_creative_field: ""

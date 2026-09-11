@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Substance 3D Painter aktivieren und Lizenzen verwalten, um die Anwendung zum Malen auf Texturen zu verwenden.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Der Aktivierungsprozess hängt davon ab, wo Sie Painter erworben haben oder Zugr
 
 | Anwendungstyp | Aktivierungsprozess |
 | --- | --- |
-| Creative Cloud Desktop | Weitere Informationen finden Sie auf der entsprechenden Seite in der [HilfeX-Dokumentation](https://helpx.adobe.com/download-install/using/download-creative-cloud-apps.html). Falls Probleme auftreten, kann die [Creative Cloud-Dokumentation](https://helpx.adobe.com/creative-cloud/user-guide.html) zusätzliche Antworten liefern. |
+| Creative Cloud Desktop | Weitere Informationen finden Sie auf der entsprechenden Seite in der [HilfeX-Dokumentation](https://helpx.adobe.com/de/download-install/using/download-creative-cloud-apps.html). Falls Probleme auftreten, kann die [Creative Cloud-Dokumentation](https://helpx.adobe.com/de/creative-cloud/user-guide.html) zusätzliche Antworten liefern. |
 | dämpfen | Starten Sie das Produkt direkt aus Ihrer Steam-Bibliothek. |
 | Substance 3D als eigenständiges Produkt | Weitere Informationen finden Sie im unten beschriebenen Aktivierungsprozess. |
 
@@ -44,7 +44,7 @@ Wenn Sie vor dem 30. September 2022 eine unbefristete Lizenzdatei von der Substa
 
 Der Aktivierungsassistent verfügt über drei Optionen:
 
-* <b>Dieses Produkt auswerten</b>: Ältere Testversionen sind nicht mehr verfügbar. [Sie können stattdessen eine 30-tägige Testversion für jede Substance 3D-Anwendung hier &#x200B;](https://www.adobe.com/products/substance3d/free-trial-download.html?msockid=35568f9be2b964ec22d09c04e3eb65af) oder mit Creative Cloud Desktop starten.
+* <b>Dieses Produkt auswerten</b>: Ältere Testversionen sind nicht mehr verfügbar. [Sie können stattdessen eine 30-tägige Testversion für jede Substance 3D-Anwendung hier &#x200B;](https://www.adobe.com/de/products/substance3d/free-trial-download.html?msockid=35568f9be2b964ec22d09c04e3eb65af) oder mit Creative Cloud Desktop starten.
 * <b>Mit einer Lizenzdatei aktivieren</b>: Aktivieren Sie das Produkt mit einer Lizenzdatei (<b>\*.key</b>), die Sie vor dem 30. September 2022 von Ihrer Kontoseite auf der Substance 3D-Website heruntergeladen haben.
 * <b>Aktivieren mit Ihrem Konto</b>: Ältere Substanzkonten können nicht mehr für die Aktivierung verwendet werden.
 

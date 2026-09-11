@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
 breadcrumb-title: ''
 description: Erfahre, wie du Photoshop-Pinselvorgaben (ABR-Dateien) in Substance 3D Painter importierst, um deine Pinselbibliothek zu erweitern.
 helpx_creative_field: ""

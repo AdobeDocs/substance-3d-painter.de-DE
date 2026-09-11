@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Rendering-Artefakte und Störungen auf macOS mit benutzerdefinierten GPUs in Substance 3D Painter beheben können, um eine stabile Leistung zu erzielen.
 helpx_creative_field: ""
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 Falls unter Mac OS beim Ausführen einer benutzerdefinierten GPU mit benutzerdefinierten Treibern Störungen, Absturz oder sogar Artefakte auftreten, kann eine Problemumgehung darin bestehen, die **ordnungsgemäß aufgelisteten** Dateien, die sich auf die Anwendung beziehen, zu löschen.
 
-Informationen dazu, welche Datei entfernt werden soll, finden Sie unter: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Informationen dazu, welche Datei entfernt werden soll, finden Sie unter: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

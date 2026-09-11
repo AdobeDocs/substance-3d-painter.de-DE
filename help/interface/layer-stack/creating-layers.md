@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/creating-layers.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack/creating-layers.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter neue Ebenen erstellen kannst, um komplexe Texturen mit mehreren Malebenen zu erstellen.
 helpx_creative_field: ""

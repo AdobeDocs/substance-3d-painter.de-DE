@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Referenz "Verpixelter Shader-API" für Substance 3D Painter zu, um benutzerdefinierte pixelierte Rendereffekte zu erstellen.
 helpx_creative_field: ""

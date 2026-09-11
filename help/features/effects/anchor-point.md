@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/anchor-point.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects/anchor-point.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter mithilfe von Ankerpunkteffekten Texturen aus anderen Ebenen für Compositing-Aufgaben referenzieren kannst.
 helpx_creative_field: ""

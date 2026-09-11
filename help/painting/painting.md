@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting.html"
 breadcrumb-title: ''
 description: Lerne, wie du in Substance 3D Painter mit verschiedenen Pinseln, Werkzeugen und Techniken Strukturen direkt auf 3D-Modelle malen kannst.
 helpx_creative_field: ""

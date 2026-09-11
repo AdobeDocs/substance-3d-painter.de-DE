@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/file-menu.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Dateimenü in Substance 3D Painter verwenden, um Projekte zu verwalten, Elemente zu importieren und Texturen zu exportieren.
 helpx_creative_field: ""

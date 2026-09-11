@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-reprojection.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/uv-reprojection.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die UV-Reprojektion in Substance 3D Painter verwenden, um Texturen zwischen verschiedenen UV-Layouts zu übertragen.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/tone-mapping.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing/tone-mapping.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie die Tonzuordnungs-Nachbearbeitung in Substance 3D Painter verwenden, um Belichtung und Farbkorrektur im Viewport anzupassen.
 helpx_creative_field: ""

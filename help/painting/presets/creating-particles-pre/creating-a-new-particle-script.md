@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter ein neues Partikel-Skript erstellen, um das Verhalten und die Effekte von Pinseln mit benutzerdefinierten Partikeln zu definieren.
 helpx_creative_field: ""

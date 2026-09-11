@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.html"
 breadcrumb-title: ''
 description: Greifen Sie auf die Referenz "Toon Shader-API" für Substance 3D Painter zu, um benutzerdefinierte Rendering-Effekte im Toon-Stil zu erstellen.
 helpx_creative_field: ""

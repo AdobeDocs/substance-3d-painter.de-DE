@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/sparse-virtual-textures.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/sparse-virtual-textures.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter mit wenigen virtuellen Texturen effizient mit hochauflösenden Texturen arbeiten.
 helpx_creative_field: ""
@@ -60,7 +60,7 @@ Weitere technische Informationen finden Sie unter:  [Dünn besetzte virtuelle Te
 ![](../assets/settings-temp.png)
 
 Wenn nicht genügend Systemspeicher (Ram) zum Speichern des SVT-Caches verfügbar ist, wechselt Substance 3D Painter zur Computerfestplatte, um den Cache zu speichern.\
-Der Speicherort dieses Cache befindet sich standardmäßig im Ordner Temporäre Dateien des Betriebssystems. Dieser Speicherort kann über die Haupteinstellungen der Anwendung geändert werden. Weitere Informationen finden Sie unter [Allgemeine Voreinstellungen](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
+Der Speicherort dieses Cache befindet sich standardmäßig im Ordner Temporäre Dateien des Betriebssystems. Dieser Speicherort kann über die Haupteinstellungen der Anwendung geändert werden. Weitere Informationen finden Sie unter [Allgemeine Voreinstellungen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/general-71008262.html) .
 
 ## Shader-Kompatibilität
 
@@ -69,7 +69,7 @@ Um die Vorteile der SVT voll ausschöpfen zu können, müssen Shader Texturen vo
 So aktualisieren Sie Ihre Schattierungen :
 
 * Für **Standard-Substance 3D Painter-Shader** : Befolgen Sie die schrittweise Anleitung auf der Seite [Aktualisieren eines Shader](../interface/shader-settings/updating-a-shader.md).
-* Für **benutzerdefinierten Shader** : Sehen Sie sich die Fehlermeldung(en) im Protokoll sowie die [Shader-API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)-Seite an.
+* Für **benutzerdefinierten Shader** : Sehen Sie sich die Fehlermeldung(en) im Protokoll sowie die [Shader-API](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)-Seite an.
 
 >[!WARNING]
 >

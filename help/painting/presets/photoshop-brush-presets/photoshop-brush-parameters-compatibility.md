@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
 breadcrumb-title: ''
 description: Erfahren Sie mehr über die Kompatibilität von Photoshop-Pinselparametern in Substance 3D Painter beim Importieren von ABR-Pinselvorgaben.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Wenn Sie in die ABR-Datei schauen, ruft Substance 3D Painter nur bestimmte Pinse
 
 ## Parameter
 
-Weitere Informationen zu den Möglichkeiten dieser Parameter finden Sie in der offiziellen [Photoshop-Dokumentation](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) .
+Weitere Informationen zu den Möglichkeiten dieser Parameter finden Sie in der offiziellen [Photoshop-Dokumentation](https://helpx.adobe.com/de/photoshop/using/creating-modifying-brushes.html) .
 
 Nicht alle Photoshop-Pinselparameter werden unterstützt. In der Legende finden Sie Informationen zum Status der einzelnen Parameter, die im Folgenden beschrieben werden:
 

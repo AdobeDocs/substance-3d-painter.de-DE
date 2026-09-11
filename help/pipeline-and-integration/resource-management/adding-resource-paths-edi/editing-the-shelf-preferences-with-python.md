@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Voreinstellungen für Regal mithilfe von Python-Skripten in Substance 3D Painter für die automatisierte Verwaltung von Ressourcenpfaden bearbeiten.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Masken und Effekte in Substance 3D Painter Ebenenstapel verwenden, um die Ebenensichtbarkeit zu steuern und Ebeneneffekte anzuwenden.
 helpx_creative_field: ""

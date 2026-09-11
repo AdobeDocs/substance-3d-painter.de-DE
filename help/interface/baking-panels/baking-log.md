@@ -19,6 +19,6 @@ Das **Protokollfenster für Bakings** zeigt technische Ausgaben im Zusammenhang 
 
 >[!TIP]
 >
-> Informationen zum Abgleichen von Assets nach Namen finden Sie in [der Dokumentation der Baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name).
+> Informationen zum Abgleichen von Assets nach Namen finden Sie in [der Dokumentation der Baker](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/matching-by-name).
 
 ![](../../assets/baking/baking-log-panel.png)

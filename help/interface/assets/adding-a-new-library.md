@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/adding-a-new-library.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/assets/adding-a-new-library.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie eine neue Bibliothek zu Substance 3D Painter hinzufügen können, um Ihre Ressourcensammlung zu erweitern und auf weitere Elemente zuzugreifen.
 helpx_creative_field: ""

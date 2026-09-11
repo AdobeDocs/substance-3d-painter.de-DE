@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/eraser.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ''
 description: Entferne Malen und Texturen präzise und mit dem Radiergummi-Werkzeug von Substance 3D Painter.
 helpx_creative_field: ""

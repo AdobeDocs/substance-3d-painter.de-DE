@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/geometry-mask.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack/geometry-mask.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie in Substance 3D Painter mithilfe von Geometriemasken Ebenen auf der Grundlage von Mesh-Geometrie und Oberflächeneigenschaften maskieren.
 helpx_creative_field: ""

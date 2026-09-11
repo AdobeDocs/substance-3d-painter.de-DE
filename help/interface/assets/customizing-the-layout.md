@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/customizing-the-layout.html"
+helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/assets/customizing-the-layout.html"
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie das Layout des Bedienfelds "Elemente" in Substance 3D Painter anpassen, um Ihr Ressourcenbrowsererlebnis zu optimieren.
 helpx_creative_field: ""
