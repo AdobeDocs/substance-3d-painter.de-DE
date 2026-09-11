@@ -28,6 +28,6 @@ ht-degree: 0%
 * [Bearbeitungsmenü](edit-menu.md)
 * [Menü &quot;Modus&quot;](mode-menu.md)
 * [Menü &quot;Fenster&quot;](window-menu.md)
-* [Viewport-Menü](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
+* [Menü &quot;Viewport&quot;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
 * [Menü &quot;Plug-ins&quot;](plugins-menu.md)
 * [Hilfemenü](help-menu.md)

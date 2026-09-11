@@ -1,6 +1,6 @@
 ---
-title: Einstellungsbedienfeld für Gitterzuordnungen
-description: Erfahren Sie mehr über das Einstellungsbedienfeld für die Gitterzuordnung.
+title: Mesh-Map-Einstellungsbedienfeld
+description: Erfahren Sie mehr über das Bedienfeld "Mesh-Map-Einstellungen".
 source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
 workflow-type: tm+mt
 source-wordcount: '66'
@@ -9,8 +9,8 @@ ht-degree: 0%
 ---
 
 
-# Einstellungsbedienfeld für Gitterzuordnungen
+# Mesh-Map-Einstellungsbedienfeld
 
-Im [**Sicherungsmodus**](../../baking/baking.md) zeigt das **Fenster für die Einstellungen für die Mesh-Map** Parameter für den aktuell ausgewählten Mesh-Map-Typ im Fenster **Fenster für die Mesh-Map-Baker** an.
+Im [**Baking-Modus**](../../baking/baking.md) zeigt das **Mesh-Map-Einstellungsbedienfeld** die Parameter für den aktuell ausgewählten Mesh-Map-Typ im **Mesh-Map-Baker-Bedienfeld** an.
 
-Eine vollständige Liste der in den [**allgemeinen Einstellungen**](common-mesh-map-settings.md) und den **Fenstern für die Mesh-Map-Einstellungen** verfügbaren Einstellungen für die Mesh-Map ist im Backing-Abschnitt der Dokumentation [&#128279;](../../baking/mesh-map-settings.md)  verfügbar.
+Eine vollständige Liste der Mesh-Map-Einstellungen, die in den [**allgemeinen Einstellungen**](common-mesh-map-settings.md) und den **Mesh-Map-Einstellungsfenstern** verfügbar sind, ist [&#x200B; im Abschnitt &quot;Baking&quot; der Dokumentation &#x200B;](../../baking/mesh-map-settings.md) verfügbar.

@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Abstürze und Abstürze während des Starts von Substance 3D Painter für einen stabilen Anwendungsstart beheben.
+description: Erfahren Sie, wie Sie Absturz und Abstürze während des Starts von Substance 3D Painter für einen stabilen Anwendungsstart beheben.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Absturz oder Einfrieren beim Start
+title: Absturz oder Einfrieren beim Starten
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Absturz oder Einfrieren beim Start
+# Absturz oder Einfrieren beim Starten
 
 Auf dieser Seite finden Sie eine Liste bekannter Probleme und deren Lösungen im Zusammenhang mit dem nicht ordnungsgemäßen Starten der Anwendung.
 
@@ -48,7 +48,7 @@ Wenn die Anwendung beim Start unter Windows sofort einfriert (was zu einem weiß
 
 ## Absturz aufgrund eines falschen Systempfads/Pythonpfads
 
-Die Anwendung überprüft den Systempfad, um Python-Module und Umgebungseinstellungen zu laden. Wenn das System nicht ordnungsgemäß eingerichtet wurde, kann dies beim Start zum Absturz führen.
+Die Anwendung überprüft den Systempfad, um Python-Module und Umgebungseinstellungen zu laden. Wenn das System nicht ordnungsgemäß eingerichtet wurde, kann dies beim Start zu einem Absturz führen.
 
 Unter Windows:
 
@@ -58,7 +58,7 @@ Unter Windows:
 1. Klicken Sie auf **Umgebungsvariablen**.
 1. Suchen Sie unter **Systemvariablen** die Variable **PATH**.
 
-Anschließend können Sie die Variable bearbeiten, um ihren Inhalt zu überprüfen. Wenn die Variable beispielsweise folgende Zeichen enthält, führt dies zu einem Absturz
+Anschließend können Sie die Variable bearbeiten, um ihren Inhalt zu überprüfen. Wenn die Variable beispielsweise folgende Zeichen enthält, führt sie zu einem Absturz
 
 ```
 ï–›éŒ à €è¸€ì‡ì‡ç¿¹

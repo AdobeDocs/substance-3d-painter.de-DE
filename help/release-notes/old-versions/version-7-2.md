@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Version 7.2
 
-**Substance 3D Painter 7.2** bietet neue Rendering-Funktionen im Adobe-Standardmaterial-Workflow, neue Möglichkeiten zur Freigabe von Inhalten in [Substance 3D-Anwendungen](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html) und ein überarbeitetes Elementfenster.
+**Substance 3D Painter 7.2** bietet neue Rendering-Funktionen für den Adobe Standard Material-Workflow, neue Möglichkeiten zur Freigabe von Inhalten in [Substance 3D-Anwendungen](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html) und ein überarbeitetes Elementfenster.
 
 Freigabedatum: *23. Juni 2021*
 
@@ -30,11 +30,11 @@ Freigabedatum: *23. Juni 2021*
 
 ![](../../assets/banner-assets.jpg)
 
-Das alte Shelf-Fenster wurde verbessert und in Assets-Fenster umbenannt. Das neue Design konzentriert sich darauf, den Zugriff auf Inhalte zu beschleunigen und Inhalte mit den neuen, dedizierten Symbolen einfacher zu filtern. Es kommt auch mit einem einfacheren Navigationssystem mit den Breadcrumbs. Dieses neue Design konzentriert sich auch darauf, die Erfahrung mit anderer Substance 3D-Software zu vergleichen, sodass die Verwaltung von Inhalten über Anwendungen hinweg einfacher wird.
+Das alte Regal wurde verbessert und in &quot;Elemente&quot; umbenannt. Das neue Design konzentriert sich darauf, den Zugriff auf Inhalte zu beschleunigen und Inhalte mit den neuen, dedizierten Symbolen einfacher zu filtern. Es kommt auch mit einem einfacheren Navigationssystem mit den Breadcrumbs. Dieses neue Design konzentriert sich auch darauf, die Erfahrung mit anderer Substance 3D-Software zu vergleichen, sodass die Verwaltung von Inhalten über Anwendungen hinweg einfacher wird.
 
 >[!NOTE]
 >
-> Diese Version enthält Änderungen an der Verwaltung der Anwendungsvoreinstellungen und der Shelf-/Assets-Inhalte. Um zu erfahren, wie Sie Ihre Daten migrieren, sehen Sie sich [die dedizierte Seite](../../pipeline-and-integration/resource-management/preferences-and-content-migration.md) an.
+> Diese Version enthält Änderungen an der Verwaltung der Anwendungsvoreinstellungen und der Regal-/Assets-Inhalte. Um zu erfahren, wie Sie Ihre Daten migrieren, sehen Sie sich [die dedizierte Seite](../../pipeline-and-integration/resource-management/preferences-and-content-migration.md) an.
 
 * **Neues Design und Layout**\
   Das neue Design konzentriert sich auf die Einfachheit, aber auch auf die einfachere Organisation des Fensters. Das Fenster kann nun vertikal angedockt werden, ohne Platz zu verschwenden. Mit einem neuen Listenanzeigemodus können Elemente viel einfacher nach Namen durchsucht werden.
@@ -64,23 +64,23 @@ Das alte Shelf-Fenster wurde verbessert und in Assets-Fenster umbenannt. Das neu
 * **Das Vorschauspeicherbudget erhöhen, um mehr Miniaturansichten zu laden**\
   Standardmäßig wird der Anzeige von Miniaturansichten ein begrenzter Speicherplatz zugewiesen, um Performance-Einsparungen zu erzielen. Eine Bibliothek mit vielen Ressourcen kann jedoch dazu führen, dass Miniaturansichten ständig geladen und entladen werden, was die Navigation und die Suche nach Ressourcen erschwert. Es ist jetzt eine neue [Umgebungsvariable &#x200B;](../../pipeline-and-integration/configuration/environment-variables.md) vorhanden, mit der der standardmäßige Budgetwert überschrieben werden kann.
 
-### Neuer Adobe Standard Material-Workflow
+### Neuer Adobe Standard Material-Arbeitsablauf
 
 ![](../../assets/banner-asm.jpg)
 
 Ein neuer Shader mit dem Namen **Adobe Standard Material** (ASM) wurde hinzugefügt, der mehrere Funktionen gleichzeitig unterstützt, sodass komplexere und genauere Materialien innerhalb eines einzelnen Textursatzes erstellt werden können. Mit diesem neuen Shader haben wir auch die Möglichkeit genutzt, neue Kanäle hinzuzufügen, um die Erstellung von Materialien zu erleichtern.
 
-* **Neuer Adobe Standard Material Shader**\
-  Der neue ASM-Shader ist ein Shader, der mehrere Funktionen sowie eine Weiterentwicklung unseres PBR-Renderings neu gruppiert. Gleichzeitig unterstützt sie Folgendes:
+* **Neuer Adobe Standard Material-Shader**\
+  Der neue ASM Shader ist ein Shader, der mehrere Funktionalitäten sowie eine Weiterentwicklung unseres PBR-Renderings zusammenfasst. Gleichzeitig unterstützt sie Folgendes:
   * **Anisotropie**
   * **Mantel löschen**
   * **Glanz**
   * **Specular edge color**
-  * **Zusätzliche Methoden zur Untergrundstreuung**
+  * **Zusätzliche Methoden zur Volumenstreuung**
   * Und natürlich die anderen bestehenden Features wie Parralax Verdeckung, Versatz, etc.
 
 * **Neue Kanäle und Benutzerkanäle**\
-  Um den neuen ASM-Shader zu unterstützen, wurden neue Kanäle hinzugefügt. Außerdem haben wir die Anzahl der Benutzerkanäle verdoppelt, um die Möglichkeiten benutzerdefinierter Informationen und Shader zu erweitern.
+  Zur Unterstützung des neuen ASM-Shader wurden neue Kanäle hinzugefügt. Außerdem haben wir die Anzahl der Benutzerkanäle verdoppelt, um die Möglichkeiten benutzerdefinierter Informationen und Shader zu erweitern.
   * Beschichtungsfarbe
   * Rauheit der Beschichtung
   * Beschichtung normal
@@ -94,14 +94,14 @@ Ein neuer Shader mit dem Namen **Adobe Standard Material** (ASM) wurde hinzugef�
   * Benutzerkanäle von 8 bis 15
 
 * **Verbesserte Einstellungen für den Textursatz**\
-  Das Menü mit der Kanalliste in den Einstellungen für den Textursatz gruppiert die Kanäle jetzt nach ihrer Kompatibilität mit dem aktuellen Shader. So können Sie leichter erkennen, welche Kanäle im Viewport einen Effekt haben.
+  Das Kanallistenmenü in den Kanaleinstellungen gruppiert nun die Textursätze nach ihrer Kompatibilität mit dem aktuellen Shader. So können Sie leichter erkennen, welche Kanäle Auswirkungen auf den Viewport haben.
 
   ![](../../assets/channel-list-grouping.png)
 
 * **Neue Shader-API-Funktionen mit sichtbaren if- und Rekompilierungsfunktionen**\
   Mit der Entwicklung des ASM Shaders wurden einige Änderungen in der API mit zwei bemerkenswerten Funktionen vorgenommen:
-  * **Sichtbar wenn**: Shader-Parameter können je nach Bedingung ein- oder ausgeblendet werden, sodass die Shader-Benutzeroberfläche leichter lesbar ist.
-  * **Neukompilierung**: Durch das Deklarieren von Parametern auf eine bestimmte Weise ist es jetzt möglich, einen Teil eines Shaders zu deaktivieren und ihn neu zu kompilieren, um ihn zu optimieren, wenn sich der Parameter ändert. Dadurch können ungenutzte Funktionen verworfen werden.
+  * **Sichtbar wenn**: Shader-Parameter können je nach Bedingung ein- oder ausgeblendet werden, um die Shader-Benutzeroberfläche leichter lesbar zu machen.
+  * **Neukompilierung**: Durch eine bestimmte Parameterdeklaration ist es nun möglich, einen Teil eines Shader zu deaktivieren und neu zu kompilieren, um ihn zu optimieren, wenn sich der Parameter ändert. Dadurch können ungenutzte Funktionen verworfen werden.
 
 ### Neuer Austausch für Substance 3D-Ökosysteme
 
@@ -117,13 +117,13 @@ Das Senden von Ressourcen und Assets zwischen Substance 3D-Applikationen ist jet
   Exportieren Sie mit der aktualisierten Exportvorgabe von Painter nach Stager oder verwenden Sie die Aktion **An Substance 3D Stager senden**, um das aktuelle Projekt automatisch zu exportieren und in Stager zu importieren. Es ist keine manuelle Konfiguration erforderlich.
 
 * **Stager zu Painter**\
-  Erstelle Strukturen aus Modellen von 3D Stager, die sich mit einer ähnlichen Ein-Klick-Aktion direkt von 3D Stager aus erzeugen lassen.
+  Erstelle Modelle aus 3D Stager in einer Textur mit einer ähnlichen Ein-Klick-Aktion direkt aus 3D Stager.
 
 * **Designer oder Sampler zu Painter**\
-  Erhalten Sie Substance-Materialien, Filter und vieles mehr mit nur einem Klick aus Designer oder Sampler direkt im Bedienfeld &quot;Elemente&quot;.
+  Erhalten Sie Substance-Materialien, Filter und vieles mehr von Designer oder Sampler mit nur einem Klick direkt im Bedienfeld &quot;Elemente&quot;.
 
 * **Substance 3D Assets an Painter**\
-  Sie können Inhalte wie z. B. Substance aus dem Creative Cloud-Desktop direkt in das Bedienfeld &quot;Elemente&quot; in Painter übertragen.
+  Empfangen Sie Inhalte wie Substance Material vom Creative Cloud Desktop direkt in das Asset-Fenster von Painter.
 
 * **In Bridge anzeigen**\
   Ressourcen im Fenster &quot;Elemente&quot; in einer von Adobe Bridge verwalteten Bibliothek können in Bridge direkt geöffnet werden, indem Sie das Kontextmenü über einer bestimmten Ressource verwenden.
@@ -134,16 +134,16 @@ Das Senden von Ressourcen und Assets zwischen Substance 3D-Applikationen ist jet
 
 In dieser Version wurden neue Inhalte hinzugefügt:
 
-* **Neue Projektvorlagen für Adobe-Standmaterial (ASM)**\
-  Um den Einstieg in die Verwendung des neuen ASM-Shaders zu erleichtern, wurden neue Projektvorlagen erstellt, um die Projekterstellung zu beschleunigen:
-  * ASM - PBR Metallische Raueit
-  * ASM - PBR Metallische Raueit Anisotropie Winkel
-  * ASM - PBR Metallische Raueit beschichtet
-  * ASM - PBR Metallic Roughness SSS
-  * ASM - PBR Metallische Raueit Glanz
+* **Neue Projektvorlagen für Adobe Stand Material (ASM)**\
+  Um die Nutzung des neuen ASM-Shader zu erleichtern, wurden neue Projektvorlagen erstellt, um die Projekterstellung zu beschleunigen:
+  * ASM - PBR-Metallische Rauheit
+  * ASM - PBR Metallische Rauheit Anisotropy angle
+  * ASM - PBR Metallische Rauheit beschichtet
+  * ASM - PBR Metallische Rauheit SSS
+  * ASM - PBR Metallische Rauheit Glanz
 
-* **Neue Umgebungszuordnungen**\
-  Mehrere neue Umgebungskarten wurden hinzugefügt, um Ihre Projekte aufzuhellen, einschließlich Studio 06 zum Rendern der neuen Elemente-Miniaturansichten:
+* **Neue Umgebungs-Map**\
+  Einige neue Umgebungs-Map wurden hinzugefügt, um Ihre Projekte aufzuhellen, einschließlich der Studio 06-Version, mit der die neuen Elemente-Miniaturansichten gerendert wurden:
   * Innenausstattung:
     * Atelier
   * Studio:
@@ -153,20 +153,20 @@ In dieser Version wurden neue Inhalte hinzugefügt:
     * Studio White Soft
     * Studio White Umbrella
 
-### Verbessertes automatisches Ausgliedern von UVs
+### Verbesserter automatischer Entpack von UV
 
 ![](../../assets/banner-uv.jpg)
 
-Eine neue Aktualisierung der automatischen UV-Entpackung wurde hinzugefügt, die die Unterstützung von UV-Kacheln und zusätzliche Kontrolle über die UV-Generation bietet:
+Es wurde eine neue Aktualisierung der automatischen UV-entpack hinzugefügt, die die Unterstützung von UV-Kacheln und zusätzliche Kontrolle über die UV-Generierung bietet:
 
-* **Menge der UV-Kacheln**\
-  Bei der Generierung von UVs kann nun die maximale Anzahl der gewünschten UV-Kacheln festgelegt werden. Dies ermöglicht es, die UV-Generierung auch mit dem UV-Kachel-Workflow zu nutzen.
+* **UV-Kachel**\
+  Bei der Generierung von UVs kann nun die maximale Anzahl der zu erstellenden UV-Kacheln festgelegt werden. Dies ermöglicht es, die UV-Generierung auch mit dem UV-Kachel-Workflow zu verwenden.
 
 * **Ausrichtung der UV-Insel**\
-  Ein neuer Parameter wurde hinzugefügt, um die Ausrichtung der UV-Insel beim Verpacken zu beschränken. Auf diese Weise können UV-Inseln besser ausgerichtet werden, sodass einige Objekte leichter strukturiert werden können (z. B.: eine Holztür zur Ausrichtung des Holzmusters).
+  Ein neuer Parameter wurde hinzugefügt, um die Ausrichtung der UV-Insel beim Verpacken zu beschränken. Dies ermöglicht UV-Inseln, die ein bisschen besser ausgerichtet sind, sodass einige Objekte einfacher Textur werden können (z. B.: eine Holztür zur Ausrichtung des Holzmusters).
 
 * **Verbesserte Packing-Performance**\
-  Auch die Packing-Funktion wurde verbessert, um mit der neuen UV-Fliesenunterstützung eine gute Performance zu bieten.
+  Auch die Packing-Funktion wurde verbessert, um mit der neuen UV-Kachel-Unterstützung eine gute Performance zu bieten.
 
 ### Allgemeine Verbesserungen
 
@@ -174,17 +174,17 @@ Eine neue Aktualisierung der automatischen UV-Entpackung wurde hinzugefügt, die
 
 Diese neue Version bietet verschiedene Verbesserungen der Lebensqualität:
 
-* **Verbesserte Schiebereglerleistung mit dem Zeichenstift des Grafiktabletts**\
-  Das Ziehen der Regler mit dem Stift sollte nun deutlich reaktionsfähiger sein. Schieberegler sollten sich nicht mehr klebrig fühlen.
+* **Verbesserte Schiebereglerleistung mit dem Stift des Grafiktabletts**\
+  Das Ziehen von Reglern mit einem Stift sollte jetzt viel reaktionsfähiger sein. Schieberegler sollten sich nicht mehr klebrig fühlen.
 
 * **Verbesserte Leistung mit bereits übermalten Ebenen**\
   Das Malen auf einer Ebene mit vielen vorhandenen Pinselstrichen sollte jetzt viel schneller gehen und nicht mehr zu einer Verlangsamung führen.
 
 * **Schnelleres Malen nach dem Öffnen eines Projekts**\
-  Das Malen auf einer Ebene oben im Ebenenstapel unmittelbar nach dem Öffnen eines Projekts erfolgt jetzt sofort. Die Berechnung des Engine-Cache wurde auf einen späteren Zeitpunkt verschoben, sodass die Neuauflage alter Projekte in diesem Kontext etwas schneller ist.
+  Das Malen auf einer Ebene oben im Ebenenstapel unmittelbar nach dem Öffnen eines Projekts erfolgt jetzt sofort. Die Berechnung des Engine-Caches wurde auf einen späteren Zeitpunkt verschoben, sodass die Neuauflage alter Projekte in diesem Kontext etwas schneller vonstatten geht.
 
 * **Scharfe normale Methode**\
-  Der neue Methodenparameter &quot;Height zu Normal&quot; in den Einstellungen für den Textursatz ermöglicht es, zu steuern, wie der Height-Kanal in eine Normalmap konvertiert wird. Dieser neue Parameter ist nützlich, um die Qualität von Oberflächen mit vielen verschiedenen Details, wie z. B. Gewebematerialien, zu verbessern.
+  In den Textursatz-Einstellungen gibt es einen neuen Methodenparameter &quot;Height zu Normal&quot;, mit dem Sie steuern können, wie der Height-Kanal in eine Normalen-Map konvertiert wird. Dieser neue Parameter ist nützlich, um die Qualität von Oberflächen mit vielen verschiedenen Materialien zu verbessern, wie z. B. bei Stoff.
 
   ![](../../assets/normal-mode.jpg){width="450px"}
 
@@ -192,7 +192,7 @@ Diese neue Version bietet verschiedene Verbesserungen der Lebensqualität:
   Die allgemeine Benutzeroberfläche wurde leicht angepasst, um sie besser an das allgemeine Substance 3D-Ökosystem anzupassen. Dies macht den Wechsel von einer Anwendung zur anderen weniger überraschend und einfacher zu navigieren.
 
 * **Neue Übersetzungen**\
-  Zur Übersetzung der Programmoberfläche wurden drei neue Sprachen hinzugefügt:
+  Es wurden drei neue Sprachen hinzugefügt, um die Benutzeroberfläche des Programms Kamera bewegen:
   * Français
   * Deutsch
   * Vereinfachtes Chinesisch
@@ -261,7 +261,7 @@ Zusammenfassung: **Die Hauptversion bietet eine Aktualisierung des Bedienfelds &
 * [UI] Symbol &quot;Umkehren ersetzen&quot;
 * [UI]&#x200B;[Plug-In] Symbol &quot;Ersetzen&quot; für den DCC-Link des Plug-Ins
 * [UI]&#x200B;[AMD] Mindest erforderliche Version aktualisieren und Popup-Nachricht
-* [Ebenenstapel] Neue Ebene im ausgewählten leeren Ordner erstellen
+* [Ebenenstapel] Neue Ebene innerhalb des ausgewählten leeren Ordners erstellen
 * Python-Dokumentation aktualisieren
 * [Branding]
 * [Branding]&#x200B;[UI] Der Anwendungsname wurde in Adobe Substance 3D Painter aktualisiert.

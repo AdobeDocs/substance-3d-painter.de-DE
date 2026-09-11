@@ -20,26 +20,26 @@ ht-degree: 0%
 
 # Version 9.1
 
-<b>Substance 3D Painter 9.1</b> fügt die Tangentensteuerung für das Pfadwerkzeug, die Unterstützung des SVG-Dateiformats, die Möglichkeit zum Importieren und Anwenden von Ressourcen durch Drag &amp; Drop und die Unterstützung für Transparenz im Viewport hinzu.
+<b>Substance 3D Painter 9.1</b> fügt Tangente-Kontrolle für das Pfadwerkzeug, Unterstützung des SVG-Dateiformats und die Möglichkeit zum Importieren und Anwenden von Ressourcen durch Drag &amp; Drop sowie Unterstützung für translucency im Viewport hinzu.
 
 Freigabedatum: *7. November 2023*
 
 ## Wichtigste Funktionen
 
-### Neue Tangentensteuerungen und Verbesserungen für das Pfadwerkzeug
+### Neue Steuerelemente für die Tangente und Verbesserungen für das Pfadwerkzeug
 
 ![Bannerpfad-Tool](../assets/v91_banner_tangents.jpg)
 
 In dieser neuen Version setzen wir die Entwicklung des Pfad-Werkzeugs (eingeführt in Version 9.0) fort, um fehlende Bits und Funktionen hinzuzufügen, die von der Community angefordert wurden.
 
-* <b>Tangenten manuell auf Pfad-Punkte steuern</b>
+* <b>Tangenten manuell auf den Steuerungspfad verweisen</b>
 
   Es ist jetzt möglich, die Tangenten eines bestimmten Punktes auf einem Pfad manuell festzulegen. Dies ermöglicht es, das automatische Verhalten zu überschreiben, um neue Formen zu erstellen.
 
   ![Benutzerdefinierte Tangenten](../assets/path_control_tangents.gif)
 * <b>Pfadpunkte über Manipulatoren bearbeiten</b>
 
-  Manchmal reicht es nicht aus, einfach nur Punkte auf der Oberfläche des Objekts zu verschieben. Die Manipulatoren ermöglichen es, Punkte über die Oberfläche hinaus zu verschieben. Dies kann sehr hilfreich sein, um mehrere Punkte gleichzeitig zu verschieben, z. B. wenn sie nach einem erneuten Importieren des Gitters zu weit von einer Oberfläche entfernt waren.
+  Manchmal reicht es nicht aus, einfach nur Punkte auf der Oberfläche des Objekts zu verschieben. Die Manipulator ermöglichen es, Punkte über die Fläche hinaus zu verschieben. Dies kann sehr hilfreich sein, um mehrere Punkte gleichzeitig zu verschieben, z. B. wenn sie nach dem Wiedereinführen eines Meshs zu weit von einer Fläche entfernt waren.
 
   ![Pfadtangente übersetzen Manipulator](../assets/path_tangents_translate.gif)
 * <b>Pfadsichtbarkeit einzeln ein-/ausschalten</b>
@@ -59,20 +59,20 @@ In dieser neuen Version setzen wir die Entwicklung des Pfad-Werkzeugs (eingefüh
 >
 > Weitere Informationen über das Pfad-Tool [finden Sie in der dedizierten Dokumentation &#x200B;](../painting/tool-list/path.md).
 
-### Neue Unterstützung für Transparenz, Transparenz und Absorption im Viewport
+### Neue Unterstützung für translucency, Transparenz und Absorption im Viewport
 
 ![Banner ASM](../assets/v91_banner_asm.jpg)
 
-Der Shader <b>Adobe Standardmaterial</b> (ASM), der beim Erstellen eines neuen Projekts der Standard ist, wurde aktualisiert und unterstützt <b>Transparenzeigenschaften</b>, <b>Transparenzeigenschaften</b> und <b>Absorption</b>. Dies bedeutet, dass es jetzt möglich ist, das Ergebnis dieser Rendering-Verhalten im Echtzeit-Viewport (sowie im Iran-Renderer) anzuzeigen.
+Der <b>Adobe Standard Material</b> (ASM)-Shader, der beim Erstellen eines neuen Projekts der Standard ist, wurde aktualisiert und unterstützt <b>Translucency</b>, <b>Transparency</b> und <b>Absorption</b>-Eigenschaften. Dies bedeutet, dass es jetzt möglich ist, das Ergebnis dieser Rendering-Verhaltensweisen im Echtzeit-Viewport (sowie im Iray-Renderer) anzuzeigen.
 
-Authoring-Materialien wie <b>Glas</b>, <b>Laub</b> oder <b>Kunststoff</b> mit einer geringen Absorption an Licht sind jetzt möglich und können direkt im Viewport angezeigt werden. Der Export in andere Substance 3D-Anwendungen führt dank der ASM-Definition ebenfalls zu einem übereinstimmenden Look.
+Das Erstellen von Materialien wie <b>glass</b>, <b>foliage</b> oder <b>plastic</b> mit einer geringen Absorption ist jetzt möglich und direkt im Viewport sichtbar. Der Export in andere Substance 3D-Anwendungen führt dank der ASM-Definition ebenfalls zu einem übereinstimmenden Look.
 
 * <b>Neue ASM-Shader-Einstellungen</b>
 
   Der ASM-Shader wurde aktualisiert, um neue Funktionen zu unterstützen, die über das Fenster [Shader-Einstellungen](../interface/shader-settings/shader-settings.md) geändert werden können:
 
-  * <b>Transparenz</b> (Deckkraft): Es ist nicht mehr notwendig, zu einem anderen Shader zu wechseln, um transparente Oberflächen zu erhalten, wie z. B. Laub. Aktivieren Sie stattdessen den <b>Alphatest</b> oder den <b>Alphamischungs</b>-Parameter unter der Gruppe <b>Geometrie > Deckkraft</b>. Die üblichen Einstellungen, wie z. B. Dithering, sind ebenfalls verfügbar.
-  * <b>Transparenz</b>: Mit dieser neuen Eigenschaft können Sie Oberflächen wie Glas erstellen, Formen transparent machen und gleichzeitig die Specular-Reflexionen beibehalten. Um ihn zu verwenden, fügen Sie einen Transparenzkanal in Ihrem Projekt hinzu und aktivieren Sie den Parameter <b>Transluzenz</b> unter der Gruppe <b>Inneres</b>.
+  * <b>Transparenz</b> (Deckkraft): Es ist nicht mehr nötig, auf einen anderen Shader zu wechseln, um transparente Flächen zu erhalten, wie z. B. Laub. Aktivieren Sie stattdessen den <b>Alphatest</b> oder den <b>Parameter Alpha-Überblendung</b> unter der Gruppe <b>Geometrie > Deckkraft</b>. Die üblichen Einstellmöglichkeiten, wie Dithering, sind ebenfalls verfügbar.
+  * <b>Transparenz</b>: Mit dieser neuen Eigenschaft können Sie Oberflächen wie Glas erstellen, Formen transparent machen und gleichzeitig die Specular-Reflexionen beibehalten. Um ihn zu verwenden, fügen Sie einen Translucency-Kanal in Ihrem Projekt hinzu und aktivieren Sie den Parameter <b>Translucency</b> unter der Gruppe <b>Interior</b>.
   * <b>Absorption</b>: Diese neue Eigenschaft ermöglicht es, Licht zu simulieren, das durch ein Objekt dringt und absorbiert wird, was nützlich sein kann, um Plastik oder Flüssigkeiten auf eine bessere Weise zu simulieren, als mit Volumenstreuung. Um sie zu verwenden, aktivieren Sie die Einstellung &quot;<b>Absorption</b>&quot; unter der Gruppe &quot;<b>Inneres</b>&quot;.
 * <b>Verbesserte Benutzeroberfläche für Shader-Einstellungen und QuickInfos</b>
 
@@ -81,31 +81,31 @@ Authoring-Materialien wie <b>Glas</b>, <b>Laub</b> oder <b>Kunststoff</b> mit ei
   Die Parameterreihenfolge sollte auch mit der anderer Substance 3D-Software übereinstimmen, was das Hin- und Herschalten beim Ausprobieren der Einstellungen erleichtert.
 
   ![ASM-QuickInfos](../assets/v91_asm_tooltips.png)
-* <b>Neues Beispielprojekt zur Demo des Adobe-Standardmaterials</b>
+* <b>Neues Beispielprojekt zur Demo des Adobe Standard Materials</b>
 
   Das Bearbeiten der neuen ASM-Eigenschaften kann zunächst schwierig sein. Daher wurde ein neues Beispielprojekt mit mehreren Funktionen des Shaders hinzugefügt, um das Erlernen dieser Eigenschaften zu vereinfachen.
 
   Dieses Projekt heißt <b>Französischer Restauranttisch</b> und ist über das Menü <b>Datei > Muster öffnen</b> zu finden. Es werden auch viele kleine Tricks verwendet, sodass es eine großartige Lernressource sein kann, um neue Möglichkeiten der Texturierung zu entdecken.
 
   ![Demo-Beispielprojekt](../assets/v91_asm_demo_project.png)
-* <b>Der Transparenzkanal verwendet jetzt standardmäßig eine schwarze Farbe</b>
+* <b>Der Translucency-Kanal verwendet jetzt standardmäßig eine schwarze Farbe</b>
 
-  Um die Verwendung der neuen Shader-Eigenschaften zu vereinfachen und unerwartete Ergebnisse im Viewport zu vermeiden, wurde die Standardfarbe der Kanaltransparenz in Schwarz (anstelle von Weiß) geändert.
+  Um die Verwendung der neuen Shader-Eigenschaften zu vereinfachen und unerwartete Ergebnisse im Viewport zu vermeiden, wurde die Standardfarbe der Kanal-Translucency in Schwarz (anstelle von Weiß) geändert.
 
-  Wenn dieser Kanal bereits in Ihrem Projekt verwendet wurde, können Sie das vorherige Verhalten erreichen, indem Sie einfach eine Füllebene am unteren Rand Ihres Ebenenstapels hinzufügen und den Kanalwert auf Weiß festlegen. Sie können die Einstellung <b>Transparenz als Streumaske </b> im Shader-Parameter verwenden aktivieren, um den Beitrag des Kanals auf das Streuergebnis unter der Oberfläche erneut anzuwenden.
+  Wenn dieser Kanal bereits in Ihrem Projekt verwendet wurde, können Sie das vorherige Verhalten abrufen, indem Sie einfach eine Füllebene am unteren Rand Ihres Ebenenstapels hinzufügen und den Kanalwert auf Weiß festlegen. Sie können die Einstellung <b>translucency als Streumaske </b> im Kanalparameter aktivieren, um den Shader-Beitrag auf das Streuergebnis unter der Oberfläche erneut anzuwenden.
 
-### Neue Unterstützung für Vektorgrafikdateien (SVG)
+### Neue Unterstützung für Vektorgrafik-Dateien (SVG)
 
 ![Banner-SVG](../assets/v91_banner_svg.jpg)
 
-In dieser Version wird die Unterstützung von SVG-Dateien als Ressourcen hinzugefügt, die in Ebenen, Malwerkzeugen usw. verwendet werden können.
+Diese Version bietet Unterstützung für SVG-Dateien als Ressourcen, die in Ebenen, Malen-Tools usw. verwendet werden können.
 
 SVG-Dateien sind sehr praktisch, um Logos oder Formen präzise darzustellen, während sie sehr leicht sind. In Painter können sie mit einer bestimmten Auflösung gerendert und einfach aktualisiert werden, sodass sie sich perfekt für den nicht-destruktiven Arbeitsablauf eignen.
 
 * <b>SVG-Dateien importieren</b>\
   SVG-Dateien können wie andere Ressourcen in Projekte, Bibliotheken usw. importiert werden. SVG <b> bis Version 1.1</b> kann importiert werden, Funktionen aus neueren Versionen werden nicht unterstützt.
 
-  Der Import wurde auch in dieser Version erleichtert (siehe unten), sodass die Verwendung von SVG-Dateien einfach durch Ziehen und Ablegen von Ressourcen von außerhalb von Painter direkt auf das Gitter oder den Ebenenstapel erfolgen kann.
+  Der Import wurde auch in dieser Version erleichtert (siehe unten), sodass die Verwendung von SVG-Dateien einfach durch Ziehen und Ablegen von Ressourcen von außerhalb von Painter direkt auf den Mesh oder den Ebenenstapel erfolgen kann.
 * <b>Dedizierte SVG-Einstellungen</b>\
   Wenn Sie eine SVG-Ressource verwenden, sind einige Einstellungen verfügbar, um das Aussehen zu steuern:
 
@@ -114,13 +114,13 @@ SVG-Dateien sind sehr praktisch, um Logos oder Formen präzise darzustellen, wä
   * <b>Umfang</b>: , um den gesamten Inhalt der SVG oder nur einige Elemente auszuwählen.
 
   ![SVG von Einstellungen](../assets/v91_svg_settings.png)
-* <b>Neue Materialien für SVG</b>
+* <b>Neue Material mit SVG-Anpassung</b>
 
   3 neue Ressourcen wurden hinzugefügt, um die Verwendung von SVG-Dateien bei der Texturierung zu unterstützen:
 
-  * <b>Benutzerdefinierte Sprühfarbe</b>: ermöglicht die Simulation eines Aufklebers, der von einem einzigen Eingabebild auf eine Wand gemalt wird.
+  * <b>Benutzerdefiniertes Sprüh-Malen</b>: ermöglicht die Simulation eines Aufklebers, der von einem einzigen Eingabebild auf eine Wand gemalt wurde.
   * <b>Benutzerdefinierter Aufkleber</b>: , um einen Plastikaufkleber auf einer Oberfläche zu erstellen. Es verfügt über mehrere Einstellungen, um Beschädigungen und Falten zu simulieren.
-  * <b>Grafik zu Material</b>: ermöglicht die Erstellung mehrerer Materialeigenschaften aus einer einzigen Bildeingabe. Diese Ressource wird automatisch eingefügt, wenn Sie eine SVG-Datei per Drag &amp; Drop in den Viewport ziehen. Diese Ressource bietet eine einfache Möglichkeit, die Transparenz der Eingabe über mehrere Kanäle zu teilen, sodass sie perfekt für einfache Aufkleber geeignet ist.
+  * <b>Grafik zu Material</b>: ermöglicht das Erstellen mehrerer Bildeigenschaften aus einer einzigen Bildeingabe. Diese Ressource wird automatisch eingefügt, wenn Sie eine SVG-Datei per Drag &amp; Drop in den Viewport ziehen. Diese Ressource bietet eine einfache Möglichkeit, die Transparenz der Eingabe über mehrere Kanäle zu teilen, sodass sie perfekt für einfache Aufkleber geeignet ist.
 
   ![Symbole für SVG-Ressourcen](../assets/v91_svg_resources.png)
 
@@ -138,12 +138,12 @@ Diese Version ermöglicht es, eine externe Datei per Drag &amp; Drop in verschie
 
 * <b>Importieren per Drag &amp; Drop in den Viewport</b>
 
-  Ziehe eine externe Datei in den Viewport, um sie direkt im Gitter zu platzieren. Dadurch wird automatisch eine neue Ebene erstellt. Je nach Art der Ressource (Bild, Substance, Substance-Filter usw.) wird das Ergebnis entsprechend angepasst.
-* <b>Importieren durch Ziehen und Ablegen in den Ebenenstapel</b>\
-  Genauso wie es möglich ist, externe Ressourcendateien im Viewport abzulegen, können durch das Ablegen von Dateien im Ebenenstapel direkt Ebenen oder Effekte mit der Ressource darin erstellt werden.
+  Ziehen Sie eine externe Datei in den Viewport, um sie direkt auf dem Mesh ablegen zu können. Dadurch wird automatisch eine neue Ebene erstellt. Je nach Art der Ressource (Bild, Substance-Material, Substance-Filter usw.) wird das Ergebnis entsprechend angepasst.
+* <b>Importieren per Drag &amp; Drop in den Ebenenstapel</b>\
+  Genauso wie es möglich ist, externe Ressourcendateien in den Viewport zu kopieren, können durch das Ablegen von Dateien im Ebenenstapel direkt Ebenen oder Effekte mit der Ressource darin erstellt werden.
 * <b>Importieren durch Ziehen und Ablegen in einen Ressourcensteckplatz</b>
 
-  Es ist auch möglich, eine Ressource direkt in eine Ebene oder ein Werkzeug zu importieren. Wenn bereits eine Füllebene oder ein Effekt mit der richtigen Einstellung vorhanden ist, legen Sie einfach eine externe Datei in einen der Kanalsteckplätze des Eigenschaftenfensters ab, um sie zu importieren und anzuwenden.
+  Es ist auch möglich, eine Ressource direkt in eine Ebene oder ein Werkzeug zu importieren. Wenn bereits eine Füllebene oder ein Effekt mit dem richtigen Setup vorhanden ist, legen Sie einfach eine externe Datei in einen der Kanalsteckplätze des Eigenschaftenfensters ab, um sie zu importieren und anzuwenden.
 
 >[!NOTE]
 >
@@ -157,7 +157,7 @@ Verbesserungen beim Ziehen und Ablegen sind nicht auf den Import von Ressourcen 
 
 * <b>Ziehen und Ablegen vieler Ressourcentypen</b>
 
-  Es ist jetzt möglich, Ressourcen-Typen per Drag-and-Drop direkt in den Viewport oder den Ebenenstapel zu ziehen. Der folgende Ressourcentyp kann jetzt per Drag &amp; Drop (fast) an eine beliebige Stelle verschoben werden:
+  Es ist jetzt möglich, Ressourcentypen per Drag &amp; Drop direkt in den Viewport oder den Ebenenstapel zu ziehen. Der folgende Ressourcentyp kann jetzt per Drag &amp; Drop (fast) an eine beliebige Stelle verschoben werden:
 
   * Alphas
   * Texturen
@@ -167,38 +167,38 @@ Verbesserungen beim Ziehen und Ablegen sind nicht auf den Import von Ressourcen 
   * Smart-Masken
   * Generatoren
   * Filter
-  * Umgebungskarten
+  * Umgebungs-Map
 * <b>Ressourcen als neue Ebene oder als neuen Effekt ablegen</b>
 
   Wenn Painter auswählt, wo eine Ressource abgelegt wird, erstellt es automatisch eine neue Ebene oder einen neuen Effekt:
 
-  ![Drag &amp; Drop im Ebenenstapel &#x200B;](../assets/v91_drop_filter_stack.gif)
-* <b>Auswählen zwischen dem Effektstapel &quot;Inhalt&quot; oder &quot;Maske&quot; beim Ziehen\
+  ![Drag-Drop im Ebenenstapel &#x200B;](../assets/v91_drop_filter_stack.gif)
+* <b>Beim Ziehen zwischen dem Stapel &quot;Inhalt&quot; und &quot;Maskeneffekt&quot; wählen\
   </b>
 
-  Wenn du eine Ressource über eine Miniaturansicht ziehst, wechselt Painter automatisch zu den zugehörigen Effektstapeln. Danach ist es sehr einfach, die Ressource an einer bestimmten Position in diesem Stapel abzulegen. Dadurch müssen Sie nicht vorher zum richtigen Stapel wechseln.
+  Wenn du eine Ressource über eine Miniaturansicht ziehst, wechselt Painter automatisch zu den entsprechenden Effekt-Stapeln. Danach ist es sehr einfach, die Ressource an einer bestimmten Stelle in diesem Stapel abzulegen. Dadurch ist es nicht erforderlich, vorher zum richtigen Stapel zu wechseln.
 
-  ![Effekt-Stack-Schalter](../assets/v91_drop_stack_switch.gif)
-* <b>Neue schwarze Maske im Flug erstellen</b>
+  ![Schalter für Effekt-Stapel](../assets/v91_drop_stack_switch.gif)
+* <b>Neue schwarze Maske sofort erstellen</b>
 
-  Beim Ziehen einer Ressource wird auf einer beliebigen Ebene ohne Maske ein neues Symbol angezeigt. Wenn eine Ressource auf dieser Geistermaske abgelegt wird, wird automatisch eine neue Maske erstellt und die neue Ressource hinzugefügt. Auf diese Weise können Sie schnell eine neue Maske einrichten und das Ziehen und Ablegen abbrechen, um sie manuell hinzuzufügen.
+  Beim Ziehen einer Ressource wird auf einer beliebigen Ebene ohne Maske ein neues Symbol angezeigt. Wenn eine Ressource auf dieser Maske abgelegt wird, wird automatisch eine neue Phantom erstellt und die neue Ressource hinzugefügt. Auf diese Weise können Sie schnell eine neue Maske einrichten und das Ziehen und Ablegen abbrechen, um sie manuell hinzuzufügen.
 
   ![Ziehen und Ablegen zum Erstellen einer neuen Maske](../assets/v91_drop_new_mask.gif)
-* <b>Im Darstellungsfenster neue Ebenen erstellen</b>
+* <b>Viewport zum Erstellen neuer Ebenen einfügen</b>
 
-  Ziehen und Ablegen von Ressourcen kann auch im Ansichtsfenster durchgeführt werden, um neue Ebenen zu erstellen. Je nach Typ der Ressource kann sich das Ergebnis ändern. Ein Filter erstellt eine Malebene im Durchlaufmodus, während eine Smart-Maske eine Füllebene mit einer neuen Maske erstellt.
+  Ziehen und Ablegen von Ressourcen kann auch im Viewport durchgeführt werden, um neue Ebenen zu erstellen. Je nach Typ der Ressource kann sich das Ergebnis ändern. Ein Filter erstellt eine Malebene im Passthrough-Modus, während eine intelligente Maske eine Füllebene mit einer neuen Maske erstellt.
 
-  ![Smartmaske ziehen und ablegen](../assets/v91_drop_smart_mask.gif)
+  ![intelligente Maske ziehen und ablegen](../assets/v91_drop_smart_mask.gif)
 
   ![Filter ziehen und ablegen](../assets/v91_drop_filter.gif)
 * <b>Tastenmodifikatoren für erweiterte Verhaltensweisen verwenden</b>
 
   Wenn Sie beim Ablegen einer Ressource den Tastaturmodifizierer STRG oder ALT beibehalten, können zusätzliche Verhalten aktiviert werden:
 
-  * <b>STRG</b> beim Ablegen im <b>Ebenenstapel</b>: Erstelle eine neue Ebene mit der Ressource in einer schwarzen Maske. kann nützlich sein, um ein Material in eine Maske zu zwingen, zum Beispiel. Oder überspringen Sie das Dropdown-Menü mit einem Alpha-Zeichen.
-  * <b>ALT</b> beim Ablegen im <b>Ebenenstapel</b>: Gilt nur, wenn Sie über eine Ebenenminiatur legen. Mit ALT werden alle vorherigen Effekte entfernt. So können Sie schnell verschiedene Ressourcen ausprobieren, insbesondere intelligente Masken, ohne sie vorher manuell entfernen zu müssen.
-  * <b>STRG</b> beim Ablegen im <b>Ansichtsport</b>: Erstelle eine neue Ebene mit der Ressource in einer schwarzen Maske. Die Ressource wird unter einem <b>Farb-ID-Auswahl</b>-Effekt platziert, der auf der Grundlage der im Viewport vorgenommenen Auswahl festgelegt wird.
-  * <b>ALT</b> beim Ablegen im <b>Ansichtsport</b>: Wie zuvor erzwingt dies, dass sich eine Ressource im Decal-Projektionsmodus befindet.
+  * <b>STRG</b> beim Ablegen im <b>Ebenenstapel</b>: eine neue Ebene mit der Ressource in einer schwarze Maske erstellen. kann nützlich sein, um beispielsweise zu erzwingen, dass ein Material in eine Maske eingefügt wird. Oder überspringen Sie das Dropdown-Menü mit einem Alpha-Zeichen.
+  * <b>ALT</b> beim Ablegen im <b>Ebenenstapel</b>: Gilt nur, wenn Sie über eine Ebenenminiatur legen. Mit ALT werden alle vorherigen Effekte entfernt. So können Sie schnell verschiedene Ressourcen ausprobieren, insbesondere intelligente Masken, ohne sie zuerst manuell entfernen zu müssen.
+  * <b>STRG</b> beim Ablegen im <b>Viewport</b>: eine neue Ebene mit der Ressource in einer schwarze Maske erstellen. Die Ressource wird unter einem <b>Farb-ID-Auswahl</b>-Effekt platziert, der auf der Grundlage der im Viewport getroffenen Auswahl festgelegt wird.
+  * <b>ALT</b> beim Ablegen im <b>Viewport</b>: Wie zuvor erzwingt eine Ressource die Projektion des Aufklebers.
 
 ### Verschiedene Verbesserungen
 
@@ -210,16 +210,16 @@ In dieser Version wurden auch einige kleinere Funktionen und Verbesserungen hinz
 
   Ab sofort werden alle Bilder, die in einem Projekt mit einer Bittiefe von 16 enthalten sind, mit einem verlustfreien Algorithmus komprimiert. So können sie ohne Qualitätsverlust komprimiert werden. Außerdem komprimiert die Projektdatei bereits ihre eigenen Daten.
 
-  Diese Änderung zielt hauptsächlich auf <b>Texturen backen</b> ab, was normalerweise der Grund dafür ist, dass Projektdateien auf der Festplatte sehr groß sein können. Im Durchschnitt wurden Projekte auf dem Datenträger um 30 % auf 50 % reduziert</b>.<b>
+  Diese Änderung zielt hauptsächlich auf <b>Baking-Texturen</b> ab, was normalerweise der Grund dafür ist, dass Projektdateien sehr viel Speicherplatz auf dem Datenträger belegen können. Im Durchschnitt wurden Projekte auf dem Datenträger um 30 % auf 50 % reduziert</b>.<b>
 
   Diese Komprimierung wird automatisch angewendet, wenn ein Projekt (alt oder neu) auf Ressourcen gespeichert wird, die noch nicht komprimiert wurden. Das bedeutet, dass für alte Projekte das erstmalige Speichern in dieser neuen Version etwas mehr Zeit in Anspruch nehmen könnte als sonst. Die Zeitersparnis sollte sich wieder normalisieren, sobald dies erledigt ist.
-* <b>Neuer UV-Set auf UV-Set-Füllprojektionsmodus </b>
+* <b>Neuer UV-Satz-zu-UV-Satz-Füllmodus für die Projektion</b>
 
-  Ein neuer Projektionsmodus für Füllebenen/Effekte wurde mit dem Namen <b>UV set to UV set projection</b> hinzugefügt. Sie kann verwendet werden, um eine Textur basierend auf verschiedenen UVs, die im Gitter im Projekt verfügbar sind, zu projizieren. Es kann verwendet werden, um eine fortschrittlichere Texturübertragung durchzuführen, ohne auf externe Tools angewiesen zu sein.
+  Ein neuer Projektion-Modus für Füllebenen/Effekte mit dem Namen <b>UV-Satz wurde der UV-Satz-Projektion </b> hinzugefügt. Sie kann verwendet werden, um eine Textur auf der Grundlage verschiedener UVs zu projizieren, die auf dem Mesh im Projekt verfügbar sind. Es kann für eine erweiterte Textur-Übertragung verwendet werden, ohne dass externe Tools erforderlich sind.
 
-  <b>UV-Satz 0</b> ist der standardmäßige UV, der von Painter zum Malen verwendet wird. Wenn zusätzliche UV-Sätze verfügbar sind, sind sie in der Dropdown-Liste in der Einstellung <b>Quelle</b> verfügbar:
+  <b>UV-Satz 0</b> ist die standardmäßige UV, die zum Malen mit Painter verwendet wird. Wenn zusätzliche UV-Satz verfügbar sind, sind sie in der Dropdown-Liste in der Einstellung <b>Quelle</b> verfügbar:
 
-  ![UV-Set-Projektion](../assets/v91_uv_set_proj.png)
+  ![UV-Satz Projektion](../assets/v91_uv_set_proj.png)
 * <b>Temporale Anti-Aliasing ist standardmäßig für jedes neue Projekt aktiviert</b>
 
   Beim Erstellen eines neuen Projekts ist die Einstellung <b>Temporale Anti-Aliasing</b>, die im Fenster Anzeigeeinstellungen verfügbar ist, jetzt standardmäßig aktiviert, um die Qualität des Renderings im Viewport zu verbessern.
@@ -228,12 +228,12 @@ In dieser Version wurden auch einige kleinere Funktionen und Verbesserungen hinz
   Die Python-API hat in dieser Version einige Ergänzungen erhalten:
 
   * Painter kann mit der neuen <b>substance\_painter.application.close() </b>-Funktion über Python geschlossen/heruntergefahren werden.
-  * Die Hauptkamera des Ansichtsports kann jetzt über die API geändert werden. Dazu gehören Position, Drehung, aber auch andere Eigenschaften wie Blickfeld, Blende usw. Um die Positionierung der Kamera in Bezug auf das Gitter zu vereinfachen, zeigt die API jetzt auch den Begrenzungsrahmen der Szene an.
+  * Die Kamera des Haupt-Viewports kann jetzt über die API geändert werden. Dazu gehören die Position, die Drehung, aber auch andere Eigenschaften wie Sichtfeld, Blende usw. Um die Positionierung der Kamera in Bezug auf den Mesh zu vereinfachen, legt die API jetzt auch den Begrenzungsrahmen der Szene.
   * Das Exportieren des Projektgitters, mit Triangulation oder nicht und Versatz oder nicht, ist jetzt über das Exportmodul möglich.
-  * Der Pfad für Projektexporttexturen kann jetzt auch von der API abgerufen werden.
+  * Der Pfad der Texturen für den Projektexport kann jetzt auch von der API abgerufen werden.
 * <b>Neuer Versand an After Effects (Beta)</b>
 
-  Es ist eine neue Aktion zum Senden an verfügbar, mit der ein Gitter und seine Textur in After Effects exportiert werden können, sodass Sie visuelle Effekte bequem iterieren können. Für diese Funktion ist der Zugriff auf die After Effects-Betaversion 24.1 erforderlich.
+  Für den Export eines Meshs und seiner Textur nach After Effects ist eine neue Aktion zum Senden an verfügbar, sodass Sie Visual Effects bequem iterieren können. Für diese Funktion ist der Zugriff auf die After Effects-Betaversion 24.1 erforderlich.
 
 ## Tutorials
 

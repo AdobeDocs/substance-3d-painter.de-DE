@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Referenz "Lib Sparse Shader-API" für Substance 3D Painter zu, um mit Spare Texture Sampling in benutzerdefinierten Shadern zu arbeiten.
+description: Greifen Sie auf die Referenz "Lib Sparse Shader-API" für Substance 3D Painter zu, um mit dem Sampling mit geringer Textur in benutzerdefinierten Shadern zu arbeiten.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API
 helpx_experience_level: ""
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## lib-sparse.glsl
 
-Diese Datei enthält nützliche Funktionen, um sicherzustellen, dass die Sampling-Richtigkeit von &quot;spärlichen Texturen&quot; (ARB\_sparse\_texture) gewährleistet ist. Ermöglicht das Sampeln nur eines Teils der Texturen, die wirklich im Videospeicher vorhanden sind.
+Diese Datei enthält nützliche Funktionen, um sicherzustellen, dass die Texturen mit geringer Dichte die richtige Sampling-Genauigkeit aufweisen (ARB\_sparse\_Textur). Ermöglicht das Sampeln nur eines Teils der Texturen, die tatsächlich im Videospeicher vorhanden sind.
 
 **Öffentliche Funktionen:** *getSparseCoord* *getSparseCoordLod0* *textureSparseQueryLod* *textureSparse*
 
 **Öffentliche Strukturen:** *SamplerSparse* *SparseCode*
 
-Das Makro *FEATURE\_SPARSE\_TEXTURE* ist nur definiert, wenn die Erweiterung für virtuelle Texturen mit geringer Dichte aktiviert ist.
+Das Makro *FEATURE\_SPARSE\_TEXTUR* ist nur definiert, wenn die Erweiterung für die virtuelle Textur mit geringer Dichte aktiviert ist.
 
-Wenn diese Option aktiviert ist, können Sie zusätzliche Textursuchprüfungen verarbeiten, um die Mipmap-Pyramide nach oben zu klettern, wenn Texel fehlen.
+Wenn diese Option aktiviert ist, können Sie zusätzliche Textur-Nachschlagetests verarbeiten, um die Mipmap-Pyramide zu erklimmen, wenn Texel fehlen.
 
 ```
 ## ifdef FEATURE_SPARSE_TEXTURE
@@ -63,7 +63,7 @@ uniform float uvtile_lod_bias;
 ```
 
 
-Informationsstruktur für Sampler und Spare Texture
+Informationsstruktur für Sampler und spärliche Texturen
 
 Wird zum Abfragen aller Sampler-bezogenen Uniformen mit einer einzigen automatischen Bindung verwendet.
 
@@ -84,7 +84,7 @@ struct SamplerSparse {
 
 Koordinaten für spärliches Sampling
 
-UV-Koordinaten und materialsparse LoD-Maske speichern
+UV-Koordinaten speichern und Material-weise dünne LoD-Maske
 
 ```
 struct SparseCoord { 
@@ -109,7 +109,7 @@ struct SparseCoord {
 ```
 
 
-Struktur der Texturkoordinaten erstellen, die von der *textureSparse()*-Sampling-Funktion verwendet wird (muss vom Fragmentshader aufgerufen werden)
+Die von der *textureSparse()*-Sampling-Funktion verwendete Struktur für die Koordinaten der Textur erstellen (muss vom Fragment-Shader aufgerufen werden)
 
 Beispiel: *SparseCoord uv1coord = getSparseCoord(inputs.multi\_tex\_coord[1]);*
 
@@ -144,7 +144,7 @@ SparseCoord getSparseCoord(vec2 tex_coord) {
 ```
 
 
-Struktur der Texturkoordinaten erstellen, die von *textureSparse()*-Sampling-Funktion verwendet wird Sampling-Version auf Basisebene (kann verwendet werden, wenn sich der Fragmentshader außerhalb des Fragments befindet)
+Von *textureSparse()*-Sampling-Funktion verwendete Struktur für die Koordinaten der Textur erstellen Sampling-Version auf Basisebene (kann verwendet werden, wenn sich der Shader außerhalb des Fragments befindet)
 
 ```
 SparseCoord getSparseCoordLod0(vec2 tex_coord) { 
@@ -179,7 +179,7 @@ SparseCoord getSparseCoordLod0(vec2 tex_coord) {
 ```
 
 
-Berechnen des Detaillierungsgrads, der zum Aufnehmen einer geringen Textur verwendet werden würde
+Berechnen des Detaillierungsgrads, der zum Aufnehmen einer Textur mit geringer Dichte verwendet werden würde
 
 Mipmap-Pyramide nach oben klettern, wenn Texel fehlen Gibt LoD VOR angewendeter LoD-Voreinstellung zurück
 
@@ -212,7 +212,7 @@ float textureSparseQueryLod(SamplerSparse sampler, SparseCoord coord) {
 
 Berechnen der Derivate, die zur Probenahme aus einer spärlichen Textur verwendet werden würden
 
-Bei fehlenden Texeln die Minimappyramide nach oben klettern
+Mipmap-Pyramide aufklettern, wenn Textilien fehlen
 
 ```
 void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler, SparseCoord coord) { 
@@ -249,9 +249,9 @@ void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler,
 ```
 
 
-Führt eine Textursuche auf einer spärlichen Textur durch, gehen Sie bei Bedarf die Mipmap-Stufen hoch
+Führt eine Textur-Suche auf einer spärlichen Textur durch, gehen Sie bei Bedarf die Mipmap-Stufen hoch
 
-Diese Funktion ersetzt den Standard *texture(sampler2D, vec2)*, um Texel aus einer spärlichen Textur abzurufen
+Diese Funktion ersetzt die standardmäßige *Textur(sampler2D, vec2)* zum Abrufen von Texeln aus einer spärlichen Textur.
 
 ```
 vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) { 
@@ -266,9 +266,9 @@ vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) {
 ```
 
 
-Führt bei einer Textur eine optimierte Mehrfachtextursuche mit kleinen Abständen durch
+Führt bei gegebener Textur eine optimierte Suche mit mehreren Texturen und kleinen Abständen durch.
 
-Wir stellen alternative Versionen dieses Helfers für bis zu N=4 zur Verfügung
+Wir stellen Alternativen zu diesem Helfer für bis zu N=4 zur Verfügung
 
 ```
 void textureSparseOffsets(SamplerSparse sampler, SparseCoord coord, vec2 offsets[N], out vec4 results[N]) { 

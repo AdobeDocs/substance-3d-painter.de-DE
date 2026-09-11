@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
 breadcrumb-title: ''
-description: Lerne, wie du in Substance 3D Painter mit der Exportvorgabe "USDz (Apple AR)" Texturen für Apple AR-Workflows exportieren kannst.
+description: Erfahren Sie, wie Sie die Exportvorgabe USDz (Apple AR) in Substance 3D Painter verwenden, um Texturen für Apple AR-Workflows zu exportieren.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export presets > Predefined Presets > USDz (Apple AR) Preset
 helpx_experience_level: ""
@@ -22,18 +22,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Verwenden Sie zum Exportieren in USD mit einer benutzerdefinierten Ausgabevorlage nicht die Vorlage USDz (Apple AR). Verwenden Sie stattdessen Ihre ausgewählte Ausgabevorlage und aktivieren Sie <b>USD-Asset exportieren</b> am unteren Rand der Registerkarte <b>Einstellungen</b>.
+> Verwenden Sie zum Exportieren in USD mit einer benutzerdefinierten Ausgabevorlage nicht die Vorlage USDz (Apple AR). Verwenden Sie stattdessen die ausgewählte Ausgabevorlage und aktivieren Sie <b>USD Element exportieren</b> am unteren Rand der Registerkarte <b>Einstellungen</b>.
 
 Die vordefinierte USDz (Apple AR)-Ausgabevorlage exportiert Ihr Element, das für die Verwendung mit Apple AR-Anwendungen konfiguriert ist.
 
 Verwenden der Vorlage &quot;USDz (Apple AR)&quot;:
 
-1. Öffnen Sie das Exportfenster mit <b>Datei > Texturen exportieren</b> oder mit der Tastenkombination <b>Strg + Umschalt + E</b>.
+1. Öffnen Sie das Exportfenster mit <b>Datei > Texturen exportieren</b> oder mit dem Tastaturbefehl <b>Strg + Umschalt + E</b>.
 1. Öffnen Sie auf der Registerkarte <b>Einstellungen</b> das Dropdown-Menü <b>Ausgabevorlage</b> und wählen Sie <b>USDz (Apple AR)</b> aus.
 
 ![Ein Bild des Exportfensters mit geöffnetem Ausgabevorlagen-Dropdown und ausgewähltem USDz (Apple AR).](../../../assets/export-usd.png){zoomable="yes"}
 
-Es werden fünf Texturdateien erstellt und gespeichert (Grundfarbe, Metall, Normal, Verdeckung und Raueit). Alle Dateien werden als JPG gespeichert, mit Ausnahme der normalen Map, die als PNG gespeichert wird, um Artefakte aufgrund der verlustbehafteten Komprimierung zu vermeiden.
+Es werden fünf Texturen Dateien erstellt und gespeichert (Grundfarbe, metallic, Normal, Verdeckung und Rauheit). Alle Dateien werden als JPG gespeichert, mit Ausnahme der Normalen-Map, die als PNG gespeichert wird, um Artefakte aufgrund der verlustbehafteten Komprimierung zu vermeiden.
 
 Darüber hinaus werden zwei weitere Dateien mit der Erweiterung usdc und usdz erstellt:
 

@@ -24,7 +24,7 @@ Assets-Suchabfragen (oder gespeicherte Suchvorgänge) können durch Bearbeiten e
 
 ## Speicherort der Konfigurationsdatei
 
-Zum Hinzufügen benutzerdefinierter gespeicherter Abfragen navigieren Sie zum Ordner Dokumente des Benutzers und öffnen Sie die Datei **Shelf.ini**.
+Zum Hinzufügen benutzerdefinierter gespeicherter Abfragen navigieren Sie zum Ordner Dokumente des Benutzers und öffnen Sie die Datei **Regal.ini**.
 
 <table data-preserve-html="true" style="width: 100.0%;"> <colgroup> <col style="width: 15.0%;"/> <col style="width: 15.0%;"/> <col style="width: 70.0%;"/> </colgroup> <tbody> <tr> <th>Plattform</th> <th>Version</th> <th>Pfad</th> </tr> <tr> <td rowspan="2"><strong>Windows</strong></td> <td><strong>7.2</strong> oder höher</td> <td colspan="1">C:\Users\username\Documents\Adobe\Adobe Substance 3D Painter</td> </tr> <tr> <td colspan="1">Alte Version</td> <td colspan="1">C:\Users\username\Documents\Allegorithmic\Substance Painter</td> </tr> <tr> <td rowspan="2"><strong>Mac</strong></td> <td colspan="1"><strong>7.2</strong> oder höher</td> <td colspan="1">/Users/Benutzername/Documents/Adobe/Adobe Substance 3D Painter</td> </tr> <tr> <td colspan="1">Alte Version</td> <td colspan="1">/Users/Benutzername/Documents/Allegorithmic/Substance Painter</td> </tr> <tr> <td rowspan="2"><strong>Linux</strong></td> <td colspan="1"><strong>7.2</strong> oder höher</td> <td colspan="1">/home/username/Documents/Adobe/Adobe Substance 3D Painter</td> </tr> <tr> <td>Alte Version</td> <td colspan="1">/home/username/Documents/Allegorithmic/Substance Painter</td> </tr> </tbody> </table>
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie SpaceMouse by 3D mit Substance 3D Painter für eine verbesserte 3D-Navigation und Viewport-Steuerung verwenden.
+description: Erfahren Sie, wie Sie SpaceMouse by 3D mit Substance 3D Painter für verbesserte 3D-Navigation und Viewport-Steuerung verwenden.
 helpx_creative_field: ""
 helpx_description: Painter > Features > SpaceMouse by 3Dconnexion
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![](../assets/spacemouse-banner.jpg)
 
-Die SpaceMouse® by 3D-Verbindung ist ein Gerät, das die einfache Navigation in 3D ermöglicht. Sie kann verwendet werden, um das Kamera-/3D-Modell im Anwendungssichtfenster zu bearbeiten.
+Die SpaceMouse® by 3D-Verbindung ist ein Gerät, das die einfache Navigation in 3D ermöglicht. Sie kann verwendet werden, um das Kamera/3D-Modell im Application Viewport zu bearbeiten.
 
 * Die SpaceMouse® wird seit Version 7.4.2 unterstützt.
 * Um dieses Gerät ordnungsgemäß zu verwenden, installieren Sie den neuesten Treiber von [3Dconnection](https://3dconnection.com/uk/drivers/).
@@ -35,14 +35,14 @@ Die SpaceMouse® by 3D-Verbindung ist ein Gerät, das die einfache Navigation in
 
 ## Überblick
 
-Mit dem Hauptkontrollknopf oder der SpaceMouse® können Sie den Viewport drehen, schwenken und zoomen, ohne dass dies mit den regulären Maus-/Stift- und Tastatursteuerelementen möglich ist. Das Gerät kann in Kombination mit Maus und Tablets mit Eingabestift verwendet werden.
+Mit dem Hauptkontrollknopf oder der SpaceMouse® können Sie den Viewport so drehen, schwenken und zoomen, wie dies mit normalen Maus-/Stift- und Tastatursteuerelementen nicht möglich ist. Das Gerät kann in Kombination mit Maus und Tablets mit Eingabestift verwendet werden.
 
 Alle Modelle und Versionen sollten mit der Anwendung kompatibel sein:
 
 | Modell | Beschreibung | Visuell |
 | --- | --- | --- |
 | **Kompaktes Modell** | Basismodell mit Knopfsteuerung. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Wireless-400x400.png" width="200"/></div> |
-| **Pro-Modell** | Knopfsteuerung und zusätzliche Tasten für Tastaturbefehle. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
+| **Pro-Modell** | Knopfsteuerung und zusätzliche Tasten für Tastatur-Tastaturbefehl. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Pro-400x400.png" width="200"/></div> |
 | **Unternehmensmodell** | Knopfsteuerung, zusätzliche Tasten und Kontextanzeige. | <div><img class="confluence-embedded-image" data-preserve-html="true" src="../assets/3Dconnexion_SpaceMouse-Enterprise-400x400.png" width="200"/></div> |
 
 >[!NOTE]
@@ -68,7 +68,7 @@ Im Einstellungsbedienfeld von SpaceMouse® sind die Standardeinstellungen für P
 
 Stellen Sie sicher, dass Sie das richtige Gerät aus dem oberen Dropdown-Menü auswählen, standardmäßig sollte es das richtige auswählen.
 
-Der Regler &quot;Geschwindigkeit&quot; ändert die Empfindlichkeit in allen Achsen und Richtungen.
+Der Regler &quot;Geschwindigkeit&quot; ändert die Empfindlichkeit in alle Achsen und Richtungen.
 
 ### Erweiterte Einstellungen
 
@@ -85,10 +85,10 @@ Definieren Sie das Verhalten des Drehknopfes in 3D:
 | Einstellung | Beschreibung |
 | --- | --- |
 | Objektmodus | Der Knopf ist das 3D-Objekt selbst, er ist die Standardeinstellung. |
-| Kameramodus | Steuern Sie die Kamera frei in 3D. |
-| Zielkameramodus | Steuere die Kamera, die immer auf einen Punkt im 3D-Raum zielt. |
+| Kamera Mode | Steuern Sie die Kamera frei in 3D. |
+| Kamera-Zielmodus | Steuere die Kamera, die immer auf einen Punkt im 3D-Raum zielt. |
 | Hubschraubermodus | Steuern Sie einen Helikopter im 3D-Raum. |
-| Horizont sperren | Kamera so fixieren, dass der Horizont immer horizontal ausgerichtet ist. Painter bietet bereits eine ähnliche Option in seinen Einstellungen, kann aber hier separat gesteuert werden. Es ist standardmäßig gesperrt. |
+| Horizont sperren | Um die Kamera so zu fixieren, dass der Horizont immer horizontal ausgerichtet ist. Painter bietet bereits eine ähnliche Option in seinen Einstellungen, kann aber hier separat gesteuert werden. Es ist standardmäßig gesperrt. |
 
 #### Rotationszentrum
 
@@ -98,7 +98,7 @@ Definieren Sie das Verhalten des kleinen Pivot-Symbols:
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| Auto | Bewegen Sie den Drehpunkt oder das Kameraziel automatisch, wenn er deaktiviert ist, bleibt es immer beim Drehpunkt des Gitterursprungs hängen. |
+| Auto | Bewegen Sie das Pivot- oder Kamera-Ziel automatisch, wenn es deaktiviert ist, bleibt es immer beim Mesh-Origin-Pivot erhalten. |
 | Immer anzeigen | Der Drehpunkt wird immer im 3D-Viewport angezeigt, auch wenn er nicht mit dem Gerät interagiert. |
 | In Bewegung anzeigen | Der Drehpunkt wird im 3D-Viewport nur angezeigt, wenn mit dem Gerät interagiert wird. Dies ist die Standardoption. |
 | Ausblenden | Entfernen Sie den Drehpunkt im 3D-Viewport vollständig. |

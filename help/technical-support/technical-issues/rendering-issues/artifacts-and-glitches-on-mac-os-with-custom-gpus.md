@@ -24,6 +24,6 @@ ht-degree: 0%
 >
 > Nicht offizielle Apple-Konfigurationen werden nicht offiziell unterstützt, was bedeutet, dass ein Teil (z. B. die GPU), das ursprünglich nicht von Apple verkauft wurde, nicht ordnungsgemäß mit der Software funktioniert.
 
-Falls unter Mac OS beim Ausführen einer benutzerdefinierten GPU mit benutzerdefinierten Treibern Störungen, Abstürze oder sogar Artefakte auftreten, kann eine Problemumgehung darin bestehen, die **ordnungsgemäß aufgelisteten** Dateien, die sich auf die Anwendung beziehen, zu löschen.
+Falls unter Mac OS beim Ausführen einer benutzerdefinierten GPU mit benutzerdefinierten Treibern Störungen, Absturz oder sogar Artefakte auftreten, kann eine Problemumgehung darin bestehen, die **ordnungsgemäß aufgelisteten** Dateien, die sich auf die Anwendung beziehen, zu löschen.
 
 Informationen dazu, welche Datei entfernt werden soll, finden Sie unter: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

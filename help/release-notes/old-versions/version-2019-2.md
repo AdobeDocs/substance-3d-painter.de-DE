@@ -20,51 +20,51 @@ ht-degree: 1%
 
 # Version 2019.2
 
-**Substance Painter 2019.2** bietet seinen Bakers neue leistungsstarke Funktionen und stellt eine neue Gruppe von Smart-Materialien und Smart-Masken im Shelf bereit.
+**Substance Painter 2019.2** bietet seinen Bakern neue leistungsstarke Funktionen und stellt neue Intelligente Material und Intelligente Masken im Regal bereit.
 
 Freigabedatum: *25. Juli 2019*
 
 ## Wichtigste Funktionen
 
-### Workflow-Verbesserungen für Bäcker
+### Workflow-Verbesserungen für Baker
 
 ![](../../assets/header-image-vizu.jpg)
 
-Der Backarbeitsablauf wurde in dieser Version mit einigen neuen Funktionen verbessert. Diese Verbesserungen beschleunigen und erleichtern die tägliche Arbeit mit Substance Painter.
+Der Arbeitsablauf für das Baking wurde in dieser Version mit einigen neuen Funktionen verbessert. Diese Verbesserungen beschleunigen und erleichtern die tägliche Arbeit mit Substance Painter.
 
-* **Visualisierung des Backprozesses**\
-  Standardmäßig wird mit dieser neuen Version jeder Backvorgang im Viewport angezeigt. Es ermöglicht, das Ergebnis der Bäcker in Echtzeit in der Vorschau und sogar abbrechen, wenn nötig, ohne bis zum Ende des Prozesses warten, um schnellere Iterationen bieten. Dieses Verhalten kann deaktiviert werden, indem Sie in den Haupteinstellungen die Einstellung &quot;**Live-Vorschau-Backvorgang aktivieren**&quot; im Abschnitt &quot;**Backoptionen**&quot; deaktivieren.
+* **Prozessvisualisierung wird Baking geführt**\
+  Standardmäßig wird mit dieser neuen Version jeder Baking-Prozess im Viewport angezeigt. Es ermöglicht, das Ergebnis der Baker in Echtzeit in der Vorschau anzuzeigen und sogar bei Bedarf abzubrechen, ohne bis zum Ende des Prozesses zu warten, um schnellere Iterationen zu bieten. Dieses Verhalten kann deaktiviert werden, indem Sie in den Haupteinstellungen die Einstellung &quot;**Livevorschauen-Baking aktivieren**&quot; im Abschnitt &quot;**Baking-Optionen**&quot; deaktivieren.
 
   ![](../../assets/baking-options-v2.png)
 
   ![](../../assets/bake-process.gif){width="500px"}
-* **Verbessertes Backdialogfeld**\
-  Der Backdialog wurde überarbeitet und zeigt nun einen besseren Status des aktuellen Backprozesses an. Es gibt jetzt einen Zähler, der angibt, wie viele Texturen berechnet werden, sowie eine explizite Liste pro Bäcker und Textursatz, der angibt, was berechnet wird. Bei einem Fehler wird neben dem Bäckernamen ein rotes Kreuz angezeigt. Am Ende des Vorgangs können Sie über eine neue Schaltfläche das Protokollfenster schnell öffnen, um mehr über das Problem zu erfahren.\
+* **Verbessertes Dialogfeld zum Baking**\
+  Das Dialogfeld &quot;Baking&quot; wurde überarbeitet und zeigt nun einen besseren Status des aktuellen Bakings an. Es gibt jetzt einen Zähler, der angibt, wie viele Texturen berechnet werden, sowie eine explizite Liste pro Baker und Textursatz dessen, was berechnet wird. Bei Auftreten eines Fehlers wird neben dem Namen des Bakers ein rotes Kreuz angezeigt. Am Ende des Vorgangs können Sie über eine neue Schaltfläche das Protokollfenster schnell öffnen, um mehr über das Problem zu erfahren.\
   ![](../../assets/baking-dialog.png)
-* **Backen wird abgebrochen** Der Backvorgang sperrt die Anwendung nicht mehr. Substance Painter reagiert jetzt reaktionsfähiger, d. h. es ist möglich, ein Backen, das gerade in Bearbeitung ist, abzubrechen, ohne darauf zu warten, dass es beendet wird. Die Kündigung erfolgt jedoch nicht sofort und kann einige Sekunden dauern, bis sie wirksam wird. Dies liegt daran, dass der interne Backprozess an Texturen in Blöcken arbeitet und nicht anhalten kann, während ein Block berechnet wird. Wenn Sie den Backvorgang abbrechen, wird das Fenster &quot;Backen&quot; automatisch wieder geöffnet.\
+* **Baking wird abgebrochen** Der Baking sperrt die Anwendung nicht mehr. Substance Painter reagiert jetzt reaktionsfähiger, d. h. es ist möglich, ein Baking, das gerade ausgeführt wird, abzubrechen, ohne darauf zu warten, dass es beendet wird. Die Kündigung erfolgt jedoch nicht sofort und kann einige Sekunden dauern, bis sie wirksam wird. Dies liegt daran, dass der Baking führ-Prozess intern an Texturen in Blöcken arbeitet und nicht angehalten werden kann, während ein Block berechnet wird. Wenn Sie den Baking führ abbrechen, wird das Baking führ-Fenster automatisch wieder geöffnet.\
   ![](../../assets/baking-cancel-optim.gif)
 
-### Leistungsverbesserungen für Bäcker
+### Leistungsverbesserungen für Baker
 
 ![](../../assets/header-image-baker.jpg)
 
-Mit der Workflow-Verbesserung haben wir auch die Gelegenheit genutzt, unsere Bäcker zu aktualisieren und ihre Leistung zu verbessern. Wir haben auch die Unterstützung von DXR und OptiX hinzugefügt, um GPU-Raytracing zu aktivieren, die es ermöglicht, viel schneller als zuvor zu backen. Beachten Sie jedoch, dass sich GPU-Raytracing nur auf die Verdeckung &quot;Umgebung&quot; und die Thickness auswirkt.
+Mit der Workflow-Verbesserung haben wir auch die Gelegenheit genutzt, unsere Baker zu aktualisieren und ihre Leistung zu verbessern. Wir haben auch die Unterstützung von DXR und OptiX hinzugefügt, um GPU-Raytracing zu aktivieren, das das Baking viel schneller als zuvor ermöglicht. Beachten Sie jedoch, dass sich GPU-Raytracing nur auf die Verdeckung &quot;Umgebung&quot; und die Thickness auswirkt.
 
 * **CPU-Raytracing wurde verbessert**\
   Die Raytracing-Berechnung auf der CPU ist jetzt 2- bis 3-mal schneller als zuvor. Selbst wenn Ihre GPU mit GPU-Raytracing nicht kompatibel ist, erhalten Sie daher im Allgemeinen trotzdem Leistungsverbesserungen.
-* **GPU-Raytracing-Unterstützung mit DXR und Optix**\
-  Mit kompatibler Hardware können die Bäcker jetzt direkt auf der GPU berechnen, was die Rechenzeit drastisch reduziert, insbesondere wenn Anti-Aliasing aktiviert ist und viele Strahlen definiert sind. DXR ist die Standardoption, sofern verfügbar, andernfalls wird Optix verwendet. Sie können GPU-Raytracing deaktivieren, indem Sie in den [Haupteinstellungen](../../interface/settings/settings.md) nach &quot;**Backing-Optionen**&quot; suchen:
+* **GPU-Raytracing-Unterstützung für DXR und Optix**\
+  Mit kompatibler Hardware können die Baker jetzt direkt auf der GPU berechnen, was die Berechnung erheblich verkürzt, insbesondere wenn Anti-Aliasing aktiviert ist und viele Strahlen definiert sind. DXR ist die Standardoption, sofern verfügbar, andernfalls wird Optix verwendet. Sie können GPU-Raytracing deaktivieren, indem Sie in den [Haupteinstellungen](../../interface/settings/settings.md) nach &quot;**Backing-Optionen**&quot; suchen:
 
   ![](../../assets/baking-options-v2.png)
 
 >[!NOTE]
 >
 > Um die GPU-Raytracing-Funktion zu aktivieren, stellen Sie sicher, dass Sie auf die folgenden Treiber aktualisieren: **NVIDIA-Treiber 430.86**.\
-> DXR ist auf RTX-GPUs und [GeForce GTX 10xx-GPUs](https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/) verfügbar. Für DXR muss Windows 10 ebenfalls auf dem neuesten Stand sein, damit der Zugriff möglich ist (Version 1809). Weitere Informationen finden Sie auf dieser Seite.
+> DXR ist auf RTX-GPUs und [GeForce GTX 10xx-GPUs](https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/) verfügbar. DXR erfordert auch, dass Windows 10 auf dem neuesten Stand ist, um zugänglich zu sein (Version 1809), finden Sie auf dieser Seite weitere Informationen.
 
 >[!WARNING]
 >
-> Bei Verwendung von GPU-Raytracing kann der Bäcker fehlschlagen, wenn das High-Poly-Gitter nicht in VRam passen kann. Wenn dies der Fall ist, wird empfohlen, die [Haupteinstellungen](../../interface/settings/settings.md) aufzurufen und die Einstellung &quot;**GPU-Raytracing**&quot; im Abschnitt &quot;**Backing Options**&quot; zu deaktivieren. Danach können Sie den Backvorgang einfach neu starten.
+> Bei der Verwendung von GPU-Raytracing kann der Baker fehlschlagen, wenn der Mesh mit hohem Poly nicht in VRam passen kann. Wenn dies der Fall ist, wird empfohlen, die [Haupteinstellungen](../../interface/settings/settings.md) aufzurufen und die Einstellung &quot;**GPU-Raytracing**&quot; im Abschnitt &quot;**Baking Options**&quot; zu deaktivieren. Danach kannst du den Baking-Prozess einfach neu starten.
 
 ### Verschiedene neue Funktionen und Verbesserungen
 
@@ -72,8 +72,8 @@ Mit der Workflow-Verbesserung haben wir auch die Gelegenheit genutzt, unsere Bä
 
 In dieser Version haben wir auch einige Dinge hinzugefügt und überarbeitet, um die Lebensqualität im Substance Painter zu verbessern.
 
-* **Verbesserter Rotationsmanipulator**\
-  Der Rotationsmanipulator war in der Vergangenheit etwas langsam, sodass Drehungen manchmal langwierig durchzuführen waren. Die Drehgeschwindigkeit ist jetzt mit der Kamera und der Szenengröße verknüpft.
+* **Verbesserter Manipulator für die Drehung**\
+  Der Rotationsmanipulator war in der Vergangenheit etwas langsam, sodass Drehungen manchmal langwierig durchzuführen waren. Die Drehgeschwindigkeit ist jetzt an die Größe der Kamera und Szene gekoppelt.
 * **Verbesserte Leistung auf Bildschirmen mit hoher DPI-Auflösung mit Verkleinerung des Ansichtsports**\
   In den [Haupteinstellungen](../../interface/settings/settings.md) gibt es jetzt einen neuen Parameter mit dem Namen &quot;Viewport-Skalierung&quot; mit dem Wert &quot;**Keine**&quot; und &quot;**Auto**&quot; (Standard). Wenn der Substance Painter erkennt, dass ein Bildschirm die HDPI-Skalierung verwendet (z. B. Retina-Bildschirme auf dem MacOS), wird die Viewport-Auflösung automatisch durch 2 dividiert. Durch dieses Verhalten wird vermieden, dass der Viewport zu groß gezeichnet wird, und die allgemeine Leistung wird ohne nennenswerten Qualitätsverlust verbessert.
 
@@ -87,9 +87,9 @@ In dieser Version haben wir auch einige Dinge hinzugefügt und überarbeitet, um
 
 ![](../../assets/header-image-content.jpg)
 
-Ein neuer Satz von Smart-Materialien und Smart-Masken wurde zum Standard-Shelf hinzugefügt, um verschiedene Verwendungen abzudecken. Hier ist die vollständige Liste der hinzugefügten Assets:
+Dem Standard-Regal wurde ein neuer Satz von Intelligenten Materialien und Intelligente Masken hinzugefügt, die verschiedene Verwendungszwecke abdecken. Hier ist die vollständige Liste der hinzugefügten Assets:
 
-* **40 neue Smart-Materialien**
+* **40 neue Intelligente Material**
 
   * Gewebe
     * Geknitterte Leinwand
@@ -140,11 +140,11 @@ Ein neuer Satz von Smart-Materialien und Smart-Masken wurde zum Standard-Shelf h
     * Wood Acajou
     * Holz-Schiffsrumpf Nordic
     * Holzschiff Rumpf alt
-* **20 neue Smart Masks**
+* **20 neue Intelligente Masken**
 
   * Krümel
   * Dirt Cavities
-  * Dirt
+  * Dirt Boden
   * Dirt-Lecktrocknung
   * Dirt > Weiche Kanten
   * Dirt-Splashes
@@ -157,8 +157,8 @@ Ein neuer Satz von Smart-Materialien und Smart-Masken wurde zum Standard-Shelf h
   * Edge Stone-Risse
   * Ränder stark verkratzt
   * Fabric-Thread
-  * Farbe beschädigt
-  * Leicht kratzen
+  * Malen beschädigt
+  * Malen Subtle Scratch
   * Sandkasten
   * Sand-Dust
   * Wassertropfen
@@ -223,7 +223,7 @@ Zusammenfassung: **Bugfix**
 ### 2019.2
 
 *(veröffentlicht am 25. Juli 2019)*\
-Zusammenfassung: **Hauptversion mit Aktualisierungen der Bäcker in Bezug auf die Leistung und einen neuen Vorvisualisierungsmodus + neuen Inhalt**
+Zusammenfassung: **Hauptversion mit Leistungsaktualisierungen der Baker und einem neuen Vorvisualisierungsmodus + neuem Inhalt**
 
 **Hinzugefügt:**
 

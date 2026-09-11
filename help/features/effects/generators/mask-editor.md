@@ -14,7 +14,7 @@ ht-degree: 7%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_mask_editor_dark.png" alt=""/><strong>In:</strong>-Maske, Generator</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Maskeneditor ist ein Mehrzweck-Maskengenerator, mit dem Sie Texturen, Umgebungsmasken, Krümmung, World Space Normal, Verlauf, Thickness und Mikrodetails zu einer einzigen Verdeckung kombinieren können.<br>Der Mask Builder-Generator ist sehr flexibel, kann jedoch aufgrund seiner Komplexität die Leistung stärker beeinträchtigen als die meisten Generatoren.<br><br>Der Maskeneditor-Generator gibt eine monochrome (schwarz-weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken basierend auf den verschiedenen durch Baking erzeugte Map. <br><br>Als Bildeingabe sind die gebackene Position, die Thickness, die Krümmung, die umgebende Verdeckung und die Normal-Weltraumkarten erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Backen</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Maskeneditorgenerator ist ein Mehrzweck-Maskengenerator, mit dem Sie Texturen, Umgebungsmasken, Krümmung, Welt-Raum-Normale, Verlauf, Thickness und Mikrodetails zu einer einzigen Verdeckung kombinieren können.<br>Der Mask Builder-Generator ist sehr flexibel, kann jedoch aufgrund seiner Komplexität die Leistung stärker beeinträchtigen als die meisten Generatoren.<br><br>Der Maskeneditor-Generator gibt eine monochrome (Schwarz-Weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken basierend auf den verschiedenen durch Baking erzeugte Map. <br><br> Baking geführt Positions-, Thicknessen-, Krümmungen-, ambient occlusion- und Welt-Raum-Normale-Maps sind als Bildeingaben erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Baking</a>.</td>
   </tr>
 </table>
 
@@ -22,15 +22,15 @@ ht-degree: 7%
 
 | Eingabename | Beschreibung |
 | --- | --- |
-| **Textur** Farbe | Verwenden einer benutzerdefinierten Struktur oder eines Ankerpunkts. |
-| **Struktur (sekundär)** Farbe | Verwenden einer benutzerdefinierten Struktur oder eines Ankerpunkts. |
-| **Normale im Weltraum** Farbe | Verwenden Sie die gebackene Weltraumnormalkarte. |
-| **Positionsverlauf** Farbe | Verwenden Sie die Positionskarte. |
-| **Thickness** Graustufen | Verwenden Sie die Karte mit den gebackenen Thicknessen. |
-| **Krümmung** Graustufen | Verwenden Sie die Kurvenzeichner-Map. |
-| **Umgebungs-Verdeckung** Graustufen | Verwenden Sie die Karte mit der Verdeckung &quot;Umgebung&quot;. |
+| **Textur** Farbe | Verwenden einer benutzerdefinierten Textur oder eines Ankerpunkts. |
+| **Textur (Sekundär)** Farbe | Verwenden einer benutzerdefinierten Textur oder eines Ankerpunkts. |
+| **Welt-Raum-Normale** Farbe | Verwenden Sie die gebackene Weltraumnormalkarte. |
+| **Positionsverlauf** Farbe | Verwenden Sie die Baking geführt Positionszuordnung. |
+| **Thickness** Graustufen | Verwenden Sie die Baking geführt Dicken-Map. |
+| **Krümmung** Graustufen | Verwenden Sie die Baking geführt Krümmungs-Map. |
+| **Ambient occlusion** Graustufen | Verwenden Sie die Baking geführt Ambient occlusion-Map. |
 | **Micro Normal** Farbe | Verwenden Sie eine spezielle normale Textur oder einen Ankerpunkt. |
-| **Micro Height** Color | Verwenden einer benutzerdefinierten Struktur oder eines Ankerpunkts. |
+| **Micro Height** Color | Verwenden einer benutzerdefinierten Textur oder eines Ankerpunkts. |
 
 ## Parameter
 
@@ -40,11 +40,11 @@ ht-degree: 7%
 | **Globaler Weichzeichner** | Lasse die finale Maske nach dem Kombinieren aller Ebenen gleichmäßig verschwimmen. |
 | **Globaler Saldo** | Passe die Balance der letzten Maske an, nachdem alle Ebenen zwischen Schwarz und Weiß kombiniert wurden, wie bei einer Helligkeitsanpassung. |
 | **Globaler Kontrast** | Passen Sie den Kontrast der letzten Maske an, nachdem alle Ebenen kombiniert wurden. |
-| **Texturdeckkraft** | Passen Sie die Sichtbarkeit der benutzerdefinierten Textur an. |
-| **Struktur 2 Deckkraft** | Passen Sie die Sichtbarkeit der zweiten benutzerdefinierten Textur an. |
-| **Umgebungsdeckkraft der Verdeckung** | Passen Sie die Sichtbarkeit der Umgebungsdetails an. Verdeckung |
-| **Krümmungsdeckkraft** | Passen Sie die Sichtbarkeit der Kurvendetails an. |
-| **Standarddeckkraft des Weltraums** | Passen Sie die Sichtbarkeit der normalen Details des Weltraums an. |
+| **Deckkraft der Textur** | Passen Sie die Sichtbarkeit der benutzerdefinierten Textur an. |
+| **Textur 2 Deckkraft** | Passen Sie die Sichtbarkeit der zweiten benutzerdefinierten Textur an. |
+| **Ambient occlusion Deckkraft** | Passen Sie die Sichtbarkeit der ambient occlusion-Details an. |
+| **Deckkraft der Krümmung** | Passen Sie die Sichtbarkeit der Krümmungen an. |
+| **Deckkraft des Welt-Raum-Normale** | Passen Sie die Sichtbarkeit der Welt-Raum-Normale-Details an. |
 | **Verlaufsdeckkraft positionieren** | Passen Sie die Sichtbarkeit der Positionsdetails an. |
 | **Deckkraft der Thickness** | Passen Sie die Sichtbarkeit der Thicknessen an. |
 
@@ -69,11 +69,11 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Skalieren</strong></td>
-    <td>Passe die Größe der benutzerdefinierten Struktur an.</td>
+    <td>Passen Sie die Größe der benutzerdefinierten Textur an.</td>
   </tr>
   <tr>
     <td><strong>Kontrast</strong></td>
-    <td>Passen Sie den Kontrast/Abfall der benutzerdefinierten Textur an.</td>
+    <td>Passen Sie Kontrast und Abfall der benutzerdefinierten Textur an.</td>
   </tr>
   <tr>
     <td><strong>Helligkeit</strong></td>
@@ -81,15 +81,15 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Triplanar</strong></td>
-    <td>Wenn <strong>Triplanar </strong> verwenden aktiviert ist, wird die Textur aus drei Richtungen (X-, Y-, Z-Achsen) projiziert, anstatt sich nur auf UVs zu verlassen. <br><ul><li>Ohne aktiviertes Triplanar folgt die Textur dem UV-Layout.</li><li>Wenn die Option "Dreidimensional" aktiviert ist, wird die Textur aus mehreren Winkeln projiziert und verblendet.</li></ul></td>
+    <td>Wenn <strong>Triplanar </strong> verwenden aktiviert ist, wird die Textur aus drei Richtungen projiziert (X-, Y-, Z-Achsen), anstatt sich nur auf UVs zu verlassen. <br><ul><li>Ohne die Option "Triplanar" folgt die Textur dem UV-Layout.</li><li>Wenn die Option "Dreidimensional" aktiviert ist, wird die Textur aus mehreren Winkeln projiziert und verblendet.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Triplanarer Kontrast</strong></td>
-    <td>Passen Sie an, wie glatt eine Textur übergeht, wenn sie mithilfe von triplanarer Zuordnung projiziert wird. Dadurch wird die Weichheit der Überblendung zwischen den Vorsprüngen aus jeder Richtung eingestellt.</td>
+    <td>Passen Sie an, wie glatt eine Textur übergeht, wenn sie mithilfe von triplanarem Mapping projiziert wird. Dadurch wird die Weichheit der Überblendung zwischen den Projektionen aus jeder Richtung angepasst.</td>
   </tr>
   <tr>
     <td><strong>Keine quadratischen Kacheln</strong></td>
-    <td>Schalten Sie die nicht quadratische Unterteilung ein oder aus.</td>
+    <td>Schalten Sie die nicht quadratische Kachelung ein oder aus.</td>
   </tr>
 </table>
 
@@ -102,7 +102,7 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Invertieren</strong></td>
-    <td>Kehre die spezielle sekundäre Textur um.</td>
+    <td>Kehrt die benutzerdefinierte sekundäre Textur um.</td>
   </tr>
   <tr>
     <td><strong>Graustufenkonvertierung</strong></td>
@@ -114,11 +114,11 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Skalieren</strong></td>
-    <td>Passe die Größe der benutzerdefinierten Struktur an.</td>
+    <td>Passen Sie die Größe der benutzerdefinierten Textur an.</td>
   </tr>
   <tr>
     <td><strong>Kontrast</strong></td>
-    <td>Passen Sie den Kontrast/Abfall der benutzerdefinierten Textur an.</td>
+    <td>Passen Sie Kontrast und Abfall der benutzerdefinierten Textur an.</td>
   </tr>
   <tr>
     <td><strong>Helligkeit</strong></td>
@@ -126,15 +126,15 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Triplanar</strong></td>
-    <td>Wenn <strong>Triplanar </strong> verwenden aktiviert ist, wird die Textur aus drei Richtungen (X-, Y-, Z-Achsen) projiziert, anstatt sich nur auf UVs zu verlassen. <br><ul><li>Ohne aktiviertes Triplanar folgt die Textur dem UV-Layout.</li><li>Wenn die Option "Dreidimensional" aktiviert ist, wird die Textur aus mehreren Winkeln projiziert und verblendet.</li></ul></td>
+    <td>Wenn <strong>Triplanar </strong> verwenden aktiviert ist, wird die Textur aus drei Richtungen projiziert (X-, Y-, Z-Achsen), anstatt sich nur auf UVs zu verlassen. <br><ul><li>Ohne die Option "Triplanar" folgt die Textur dem UV-Layout.</li><li>Wenn die Option "Dreidimensional" aktiviert ist, wird die Textur aus mehreren Winkeln projiziert und verblendet.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Triplanarer Kontrast</strong></td>
-    <td>Passen Sie an, wie glatt eine Textur übergeht, wenn sie mithilfe von triplanarer Zuordnung projiziert wird. Dadurch wird die Weichheit der Überblendung zwischen den Vorsprüngen aus jeder Richtung eingestellt.</td>
+    <td>Passen Sie an, wie glatt eine Textur übergeht, wenn sie mithilfe von triplanarem Mapping projiziert wird. Dadurch wird die Weichheit der Überblendung zwischen den Projektionen aus jeder Richtung angepasst.</td>
   </tr>
   <tr>
     <td><strong>Keine quadratischen Kacheln</strong></td>
-    <td>Schalten Sie die nicht quadratische Unterteilung ein oder aus.</td>
+    <td>Schalten Sie die nicht quadratische Kachelung ein oder aus.</td>
   </tr>
 </table>
 
@@ -142,11 +142,11 @@ ht-degree: 7%
 
 | Parametername | Beschreibung |
 | --- | --- |
-| **Umkehren** | Kehren Sie die Ebenen &quot;Umgebungs-Verdeckung&quot; und &quot;Mikrodetails&quot; um. |
+| **Umkehren** | Kehren Sie die Ebenen &quot;Ambient occlusion&quot; und &quot;Mikrodetails&quot; um. |
 | **Füllmethode** | Wählen Sie den [Mischmodus](../../../interface/layer-stack/blending-modes.md) für die aktuelle Ebene aus. |
-| **Weichzeichnen** | Passen Sie die Verdeckung des Hintergrunds und die Detailweichheit des Mikros an. |
-| **Saldo** | Passen Sie die Verdeckung der Umgebung und die Mikrodetails an, und verschieben Sie den Mittelpunkt wie bei einem Helligkeitsregler in Richtung Schwarz oder Weiß. |
-| **Kontrast** | Passen Sie den Kontrast/Abfall der Verdeckung &quot;Umgebung&quot; und der Mikrodetails an. |
+| **Weichzeichnen** | Passen Sie die Ambient occlusion- und Micro Detail-Weichheit an. |
+| **Saldo** | Passe die Balance des Ambient occlusion und die Mikrodetails an, und verschiebe den Mittelpunkt wie bei einem Helligkeitsregler in Richtung Schwarz oder Weiß. |
+| **Kontrast** | Passen Sie den Kontrast/Abfall des Ambient occlusion und der Mikrodetails an. |
 
 ### Biegung
 
@@ -165,15 +165,15 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Modus</strong></td>
-    <td>Setze den Kurvenmodus. <br><ul><li><strong>Kanten</strong>: Maskiert die Kanten (konvexe Bereiche).</li><li><strong>Hohlräume</strong>: Maskiert die Hohlräume (konkave Bereiche)</li><li><strong>Dual</strong>: Masken für konkave und konvexe Bereiche.</li><li><strong>Unverarbeitet</strong>: Normale Kurvenmaske.</li></ul></td>
+    <td>Legen Sie den Krümmung-Modus fest. <br><ul><li><strong>Kanten</strong>: Maskiert die Kanten (konvexe Bereiche).</li><li><strong>Hohlräume</strong>: Maskiert die Hohlräume (konkave Bereiche)</li><li><strong>Dual</strong>: Masken für konkave und konvexe Bereiche.</li><li><strong>Unverarbeitet</strong>: Normale Krümmung.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Scharf</strong></td>
-    <td>Passen Sie die Sichtbarkeit der scharfen Krümmungsdetails an.</td>
+    <td>Passen Sie die Sichtbarkeit der Details der scharfen Krümmung an.</td>
   </tr>
   <tr>
     <td><strong>Fein</strong></td>
-    <td>Passen Sie die Sichtbarkeit feiner Krümmungsdetails an.</td>
+    <td>Passen Sie die Sichtbarkeit der Details der Krümmung an.</td>
   </tr>
   <tr>
     <td><strong>Weich</strong></td>
@@ -185,15 +185,15 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Groß</strong></td>
-    <td>Passen Sie die Sichtbarkeit der großen Krümmungsdetails an.</td>
+    <td>Passen Sie die Sichtbarkeit der großen Krümmungen an.</td>
   </tr>
   <tr>
     <td><strong>Groß</strong></td>
-    <td>Passen Sie die Sichtbarkeit der großen Krümmungsdetails an.</td>
+    <td>Passe die Sichtbarkeit der großen Krümmungen an.</td>
   </tr>
   <tr>
     <td><strong>Riesig</strong></td>
-    <td>Passen Sie die Sichtbarkeit der riesigen Krümmungsdetails an.</td>
+    <td>Passen Sie die Sichtbarkeit der großen Krümmungen Details.</td>
   </tr>
   <tr>
     <td><strong>Kontrast</strong></td>
@@ -209,15 +209,15 @@ ht-degree: 7%
 
 | Parametername | Beschreibung |
 | --- | --- |
-| **Umkehren** | Kehre die Normalen des Weltraums um. |
+| **Umkehren** | Welt-Raum-Normale umkehren. |
 | **Füllmethode** | Wählen Sie den [Mischmodus](../../../interface/layer-stack/blending-modes.md) für die aktuelle Ebene aus. |
-| **Weichzeichnen** | Passen Sie die normale Weichheit des Weltraums an. |
-| **Saldo** | Passe das Gleichgewicht der Weltraum-Normalen an und verschiebe den Mittelpunkt in Richtung Schwarz oder Weiß, wie bei einer Helligkeitsregelung. |
-| **Kontrast** | Passen Sie den Kontrast/Abfall der Weltraum-Normalen an. |
-| **Helligkeit** | Passen Sie die Luminanz der Weltraum-Normalen an. |
-| **Rechts nach links** | Passen Sie an, wie der Effekt von links nach rechts über das Gitter angewendet wird. |
-| **Von oben nach unten** | Passen Sie an, wie der Effekt über das Gitter hinweg von oben nach unten angewendet wird. |
-| **Von vorne nach hinten** | Passen Sie an, wie der Effekt über das Gitter hinweg von vorne nach hinten angewendet wird. |
+| **Weichzeichnen** | Passe die Weichheit des Welt-Raum-Normale an. |
+| **Saldo** | Passen Sie die Balance der Welt-Raum-Normale an, indem Sie den Mittelpunkt wie einen Helligkeitsregler in Richtung Schwarz oder Weiß verschieben. |
+| **Kontrast** | Passen Sie den Kontrast/Abfall der Welt-Raum-Normale an. |
+| **Helligkeit** | Passen Sie die Luminanz der Welt-Raum-Normale an. |
+| **Rechts nach links** | Passen Sie an, wie der Effekt von links nach rechts über den Mesh angewendet wird. |
+| **Von oben nach unten** | Passen Sie an, wie der Effekt auf den Mesh angewendet wird. |
+| **Von vorne nach hinten** | Passen Sie an, wie der Effekt auf den Mesh angewendet wird. |
 
 ### Raum-Normale/von rechts nach links
 
@@ -249,9 +249,9 @@ ht-degree: 7%
 | **Kontrast** | Passen Sie den Kontrast bzw. das Falloff der Positionsverlaufsebene an. |
 | **Helligkeit** | Passen Sie die Luminanz der Positionsverlaufsebene an. |
 | **Füllmethode** | Wählen Sie den [Mischmodus](../../../interface/layer-stack/blending-modes.md) für die aktuelle Ebene aus. |
-| **Rechts nach links** | Passen Sie an, wie der Effekt von links nach rechts über das Gitter angewendet wird. |
-| **Von oben nach unten** | Passen Sie an, wie der Effekt über das Gitter hinweg von oben nach unten angewendet wird. |
-| **Von vorne nach hinten** | Passen Sie an, wie der Effekt über das Gitter hinweg von vorne nach hinten angewendet wird. |
+| **Rechts nach links** | Passen Sie an, wie der Effekt von links nach rechts über den Mesh angewendet wird. |
+| **Von oben nach unten** | Passen Sie an, wie der Effekt auf den Mesh angewendet wird. |
+| **Von vorne nach hinten** | Passen Sie an, wie der Effekt auf den Mesh angewendet wird. |
 
 >[!TIP]
 >
@@ -296,19 +296,19 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>Mikrohöhe</strong></td>
-    <td>Aktivieren oder deaktivieren Sie die Verwendung einer benutzerdefinierten Micro Height Map.</td>
+    <td>Aktivieren oder deaktivieren Sie die Verwendung einer benutzerdefinierten Micro Höhen-Map.</td>
   </tr>
   <tr>
     <td><strong>Mikro-Normale</strong></td>
-    <td>Aktivieren oder deaktivieren Sie die Verwendung einer benutzerdefinierten Micro Normal-Karte.</td>
+    <td>Aktivieren oder deaktivieren Sie die Verwendung einer benutzerdefinierten Micro Normalen-Map.</td>
   </tr>
   <tr>
     <td><strong>Biegungstyp</strong></td>
-    <td>Lege den Kurvenzeichner fest. <br><ul><li><strong>Standard</strong>: Erstellt ein normalerweise recht scharfes Ergebnis, kann jedoch größere Details vermissen lassen.</li><li><strong>Sobel</strong>: Ergibt ähnliche Ergebnisse wie bei der Standardeinstellung, jedoch leicht unschärfer, da die Normalmap mit einem Sobel-Filter ausgewertet wird.</li><li><strong>Glatt</strong>: Erzeugt verschiedene Weichzeichnungsstufen (wie Mipmaps), um Informationen zu sammeln. Dadurch entstehen in der Regel glattere Kurven, aber Details können verloren gehen.</li></ul></td>
+    <td>Legen Sie die Krümmung fest. <br><ul><li><strong>Standard</strong>: Erstellt ein normalerweise recht scharfes Ergebnis, kann jedoch größere Details vermissen lassen.</li><li><strong>Sobel</strong>: Ergibt ähnliche Ergebnisse wie bei der Standardausgabe, ist jedoch leicht unscharf, da die Normalen-Map mit einem Sobel-Filter ausgewertet wird.</li><li><strong>Glatt</strong>: Erzeugt verschiedene Weichzeichnungsstufen (wie Mipmaps), um Informationen zu sammeln. Dadurch entstehen in der Regel glattere Kurven, aber Details können verloren gehen.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Biegungsstärke</strong></td>
-    <td>Passen Sie die Intensität der Krümmung im Modus <strong>Standard</strong> und <strong>Sobel </strong>Krümmung an.</td>
+    <td>Passen Sie die Intensität der Krümmung im <strong>Standardmodus</strong> und im <strong>Sobelmodus </strong>Krümmung an.</td>
   </tr>
   <tr>
     <td><strong>Höhendetailstärke</strong></td>
@@ -320,6 +320,6 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>AO-Tiefe</strong></td>
-    <td>Passen Sie die Tiefe (Intensität) der Umgebungsintensität in den Mikrodetails an.</td>
+    <td>Passen Sie die Tiefe (Intensität) des Ambient occlusion in Mikrodetails an.</td>
   </tr>
 </table>

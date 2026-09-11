@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects/paint.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie den Effekt "Malen" in Substance 3D Painter verwenden, um Malstriche und Textureffekte auf Ebenen anzuwenden.
+description: Erfahren Sie, wie Sie den Malen-Effekt in Substance 3D Painter verwenden, um Malen-Konturen und Textur-Maleffekte auf Ebenen anzuwenden.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Paint
 helpx_experience_level: ""
@@ -20,4 +20,4 @@ ht-degree: 4%
 
 # Farbe
 
-Dieser Effekt ermöglicht es, andere Effekte zu übermalen. Es verhält sich wie eine Ebene, was bedeutet, dass Sie Zugriff auf die verschiedenen Füllmethoden und eine Deckkraftsteuerung haben.
+Dieser Effekt ermöglicht das Malen über andere Effekte. Es verhält sich wie eine Ebene, was bedeutet, dass Sie Zugriff auf die verschiedenen Füllmethoden und eine Deckkraftsteuerung haben.

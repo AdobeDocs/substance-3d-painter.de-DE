@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_auto_stitcher.png" alt=""/><br><strong>In:</strong> Masche, Maschen</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der automatische Stitcher-Generator erstellt automatisch einen Hefteffekt entlang prozedural generierter Pfade. Diese Pfade können basierend auf UV-Nähten, Krümmung oder einer benutzerdefinierten Eingabemap generiert werden.<br><br>Der automatische Stitcher-Generator gibt eine monochrome (schwarz-weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken, um Fügeeffekte anzuwenden.<br><br>Zur Verwendung des Krümmungsmaskierungsmodus ist eine gebackene Krümmungskarte erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Backen</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der automatische Stitcher-Generator erstellt automatisch einen Hefteffekt entlang prozedural generierter Pfade. Diese Pfade können auf der Grundlage von UV, Krümmungen oder einer benutzerdefinierten Eingabe-Map generiert werden.<br><br>Der automatische Stitcher-Generator gibt eine monochrome (schwarz-weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken, um Fügeeffekte anzuwenden.<br><br>Um den Maskierungsmodus der Krümmung zu verwenden, ist eine Baking geführt Krümmungs-Map erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Baking</a>.</td>
   </tr>
 </table>
 
@@ -27,11 +27,11 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Krümmung</strong> Graustufen</td>
-    <td>Wählen Sie aus, wie die Heftpfade generiert werden:<br><ul><li><strong>UV-Maske</strong> generiert die Pfade entlang von UV-Nähten.</li><li>Die <strong>Krümmung </strong> erzeugt Pfade in der Nähe von harten Kanten.</li><li>Mit <strong>Benutzerdefinierte Eingabe</strong> können Sie steuern, wo Pfade mithilfe einer Map generiert werden.<br>Bei Verwendung von <strong>Benutzerdefinierter Eingabe</strong> werden Pfade in kontrastreichen Bereichen generiert.</li></ul></td>
+    <td>Wählen Sie aus, wie die Heftpfade generiert werden:<br><ul><li><strong>UV-Maske</strong> generiert die Pfade entlang UV-Nähte.</li><li><strong>Krümmung </strong> erzeugt Pfade in der Nähe von Kanten.</li><li>Mit <strong>Benutzerdefinierte Eingabe</strong> können Sie steuern, wo Pfade mithilfe einer Map generiert werden.<br>Bei Verwendung von <strong>Benutzerdefinierter Eingabe</strong> werden Pfade in kontrastreichen Bereichen generiert.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Benutzerdefinierte Eingabe</strong> Graustufen</td>
-    <td>Verwenden einer benutzerdefinierten Struktur oder eines Ankerpunkts.</td>
+    <td>Verwenden einer benutzerdefinierten Textur oder eines Ankerpunkts.</td>
   </tr>
 </table>
 
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Maskenmodus</strong></td>
-    <td>Wähle den Maskierungsmodus aus.<br><ul><li>UV-Maske: Masken auf Basis von UV-Inseln.</li><li>Krümmung: Masken basierend auf der Kurvenzeichner-Map.</li><li>Benutzerdefinierte Eingabe: Masken, die auf einer benutzerdefinierten Eingabetextur basieren.</li></ul></td>
+    <td>Wähle den Maskierungsmodus aus.<br><ul><li>UV-Maske: Masken auf Basis von UV-Inseln.</li><li>Krümmung: Masken auf Basis des Krümmungs-Map.</li><li>Benutzerdefinierte Eingabe: Masken, die auf einer benutzerdefinierten Eingabe-Textur basieren.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Path-Smoothness</strong></td>
@@ -72,7 +72,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>Jitter</strong></td>
-    <td>Jitter in Fließrichtung der Maschen anpassen.</td>
+    <td>Passen Sie den Jitter in die Fließrichtung der Maschen an.</td>
   </tr>
 </table>
 
@@ -81,6 +81,6 @@ ht-degree: 1%
 <table>
   <tr>
     <td><img src="../../../assets/generators/examples/auto-stitcher/custom-input2.png" alt=""/></td>
-    <td>Dieses Beispiel zeigt, wie benutzerdefinierte Eingaben Heftpfade erstellen. <br><ul><li>Die Schwarz-Weiß-Grundfarbe zeigt die Rauschstrukturen an, die wir als benutzerdefinierte Eingabe für den automatischen Heftgenerator verwenden.</li><li>Der Autostitcher-Generator maskiert die rote Ebene und lässt die rot zusammengefügten Pfade sichtbar.</li><li>Beachten Sie, dass die rot zusammengefügten Pfade in ausreichend große schwarze oder weiße Bereiche der benutzerdefinierten Geräuschstruktur für die Eingabe passen. Die rote Naht verläuft nie von weiß nach schwarz oder von schwarz nach weiß.</li></ul><br>Die Abbildung unten zeigt die einfache Ebenenkonfiguration, mit der dieses Beispiel erstellt wurde.<br><br><img src="../../../assets/generators/examples/auto-stitcher/custom-input-layer-stack.png" alt=""/></td>
+    <td>Dieses Beispiel zeigt, wie benutzerdefinierte Eingaben Heftpfade erstellen. <br><ul><li>Die Schwarz-Weiß-Grundfarbe zeigt die Rauschen-Texturen an, die wir als benutzerdefinierte Eingabe für den Autostitcher-Generator verwenden.</li><li>Der Autostitcher-Generator maskiert die rote Ebene und lässt die rot zusammengefügten Pfade sichtbar.</li><li>Beachten Sie, dass die rot zusammengefügten Pfade in ausreichend große schwarze oder weiße Bereiche der benutzerdefinierten Rauschen-Textur passen. Die rote Naht verläuft nie von weiß nach schwarz oder von schwarz nach weiß.</li></ul><br>Die Abbildung unten zeigt die einfache Ebenenkonfiguration, mit der dieses Beispiel erstellt wurde.<br><br><img src="../../../assets/generators/examples/auto-stitcher/custom-input-layer-stack.png" alt=""/></td>
   </tr>
 </table>

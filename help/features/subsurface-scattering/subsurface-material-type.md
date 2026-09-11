@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
-description: Lerne, wie du in Substance 3D Painter realistische Materialien für Haut, Wachs und organische Materialien erstellst, die den Untergrund darstellen.
+description: Lerne, wie du in Substance 3D Painter realistische Materialien mit Untergründen in Haut, Wachs und organischen Materialien gestalten kannst.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Subsurface Scattering > Subsurface Material Type
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Untergrund-Materialart
+title: Typ des unterirdischen Materials
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,22 +18,22 @@ ht-degree: 1%
 ---
 
 
-# Untergrund-Materialart
+# Typ des unterirdischen Materials
 
-Auf dieser Seite werden die verschiedenen Materialtypen aufgeführt, die mit der Funktion zum Streuen unter der Oberfläche erstellt werden können, und es wird erläutert, wie Sie Substance 3D Painter dafür konfigurieren können. Für jeden Materialtyp wird eine Skalierung und eine Farbe angegeben, die in den [Subsurface Parameters](subsurface-parameters.md) festgelegt werden können.
+Auf dieser Seite werden die verschiedenen Typen von Materialien aufgeführt, die mit der Funktion &quot;Volumenstreuung&quot; erstellt werden können, und es wird erläutert, wie Substance 3D Painter konfiguriert werden kann, um sie zu erstellen. Für jeden Typ von Material wird eine Skalierung und eine Farbe angegeben, die in den [Unteroberflächenparametern](subsurface-parameters.md) festgelegt werden können.
 
 >[!NOTE]
 >
-> Die auf dieser Seite aufgelisteten Werte geben einen Überblick über die einzelnen Materialtypen. Sie sind nicht exakte Werte und müssen pro Projekt interpretiert und/oder angepasst werden.
+> Die auf dieser Seite aufgelisteten Werte geben einen Überblick über die einzelnen Material. Sie sind nicht exakte Werte und müssen pro Projekt interpretiert und/oder angepasst werden.
 
 ## Menschliche Haut
 
 ![](../../assets/mat-skin.jpg)
 
-Für ein gutes Hautmaterial ist Folgendes erforderlich:
+Für ein gutes Hautbild ist Folgendes erforderlich:
 
-* Eine gute Grundstruktur : für einen realistischen Charakter bedeutet dies eine große Menge an Details und verschiedenen Farben.
-* Ein kräftiges Height/normale Struktur : der Untergrundeffekt die Oberflächendetails weicher macht, wobei starke Details in erster Linie den Effekt kompensieren.
+* Eine gute Basis-Textur : für einen realistischen Charakter bedeutet dies eine große Menge an Details und verschiedenen Farben.
+* Starkes Height/normale Textur: der Untergrundeffekt die Oberflächendetails weicher macht, wobei starke Details in erster Linie den Effekt kompensieren.
 
 | *Einstellung* | *Beschreibung* |
 | --- | --- |

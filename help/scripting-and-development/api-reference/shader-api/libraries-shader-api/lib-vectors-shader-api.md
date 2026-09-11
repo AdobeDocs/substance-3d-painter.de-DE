@@ -40,7 +40,7 @@ uniform bool is2DView;
 ```
 
 
-Welche Art von Projektion wird verwendet?
+Welche Projektion wird verwendet?
 
 ```
 //: param auto is_perspective_projection 
@@ -49,7 +49,7 @@ uniform bool is_perspective;
 ```
 
 
-Augenposition im Weltraum.
+Augenposition im Welt-Raum.
 
 ```
 //: param auto world_eye_position 
@@ -58,7 +58,7 @@ uniform vec3 camera_pos;
 ```
 
 
-Kameraorientierung im Weltraum.
+Ausrichtung der Kamera im Welt-Raum.
 
 ```
 //: param auto world_camera_direction 
@@ -81,7 +81,7 @@ bool isBackFace() {
 ```
 
 
-Berechnen des Weltraum-Augenvektors
+Berechnen des Welt-Raum-Augenvektors
 
 ```
 vec3 getEyeVec(vec3 position) { 
@@ -96,7 +96,7 @@ vec3 getEyeVec(vec3 position) {
 ```
 
 
-Umwandeln eines Vektors aus dem Tangentenraum in den Weltraum
+Umwandeln einer Tangente aus dem Vektorraum in Welt-Raum
 
 ```
 vec3 tangentSpaceToWorldSpace(vec3 vecTS, V2F inputs) { 
@@ -113,7 +113,7 @@ vec3 tangentSpaceToWorldSpace(vec3 vecTS, V2F inputs) {
 ```
 
 
-Umwandeln eines Vektors aus dem Welt- in den Tangentenraum
+Umwandeln eines Vektors aus einem Welt-Raum in eine Tangente
 
 ```
 vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) { 
@@ -126,7 +126,7 @@ vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) {
 ```
 
 
-Lokaler Rahmen des Scheitelpunkts im Weltraum
+Lokaler Rahmen des Scheitelpunkts in der Welt-Raum
 
 ```
 struct LocalVectors { 
@@ -139,7 +139,7 @@ struct LocalVectors {
 ```
 
 
-Berechnen des lokalen Frames aus einer benutzerdefinierten Weltraum-Normal- und Anisotropie
+Berechnen des lokalen Rahmens aus einem benutzerdefinierten Welt-Raum-Normale und anisotropy angle
 
 ```
 LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) { 
@@ -222,7 +222,7 @@ LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) {
 ```
 
 
-Berechnen des lokalen Frames aus Gittern, Heights und Normalen in Dokumenten
+Berechnen des lokalen Rahmens aus dem Height und den Normalen von Meshs und Dokumenten
 
 ```
 LocalVectors computeLocalFrame(V2F inputs) { 

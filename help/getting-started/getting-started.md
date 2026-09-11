@@ -29,7 +29,7 @@ Vom Fenster <b>Begrüßungsbildschirm</b> aus können Sie auf die folgenden Seit
 * [Foren](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter?filter=all&page=1&sort=latest_replies)
 * [Community-Assets](https://helpx.adobe.com/substance-3d-community-assets/home.html)
 
-Andernfalls beginnen Sie mit den Grundlagen der Projekterstellung und des Texturexports:
+Andernfalls beginnen Sie mit den Grundlagen der Projekterstellung und dem Exportieren von Texturen:
 
 * [Projekterstellung](project-creation.md)
 * [Exportieren](../export/export.md)

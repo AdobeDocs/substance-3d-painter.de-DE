@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Lib Emissive Shader-API-Referenz für Substance 3D Painter zu, um Emissionsmaterialien und glühende Effekte zu erzeugen.
+description: Greifen Sie auf die Lib Emissive-Referenz für Substance 3D Painter zu, um emissive-Materials und leuchtende Effekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Emissive - Shader API
 helpx_experience_level: ""

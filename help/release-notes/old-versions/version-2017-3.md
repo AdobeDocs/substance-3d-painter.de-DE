@@ -30,7 +30,7 @@ Freigabedatum: *28. September 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Einer der neuen Exporteure, die in dieser Version enthalten sind, ist die Unterstützung für Adobe-Standardmaterialien, die mit Adobe Dimension (früher Adobe Project Felix) verwendet werden sollen. Sie können das Szenengitter und seine Texturen exportieren, um sie mit einem Klick in Project Felix zu importieren. Um darauf zuzugreifen, wählen Sie einfach &quot;**Adobe Standard Material**&quot; im Fenster &quot;Texturen exportieren&quot; aus. Weitere Informationen finden Sie unter: [http://www.adobe.com/de/products/dimension.html](https://www.adobe.com/de/products/dimension.html)
+Einer der neuen Exporteure, die in dieser Version enthalten sind, ist die Unterstützung für Adobe-Standardmaterialien, die mit Adobe Dimension (früher Adobe Project Felix) verwendet werden sollen. Sie können den Szene-Mesh und seine Texturen exportieren, um sie mit einem Klick in Project Felix zu importieren. Um darauf zuzugreifen, wählen Sie einfach &quot;**Adobe Standard Material**&quot; im Fenster &quot;Texturen exportieren&quot; aus. Weitere Informationen finden Sie unter: [http://www.adobe.com/de/products/dimension.html](https://www.adobe.com/de/products/dimension.html)
 
 Sie können auch unseren Blogpost darüber lesen: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -38,7 +38,7 @@ Sie können auch unseren Blogpost darüber lesen: <https://www.allegorithmic.com
 
 ![](../../assets/gltf-export.jpg)
 
-Wir haben außerdem Unterstützung für das Dateiformat **glTF** mit dem Export des **Szenengitters** und der **PBR-Texturen** (Metallisch/Raueit) hinzugefügt. Um darauf zuzugreifen, wählen Sie einfach &quot;**glTF PBR Metal Roughness**&quot; im Fenster &quot;Exporttexturen&quot; aus. **glTF** ist ein Open-Source-Dateiformat, das von der Gruppe Khronos geleitet wird. Sie können Ihre glTF-Datei in **Windows 10** anzeigen oder einfach einen WebGL-Viewer wie [**Babylon**](http://sandbox.babylonjs.com/) verwenden.
+Wir haben außerdem Unterstützung für das Dateiformat **glTF** mit dem Export des **Szenengitters** und der **PBR-Texturen** (Metallisch/Raueit) hinzugefügt. Um darauf zuzugreifen, wählen Sie im Fenster &quot;Exporteinstellungen&quot; einfach &quot;**glTF PBR Metal Rauheit**&quot; aus. **glTF** ist ein Open-Source-Dateiformat, das von der Gruppe Khronos geleitet wird. Sie können Ihre glTF-Datei in **Windows 10** anzeigen oder einfach einen WebGL-Viewer wie [**Babylon**](http://sandbox.babylonjs.com/) verwenden.
 
 Weitere Informationen finden Sie unter: <https://github.com/KhronosGroup/glTF>
 
@@ -59,7 +59,7 @@ Der **Verlaufsfilter** wurde vollständig überarbeitet. Die Funktion ähnelt de
 
 Der Hauptregler (Farbmenge) legt die Anzahl der Gesamtfarben fest, die zum Erstellen des Verlaufs verwendet werden. Die Schaltfläche direkt unten definiert den Farbüberblendmodus (sRGB oder Linear). Dies ist wichtig, wenn Sie eine ordnungsgemäße Überblendung zwischen Farben haben möchten. Wenn Sie beispielsweise ein reines Rot und ein reines Grün mischen, erhalten Sie dazwischen ein schönes Gelb. Dies ist nicht der Fall, wenn die Schaltfläche deaktiviert ist (stattdessen wird dunkelbraun angezeigt). Wenn Sie das Height oder andere Graustufenkanäle neu zuordnen, sollte diese Schaltfläche deaktiviert sein, um eine Gamma-Konvertierung zu vermeiden.
 
-Über die Schaltfläche oben kann das Ergebnis des Filters durch den Verlauf selbst ersetzt werden, um den Verlauf in der 2D-Ansicht darzustellen.
+Mit der Schaltfläche oben kann das Filterergebnis durch den Verlauf selbst ersetzt werden, um den Verlauf in der 2D-Ansicht darzustellen.
 
 ![](../../assets/gradient-height-demo.jpg)
 
@@ -67,15 +67,15 @@ Der Hauptregler (Farbmenge) legt die Anzahl der Gesamtfarben fest, die zum Erste
 
 ![](../../assets/tabs-top.png)
 
-In dieser Version befinden sich die **Registerkarten** der verschiedenen Docks der Anwendung jetzt **oben anstatt unten** in ihren jeweiligen Fenstern. Diese Auswahl wurde getroffen, um die Lesbarkeit der Benutzeroberfläche zu verbessern, aber auch, um mit anderen Anwendungen konsistenter zu sein. Nach dieser Änderung folgt die Einführung des **kleinen Kreuzes** neben dem Registerkartentitel, um es **einfach zu schließen**. Es ist auch möglich, **mit der rechten Maustaste** auf die Registerkarte zu klicken, um ein **Kontextmenü** aufzurufen (mit dem Sie das Fenster schließen oder abdocken können). Um das Fenster abzudocken, ziehen Sie die Registerkarte einfach aus dem Fensterbereich heraus.
+In dieser Version befinden sich die **Registerkarten** der verschiedenen Docks der Anwendung jetzt **oben anstatt unten** in ihren jeweiligen Fenstern. Diese Auswahl wurde getroffen, um die Lesbarkeit der Benutzeroberfläche zu verbessern, aber auch, um mit anderen Anwendungen konsistenter zu sein. Nach dieser Änderung folgt die Einführung des **kleinen Kreuzes** neben dem Registerkartentitel, um es **einfach zu schließen**. Es ist auch möglich, **mit der rechten Maustaste** auf die Registerkarte zu klicken, um ein **Kontextmenü** aufzurufen (mit dem Sie das Fenster schließen oder abdocken können). Ein Tastaturbefehl zum Abdocken des Fensters besteht darin, die Registerkarte einfach aus dem Fensterbereich heraus zu ziehen und abzulegen.
 
-Es ist jetzt auch möglich, **Projekte** zu öffnen, indem Sie sie einfach **per Drag &amp; Drop aus dem Datei-Explorer in den Viewport** ziehen. Dies funktioniert auch mit **mesh**-Dateien: Durch Ziehen und Ablegen einer Gitterdatei in einem **leeren Viewport** wird das **neue Projektfenster** geöffnet. Wenn Sie dies jedoch in einem **bereits geöffneten Projekt** tun, wird das **Projektkonfigurationsdialogfeld** geöffnet, sodass ein Gitter schnell **aktualisiert werden kann**.
+Es ist jetzt auch möglich, **Projekte** zu öffnen, indem Sie sie einfach **per Drag &amp; Drop aus dem Explorer in den Viewport** ziehen. Dies funktioniert auch mit **Mesh**-Dateien: Durch Ziehen und Ablegen einer Meshdatei in einen **leeren Viewport** wird das **neue Projektfenster** geöffnet. Wenn Sie dies jedoch in einem **bereits geöffneten Projekt** tun, wird das **Projektkonfigurationsdialogfeld** geöffnet, sodass ein Mesh schnell **aktualisiert werden kann**.
 
 **Hinweis** : Wenn Sie Probleme mit dem Ziehen und Ablegen haben, stellen Sie sicher, dass Sie [unsere FAQ zum Thema](../../technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md) überprüfen.
 
 ### Geschwindigkeitssteigerungen
 
-Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistungsverbesserung für die Verwaltung des GPU-Speichers (VRam). Einheitliche Farben (wie z. B. Füllebenen) werden jetzt in kleinere Texturen komprimiert, wodurch ihre Übertragung zwischen dem Hauptspeicher und dem GPU-Speicher beschleunigt wird, aber auch ihr Speicherbedarf und ihre Berechnungszeit reduziert werden. Dies sollte besonders beim Öffnen großer Projekte und beim Erreichen der Grenzen des GPU-Speichers sichtbar sein.
+Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistungsverbesserung für die Verwaltung des GPU-Speichers (VRam). Einheitliche Farben (z. B. Füllebenen) werden jetzt in kleinere Texturen komprimiert, wodurch ihre Übertragung zwischen dem Hauptspeicher und dem GPU-Speicher beschleunigt wird, aber auch ihr Speicherbedarf und ihre Berechnung reduziert werden. Dies sollte besonders beim Öffnen großer Projekte und beim Erreichen der Grenzen des GPU-Speichers sichtbar sein.
 
 ## Versionshinweise
 
@@ -163,7 +163,7 @@ Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistu
 * [Ebene] Legen Sie die Standardeinstellung für die Kachelung standardmäßig auf 1 fest.
 * [Shelf] Verbesserter Verlaufsfilter zur Unterstützung von 10 dynamischen Farben
 * [Shelf] Fügen Sie in der Standardabfrage des Mini-Shelf ein Leerzeichen hinzu
-* [Shelf] Hinzufügen einer Aktion &quot;In Explorer öffnen&quot; für lokale Ressourcen im Shelf
+* [Regal] Hinzufügen einer Aktion &quot;Im Explorer öffnen&quot; für lokale Ressourcen im Regal
 * [Shelf] Vorlage und Shader für Adobe Material Standard hinzufügen (Project Felix)
 * [Shelf] Erhöhen der maximalen Kachelung auf 128 in den Materialschichtschattierungen
 * [Shelf] Zusätzliche Sobelkrümmung für Mikrodetails von Maskengeneratoren

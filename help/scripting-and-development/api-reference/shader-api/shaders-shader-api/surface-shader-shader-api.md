@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Surface Shader-API-Referenz für Substance 3D Painter zu, um benutzerdefinierte Oberflächenschattierungseffekte und -materialien zu erstellen.
+description: Greifen Sie auf die Surface Shader-API-Referenz für Substance 3D Painter zu, um benutzerdefinierte Surface Shader-Effekte und -Materialien zu erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Surface Shader - Shader-API
 
-## surface-shader.glsl
+## surface-Shader.glsl
 
 Um eine Shader-Ressource zu erstellen, die in Substance Painter verwendet werden kann, erstellen Sie einfach eine GLS-Datei, die eine einzelne Funktion namens *shade* mit dem folgenden Profil enthält:
 
@@ -56,7 +56,7 @@ struct V2F {
 
 Hinweis: Um einen SparseCoord für uv1-uv7 zu erhalten, müssen Sie explizit *getSparseCoord(vec2)* aufrufen, definiert in [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)
 
-## Surface Shader-Ausgaben:
+## Surface Shader Outputs:
 
 Die folgenden Funktionen können innerhalb der *shade*-Funktion aufgerufen werden, um Fragmenteigenschaften zu beschreiben:
 

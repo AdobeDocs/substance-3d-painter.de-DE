@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/text-resource.html"
 breadcrumb-title: ''
-description: Lerne, wie du in Substance 3D Painter mithilfe von Textressourcen Text und Typografie zu deinen Workflows für das Strukturieren hinzufügst.
+description: Lerne, wie du in Substance 3D Painter mithilfe von Textressourcen Schrift und Typografie zu deinen Texturen hinzufügen kannst.
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -54,9 +54,9 @@ Painter unterstützt die Schriftformate <b>.ttf</b> und <b>.otf</b>.
 
 ### Verwenden einer Schriftart als Textressource
 
-Eine Texturressource funktioniert wie andere Ressourcen (z. B. Bilder oder Substance-Materialien) und kann in Pinselparametern, Füllprojektionen oder Substance-Bildeingaben verwendet werden.
+Eine Textur-Ressource funktioniert wie andere Ressourcen (z. B. Bilder oder Substance-Materialien) und kann in Pinselparametern, Füll-Projektionen oder Substance-Bildeingaben verwendet werden.
 
-Zum Erstellen einer Textressource fügen Sie einfach eine Schriftart in einen Ressourcenbereich ein. Es ist auch möglich, eine Schrift per Drag &amp; Drop in den Viewport zu ziehen.
+Zum Erstellen einer Textressource fügen Sie einfach eine Schriftart in einen Ressourcenbereich ein. Es ist auch möglich, eine Schrift per Drag &amp; Drop in den Viewport einzufügen.
 
 ![](../assets/v10_text_drag_drop.gif)
 
@@ -68,7 +68,7 @@ Eine Textressource verfügt über die folgenden grundlegenden Parameter:
 
 | <b>Parameter</b> | <b>Beschreibung</b> |
 | --- | --- |
-| <b>Text</b> | Text, der gerendert werden soll  **Hinweis:** Das Textfeld in der Benutzeroberfläche verwendet eine generische Schriftart mit einer Vielzahl von Zeichen, was zu einer Diskrepanz zwischen dem, was in dem Feld eingegeben wurde, und dem, was die ausgewählte Schriftart in der Textur rendern kann, führen kann. |
+| <b>Text</b> | Text, der gerendert werden soll  **Hinweis:** Das Textfeld auf der Benutzeroberfläche verwendet eine generische Schriftart mit einer Vielzahl von Zeichen, was zu einer Diskrepanz zwischen dem, was in dem Feld eingegeben wurde, und dem, was die ausgewählte Schriftart in der Textur rendern kann, führen kann. |
 | <b>Schriftgröße</b> | Geben Sie den Modus an, der zur Berechnung der Schriftgröße verwendet wird. Verfügbare Modi sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Auto</b>: Die Größe wird automatisch aus dem Textinhalt berechnet und an die Textur angepasst.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Die Größe kann über die dedizierte Einstellung manuell gesteuert werden.</li> </ul> |
 | <b>Ausrichtung</b> | Steuern Sie die vertikale und horizontale Ausrichtung. Verwenden Sie die Schaltflächen, um auszuwählen, welchen Modus Sie verwenden möchten. |
 | <b>Farbe</b> | Die Farbe des gerenderten Texts. Diese Einstellung kann &quot;Graustufen&quot; sein, wenn die Textressource in einer Maske oder einem Graustufenkanal verwendet wird. |
@@ -79,8 +79,8 @@ Weitere erweiterte Parameter sind ebenfalls verfügbar:
 
 | <b>Parameter</b> | <b>Beschreibung</b> |
 | --- | --- |
-| <b>Zeilenabstand</b> | Abstand zwischen Textzeilen (&quot;Zeilenabstand&quot;) im Verhältnis zur Schriftgröße |
-| <b>Zeichenabstand</b> | Der Abstand zwischen benachbarten Zeichen im Verhältnis zur Schriftgröße. Kann negativ sein, um den Abstand zu subtrahieren. |
+| <b>Zeilen-Abstand</b> | Abstand zwischen Textzeilen (&quot;Zeilenabstand&quot;) im Verhältnis zur Schriftgröße |
+| <b>Zeichen Abstand</b> | Der Abstand zwischen benachbarten Zeichen im Verhältnis zur Schriftgröße. Kann negativ sein, um Abstand abzuziehen. |
 | <b>Offset</b> | Horizontaler und vertikaler Versatz des Textes. Auf die Schriftgröße normalisiert. |
 | <b>Hintergrundfüllung</b> | Die Farbe des Hintergrunds hinter dem Text. |
 | <b>Hintergrunddeckkraft</b> | Wie viel von der Hintergrundfarbe ist sichtbar. |

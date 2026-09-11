@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie netzbasierte Eingaben in benutzerdefinierten Effekten für Substance 3D Painter verwenden, um geometrieabhängige Textureffekte zu erstellen.
+description: Erfahren Sie, wie Sie Mesh-basierte Eingaben in benutzerdefinierten Effekten für Substance 3D Painter verwenden, um geometrieabhängige Textur-Effekte zu erzeugen.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects > Mesh Based Input
 helpx_experience_level: ""
@@ -20,19 +20,19 @@ ht-degree: 1%
 
 # Gitterbasierte Eingabe
 
-&quot;Gitterbasierte Eingabe&quot; sind Texturen, die vom Modul von Substance 3D Painter bereitgestellt werden und aus dem Gitter im aktuellen Projekt extrahiert werden. Diese Texturen können verwendet werden, um erweiterte Effekte basierend auf der Gittertopologie zu erstellen.
+&quot;Mesh-basierte Eingabe&quot; sind Texturen, die vom Engine von Substance 3D Painter bereitgestellt werden, das aus dem Mesh innerhalb des aktuellen Projekts extrahiert wurde. Diese Texturen können verwendet werden, um erweiterte Effekte auf der Grundlage der Mesh-Topologie zu erstellen.
 
 >[!NOTE]
 >
-> Diese Mesh-Informationen basieren auf der Topologie selbst und berücksichtigen nicht die Mesh-Map (baked textures).
+> Diese Mesh-Informationen basieren auf der Topologie selbst und berücksichtigen nicht die Mesh-Map (Baking geführt Texturen).
 > 
-> Der Eingang, den der Motor liefert, ist eine 32-bit-Gleitkommatextur, die auf den Wert des Eingangs im Substance-Graphen herunterskaliert/geklemmt wird.
+> Der vom Engine bereitgestellte Eingang ist eine 32-bit-Gleitkomma-Textur, die auf den Wert des Eingangs im Substance-Graf herunterskaliert/geklemmt wird.
 
-| Gitterinformationen | Kennung | Nutzung | Beschreibung |
+| Informationen zum Mesh | Kennung | Nutzung | Beschreibung |
 | --- | --- | --- | --- |
-| *Position (RGB)* | **mesh\_position** | **meshPosition** | Rufen Sie eine Textur ab, die die Scheitelpunktposition enthält. |
-| *Normaler Weltraum (RGB)* | **mesh\_world\_space\_normal** | **meshNormalWS** | Rufen Sie eine Textur ab, die die Scheitelpunktnormale im Welt-Raum enthält. |
-| *World Space Tangent (RGB)* | **mesh\_world\_space\_tangent** | **meshTangentWS** | Rufen Sie eine Textur ab, die die Scheitelpunkttangente im Weltraum enthält. |
-| *World Space Bitangent (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Rufen Sie eine Textur ab, die den Scheitelpunkt &quot;Bi-Tangente&quot; (Bi-Normal) im Weltraum enthält. |
-| *Texelgröße (Graustufen)* | **mesh\_texel\_size** | **meshTexelSize** | Rufen Sie eine Textur ab, die die Texelgröße (Differenz zwischen Pixeldichte und Netz-UV) enthält. |
-| *UV-Maske (Graustufen)* | **mesh\_uv\_mask** | **meshUVMask** | Rufen Sie eine Struktur als schwarze (außen) und weiße (innen) Maske der Gitter-UV-Inseln ab. |
+| *Position (RGB)* | **Mesh\_position** | **meshPosition** | Rufen Sie eine Textur ab, die die Position des Scheitelpunkts enthält. |
+| *Welt-Raum-Normale (RGB)* | **mesh\_world\_space\_normal** | **meshNormalWS** | Rufen Sie eine Textur ab, die den Scheitelpunkt normal im Welt-Raum enthält. |
+| *Welt-Raum-Tangente (RGB)* | **mesh\_world\_space\_tangent** | **meshTangentWS** | Rufen Sie eine Textur ab, die die Scheitelpunkt-Tangente in Welt-Raum enthält. |
+| *Welt-Raum Bitangent (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Rufen Sie eine Textur ab, die den Scheitelpunkt &quot;Bi-Tangente&quot; (Bi-Normal) im Weltraum enthält. |
+| *Texelgröße (Graustufen)* | **Mesh\_texel\_size** | **meshTexelSize** | Rufen Sie eine Textur ab, die die Textgröße (Differenz zwischen Pixeldichte und Mesh-UV) enthält. |
+| *UV-Maske (Graustufen)* | **Mesh\_uv\_mask** | **meshUVMask** | Rufen Sie eine Textur als schwarze (Außen) und weiße (Innen) Maske der Mesh-UV-Inseln ab. |

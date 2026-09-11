@@ -7,7 +7,7 @@ helpx_description: Painter > Scripting and development > API Reference > Shader 
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: PBR-Materialschichtung - Shader-API
+title: PBR Material Layering - Shader-API
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# PBR-Materialschichtung - Shader-API
+# PBR Material Layering - Shader-API
 
 Aus Bibliotheken importieren.
 

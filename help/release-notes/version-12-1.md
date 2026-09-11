@@ -118,7 +118,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
 * <b>Mehrere Kanäle gleichzeitig hinzufügen oder entfernen</b>
 
-  Nach der Einführung von OpenPBR können Sie in einem neuen Fenster, das über die <b>Einstellungen für den Textursatz</b> zugänglich ist, mehrere Kanäle gleichzeitig auswählen. Dies ist praktisch, wenn Sie die vom OpenPBR-Arbeitsablauf verwendete große Kanalliste einrichten.
+  Nach der Einführung von OpenPBR können Sie in einem neuen Fenster, auf das über die <b>Kanaleinstellungen</b> zugegriffen werden kann, mehrere Textursätze gleichzeitig auswählen. Dies ist praktisch, wenn Sie die vom OpenPBR-Workflow verwendete große Kanalliste einrichten möchten.
 
   * Das neue Fenster ist über die Schaltfläche <b>Kanäle hinzufügen oder entfernen</b> in den Einstellungen für den Textursatz verfügbar.
 
@@ -128,7 +128,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
     ![](../assets/v12/v12_channel_window_small.jpg)
 
-  * Mit der Schaltfläche <b>Auf alle Textursätze anwenden</b> können Sie die Kanalkonfiguration aller Textursätze gleichzeitig bearbeiten.
+  * Mit der Schaltfläche <b>Auf alle Textursatz anwenden</b> kann die Kanalkonfiguration aller Textursatz gleichzeitig bearbeitet werden.
 
     ![](../assets/v12/v12_channel_apply_all.png)
 
@@ -140,7 +140,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
 * <b>Einheitlicher Rückgängig-Verlauf</b>
 
-  Backen und Malen haben jetzt denselben Verlauf zum Rückgängigmachen. Das Umschalten zwischen dem Backmodus und dem Malmodus wird als Schritt aufgezeichnet, der rückgängig gemacht werden kann. Aktionen können daher nur in dem Modus rückgängig gemacht werden, in dem sie ausgeführt wurden.
+  Backen und Malen haben jetzt denselben Verlauf zum Rückgängigmachen. Das Umschalten zwischen dem Baking- und dem Malen-Modus wird als Schritt zum Rückgängigmachen aufgezeichnet. Aktionen können daher nur in dem Modus rückgängig gemacht werden, in dem sie ausgeführt wurden.
 
 ## Tutorials
 
@@ -193,10 +193,10 @@ Zusammenfassung: Nebenversion
 
 Hinzugefügt:
 
-* [Skew-Backing] Stellen Sie den normalen Modus der Skew-Basis bereit: Geflecht oder pro Dreieck
-* [Eigenschaften] Stellen Sie sicher, dass einheitliche Farben immer auf den Standardwert ihres Kanals zurückgesetzt werden
+* [Skew-Baking] Gelegt: Normaler Neigungsbasismodus: Mesh oder pro Dreieck
+* [Eigenschaften] einheitliche Farben immer auf den Standardwert ihres Kanals zurücksetzen lassen
 * [OpenPBR] Kanäle nach Kategorien im Fenster &quot;Texturen exportieren&quot; für die Erstellung von Ausgabevorlagen neu gruppieren
-* Aktualisieren der Substance-Engine auf Version 9.4.5
+* Substance Engine auf Version 9.4.5 aktualisieren
 
 Fest:
 
@@ -206,18 +206,18 @@ Fest:
 * [Absturz] Einige Substance können beim Rendern zu einem Absturz führen
 * [Neigung malen] Das ausgewählte Werkzeug in der Neigung bleibt nach dem Wechsel in den Malmodus ausgewählt
 * [Allgemeine Einstellungen sichern] Einstellungen für die Käfigentfernung aktualisieren die Drahtgitter- und Shader-Visualisierung für Käfige nicht
-* [Der Modus &quot;3D-Raum-Nachbar&quot; der Engine]-UV-Auffüllung funktioniert nicht gut bei dünnen Dreiecken
-* [Engine]-Ankerpunktergebnis wird nicht zwischen einer Maske und einem Farbkanal gerendert
+* [Engine] UV-Auffüllmodus &quot;3D Space Neighbor&quot; funktioniert nicht gut bei dünnen Dreiecken
+* Das Ergebnis des [Engine]-Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert
 
 ### 12.1.0
 
 Freigabedatum: <b>2026/06/23</b>
 
-Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Backerverbesserungen mit neuem Backstandardbenutzeroberflächenstatus, Zeichnen einer Skew-Map, automatischem Rebake, neue Option für automatisches UV-Entpacken für Oberflächenmaschen und OpenPBR. Weitere Informationen finden Sie in den vollständigen Versionshinweisen.</b>
+Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserungen an Bakern mit dem Standardzustand &quot;Neues Baking&quot;, der Zeichnungs-Skew-Map, dem automatischen Reake, einer neuen Option für den automatischen entpack von UV für Mesh und OpenPBR mit fester Oberfläche. Weitere Informationen finden Sie in den vollständigen Versionshinweisen.</b>
 
 <b>Hinzugefügt</b>:
 
-* [Backen mit Neigung] Malwerkzeuge mit Neigung
+* [Baking Neigen] Malwerkzeuge Neigen
 * [Skew Baking] Hinzufügen von Skew Preview Shader und Skew Direction Vektorgrafiken beim Malen von Skew Map
 * [Skew-Backing] Option &quot;Kantenschutz hinzufügen&quot;
 * [Backen mit Neigung] Automatische Wiederherstellung

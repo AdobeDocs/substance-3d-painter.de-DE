@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/texture-set.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Painter mit Texturensätzen arbeiten können, um Texturen zu organisieren und verschiedene Materialzuweisungen zu verwalten.
+description: Erfahre, wie du in Substance 3D Painter mit Textursätzen zusammenarbeitest, um Texturen zu organisieren und verschiedene Material-Aufgaben zu verwalten.
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Texture Set
 helpx_experience_level: ""
@@ -22,12 +22,12 @@ ht-degree: 4%
 
 ![](../../assets/texture-set.png)
 
-Substance 3D Painter erstellt jedes Mal, wenn eine Material-ID in einem importierten Gitter gefunden wird, automatisch einen neuen Textursatz ([es sei denn, ein Projekt verwendet den Workflow für UV-Kacheln](../../features/uv-tiles/uv-tiles.md)).
+Substance 3D Painter erstellt automatisch einen neuen Textursatz, sobald eine Materialien-ID auf einem importierten Mesh gefunden wird ([es sei denn, ein Projekt verwendet den Workflow für die UV-Kachel](../../features/uv-tiles/uv-tiles.md)).
 
 Es wird erwartet, dass jede Material-ID eindeutige UVs (oder logische Überschneidungen für gespiegelte Geometrie) aufweist.
 
-Weitere Informationen zu den Eigenschaften und Manipulationen von **Textursatz** finden Sie unter:
+Weitere Informationen zu den **Textursatz**-Eigenschaften und -Manipulationen finden Sie unter:
 
-* [Textursatzliste](texture-set-list.md)
-* [Einstellungen für &quot;Textursatz&quot;](texture-set-settings.md)
-* [Struktur Neuzuweisung festlegen](texture-set-reassignment.md)
+* [Textursatz](texture-set-list.md)
+* [Textursatz-Einstellungen](texture-set-settings.md)
+* [Neuzuordnung von Textursätzen](texture-set-reassignment.md)

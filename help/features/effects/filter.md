@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects/filter.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Filtereffekte in Substance 3D Painter verwenden, um Bildverarbeitungsfilter und Texturanpassungen anzuwenden.
+description: Erfahren Sie, wie Sie Filtereffekte in Substance 3D Painter verwenden, um Bildverarbeitungsfilter und Texturen anzuwenden.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Filter
 helpx_experience_level: ""
@@ -45,23 +45,23 @@ Klicken Sie auf den Knopf, um das Mini-Regal zu öffnen und wählen Sie den gew�
 
 ![](../../assets/filter-select-shelf.gif)
 
-## Ziehen und Ablegen eines Filters aus dem Shelf
+## Ziehen und Ablegen eines Filters aus dem Regal
 
 Diese Methode ist nur für Filter gedacht, die für den gesamten Ebenenstapel gelten sollen. Es werden automatisch alle Kanal [Füllmethoden](../../interface/layer-stack/blending-modes.md) festgelegt. Es funktioniert nicht, um Filter auf eine Maske anzuwenden.
 
-### 1 - Öffnen Sie den Bereich &quot;Filter&quot; im Shelf.
+### 1 - Öffnen Sie den Bereich Filter des Regals
 
-Klicken Sie im Regal links auf den Abschnitt &quot;Filter&quot;.
+Klicken Sie im Regal links auf den Bereich &quot;Filter&quot;.
 
 ![](../../assets/shelf-filters.gif)
 
 ## 2 - Ziehen und Ablegen des Filters
 
-Wählen Sie den Filter, den Sie in der Ablage verwenden möchten. Ziehe die Ebene in deinen Ebenenstapel, um sicherzustellen, dass sie an der richtigen Stelle platziert wird (zum Beispiel, um sie nicht in unerwünschten Gruppen abzulegen).
+Wählen Sie den Filter aus, den Sie im Regal verwenden möchten. Ziehe die Ebene in deinen Ebenenstapel, um sicherzustellen, dass sie an der richtigen Stelle platziert wird (zum Beispiel, um sie nicht in unerwünschten Gruppen abzulegen).
 
 ![](../../assets/filter-dragdrop.gif)
 
-Beachten Sie, dass der abgelegte Filter im obigen Beispiel bereits über den Mischmodus &quot;Passthrough&quot; verfügt. Dies gilt für alle Kanäle des Dokuments.
+Beachten Sie, dass der abgelegte Filter im obigen Beispiel bereits über einen Passthrough-Füllmethode verfügt. Dies gilt für alle Kanäle des Dokuments.
 
 ## Hinzufügen neuer Filtertypen
 

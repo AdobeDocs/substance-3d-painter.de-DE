@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie leere Asset- und Shelf-Vorschauen in Substance 3D Painter reparieren, um die Miniaturansicht wiederherzustellen.
+description: Erfahren Sie, wie Sie leere Asset- und Regal-Vorschauen in Substance 3D Painter korrigieren, um die Miniaturansicht wiederherzustellen.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Assets (or shelf) previews are empty
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Vorschauen von Elementen (oder Ablagen) sind leer
+title: Vorschauen von Elementen (oder Regalen) sind leer
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Vorschauen von Elementen (oder Ablagen) sind leer
+# Vorschauen von Elementen (oder Regalen) sind leer
 
 Dieses Problem kann durch andere Software verursacht werden. Siehe: [Softwarekonflikte](../startup-issues/software-conflicts.md).
 

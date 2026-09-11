@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
-description: Mit dem Menüband-Werkzeug in Substance 3D Painter können Sie farbbandähnliche Pinselstriche entlang von Pfaden für dekorative Strukturgemälde erstellen.
+description: Verwenden Sie das Menüband-Werkzeug in Substance 3D Painter, um bandähnliche Malen-Konturen entlang von Pfaden für dekorative Texturen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -34,9 +34,9 @@ Oder über die Schaltfläche <b>Pfadtyp</b>:
 
 ## Überblick
 
-Das Bandpfad-Werkzeug unterscheidet sich vom Pfade-Werkzeug dadurch, dass es Bilder und Materialien zeichnet.
+Das Bandpfad-Werkzeug unterscheidet sich vom Malen-Werkzeug entlang des Pfades in der Art und Weise, wie es Bilder und Materialien zeichnet.
 
-Während mit dem Malen-/Pinsel-basierten Werkzeug ein Bild auf einem Pfad mehrmals wiederholt wird, wird das Bild mit dem Menüband entlang des Pfads wiederholt und deformiert, um seinen Kurven zu folgen. Einzelne Komponenten eines Pinsels werden als <b>Stempel</b> bezeichnet, während die im Menüband als <b>Patches</b> bezeichnet werden.
+Während mit dem Malen-/Pinsel-basierten Werkzeug ein Bild auf einem Pfad mehrmals wiederholt wird, wird das Bild mit dem Menüband entlang des Pfads wiederholt und deformiert, um seinen Kurven zu folgen. Einzelne Komponenten eines Malen-Pinsels werden als <b>Stempel</b> bezeichnet, während die in der Multifunktionsleiste als <b>Patches</b> bezeichnet werden.
 
 ![](../../assets/ribbon_comparison.jpg)
 
@@ -67,15 +67,15 @@ Während mit dem Malen-/Pinsel-basierten Werkzeug ein Bild auf einem Pfad mehrma
 | <b>Bildausrichtung</b> | Definieren Sie die Richtung des Eingabebilds. Diese Richtung steuert, wie das Bild auf dem Pfad platziert wird. |
 | <b>Bild spiegeln</b> | Spiegeln Sie das Bild entlang der Achse/Breite des Pfades. |
 | <b>Ecke</b> | Legen Sie fest, wie scharfe Ecken (geteilte Tangenten) auf dem Pfad angezeigt werden sollen. Mögliche Verhaltensweisen sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Gehrungsstoß</b>: spitze Ecke</li> <li data-preserve-html="true"><b>Runde Verbindung</b>: abgerundete Ecke</li> <li data-preserve-html="true"><b>Abgeflachte Kante </b>: quadratische/ebene Ecke</li> <li data-preserve-html="true"><b>Verknüpfung ausschneiden</b>: Starten Sie den Pfad erneut. Dieser Modus erstellt einen neuen Pfad mit dedizierten Start-/Endabschnitten.</li> </ul>Unten siehst du, wie die Ecken aussehen, in der richtigen Reihenfolge:  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_1489087363_row-1k52rbi-column-6c32r7q_image" src="../../assets/ribbon_corners_small.jpg"/></div> |
-| <b>Die Auslassung endet beim Schließen</b>. | Wenn diese Option aktiviert ist, werden die Start-/Endabschnitte entfernt, wenn ein Pfad geschlossen wird, um eine kontinuierliche Schleife zu erstellen. Dies gilt sowohl für Streckungsabstände als auch für Dynamische Pinselstriche. |
+| <b>Die Auslassung endet beim Schließen</b>. | Wenn diese Option aktiviert ist, werden die Start-/Endabschnitte entfernt, wenn ein Pfad geschlossen wird, um eine kontinuierliche Schleife zu erstellen. Dies gilt sowohl für dehn-Versätze als auch für Dynamische Pinselstriche. |
 
-### Dehnen und Kacheln
+### Dehn und Kachelung
 
 ![](../../assets/ribbon_ui_stretch.png)
 
-Der Bandpfad kann zwei verschiedene Modi verwenden, um zu steuern, wie ein Bild entlang eines Pfads wiederholt und gestreckt wird:
+Der Bandpfad kann zwei verschiedene Modi verwenden, um zu steuern, wie ein Bild entlang eines Pfades wiederholt und gedehnt wird:
 
-* <b>entlang Pfad dehnen</b>: (Standard) Das Bild, das entlang des Pfades wiederholt wird, wird entsprechend der Pfadlänge gestreckt.
+* <b> entlang Pfad </b> Gedehnt: (Standard) Das Bild, das entlang des Pfades wiederholt wird, wird entsprechend der Pfadlänge gestreckt.
 * <b>Seitenverhältnis beibehalten</b>: Das Seitenverhältnis des entlang des Pfades wiederholten Bildes wird beibehalten. Ist das Bild zu lang im Vergleich zum Pfad, wird es beschnitten.
 
 #### An Pfad entlang dehnen
@@ -84,11 +84,11 @@ Der Bandpfad kann zwei verschiedene Modi verwenden, um zu steuern, wie ein Bild 
 
 | Parameter | Beschreibung |
 | --- | --- |
-| <b>Nur zwischen Offsets dehnen</b> | Wenn diese Option aktiviert ist, bleiben der Anfangs- und der Endabschnitt eines Bildes intakt, während die Mitte gedehnt wird. Verwenden Sie die Parameter <b>Anfangsoffset</b> und <b>Endoffset</b>, um die Größe dieser Abschnitte zu definieren. Der mittlere Abschnitt wird automatisch basierend auf dem Start/Ende berechnet.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../assets/ribbon_stretch_guides_path.png"/></div> |
-| <b>Mustermodus</b> | Legen Sie fest, wie ein Bild entlang des Pfades wiederholt wird. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Keine</b>: Das Bild wird nicht wiederholt. Es wird über den gesamten Pfad gestreckt.</li> <li data-preserve-html="true"><b>Auto</b>: (Standard) Das Bild wird automatisch eine bestimmte Anzahl von Malen wiederholt, basierend auf seiner Größe und der Strichbreite.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Das Bild wird um die Anzahl wiederholt, die durch den <b>Tiling amount</b>-Parameter definiert ist.</li> </ul> |
-| <b>Anzahl der Kacheln</b> | Geben Sie an, wie oft ein Bild im <b>benutzerdefinierten</b>-Kachelmodus wiederholt wird. |
+| <b>Nur zwischen Offsets dehnen</b> | Wenn diese Option aktiviert ist, bleiben der Anfangs- und der Endabschnitt eines Bildes intakt, während der mittlere Bereich gedehnt wird. Verwenden Sie die Parameter <b>Anfangsoffset</b> und <b>Endoffset</b>, um die Größe dieser Abschnitte zu definieren. Der mittlere Abschnitt wird automatisch basierend auf dem Start/Ende berechnet.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../assets/ribbon_stretch_guides_path.png"/></div> |
+| <b>Mustermodus</b> | Legen Sie fest, wie ein Bild entlang des Pfades wiederholt wird. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Keine</b>: Das Bild wird nicht wiederholt. Es wird entlang des gesamten Pfades gedehnt.</li> <li data-preserve-html="true"><b>Auto</b>: (Standard) Das Bild wird automatisch eine bestimmte Anzahl von Malen wiederholt, basierend auf seiner Größe und der Strichbreite.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Das Bild wird um die Anzahl wiederholt, die durch den Parameter <b>Kachelung amount</b> definiert ist.</li> </ul> |
+| <b>Kachelung </b> | Geben Sie an, wie oft ein Bild im <b>benutzerdefinierten</b>-Kachelung-Modus wiederholt wird. |
 | <b>Jede zweite Kachel spiegeln</b> | Spiegeln Sie das verwendete Bild jede zweite Wiederholung entlang der Pfadlänge. |
-| <b>Seitenverhältnisfaktor</b> | Dehnen oder komprimieren Sie das aktuelle Bildseitenverhältnis. |
+| <b>Seitenverhältnisfaktor</b> | Dehne oder komprimiert das aktuelle Bildseitenverhältnis. |
 
 #### Seitenverhältnis beibehalten
 
@@ -98,10 +98,10 @@ Der Bandpfad kann zwei verschiedene Modi verwenden, um zu steuern, wie ein Bild 
 | --- | --- |
 | <b>Verhältnis</b> | Legen Sie fest, wie das Bild skaliert wird, ohne das Bildverhältnis zu ändern:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>An Pfadbreite anpassen</b>: (Standard) Skalieren Sie das Bild, um es an die Pfadbreite anzupassen. Dies kann dazu führen, dass das Bild abgeschnitten wird, wenn es zu lang ist.</li> <li data-preserve-html="true"><b>An Pfadlänge anpassen</b>: Passen Sie die Abmessungen des Bildes so an, dass eine exakte Anzahl entlang des Pfades passt, während das Seitenverhältnis annähernd beibehalten wird.</li> </ul> |
 | <b>Beschnittene Kacheln entfernen</b> | Wenn diese Option aktiviert ist, werden Wiederholungen entlang des Pfades entfernt, die nicht vollständig sichtbar sind (wenn sie beschnitten werden). Diese Einstellung ist deaktiviert, wenn die Einstellung <b>Verhältnis</b> auf <b>An Pfadlänge anpassen</b> festgelegt ist. |
-| <b>Mustermodus</b> | Legen Sie fest, wie ein Bild entlang des Pfades wiederholt wird. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Keine</b>: Das Bild wird nicht wiederholt. Es wird über den gesamten Pfad gestreckt.</li> <li data-preserve-html="true"><b>Auto</b>: (Standard) Das Bild wird automatisch eine bestimmte Anzahl von Malen wiederholt, basierend auf seiner Größe und der Strichbreite.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Das Bild wird um die Anzahl wiederholt, die durch den <b>Tiling amount</b>-Parameter definiert ist.</li> </ul> |
+| <b>Mustermodus</b> | Legen Sie fest, wie ein Bild entlang des Pfades wiederholt wird. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Keine</b>: Das Bild wird nicht wiederholt. Es wird entlang des gesamten Pfades gedehnt.</li> <li data-preserve-html="true"><b>Auto</b>: (Standard) Das Bild wird automatisch eine bestimmte Anzahl von Malen wiederholt, basierend auf seiner Größe und der Strichbreite.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Das Bild wird um die Anzahl wiederholt, die durch den Parameter <b>Kachelung amount</b> definiert ist.</li> </ul> |
 | <b>Jede zweite Kachel spiegeln</b> | Spiegeln Sie das verwendete Bild jede zweite Wiederholung entlang der Pfadlänge. |
 | <b>Ausrichtung</b> | Legen Sie fest, wo das Bild entlang des Pfades beginnen soll. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Am Anfang ausrichten</b>: Das Bild wird ausgehend vom ersten Punkt des Pfades gezeichnet.</li> <li data-preserve-html="true"><b>In der Mitte ausrichten</b>: Das Bild wird in der Mitte des Pfades gezeichnet.</li> <li data-preserve-html="true"><b>Am Ende ausrichten</b>: Das Bild wird ausgehend vom letzten Punkt des Pfades gezeichnet.</li> </ul> |
-| <b>Seitenverhältnisfaktor</b> | Dehnen oder komprimieren Sie das aktuelle Bildseitenverhältnis. |
+| <b>Seitenverhältnisfaktor</b> | Dehne oder komprimiert das aktuelle Bildseitenverhältnis. |
 
 ### Kanalfüllmethode
 
@@ -111,9 +111,9 @@ Dieser Abschnitt steuert das Fülleffekt, wenn sich der Pfad selbst überlappt.
 
 | Parameter | Beschreibung |
 | --- | --- |
-| <b>Alpha</b> | Steuern Sie, wie der Abschnitt &quot;<b>Alpha</b>&quot; des Bandpfads in Bereichen überblendet wird, in denen er sich selbst überlappt. Dies wirkt sich auf die Intensität der Überblendung aller anderen Kanäle aus. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: verwendet das Alpha des obersten Segments.</li> <li data-preserve-html="true"><b>Aufhellen (max.)</b>: (Standard) verwendet den maximalen Alpha-Wert, wobei das deckendste Segment beibehalten wird.</li> <li data-preserve-html="true"><b>Linearer Abwedler (Hinzufügen)</b>: addiert das Alpha der Segmente, um sie zusammen anzuhäufen, was zu einem gesättigteren Wert führt.</li> </ul> |
-| <b>Normal</b> | Definieren Sie, wie der <b>Normal</b>-Kanal in Regionen überblendet wird, in denen sich der Pfad selbst überschneidet. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: verwendet das Ergebnis des obersten Segments.</li> <li data-preserve-html="true"><b>Normale Kartenkombination</b>: (Standard) die Segmente mit gleicher Intensität kombinieren.</li> <li data-preserve-html="true"><b>Normale Kartendetails</b>: das oberste Segment als zusätzliche Details betrachten, während die unteren Bereiche ihre Intensität beibehalten.</li> </ul>Diese Einstellung unterscheidet sich von dem für die gesamte Ebene definierten Mischmodus &quot;<b>Normal</b>&quot;, der nach der selbstüberlappenden Füllmethode des Pfades angewendet wird. <b>Hinweis</b>: Diese Einstellung ist deaktiviert, wenn der Kanal eine einheitliche Farbe hat. Es ist nur mit Bitmaps und Substance-Ressourcen kompatibel. |
-| <b>Height</b> | Definieren Sie, wie der <b>Height</b>-Kanal in Regionen überblendet wird, in denen sich der Pfad selbst überschneidet. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: verwendet das Ergebnis des obersten Segments.</li> <li data-preserve-html="true"><b>Linearer Abwedler (Hinzufügen)</b>: fügt die Segmente zusammen und behält dabei ihre ursprüngliche Intensität bei.</li> <li data-preserve-html="true"><b>Abdunkeln (Min.)</b>: nur den dunkelsten/niedrigsten Wert der überlappenden Segmente beibehalten.</li> <li data-preserve-html="true"><b>Licht (max.)</b>: (Standard) behält den hellsten/höchsten Wert der überlappenden Segmente bei.</li> <li data-preserve-html="true"><b>Bildschirm</b>: ähnelt <b>Linear Doge</b>, führt jedoch zu einem weniger gesättigten Ergebnis.</li> </ul>Diese Einstellung unterscheidet sich von dem für die gesamte Ebene definierten Mischmodus &quot;<b>Height</b>&quot;, der nach der selbstüberlappenden Füllmethode des Pfades angewendet wird. <b>Hinweis</b>: Diese Einstellung ist deaktiviert, wenn der Kanal eine einheitliche Farbe hat. Es ist nur mit Bitmaps und Substance-Ressourcen kompatibel. |
+| <b>Alpha</b> | Steuern Sie, wie der Abschnitt &quot;<b>Alpha</b>&quot; des Bandpfads in Bereichen überblendet wird, in denen er sich selbst überlappt. Dies wirkt sich auf die Intensität der Überblendung aller anderen Kanäle aus. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: verwendet das Alpha des obersten Segments.</li> <li data-preserve-html="true"><b>Aufhellen (max.)</b>: (Standard) verwendet den maximalen Alpha-Wert, wobei das deckendste Segment beibehalten wird.</li> <li data-preserve-html="true"><b>Linear abwedeln (Hinzufügen)</b>: addiert das Alpha der Segmente, um sie zusammen anzuhäufen, was zu einem gesättigteren Wert führt.</li> </ul> |
+| <b>Normal</b> | Definieren Sie, wie der <b>Normal</b>-Kanal in Regionen überblendet wird, in denen sich der Pfad selbst überschneidet. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: verwendet das Ergebnis des obersten Segments.</li> <li data-preserve-html="true"><b>Normalen-Map kombinieren</b>: (Standard) die Segmente mit gleicher Intensität kombinieren.</li> <li data-preserve-html="true"><b>Normalen-Map-Details</b>: das oberste Segment als zusätzliche Details betrachten, während die unteren Bereiche ihre Intensität beibehalten.</li> </ul>Diese Einstellung unterscheidet sich von dem für die gesamte Ebene definierten Mischmodus &quot;<b>Normal</b>&quot;, der nach der selbstüberlappenden Füllmethode des Pfades angewendet wird. <b>Hinweis</b>: Diese Einstellung ist deaktiviert, wenn es sich bei dem Kanal um eine einheitliche Farbe handelt. Es ist nur mit Bitmaps und Substance-Ressourcen kompatibel. |
+| <b>Height</b> | Definieren Sie, wie der <b>Height</b>-Kanal in Regionen überblendet wird, in denen sich der Pfad selbst überschneidet. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Normal</b>: verwendet das Ergebnis des obersten Segments.</li> <li data-preserve-html="true"><b>Linear abwedeln (Hinzufügen)</b>: fügt die Segmente zusammen und behält dabei ihre ursprüngliche Intensität bei.</li> <li data-preserve-html="true"><b>Abdunkeln (Min.)</b>: nur den dunkelsten/niedrigsten Wert der überlappenden Segmente beibehalten.</li> <li data-preserve-html="true"><b>Licht (max.)</b>: (Standard) behält den hellsten/höchsten Wert der überlappenden Segmente bei.</li> <li data-preserve-html="true"><b>Bildschirm</b>: ähnelt <b>Linear Doge</b>, führt jedoch zu einem weniger gesättigten Ergebnis.</li> </ul>Diese Einstellung unterscheidet sich von dem für die gesamte Ebene definierten Mischmodus &quot;<b>Height</b>&quot;, der nach der selbstüberlappenden Füllmethode des Pfades angewendet wird. <b>Hinweis</b>: Diese Einstellung ist deaktiviert, wenn es sich bei dem Kanal um eine einheitliche Farbe handelt. Es ist nur mit Bitmaps und Substance-Ressourcen kompatibel. |
 
 Beispiel für den Mischmodus mit dem Height-Kanal:
 

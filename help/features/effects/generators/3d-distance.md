@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_3d_distance.webp" alt=""/><br><strong>In:</strong>-Maske, Generator</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der 3D-Abstandsgenerator definiert einen Punkt im 3D-Raum (Quellpunkt) und zeigt den Abstand zu diesem Punkt mit einem monochromen Farbverlauf an. Bereiche auf der Gitteroberfläche, die näher am Punkt liegen, sind dunkler und Bereiche, die weiter entfernt liegen, sind heller (standardmäßig).<br><br>Als Bildeingabe ist eine vorgefertigte Positionszuordnung erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Backen hier</a>.<br><br>Die 3D-Entfernung gibt eine monochrome (schwarz-weiß) Textur aus. Das ist nützlich, wenn du Masken generieren willst, die einen Verlauf weg von einer bestimmten Position erzeugen.<br><br></td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der 3D-Abstandsgenerator definiert einen Punkt im 3D-Raum (Quellpunkt) und zeigt den Abstand zu diesem Punkt mit einem monochromen Farbverlauf an. Bereiche auf der Punktoberfläche, die näher am Mesh liegen, sind dunkler und Bereiche, die weiter entfernt liegen, sind heller (standardmäßig).<br><br>Eine Baking geführt Positionszuordnung ist als Bildeingabe erforderlich. <a href="../../../baking/baking.md">Erfahren Sie mehr über das Baking hier</a>.<br><br>3D Distance gibt eine monochrome (Schwarz-Weiß) Textur aus. Das ist nützlich, wenn du Masken generieren willst, die einen Verlauf weg von einer bestimmten Position erzeugen.<br><br></td>
   </tr>
 </table>
 
@@ -22,16 +22,16 @@ ht-degree: 1%
 
 | Eingabename | Beschreibung |
 | --- | --- |
-| **Position** | Berechnen Sie die Entfernung mithilfe der Positionskarte. |
+| **Position** | Berechnen Sie die Entfernung mithilfe der Baking geführt Positionskarte. |
 
 ## Parameter
 
 | Parametername | Beschreibung |
 | --- | --- |
 | **Umkehren** | Verlauf umkehren. |
-| **Position X** | Transformieren Sie den Quellpunkt entlang der x-Achse. |
+| **Position X** | Transformieren den Quellpunkt entlang der x-Achse bei. |
 | **Position Y** | Transformieren Sie den Quellpunkt entlang der y-Achse. |
-| **Position Z** | Transformieren Sie den Quellpunkt entlang der z-Achse. |
+| **Position Z** | Transformieren den Quellpunkt entlang der z-Achse bei. |
 | **Radius** | Passen Sie die Größe des Abstands an. |
 | **Offset** | Verschieben Sie die Start- und Endposition des Verlaufs zum oder vom Quellpunkt weg. Wenn Sie den Abstand vom Quellpunkt verschieben (den Versatz erhöhen), wird der dunkle Bereich in der Nähe des Quellpunkts vergrößert. Wenn Sie näher an den Quellpunkt heranrücken, wird der Verlauf aufgehellt und möglicherweise vollständig entfernt, wenn **Offset** auf 0 gesetzt ist. |
 | **Kontrast** | Passen Sie den Kontrast des sphärischen Farbverlaufs an. |

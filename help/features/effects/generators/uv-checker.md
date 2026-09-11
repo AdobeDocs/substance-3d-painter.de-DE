@@ -14,7 +14,7 @@ ht-degree: 3%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_uv_checker.png" alt=""/><br><strong>In:</strong> uv, border, random</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der UV-Prüfer-Generator wendet ein rasterähnliches Prüfmuster auf Ihr Modell an, sodass Sie UV-Probleme wie Dehnung, ungleichmäßige Skalierung oder Verzerrung leicht erkennen können. <br><br>Der UV-Prüfer-Generator wird im Allgemeinen direkt auf einer Füllschicht verwendet, um UV-Verzerrungen zu sehen.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der UV Checker-Generator wendet ein Raster-ähnliches Checker-Muster auf Ihr Modell an, sodass Sie UV-Probleme wie dehn, ungleichmäßige Skalierung oder Verzerrung leicht erkennen können. <br><br>Der UV Checker-Generator wird im Allgemeinen direkt auf einer Füllebene verwendet, um UV-Verzerrungen anzuzeigen.</td>
   </tr>
 </table>
 
@@ -38,16 +38,16 @@ ht-degree: 3%
     <td>Legen Sie die Farbe des Schachbrettmusters fest.</td>
   </tr>
   <tr>
-    <td><strong>Kachel für Schachbrettraster</strong></td>
+    <td><strong>Kachel des Rasters "Schachbrett"</strong></td>
     <td>Passen Sie die Größe des Schachbrettmusters an.</td>
   </tr>
   <tr>
-    <td><strong>Deckkraft des Prüfrasters</strong></td>
-    <td>Passen Sie die Deckkraft des Rasters an. Bei einer Deckkraft von 0 ist nur eine Schachbrettstruktur ohne Raster sichtbar.</td>
+    <td><strong>Deckkraft des Rasters prüfen</strong></td>
+    <td>Passen Sie die Deckkraft des Rasters an. Bei einer Deckkraft von 0 ist nur eine Textur ohne Raster sichtbar.</td>
   </tr>
   <tr>
-    <td><strong>Farbe für UV-Rahmen</strong></td>
-    <td>Legen Sie die Farbe der UV-Rahmen fest.</td>
+    <td><strong>UV-Rahmenfarbe</strong></td>
+    <td>Legen Sie die Rahmenfarbe für die UV fest.</td>
   </tr>
   <tr>
     <td><strong>UV-Rahmenbreite</strong></td>

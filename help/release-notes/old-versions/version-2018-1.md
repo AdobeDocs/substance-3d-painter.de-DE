@@ -35,7 +35,7 @@ Mit Substance Painter 2018.1 wird eine **vollständige Überarbeitung der Benutz
 * Die **neue Schnittstelle** konzentriert sich auf ein brandneues Design, das das Lesen erleichtert und die Navigation erleichtert.\
   Wir überarbeiteten alle unsere Icons, um sie deutlicher zu machen. Wir haben auch unser Farbschema überarbeitet, das jetzt einheitlicher sein sollte.\
   ![](../../assets/flat-design.png)
-* Wir haben viele Widgets, insbesondere unsere **Regler**, verbessert, um **benutzerfreundlicher** zu sein, mit einem **Tablet Pen**.\
+* Wir haben viele Widgets, insbesondere unsere **Regler**, verbessert, um **benutzerfreundlicher** zu sein, mit einem **Tablet-Stift**.\
   Sie können auf die Leiste klicken, um den Schieberegler zu verschieben, oder das Wertfeld verwenden, um die Zahlen präziser zu bearbeiten.\
   ![](../../assets/sliders.gif) ![](../../assets/grayscale-slider.gif)
 * Wir verfügen über eine **neue Symbolleiste**, mit der **Docks** im Handumdrehen geöffnet werden können.\
@@ -46,7 +46,7 @@ Mit Substance Painter 2018.1 wird eine **vollständige Überarbeitung der Benutz
 * Docks verwenden jetzt unser neues **Registerkarten-Layout**, das Elemente in Abschnitten organisiert, während gleichzeitig ein schneller Bildlauf in ihm möglich ist.\
   Dieses Registerkartenlayout erlaubt **große Fenster** und kann **alle Informationen** gleichzeitig anzeigen, im Gegensatz zu normalen Registerkartensystemen, die Informationen ausblenden.\
   ![](../../assets/tab-layout.gif) ![](../../assets/tab-layout-display.gif) ![](../../assets/full-window.png)
-* Es ist jetzt ein **Schnellmenü** vorhanden, das **Werkzeugeigenschaften** direkt im Ansichtsfenster **verfügbar macht.**\
+* Es ist jetzt ein **Schnellmenü** vorhanden, das **Werkzeugeigenschaften** direkt im Viewport **verfügbar macht.**\
   Klicken Sie zum Öffnen des Schnellmenüs einfach mit der rechten Maustaste auf den Viewport **.** Um das Schnellmenü **zu schließen**, klicken Sie **erneut in den Viewport**.\
   Das Menü wird nur geschlossen, wenn Sie in den Viewport klicken, sodass Ressourcen per Drag &amp; Drop aus dem Regal direkt in das Schnellmenü gezogen werden können.\
   ![](../../assets/quick-menu-optim.gif)
@@ -59,7 +59,7 @@ Mit Substance Painter 2018.1 wird eine **vollständige Überarbeitung der Benutz
   In der **oberen rechten Ecke** des **Ansichtsports** befindet sich jetzt eine Dropdownliste mit **allen Kanälen und Meshmaps** (zuvor Zusätzliche Karten). Diese vereinheitlichte Dropdown-Liste ist auch im Dock **Anzeigeeinstellungen** verfügbar.\
   ![](../../assets/dropdown-viewport.gif)
 * Die **Anzeigeeinstellungen** und **Anzeigeeinstellungen** wurden **zusammengeführt** zu einem einzigen Dock.\
-  **Umgebung**, **Kamera** und **Viewport** sind jetzt in **Gruppen** gruppiert, während **Shaders** Parameter **verschoben** wurden in ein **dediziertes Dock**.\
+  **Die Einstellungen für Umgebung**, **Kamera** und **Viewport** sind jetzt **gruppiert**, während die **Shader**-Parameter **verschoben** in ein **dediziertes Dock** wurden.\
   Die Anzeigeeinstellungen nutzen jetzt das neue **Registerkarten-Layout**, um schnell durch das Fenster zu navigieren.\
   ![](../../assets/display-shader-settings.png)
 
@@ -67,17 +67,17 @@ Mit Substance Painter 2018.1 wird eine **vollständige Überarbeitung der Benutz
 
 ![](../../assets/drag-drop-material-resize.gif){width="650px"}
 
-Sie können jetzt **Materialien und Smart-Materialien** und **direkt in den Viewport** ziehen und ablegen.\
+Sie können jetzt **Materials und Intelligenten Materials von** direkt in den Viewport ziehen und ablegen **&#x200B;**.\
 Durch diese neue Aktion wird **gleichzeitig die Geometrie** des **Ziel-Textursatzes** hervorgehoben. Mit dieser Aktion werden die neuen Ebenen am oberen Rand des Ebenenstapels des Textursatzes erstellt.
 
-### Verbessertes Stiftverhalten für Tablets
+### Verbessertes Verhalten von Tablet-Stiften
 
 ![](../../assets/tablet-pen-events.png)
 
-In dieser Version haben wir die Art und Weise verbessert, wie wir mit den Bewegungen und Eingaben des Grafiktablett-Stifts umgehen, insbesondere wenn der Substance Painter stark belastet ist.\
+In dieser Version haben wir die Art und Weise verbessert, wie wir Grafiktablett-Stift-Bewegungen und Eingaben verarbeiten, insbesondere wenn Substance Painter unter einer großen Belastung ist.\
 Wir verlieren die Eingänge nicht mehr, während wir aufeinander folgende Berechnungen durchführen. Dies sollte in allen Situationen präzise Pinselstriche ermöglichen.
 
-### Verbesserte Nahtauffüllung
+### Verbesserte Innenabstände der Naht
 
 ![](../../assets/seam-3.png)
 
@@ -108,23 +108,23 @@ Dieser neue Abstand wird automatisch nach jedem Pinselstrich, jeder Änderung de
 Wir haben auch die Leistung in dieser Version auf mehreren Ebenen verbessert:
 
 * Das Öffnen und Speichern von Projekten sollte etwas schneller als zuvor erfolgen.\
-  Wir haben die Codierung/Decodierung unserer **Maldaten** überarbeitet. Dies betrifft insbesondere Projekte mit vielen Farbinformationen (Pinselstriche).
-* Wir unterstützen jetzt viele **Unterobjekte** mit Gittern.\
-  Es ist nicht mehr zwingend erforderlich, ein Gitter zu einem Stück zusammenzufügen, bevor es in Substance Painter geladen wird. Die Leistung sollte auch bei **8000 Unterobjekten** in einem Projekt gut bleiben.
-* Wir haben die Art und Weise geändert, in der unser **Viewport** **aktualisiert** wurde, um die Belastung der GPU beim Malen zu reduzieren.\
+  Wir haben die Codierung/Decodierung unserer **Maldaten** überarbeitet. Dies betrifft insbesondere Projekte mit vielen Malen-Informationen (Pinselstriche).
+* Wir unterstützen jetzt viele **Unterobjekte** mit Meshs.\
+  Es ist nicht mehr zwingend erforderlich, einen Mesh zu einem Stück zusammenzufügen, bevor er in Substance Painter geladen wird. Die Leistung sollte auch bei **8000 Unterobjekten** in einem Projekt gut bleiben.
+* Wir haben die Art und Weise geändert, in der **Viewport** **aktualisiert** wurde, um die Belastung der GPU beim Malen zu reduzieren.\
   Das bedeutet, dass wir nicht mehr das gesamte Bild aktualisieren, sondern eine kleine Region, in der Sie gerade arbeiten.\
-  Den Unterschied können Sie an weniger leistungsstarken GPUs oder bei Verwendung einer hohen Sample-Anzahl in Ihrem Shader feststellen.
-* Das **Shelf**-System ist jetzt **schneller, um** Ressourcen beim Starten der Anwendung zu erkennen.\
+  Sie können den Unterschied bei weniger leistungsstarken GPUs oder bei Verwendung einer hohen Sample-Anzahl in Ihrem Shader feststellen.
+* Das System **Regal** ist jetzt **schneller, um** Ressourcen beim Starten der Anwendung zu erkennen.\
   Substance-Materialien mit eingebetteten Bitmaps sind **doppelt so schnell** zu erkennen (wenn sie als nicht-solid gekocht werden). **Vorgaben** sollten ebenfalls Verbesserungen sehen.
 
-### Globaler Bäcker für die Szenenposition
+### Baker für die globale Szene
 
 ![](../../assets/position-baker.jpg)
 
-Wir haben jetzt eine neue Einstellung, mit der wir eine Positionskarte pro Textursatz backen können, die die volle Szenengröße berücksichtigt.\
-Mit diesem neuen Verhalten können Sie triplanare Projektionen in Maskengeneratoren verwenden, die über die gesamte Szene hinweg übereinstimmen, anstatt Nähte wie zuvor zu erstellen. Das ist sehr nützlich bei Projekten mit vielen Textursets (wie UDIM-basierten Projekten).
+Wir haben jetzt eine neue Einstellung, die es ermöglicht, eine Positionskarte pro Textursatz Baking führen, die die Größe der gesamten Szene berücksichtigt.\
+Mit diesem neuen Verhalten können Sie triplanare Projektionen in Maskengeneratoren verwenden, die über die gesamte Szene übereinstimmen, anstatt wie zuvor Nähte zu erstellen. Dies ist bei Projekten mit vielen Textursätzen (wie UDIM-basierten Projekten) wirklich nützlich.
 
-Ändern Sie in den Positionsbackereinstellungen den Parameter &quot;**Normalisierungsskala**&quot; von &quot;**Pro Material**&quot; in &quot;**Vollständige Szene**&quot;, um dieses neue Verhalten zu aktivieren.
+Ändern Sie in den Positionsparametereinstellungen den Baker &quot;**Normalisierungsskala**&quot; von &quot;**Pro Material**&quot; in &quot;**Volle Szene**&quot;, um dieses neue Verhalten zu aktivieren.
 
 ![](../../assets/position-baker-example.png)
 
@@ -134,13 +134,13 @@ Mit diesem neuen Verhalten können Sie triplanare Projektionen in Maskengenerato
 
 Wir haben in dieser Version auch einige neue Inhalte hinzugefügt:
 
-* Neue **3D-Geräusche.**\
-  Direkt aus Substance Designer importiert, wurden 4 neue 3D- und völlig nahtlose Geräusche zum Standardregal hinzugefügt.\
-  Diese neuen Geräusche basieren auf der Positionskarte des Projekts, um ein Ergebnis ohne Nähte zu generieren.
-* **Nicht-quadratische** Geräusche\
-  Die Grundgeräusche wurden auf die neueste Version von Substance Designer aktualisiert.\
-  Dies bedeutet, dass die nicht quadratische Erweiterungsfunktion jetzt in den Rauschparametern verfügbar ist.
-* Neuer Maskengenerator **3D Linear gradient.** Mit diesem neuen Maskengenerator können Sie einen linearen Farbverlauf in jede Richtung im 3D-Raum erstellen.\
+* Neue **3D-Rauschen.**\
+  Direkt aus Substance Designer importiert, wurden dem Standard-Regal 4 neue 3D- und völlig nahtlose Rauschen hinzugefügt.\
+  Diese neuen Rauschen nutzen die Positionskarte des Projekts, um ein Ergebnis ohne Nähte zu generieren.
+* **Nicht quadratische** Rauschen\
+  Die Basisversionen wurden auf die neueste Rauschen von Substance Designer aktualisiert.\
+  Dies bedeutet, dass die Funktion für nicht quadratische Erweiterungen jetzt in den Rauschen-Parametern verfügbar ist.
+* Neuer Maskengenerator **3D Linear gradient.** Mit diesem neuen Maskengenerator können Sie einen linearen Verlauf in jede beliebige Richtung im 3D-Raum erstellen.\
   Die Richtung kann mit zwei 3D-Positionen definiert werden, die direkt auf der Positionskarte ausgewählt werden können.\
   Beispiel :
 
@@ -153,10 +153,10 @@ Wir haben in dieser Version auch einige neue Inhalte hinzugefügt:
 
       ![](../../assets/3d-gradient.jpg)
 
-* Neue Vorlage **Lens-studio** (Snap Chat 3D-App).\
-  Wir haben eine neue Vorlage, mit der Sie ganz einfach Projekte erstellen können, die auf die von Snap erstellte Lens-Studio-Anwendung abzielen.\
-  Darüber hinaus sind eine eigene Shader- und Exportvorgabe verfügbar. Weitere Informationen zu Lens Studio finden Sie unter : <https://lensstudio.snapchat.com/>
-* **Smart Materials** und **Smart Masks** wurden mit der neuesten Version unserer Maskengeneratoren aktualisiert.\
+* Neue Vorlage **Lens-studio** (Einrasten Chat 3D-App).\
+  Wir haben eine neue Vorlage, mit der Sie ganz einfach Projekte erstellen können, die auf die von Einrasten erstellte Lens-Studio-Anwendung abzielen.\
+  Eine spezielle Shader- und Exportvorgabe ist ebenfalls verfügbar. Weitere Informationen zu Lens Studio finden Sie unter : <https://lensstudio.snapchat.com/>
+* **Intelligenten Materials** und **Intelligente Masken** wurden mit der neuesten Version unserer Maskengenerator aktualisiert.\
   Unsere Smart-Vorgaben unterstützen jetzt alle die Funktion **micro details** , die mit **Ankerpunkten** verwendet werden kann.
 
 ### Neues Beispielprojekt
@@ -164,7 +164,7 @@ Wir haben in dieser Version auch einige neue Inhalte hinzugefügt:
 ![](../../assets/seamless-paint-material-optim.gif){width="650px"}
 
 Es gibt jetzt ein neues Beispielprojekt mit dem Namen &quot;**TilingMaterial**&quot;, das Sie über die Menüaktion &quot;**Datei > Beispiel öffnen**&quot; öffnen können.\
-Dieses Projekt verwendet ein einfaches ebenes Gitter mit überlappenden UVs, das es ermöglicht, **nahtlos** Materialien und Pinselstriche zu **Kachelmaterialien zu erstellen**.
+Dieses Projekt verwendet einen einfachen ebenen Mesh mit überlappenden UVs, der das nahtlose **Malen von** Materialien und Pinselstrichen zum **Erstellen von Kachelung-Materialien** ermöglicht.
 
 ![](../../assets/seamless-paint-optim.gif){width="400px"}
 
@@ -203,7 +203,7 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 
 **Hinzugefügt:**
 
-* Zusammenfassung: Verbesserte Backgeschwindigkeit, verbessertes Speichersystem, aktualisierte Schieberegler, aktualisierte Plug-in-API, Übersetzung ins Chinesische, verbesserte Auffüllung jetzt optional
+* Zusammenfassung: Verbesserte Geschwindigkeit beim Baking, verbessertes Speichersystem, aktualisierte Schieberegler, aktualisierte Plug-in-API, Übersetzung ins Chinesische, verbesserter Abstand jetzt optional
 * [Bäcker] Leistungssteigerung mit neuer Bäcker-Version
 * Erzwungene Anzeige von Dialogfeldern mit inkompatibler GPU
 * [Speichern] Neue Funktion für kompakte Projekte bereitstellen (vollständiger/kompakter Speichermodus)
@@ -216,25 +216,25 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 * [Plug-In] Option zum Wechseln von Plug-Ins zu einem neuen Schnittstellenstil
 * [Sprache] Chinesische Übersetzung hinzufügen
 * [Auffüllung] Option zum Wechseln zwischen UV- und 3D-Raum-Nachbarauffüllung pro Textursatz in den Textursatzeinstellungen
-* [Skript] Speichermodus verfügbar machen: Voll/Kompakt oder inkrementell
+* [Skript] Gelegt Speichermodus: Voll/Kompakt oder inkrementell
 * [Script] Update Scripting/QML documentation
 * [Log] Anzeige des Speichermodus im Protokoll (vollständig/kompakt oder inkrementell)
 
 **Fest:**
 
-* [Werkzeug] Kanalschlitz wird bei Einkanalfüllungen in einen Materialschlitz umgewandelt
-* Absturz beim Laden eines Gitters (FBX), bei dem einige Flächen nicht von einem Material zugewiesen wurden
-* Absturz in Irak mit NVIDIA GRID 5.2 auf virtuellem Computer
-* Absturz beim Rückgängigmachen des Löschens einer Materialvoreinstellung
+* [Tool] Kanalsteckplatz transformieren bei Einkanalfüllungen in einen Material-Steckplatz
+* Absturz beim Laden eines Meshs (FBX) mit einigen Flächen, die nicht von einem Material zugewiesen wurden
+* Absturz in Iray mit NVIDIA RASTER 5.2 auf einem virtuellen Computer
+* Absturz beim Rückgängigmachen eines Löschens einer Materialvorgabe
 * Absturz beim Laden einiger Projekte
-* [Befehlszeile] Neue Befehlszeile für UDIMs-Gitter, aufgeteilt nach UDIM
+* [Befehlszeile] Neue Befehlszeile für UDIM-Mesh, aufgeteilt nach Audio
 * [Symbolleiste] Verkleinern der Symbolleiste
-* [Instanz] Bitmaps können nicht über mehrere Textursätze hinweg instanziiert werden
-* [Viewport] Die Aktualisierung ist nicht abgeschlossen, wenn mit gekachelten UVs auf ein Gitter gemalt wird
-* [Iray] Normalmap wird zweimal für Dielektrika angewendet
-* [Shelf] Tippfehler in einigen Substance-Parametern (Alphas, Prozedurals und Matfx)
-* [Shelf] Typo für die Bitmap &quot;Nur autorisiertes Personal&quot;
-* [Script] Funktion alg.shaders.materials() funktioniert nicht mehr
+* [Instanz] Bitmaps können nicht über mehrere Textursatz instanziieren werden
+* [Viewport] Aktualisierung ist nicht abgeschlossen, wenn auf Mesh mit gekachelten UVs gemalt wird
+* [Iray] Normalen-Map wird zweimal für Dielektrika angewendet
+* [Regal] Tippfehler in einigen Substance-Parametern (Alphas, Prozeduren und Matfx)
+* [Regal] Typo für die Bitmap &quot;Authorized Personnel Only&quot;
+* [Script] Funktion alg.shaders.Materials() funktioniert nicht mehr
 
 **Bekannte Probleme:**
 
@@ -247,9 +247,9 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 **Fest:**
 
 * [Tablet] Problem beim Ändern der Standardinteraktionsoptionen
-* [Bäcker] Absturz mit Assimp-Bibliothek
-* [Bäcker] Leistungsrückgang mit A.O.-Karte
-* [Iran] Die Verzerrung der Linse wird nicht auf den Alpha-Kanal angewendet.
+* [Baker] Absturz mit Assimp-Bibliothek
+* [Baker] Leistungsrückgang mit A.O.-Map
+* [Iray] Die Verzerrung des Objektivs wird nicht auf den Alphakanal angewendet
 * [Treiber] Aktualisierung der Mindestanforderungen für Treiber
 * [3Dview] Normale, die nicht korrekt auf UDIM-Netzen ohne Normaleninformationen generiert wurden
 * [Intel] Absturz mit Substance Painter 2018.1.0
@@ -339,4 +339,4 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 **Bekannte Probleme:**
 
 * Einfrieren der Berechnung auf AMD VEGA-GPUs
-* Verzerrungsposten werden beim Export in IRay nicht berücksichtigt (Alphakanal)
+* Verzerrungsnachbearbeitung wird beim Export in Iray nicht berücksichtigt (Alphakanal)

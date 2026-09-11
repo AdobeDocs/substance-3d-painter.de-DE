@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
 breadcrumb-title: ''
-description: Hier erfahren Sie, wie Sie in Substance 3D Painter-Projekten das Streuen von Untergründen aktivieren, um realistische transluzente Materialeffekte zu erzeugen.
+description: Erfahren Sie, wie Sie Volumenstreuung in Substance 3D Painter-Projekten aktivieren, um realistische transluzente Material-Effekte zu erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project
 helpx_experience_level: ""
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 # Untergeordnete Oberfläche in einem Projekt aktivieren
 
-Um die Subsurface-Streuung in Substance 3D Painter richtig zu aktivieren, müssen zunächst einige Parameter festgelegt werden.\
+Um die Volumenstreuung in Substance 3D Painter richtig zu aktivieren, müssen zunächst einige Parameter festgelegt werden.\
 Auf dieser Seite finden Sie eine Anleitung dazu, welche Parameter aktiviert werden können.
 
-## 1 - Einstellungen für Struktureinstellungen
+## 1 - Einstellungen für Textursatz
 
 Fügen Sie im [Textursatz](../../interface/texture-set/texture-set.md) einen **Streuungskanal** hinzu, falls dieser noch nicht vorhanden ist:
 
@@ -35,7 +35,7 @@ Fügen Sie im [Textursatz](../../interface/texture-set/texture-set.md) einen **S
 
 ## 2 - Globale Untergrundeinstellung
 
-Aktivieren Sie die Haupt-Streuungseinstellung für den Untergrund in den [Anzeigeeinstellungen](../../interface/display-settings/display-settings.md) (unter den Post-Effects-Einstellungen):
+Aktivieren Sie die Einstellung für die Hauptanzeige in den [Anzeigeeinstellungen](../../interface/display-settings/display-settings.md) (unter den Volumenstreuungen für Post-Effects):
 
 ![](../../assets/enable-subsurface.png)
 
@@ -47,13 +47,13 @@ Aktivieren Sie die Haupt-Streuungseinstellung für den Untergrund in den [Anzeig
 
 ![](../../assets/shader-parameters.png)
 
-Im Fenster &quot;[Shader settings](../../interface/shader-settings/shader-settings.md)&quot; mit Standardshadern befindet sich eine Gruppe &quot;**SSS Parameters**&quot; mit zwei Einstellungen.\
+Im Fenster &quot;[Shader-Einstellungen](../../interface/shader-settings/shader-settings.md)&quot; mit Standardshadern befindet sich eine Gruppe &quot;**SSS-Parameter**&quot; mit zwei Einstellungen.\
 Ändern Sie den Maßstab und die Farbe, um sie an das Zielmaterial anzupassen. Weitere Informationen zu diesen Einstellungen finden Sie unter: [Unteroberflächenparameter](subsurface-parameters.md)
 
 ## Bonus: Aktivieren von Schatten
 
-Der Effekt &quot;Untergrundstreuung&quot; funktioniert gut, kann aber schon allein seltsam aussehen.\
-Wenn du Schatten aktivierst, kannst du den finalen Look im Viewport verbessern und die Realitätsnähe des finalen Materials verbessern.
+Der Effekt &quot;Volumenstreuung&quot; funktioniert einwandfrei, kann aber seltsam aussehen, wenn er alleine bleibt.\
+Aktiviere das Kontrollkästchen &quot;Tiefen&quot;, um den Viewport realistischer wirken zu lassen und das fertige Material realistischer wirken zu lassen.
 
 Aktivieren Sie im Fenster &quot;[Umgebungseinstellungen](../../interface/display-settings/environment-settings.md)&quot; die Einstellung &quot;**Schatten**&quot;:
 

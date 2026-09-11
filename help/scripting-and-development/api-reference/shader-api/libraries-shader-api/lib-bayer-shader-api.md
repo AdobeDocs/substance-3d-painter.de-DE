@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.html"
 breadcrumb-title: ''
-description: Rufe die Bibliothek Bayer Shader-API auf, um in Substance 3D Painter ein Bayer-Dithering-Muster für eigene Shader zu erstellen.
+description: Rufen Sie die Bibliothek Bayer Shader-API reference für Substance 3D Painter auf, um Bayer Dithering-Muster in benutzerdefinierten Shadern zu erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Bayer - Shader API
 helpx_experience_level: ""

@@ -28,9 +28,9 @@ Im Folgenden finden Sie eine Liste aller verfügbaren Symbolleisten.
 
 ![](../assets/tool-toolbar.png){width="450px"}
 
-Die **Werkzeugleiste** ist standardmäßig oben links in der Hauptbenutzeroberfläche verfügbar. Es werden alle [Malwerkzeuge](../painting/painting.md) aufgelistet, die zum Texturieren des 3D-Gitters des aktuell geöffneten Projekts verwendet werden können. Diese Werkzeuge sind nur verfügbar, wenn eine Malebene ausgewählt ist.
+Die **Werkzeugleiste** ist standardmäßig oben links in der Hauptbenutzeroberfläche verfügbar. Es werden alle [Malwerkzeuge](../painting/painting.md) aufgelistet, die zur Textur des 3D-Meshs des aktuell geöffneten Projekts verwendet werden können. Auf diese Tools kann nur zugegriffen werden, wenn eine Malebene ausgewählt wurde.
 
-Einige Werkzeuge verfügen über einen zweiten Modus namens &quot;Physikalisch&quot;, der das Partikelmalen ermöglicht. Sie können auch auf das Partikelmalen zugreifen, indem Sie im Fenster [Elemente](assets/assets.md) auf &quot;Partikelpinselvorgaben&quot; klicken.
+Einige Tools verfügen über einen zweiten Modus namens &quot;Physikalisch&quot;, der das Malen mit Partikeln ermöglicht. Sie können auch auf das Partikel-Malen zugreifen, indem Sie im Fenster &quot;[Elemente](assets/assets.md)&quot; auf &quot;Partikel-Pinselvorgaben&quot; klicken.
 
 Diese Symbolleiste kann nur vertikal an der linken oder rechten Seite der Hauptbenutzeroberfläche angedockt werden.
 
@@ -56,11 +56,11 @@ In der Symbolleiste **Plug-ins** werden die installierten (und derzeit aktiviert
 
 ![](../assets/contextual-toolbar.png){width="450px"}
 
-Die Kontextsymbolleiste ist eine Symbolleiste, deren Inhalt sich in Teilen ändert, je nachdem, welches Werkzeug gerade ausgewählt ist oder welche andere Eigenschaft geändert wird. Die linke Seite der Symbolleiste kann geändert werden, aber die rechte Seite ist fest und listet Verknüpfungen auf, um die Anzeige des [Viewport](viewport/viewport.md) zu ändern.
+Die Kontextsymbolleiste ist eine Symbolleiste, deren Inhalt sich in Teilen ändert, je nachdem, welches Werkzeug gerade ausgewählt ist oder welche andere Eigenschaft geändert wird. Die linke Seite der Symbolleiste kann sich ändern, aber die rechte Seite ist fest und listet Verknüpfungen auf, um die Anzeige des [Viewports](viewport/viewport.md) zu ändern.
 
 In dieser Symbolleiste können Eigenschaften für die folgenden Elemente aufgelistet werden:
 
 * [Malen](../painting/painting.md)
-* [Manipulatoren für Projektionen von Füllebenen](../painting/fill-projections/fill-projections.md)
+* [Manipulator für Projektionen der Füllebene](../painting/fill-projections/fill-projections.md)
 
-Diese Symbolleiste kann nicht verschoben werden und befindet sich immer am oberen Rand der Viewports.
+Diese Symbolleiste kann nicht verschoben werden und befindet sich immer oben in den Viewporten.

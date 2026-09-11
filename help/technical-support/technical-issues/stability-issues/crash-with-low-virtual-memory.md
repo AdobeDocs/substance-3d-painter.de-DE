@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Abstürze von Substance 3D Painter beheben, die durch zu wenig virtuellen Speicher verursacht werden, um eine stabile Anwendungsleistung zu gewährleisten.
+description: Erfahren Sie, wie Sie Substance 3D Painter-Absturz beheben, die durch zu wenig virtuellen Speicher verursacht werden, um eine stabile Anwendungsleistung zu gewährleisten.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Absturz mit wenig virtuellem Speicher
+title: Absturz mit wenig virtuellem Arbeitsspeicher
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Absturz mit wenig virtuellem Speicher
+# Absturz mit wenig virtuellem Arbeitsspeicher
 
 Substance 3D Painter kann instabil sein, wenn die Datei **paging** ( **swap** Speicher/ **virtueller** Speicher) mit einem Wert **zu niedrig** festgelegt ist.\
 Es wird empfohlen, diese Einstellungen vom Betriebssystem behandeln zu lassen (was in der Regel standardmäßig der Fall ist). Substance 3D Painter benötigt mindestens **&#x200B;**&#x200B;**16 GB** virtuellen Speicher, damit es ordnungsgemäß funktioniert.

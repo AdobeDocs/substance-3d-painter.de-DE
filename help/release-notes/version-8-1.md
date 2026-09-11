@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 8.1
 
-**Substance 3D Painter 8.1** integriert das Adobe Color Engine (ACE) mit Unterstützung für ICC-Profile, neue Bäcker, neue 3D-Geräusche und 20 Schmutz-Maps sowie einer verbesserten Pipette.
+**Substance 3D Painter 8.1** integriert das Adobe Color Engine (ACE) mit Unterstützung für ICC-Profile, neue Baker, neue 3D-Rauschen und 20 Schmutz-Maps sowie einer verbesserten Pipette.
 
 Freigabedatum: *7. Juni 2022*
 
@@ -33,7 +33,7 @@ Freigabedatum: *7. Juni 2022*
 In dieser neuen Version wurde das Farbmanagementsystem um die Unterstützung des Adobe Color Engine (ACE) erweitert, das die Verwendung von ICC-Profilen freigibt. Dieses neue System ermöglicht den Farbabgleich in einer Vielzahl von Anwendungen, einschließlich Photoshop.
 
 * **Neue Projekteinstellungen**\
-  Beim Erstellen eines neuen Projekts ist es jetzt möglich, das Farbmanagement-Modul mit dem neu hinzugefügten **Adobe Color Engine** (ACE) anzugeben.
+  Beim Erstellen eines neuen Projekts ist es jetzt möglich, das Farbmanagement-Engine mit dem neu hinzugefügten **Adobe Color Engine** (ACE) anzugeben.
 
   ![](../assets/cm-icc-ace-settings.png){width="400px"}
 
@@ -43,13 +43,13 @@ In dieser neuen Version wurde das Farbmanagementsystem um die Unterstützung des
   * **ACEScg**
   * **Lineare Adobe RGB**
 * **ICC-Profilunterstützung überwachen**\
-  Sie können Ihr ICC-Profil verwenden, um den Viewport-Look anzupassen und Ihre Farben an Ihren Monitor anzupassen.
+  Sie können Ihr ICC-Profil verwenden, um den Viewport-Look anzupassen und Ihre Farben an Ihren Bildschirm anzupassen.
 
   ![](../assets/viewport-icc.jpg){width="400px"}
 
 * **Importieren und Exportieren von Bildern mit eingebetteten ICC-Profilen**\
   Beim Importieren von Bitmaps kann das ICC-Profil automatisch extrahiert werden. Es ist auch möglich, dieses Profil in den Ebeneneigenschaften zu überschreiben.\
-  Beim Exportieren kann das beabsichtigte ICC-Profil angegeben werden, das in die Texturdateien eingebettet wird.
+  Beim Exportieren kann das beabsichtigte ICC-Profil angegeben werden, das in die Textur-Dateien eingebettet wird.
 
   ![](../assets/export-icc.png){width="400px"}
 
@@ -59,20 +59,20 @@ In dieser neuen Version wurde das Farbmanagementsystem um die Unterstützung des
 >
 > Weitere Informationen finden Sie in der Dokumentation zum [Farbmanagement](../features/color-management/color-management.md).
 
-### Neue Physische Größe-Unterstützung für Substance
+### Neue Physische Größe-Unterstützung für Substance-Material
 
 ![](../assets/banner-physicalsize.jpg)
 
-Die Größe von Substance-Materialien kann jetzt verwendet werden, um deren Skalierung und Kachelung in Füllschichtprojektionen zu steuern. Dies ist ein nützliches Werkzeug, um Materialien auf Oberflächen richtig an ihre tatsächliche Größe anzupassen, ohne raten zu müssen.
+Die Größe innerhalb von Substance-Materialien kann jetzt verwendet werden, um ihre Skalierung und Kachelung innerhalb von Füllebene-Projektionen zu steuern. Dies ist ein nützliches Werkzeug, um Materialien auf Oberflächen richtig an ihre tatsächliche Größe anzupassen, ohne raten zu müssen.
 
-* **Neue Parameter für Füllebenen**\
-  Bei einer Füllebene (oder einem Effekt) gibt es neue Parameter, mit denen die Kachelung/Wiederholung eines Materials gesteuert werden kann, wenn eine Physische Größe definiert ist. Diese neuen Parameter sind nur mit 3D-Projektionen verfügbar.
+* **Neue Füllebene-Parameter**\
+  Eine Füllebene (oder ein Effekt) Es gibt neue Parameter, um die Kachelung/Wiederholung eines Materials zu steuern, wenn eine Physische Größe definiert ist. Diese neuen Parameter sind nur mit 3D-Projektionen verfügbar.
 
   ![](../assets/physical-size-settings-fill.png){width="400px"}
 
 * **Neues Ansichtsport-Raster**\
-  Um die Physische Größe leichter verständlich und visualisierbar zu machen, ist es jetzt möglich, über das Fenster [Anzeigeeinstellungen](../interface/display-settings/display-settings.md) ein Raster im 3D-Viewport zu aktivieren.\
-  Nach der Aktivierung wird das Raster je nach Zoomstufe automatisch untertaucht. Die Rastereinheit wird links unten im Viewport angezeigt.
+  Um die Physische Größe leichter verständlich und visualisierbar zu machen, ist es jetzt möglich, einen Raster im 3D-Viewport über das Fenster [Anzeigeeinstellungen](../interface/display-settings/display-settings.md) zu aktivieren.\
+  Nach der Aktivierung wird der Raster je nach Zoomstufe automatisch untergetaucht. Die Raster-Einheit wird unten links im Viewport angezeigt.
 
   ![](../assets/physical-size-viewport-3d.png){width="400px"}
 
@@ -82,7 +82,7 @@ Die Größe von Substance-Materialien kann jetzt verwendet werden, um deren Skal
 >
 > Weitere Informationen finden Sie in der [dedizierten Dokumentation](../features/physical-size.md).
 
-### Neue Bäcker
+### Neue Baker
 
 ![](../assets/banner-baker.jpg)
 
@@ -92,11 +92,11 @@ Sie wurden der Bäckerliste hinzugefügt, sind jedoch standardmäßig deaktivier
 
 ![](../assets/baker-list.png)
 
-Die neuen Bäcker sind:
+Die neuen Baker sind:
 
-* **Gebeugter Normal-Bäcker** Der Gebeugte Normal-Bäcker ermöglicht das Backen einer Verdeckung (als Vektor, ähnlich wie bei Normalmaps). Diese Textur kann verwendet werden, um die Schattierung im Viewport zu verbessern, indem die Einstellung &quot;**Bent Normal**&quot; im Fenster &quot;[Shader settings](../interface/shader-settings/shader-settings.md)&quot; aktiviert wird. Abgebeugte Normale verbessern die Genauigkeit der Echtzeit-Viewport-Schattierung erheblich.\
+* **Bent normals Baker** Der Bent normals Baker ermöglicht das Baking einer Vektorrichtung (als Verdeckung, ähnlich wie Normalen-Map). Diese Textur kann verwendet werden, um die Schattierung im Viewport zu verbessern, indem die Einstellung &quot;**Bent Normal**&quot; im Fenster &quot;[Shader settings](../interface/shader-settings/shader-settings.md)&quot; aktiviert wird. Bent normals verbessern die Echtzeitgenauigkeit der Viewport-Schattierung erheblich.\
   Für **diffuse Schattierung** gibt sie eine präzisere Verdeckung und kann sogar wie eine ungefähre globale Beleuchtung aussehen (erstes Beispiel unten).\
-  Bei **Specular-Reflexionen** ist es möglich, Selbstschattierungen zu simulieren und den Lichtaustritt zu reduzieren, sodass sich das Objekt besonders bei metallischen Flächen viel geerdeter anfühlt (zweites Beispiel unten).
+  Bei **Specular-Reflexionen** ist es möglich, Selbstschattierungen zu simulieren und den Lichtaustritt zu reduzieren, sodass sich das Objekt besonders bei metallic Flächen viel geerdeter anfühlt (zweites Beispiel unten).
 
   ![](../assets/bent-normal-haussmann-compressed.gif){width="350px"}
 
@@ -107,7 +107,7 @@ Die neuen Bäcker sind:
 
   ![](../assets/disp-demo.jpg){width="400px"}
 
-* **Deckkraft-Bäcker**\
+* **Deckkraft-Baker**\
   Der Bäcker für die Deckkraft erstellt eine Schwarz-Weiß-Landkarte mit Löchern aus einem Polygonnetz. Zum Beispiel kann es verwendet werden, um Zäune oder sogar Löcher in einer Gewebeoberfläche zu backen.
 
 ### Neuer Inhalt
@@ -117,13 +117,13 @@ Die neuen Bäcker sind:
 In dieser Version wurde eine Vielzahl neuer Inhalte hinzugefügt, darunter:
 
 * **Neue und verbesserte 3D-Geräusche mit mehr als 100 Vorgaben**\
-  Die vorhandenen 3D-Geräusche wurden überarbeitet und drei neue hinzugefügt. Jeder von ihnen enthält jetzt vordefinierte Einstellungen, die insgesamt 105 Vorgaben für 7 Geräusche bedeuten. Diese Vorgaben können als Ausgangspunkt verwendet werden, um mit ihren Parametern zu experimentieren und einen bestimmten Look zu erzielen. Wie immer bei 3D-Geräuschen sind sie nahtlos und können sich sehr leicht ohne auffälliges Muster wiederholen.
+  Die bestehenden 3D-Rauschen wurden überarbeitet und drei neue hinzugefügt. Jeder von ihnen enthält jetzt vordefinierte Einstellungen, die insgesamt 105 Vorgaben für 7 Geräusche bedeuten. Diese Vorgaben können als Ausgangspunkt verwendet werden, um mit ihren Parametern zu experimentieren und einen bestimmten Look zu erzielen. Wie immer bei 3D-Rauschen sind sie nahtlos und können sich sehr leicht wiederholen, ohne dass ein auffälliges Muster entsteht.
 
-  Die 3D-Geräusche können Sie im Bedienfeld &quot;Elemente&quot; im Abschnitt &quot;Vorgehensweisen&quot; ermitteln:
+  Die 3D-Rauschen finden Sie im Bedienfeld &quot;Elemente&quot; im Abschnitt &quot;Vorgehensweisen&quot;:
 
   ![](../assets/3s-noise-shelf.jpg){width="400px"}
 
-  Die Geräusche bieten eine Vielzahl von Möglichkeiten. Hier sind beispielsweise die Vorgaben, die mit **3D Voronoi Fractal** verfügbar sind:
+  Die Rauschen bieten eine Vielzahl von Möglichkeiten. Hier sind beispielsweise die Vorgaben, die mit **3D Voronoi Fractal** verfügbar sind:
 
   ![](../assets/3d-voronoi-fractal.jpg){width="300px"}
 
@@ -135,9 +135,9 @@ In dieser Version wurde eine Vielzahl neuer Inhalte hinzugefügt, darunter:
 
 >[!NOTE]
 >
-> Einige der 3D-Geräusche können einige Sekunden dauern, bis sie bei ihrer ersten Verwendung berechnet werden.
+> Einige der 3D-Rauschen können einige Sekunden dauern, bis sie bei ihrer ersten Verwendung berechnet werden.
 
-### Verbesserte Pipette und Materialauswahl
+### Verbesserte Pipette und Material-Auswahl
 
 ![](../assets/picker-banner.jpg)
 
@@ -160,7 +160,7 @@ Mehrere Verbesserungen an der Pipette wurden vorgenommen, um das Extrahieren und
   ![](../assets/eyedropper-preview.png)
 
 * **Neue Auswahl direkt in einem Kanal**\
-  Mit dem neuen Pipettenverhalten ist es jetzt möglich, direkt in einen Kanal auf dem Gitter zu greifen. Halten Sie dazu einfach die UMSCHALTTASTE gedrückt, um eine Farbe direkt aus dem Kanal auszuwählen. Der Kanal wird ermittelt, von wo aus die Pipette gestartet wurde. Diese Methode umgeht jede Farbtransformation, die beim Farbmanagement wichtig ist, um präzise Farben abzurufen. Eine QuickInfo wird angezeigt, die angibt, aus welchem Kanal die Farbe erfasst wird.
+  Mit dem neuen Pipettenverhalten ist es nun möglich, direkt in einen Kanal auf dem Mesh zu greifen. Halten Sie dazu einfach die UMSCHALTTASTE gedrückt, um eine Farbe direkt aus dem Kanal auszuwählen. Der Kanal wird ermittelt, von wo aus die Pipette gestartet wurde. Diese Methode umgeht jede Farbtransformation, die beim Farbmanagement wichtig ist, um präzise Farben abzurufen. Eine QuickInfo wird angezeigt, die angibt, aus welchem Kanal die Farbe erfasst wird.
 
   ![](../assets/eyedropper-channel-pick.png)
 
@@ -169,12 +169,12 @@ Mehrere Verbesserungen an der Pipette wurden vorgenommen, um das Extrahieren und
 
   ![](../assets/eyedropper-color-space.png)
 
-* **Verbessertes Materialwählerverhalten**\
+* **Verbessertes Verhalten der Material-Auswahl**\
   Die Materialauswahl auf der Werkzeugleiste (Tastaturbefehl P) berücksichtigt jetzt die Kanalauswahl im Eigenschaftenfenster. Sie wird nicht mehr über die Kanäle selbst aktiviert.
 
   ![](../assets/material-picker.gif){width="400px"}
 
-### Verbessertes automatisches Ausgliedern
+### Verbesserter automatischer entpack
 
 ![](../assets/unwrap-banner.jpg)
 
@@ -198,28 +198,28 @@ Jetzt werden die Gitter in verschiedene UV-Inseln zerlegt, indem eine Methode ve
 * [Farbmanagement] Merken Sie sich den letzten im Darstellungsfenster ausgewählten Anzeigewert.
 * [Farbmanagement]&#x200B;[Substance] Sorgen Sie dafür, dass Generatoren/Filter mit dem Farbmanagement ordnungsgemäß funktionieren.
 * [Farbmanagement]&#x200B;[Substance] Fügen Sie neue Schlüsselwörter für die Farbraumüberschreibung $working und $standardsrgb hinzu
-* [Physische Größe]&#x200B;[Engine] Extrahieren von Physische Größe-Informationen aus Gitter
+* [Physische Größe]&#x200B;[Engine] Extrahieren von Physische Größe-Informationen aus Mesh
 * [Physische Größe]&#x200B;[Engine] Physische Größe Berechnung
-* [Physische Größe] Verfügbarmachen von Optionen zur Verwendung von Physische Größe in der Benutzeroberfläche
+* [Physische Größe] Leg von Optionen zur Verwendung von Physische Größe in der Benutzeroberfläche
 * [Physische Größe] Visuelle Helfer im Viewport hinzufügen
-* [Backen] Height-Bäcker hinzufügen
-* [Backen] Gebogene Normale Bäcker hinzufügen
-* [Backen] Deckkraft-Backer hinzufügen
+* [Baking] Height-Baker hinzufügen
+* [Baking] Bent normals-Baker hinzufügen
+* [Baking] Baker für Deckkraft hinzufügen
 * [Pipette] Neue Farbwähler-Vorschau
 * [Pipette] Das Farbwählerbedienfeld wird wieder an der letzten Position angezeigt, wenn es erneut geöffnet wird
-* [Pipette] Ein neues Symbol für den Materialwähler
+* [Pipette] Ein neues Symbol für die Material-Auswahl
 * [Pipette] Farbe verwaltet die Kanalvorschau des Farbwählers
 * [Pipette] Fügen Sie der Pipette eine Funktion zum Klicken hinzu, um diese auszuwählen
-* [Pipette] Materialauswahl aktiviert nicht mehr aktive Kanäle
-* [Pipette] Pipette mit einem Tastaturbefehl verwenden
+* [Eye Dropper] Kanalauswahl aktiviert nicht aktive Materialien nicht mehr
+* [Pipette] Pipette mit Tastaturbefehl verwenden
 * [Pipette] Die Pipette nimmt den relevanten Kanal auf, falls zutreffend.
 * [Pipette] Beim Aufrufen des Farbwählermodus werden alle Tastaturbefehle deaktiviert
 * [Pipette] Automatische Auswahl des Hexadezimalfelds entfernen
-* [Pipette] Schließen Sie das Bedienfeld nicht, wenn Sie den Materialwähler verwenden
+* [Pipette] Schließen Sie das Bedienfeld nicht, wenn Sie die Material-Auswahl verwenden
 * [Pipette] Neuer deaktivierter Zustand, wenn der Kanal nicht zur Auswahl verfügbar ist
-* [Export] Tangentenattribut zum glTF-Export hinzufügen
+* [Exportieren] Fügen Sie das Attribut &quot;Tangente&quot; dem glTF-Export hinzu
 * Substance Engine auf Version 8.4 aktualisieren
-* Update für automatisches Ausgliedern auf 0.9.0
+* Update Auto Entpack auf 0.9.0
 * Update auf Qt 5.15.8
 * Update auf Python 3.9
 * [Shader] Unterstützung für die Schattierung &quot;Gebeugte Normale&quot; hinzufügen
@@ -239,16 +239,16 @@ Jetzt werden die Gitter in verschiedene UV-Inseln zerlegt, indem eine Methode ve
 * [Mesh Processing] Meshes können nicht aus Modeler importiert werden
 * [UI] Horizontale Bildlaufleiste in neuem Projektfenster mit aktiviertem Farbmanagement
 * [Farbmanagement] Bei einigen OCIO-Konfigurationen fehlt der Arbeitsfarbraumwert im Farbwähler
-* [Farbmanagement] Die Pinselvorschau im Viewport ist nicht farbverwaltet
+* [Farbmanagement] Pinselvorschau im Viewport ist nicht farbverwaltet
 * [SpaceMouse] Pivot wird nicht sofort mit Fokusänderung aktualisiert und kann außerhalb des Modells liegen
 * [Exportieren]&#x200B;[USD] Exportierte USD-Dateien haben eine falsche Struktur
-* [USD] Problem mit der Verdeckung bei der Ausfuhr
-* [Inhalt] Aktualisieren des Gitters der Miniaturansicht, um das Vorschaukugel-Beispielprojekt abzugleichen
+* [USD] Ambient occlusion-Problem beim Exportieren
+* [Inhalt] Mesh der Miniaturansicht entsprechend dem Vorschaukugel-Beispielprojekt aktualisieren
 
 **Bekannte Probleme:**
 
-* Exportieren von Texturen mit Diffusionsabständen wird als schwarze Maps gerendert
-* Durchmischung von normaler/umgebender Verdeckung funktioniert nicht
-* [MacOS] Absturz beim Starten von Iray in einigen seltenen Fällen
+* Texturen mit Innenabständen exportieren macht schwarze Diffusionen.
+* Normale/Ambient occlusion-Mischung ist defekt
+* [MacOS] Absturz beim Starten von Iray in seltenen Fällen
 * [Vorschau-Miniaturansicht] Vereinfachte Miniaturansichten werden nicht aktualisiert, wenn ein Anker verwendet wird
 * [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben

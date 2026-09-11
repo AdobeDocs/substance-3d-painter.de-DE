@@ -30,13 +30,13 @@ Freigabedatum: *23. April 2019*
 
 ![](../../assets/dyanmic-strokes-hue.gif)
 
-Mit dieser Version unterstützt unsere Pinsel-Engine jetzt das, was wir Dynamische Pinselstriche nennen. Diese Art von Konturen erzeugt Variationen und neue Effekte, da schnell neue Substance-Versionen generiert werden. Jetzt ist es möglich, für jeden neuen Pinselstrich, der auf Ihrem Element gemalt wird, ein neues Substance-Material oder Alpha zu verwenden.
+Mit dieser Version unterstützt unser Pinsel-Engine jetzt das, was wir Dynamische Pinselstriche nennen. Diese Art von Konturen erzeugt Variationen und neue Effekte, da schnell neue Substance-Versionen generiert werden. Jetzt ist es möglich, für jeden neuen Pinselstrich, der auf Ihrem Element gemalt wird, ein neues Substance-Material oder Alpha zu verwenden.
 
-Wenn eine Ressource geladen wird, die mit dynamischen Konturen kompatibel ist (Farbe, Radiergummi, Verwischen oder Kopierstempel), wird eine neue Parametergruppe angezeigt:
+Wenn eine mit Dynamic Stroke kompatible Ressource in Ihr Malen-Tool geladen wird (Malen, Radiergummi, Verwischen oder Klon), wird eine neue Parametergruppe angezeigt:
 
 ![](../../assets/dynamic-stroke-ui.png)
 
-Dynamische Pinselstriche unterstützt die folgenden Eigenschaften (sofern diese im Substance-Diagramm angezeigt werden):
+Dynamische Pinselstriche unterstützt die folgenden Eigenschaften (sofern diese im Substance-Graf gelegt sind):
 
 * **Stempelindex** : ID/Nummer eines Stempels innerhalb einer Kontur.
 * **Zufallsverteilung** : Kann pro Stempel oder pro Strich geändert werden.
@@ -47,13 +47,13 @@ Der Stempelindex umfasst noch zwei weitere Parameter:
 * **Stempelanfang** : *Von Anfang* (den Index immer von 0 beginnen) oder *Von zufälligem Index* (wählen Sie eine zufällige Position zwischen 0 und dem durch **Stempelzyklusanzahl** definierten Maximum).
 * **Anzahl der Stempelzyklen** : Dieser Parameter definiert die Gesamtzahl der generierten Substance-Varianten. Um die Leistung zu optimieren, fungiert dieser Parameter als Grenzwert. Substance Painter verwenden es, um bereits generierte Inhalte zu recyceln, anstatt etwas Neues zu schaffen.
 
-Sie können Ressourcen finden, die mit dieser neuen Funktion kompatibel sind, indem Sie einfach im Regal nach den neuen Symbolen suchen, die jetzt neben ihnen sitzen:
+Sie können Ressourcen finden, die mit dieser neuen Funktion kompatibel sind, indem Sie einfach das Regal durchsuchen und sich die neuen Symbole ansehen, die jetzt neben ihnen sitzen:
 
 ![](../../assets/shelf-icon.png)
 
-Mit der Funktion kompatible Ressourcen erhalten außerdem automatisch ein neues Tag mit dem Namen &quot;**dynamicstroke**&quot;, damit sie leicht nach Schlüsselwörtern im Shelf gefiltert werden können.
+Mit der Funktion kompatible Ressourcen erhalten außerdem automatisch ein neues Tag mit dem Namen &quot;**dynamicstroke**&quot;, damit sie leicht nach Schlüsselwörtern im Regal gefiltert werden können.
 
-Wir haben auch viele neue **Werkzeugvorgaben** hinzugefügt, um mit Folgendem zu spielen:
+Wir haben auch viele neue **Werkzeugvorgaben** hinzugefügt, mit denen wir spielen können:
 
 ![](../../assets/tools-presets.jpg){width="450px"}
 
@@ -65,12 +65,12 @@ Wir haben auch viele neue **Werkzeugvorgaben** hinzugefügt, um mit Folgendem zu
 
 ![](../../assets/displacement-demo.gif)
 
-Substance Painter unterstützt jetzt **Versatz** und **Gittertesselierung** sowohl im Echtzeit-Viewport als auch in Irak. Beide können im Fenster **Shader Settings** unter den Shader-Parametern gesteuert werden.
+Substance Painter unterstützt jetzt **Versatz** und **Mesh Tesselation** sowohl im Echtzeit-Viewport als auch in Iray. Beide können im Fenster &quot;**Shader Settings**&quot; unter den Shader-Parametern gesteuert werden.
 
 ![](../../assets/disp-settings-1.png)
 
-* **Quellkanal** : Kanal, auf dem die Gitterverformung basiert. Der Standardwert ist &quot;Height&quot;, kann aber auch auf &quot;Versatz&quot; festgelegt werden.
-* **Skalierung** : Steuert den Grad der Verformung, die auf das Gitter im Projekt angewendet wird.
+* **Quellkanal** : Kanal, auf dem die Mesh-Deformation basiert. Der Standardwert ist &quot;Height&quot;, kann aber auch auf &quot;Versatz&quot; festgelegt werden.
+* **Skalierung** : Steuert den Grad der Verformung, die auf den Mesh im Projekt angewendet wird.
 
 ![](../../assets/tesselation-settings.png)
 
@@ -78,21 +78,21 @@ Substance Painter unterstützt jetzt **Versatz** und **Gittertesselierung** sowo
 * **Anzahl der Unterteilungen** : (Modus gleichmäßig) Von 1 bis 32. Bei einem hohen Wert werden mehr Polygone erzeugt, die mehr Details enthalten, aber Leistungsprobleme verursachen können.
 * **Maximale Länge** : (Modus Kantenlänge) 1 / Wert. Jeder Polygonrand wird unterteilt, bis jedes Segment dieser Zahl entspricht oder kleiner ist; 1/1 ist dabei die Größe der Szene.
 
-Laden Sie das Beispielprojekt &quot;**Kachelmaterial**&quot; (über **Datei > Beispiel laden**), um diese neue Funktion schnell zu testen:
+Laden Sie das Beispielprojekt &quot;**Kachelung Material**&quot; (über **Datei > Beispiel laden**), um diese neue Funktion schnell zu testen:
 
 ![](../../assets/height-sculp.gif){width="450px"}![](../../assets/cracks-demo.jpg){width="450px"}
 
 >[!NOTE]
 >
-> Ein neuer Filter mit dem Namen &quot;**Height zu Normal**&quot; wurde im Shelf hinzugefügt und kann verwendet werden, um die endgültige Normalzuordnung abzurufen (falls die native Konvertierung nach Substance Painter nicht stark genug ist).
+> Ein neuer Filter mit dem Namen &quot;**Height in Normal**&quot; wurde dem Regal hinzugefügt und kann verwendet werden, um die endgültige Normalen-Map abzurufen (falls die native Konvertierung durch Substance Painter nicht stark genug ist).
 
-### Maskeneffekt vergleichen
+### Effekt &quot;Vergleichsmaske&quot;
 
 ![](../../assets/compare-mask.png)
 
-Das Erstellen und Mischen von Materialien kann manchmal etwas schwierig sein. Aus diesem Grund haben wir einen neuen Effekt mit dem Namen &quot;**Maske vergleichen**&quot; erstellt. Mit diesem Effekt können Sie schnell und einfach zwei Kanäle vergleichen und eine Maske erstellen.
+Das Erstellen und Mischen von Materialien kann manchmal etwas schwierig sein. Aus diesem Grund haben wir einen neuen Effekt mit dem Namen &quot;**Vergleichsmaske**&quot; erstellt. Mit diesem Effekt können Sie schnell und einfach zwei Kanäle vergleichen und eine Maske erstellen.
 
-Der Effekt &quot;Maske vergleichen&quot; verfügt über die folgenden Eigenschaften:
+Der Effekt &quot;Vergleichsmaske&quot; hat die folgenden Eigenschaften:
 
 * **Kanal** : Der Kanal, der zwischen Quelle und Ziel verglichen werden soll, aus dem eine Maske erstellt werden soll.
 * **Vergleichen** : Hier stehen drei Parameter zur Auswahl, wie die Maske berechnet werden soll. Die Dropdown-Liste in der Mitte definiert den Vergleichsvorgang (kleiner als, innerhalb der Toleranz, größer als).
@@ -102,7 +102,7 @@ Der Effekt &quot;Maske vergleichen&quot; verfügt über die folgenden Eigenschaf
 
 ![](../../assets/compare-mode.png)
 
-Um die Einrichtung noch zu vereinfachen, können Sie mit der rechten Maustaste auf eine Ebene klicken und den Tastaturbefehl &quot;**Height mit Maskenkombination hinzufügen**&quot; auswählen, um diese neue Maske schnell zur Ebene hinzuzufügen. Mit diesem Tastaturbefehl wird auch die Füllmethode für den Height-Kanal auf &quot;Normal&quot; gesetzt, anstatt auf die Standardeinstellung &quot;Linear abwedeln (Hinzufügen)&quot;.\
+Um die Einrichtung zu vereinfachen, können Sie mit der rechten Maustaste auf eine Ebene klicken und den Tastaturbefehl &quot;**Maske mit Maskenkombination hinzufügen**&quot; auswählen, um diese neue Height schnell auf Ihrer Ebene hinzuzufügen. Dieser Tastaturbefehl schaltet auch die Füllmethode Ihres Height-Kanals auf &quot;Normal&quot; anstatt auf die Standardeinstellung &quot;Linear abwedeln (Hinzufügen)&quot;.\
 ![](../../assets/compare-shortcut.png)
 
 ### Radialsymmetrie
@@ -121,23 +121,23 @@ Wir haben auch eine kleine Vorschau hinzugefügt, um es einfacher zu machen, die
 
 ![](../../assets/radial-settings.png)
 
-### Neue Projektionsmodi für Füllebenen
+### Neue Füllebene Projektion Modi
 
 ![](../../assets/fill-proj.jpg)
 
 Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefügt: **Planar** und **Kugelförmig**. Wir haben außerdem viele neue Parameter hinzugefügt, um das Verhalten der 3D-Projektionen genauer zu steuern.
 
-* **Neuer planarer Projektionsmodus**\
+* **Neuer Modus für Planare Projektion**\
   Mit diesem neuen Modus ist nun das Projizieren einer Ebene möglich. Es kann nützlich sein, um Streifen an Fahrzeugen zu erstellen oder Aufkleber an einer bestimmten Stelle zu platzieren.
 
   ![](../../assets/planar-proj.png)
-* **Oberflächenwerkzeug für planare Projektion**\
-  Um die Bearbeitung der Planarprojektion zu erleichtern, haben wir außerdem ein neues Steuerelement für den 3D-Manipulator hinzugefügt, den wir **Surface Tool** nennen und auf den mit der Tastenkombination &quot;**Shift+W**&quot; zugegriffen werden kann. Sie können auch über die Kontext-Symbolleiste darauf zugreifen. Beachten Sie, dass dieser neue Modus nur für die planare Projektion verfügbar ist.
+* **Surface Tool für Planare Projektion**\
+  Um die Bearbeitung der planaren Projektion zu erleichtern, haben wir außerdem ein neues Steuerelement für den 3D-Manipulator hinzugefügt, den wir **Surface Tool** nennen und auf den mit dem Tastaturbefehl &quot;**Shift+W**&quot; zugegriffen werden kann. Sie können auch über die Kontext-Symbolleiste darauf zugreifen. Beachten Sie, dass dieser neue Modus nur mit der Planaren Projektion verfügbar ist.
 
   ![](../../assets/surface-tool-toolbar.png)
 
   ![](../../assets/surface-tool-optim.gif)
-* **Planare Projektionsabschwächung/-schwund**\
+* **Planare Projektion wird abgebaut/verblasst**\
   Es stehen mehrere Einstellungen zur Verfügung, um die planare Projektion entweder kontinuierlich oder endlich zu gestalten. Wenn eine Einstellung für das Keulen aktiviert ist, zeigt der gepunktete Rahmen um den Manipulator den Begrenzungsrahmen für die Projektion an und die Mittellinie ist der Punkt, an dem die Projektion beginnt. Durch Skalieren der Projektion können Sie steuern, wie weit sie geht und wann sie zu verblassen beginnt.
 
   ![](../../assets/planar-culling.gif){width="500px"}
@@ -152,12 +152,12 @@ Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefü
 
   ![](../../assets/shape-crop-toggle.gif){width="500px"}
 * **Vorhandene Einstellungen verschoben und umbenannt**\
-  Aufgrund dieser neuen Projektionen haben wir die Funktionsweise einiger Einstellungen ein wenig überarbeitet. Beispiel: &quot;**Titel**&quot; wurde umbenannt und hat &quot;**Abwicklung**&quot;. Die Kachelung kann jetzt nur noch vertikal oder horizontal eingestellt werden. Skalierung, Drehung und Offset sind jetzt Teil der neuen Parametergruppe &quot;**UV-Transformationen**&quot;, damit sie in den Projektionsmodi einheitlicher sind.
+  Aufgrund dieser neuen Projektionen haben wir die Funktionsweise einiger Einstellungen überarbeitet. Beispiel: &quot;**Kachelung**&quot; wurde umbenannt und hat &quot;**Abwicklung**&quot;. Die Kachelung kann jetzt nur noch vertikal oder horizontal eingestellt werden. Die Funktionen &quot;Skalierung&quot;, &quot;Drehung&quot; und &quot;Offset&quot; sind jetzt Teil der neuen Parametergruppe &quot;**UV-Transformationen**&quot;, damit sie in allen Modi der Projektion einheitlicher sind.
 
   ![](../../assets/repeat-mode.png)
 
   ![](../../assets/uv-transform.png)
-* **Der All-Axis-Modus des Rotationsmanipulators wurde verbessert** Anstatt eine explizite Kugel zu zeichnen, wird diese jetzt ausgeblendet, um zu vermeiden, dass die unten stehende Texturierung ausgeblendet wird. Wenn Sie zwischen die Achsen klicken, wird die Kugel ausgewählt, mit der alle Achsen gleichzeitig gedreht werden können.\
+* **Der Modus &quot;Rotation Manipulator all-Achse&quot; wurde verbessert** Anstatt eine explizite Kugel zu zeichnen, wird diese jetzt ausgeblendet, um zu vermeiden, dass die Texturierung unten ausgeblendet wird. Wenn Sie zwischen die Achsen klicken, wird die Kugel ausgewählt, mit der alle Achsen gleichzeitig gedreht werden können.\
   ![](../../assets/manip-rotation-optim.gif)
 
 ### Verschiedene Verbesserungen
@@ -165,16 +165,16 @@ Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefü
 ![](../../assets/txtset-resolution-optim.gif)
 
 * **Mehrfachauswahl für Textursatz**\
-  Die Auswahl mehrerer Textursätze zur gleichzeitigen Änderung der Auflösung über die Textursätze-Einstellungen ist jetzt möglich.\
-  Im Mehrfachauswahlmodus wird immer noch von einem &quot;Haupt&quot;-Textursatz gesprochen, weshalb zusätzliche Elemente in Grau ausgewählt werden. Wenn Sie zu einem anderen Textursatz wechseln müssen, während Sie die aktuelle Auswahl beibehalten, können Sie dies mit der mittleren Maustaste tun.
-* **Schnelles Ein-/Ausblenden in der Textursatzliste**\
+  Die Auswahl mehrerer Textursatz zur gleichzeitigen Änderung ihrer Auflösung über die Textursatz-Einstellungen ist jetzt möglich.\
+  Im Mehrfachauswahlmodus wird immer noch von einem &quot;Haupt&quot;-Textursatz gesprochen, weshalb zusätzliche Elemente grau selektiert werden. Wenn Sie zu einem anderen Textursatz wechseln müssen, während Sie die aktuelle Auswahl beibehalten, können Sie dies mit der mittleren Maustaste tun.
+* **In der Textursatz-Liste schnell ein-/ausblenden**\
   Sie können jetzt (wie im Ebenenstapel) klicken und ziehen, um Textursätze aus- oder einzublenden.
 * **Verbesserte Benutzeroberfläche für Ebenenstapel**\
   Wir haben das Symbol für den Status &quot;Ein-/Ausblenden&quot; einer Ebene geändert, um einheitlicher und verständlicher zu sein. Wir haben auch die Anzeige der ausgewählten Ebenen geändert, um sie besser mit der Auswahl ihrer Effekte und anderer Ebenen zu vergleichen.\
   ![](../../assets/layer-stack-selection-ui.gif)
 * **Neue Effektposition basierend auf aktueller Auswahl** Jeder neue Effekt, der einer Ebene hinzugefügt wird, wird jetzt direkt über der aktuell ausgewählten Ebene platziert.\
   ![](../../assets/filter-insert.gif)
-* **Kurzes Umschalten der Schaltflächen für den Materialkanal**\
+* **Schnelles Umschalten der Schaltflächen für Material-Kanäle**\
   Sie können jetzt ALT drücken und auf eine Kanalschaltfläche klicken, um sie zu isolieren. Wenn Sie erneut klicken, werden alle Kanäle wieder aktiviert.\
   ![](../../assets/channels-toggle.gif)
 * **Dithering beim Export** Dithering kann jetzt über eine dedizierte Einstellung im Exportfenster neben dem Dateiformat und der Bittiefe deaktiviert werden. Weitere Informationen dazu, wie und wann Dithering angewendet wird [finden Sie in der Exportdokumentation &#x200B;](../../export/export-window/export-window.md).\
@@ -191,8 +191,8 @@ Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefü
 
 In dieser Version haben wir auch viele neue Inhalte hinzugefügt: von der Vorgabe über die Alpha-Ausgabe bis hin zu neuen, leistungsstarken Filtern.
 
-* **Neue Pinsel- und Werkzeugvorgaben**\
-  In dieser Version wird die neue Funktion &quot;Dynamische Pinselstriche&quot; eingeführt und mit ihr wurden einige gebrauchsfertige Pinsel- und Werkzeugvorgaben hinzugefügt.
+* **Neuer Pinsel und Werkzeugvorgaben**\
+  In dieser Version wird die neue Funktion &quot;Dynamische Pinselstriche&quot; eingeführt und damit haben wir einige gebrauchsfertige Pinsel und Werkzeugvorgaben hinzugefügt.
 
   * 10 neue Pinselvorgaben :
     * Ink Dirty
@@ -205,7 +205,7 @@ In dieser Version haben wir auch viele neue Inhalte hinzugefügt: von der Vorgab
     * Zigzag Long
     * Zigzag Short
     * Zigzag Step
-  * 11 neue Werkzeugvorgaben :
+  * 11 neue Werkzeugvorgaben:
     * Herbstlaub
     * Risse
     * Fußabdrücke
@@ -230,23 +230,23 @@ In dieser Version haben wir auch viele neue Inhalte hinzugefügt: von der Vorgab
   * **Height anpassen** : Dieser Filter bietet zwei Einstellungen, mit denen Sie den Height-Kanal ganz einfach bearbeiten können: Versatz und Multiplizieren.
   * **Height auf Normal** : Dieser Filter wandelt den Height-Kanal in einen Normal-Kanal um und übergibt ihn an den Normal-Kanal. Es hat verschiedene Intensitätskontrollen je nach Bedarf.
   * **Maskenkontur** : Dieser Filter erstellt einen weißen schwarzen Rahmen um eine Graustufeneingabe. Dies ist am nützlichsten in Masken, um Rahmen um Formen zu erstellen.
-  * **PBR-Validierung** : Wir haben diesen Filter hinzugefügt, um zu überprüfen, ob Ihre PBR-Materialfarben im richtigen Bereich sind. Weitere Informationen finden Sie im [PBR-Handbuch](https://www.allegorithmic.com/pbr-guide) !
-  * **MatFX Peeling Paint** : Simuliert, wie alte Farbe sich ablöst. Dieser Filter gibt Alpha aus, wodurch die Überblendung mit den darunter liegenden Materialien erleichtert wird.
+  * **PBR-Validierung** : Wir haben diesen Filter hinzugefügt, um zu überprüfen, ob die Farben Ihres PBR-Materials im richtigen Bereich sind. Weitere Informationen finden Sie im [PBR-Handbuch](https://www.allegorithmic.com/pbr-guide) !
+  * **MatFX Peeling Paint** : Simuliert das Ablösen alter Malen. Dieser Filter gibt Alpha aus, sodass du die Farben leicht mit den Materialien darunter mischen kannst.
   * **MatFx Wassertropfen** : Simuliert Wassertropfen auf der Oberfläche eines Objekts. Wie Wasser auf einem Auto nach dem Regen.
 * **7 neue Generatoren**\
   In dieser Version haben wir einige neue Generatoren hinzugefügt:
 
-  * **Umgebungs-Verdeckung** : Maskengenerator, der Steuerelemente über die Umgebungsmaske-Verdeckung bietet. Basierend auf dem Maskeneditor.
-  * **Normale im Weltraum** : Maskengenerator mit Steuerelementen für die Mesh-Map &quot;World Space Normale&quot;. Basierend auf dem Maskeneditor.
-  * **Position** : Maskengenerator mit Steuerelementen für die Positionierungsgitter-Map. Basierend auf dem Maskeneditor.
+  * **Umgebungs-Verdeckung** : Maskengenerator mit Steuerelementen auf der Ambient occlusion-Mesh-Map. Basierend auf dem Maskeneditor.
+  * **Welt-Raum-Normale** : Maskengenerator mit Steuerelementen auf der Welt-Raum-Normale-Mesh-Map. Basierend auf dem Maskeneditor.
+  * **Position** : Maskengenerator mit Steuerelementen auf der Mesh-Map &quot;Position&quot;. Basierend auf dem Maskeneditor.
   * **Krümmung** : Maskengenerator mit Steuerelementen für die Krümmungsgitter-Map. Basierend auf dem Maskeneditor.
-  * **Automatisches Zusammensetzen** : Maskengenerator, der Nähte in der Nähe der UV-Ränder, der Gitterkrümmung oder um eine benutzerdefinierte Maskeneingabe herum erstellt.
-  * **UV-Texeldichte** : Helper, der einen farbigen Verlauf ausgibt, der auf der Texeldichte der Polygone des Gitters basiert.
-  * **UV Random Color** : Generieren Sie eine zufällige Farbe pro UV-Insel (oder basierend auf einer benutzerdefinierten Verlaufseingabe).
+  * **Automatisches Zusammensetzen** : Maskengenerator, der Masken in der Nähe der UV-Ränder, der Mesh-Krümmung oder um eine benutzerdefinierte Maskeneingabe herum erstellt.
+  * **UV Texeldichte** : Helfer, der einen farbigen Verlauf ausgibt, der auf der Texeldichte der Polygone des Meshs basiert.
+  * **UV Zufallsfarbe** : Generieren Sie eine zufällige Farbe pro UV-Insel (oder basierend auf einer benutzerdefinierten Verlaufseingabe).
 * **2 neue Umgebungszuordnungen**
 
   * Herbstwald
-  * Canopus Ground
+  * Canopus-Boden
 
     ![](../../assets/env-map.jpg)
 * **5 neue Prozedurale**
@@ -325,7 +325,7 @@ Zusammenfassung: **HotFix**
 ### 2019.1
 
 *(veröffentlicht am 23. April 2019)*\
-Zusammenfassung: **Dynamischer Pinselstrich mit eigenem neuen Inhalt, Versatz und Tesselierung in Echtzeit und in Irak, Maskenvergleichseffekt, Radialsymmetrie, planar und Sphärische Projektion**
+Zusammenfassung: **Dynamischer Strich mit eigenem neuen Inhalt, Versatz und Tessellation in Echtzeit und Iray, Effekt &quot;Vergleichsmaske&quot;, Radiale Symmetrie, Planar und Sphärische Projektion**
 
 **Hinzugefügt:**
 
@@ -363,29 +363,29 @@ Zusammenfassung: **Dynamischer Pinselstrich mit eigenem neuen Inhalt, Versatz un
 * [Plug-in]&#x200B;[UI] Neues Symbol für automatisches Speichern
 * [Scripting] Auflisten des Inhalts eines Ordners
 * [Scripting] Löschen von Dateien zulassen
-* [Skripterstellung] Lesen aller Stapelinformationen, einschließlich der verwendeten Ressourcen
+* [Skripterstellung] Lesen aller Stapel-Informationen, einschließlich der verwendeten Ressourcen
 * [Inhalt]&#x200B;[Dynamischer Strich] Neue Werkzeuge und Pinselvorgaben
 * [Inhalt]&#x200B;[Dynamischer Strich] Zwei neue prozedurale Verläufe: Farbton und Verlaufsgenerator
-* [Inhalt] 11 neue Filter: MatFx Peeling Paint, MatFx Wassertropfen und mehr
-* [Inhalt] 7 neue Generatoren: Auto Stitcher, UV Random Color, UV Texel Density und mehr
+* [Inhalt] 11 neue Filter: MatFx Peeling Malen, MatFx Wassertropfen und mehr
+* [Inhalt] 7 neue Generatoren: &quot;Auto-Stitcher&quot;, &quot;UV-Zufallsfarbe&quot;, &quot;UV-Texeldichte&quot; und weitere Eigenschaften
 * [Inhalt] 93 neue Alphas: neue Texte, Pfeile und verschiedene andere Formen
 * [Inhalt] 2 neue Verfahren: Verlaufsfarbton, Verlaufsgenerator und mehr
-* [Inhalt] 21 neue Werkzeug- und Pinselvorgaben für Dynamische Pinselstriche : Kiesel, Fußabdrücke, Spray und mehr
+* [Inhalt] 21 neue Tools und Pinselvorgaben für Dynamische Pinselstriche : Kiesel, Fußabdrücke, Spray und mehr
 * [Inhalt] 2 Neue HDRs: Canopus Boden- und Herbstwald
-* [Inhalt] Aktualisieren von Inhalten mit Kuration nach dem Zufallsprinzip in der Ablage
-* [Inhalt] Neues Symbol mit exponierten Zufallsparametern im Regal
+* [Inhalt] Aktualisieren von Inhalt mit Kuration nach dem Zufallsprinzip in Regal
+* [Inhalt] Neues Symbol mit gelegt Zufallsparameter in Regal
 
 **Fest:**
 
-* [Ebenenstapel] Der Ebenenstapel zieht ewig
+* [Ebenen-Stapel] Ebenenstapel wird unendlich lange gezogen
 * [Mac] &quot;Im Finder anzeigen&quot; kann zum Einfrieren führen
 * [Scripting] Einstellungen, die über die benutzerdefinierte Benutzeroberfläche gespeichert wurden, gehen verloren, wenn die Shader-Datei verschoben wird
 * [Scripting] API-Versionsnummer ist falsch und nicht aktuell
 * [Effekt] Histogramminhalt wird nicht korrekt angezeigt
 * [Effekt] Der Histogrammeffekt wird in einigen Fällen nicht aktualisiert
-* [Shelf] Stiche sind auf Material &quot;Plastic Fabric Pyramid&quot; nicht richtig ausgerichtet.
+* [Regal] Die Stiche sind auf Material &quot;Plastic Fabric Pyramide&quot; nicht richtig ausgerichtet.
 
 **Bekannte Probleme:**
 
-* Durch Doppelklicken auf den Namen des Textursatzes wird dieser vor dem Umbenennungsmodus ausgewählt
+* Durch Doppelklicken auf den Namen des Textursatzes wird dieser vor dem Umbenennungsmodus ausgewählt.
 * [Ebenenstapel]&#x200B;[UI] Wenn Sie mit UMSCHALTTASTE eine Maske umschalten, können Sie mehrere Ebenen gleichzeitig auswählen

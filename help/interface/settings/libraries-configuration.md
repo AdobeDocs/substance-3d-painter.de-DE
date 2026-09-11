@@ -30,10 +30,10 @@ Standardmäßig sind zwei Pfade vordefiniert:
 
 | Name | Standort |
 | --- | --- |
-| **Ihre\_Assets** | Dieser Pfad befindet sich im Ordner Dokumente des aktuellen Benutzerprofils. Hier werden Ressourcen wie z. B. Vorgaben standardmäßig aus der Anwendung heraus erstellt. (In älteren Versionen als &quot;Shelf&quot; bezeichnet.) |
+| **Ihre\_Assets** | Dieser Pfad befindet sich im Ordner Dokumente des aktuellen Benutzerprofils. Hier werden Ressourcen wie z. B. Vorgaben standardmäßig aus der Anwendung heraus erstellt. (In älteren Versionen als &quot;Regal&quot; bezeichnet.) |
 | **Starter\_assets** | Dieser Pfad befindet sich im Installationsordner der Anwendung. Es enthält die Standardressourcen. (In älteren Versionen als &quot;allegorithmic&quot; oder &quot;substance&quot; bezeichnet.) |
 
-Mit dem Optionsfeld **Standard** wird definiert, in welchem Pfad neue Inhalte (z. B. Pinselvorgaben, Materialvorgaben oder Smart-Materialien) gespeichert werden.
+Das Optionsfeld **Standard** wird verwendet, um festzulegen, in welchem Pfad neue Inhalte (z. B. Pinselvorgaben, Materialvorgaben oder Intelligente Materialien) gespeichert werden.
 
 ## Hinzufügen eines neuen Pfads
 
@@ -45,5 +45,5 @@ Mit dem Optionsfeld **Standard** wird definiert, in welchem Pfad neue Inhalte (z
 | --- | --- |
 | **Name** | Der Name, der verwendet wird, um auf den Pfad in der Benutzeroberfläche zu verweisen (wenn Sie beispielsweise mit der rechten Maustaste auf eine Ressource klicken). Dieser Name definiert auch den internen Positionsnamen für Ressourcen, die verfolgt werden sollen, wenn sie aktuell sind oder nicht. Daher wird empfohlen, diesen Namen nach der Definition nicht zu ändern. |
 | **Pfad** | Der tatsächliche Speicherort, an dem sich Ressourcen auf dem Datenträger befinden (oder befinden werden). |
-| **Schaltfläche mit Pluszeichen**  <div><img data-preserve-html="true" src="../../assets/shelf-button.png" width="30"/></div> | Wenn Sie auf diese Schaltfläche klicken, wird der durch den Namen und die Pfadeinstellungen definierte Pfad zur Liste unten hinzugefügt.Durch Hinzufügen eines neuen Pfads wird automatisch die erforderliche Unterordnerstruktur erstellt, die zum Organisieren der Daten und Ressourcen erforderlich ist. Informationen zum Platzieren von Ressourcen finden Sie unter:  [Hinzufügen von Inhalt zum Shelf](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html). |
+| **Schaltfläche mit Pluszeichen**  <div><img data-preserve-html="true" src="../../assets/shelf-button.png" width="30"/></div> | Wenn Sie auf diese Schaltfläche klicken, wird der durch den Namen und die Pfadeinstellungen definierte Pfad zur Liste unten hinzugefügt.Durch Hinzufügen eines neuen Pfads wird automatisch die erforderliche Unterordnerstruktur erstellt, die zum Organisieren der Daten und Ressourcen erforderlich ist. Informationen zum Platzieren von Ressourcen finden Sie unter:  [Hinzufügen von Inhalten zum Regal](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html). |
 | **Minusschaltfläche**   <div><img data-preserve-html="true" src="../../assets/shelf-remove.png" width="30"/></div> | Wenn Sie auf diese Schaltfläche vor einem Pfad klicken, wird er aus der Liste entfernt. Ressourcen werden in der [Assets](../assets/assets.md)-Schnittstelle nicht mehr aufgeführt.  **Hinweis:** Die Standardpfade können nicht entfernt werden. Sie werden jedoch deaktiviert und ihre Ressourcen werden stattdessen ausgeblendet. |

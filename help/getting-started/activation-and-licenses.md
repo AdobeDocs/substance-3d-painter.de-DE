@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Substance 3D Painter aktivieren und Lizenzen verwalten, um die Anwendung für das Texturmalen zu verwenden.
+description: Hier erfahren Sie, wie Sie Substance 3D Painter aktivieren und Lizenzen verwalten, um die Anwendung zum Malen auf Texturen zu verwenden.
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Activation and licenses
 helpx_experience_level: ""
@@ -50,7 +50,7 @@ Der Aktivierungsassistent verfügt über drei Optionen:
 
 >[!WARNING]
 >
-> Um die Lizenzdatei mit dem Aktivierungsassistenten zu installieren, müssen Sie Painter als Administrator ausführen und das Antivirenprogramm vorübergehend deaktivieren.
+> Um die Lizenzdatei mit dem Aktivierungsassistent zu installieren, stellen Sie sicher, dass Sie Painter als Administrator ausführen und Ihr Antivirenprogramm vorübergehend deaktivieren.
 
 ### Manuelle Aktivierung
 
@@ -64,7 +64,7 @@ Sie können Substance Painter manuell aktivieren, indem Sie die Datei license.ke
 
 >[!NOTE]
 >
-> Einige der Verzeichnisse in den oben genannten Pfaden sind möglicherweise standardmäßig ausgeblendet. Geben Sie den Pfad manuell im Datei-Explorer ein oder zeigen Sie ausgeblendete Dateien an, um sie anzuzeigen.
+> Einige der Verzeichnisse in den oben genannten Pfaden sind möglicherweise standardmäßig ausgeblendet. Geben Sie den Pfad manuell in den Datei-Explorer ein oder zeigen Sie ausgeblendete Dateien an, um sie anzuzeigen.
 
 ### Umgebungsvariable
 

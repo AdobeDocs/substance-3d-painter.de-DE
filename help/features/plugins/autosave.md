@@ -56,7 +56,7 @@ Um das automatische Speicherverhalten zu konfigurieren, klicken Sie auf das Men�
 >
 > Der Zeitgeber für das automatische Speichern wird angehalten, wenn:
 > 
-> * Der Motor berechnet
+> * Das Engine macht eine Berechnung
 > * Texturen werden exportiert
 > * Das Konfigurationsfenster ist geöffnet
 > * Das Projekt wird derzeit gespeichert.

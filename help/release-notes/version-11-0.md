@@ -62,7 +62,7 @@ Mit dem neuen Arbeitsablauf für die automatische Aktualisierung ist es jetzt m�
 
   ![](../assets/auto-update_log.png)
 * <b>Verfügbar in der Python-API zum Automatisieren der Projektwartung </b>\
-  Der Arbeitsablauf für die automatische Aktualisierung wurde auch Python zur Verfügung gestellt. Neue Funktionen wurden hinzugefügt, um veraltete Ressourcen aufzulisten und zu ersetzen.\
+  Der Arbeitsablauf für die automatische Aktualisierung wurde ebenfalls in Python gelegt. Neue Funktionen wurden hinzugefügt, um veraltete Ressourcen aufzulisten und zu ersetzen.\
   Weitere Informationen finden Sie in der entsprechenden Dokumentation im Hilfemenü der Anwendung.
 
 >[!NOTE]
@@ -73,17 +73,17 @@ Mit dem neuen Arbeitsablauf für die automatische Aktualisierung ist es jetzt m�
 
 ![](../assets/banner_filled_path.jpg)
 
-Das Werkzeug für gefüllte Pfade ist ein neuartiges Pfadwerkzeug, mit dem Sie Formen auf der Oberfläche des 3D-Modells erstellen können, die mit einer einheitlichen Farbe gefüllt sind. Sie ermöglicht die Erstellung komplexer Muster.
+Das Pfadwerkzeug ist ein neues Pfadwerkzeug, mit dem Sie Formen auf der Oberfläche des 3D-Modells erstellen können, die mit einer einheitliche Farbe gefüllt sind. Sie ermöglicht die Erstellung komplexer Muster.
 
 * <b>Neues Tool zum Erstellen eines Pfads mit einer gefüllten Farbe</b>\
-  Ein neues Tool mit dem Namen <b>Ausgefüllter Pfad</b> ist im Menü &quot;Pfad&quot; verfügbar. Dieses Werkzeug kann den inneren Bereich eines Pfads ausfüllen, wenn es geschlossen ist. Die Füllung erfolgt mit einer einheitlichen Farbe für jeden Kanal des Textursatzes.
+  Ein neues Tool mit dem Namen <b>Ausgefüllter Pfad</b> ist im Menü &quot;Pfad&quot; verfügbar. Dieses Werkzeug kann den inneren Bereich eines Pfads ausfüllen, wenn es geschlossen ist. Das Füllen erfolgt mit einer einheitliche Farbe für jeden Kanal des Textursatzes.
 
   ![](../assets/filled_path_menu.png)
 * <b>Automatische Anpassung an Oberfläche</b>\
-  Das Werkzeug &quot;Gefüllte Pfade&quot; kann auf jede Art von Oberflächen passen, es ist nicht auf planare Bereiche beschränkt. Sie kann Lücken und Objektgrenzen überwinden.
+  Das Werkzeug für ausgefüllte Pfade kann auf jede Art von Fläche passen, es ist nicht auf planare Bereiche beschränkt. Sie kann Lücken und Objektgrenzen überwinden.
 
   ![](../assets/filled_path_across_gaps.png)
-* <b>Kompatibel mit Spiegelungs- und Radialsymmetrie</b>\
+* <b>Kompatibel mit Spiegelungs- und radialer Symmetrie</b>\
   Dieses neue Werkzeug unterstützt auch die Symmetrieeigenschaften, wodurch sich Möglichkeiten zur Erstellung komplexer Formen eröffnen.
 
   ![](../assets/filled_path_symmetry.png)
@@ -99,21 +99,21 @@ Das Werkzeug für gefüllte Pfade ist ein neuartiges Pfadwerkzeug, mit dem Sie F
 In dieser neuen Version wurden zahlreiche Verbesserungen des Verhaltens und der Lebensqualität hinzugefügt, um die Verwendung der Pfad-Werkzeuge zu vereinfachen:
 
 * <b>Pfadvorschau (Umschalt+P)</b>\
-  Beim Bearbeiten eines Pfades wird eine neue gepunktete Linie angezeigt, die angibt, wie der Pfad reagiert, wenn Sie einen neuen Punkt am Ende der Kurve hinzufügen. Dadurch werden Änderungen leichter vorhersehbar. Diese Vorschau kann über das dedizierte Einstellungsmenü oder mithilfe des Tastaturbefehls <b>Umschalt+P</b> deaktiviert werden.
+  Beim Bearbeiten eines Pfades wird eine neue gepunktete Linie angezeigt, die angibt, wie der Pfad reagiert, wenn Sie einen neuen Punkt am Ende der Kurve hinzufügen. Dadurch werden Änderungen leichter vorhersehbar. Diese Vorschau kann über das dedizierte Einstellungsmenü oder mithilfe des <b>Umschalt+P</b>-Tastatur-Tastaturbefehl deaktiviert werden.
 
   ![](../assets/path_preview.gif)
 * <b>Einrasten von Geraden und Winkeln</b>\
-  Der Tastaturmodifikator <b>Umschalt </b> kann jetzt verwendet werden, um automatisch gerade Linien zwischen Punkten zu erstellen. Die Beibehaltung von <b>Strg </b> kann auch zum Anwenden von Winkelausrichtung verwendet werden, um geometrische Formen zu erstellen.\
+  Der Tastaturmodifikator <b>Umschalt </b> kann jetzt verwendet werden, um automatisch gerade Linien zwischen Punkten zu erstellen. Die Beibehaltung von <b>Strg </b> kann auch zum Anwenden von einrasten Winkeln verwendet werden, um geometrische Formen zu erstellen.\
   Die Einstellungen für die Winkelausrichtung können über das Menü &quot;Pfadeinstellungen&quot; in der kontextbezogenen Symbolleiste geändert werden.
 
   ![](../assets/path_angle.gif)
 * <b>Pfadpunkte an Gitterpolygonen ausrichten</b>\
-  Um die Platzierung von Punkten zu erleichtern, kann ein neues Ausrichten (Magnetsymbol) aktiviert werden. Mit dieser Option können Sie Punkte auf den Scheitelpunkten des 3D-Modells setzen und einer Fläche oder Kante folgen.\
+  Um die Platzierung von Punkten zu erleichtern, kann ein neuer einrasten (Magnetsymbol) aktiviert werden. Mit dieser Option können Sie Scheitelpunkt auf den 3D-Modellkanten setzen und einer Fläche oder Kante folgen.\
   Das Ausrichten kann auf drei verschiedene Arten erfolgen:
 
   * An Scheitelpunkten ausrichten
   * An Kanten ausrichten
-  * Ausrichten an der Mitte von Kanten
+  * An den Mittelpunkt der Kanten einrasten
 
   Alle diese Modi sind über das Menü &quot;Pfadeinstellungen&quot; in der kontextbezogenen Symbolleiste verfügbar.
 
@@ -124,28 +124,28 @@ In dieser neuen Version wurden zahlreiche Verbesserungen des Verhaltens und der 
   Um die Verwendung des <b>Ausgefüllten-Pfad-Werkzeugs </b> zu vereinfachen, wird der Pfad jetzt automatisch geschlossen, wenn Sie auf den ersten Scheitelpunkt klicken, während der letzte ausgewählt ist. Um einen Punkt auszuwählen, anstatt den Pfad zu schließen, können Sie die <b>STRG-TASTE </b> verwenden. (Dieses Verhalten wurde in der vorherigen Version umgekehrt.)
 
   ![](../assets/path_close_optim.gif)
-* <b>Pfadscheitelpunkte von Inhalt zu Maske kopieren</b>\
-  Es ist jetzt möglich, <b>einen Pfad im Materialmodus zu kopieren</b> und dann <b>alle Scheitelpunkte einfügen</b> auf einem Pfad in einer Maske zu verwenden. Dadurch ist die Synchronisation verschiedener Pfade zwischen Materialien und Masken möglich.
+* <b>Pfadpositionen von Inhalt in Scheitelpunkt kopieren</b>\
+  Es ist jetzt möglich, <b>einen Pfad in den Materialmodi zu kopieren</b> und dann <b>alle Scheitelpunkt</b> in einen Pfad in einer Maske einzufügen. Dadurch ist die Synchronisation verschiedener Pfade zwischen Materialien und Masken möglich.
 
   ![](../assets/paste_vertices.png)
 * <b>Verbessertes Anzeigeverhalten der Benutzeroberfläche</b>\
-  Durch Drücken der Tastaturbefehle für die Viewport-Manipulatoren (<b>W</b>, <b>S</b> oder <b>D</b>) können diese jetzt sofort aktiviert und deaktiviert werden. Sie können auch über die kontextbezogenen Symbolleistenschaltflächen aktiviert/deaktiviert werden. Diese Änderung ermöglicht es, sie schnell ein- oder auszublenden, ohne auch die anderen visuellen Elemente im Viewport (wie die Pfadkurve und die Punkte) auszublenden.
+  Durch Drücken der Tastaturbefehle für Viewport Manipulator (<b>W</b>, <b>S</b> oder <b>D</b>) können diese jetzt sofort aktiviert und deaktiviert werden. Sie können auch über die kontextbezogenen Symbolleistenschaltflächen aktiviert/deaktiviert werden. Diese Änderung ermöglicht es, sie schnell ein- oder auszublenden, ohne auch die anderen visuellen Elemente im Viewport (wie die Pfadkurve und die Punkte) auszublenden.
 
   ![](../assets/manipulator_toggle.png)
-* <b>Drehen und Skalieren jetzt auf Pfad-Scheitelpunkten verfügbar</b>\
-  In dieser Version kann das Werkzeug <b>Drehen </b> und <b>Skalieren </b> jetzt verwendet werden, wenn mehrere Scheitelpunkte ausgewählt sind. Sie bietet die Möglichkeit, Scheitelpunkte anzupassen und aneinander auszurichten.
+* <b>Auf Pfad-Scheitelpunkt kann jetzt auf Drehen und Skalieren zugegriffen werden</b>\
+  In dieser Version kann das Tool <b>Drehen </b> und <b>Skalieren </b> jetzt verwendet werden, wenn mehrere Scheitelpunkt ausgewählt sind. Damit haben Sie die Möglichkeit, Scheitelpunkt aneinander anzupassen und auszurichten.
 
   ![](../assets/path_scale_vertices.gif)
 * <b>Pfadinformationen im Eigenschaftenfenster anzeigen</b>\
-  Das Eigenschaftenfenster enthält jetzt einen neuen Abschnitt, wenn ein Pfadwerkzeug ausgewählt ist. In diesem neuen Abschnitt werden Informationen und Aktionen für Pfade neu gruppiert, z. B. die Länge eines Pfades, die Projektionslänge und Tiefen zum Wechseln zwischen Typen.
+  Das Eigenschaftenfenster enthält jetzt einen neuen Abschnitt, wenn ein Pfadwerkzeug ausgewählt ist. Dieser neue Abschnitt fasst Informationen und Aktionen für Pfade zusammen, z. B. die Länge eines Pfades, die Tiefe der Projektion und Aktionen zum Wechseln zwischen Typen.
 
   ![](../assets/path_properties_info.png)
-* <b>Verbesserte Tangent-Edition bei Betrachtung aus einem Winkel</b>\
-  Das Bearbeiten von benutzerdefinierten Tangenten kann je nach Blickwinkel schwierig sein. Dies wurde nun geändert, sodass die Tangenten auf ihren eigenen Plan beschränkt werden.
+* <b>Verbesserte Tangente-Edition bei Betrachtung aus einem Blickwinkel</b>\
+  Das Bearbeiten benutzerdefinierter Tangenten kann je nach Blickwinkel problematisch sein. Dies wurde nun geändert, sodass die Tangenten auf ihren eigenen Plan beschränkt bleiben.
 
   ![](../assets/path_tangent_angle.gif)
 * <b>Pfadliste über Ebenen hinweg offen halten</b>\
-  Wenn das Bedienfeld &quot;Pfad&quot; im Viewport geschlossen war und zwischen verschiedenen Malebenen und Effekten gewechselt wurde, bleibt es auch auf anderen Ebenen geschlossen. Das Bedienfeld bleibt nun geöffnet, um das Hin- und Herschalten zu vereinfachen.
+  Wenn das Bedienfeld &quot;Pfad&quot; im Viewport beim Wechseln zwischen verschiedenen Malebenen und Effekten geschlossen wäre, bliebe es auch auf anderen Ebenen geschlossen. Das Bedienfeld bleibt nun geöffnet, um das Hin- und Herschalten zu vereinfachen.
 
   ![](../assets/path_panel.png)
 * <b>Fokus auf derzeit ausgewählten Pfad </b>\
@@ -157,7 +157,7 @@ In dieser neuen Version wurden zahlreiche Verbesserungen des Verhaltens und der 
 
 ![](../assets/banner_filters.jpg)
 
-Die neue Version enthält einige neue Filter sowie einige verfahrenstechnische Muster.
+In der neuen Version werden einige neue Filter sowie einige prozedurale Muster eingeführt.
 
 <b>Filter:</b>
 
@@ -170,11 +170,11 @@ Die neue Version enthält einige neue Filter sowie einige verfahrenstechnische M
 
   ![](../assets/filter_quantize.jpg)
 * <b>Anisotropes Kuwahara</b>\
-  Dieser Filter wendet den [Kuwahara-Filter](https://en.wikipedia.org/wiki/Kuwahara_filter "https://en.wikipedia.org/wiki/Kuwahara_filter") an, der auch zur Rauschreduzierung und zum Stilisieren von Texturen verwendet werden kann.
+  Dieser Filter wendet den [Kuwahara-Filter](https://en.wikipedia.org/wiki/Kuwahara_filter "https://en.wikipedia.org/wiki/Kuwahara_filter") an, der zur Rauschen-Reduzierung und auch zur Stilisierung von Texturen verwendet werden kann.
 
   ![](../assets/filter_kuwahara.jpg)
 * <b>Richtungsabstand</b>\
-  Dies ist ein einfacher Filter, um Pixel in einer bestimmten Richtung im 2D-Raum zu dehnen. Es kann verwendet werden, um Pinselstriche zu verwischen oder leicht Lecks zu erzeugen.
+  Dies ist ein einfacher Filter, um Pixel in einer bestimmten Richtung im 2D-Raum dehnen. Es kann verwendet werden, um Pinselstriche zu verwischen oder leicht Lecks zu erzeugen.
 
   ![](../assets/filter_directional_distance.jpg)
 * <b>Weiche Abschrägung</b>\
@@ -184,32 +184,32 @@ Die neue Version enthält einige neue Filter sowie einige verfahrenstechnische M
 * <b>Graustufen-Konvertierung </b>\
   Dieser neue Filter kann verwendet werden, um Bilder oder Kanäle bequem in Graustufen zu konvertieren, sodass Sie bei Bedarf die Kontrolle über die Kanäle Rot, Grün und Blau haben.
 
-<b>Texturgeneratoren und Geräusche</b>:
+<b>Texturen-Generatoren und Rauschen</b>:
 
 * <b>Scratches-Generator </b>\
   Ein verbesserter Scratches-Generator, der dünne Threads mit verschiedenen Steuerelementen für Zufälligkeit simuliert.
 * <b>Triangle Grid </b>\
-  Ein Geräusch, das aus den Verbindungen von Dreiecken erstellt wird, mit Steuerelementen für Zufälligkeit und Smoothness.
+  Ein Rauschen, der aus den Verbindungen von Dreiecken aufgebaut ist, mit Steuerelementen für Zufälligkeit und Smoothness.
 * <b>Kachelzufall </b>\
-  Ein Strukturgenerator, der auf das Erstellen von Kachelmustern zugeschnitten ist.
+  Ein Textur-Generator, der auf das Erstellen von Kachelmustern zugeschnitten ist.
 * <b>Voronoi- und Voronoi-Fraktalrauschen </b>\
-  Diese neuen 2D-Versionen sind bereits als 3D-Geräusche verfügbar und können zum Arbeiten und Kacheln im 2D- oder UV-Raum verwendet werden.
-* <b>Geräusche von Designer </b> auf die neueste Version aktualisiert\
+  Bereits als 3D-Rauschen erhältlich, können diese neuen 2D-Versionen für die Arbeit und Kachelung im 2D- oder UV-Raum verwendet werden.
+* <b>Rauschen auf die neueste Version von Designer </b> aktualisiert\
   Die meisten Geräusche, die in Painter verfügbar sind, wurden mit der neuesten Version von Substance 3D Designer aktualisiert. Rauschparameter werden nicht mehr für eine Gruppe ausgeblendet, damit sie schneller bearbeitet werden können.
 
 ![](../assets/noises.jpg)
 
-### Neuer automatischer Käfig zum Backen (experimentell)
+### Neuer automatischer Käfig für das Baking (experimentell)
 
 ![](../assets/banner_bake_cage.jpg)
 
-Beim Backen eines Gitters mit hohem Poly auf Gittern mit niedrigem Poly können Sie jetzt eine neue <b>Automatische </b>-Option auswählen, wenn Sie den Käfigmodus angeben. Diese neue Methode versucht, ein automatisches Käfiggewebe zu berechnen, das am besten zu den hochpolaren Maschen passt, um Artefakte zu vermeiden.
+Beim Backen eines Gitters mit hohem Poly auf Gittern mit niedrigem Poly können Sie jetzt eine neue <b>Automatische </b>-Option auswählen, wenn Sie den Käfigmodus angeben. Dieses neue Verfahren versucht, einen automatischen Käfig-Mesh zu berechnen, der am besten zu den Meshs mit hohem Poly passt, um Artefakte zu vermeiden.
 
-* <b>Neue Einstellung in den allgemeinen Backparametern </b>\
-  Innerhalb des gemeinsamen Backparameters wurde der Käfigparameter durch eine Auswahl zwischen drei Optionen ersetzt:\
+* <b>Neue Einstellung in den allgemeinen Baking-Parametern </b>\
+  Innerhalb des allgemeinen Parameters &quot;Baking&quot; wurde der Parameter &quot;Käfig&quot; durch eine Auswahl zwischen drei Optionen ersetzt:\
   <b>Entfernungsbasiert</b>: die standardmäßigen Abstandseinstellungen vorne/hinten.\
   <b>Automatisch (experimentell)</b>: den neuen automatischen Käfig.\
-  <b>Benutzerdefinierte Datei</b>: wie zuvor eine benutzerdefinierte Gitterdatei als Käfig geladen wurde.
+  <b>Benutzerdefinierte Datei</b>: der vorherigen Art, eine benutzerdefinierte Meshdatei als Käfig zu laden.
 
   ![](../assets/baking_auto_cage_ui.png)
 
@@ -234,14 +234,14 @@ In dieser Version wurden spezifische Änderungen an der Mac-Plattform vorgenomme
 
 In dieser Version wurden noch einige weitere Funktionen hinzugefügt:
 
-* <b>Nur Basisfarbkanal für neue Füllebene/neuen Effekt aktivieren</b>\
-  Wenn Sie jetzt eine neue Füllebene oder einen neuen Effekt erstellen, wird standardmäßig nur der Kanal &quot;Grundfarbe&quot; aktiviert. (Diese Änderung gilt nicht, wenn Sie eine Ressource ziehen und ablegen, die selbst eine Füllebene/einen Fülleffekt erstellen würde.)\
-  Basierend auf dem Feedback der Community haben wir diese Änderung vorgenommen, um die Leistung zu verbessern, indem wir vermeiden, die Berechnung von Kanälen auszulösen, die danach deaktiviert werden. Dies sollte die Reaktionsfähigkeit bei der Arbeit mit hochauflösenden oder UV-Kacheln verbessern.\
-  Beachten Sie, dass Sie alle Kanäle schnell wieder aktivieren können, indem Sie auf die Schaltfläche &quot;Grundfarbe&quot; klicken, während Sie den Tastaturbefehl <b>ALT </b> beibehalten.
+* <b>Nur Grundfarbe-Kanal für neue Füllebene/neuen Effekt aktivieren</b>\
+  Wenn Sie jetzt eine neue Füllebene oder einen neuen Effekt erstellen, wird standardmäßig nur der Grundfarbe-Kanal aktiviert. (Diese Änderung gilt nicht, wenn Sie eine Ressource per Drag &amp; Drop verschieben, die selbst eine Füllebene/einen Effekt erzeugen würde.)\
+  Basierend auf dem Feedback der Community haben wir diese Änderung vorgenommen, um die Leistung zu verbessern, indem wir vermeiden, die Berechnung von Kanälen auszulösen, die danach deaktiviert werden. Dies sollte beim Arbeiten mit hoher Auflösung oder bei der Arbeit mit UV-Kacheln die Reaktionsfähigkeit erhöhen.\
+  Beachten Sie, dass Sie alle Kanäle schnell wieder aktivieren können, indem Sie auf die Schaltfläche Grundfarbe klicken, während Sie den <b>ALT </b>Tastatur-Tastaturbefehl beibehalten.
 
   ![](../assets/base_color_single_channel.png)
 * <b>UV-Kacheln zum Exportieren von Texturen umbenennen</b>\
-  Im Listenfenster &quot;Textursatz&quot; ist es nicht möglich, einen benutzerdefinierten Namen für UV-Kacheln hinzuzufügen. Im Gegensatz zur Beschreibung kann der benutzerdefinierte Name in Exportvorgaben über das dedizierte Tag <b>$uvTileName</b> abgerufen werden.\
+  Im Textursatz-Listenfenster ist es nicht möglich, UV-Kacheln einen benutzerdefinierten Namen hinzuzufügen. Im Gegensatz zur Beschreibung kann der benutzerdefinierte Name in Exportvorgaben über das dedizierte Tag <b>$uvTileName</b> abgerufen werden.\
   Mit dieser neuen Funktion können UDIM-Nummern beim Export in bestimmte Namen ersetzt werden.
 
   ![](../assets/uv_tile_rename.png)
@@ -261,7 +261,7 @@ In dieser Version wurden noch einige weitere Funktionen hinzugefügt:
 ### 11.0.0
 
 Freigabedatum: <b>2025/03/11</b>\
-Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung, Tool für gefüllte Pfade und andere Pfadverbesserungen sowie neue Filter und eine experimentelle Generierung von automatischen Käfigen für Backvorgänge</b>
+Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung, Tool für gefüllte Pfade und andere Pfadverbesserungen sowie neue Filter und eine experimentelle Generierung automatischer Käfige für das Baking</b>
 
 <b>Hinzugefügt</b>:
 
@@ -313,7 +313,7 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * Verschiedenes
 * [Exportieren] Erleichtern Sie den Zugriff auf die Optionen für Senden an mit einem neuen Fenster
 * [Nvidia] Warnung über die neuesten Nvidia-Treiber hinzufügen (572.16)
-* Die Winkelausrichtung sollte durch die Auswahl des Objekt-/Welt-Raums beeinflusst werden&#x200B;
+* Die einrasten Winkel sollten durch die Auswahl von Objekt/Welt-Raum beeinflusst werden&#x200B;
 * [Liste der Textursätze] Benutzerdefinierten Namen zu UV-Kacheln hinzufügen und diese beim Export verwenden
 * Mac
 * [Mac] Verwenden von Metal anstelle von OpenGL für das Grafik-Rendering
@@ -321,16 +321,16 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 
 <b>Fest</b>:
 
-* [NVIDIA]&#x200B;[Backen] Die Ergebnisse von Bäckereien mit umgebender Verdeckung weisen Artefakte auf
+* [Nvidia]&#x200B;[Baking] Ergebnisse von Ambient occlusion-Bakern weisen Artefakte auf
 * [Absturz] Alt-Klick zum Umschalten der Sichtbarkeit für deaktivierten Textursatz führt zu einem Absturz
-* [Backen] Käfig wird mit niedrigem Poly- als hohem Poly-Param berücksichtigt
-* [Backen] Materialfarbe für ID Map Baker funktioniert nicht mit USD-Dateiformat
+* [Baking führend] Käfig wird mit niedrigem Poly- als hohem Poly-Param berücksichtigt
+* [Baking] Die Material-Farbe für ID-Map-Baker funktioniert nicht mit USD Dateiformat
 * [Leistung] Langsames Rendering im Viewport mit Gittern und vielen überlappenden Objekten
 * [Qt] Benutzerdefinierter Farbwähler hat keine Farbmanagementeinstellungen
-* [Viewport] 3D-Manipulatoren flackern, wenn Anti-Aliasing aktiviert ist
+* [Viewport] 3D-Manipulator flackern, wenn Anti-Aliasing aktiviert ist
 * Graustufen-Schlitz des Radiergummis in Maskenblöcken im Pinselzustand
-* [Log] Beim Importieren von Meshes werden keine sehr langen Fehlermeldungen gemeldet.
-* [Inhalt] Tippfehler in der Liste der Vorgabennamen in der Vorgabe des Werkzeugs &quot;Topstitches&quot;
+* [Protokoll] Beim Importieren von Meshs werden keine sehr langen Fehlermeldungen gemeldet.
+* [Inhalt] Tippfehler in der Liste der Vorgabename in der Werkzeugvorgabe &quot;Topstitches&quot;
 * [Python] Wenn Sie eine SVG/Ai-Datei durch eine andere Datei ersetzen, werden die Eigenschaften nicht aktualisiert
 * [Python] Vektorressource Die Zeichenflächen-ID ist in einigen Fällen leer, wenn sie von Python abgefragt wird
 * [Python] Fehler, der im Protokoll gedruckt wird, hat manchmal viele Zeilenenden

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Bildsequenz
 
-Bildsequenzen sind eine Sammlung von Bildern, die als eine einzige Ressource im Shelf gruppiert sind. Bilder werden anhand eines bestimmten Musters in ihren Dateinamen gruppiert.
+Bildsequenzen sind eine Zusammenstellung von Bildern, die als eine einzige Ressource im Regal gruppiert sind. Bilder werden anhand eines bestimmten Musters in ihren Dateinamen gruppiert.
 
 ## Bilder als Sequenz importieren
 
@@ -53,4 +53,4 @@ Der Dateinamenabgleich basiert auf dem folgenden regulären Ausdruck:
 
 Bildsequenzen können wie jede andere Ressource in einen beliebigen Ressourcenplatz der Schnittstelle geladen werden. In einigen Fällen können jedoch zusätzliche Einstellungen erforderlich sein, um ordnungsgemäß verwendet zu werden.
 
-Stellen Sie in [Füllebenen](../../painting/fill-projections/fill-projections.md) (und Fülleffekte) sicher, dass der Projektionsmodus auf **Füllen (Übereinstimmung pro UV-Kachel)** festgelegt ist, um sicherzustellen, dass jedes Bild aus der Sequenz der rechten [UV-Kachel](uv-tiles.md) im Textursatz zugewiesen ist.
+Stellen Sie in [Füllebenen](../../painting/fill-projections/fill-projections.md) (und Fülleffekte) sicher, dass der Sequenzmodus auf **Projektion (Übereinstimmung pro UV-Kachel)** festgelegt ist, um sicherzustellen, dass jedes Bild aus der Sequenz der rechten [UV-Kachel](uv-tiles.md) im Textursatz zugewiesen ist.

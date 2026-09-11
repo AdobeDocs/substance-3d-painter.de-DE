@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Toon - Shader-API
 
-## Grundlegender Tonschattierer
+## Grundlegender Shader
 
 Aus Bibliotheken importieren.
 
@@ -36,7 +36,7 @@ const vec3 light_pos = vec3(10.0, 10.0, 10.0);
 ```
 
 
-Wir **binden** die automatische param-Weltaugenposition an unsere einheitliche **Kamera\_Pos**.
+Wir **binden** die automatische param-Weltaugenposition an unsere Uniform **Kamera\_pos**.
 
 ```
 //: param auto world_eye_position 
@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-Wir **binden** den Kanal **Grundfarbe** des Dokuments an unsere einheitliche **Grundfarbe\_Text**.
+Wir **binden** den Dokumentkanal **Grundfarbe** an unsere Uniform **Grundfarbe\_Text**.
 
 ```
 //: param auto channel_basecolor 
@@ -54,7 +54,7 @@ uniform SamplerSparse basecolor_tex;
 ```
 
 
-Wir **binden** die **Gitterkrümmung** an unsere einheitliche **Krümmung\_tex**. Wenn keine Krümmung verfügbar ist, wird eine transparente Textur bereitgestellt.
+Wir **binden** die **Mesh-Krümmung** an unsere einheitliche **Krümmung\_tex**. Wenn keine Krümmung verfügbar ist, wird eine durchsichtige Textur bereitgestellt.
 
 ```
 //: param auto texture_curvature 
@@ -63,7 +63,7 @@ uniform SamplerSparse curvature_tex;
 ```
 
 
-Wir definieren ein neues benutzerdefiniertes Tweak für diesen Shader, zusammen mit seinem Standardwert. Dieses Werkzeug wird verwendet, um die Thickness der Kontur beim Schatten zu optimieren.
+Wir definieren eine neue benutzerdefinierte Anpassung für diesen Shader zusammen mit dem Standardwert. Dieses Werkzeug wird verwendet, um die Thickness der Kontur beim Schatten zu optimieren.
 
 ```
 //: param custom { 
@@ -82,7 +82,7 @@ uniform float unlit_outline_thickness;
 ```
 
 
-Wir definieren ein neues benutzerdefiniertes Tweak für diesen Shader, zusammen mit seinem Standardwert. Dieses dient dazu, die Thickness der Kontur zu optimieren, wenn sie beleuchtet wird.
+Wir definieren eine neue benutzerdefinierte Anpassung für diesen Shader zusammen mit dem Standardwert. Dieses dient dazu, die Thickness der Kontur zu optimieren, wenn sie beleuchtet wird.
 
 ```
 //: param custom { 
@@ -101,7 +101,7 @@ uniform float lit_outline_thickness;
 ```
 
 
-Ob wir die Rundung bevorzugen oder nicht.
+Ob wir die Krümmung lieber benutzen oder nicht.
 
 ```
 //: param custom { 
@@ -140,7 +140,7 @@ Wir berechnen einige nützliche Werte.
 ```
 
 
-**Priorität** ist, die **Gliederungserkennung** auszuführen. Ermöglicht es dem Benutzer, auszuwählen, ob er die Krümmungszuordnung für die Konturerkennung bevorzugt oder nicht.
+**Priorität** ist, die **Gliederungserkennung** auszuführen. Erlauben Sie dem Benutzer, auszuwählen, ob er die Krümmungs-Map für die Konturerkennung bevorzugt oder nicht.
 
 ```
   if (use_curvature) { 

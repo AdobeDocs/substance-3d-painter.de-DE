@@ -43,12 +43,12 @@ Es gibt drei verschiedene Möglichkeiten, das Importfenster in Substance 3D Pain
 * **1 - Ressourcen hinzufügen**: Ermöglicht die Auswahl zusätzlicher Dateien für den Import, wodurch diese der Listenanzeige im Importfenster hinzugefügt werden.
 * **2 - Ausgewählte Ressourcen entfernen:** Entfernt die in der Liste ausgewählten Dateien.
 * **3 - Dropdown-Filter**: Filtern der Dateiliste nach Verwendung zulassen. Dies ist nützlich, um Ressourcen zu isolieren, die den Typ &quot;nicht definiert&quot; aufweisen.
-* **4 - Verwendung** : Es stehen verschiedene Verwendungsarten zur Verfügung. Die Liste der vorgeschlagenen Verwendungen kann sich je nach dem Dateiformat, das Sie importieren, ändern. Die Verwendung kann für Ihre Datei vorab ausgewählt werden, wenn Ihr Dateiformat nur einen Verwendungstyp hat (z. B. werden Painter-Vorgaben .sppr automatisch als solcher definiert) ODER wenn sie vom Ersteller im Designer-Originaldiagramm vordefiniert wurden.
+* **4 - Verwendung** : Es stehen verschiedene Verwendungsarten zur Verfügung. Die Liste der vorgeschlagenen Verwendungen kann sich je nach dem Dateiformat, das Sie importieren, ändern. Die Verwendung kann für Ihre Datei vorab ausgewählt werden, wenn Ihr Dateiformat nur einen Verwendungstyp hat (z. B. werden Painter-Vorgaben .sppr automatisch als solcher definiert) ODER wenn sie im ursprünglichen Designer-Graf vom Ersteller vordefiniert wurden.
 * **5 - Präfix** : Das Präfix kann ein Ordnerpfad sein, um den Speicherort einer Ressource zu definieren.
 * **6 - Dateiname** : Name der aktuellen Ressource. Manchmal kann der Ordner, in dem die Ressource gespeichert wurde, angegeben werden, diese Informationen werden während des Importvorgangs nicht verwendet.
 * **7 - Importspeicherort** : Kann entweder -
   * **Aktuelle Sitzung** : In einer temporären Sitzung gehen die Ressourcen nach einem Neustart der Anwendung verloren.
   * **Projekt &quot;Projektname&quot;** : In die derzeit geöffnete Projektdatei. Ressourcen sind in der Datei **spp** eingebettet.
-  * **Shelf &quot;Shelf-Name&quot;** : In die aktuelle Bibliothek, die als schreibbar definiert ist. Weitere Informationen finden Sie auf dieser Seite : [Bibliothekskonfiguration](../../interface/settings/libraries-configuration.md).
+  * **Regal &quot;Regal name&quot;** : In die aktuelle Bibliothek, die als schreibbar definiert ist. Weitere Informationen finden Sie auf dieser Seite : [Bibliothekskonfiguration](../../interface/settings/libraries-configuration.md).
 
 Sie können Ressourcen im Importfenster mehrfach auswählen (mit den üblichen Systemkürzeln), um ihre Verwendung schnell zu bearbeiten.

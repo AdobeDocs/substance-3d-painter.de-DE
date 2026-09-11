@@ -7,7 +7,7 @@ helpx_description: Painter > Painting > Presets > Creating particles presets
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Erstellen von Partikelvorgaben
+title: Erstellen von Partikeln-Vorgaben
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,14 +18,14 @@ ht-degree: 0%
 ---
 
 
-# Erstellen von Partikelvorgaben
+# Erstellen von Partikeln-Vorgaben
 
 Das Partikelsystem, das das Malen von Partikeln zulässt, verwendet **PopcornFX**, das zur Definition der Verhalten auf **.pkfx**-Dateien basiert.
 
-Die Partikelpinsel bestehen aus zwei Teilen: den **Emitter** und den **Receiver**, die zusammen in der Vorgabe gespeichert werden. Die Anwendung lädt den Emitter und überschreibt Kollisionsereignisse, um den Receiver beim Malen auszugeben.
+Die Pinsel für Partikeln bestehen aus zwei Teilen: **Emitter** und **Empfänger**, die gemeinsam in der Vorgabe gespeichert werden. Die Anwendung lädt den Emitter und überschreibt Kollisionsereignisse, um den Receiver beim Malen auszugeben.
 
 Weitere Informationen finden Sie auf den entsprechenden Seiten:
 
 * [Installieren des Partikel-Editors](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Überblick über den Partikel-Editor](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
-* [Erstellen eines neuen Partikelskripts](creating-a-new-particle-script.md)
+* [Überblick über den Partikeln-Editor](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Erstellen eines neuen Partikel-Skripts](creating-a-new-particle-script.md)

@@ -30,5 +30,5 @@ Im Folgenden finden Sie eine Liste der nicht bearbeitbaren Vorgaben:
 * Sketchfab
 * Substance 3D Stager
 * [USDz (Apple AR)](usd-pbr-metal-roughness-preset.md)
-* glTF PBR Metal-Raueit
-* glTF PBR Raueit des Metalls + Textur des Versatzes (experimentell)
+* glTF PBR Metall-Rauheit
+* glTF PBR Metal Rauheit + Versatz Textur (experimentell)

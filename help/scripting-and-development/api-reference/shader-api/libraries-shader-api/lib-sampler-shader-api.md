@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Lib Sampler Shader-API-Referenz für Substance 3D Painter zu, um Texturen und Daten in der Entwicklung benutzerdefinierter Shader zu testen.
+description: Greifen Sie auf die Lib Sampler Shader-API-Referenz für Substance 3D Painter zu, um Texturen und Daten in der benutzerdefinierten Shader-Entwicklung zu testen.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sampler - Shader API
 helpx_experience_level: ""
@@ -77,7 +77,7 @@ uniform SamplerSparse ao_tex;
 ```
 
 
-Ein Wert, der zum Anpassen der Umgebungsintensität verwendet wird. Verdeckung
+Ein Wert, der zum Anpassen der Ambient occlusion-Intensität verwendet wird.
 
 ```
 //: param custom { 
@@ -142,7 +142,7 @@ float getGlossiness(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Gibt die aufgenommene Raueit oder einen Standardwert zurück.
+Gibt die aufgenommene Rauheit oder einen Standardwert zurück.
 
 ```
 float getRoughness(vec4 sampledValue) 
@@ -165,7 +165,7 @@ float getRoughness(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Rückgabe der aufgenommenen metallischen Farbe oder eines Standardwerts
+Metallic aufgenommene Rückgabe oder Standardwert
 
 ```
 float getMetallic(vec4 sampledValue) 
@@ -188,7 +188,7 @@ float getMetallic(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Gibt die aufgenommene Anisotropie oder einen Standardwert zurück.
+Gibt den aufgenommenen anisotropy level oder einen Standardwert zurück
 
 ```
 float getAnisotropyLevel(vec4 sampledValue) 
@@ -381,7 +381,7 @@ float getDisplacement(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-Verdeckung zurückgeben
+Ambient occlusion zurückgeben
 
 ```
 float getAO(SparseCoord coord, bool is_premult) 
@@ -424,7 +424,7 @@ float getAO(SparseCoord coord, bool is_premult)
 ```
 
 
-Helfer zum Abrufen der Verdeckung für die Schattierung
+Helfer zum Abrufen des ambient occlusion für die Schattierung
 
 ```
 float getAO(SparseCoord coord) 
@@ -579,7 +579,7 @@ vec2 generateAnisotropicRoughness(float roughness, float anisoLevel)
 ```
 
 
-Generieren diffuser Farben aus Grundfarbe und metallischem Faktor
+Generieren diffuser Farben aus Grundfarbe und metallic Faktor
 
 ```
 vec3 generateDiffuseColor(vec3 baseColor, float metallic) 
@@ -592,7 +592,7 @@ vec3 generateDiffuseColor(vec3 baseColor, float metallic)
 ```
 
 
-Generieren von Specular-Farbe aus dielektrischem Specular level, Grundfarbe und Metallfaktor
+Generieren von Specular-Farbe aus dielektrischem Specular level, Grundfarbe und metallic Faktor
 
 ```
 vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic) 
@@ -605,7 +605,7 @@ vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic)
 ```
 
 
-Generieren Sie Specular-Farben aus der Grundfarbe und dem Metallic-Faktor unter Verwendung des Standard-Specular level (0,04) für Dielektrika.
+Generieren Sie Specular-Farben aus Grundfarbe und metallic Faktor, unter Verwendung des Standard-Specular level (0.04) für Dielektrika
 
 ```
 vec3 generateSpecularColor(vec3 baseColor, float metallic) 

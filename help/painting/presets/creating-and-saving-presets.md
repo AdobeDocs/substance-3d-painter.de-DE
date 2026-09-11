@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
-description: Lerne, wie du in Substance 3D Painter Pinselvorgaben erstellen und speichern kannst, um eine wiederverwendbare Bibliothek mit benutzerdefinierten Malwerkzeugen zu erstellen.
+description: Lerne, wie du in Substance 3D Painter Pinselvorgaben erstellst und speicherst, um eine wiederverwendbare Bibliothek mit benutzerdefinierten Malwerkzeugen zu erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Creating and saving presets
 helpx_experience_level: ""
@@ -30,13 +30,13 @@ Verwenden Sie das [Eigenschaftenfenster](../../interface/properties.md), um die 
 
 ![](../../assets/save-preset-1.png)
 
-Wenn Werkzeugeigenschaften verfügbar sind (Malebene oder Maleffekt), können Vorgaben durch Rechtsklick auf das Eigenschaftenfenster erstellt werden.
+Wenn Werkzeugeigenschaften verfügbar sind (Malebene- oder Malen-Effekt), können Sie Vorgaben erstellen, indem Sie mit der rechten Maustaste in das Eigenschaftenfenster klicken.
 
 Klicken Sie mit der rechten Maustaste in das Eigenschaftenfenster, um ein Kontextmenü mit den folgenden Optionen zu öffnen:
 
 * <b>Werkzeugvorgabe erstellen</b> : Speichern Sie die Pinselparameter und die Materialien mit allen erforderlichen Ressourcen in derselben Vorgabedatei.
-* <b>Materialvorgabe erstellen</b> : Speichern Sie nur die Materialeigenschaften und Materialressourcen innerhalb einer Vorgabedatei.
-* <b>Pinselvorgabe erstellen</b> : Speichern Sie nur die Pinselparameter sowie die Alpha- und Schablonenressourcen in einer voreingestellten Datei.
+* <b>Materialvorgabe erstellen</b> : Speichern Sie nur die Material-Eigenschaften und Material-Ressourcen innerhalb einer Vorgabedatei.
+* <b>Pinselvorgabe erstellen</b> : Speichern Sie nur die Pinselparameter sowie die Alpha- und Schablone-Ressourcen in einer Vorgabedatei.
 
 ## Aktualisieren einer vorhandenen Vorgabe
 

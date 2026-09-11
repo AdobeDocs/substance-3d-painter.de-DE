@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/fill-projections.html"
 breadcrumb-title: ''
-description: Lerne, wie du in Substance 3D Painter mithilfe von Flächenprojektionen Texturen auf ein Bild projizieren kannst.
+description: Erfahren Sie, wie Sie in Substance 3D Painter mithilfe von Projektionen für Flächen Texturen anwenden und dabei verschiedene Methoden der Projektion für ein effizientes Malen verwenden.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Fill projections
 helpx_experience_level: ""
@@ -22,15 +22,15 @@ ht-degree: 8%
 
 ![](../../assets/fill-properties.png)
 
-Füllebenen und Fülleffekte projizieren eine Textur basierend auf einem bestimmten Modus direkt auf das Gitter. Bei dieser Art von Ebene/Effekt müssen keine Strukturen manuell auf das 3D-Modell gemalt werden. Die Einstellungen der Projektion können über das Eigenschaftenfenster bearbeitet werden.
+Füllebene- und Fülleffekte projizieren eine Textur basierend auf einem bestimmten Modus direkt auf den Mesh. Bei dieser Art von Ebene/Effekt müssen keine Texturen manuell auf das 3D-Modell Malen werden. Die Einstellungen der Projektion können über das Eigenschaftenfenster bearbeitet werden.
 
 Die Eigenschaften sind in zwei Kategorien unterteilt: **Fülleigenschaften** und **Material**.
 
 ## Fülleigenschaften
 
-Die Eigenschaften &quot;Füllung&quot; steuern, wie das Material auf das Gitter angewendet und/oder projiziert wird. Der Projektionsmodus kann über die Dropdown-Liste **Projektion** im Fenster [Eigenschaften](../../interface/properties.md) geändert werden.
+Die Fülleigenschaften steuern, wie das Material angewendet und/oder auf den Mesh projiziert wird. Der Projektion-Modus kann über die Dropdown-Liste **Projektion** im Fenster [Eigenschaften](../../interface/properties.md) geändert werden.
 
-Derzeit sind folgende Projektionsmodi verfügbar:
+Die derzeit verfügbaren Modi zur Projektion sind:
 
 * [Füllung (Übereinstimmung pro UV-Kachel)](fill-match-per-uv-tile.md)
 * [UV-Projektion](uv-projection.md)
@@ -44,4 +44,4 @@ Derzeit sind folgende Projektionsmodi verfügbar:
 
 ![](../../assets/properties-mat.png)
 
-Die Steuerelemente Material/Graustufen sind mit den anderen Werkzeugen identisch. Weitere Informationen finden Sie in der Dokumentation zum [Malwerkzeug](../tool-list/paint-brush.md).
+Die Steuerelemente &quot;Material&quot; und &quot;Graustufen&quot; sind mit den anderen Werkzeugen identisch. Weitere Informationen finden Sie in der Dokumentation zum [Malen-Tool](../tool-list/paint-brush.md).

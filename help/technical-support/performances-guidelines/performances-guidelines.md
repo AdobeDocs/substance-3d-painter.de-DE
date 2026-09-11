@@ -20,10 +20,10 @@ ht-degree: 0%
 
 # Leistungsrichtlinien
 
-Substance 3D Painter kann je nach Ihren Projektanforderungen sehr anspruchsvoll sein (z. B. bei der Arbeit mit sehr hohen Texturauflösungen oder sehr hohen Polycount-Gittern). Jeder der folgenden Artikel enthält Tipps und Tricks, um das beste Erlebnis sicherzustellen:
+Substance 3D Painter kann je nach Ihren Projektanforderungen sehr anspruchsvoll sein (z. B. bei der Arbeit mit sehr hohen Auflösungen oder bei sehr hohen Meshs mit mehreren Texturen). Jeder der folgenden Artikel enthält Tipps und Tricks, um das beste Erlebnis sicherzustellen:
 
 * [Ebenenmanagement](layer-management.md)
-* [Gitter- und UV-Einrichtung](mesh-and-uv-setup.md)
+* [Mesh- und UV-Setup](mesh-and-uv-setup.md)
 * [Projektressourcen und -einstellungen](../project-resources.md)
 * [Konflikt mit Hintergrundanwendungen](conflicts-and-background-applications.md)
-* [GPU VRAM und Treiber](gpu-drivers.md)
+* [GPU-VRAM und -Treiber](gpu-drivers.md)

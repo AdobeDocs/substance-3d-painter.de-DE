@@ -60,7 +60,7 @@ Nachdem ein Asset erfolgreich heruntergeladen wurde, wird es im normalen Fenster
 
 Die Schaltfläche unten rechts im Fenster bietet einige Aktionen:
 
-* <b>Ordnerpfad öffnen</b>: Öffnen Sie den Datei-Explorer am Speicherort der aktuellen Bibliothek. Dadurch können die heruntergeladenen Assets (einschließlich früherer Sitzungen) auf der Festplatte durchsucht werden.
+* <b>Ordnerpfad öffnen</b>: den Explorer mit der aktuellen Bibliothek öffnen. Dadurch können die heruntergeladenen Assets (einschließlich früherer Sitzungen) auf der Festplatte durchsucht werden.
 * <b>Seite </b> neu laden: die Benutzeroberfläche innerhalb des Fensters neu laden.
 * <b>Vorherige Seite</b>: zur vorherigen Benutzeroberfläche innerhalb des Fensters navigieren.
 * <b>Nächste Seite</b>: zur nächsten Benutzeroberfläche innerhalb des Fensters navigieren.

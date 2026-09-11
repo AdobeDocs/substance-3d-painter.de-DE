@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Substance 3D Painter-Shader-API-Referenz "Alle Motorparameter" zu, um Shader-Parameter auf Engine-Ebene zu steuern.
+description: Rufen Sie die Shader-API-Referenz Alle Engine-Parameter für Substance 3D Painter auf, um Shader-Parameter auf Engine-Ebene zu steuern.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Alle Motorparameter - Shader-API
+title: Alle Engine-Parameter - Shader-API
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,17 +18,17 @@ ht-degree: 0%
 ---
 
 
-# Alle Motorparameter - Shader-API
+# Alle Engine-Parameter - Shader-API
 
-## Beispiele für Motorparameter
+## Beispiele für Engine-Parameter
 
-## Texturparameter
+## Parameter für die Textur
 
 Substance Painter verwendet ein SVT-System (Sparse Virtual Texture), um Texturen im Viewport anzuzeigen.
 
 Weitere Informationen zu diesem System finden Sie in der [Onlinedokumentation](../../../../features/sparse-virtual-textures.md).
 
-Dieses System hat Auswirkungen auf das Schreiben von Shader-Code. Wir stellen Helfer zur Verfügung, um die Verwendung mit der Struktur *SamplerSparse* und den Textursuchfunktionen zu vereinfachen (siehe [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
+Dieses System hat Auswirkungen auf das Schreiben von Shader-Code. Wir stellen Helfer zur Verfügung, um die Verwendung mit der *SamplerSparse*-Struktur und den Textur-Suchfunktionen zu vereinfachen (siehe [lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)).
 
 Allgemeine Verwendung:
 
@@ -54,15 +54,15 @@ uniform SamplerSparse uniform_tex; // if TEXTURE_TAG_1 exists then TEXTURE_TAG_1
 ```
 
 
-Dabei ist *TEXTURE\_TAG* eines der unten beschriebenen Tags.
+Dabei ist *TEXTUR\_TAG* eines der unten beschriebenen Tags.
 
 ### Tags für Dokumentkanäle
 
 Alle diese Texturen sind **vormultipliziert** und **erweitert**, um Nahtprobleme zu vermeiden.
 
-**Kanäle für Textursatz**
+**Textursatz-Kanäle**
 
-*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_Versatz* *channel\_emissive* *channel\_glossiness* 8&rbrace;Kanal\_Height **&#x200B; Kanal\_Senior &#x200B;** Kanal\_metallisch **&#x200B; Kanal\_normal &#x200B;** Kanal\_Deckkraft **&#x200B; Kanal\_Spiegelung &#x200B;** Kanal\_Raueit **&#x200B; Kanal\_Streuung &#x200B;** Kanal\_Specular *36&rbrace;channel\_specularlevel* *channel\_transmissive***
+*channel\_ambientocclusion* *channel\_anisotropyangle* *channel\_anisotropylevel* *channel\_basecolor* *channel\_blendingmask* *channel\_diffuse* *channel\_Versatz* *channel\_emissive* *channel\_Glanz* *8&rbrace;Kanal\_Height* *Kanal\_Senior* *Kanal\_metallic* *Kanal\_Normal* *Kanal\_Deckkraft* *Kanal\_Spiegelung* *Kanal\_Rauheit* *Kanal\_Streuung* *Kanal\_Specular* 6&rbrace;channel\_specularlevel **&#x200B; channel\_transmissive &#x200B;**
 
 **Benutzerkanäle**
 
@@ -71,14 +71,14 @@ Alle diese Texturen sind **vormultipliziert** und **erweitert**, um Nahtprobleme
 ### Mesh-Maps
 
 *texture\_ambientocclusion* : Umgebungskarte Verdeckung\
-*Textur\_Krümmung* : Krümmungskarte\
-*texture\_id* : ID-Map\
-*Textur\_normal* : Normale Tangentialraumkarte\
-*texture\_normal\_ws* : Normale Weltraumkarte\
-*texture\_position* : Weltkarte der Weltraumposition\
-*Textur\_Thickness* : Thickness Map
+*Textur\_Krümmung* : Krümmungs-Map\
+*Textur\_ID* : ID-Map\
+*Textur\_normal* : Tangentialraum-Normalmap\
+*Textur\_normal\_ws* : Welt-Raum-Normale Map\
+*Textur\_Position* : Welt-Raum-Lageplan\
+*Textur\_Thickness* : Dicken-Map
 
-## Zusätzliche Texturparameter
+## Zusätzliche Parameter für die Textur
 
 Allgemeine Verwendung:
 
@@ -110,14 +110,14 @@ uniform vec4 uniform_tex_size; // if TEX_TAG_1 exists then TEX_TAG_1_size else T
 ```
 
 
-Dabei ist *TEXTURE\_TAG* eines der unten beschriebenen Tags.
+Dabei ist *TEXTUR\_TAG* eines der unten beschriebenen Tags.
 
-*Textur\_blau\_Rauschen* : Eine Struktur für blaues Rauschen\
-*texture\_environment* : Umgebungszuordnung, **mip-mapped**, verwenden Sie [lib-env.glsl](../libraries-shader-api/lib-env-shader-api.md), um diese zu verwenden
+*Textur\_blau\_Rauschen* : Eine blaue Rauschen-Textur\
+*Textur\_Umgebung* : Umgebungs-Map, **mip-mapped**, verwenden Sie [lib-env.glsl](../libraries-shader-api/lib-env-shader-api.md), um diesen zu verwenden
 
 ## Andere Parameter
 
-*aspect\_ratio* : ein *float*, das das Ansichtsfenster *width / Height* ratio enthält
+*aspect\_ratio* : ein *Gleitkommawert*, der den Viewport *width / Height* ratio enthält
 
 ```
 //: param auto aspect_ratio 
@@ -126,7 +126,7 @@ uniform float uniform_aspect_ratio;
 ```
 
 
-*Kamera\_Ansicht\_Matrix* : a *mat4* , das die Transformation vom Welt- in den Kameraraum darstellt
+*Kamera\_view\_matrix* : a *mat4* , das die Transformation vom Welt-Raum- in den Kamera-Bereich darstellt
 
 ```
 //: param auto camera_view_matrix 
@@ -135,7 +135,7 @@ uniform mat4 uniform_camera_view_matrix;
 ```
 
 
-*camera\_view\_matrix\_it* : Inverse-Transpose-Version von *Kamera\_Ansicht\_Matrix*
+*camera\_view\_matrix\_it* : Inverse Transposeversion von *Kamera\_view\_matrix*
 
 ```
 //: param auto camera_view_matrix_it 
@@ -144,7 +144,7 @@ uniform mat4 uniform_camera_view_matrix_it;
 ```
 
 
-*camera\_vp\_matrix\_inverse* : Umkehrung der *Projektion \* Kamera\_Ansicht\_Matrix* Matrix
+*camera\_vp\_matrix\_inverse* : Umgekehrt *Projektion \* Kamera\_view\_matrix*
 
 ```
 //: param auto camera_vp_matrix_inverse 
@@ -171,7 +171,7 @@ uniform float uniform_max_lod;
 ```
 
 
-*Umgebung\_Drehung* : ein *float*, der die Drehung der Envmap um die Hochachse darstellt\
+*Umgebung\_Drehung* : ein *float*, der die Drehung der Envmap um die Achse nach oben darstellt\
 Der Wert liegt im Bereich [0,1] und sollte dem Bereich [0, 2\*pi] zugeordnet werden.
 
 ```
@@ -181,7 +181,7 @@ uniform float uniform_environment_rotation;
 ```
 
 
-*gegenüberliegend* : eine *Ganzzahl*, die gerenderte Gesichter angibt (-1: Rückseiten, 0: undefiniert, 1: Vorderseiten)\
+*gegenüberliegend* : eine *Ganzzahl*, die gerenderte Flächen angibt (-1: Rückseiten, 0: undefiniert, 1: vordere Flächen)\
 Wert 0 bedeutet, dass Sie sich sicher auf die integrierte glsl-Variable *gl\_FrontFacing* verlassen können.
 
 ```
@@ -191,7 +191,7 @@ uniform int uniform_facing;
 ```
 
 
-*fovy* : ein *Schwimmer*, der das Kamerafeld entlang der Y-Achse darstellt
+*fovy* : ein *Gleitkommawert*, der das Sichtfeld der Kamera entlang der Y-Achse darstellt
 
 ```
 //: param auto fovy 
@@ -200,7 +200,7 @@ uniform float uniform_fovy;
 ```
 
 
-*is\_2d\_view* : ein *bool*, der angibt, ob das Rendern für die 2D-Ansicht ausgeführt wird oder nicht
+*is\_2d\_view* : ein *bool*, der angibt, ob das Rendern für 2D-Ansicht ausgeführt wird oder nicht
 
 ```
 //: param auto is_2d_view 
@@ -209,7 +209,7 @@ uniform bool uniform_2d_view;
 ```
 
 
-*is\_perspective\_projection* : ein *bool*, der angibt, ob die Projektion perspektivisch oder orthografisch ist
+*is\_Perspektive\_Projektion* : ein *bool*, der angibt, ob die Projektion Perspektive oder orthografisch ist
 
 ```
 //: param auto is_perspective_projection 
@@ -227,7 +227,7 @@ uniform vec4 uniform_main_light;
 ```
 
 
-*mvp\_matrix* : eine *mat4*, die die Projektionsmatrix der Modellansicht darstellt
+*mvp\_matrix* : eine *mat4*, die die Projektion der Modellansicht darstellt
 
 ```
 //: param auto mvp_matrix 
@@ -254,7 +254,7 @@ uniform vec4 uniform_screen_size;
 ```
 
 
-*Welt\_Kamera\_Richtung* : ein *vec3*, das die Weltkameraausrichtung darstellt
+*Welt\_Kamera\_Richtung* : a *vec3* , das die Ausrichtung der Kamera auf der Welt darstellt
 
 ```
 //: param auto world_camera_direction 

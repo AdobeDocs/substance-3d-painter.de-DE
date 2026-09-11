@@ -70,7 +70,7 @@ uniform int maxPOMSamples;
 ```
 
 
-Berechnen des Versatzes von Texturkoordinaten basierend auf dem Parallaxenwert
+Berechnen des Versatzes von Koordinaten der Textur auf der Grundlage von Parallaxen
 
 ```
 vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS) 
@@ -171,7 +171,7 @@ vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS)
 ```
 
 
-Koordinaten der Eingabetextur mit Parallaxenversatz aktualisieren
+Aktualisieren der Koordinaten der Eingabe-Textur mit Parallaxenversatz
 
 ```
 void applyParallaxOffset(inout V2F inputs, vec3 viewTS) 

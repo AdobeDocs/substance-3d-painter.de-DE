@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_3d_linear_gradient.webp" alt=""/><br><strong>In:</strong> Farbverlauf, Graustufen</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der 3D Linear gradient-Generator verwendet die Positionszuordnung, um einen Verlauf zwischen zwei Messpunkten zu erstellen. <br><br>3D Linear gradient gibt eine monochrome (schwarz-weiß) Textur aus. Aus diesem Grund ist es nützlich, Masken zu generieren, um einen linearen Verlauf in einem bestimmten Bereich zu platzieren.<br><br>Als Bildeingabe ist eine vorgefertigte Positionszuordnung erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Backen</a>.<br><br>Die Positionszuordnung weist jedem Punkt im Gitter eine Farbe zu, die seiner Position zwischen 0 und 1 entlang der X-, Y- und Z-Achse entspricht. Das bedeutet, dass jeder Punkt im Gitter eine eindeutige Farbe hat. Sie können Start- und Endpunkte für den linearen Verlauf festlegen, indem Sie die Positionszuordnungsfarbe an den Start- und Endpositionen auswählen.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Positionsgenerator verwendet die Positionszuordnung, um einen Verlauf zwischen zwei 3D Linear gradient auf dem Mesh zu erstellen. <br><br>3D Linear gradient gibt eine Schwarzweiß-Textur aus. Daher ist es zum Generieren von Masken nützlich, einen linearen Verlauf in einem bestimmten Bereich zu platzieren.<br><br>Eine Baking geführt Positionszuordnung ist als Bildeingabe erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Baking</a>.<br><br>Die Positionszuordnung weist jedem Punkt auf dem Mesh eine Farbe zu, die seiner Position zwischen 0 und 1 entlang der X-, Y- und Z-Achse entspricht. Das bedeutet, dass jeder Punkt auf dem Mesh eine eindeutige Farbe hat. Sie können Start- und Endpunkte für den linearen Verlauf festlegen, indem Sie die Positionszuordnungsfarbe an den Start- und Endpositionen auswählen.</td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 | Eingabename | Beschreibung |
 | --- | --- |
-| **Position** | Verwenden Sie die Positionskarte. |
+| **Position** | Verwenden Sie die Baking geführt Positionszuordnung. |
 
 ## Parameter
 

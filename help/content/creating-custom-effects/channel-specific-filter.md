@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie kanalspezifische Filtereffekte für Substance 3D Painter erstellen, um einzelne Texturkanäle zu verarbeiten.
+description: Erfahren Sie, wie Sie kanalspezifische Filtereffekte für die Verarbeitung einzelner Textur-Kanäle in Substance 3D Painter erstellen.
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects > Channel specific filter
 helpx_experience_level: ""
@@ -32,44 +32,44 @@ Beispiel für einen Filter, der nur den Kanal **basecolor** betrifft:
 
 ## Alpha Component Management
 
-Als RGBA gespeicherte Kanäle unterstützen Alpha (zum Beispiel Grundfarbe). Für diesen Kanal kann der Alpha-Eingang/Ausgang direkt in der Substance-Farbausgabe abgelegt werden. Die Substance-Engine unterstützt jedoch kein Alpha für Graustufenbilder: Es muss mithilfe einer sekundären Karte verwaltet werden. Um die Alphakomponente eines bestimmten Kanals in einem Substanzdiagramm abzurufen, erstellen Sie eine Graustufeneingabe mit dem Namen &quot;**Kanalname\_Alpha**&quot;. Beispiel: **Grundfarbe\_Alpha**, **Raueit\_Alpha** usw.\
+Als RGBA gespeicherte Kanäle unterstützen Alpha (zum Beispiel Grundfarbe). Für diesen Kanal kann der Alpha-Eingang/Ausgang direkt in der Substance-Farbausgabe abgelegt werden. Das Substance-Engine unterstützt Alpha jedoch nicht für Graustufenbild: Es muss mithilfe einer sekundären Karte verwaltet werden. Um die Alphakomponente eines bestimmten Grafen in einem Substance-Kanal abzurufen, erstellen Sie eine Graustufeneingabe mit dem Namen &quot;**Kanalname\_Alpha**&quot;. Beispiel: **Grundfarbe\_Alpha**, **Rauheit\_Alpha** usw.\
 Erstellen Sie zum Ausgeben dieser Alphakomponente einen Ausgabeknoten mit der gleichen Namenskonvention.
 
 >[!NOTE]
 >
-> Die spezifische &quot;**\_Alpha**&quot;-Ausgabe pro Kanal funktioniert nicht mit regulären **Materialien**. Um einen Kanal mit einer Maske auszublenden, muss eine bestimmte Ausgabe mit der folgenden Namenskonvention erstellt werden:
+> Die spezifische &quot;**\_Alpha**&quot;-Ausgabe pro Kanal funktioniert nicht mit regulären **Materials**. Um einen Kanal mit einer Maske auszublenden, muss eine bestimmte Ausgabe mit der folgenden Namenskonvention erstellt werden:
 > 
-> * Kennung: **Channels\_Alpha**
+> * IDENTIFIZIERUNG : **Channels\_Alpha**
 > * Verwendung : **Channels\_Alpha**
 
-## Liste der Ein-/Ausgabenutzungen und Kennungen
+## Liste der Ein-/Ausgabenutzungen und -Identifizierungen
 
 >[!NOTE]
 >
-> Es ist möglich, in einem Eingabeknoten entweder **usage** oder **identifier** zu verwenden (die Verwendung hat die Priorität).
+> Es ist möglich, die **Verwendung** oder die **Identifizierung** in einem Eingabeknoten zu verwenden (die Verwendung hat die Priorität).
 
-| Kanalname | Nutzung | Bezeichner-/Bezeichner-Alpha |
+| Kanalname | Nutzung | IDENTIFIZIERUNG / IDENTIFIZIERUNG ALPHA |
 | --- | --- | --- |
-| *Umgebungs-Verdeckung* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
-| *Anisotropie Winkel* | **Anisotropiewinkel** | **AnisotropyAngle/AnisotropyAngle\_Alpha** |
-| *Anisotropie* | **Anisotropiestufe** | **AnisotropyLevel/AnisotropyLevel\_Alpha** |
+| *Ambient occlusion* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
+| *Anisotropy angle* | **Anisotropiewinkel** | **AnisotropyAngle/AnisotropyAngle\_Alpha** |
+| *Anisotropy level* | **Anisotropiestufe** | **AnisotropyLevel/AnisotropyLevel\_Alpha** |
 | *Grundfarbe* | **Grundfarbe** | **baseColor / baseColor\_Alpha** |
-| *Füllmaske* | **Mischmaske** | **Mischmaske/Mischmaske\_Alpha** |
-| *Diffus* | **diffuse** | **diffuse / diffuse\_Alpha** |
+| *Blending mask* | **Mischmaske** | **Mischmaske/Mischmaske\_Alpha** |
+| *Diffuse* | **diffuse** | **diffuse / diffuse\_Alpha** |
 | *Versatz* | **Versatz** | **Versatz/Versatz\_Alpha** |
-| *Ausstrahlend* | **emissiv** | **emittierend/emissiv\_Alpha** |
-| *Glossarität* | **Glanz** | **Glanz/Glanz\_Alpha** |
+| *Emissive* | **emissive** | **emissive / emissive\_Alpha** |
+| *Glanz* | **Glanz** | **Glanz/Glanz\_Alpha** |
 | *Height* | **Height** | **Height/Height\_Alpha** |
 | *IOR* | **ior** | **ior / ior\_Alpha** |
-| *Metallisch* | **metallisch** | **metallisch / metallisch\_Alpha** |
+| *Metallic* | **metallic** | **metallic / metallic\_Alpha** |
 | *Normal* | **normal** | **normal / normal\_Alpha** |
 | *Deckkraft* | **Deckkraft** | **Deckkraft/Deckkraft\_Alpha** |
 | *Spiegelung* | **Spiegelung** | **Spiegelung/Spiegelung\_Alpha** |
-| *Raueit* | **Raueit** | **Raueit/Raueit\_Alpha** |
+| *Rauheit* | **Rauheit** | **Rauheit/Rauheit\_Alpha** |
 | *Streuung* | **Streuung** | **Streuung/Streuung\_Alpha** |
 | *Specular* | **Specular** | **Specular/Specular\_Alpha** |
 | *Specular level* | **Glanzstufe** | **specularLevel / specularLevel\_Alpha** |
-| *Transmissiv* | **transmissiv** | **transmissiv/transmissiv\_Alpha** |
+| *Transmissive* | **transmissive** | **transmissive / transmissive\_Alpha** |
 | *Benutzer 0* | **Benutzer0** | **user0 / user0\_Alpha** |
 | *Benutzer 1* | **Benutzer1** | **Benutzer1 / Benutzer1\_Alpha** |
 | *Benutzer 2* | **Benutzer2** | **Benutzer2 / Benutzer2\_Alpha** |
@@ -83,8 +83,8 @@ Erstellen Sie zum Ausgeben dieser Alphakomponente einen Ausgabeknoten mit der gl
 
 ![](../../assets/single-channel.png){width="650px"}
 
-In diesem Beispiel wird der Alphakanal der Grundfarbe über einen Graustufenknoten extrahiert, um den Kanal **Raueit** zu überschreiben.
+In diesem Beispiel wird der Grundfarbe-Alphakanal über einen Graustufenknoten extrahiert, um den **Rauheit**-Kanal zu überschreiben.
 
 ![](../../assets/mix-channel.png){width="650px"}
 
-In diesem Beispiel wird der **Raueit**-Kanal mit der **Grundfarbe** multipliziert.
+In diesem Beispiel wird der **Kanal der Rauheit** mit der **Grundfarbe** multipliziert.

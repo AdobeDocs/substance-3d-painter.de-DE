@@ -24,37 +24,37 @@ ht-degree: 3%
 
 ## 2018.3.2
 
-* [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md): Bei Sampling-Funktionen werden Texturderivate anstelle einfacher Mipmap-Stufen verwendet. Dies ist eine Voraussetzung für die Unterstützung von Anisotropie-Sampling. Signaturen für Sampling-Funktionen werden nicht geändert.
-* [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): Die Funktionssignatur *getParallaxOffset* wurde geändert, um Texturderivate zu verwenden.
+* [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md): Sampling-Funktionen verwenden Textur-Derivate anstelle von einfachen Mipmap-Stufen. Dies ist eine Voraussetzung für die Unterstützung von Anisotropie-Sampling. Signaturen für Sampling-Funktionen werden nicht geändert.
+* [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): Die Funktionssignatur *getParallaxOffset* wurde geändert, um Textur-Ableitungen zu verwenden.
 
 ## 2018.3.0
 
 * Fügen Sie eine neue [lib-pbr-aniso.glsl](libraries-shader-api/lib-pbr-aniso-shader-api.md)-Bibliothek hinzu, um die Visualisierung anisotroper Specular-Highlights zu erleichtern
 * Fügen Sie eine neue [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md)-Bibliothek hinzu, um die Kanalabtastung zu erleichtern, indem Sie die Verfügbarkeit von Mipmaps sicherstellen.
-* Shader-Bibliotheken-Schnittstellen aktualisieren, um dieses sichere Sampling zu gewährleisten
-* **Verfall**: Die bisherigen Funktionen basierend auf den vec2 Texturkoordinaten und dem Textursampler sind veraltet (bitte neue Signaturen verwenden)
+* Update Shader Libraries-Schnittstellen, um dieses sichere Sampling zu gewährleisten
+* **Verfall**: Die bisherigen Funktionen, die auf den vec2-Texturen-Koordinaten und dem Texturen-Sampler basieren, sind veraltet (bitte neue Signaturen verwenden).
 * [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): Fügen Sie eine *applyParallaxOffset*-Funktion hinzu, um die Verwendung des Effekts &quot;Parallax-Verdeckung&quot; zu vereinfachen.
-* [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md): Einen Zufallswertgenerator für blaues Rauschen und zeitliche Alternativen hinzufügen
-* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md): Alle Kanalstichprobenehilfen aufteilen, um sowohl Werterfassungs- als auch Stichprobenhilfen zu erhalten
+* [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md): Hinzufügen eines Blue Rauschen-Zufallswertgenerators und temporaler Alternativen
+* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md): Teilen Sie alle Kanal-Sampling-Helfer auf, um sowohl Wertermittlung als auch Sampling-Helfer zu erhalten
 
 ## 2018.2.0
 
-* **Änderung des Shaders-API an der Oberfläche**: Die Funktionssignatur *shade* wurde geändert. Weitere Informationen finden Sie unter [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md).
+* **Änderung des Shaders-API an der Oberfläche**: Die Funktionssignatur *shade* wurde geändert. Weitere Informationen finden Sie unter [surface-Shader.glsl](shaders-shader-api/surface-shader-shader-api.md).
 * Die *shadeShadow*-Funktion wird nicht mehr verwendet und kann sicher aus benutzerdefinierten Oberflächenschattierungen entfernt werden.
-* Zusätzliche Unterstützung für die Unterflächenstreuung finden Sie unter [surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md) und [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md).
+* Unterstützung für das Hinzufügen von Volumenstreuungen finden Sie unter [surface-Shader.glsl](shaders-shader-api/surface-shader-shader-api.md) und [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md).
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md): Die *pbrComputeBRDF*-Funktion wurde entfernt. Im Beispiel [pbr-metal-raw.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md) erfahren Sie, wie Sie die Bibliothek jetzt verwenden.
-* Neue Motorparameter wurden hinzugefügt: *texture\_blue\_noise*, *aspect\_ratio*, *camera\_vp\_matrix\_inverse*, *environment\_exposure*, *environment\_rotation*, *fovy*, *main\_light* und *screen\_size*. Weitere Informationen finden Sie unter [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
+* Neue Motorparameter wurden hinzugefügt: *Textur\_blau\_Rauschen*, *Seitenverhältnis\_Seitenverhältnis*, *camera\_vp\_matrix\_inverse*, *Umgebung\_Belichtung*, *Umgebung\_Drehung*, *Fovy*, *Hauptlicht\_Belichtung* und *Bildschirm\_Größe*. Weitere Informationen finden Sie unter [all-Engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
 * Fügen Sie die *description*-Metadaten hinzu, um QuickInfos für benutzerdefinierte Shader-Parameter bereitzustellen.
 
 ## 2017.4.2
 
 * Fehlende Shader in Dokumentationsbeispielen korrigieren (verpixelte und toon Shader)
-* Dithering für hohe Auflösung beheben
+* Dithering für hohe Auflösung korrigieren
   * [lib-bayer.glsl](libraries-shader-api/lib-bayer-shader-api.md): **bayerMatrix8()** gibt gültige Werte für Datensätze > 4k zurück.
 
 ## 2017.4.1
 
-* Mit PBR beschichteter Shader reparieren
+* PBR-beschichteter Shader reparieren
   * [lib-vectors.glsl](libraries-shader-api/lib-vectors-shader-api.md): **tangentSpaceToWorldSpace()** und **worldSpaceToTangentSpace()** Ausgaben werden jetzt normalisiert
 
 ## 2017.4.0
@@ -67,38 +67,38 @@ ht-degree: 3%
 
 ## 2017.2.0
 
-* Entfernen der interpolierten Tabulatornormalisierung, um das Verhalten von Substance Designern und Bäckereien abzugleichen
-* [Viewport] Hammersley-Tisch durch eine Fibonacci-Spirale ersetzen
+* Entfernen der interpolierten Tabulatornormalisierung, um das Verhalten von Substance Designer und Bakern abzugleichen
+* [Viewport] Ersetzen Sie den Hammersley-Tisch durch eine Fibonacci-Spirale
 
 ## 2.6.0
 
 * Anpassen der Füllmethoden für Shader
-* Arbeiten Sie das Dithering nach. Bei einem linearen Render wenden wir es nach dem Farbprofil an
+* Dithering nachbearbeiten. Wenn ich nun ein lineares Rendering verwende, wenden wir es nach dem Farbprofil an
 
 ## 2.5.0
 
-* Unterstützung für Farbprofile (LUT) in Viewports hinzufügen (optionale sRGB-Konvertierung)
-* Hinzufügen von Dithering zur Deckkraft in Shadern
+* Unterstützung für Farbprofile (LUT) in Viewporten hinzufügen (optional sRGB-Konvertierung)
+* Dithering zur Deckkraft in Shadern hinzufügen
 * Parallaxe-Verdeckung-Zuordnung zu PBR-Shadern hinzufügen
 * Hinzufügen einer Möglichkeit zum Ausblenden benutzerdefinierter Parameter in der Standard-Shader-Benutzeroberfläche
-* Hinzufügen eines Links zur Liste der Kanal-Tags in der Dokumentation zu Ebenen für Shader
+* Link zur Liste der Channel-Tags in der Shader-Dokumentation mit Ebenen hinzufügen
 * Tag &quot;channel\_ao&quot; durch &quot;channel\_ambientocclusion&quot; ersetzen
 * [Viewport] Einige Normalmaps haben festgeklemmte Werte, die als Artefakte angezeigt werden
 * Dokument zu verfügbaren Kanälen im Shader-Format bearbeiten
 * Definieren einer benutzerdefinierten Shader-Benutzeroberfläche zulassen
 * Standard-UI für Shader mit Ebenen für Material hinzufügen
-* Benutzerdefinierte UI-Dateien werden jetzt relativ zum Ordner &quot;shaders/custom-ui&quot; in den Regalen (wie das mdl) durchsucht
+* Benutzerdefinierte UI-Dateien werden jetzt relativ zum Ordner &quot;shaders/custom-ui&quot; in den Regale durchsucht (wie beim mdl)
 * Verwenden des Specular level-Kanals in Standard-Shadern
 * Beispiel für vec3-Shader-Parameter beheben
 * Upgrade von Painter auf das OpenGL-Kernprofil
 
 ## 2.4.0
 
-* Korrektur des Unterschieds zwischen der exportierten und der im Viewport angezeigten Normalmap
+* Beheben Sie den Unterschied zwischen der exportierten und der im Viewport angezeigten Normalen-Map-Version
 
 ## 2.2.0
 
-* Unterstützung für bindungslose Texturen in generischem Material für Nicht-Document-Texturen hinzufügen
+* Hinzufügen von Unterstützung für bindungslose Texturen in generischen Materialien für Nicht-Dokument-Texturen
 * Dokumentation zu benutzerdefinierten Shader-Schiebereglern aktualisieren
 * Festlegen der Schrittgenauigkeit für Schieberegler
 * Dokumentation für die dynamische Materialüberlagerung
@@ -109,62 +109,62 @@ ht-degree: 3%
 
 ## 2.1.0
 
-* Gruppen für Shader-Parameter und Materialien/Masken definieren
+* Erlaubt das Definieren von Gruppen für Shader-Parameter und Materialien/Masken.
 * Hinzufügen fehlender Kanäle in der Dokumentation (&quot;ao&quot;, &quot;diffuse&quot;, &quot;spiegelnde Ebene&quot;)
 
 ## 2.0.4
 
 * Normale Entpackungsfunktion falsch mit niedrigen Alpha-Werten
-* Lesen der Gitterscheitelpunktfarben in benutzerdefiniertem Shader zulassen
-* [Viewport] Auf einigen Computern gedehnte Umgebungszuordnung
+* Lesen der Scheitelpunkt-Farben des Meshs in benutzerdefiniertem Shader zulassen
+* [Viewport] Gedehnt Umgebungs-Map auf einigen Computern
 
 ## 2.0.0
 
 * Überschreiben zusätzlicher Normal/AO-Maps durch dedizierten Kanal zulassen
 * Ändern der Height2Normal-Funktion, um die Sobel-Methode zu verwenden
-* Fügen Sie die Möglichkeit hinzu, eine mdl pro Shader zu definieren
-* Neuen MDL-Ordner zur Ablage hinzufügen
+* Hinzufügen der Möglichkeit, eine MDL pro Shader zu definieren
+* Hinzufügen eines neuen MDL-Ordners zum Regal
 * Hinzufügen von Diffus- und Specular level-Kanalvorgaben
 * Aktualisierung der Dokumentation für die Tonzuordnung
 * Reparieren von Reflexionen im orthografischen Modus
 * Die vertikale weiße Störung, die an einer bestimmten Position auf der Umrandung angezeigt wurde, wurde behoben.
-* Definieren von &quot;default\_color&quot; für Texturparameter zulassen
+* Definieren von &quot;default\_color&quot; für Parameter von Texturen zulassen
 
 ## 1.7.0
 
-* Zulassen, um externe Texturen zu testen (von der Ablage)
+* Zulassen, dass externe Texturen aufgenommen werden (vom Regal)
 
 ## 1.6.0
 
-* Gamma-/Tonabbildungsfunktion verfügbar machen, um sie überschreiben zu können
-* Mehrere Textcodierung verfügbar machen
+* Leg einer Gamma-/Tonzuordnungsfunktion, um sie überschreiben zu können
+* Leg mehrerer Texcoords
 
 ## 1.5.0
 
-* Fehlerbericht zum Hinzufügen von Zeilennummer und Dateiname im Shader
+* Hinzufügen von Zeilennummer und Dateiname im Shader-Fehlerbericht
 
 ## 1.4.1
 
 * Alle sRGB-Konvertierungen folgen dem sRGB-Standard, mit Ausnahme der Konvertierungen in Shadern mit enger Näherung
-* Height-Kanal in normale Map wird in den falschen Farbraum konvertiert
+* Height-Kanal auf Normalen-Map wird in den falschen Farbraum konvertiert
 
 ## 1.4.0
 
-* Umgebungskanal für Verdeckung hinzufügen
+* Ambient occlusion-Kanal hinzufügen
 * Neuen Arbeitsablauf für die normale Edition hinzufügen
-* Hinzufügen einer &quot;or&quot;-Ausdruckssyntax für texturbezogene automatische Parameter
+* Hinzufügen der Ausdruckssyntax &quot;or&quot; für die Textur zugehörige automatische Parameter
 * pbr-Shader für Intel-GPU unter OSX korrigieren
 
 ## 1.3.4
 
-* Interpolation von Binomalien in Fragment-Shader zulassen
-* Mikkt-Tangentenraum korrigieren
+* Binormales in Fragment-Shader interpolieren
+* Mikkt-Tangente korrigieren
 
 ## 1.3.3
 
 * Festlegen von sphärischen Oberwellen, die eine negative Lichtintensität erzeugen
-* Die Belichtungsberechnung unterscheidet sich vom Substance Designer (und der Regler &quot;Belichtung fixieren&quot;)
-* Schatten sollten auf 100% metallischer Oberfläche nicht sichtbar sein
+* Die Belichtungszeit unterscheidet sich von der Berechnung des Substance Designers (und passen Sie den Belichtungsregler an)
+* Schatten sollten auf 100 % metallic Fläche nicht sichtbar sein.
 
 ## 1.3.0
 

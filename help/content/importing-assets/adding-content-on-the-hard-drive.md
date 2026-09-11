@@ -41,19 +41,19 @@ Sie können verschiedene Dateitypen in Ihre Substance 3D Painter-Bibliothek impo
 
 | *Dateiformat* | *Nutzung* | *Ordner* |
 | --- | --- | --- |
-| **SBSAR** | Substance-Material | Assets/Materialien |
+| **SBSAR** | Substance-Material | Assets/Materials |
 | **SBSAR** | Filter | Assets/Effekte |
 | **SBSAR** | Generatoren | Assets/Generatoren |
-| **PNG, TGA, JPEG usw.** | Textur oder Alpha | Elemente / Texturen **oder** Shelf / Alphas |
-| **HDR, EXR** | Umgebung oder Farb-Lut | Assets/Umgebungen **oder** Shelf/Colorlut |
+| **PNG, TGA, JPEG usw.** | Textur oder Alpha | Assets/Texturen **oder** Regal/Alphas |
+| **HDR., EXR** | Umgebung oder Farb-Lut | Assets/Umgebungen **oder** Regal/Colorlut |
 | **GLSL** | Shader | assets / Shaders |
 | **SPPR** | Pinselvorgabe | Elemente/Vorgaben/Pinsel |
-| **SPPR** | Partikelvorgabe | Elemente/Vorgaben/Partikel |
-| **SPPR** | Materialvorgabe | Assets/Vorgaben/Materialien **oder** Assets/Materialien |
+| **SPPR** | Vorgabe &quot;Partikel&quot; | Assets/Vorgaben/Partikeln |
+| **SPPR** | Materialvorgabe | Assets/Vorgaben/Materials **oder** Assets/Materials |
 | **SPPR** | Werkzeugvorgabe | Assets/Vorgaben/Tools |
-| **SPSM** | Intelligentes Material | assets/Smart-materials |
+| **SPSM** | Intelligentes Material | Elemente/Smart-Material |
 | **SPMSK** | Smart-Maske | Elemente / Smart-Masken |
-| **SPEXP** | Exportvorgabe | Shelf / Export-presets |
+| **SPEXP** | Exportvorgabe | Regal/Exportvorgaben |
 
 >[!NOTE]
 >
@@ -61,4 +61,4 @@ Sie können verschiedene Dateitypen in Ihre Substance 3D Painter-Bibliothek impo
 
 >[!WARNING]
 >
-> **SBS**-Dateien (nicht SBSAR) können nicht direkt verwendet werden. Sie müssen als SBSAR aus Substance 3D Designer exportiert werden.
+> **SBS** (nicht SBSAR)-Dateien können nicht direkt verwendet werden. Sie müssen als SBSAR aus Substance 3D Designer exportiert werden.

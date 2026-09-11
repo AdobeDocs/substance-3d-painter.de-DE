@@ -26,7 +26,7 @@ Farbkorrekturparameter :
 
 | *Einstellung* | *Beschreibung* |
 | --- | --- |
-| **Sättigung** | Steuert die Intensität/Sättigung der Farbe im Ansichtsfenster. Verwenden Sie eine Sättigung bei 0, um ein Graustufen-Rendering zu erhalten. |
+| **Sättigung** | Steuert die Farbintensität/-sättigung im Viewport. Verwenden Sie eine Sättigung bei 0, um ein Graustufen-Rendering zu erhalten. |
 | **Kontrast** | Steuert den Unterschied zwischen hellen und dunklen Farben. |
 | **Helligkeit** | Steuert die Helligkeit/Luminanz der Farben. |
 | **Voreinstellung** | Legt die Luminanz des Viewports global fest. |

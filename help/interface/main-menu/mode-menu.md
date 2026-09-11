@@ -26,6 +26,6 @@ ht-degree: 1%
 
 | Aktion | Beschreibung |
 | --- | --- |
-| **Gitterzuordnungen backen** | Verwenden Sie diesen Modus, um Hilfskarten wie Normale, Weltraum-Normale, AO- und ID-Maps zu erstellen, indem Sie von High-Poly zu Low-Poly bzw. nur das Projektgitter selbst verwenden. |
-| **Malen** | Dort, wo du die meiste Zeit in Painter verbringen wirst, kannst du im Malmodus auf den Ebenenstapel und die Materialien zugreifen und direkt auf deine 3D-Modelle malen. |
-| **Rendern (Iran)** | Wechseln Sie in den Rendermodus für Irak. Iray ist ein Nicht-Echtzeit-Renderer, der hochwertige Renderings erstellen kann. Weitere Informationen finden Sie auf der entsprechenden Seite: [Iray-Renderer](../../features/iray-renderer/iray-renderer.md). |
+| **Baking Mesh-Map** | Verwenden Sie diesen Modus, um Utility Maps wie Normale, Weltraum-Normale, AO und ID-Map zu erstellen, indem Sie von High-Poly zu Low-Poly Baking geführt oder einfach den Projekt-Mesh selbst verwendet. |
+| **Malen** | Dort, wo du die meiste Zeit in Painter verbringen wirst, kannst du im Malmodus auf den Ebenenstapel und die Materialien zugreifen und direkt an deinen 3D-Modellen Malen. |
+| **Rendern (Iray)** | Wechseln Sie in den Iray-Rendermodus. Iray ist ein Nicht-Echtzeit-Renderer, der hochwertige Renderings erstellen kann. Weitere Informationen finden Sie auf der entsprechenden Seite: [Iray-Renderer](../../features/iray-renderer/iray-renderer.md). |

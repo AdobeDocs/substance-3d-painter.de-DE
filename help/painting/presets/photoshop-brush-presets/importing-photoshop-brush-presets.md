@@ -51,8 +51,8 @@ Auf dieser Seite wird Schritt für Schritt erläutert, wie Sie eine ABR-Datei in
    Legen Sie unten im Fenster &quot;Importressourcen&quot; fest, wo die ABR-Datei geladen werden soll:
 
    * <b>-Projekt </b>: Die ABR-Datei wird in das aktuell geöffnete Projekt geladen. Die Pinsel sind nur verfügbar, wenn das aktuelle Projekt geöffnet ist, und sind an die Projektdatei angehängt.
-   * <b> Sitzung </b>: Die ABR-Datei wird in den Speicher geladen. Die Pinselvorgaben sind verfügbar, bis die Anwendung geschlossen ist.
-   * <b> Bibliothek </b>: Die ABR-Datei wird in das Shelf auf der Festplatte kopiert. Pinselvorgaben sind bei jedem Öffnen von Painter für alle Projekte verfügbar.
+   * <b> Sitzung </b>: Die ABR-Datei wird in den Speicher geladen. Die Pinselvorgaben stehen zur Verfügung, bis die Anwendung geschlossen wird.
+   * <b> Bibliothek </b>: Die ABR-Datei wird in das Regal auf der Festplatte kopiert. Pinselvorgaben sind bei jedem Öffnen von Painter für alle Projekte verfügbar.
 
    ![](../../../assets/import-location.png)
 1. <b>Zugriff auf die Pinselvorgaben aus dem Shelf.</b>
@@ -63,4 +63,4 @@ Auf dieser Seite wird Schritt für Schritt erläutert, wie Sie eine ABR-Datei in
 
    >[!NOTE]
    >
-   > Wenn eine Pinselvorgabe auf einer Bitmap basiert, ist das verwendete Bild auch im Bereich &quot;Alpha&quot; des Regals unter demselben Namen wie die Pinselvorgabe verfügbar.
+   > Wenn eine Pinselvorgabe auf einer Bitmap basiert, ist das verwendete Bild auch im Abschnitt &quot;Alpha&quot; des Regals unter demselben Namen wie die Pinselvorgabe verfügbar.

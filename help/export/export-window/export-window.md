@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/export-textures-window.png){width="500px"}
 
-Öffnen Sie das <b>Exportfenster </b> mit <b>Datei > Texturen exportieren </b> oder dem Tastaturbefehl <b>Strg + Umschalt + E</b>.
+Öffnen Sie das <b>Exportfenster </b> mit <b>Datei > Texturen exportieren </b> oder Tastatur-Tastaturbefehl <b>Strg + Umschalt + E</b>.
 
 Das <b>Exportfenster </b> ist in drei Registerkarten unterteilt:
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 10.1
 
-<b>Substance 3D Painter 10.1</b> bietet neue leistungsstarke Filter, verbesserte USD-Funktionen und eine aktualisierte VFX-Plattform- und Linux-Unterstützung.
+<b>Substance 3D Painter 10.1</b> bietet neue leistungsstarke Filter, verbesserte USD und eine aktualisierte VFX-Plattform- und Linux-Unterstützung.
 
 Freigabedatum: *17. September 2024*
 
@@ -36,8 +36,8 @@ Freigabedatum: *17. September 2024*
 
 In dieser Version wurden mehrere neue Filter hinzugefügt, um den Texturierungsprozess erheblich zu erweitern:
 
-* <b>Neues Stickereiaufklebermaterial</b>\
-  Im Bereich &quot;Materialien&quot; des Fensters &quot;Elemente&quot; finden Sie neue Stickereiaufklebematerialien. Ziehe die Maske über dein Gitter, setze eine beliebige Ressource ein (z. B. eine Textur oder sogar eine Schrift), und du kannst ganz einfach neue Fabric-Details erstellen.
+* <b>Neues Material für Stickereiaufkleber</b>\
+  Im Bereich &quot;Materialien&quot; des Fensters &quot;Elemente&quot; finden Sie ein neues Material mit Stickereiaufklebern. Ziehe es auf deinen Mesh, und füge eine beliebige Ressource hinzu (z. B. eine Textur oder sogar eine Schrift). So kannst du ganz einfach neue Fabric-Details erstellen.
 
   ![](../assets/v101_filter_embroidery.jpg)
 * <b>Neuer Filter für Flächenfarbe/-maske </b>\
@@ -45,11 +45,11 @@ In dieser Version wurden mehrere neue Filter hinzugefügt, um den Texturierungsp
 
   ![](../assets/v101_filter_fill_area_demo.gif)
 * <b>Neuer FXAA-Filter</b>\
-  Dieser neue Filter kann den Alias-Effekt schnell reduzieren, insbesondere bei harten Kanten, die nach einer Ebene angezeigt werden können, zum Beispiel oder bei Masken, die mit dem Farbauswahleffekt erstellt wurden.
+  Mit diesem neuen Filter können Sie schnell den Alias-Effekt reduzieren, insbesondere bei harten Kanten, die nach einer Ebene erscheinen können, zum Beispiel oder bei Masken, die mit dem Effekt &quot;Farbauswahl&quot; erstellt wurden.
 
   ![](../assets/v101_filter_fxaa.gif)
 * <b>Neuer Hochpassfilter</b>\
-  Mit diesem generischen Filter können Sie eine Graustufenstruktur generieren, um sie für komplexere Effekte (z. B. Weichzeichnen, Weichzeichnen oder Scharfzeichnen von Details) zu verwenden.
+  Mit diesem allgemeinen Filter können Sie eine Graustufen-Textur generieren, um sie für komplexere Effekte (wie Weichzeichnen, Weichzeichnen oder Scharfzeichnen von Details) zu verwenden.
 
   ![](../assets/v101_filter_highpass.jpg)
 * <b>Neuer Verpixelungsfilter</b>\
@@ -61,7 +61,7 @@ In dieser Version wurden mehrere neue Filter hinzugefügt, um den Texturierungsp
 
   ![](../assets/v101_filter_posterize.jpg)
 * <b>Neuer Schwellenwertfilter</b>\
-  Mit dem Schwellenwert-Filter lassen sich schnell scharfe Schwarz-Weiß-Binärmasken aus einem Graustufeneingang erstellen.
+  Mit dem Schwellenwertfilter können Sie schnell scharfe Schwarz-Weiß-Bilder und weiße Masken aus einem Graustufeneingang erzeugen.
 
   ![](../assets/v101_filter_threshold.gif)
 * <b>Neuer Smoothstep-Filter</b>\
@@ -69,7 +69,7 @@ In dieser Version wurden mehrere neue Filter hinzugefügt, um den Texturierungsp
 
   ![](../assets/v101_filter_smoothstep.jpg)
 * <b>Verbesserte Transformieren- und Spiegelungsfilter</b>\
-  Der Transformationsfilter wurde aktualisiert, um eine ungleichmäßige Skalierung, horizontales oder vertikales Spiegeln und einfachere Verwendung von Parametern zu unterstützen. Der Spiegelfilter wurde ebenfalls mit einfacheren Parametern aktualisiert.
+  Der transformieren-Filter wurde aktualisiert, um eine ungleichmäßige Skalierung, horizontales oder vertikales Spiegeln und einfachere Verwendung von Parametern zu unterstützen. Der Spiegelfilter wurde ebenfalls mit einfacheren Parametern aktualisiert.
 
   ![](../assets/v101_filter_transform.jpg)
 * <b>Verbesserte Symbole</b>\
@@ -82,19 +82,19 @@ In dieser Version wurden mehrere neue Filter hinzugefügt, um den Texturierungsp
   * Der Filter &quot;Height anpassen&quot; hatte Auswirkungen auf das Alpha einer Ebene, was die Verwendung in einigen Fällen erschwert.
   * Der Weichzeichnungsfilter verwendete keinen linearen Farbraum im Legacy-Farbmanagementmodus, sodass beim Mischen/Mischen seiner Eingabe falsche Farben erstellt wurden.
 
-### Update zur Unterstützung der USD- und VFX-Plattformen
+### Update zur Unterstützung von USD- und VFX-Plattformen
 
 ![](../assets/v101_banner_usd.jpg)
 
 In dieser Version von Painter wurden viele Drittanbieterkomponenten verbessert und aktualisiert:
 
-* <b>Exportieren von Texturen mit Adobe-Standardmaterial in USD\
-  </b>Wenn Sie Texturen aus Painter in eine USD-Datei exportieren, erhalten Sie jetzt die Adobe-Standardmaterialeigenschaften. Dadurch können diese USD-Dateien in Anwendungen verwendet werden, die diese Eigenschaften ebenfalls unterstützen.
-* <b>Texturen aus USD-Dateien importieren</b>\
-  Beim Importieren einer USD-Datei wird nun auch deren Textur in das erstellte Projekt importiert, wodurch das Hin und Her zwischen Anwendungen vereinfacht wird. Wenn die USD-Datei das Adobe-Standardmaterial verwendet, werden dadurch auch die Shader-Einstellungen konfiguriert, sodass das Ergebnis im Viewport mit der anderen Quellanwendung übereinstimmt.
+* <b>Texturen mit Adobe Standard Material in USD exportieren\
+  </b>Beim Exportieren von Texturen aus Painter in eine USD werden die Adobe Standard Material-Eigenschaften jetzt mit ihnen abgerufen. Dadurch können diese USD-Dateien in Anwendungen verwendet werden, die diese Eigenschaften ebenfalls unterstützen.
+* <b>Texturen aus USD importieren</b>\
+  Beim Importieren einer USD-Datei wird nun auch deren Textur in das von ihr erstellte Projekt importiert, wodurch das Hin und Her zwischen Anwendungen vereinfacht wird. Wenn die USD das Adobe Standard Material verwendet, werden auch die Shader-Einstellungen konfiguriert, sodass der Viewport mit der anderen Quellanwendung übereinstimmt.
 * <b>GLTF-Änderungen\
-  </b>Nach dem USD-Update war eine Verhaltensänderung für das GLTF-Format erforderlich, um die Parität sicherzustellen. Beim Importieren einer GLTF-Datei geht Painter jetzt davon aus, dass die normale Map im OpenGL-Format vorliegt.\
-  Einige GLTF-Dateien können stattdessen das DirectX-Format verwenden. Daher wurde im neuen Projektfenster eine neue Einstellung hinzugefügt, um sie zu berücksichtigen (beachten Sie, dass das normale Format auch vom Ebenenstapel überschrieben werden kann).
+  </b>Nach dem USD Update war eine Verhaltensänderung für das GLTF-Format erforderlich, um die Parität sicherzustellen. Beim Importieren einer GLTF-Datei geht Painter jetzt davon aus, dass die Normalen-Map im OpenGL-Format vorliegt.\
+  Einige GLTF-Dateien können stattdessen das DirectX-Format verwenden. Daher wurde im neuen Projektfenster eine neue Einstellung hinzugefügt, um sie zu berücksichtigen (beachten Sie, dass das Normalformat auch vom Ebenenstapel überschrieben werden kann).
 
   ![](../assets/v101_import_gltf.png)
 * <b>Aktualisierte Abhängigkeiten</b>\
@@ -120,9 +120,9 @@ In einigen Bereichen der Anwendung wurden einige Leistungsverbesserungen erzielt
   In einigen unserer Testprojekte konnten wir beim Öffnen eines Projekts eine Verringerung der Ladezeit von 50 auf nur 6 Sekunden beobachten. Der Speicherverbrauch beim Öffnen alter Projekte und beim Konvertieren in die neueste Version wurde ebenfalls verbessert.
 * <b>Verbesserte Tesselierungsleistung\
   </b>Wir verwenden jetzt eine automatische Optimierung, wenn die Tesselierung in den Shader-Einstellungen aktiviert ist. Dreiecke, die kleiner sind als ein Pixel auf dem Bildschirm, werden nicht mehr getesselt, was zu weniger zu zeichnenden Dreiecken und somit zu schnelleren Rendering-Zeiten führt.\
-  Diese Änderung führt nicht zu visuellen Unterschieden und hat keine Auswirkungen auf den Gitterexportprozess.
+  Diese Änderung führt nicht zu sichtbaren Unterschieden und hat keine Auswirkungen auf den Mesh-Exportprozess.
 * <b>Vereinfachte Miniaturansichten sind jetzt der Standard</b>\
-  In Version 6.2 haben wir die vereinfachten Miniaturansichten für UV-Kacheln-Projekte eingeführt, um die Leistung zu verbessern, aber normale Projekte konnten immer noch die alte Art der Berechnung von Ebenen-Miniaturansichten verwenden. Dieses Verhalten wurde über eine Anwendungseinstellung gesteuert.\
+  In Version 6.2 haben wir die vereinfachten Miniaturansichten für UV-Kacheln-Projekte eingeführt, um die Leistung zu verbessern, aber reguläre Projekte konnten immer noch die alte Art der Berechnung von Ebenen-Miniaturansichten verwenden. Dieses Verhalten wurde über eine Anwendungseinstellung gesteuert.\
   Diese Einstellung verwendet jetzt standardmäßig optimierte Miniaturansichten, um die Leistung bei allen Projekten zu verbessern. Dies kann in den Hauptvoreinstellungen zurückgesetzt werden, wenn gewünscht.
 
   ![](../assets/v101_perf_icons.png)
@@ -141,14 +141,14 @@ In einigen Bereichen der Anwendung wurden einige Leistungsverbesserungen erzielt
 
 Freigabedatum: <b>2024/09/17</b>
 
-Zusammenfassung: <b>Hauptversion, neuer Inhalt: Füllbereichsmaske/Farbfilter, Stickereiaufklebefilter und sechs generische Substance-Filter, Import von USD mit Material- und Shader-Eigenschaften, Leistungsverbesserung, VFX-Plattform 2024-kompatibel und Migration auf Linux RedHat</b>
+Zusammenfassung: <b>Hauptversion, neuer Inhalt: Füllbereichsmaske/Farbfilter, Stickereiaufklebefilter und sechs generische Substance-Filter, USD mit Material- und Shader-Eigenschaften importieren, Leistungsverbesserung, VFX-Plattform 2024-kompatibel und Migration auf Linux RedHat</b>
 
 <b>Hinzugefügt</b>:
 
 * [Inhalt] Neue Füllbereichsmaske/Farbfilter hinzufügen
 * [Inhalt] Neuen Stickerei Decal Filter hinzufügen
 * [Inhalt] Fügen Sie 6 neue generische Substance-Filter hinzu (FXAA, Vergröberungsfilter, Hochpass, Posterisierung, Glättungsschritt, Schwellenwert).
-* [USD] Exportieren der USD-Ebene mit einem definierten ASM-Material
+* [USD] Exportieren USD Ebene mit einem definierten ASM-Material
 * [USD] Importieren von USD mit Material- und Shader-Eigenschaften
 * [Leistung] Aktivieren Sie standardmäßig optimierte Ebenenstapel-Miniaturansichten
 * [Leistung] Reduzieren der Öffnungszeit von Projektdateien und des Speicherverbrauchs (Datendecodierung)

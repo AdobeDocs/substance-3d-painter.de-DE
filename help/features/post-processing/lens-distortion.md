@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lens-distortion.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Painter die Nachbearbeitung von Objektivlinsen verwenden, um Kameraobjektiveffekte im Viewport zu simulieren.
+description: Erfahren Sie, wie Sie die Nachbearbeitung der Linsenlinsen-Verzerrung in Substance 3D Painter verwenden, um Linseneffekte der Kamera im Viewport zu simulieren.
 helpx_creative_field: ""
 helpx_description: Painter > Features > Post Processing > Lens Distortion
 helpx_experience_level: ""
@@ -29,5 +29,5 @@ Je besser das Kameraobjektiv, desto weniger werden diese Phänomene auftreten. D
 | --- | --- |
 | **Leistung** | Steuert, wie schnell die Verzerrung vom Bildschirmrand aus angewendet wird. |
 | **FOV** | Steuert die Verzerrung des Objektivs (simuliertes Blickfeld). |
-| **Kantenrundung** | Steuert die runde Form an den Rändern oder im Viewport. |
+| **Kantenrundung** | Steuert die runde Form an den Rändern oder am Viewport. |
 | **Edge-Smoothness** | Steuert die Härte/Smoothness der schwarzen Kanten des Viewports. |

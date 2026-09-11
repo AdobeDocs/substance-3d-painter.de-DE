@@ -75,7 +75,7 @@ Windows hat möglicherweise die falsche GPU-Einstellung für die Anwendung festg
 
 ### Deaktivieren Sie &quot;Bevorzugte nicht standardmäßige GPU&quot;.
 
-Stellen Sie beim Ausführen von Painter über eine Desktopverknüpfung oder beim Ausführen über Steam sicher, dass die Einstellung <b>PrefersNonDefaultGPU</b> in der Datei <b>\*.desktop</b> auf <b>false</b> festgelegt ist.
+Stellen Sie beim Ausführen von Painter von einem Desktop-Tastaturbefehl oder beim Ausführen über Steam sicher, dass die Einstellung <b>PrefersNonDefaultGPU</b> in der Datei <b>\*.desktop</b> auf <b>false</b> festgelegt ist.
 
 Diese Einstellung kann irreführend sein und dazu führen, dass die integrierte GPU anstelle der diskreten und leistungsfähigeren verwendet/erzwungen wird. Weitere Informationen [finden Sie in dieser Diskussion &#x200B;](https://github.com/ValveSoftware/steam-for-linux/issues/9940).
 

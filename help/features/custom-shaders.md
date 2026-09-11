@@ -36,4 +36,4 @@ Standardmäßig umfasst Substance Painter die folgenden Shader:
 
 Das Erstellen neuer benutzerdefinierter Shader ist durch einfaches Erstellen neuer **.glsl**-Dateien möglich.
 
-Ein detaillierter [Shader-API](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) ist verfügbar und stellt Hilfsfunktionen bereit, um neue Effekte zu erstellen und in den vorhandenen Workflow zu integrieren.
+Ein detaillierter [Shader-API](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html) ist verfügbar und stellt Effektfunktionen bereit, um neue Helfer zu erstellen und in den bestehenden Workflow zu integrieren.

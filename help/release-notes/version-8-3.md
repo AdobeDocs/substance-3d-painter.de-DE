@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 8.3
 
-Mit **Substance 3D Painter 8.3** wird ein brandneuer Backmodus eingeführt. USD-Dateien werden importiert und die Physische Größe im UV-Projektion-Modus wird unterstützt.
+Mit **Substance 3D Painter 8.3** wird ein brandneuer Baking-Modus eingeführt, bei dem Dateien importiert USD und Physische Größe im UV-Projektion-Modus unterstützt wird.
 
 Freigabedatum: *10. Januar 2023*
 
@@ -33,66 +33,66 @@ Freigabedatum: *10. Januar 2023*
 Das alte Backfenster wurde durch einen speziellen Modus mit mehreren neuen Funktionen ersetzt, insbesondere mit Darstellungsmöglichkeiten wie der Anzeige des Käfigs und Anpassungsfehlern.
 
 * **Zugriff auf Modi und Wechsel zwischen Modi**\
-  Backen ist jetzt ein neuer und separater Modus zusätzlich zu den bereits vorhandenen Mal- und Rendermodi der Anwendung. Um in den Backmodus zu wechseln, verwenden Sie einfach das kleine Croissant-Symbol in der kontextabhängigen Symbolleiste. Das Umschalten zwischen den Modi kann auch anders erfolgen: über das Menü &quot;Modus&quot; oder die Tastaturbefehle. Um zu einem anderen Modus zurückzukehren, verwenden Sie einfach das dedizierte Symbol des Modus (außerdem kann die Schaltfläche **Gitterzuordnungen backen** in den [Einstellungen für Textursätze](../interface/texture-set/texture-set-settings.md) weiterhin verwendet werden, um in den neuen Modus zu gelangen).
+  Backen ist jetzt ein neuer und separater Modus zusätzlich zu den bereits vorhandenen Mal- und Rendermodi der Anwendung. Um zum Baking zu gelangen, verwenden Sie einfach das kleine Croissant-Symbol in der kontextbezogenen Symbolleiste. Das Umschalten zwischen den Modi kann auch anders erfolgen: über das Menü &quot;Modus&quot; oder die Tastaturbefehle. Um in einen anderen Modus zurückzukehren, verwenden Sie einfach das entsprechende Symbol des Textursatz (außerdem kann die Schaltfläche **Baking Mesh-Map** in den [Moduseinstellungen](../interface/texture-set/texture-set-settings.md) weiterhin verwendet werden, um in den neuen Modus zu wechseln).
 
   ![](../assets/baking-mode-switch-menu.png)
 
   ![](../assets/baking-mode-switch-icon.png)
 
 * **Neue Modusschnittstelle**\
-  Das traditionelle Backfenster wurde in einen Modus mit speziellen Docks umgewandelt, insbesondere:
+  Das herkömmliche Baking wurde in einen Modus mit eigens dafür vorgesehenen Docks transformieren, insbesondere:
 
-  * **Die Textursatzliste** kann verwendet werden, um zu definieren, welche Teile des Projekts gebacken werden.
-  * **Mesh Map Bakers** ermöglicht die Auswahl zwischen den allgemeinen Backeinstellungen und den Backeinstellungen. Hier können Sie auch angeben, welcher Bäckerprozess gestartet wird.
-  * **Mesh Map Settings**&quot; befindet sich dort, wo sich alle Baker- und allgemeinen Einstellungen befinden, und kann, abhängig von der Auswahl aus den beiden vorherigen Fenstern, geändert werden.
+  * Die **Textursatz-Liste** kann verwendet werden, um zu definieren, welche Teile des Projekts Baking geführt werden.
+  * **Mesh-Map Baker** ermöglicht die Auswahl zwischen den allgemeinen Baking- und Baker-Einstellungen. Hier können Sie auch angeben, welcher Baker-Prozess gestartet wird.
+  * **Mesh-Map Settings**&quot; ist der Speicherort aller Baker- und allgemeinen Einstellungen und kann je nach Auswahl aus den beiden vorherigen Fenstern geändert werden.
   * **Das Sicherungsprotokoll** gruppiert verschiedene Informationen zum Sicherungsprozess, insbesondere Fehlermeldungen, neu.
-  * **Visualisierung wird gebacken**: Dieses Bedienfeld befindet sich im Viewport und steuert verschiedene Optionen für die Anzeige der Polygonnetze mit niedriger und hoher Poly-Zahl.
+  * **Visualisierung wird gebacken**: Dieses Bedienfeld befindet sich im Viewport und steuert verschiedene Optionen für die Anzeige der Meshs mit niedriger und hoher Poly-Zahl.
 
   ![](../assets/baking-mode-overview.jpg){width="500px"}
 
-* **Starten und Abbrechen des Backvorgangs direkt im Ansichtsport**\
-  Die Schaltfläche zum Starten oder Abbrechen des Backvorgangs befindet sich jetzt unten im Ansichtsfenster. Ein kleiner Pfeil kann auch verwendet werden, um den Backmodus anzugeben: basierend auf der Listenauswahl &quot;Textursatz&quot; oder mithilfe des aktuell aktiven Textursatzes.
+* **Starten und Abbrechen des Bakings direkt vom Viewport aus**\
+  Die Schaltfläche zum Starten oder Abbrechen des Bakings befindet sich jetzt unten im Viewport. Ein kleiner Pfeil kann auch verwendet werden, um den Baking-Modus anzugeben: basierend auf der Auswahl der Textursatz-Liste oder mithilfe des aktuell aktiven Textursatzes.
 
   ![](../assets/baking-button.png)
 
   ![](../assets/baking-button-cancel.png)
 
-* **Anzeigen eines hochpolaren Gitters im Viewport**\
-  Wenn Sie ein High-Poly-Gitter in den Backeinstellungen angeben, wird es jetzt auch im Viewport geladen (sofern die dedizierte Visualisierungseinstellung nicht deaktiviert ist). Auf diese Weise kann überprüft werden, ob die Geometrie des Polygonnetzes mit der Geometrie des Polygonnetzes mit der Geometrie des Polygonnetzes mit der Geometrie des Polygonnetzes übereinstimmt.
+* **Anzeige von Mesh mit hohem Poly-Wert im Viewport**\
+  Wenn Sie in den Baking-Einstellungen einen Mesh mit hoher Poly-Intensität angeben, wird dieser nun auch im Viewport geladen (sofern die dedizierte Visualisierungseinstellung nicht deaktiviert ist). Auf diese Weise kann überprüft werden, ob die Geometrie des Polygonnetzes mit der Geometrie des Polygonnetzes mit der Geometrie des Polygonnetzes mit der Geometrie des Polygonnetzes übereinstimmt.
 
   ![](../assets/low-vs-high.jpg){width="400px"}
 
-* **Käfiggitter im Viewport mit verpassten Bereichen als Fehler anzeigen**\
-  Das Gitter des Käfigs kann auch im Darstellungsfenster angezeigt werden. Wenn keine dedizierte Gitterdatei verwendet wird, wird stattdessen ein impliziter Käfig angezeigt, der auf den Parameter &quot;Max. Frontalentfernung&quot; reagiert. Wenn Sie die Käfiggröße anpassen, wird jeder Teil des hochgepolten Gitters, der sich außerhalb des Käfigs befindet, standardmäßig rot angezeigt, sodass Sie leicht einen Teil des Gitters finden können, der beim Backen verloren geht.
+* **Fehler beim Anzeigen des Käfigs im Viewport mit verpassten Bereichen als Mesh**\
+  Das Gitter des Käfigs kann auch im Darstellungsfenster angezeigt werden. Wenn keine dedizierte Meshdatei verwendet wird, wird stattdessen ein impliziter Käfig angezeigt, der auf den Parameter &quot;Max. Frontalentfernung&quot; reagiert. Wenn Sie die Größe des Käfigs anpassen, wird jeder Teil des Meshs mit hoher Poly, der sich außerhalb des Käfigs befindet, standardmäßig als rot angezeigt, sodass Sie leicht einen Teil des Meshs finden können, der beim Baking verloren geht.
 
   ![](../assets/cage-distance.gif)
 
 * **Gitter beim Laden und Backen durchsuchen**\
-  Das Laden von Gittern und das Backen friert die Anwendung nicht mehr ein, sodass es möglich ist, während dieser Vorgänge mit dem Viewport zu interagieren. Dies kann nützlich sein, um den Backvorgang zu untersuchen, Probleme frühzeitig zu erkennen und den Backvorgang abzubrechen, um am Ende Zeit zu sparen. In ähnlicher Weise wird jetzt zuerst der sichtbarste Textursatz im Viewport eingebrannt, der dabei hilft, die Ergebnisse in bestimmten Bereichen im Voraus zu überprüfen.
+  Das Laden von Meshs und das Baking frieren die Anwendung nicht mehr ein, sodass es möglich ist, während dieser Vorgänge mit dem Viewport zu interagieren. Dies kann nützlich sein, um den Backvorgang zu untersuchen, Probleme frühzeitig zu erkennen und den Backvorgang abzubrechen, um am Ende Zeit zu sparen. In ähnlicher Weise wird jetzt zuerst der sichtbarste Textursatz im Viewport eingebrannt, der dabei hilft, die Ergebnisse in bestimmten Bereichen im Voraus zu überprüfen.
 
   ![](../assets/interaction-while-baking.gif)
 
-* **Neutrales Material und Viewport-Einstellungen**\
-  Um sich auf die Backergebnisse zu konzentrieren und gegebenenfalls nach Problemen zu suchen, zeigt der Backmodus keine gemalten Texturen an, sondern verwendet stattdessen ein neutrales Material. Die Einstellungen für dieses neutrale Material können im Visualisierungsbedienfeld für das Backen im Viewport angepasst werden.
+* **Einstellungen für neutrales Material und neutralen Viewport**\
+  Um sich auf die Ergebnisse des Bakings zu konzentrieren und gegebenenfalls nach Problemen zu suchen, zeigt der Baking-Modus keine gemalten Texturen an, sondern verwendet stattdessen ein neutrales Material. Die Einstellungen für dieses neutrale Material können im Visualisierungsbedienfeld für das Backen im Viewport angepasst werden.
 
   ![](../assets/neutral-material-demo.gif)
 
-* **Harte Kanten mit fehlenden UV-Nähten anzeigen**\
-  Beim Backen entstehen unter anderem Artefakte durch harte Kanten, die keine UV-Nähte aufweisen. Das kann zu sichtbaren Linien führen und die Smoothness der Schattierung unterbrechen. Zu diesem Zweck wurden Visualisierungseinstellungen hinzugefügt, um sie sowohl in der 3D- als auch in der 2D-Ansicht hervorzuheben, da sie sonst leicht zu übersehen sind.
+* **Harte Kanten mit fehlenden UV anzeigen**\
+  Beim Backen entstehen unter anderem Artefakte durch harte Kanten, die keine UV-Nähte aufweisen. Das kann zu sichtbaren Linien führen und die Smoothness der Schattierung unterbrechen. Dazu wurden Visualisierungseinstellungen hinzugefügt, um sie sowohl in der 3D- als auch in der 2D-Ansicht hervorzuheben, da sie sonst leicht zu übersehen sind.
 
   ![](../assets/hard-edge-missing-seams.png){width="450px"}
 
   ![](../assets/hard-edge-missing-seams-2d.jpg){width="300px"}
 
 * **Parameter synchronisieren und nicht synchronisieren**\
-  Mit der neuen Synchronisierungsaktion können Sie angeben, welcher Teil der Backing-Einstellungen über Textursätze hinweg synchronisiert wird. Andernfalls wäre es mühsam, Einstellungen mehrfach auf identische Weise zu konfigurieren. Manchmal ist es nützlich, über Textursätze mit dedizierten Einstellungen zu verfügen und diese nicht zu synchronisieren. Wenn Sie z. B. die allgemeinen Einstellungen getrennt halten, können Sie jetzt eine maximale Frontalentfernung, Auflösung und/oder eine Liste von Netzen mit hohem Poly verwenden, die sich je nach Textursatz unterscheiden würden.
+  Mit der neuen Synchronisierungsaktion können Sie angeben, welcher Teil der Baking-Einstellungen über Textursatz hinweg synchronisiert werden soll. Andernfalls wäre es mühsam, Einstellungen mehrfach auf identische Weise zu konfigurieren. Manchmal ist es sinnvoll, Textursatz mit dedizierten Einstellungen zu verwenden und diese nicht zu synchronisieren. Wenn Sie z. B. die gemeinsamen Einstellungen getrennt halten, können Sie jetzt eine maximale Frontalentfernung, Auflösung und/oder eine Liste von Meshs mit hoher Poly-Rate verwenden, die sich pro Textursatz unterscheiden würden.
 
   ![](../assets/sync-icon-1.png){width="400px"}
 
   ![](../assets/sync-ao-settings.png){width="400px"}
 
 * **Übereinstimmung mit der Namensüberprüfung**\
-  Die Registerkarte &quot;**Zuordnung nach Name**&quot; im **Sicherungsprotokoll** kann bei der Suche nach Fehlern im Zuordnungsvorgang helfen, bevor das Sichern beginnt. Dadurch werden Gitter, die nicht übereinstimmen, leichter erkannt. Übereinstimmende Gitter werden gruppiert, andere werden isoliert und rot dargestellt.
+  Die Registerkarte &quot;**Zuordnung nach Name**&quot; im **Fehlerprotokoll** kann beim Finden von Baking im Zuordnungsvorgang vor dem Baking helfen, sodass Mesh, die nicht übereinstimmen, leichter erkannt werden. Zugehörige Mesh werden gruppiert, andere werden isoliert und in Rot dargestellt.
 
   ![](../assets/matching-by-name-log.png){width="450px"}
 
@@ -100,22 +100,22 @@ Das alte Backfenster wurde durch einen speziellen Modus mit mehreren neuen Funkt
 >
 > Es gibt viele weitere neue Einstellungen in diesem neuen Modus. Weitere Informationen finden Sie auf der [Seite zur dedizierten Dokumentation](../baking/baking.md).
 
-### Neuer Import und Export von USD-Dateien
+### Neuer Import und Export von USD
 
 ![](../assets/banner-usd.jpg)
 
-Mit dieser neuen Version wird die Unterstützung des Dateiformats [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html) hinzugefügt. Es ist jetzt möglich, ein Painter-Projekt zu starten, bei dem Gitter und Texturen im USD-Format exportiert werden. Dies ermöglicht einen konsistenteren Workflow über Anwendungen hinweg.
+Mit dieser neuen Version wird die Unterstützung des Dateiformats [Universal Scene Description (USD)](https://graphics.pixar.com/usd/release/intro.html) hinzugefügt. Es ist jetzt möglich, ein Painter-Projekt zu starten und Mesh und Texturen in einem USD zu exportieren, was einen konsistenteren Workflow über Anwendungen hinweg ermöglicht.
 
-* **Importieren einer USD-Datei mit Varianten, Skinning und in einem bestimmten Frame**\
-  Ein USD-Dateiformat kann verwendet werden, wenn ein Projekt erstellt oder ein Gitter innerhalb eines Projekts erneut importiert wird. USD-Dateien können häufig komplexe Szenen sein, daher ist auch ein Selektor &quot;scope&quot; und &quot;variant&quot; verfügbar, um nur einen Teil der Datei zu importieren.
+* **Importieren Sie USD Datei mit Varianten, Skinning und in einem bestimmten Rahmen**\
+  Ein USD Dateiformat kann verwendet werden, wenn ein Projekt erstellt oder ein Mesh innerhalb eines Projekts erneut importiert wird. USD-Dateien können häufig komplexe Szenen sein, daher ist auch ein Selektor &quot;scope&quot; und &quot;variant&quot; verfügbar, um nur einen Teil der Datei zu importieren.
 
   ![](../assets/usd-import-settings.png){width="400px"}
 
   ![](../assets/usd-scope-variants.png){width="400px"}
 
-* **USD als neue Datei exportieren oder mit dem im Projekt verwendeten ursprünglichen USD verknüpft**\
-  Wenn Ihre Texturierung fertig ist, können Sie das Fenster **Datei > Texturen exportieren** verwenden, um Ihre USD-Datei zusammen mit Ihren Texturdateien zu exportieren. Aktivieren Sie dazu einfach die Einstellung **USD-Asset exportieren**. Dadurch werden mehrere USD-Dateien generiert, die anschließend einfach in eine Pipeline integriert werden können. Wenn Sie eine Nicht-USD-Datei oder eine USD-Datei ohne UVs verwendet haben, wird dadurch eine neue USD-Geometriedatei zusätzlich zu Texturmaps und USD-Materialdatei exportiert.\
-  Darüber hinaus ist es auch möglich, die Projektgeometrie mit **Datei > Mesh exportieren** als USD-Datei zu exportieren.
+* **USD als neue Datei exportieren oder mit der im Projekt verwendeten USD verknüpft sind**\
+  Wenn die Texturierung fertig ist, können Sie das Fenster &quot;**Datei&quot; > &quot;Texturen exportieren**&quot; verwenden, um die USD neben den Texturen zu exportieren. Aktivieren Sie dazu einfach die Einstellung **USD-Asset exportieren**. Dadurch werden mehrere USD generiert, die anschließend einfach in eine Pipeline integriert werden können. Wenn Sie eine Nicht-USD-Datei oder eine USD-Datei ohne UVs verwendet haben, wird dadurch eine neue USD-Geometriedatei zusätzlich zu Textur-Maps und USD Material-Datei exportiert.\
+  Darüber hinaus ist es auch möglich, den Mesh **Datei > Exportieren** zu verwenden, um die Projektgeometrie als USD zu exportieren.
 
   ![](../assets/usd-export-textures.png)
 
@@ -128,11 +128,11 @@ Mit dieser neuen Version wird die Unterstützung des Dateiformats [Universal Sce
 Die Unterstützung von Substance-Materialien mit eingebetteten Physische Größen wurde auf UV-basierte Projektionen erweitert.
 
 * **Physische Größe im UV-Modus**\
-  Es ist jetzt möglich, den Skalierungsmodus auf &quot;Physische Größe&quot; festzulegen, anstatt Füllebenen und Fülleffekte mit &quot;UV-Projektion&quot; einzukacheln. Die Größe der UV-Strahlung wird automatisch auf der Grundlage der mittleren Größe der Dreiecke aus der UV-Strahlung berechnet.
+  Es ist jetzt möglich, den Skalierungsmodus in den Füllebene- und Fülleffekten im UV-Projektion-Modus auf &quot;Physische Größe&quot; anstatt auf &quot;Kachelung&quot; festzulegen. Die Größe der UV wird automatisch anhand der Durchschnittsgröße der Dreiecke aus der entpackend UV berechnet.
 
   ![](../assets/physicalsize-uvmode.png){width="400px"}
 
-* **Automatisch zur Physische Größe wechseln** Es wurde eine neue Projekteinstellung hinzugefügt, um die Skalierungseinstellung beim Erstellen eines Materials (z. B. beim Ziehen und Ablegen einer Ressource für das Elementfenster) automatisch auf Physische Größe festzulegen. Auf diese Weise können Sie die konsistente Größe in einem Projekt verwenden, ohne die Einstellungen jedes Mal manuell wechseln zu müssen, wenn eine neue Füllebene erstellt wird. Um sie in einem bestehenden Projekt zu aktivieren, gehen Sie zu **Bearbeiten > Projektkonfiguration** und aktivieren Sie **Skalierung der Füllebene auf Physische Größe umschalten, wenn Materialien zugewiesen werden**. Diese Einstellung kann auch beim Erstellen eines neuen Projekts aktiviert werden.
+* **Automatisch zur Physische Größe wechseln** Es wurde eine neue Projekteinstellung hinzugefügt, um die Skalierungseinstellung beim Erstellen eines Materials (z. B. beim Ziehen und Ablegen einer Ressource für das Elementfenster) automatisch auf Physische Größe festzulegen. Dies ermöglicht die Verwendung konsistenter Größen in einem Projekt, ohne dass Sie bei jeder Erstellung einer neuen Füllebene die Einstellungen manuell ändern müssen. Um sie in einem bestehenden Projekt zu aktivieren, gehen Sie zu **Bearbeiten > Projektkonfiguration** und aktivieren Sie **Skalierung der Füllebene auf Physische Größe umschalten, wenn Materialien zugewiesen werden**. Diese Einstellung kann auch beim Erstellen eines neuen Projekts aktiviert werden.
 
   ![](../assets/physicalsize-settings.png)
 
@@ -142,12 +142,12 @@ Mit dieser Version haben wir die mindestens unterstützte Version von Painter au
 
 ## Tutorials
 
-In unserem neuesten Tutorial erfahren Sie mehr über den neuen Backmodus:
+Im neuesten Tutorial erfahren Sie mehr über den neuen Baking-Modus:
 
 ## Versionshinweise
 
 *(Freigegeben: 10. Januar 2023)*\
-Zusammenfassung: **Hauptversion mit neuem Backmodus, neuem Import und Export von USD-Dateien und Physische Größe-Unterstützung für UV-Projektion**
+Zusammenfassung: **Hauptversion mit neuem Importmodus, neuem Baking und Export von USD und Physische Größe-Unterstützung für UV-Projektion**
 
 **Hinzugefügt:**
 

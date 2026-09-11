@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Substance 3D Painter-Abstürze beim Arbeiten mit übertakteten GPUs für eine stabile Anwendungsleistung beheben können.
+description: Erfahren Sie, wie Sie Substance 3D Painter-Absturz bei der Arbeit mit übertakteten GPUs für eine stabile Anwendungsleistung beheben können.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Crash when working with overclocked GPU
 helpx_experience_level: ""

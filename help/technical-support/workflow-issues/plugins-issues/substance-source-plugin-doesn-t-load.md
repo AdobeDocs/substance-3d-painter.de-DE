@@ -30,8 +30,8 @@ Das Substance Source-Plug-in, das in Substance 3D Painter enthalten war, wurde a
 
 Wir empfehlen:
 
-* **Substance Source** , Materialien können von der Website heruntergeladen werden: 2<https://www.substance3d.com/>
-* **Substance-Launcher** : Materialien können über die Registerkarte &quot;Substance Source&quot; mit der Funktion &quot;Senden an&quot; an die Anwendung gesendet werden.
+* **Substance Source** , Materials können von der Website heruntergeladen werden: 2<https://www.substance3d.com/>
+* **Substance-Launcher** : Materialien können über die Registerkarte &quot;Dedizierte Substance Source&quot; mit der Funktion &quot;Senden an&quot; an die Anwendung gesendet werden.
 
 ### Deinstallation
 
@@ -43,4 +43,4 @@ Wir empfehlen, das Plug-in zu entfernen, da es nicht mehr funktioniert:
 
 >[!NOTE]
 >
-> Das Entfernen des Plug-ins hat keine Auswirkungen auf den Inhalt, der bereits in das Shelf heruntergeladen wurde.
+> Das Entfernen des Plug-ins hat keine Auswirkungen auf den Inhalt, der bereits in das Regal heruntergeladen wurde.

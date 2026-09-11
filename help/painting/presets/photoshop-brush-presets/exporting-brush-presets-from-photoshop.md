@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/exporting-brush-presets-from-photoshop.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Pinselvorgaben aus Photoshop als ABR-Dateien exportieren und in Substance 3D Painter-Workflows für das Strukturieren verwenden können.
+description: Erfahren Sie, wie Sie Pinselvorgaben aus Photoshop als ABR-Dateien exportieren, um sie in Substance 3D Painter-Workflows zum Malen von Texturen zu verwenden.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Exporting Brush Presets from Photoshop
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Exportieren von Pinselvorgaben aus Photoshop
 
-ABR-Dateien (Photoshop-Pinselvorgaben) können nur von Adobe Photoshop aus erstellt werden. So erstellen Sie eine ABR mit Vorgaben:
+ABR-Dateien (Photoshop-Pinselvorgaben) können nur mit Adobe Photoshop erstellt werden. So erstellen Sie eine ABR mit Vorgaben:
 
 1. <b>Adobe Photoshop öffnen.</b>
 
@@ -30,7 +30,7 @@ ABR-Dateien (Photoshop-Pinselvorgaben) können nur von Adobe Photoshop aus erste
    Öffnen Sie das Pinselbedienfeld unter <b>Fenster > Pinsel. </b>
 
    ![](../../../assets/photoshop-brush-window.png){width="500px"}
-1. <b>Wählen Sie die Pinselvorgaben (oder Gruppen) aus, die exportiert werden sollen.</b>
+1. <b>Wählen Sie die zu exportierenden Pinselvorgaben (oder Gruppen) aus.</b>
 
    Halten Sie STRG gedrückt, um mehrere Pinsel oder Vorgaben auszuwählen.
 

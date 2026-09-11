@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/projection.html"
 breadcrumb-title: ''
-description: Nutze das Projektionswerkzeug in Substance 3D Painter, um 2D-Bilder auf 3D-Oberflächen zu projizieren und dort Strukturen zu erzeugen.
+description: Mit dem Projektion-Werkzeug in Substance 3D Painter kannst du 2D-Bilder für Texturen auf 3D-Oberflächen projizieren.
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Projection
 helpx_experience_level: ""
@@ -22,14 +22,14 @@ ht-degree: 1%
 
 ![](../../assets/image2015-3-19-17-56-54.png){width="50px"}
 
-Die Projektion ist ein Werkzeug, mit dem Sie ein Material malen können, indem Sie es in den Bildschirm-/Viewport-Raum projizieren. Sie verfügt über ähnliche Steuerelemente wie die Schablone.
+Die Projektion ist ein Werkzeug, mit dem ein Material durch Projektion in den Bildschirm/Viewport Malen werden kann. Es verfügt über ähnliche Kontrollen wie die Schablone.
 
-Sie können die Projektionstransformation bearbeiten, indem Sie den **Tastaturbefehl S** drücken:
+Sie können die Transformation der Projektion bearbeiten, indem Sie **Tastaturbefehl S** drücken:
 
 * Verwenden Sie **S + Linker Mausklick**, um die Schablone zu drehen.
 * Verwenden Sie **S + Linksklick mit der Maus und UMSCHALT**, um die Schablone auszurichten bzw. auf die Drehung der Schablone zu beschränken.
 * Verwenden Sie **S + Rechtsklick**, um die Schablone zu vergrößern/zu verkleinern.
-* Verwenden Sie **S + Mittlere Maustaste**, um die Schablone zu übersetzen.
+* Verwenden Sie **S + Mittlere Maustaste**, um die Schablone Kamera bewegen.
 
 <table>
 <tr style="border: 0;">
@@ -51,5 +51,5 @@ Sie können die Projektionstransformation bearbeiten, indem Sie den **Tastaturbe
 </tr>
 </table>
 
-* **Projektion** : Malwerkzeug basierend auf der Screenspace-Projektion. Dieses Werkzeug zeigt ein Muster über dem Viewport an und wiederholt es.
-* **Physische Projektion** : Projektionsmalen-Werkzeug mit physikalischen Eigenschaften, die auf Partikelvorgaben basieren.
+* **Projektion** : Malen-Tool basierend auf der Screenspace-Projektion. Dieses Werkzeug zeigt ein Muster über dem Viewport an und wiederholt es.
+* **Physikalische Projektion** : Projektion-Malen-Tool mit physikalischen Eigenschaften auf der Grundlage von Partikeln-Vorgaben.

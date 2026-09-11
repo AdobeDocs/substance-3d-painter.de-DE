@@ -69,7 +69,7 @@ uniform SamplerSparse specularlevel_tex;
 ```
 
 
-Shader-Einstiegspunkt
+Shader-Einstiegspunkt.
 
 ```
 void shade(V2F inputs) 

@@ -25,6 +25,6 @@ Im Verlaufsfenster werden alle Aktionen und Änderungen aufgelistet, die im aktu
 
 * Sie können auf jedes Element der Liste klicken, um zum Status des Projekts zurückzukehren, als die Aktion erstellt/angewendet wurde.
 * Wenn Sie eine neue Aktion erstellen, die nicht im letzten Element der Liste enthalten ist, werden vorhandene zukünftige Aktionen gelöscht und durch eine neue ersetzt.
-* Da die Aktionen global für das Projekt ausgeführt werden, wird das Erstellen einer Ebene in zwei verschiedenen Textursätzen in derselben Liste angezeigt.
+* Da die Aktionen für das Projekt global sind, wird das Erstellen einer Ebene in zwei verschiedenen Textursätzen in derselben Liste angezeigt.
 
-Während alle Informationen in einem Projekt gespeichert sind (um alles neu zeichnen/neu texturieren zu können), ist die Verlaufsliste nicht zugänglich, wenn das Projekt geschlossen und erneut geöffnet wird. Die Verlaufsliste ist nur während der aktuellen Sitzung verfügbar.
+Während alle Informationen in einem Projekt gespeichert sind (um alles erneut Malen bzw. die Textur zu ändern), ist die Verlaufsliste nicht verfügbar, wenn das Projekt geschlossen und erneut geöffnet wird. Die Verlaufsliste ist nur während der aktuellen Sitzung verfügbar.

@@ -23,4 +23,4 @@ ht-degree: 0%
 ![](../../assets/resources-updater-window.png)
 
 Mit dem **Ressourcen-Updater**-Plug-in können Ressourcen durchsucht werden, die im derzeit geöffneten Projekt vorhanden sind.\
-Jede Ressource kann durch eine andere Ressource ersetzt werden, die in der Ablage vorhanden ist. Die in Rot dargestellten Ressourcen gelten als &quot;veraltet&quot;, es bedeutet, dass eine andere Version derselben Ressource im Regal vorhanden ist und (wahrscheinlich) aktueller ist.
+Jede Ressource kann durch eine andere Ressource ersetzt werden, die im Regal vorhanden ist. Die in Rot dargestellten Ressourcen gelten als &quot;veraltet&quot;, es bedeutet, dass eine andere Version derselben Ressource im Regal vorhanden ist und (wahrscheinlich) aktueller ist.

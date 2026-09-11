@@ -14,7 +14,7 @@ ht-degree: 5%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_mask_builder_dark.png" alt=""/><strong>In:</strong>-Maske, Generator</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Generator für den Maskengenerator ist eine ältere Version des Generators für den Maskeneditor. Es ist ein Multifunktionsmaskengenerator, mit dem Sie Schmutz, AO, Krümmung, Verlauf, World Space Normal, Scratches, Streuung und Mikrodetails in einer einzigen Maske kombinieren können.<br><br>Der Mask Builder-Generator ist sehr flexibel, kann jedoch aufgrund seiner Komplexität die Leistung stärker beeinträchtigen als die meisten Generatoren.<br><br>Der Maskenbildner-Generator gibt eine monochrome (schwarz-weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken basierend auf den verschiedenen durch Baking erzeugte Map. <br><br>Als Bildeingabe sind die gebackene Position, die Krümmung, die Umgebungs-Verdeckung und die Weltraum-Normalmaps erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Backen</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Generator für den Maskengenerator ist eine ältere Version des Generators für den Maskeneditor. Es handelt sich um einen Mehrzweck-Maskengenerator, mit dem Sie Schmutz-, AO-, Krümmung-, Verlauf-, Welt-Raum-Normale-, Scratches-, Streuung- und Mikrodetails in einer einzigen Maske kombinieren können.<br><br>Der Mask Builder-Generator ist sehr flexibel, kann jedoch aufgrund seiner Komplexität die Leistung stärker beeinträchtigen als die meisten Generatoren.<br><br>Der Maskenbildner-Generator gibt eine Schwarzweiß-Textur aus. Daher eignet sie sich gut zum Generieren von Masken basierend auf den verschiedenen durch Baking erzeugte Map. <br><br>Als Bildeingabe sind die gebackene Position, die Krümmung, die Umgebungs-Verdeckung und die Weltraum-Normalmaps erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Baking</a>.</td>
   </tr>
 </table>
 
@@ -23,14 +23,14 @@ ht-degree: 5%
 | Eingabename | Beschreibung |
 | --- | --- |
 | **Normaler Weltraum** Farbe | Verwenden Sie die gebackene Weltraumnormalkarte. |
-| **Benutzerdefinierter Schmutz 1** Graustufen | Verwenden einer benutzerdefinierten Struktur oder eines Ankerpunkts. |
-| **Benutzerdefinierter Schmutz 2** Graustufen | Verwenden einer benutzerdefinierten Struktur oder eines Ankerpunkts. |
-| **Streuung-Eingabe** Graustufen | Verwenden einer benutzerdefinierten Struktur oder eines Ankerpunkts. |
-| **Position** Farbe | Verwenden Sie die Positionskarte. |
-| **Krümmung** Graustufen | Verwenden Sie die Kurvenzeichner-Map. |
-| **Umgebungs-Verdeckung** Graustufen | Verwenden Sie die Karte mit der Verdeckung &quot;Umgebung&quot;. |
+| **Benutzerdefinierter Schmutz 1** Graustufen | Verwenden einer benutzerdefinierten Textur oder eines Ankerpunkts. |
+| **Benutzerdefinierter Schmutz 2** Graustufen | Verwenden einer benutzerdefinierten Textur oder eines Ankerpunkts. |
+| **Streuung-Eingabe** Graustufen | Verwenden einer benutzerdefinierten Textur oder eines Ankerpunkts. |
+| **Position** Farbe | Verwenden Sie die Baking geführt Positionszuordnung. |
+| **Krümmung** Graustufen | Verwenden Sie die Baking geführt Krümmungs-Map. |
+| **Ambient occlusion** Graustufen | Verwenden Sie die Baking geführt Ambient occlusion-Map. |
 | **Micro Normal** Farbe | Verwenden Sie eine spezielle normale Textur oder einen Ankerpunkt. |
-| **Micro Height** Color | Verwenden einer benutzerdefinierten Struktur oder eines Ankerpunkts. |
+| **Micro Height** Color | Verwenden einer benutzerdefinierten Textur oder eines Ankerpunkts. |
 
 ## Parameter
 
@@ -57,11 +57,11 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Triplanar verwenden</strong></td>
-    <td>Wenn <strong>Triplanar </strong> verwenden aktiviert ist, wird die Textur aus drei Richtungen (X-, Y-, Z-Achsen) projiziert, anstatt sich nur auf UVs zu verlassen. <br><ul><li>Ohne aktiviertes Triplanar folgt die Textur dem UV-Layout.</li><li>Wenn die Option "Dreidimensional" aktiviert ist, wird die Textur aus mehreren Winkeln projiziert und verblendet.</li></ul></td>
+    <td>Wenn <strong>Triplanar </strong> verwenden aktiviert ist, wird die Textur aus drei Richtungen projiziert (X-, Y-, Z-Achsen), anstatt sich nur auf UVs zu verlassen. <br><ul><li>Ohne die Option "Triplanar" folgt die Textur dem UV-Layout.</li><li>Wenn die Option "Dreidimensional" aktiviert ist, wird die Textur aus mehreren Winkeln projiziert und verblendet.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Triplanarer Überblendkontrast</strong></td>
-    <td>Passen Sie mit der Option "Triplanares Mapping" an, wie glatt eine Textur bei der Projektion übergeht. Er passt die Weichheit der Überblendung zwischen den Vorsprüngen aus jeder Richtung an.</td>
+    <td>Passen Sie mit der Option "Triplanares Mapping" an, wie glatt eine Textur bei der Projektion verschmilzt. Sie passt die Weichheit der Überblendung zwischen den Projektionen aus jeder Richtung an.</td>
   </tr>
   <tr>
     <td><strong>Schmutz</strong></td>
@@ -69,11 +69,11 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>AO</strong></td>
-    <td>Passen Sie an, wie sehr sich die AO-Einstellungen (Umgebungsmaske) auf das endgültige Maskenergebnis auswirken.</td>
+    <td>Passen Sie an, wie sehr sich die AO-Einstellungen (Ambient occlusion) auf das endgültige Maskenergebnis auswirken.</td>
   </tr>
   <tr>
     <td><strong>Biegung</strong></td>
-    <td>Passen Sie an, wie sehr sich die Kurveneinstellungen auf das endgültige Maskenergebnis auswirken.</td>
+    <td>Passen Sie an, wie sehr sich die Maskeneinstellungen auf das endgültige Maskenergebnis auswirken.</td>
   </tr>
   <tr>
     <td><strong>Verlauf von oben nach unten</strong></td>
@@ -81,7 +81,7 @@ ht-degree: 5%
   </tr>
   <tr>
     <td><strong>Raum-Normale</strong></td>
-    <td>Passen Sie an, wie stark die Einstellungen für "World Space Normal" das Endergebnis der Maske beeinflussen.</td>
+    <td>Passen Sie an, wie stark die Welt-Raum-Normale-Einstellungen das Endergebnis der Maske beeinflussen.</td>
   </tr>
   <tr>
     <td><strong>Kratzer</strong></td>
@@ -97,7 +97,7 @@ ht-degree: 5%
 
 | Parametername | Beschreibung |
 | --- | --- |
-| **Skalierung** | Passen Sie die Größe der Schmutz-Textur an. |
+| **Skalierung** | Passen Sie die Textur des Schmutz an. |
 | **Benutzerdefinierten Schmutz verwenden** | Schalten Sie die Verwendung einer benutzerdefinierten Schmutz-Karte ein oder aus. Es ist nur die Sichtbarkeit des Custom Schmutz 1. Um die Sichtbarkeit des benutzerdefinierten Schmutz 2 zu steuern, passen Sie den Schieberegler Sekundärer benutzerdefinierter Schmutz an. |
 | **Sekundärer benutzerdefinierter Schmutz** | Passen Sie die Sichtbarkeit der Custom Schmutz 2-Textur an. |
 | **Umkehren** | Schmutz-Maps umkehren. |
@@ -108,7 +108,7 @@ ht-degree: 5%
 | --- | --- |
 | **Bereich** | Passen Sie den Bereich der AO-Maske an. |
 | **Kontrast** | Passen Sie den Kontrast/Abfall der AO-Maske an. |
-| **Rauschen** | Füge dem AO-Ergebnis Rauschen hinzu, um die Helligkeit der Maske effektiv zu verringern. |
+| **Rauschen** | Füge Rauschen zum AO-Ergebnis hinzu, um die Helligkeit der Maske effektiv zu verringern. |
 | **Umkehren** | AO-Maske umkehren. |
 
 ### Biegung
@@ -121,13 +121,13 @@ ht-degree: 5%
 | **Konkaver Bereich** | Passen Sie den minimalen konkaven Winkel an, der durch die Maske hervorgehoben werden soll. |
 | **Konkaver Kontrast** | Passen Sie den Kontrast der konkaven Maske an. |
 | **Konkave Umkehr** | Kehre die konkave Maske um. |
-| **Smoothness** | Passen Sie den Übergang zwischen hellen und dunklen Bereichen der Kurvenmaske an. |
+| **Smoothness** | Passe die Überblendung zwischen hellen und dunklen Bereichen der Krümmung an. |
 | **Leistungssteigerung** | So erweitern Sie den Bereich des maskierten Bereichs. Dies verhält sich wie ein Multiplikator für die Parameter **Konvexer Bereich** und **Konkaver Bereich**. |
-| **Rauschen** | Füge Rauschen zum Ergebnis der Krümmung hinzu, um die Helligkeit der Maske effektiv zu verringern. |
+| **Rauschen** | Erhöhe die Helligkeit der Krümmung, indem du Rauschen einfügst. |
 
 ### Verlauf
 
-Die Verlaufsposition basiert auf der Positionsmap, die entweder mit der Normalisierungsskala &quot;Vollständige Szene&quot; oder &quot;Pro Material&quot; gebacken werden kann. Wenn Ihr Material nur in einem kleinen Bereich Ihrer Szene erscheint, die Positionskarte aber mit einer Skala für die vollständige Szenennormalisierung vorliegt, ist es möglicherweise schwierig, den Verlaufsbereich anzupassen, um das gewünschte Ergebnis zu erzielen.
+Die Verlaufsposition basiert auf der Positionsmap, die entweder mit der Skala &quot;Volle Szene&quot; oder &quot;Pro Material&quot; Baking geführt werden kann. Wenn Ihr Material nur in einem kleinen Bereich Ihrer Szene angezeigt wird, die Positionsabbildung aber mit einer Skala für die Normalisierung der vollen Szene Baking geführt wird, kann es schwierig sein, den Verlaufsbereich anzupassen, um das gewünschte Ergebnis zu erzielen.
 
 | Parametername | Beschreibung |
 | --- | --- |
@@ -137,7 +137,7 @@ Die Verlaufsposition basiert auf der Positionsmap, die entweder mit der Normalis
 
 ### Raum-Normale
 
-**Die Werte von**, **Zurück**, **Links** und **Rechts** stimmen möglicherweise nicht mit der Vorder-, Rückseite, linken und rechten Seite des Gitters überein. Standardmäßig entspricht **Front** der positiven X-Achse, und Rechts der positiven Z-Achse.
+**Die Werte von**, **Zurück**, **Links** und **Rechts** stimmen möglicherweise nicht mit der Vorder-, Rückseite, linken und rechten Seite Ihres Meshs überein. Standardmäßig entspricht **Front** der positiven X-Achse, und Rechts der positiven Z-Achse.
 
 | Parametername | Beschreibung |
 | --- | --- |
@@ -174,19 +174,19 @@ Die Verlaufsposition basiert auf der Positionsmap, die entweder mit der Normalis
   </tr>
   <tr>
     <td><strong>Mikrohöhe</strong></td>
-    <td>Aktivieren oder deaktivieren Sie die Verwendung einer benutzerdefinierten Micro Height Map.</td>
+    <td>Aktivieren oder deaktivieren Sie die Verwendung einer benutzerdefinierten Micro Höhen-Map.</td>
   </tr>
   <tr>
     <td><strong>Mikro-Normale</strong></td>
-    <td>Aktivieren oder deaktivieren Sie die Verwendung einer benutzerdefinierten Micro Normal-Karte.</td>
+    <td>Aktivieren oder deaktivieren Sie die Verwendung einer benutzerdefinierten Micro Normalen-Map.</td>
   </tr>
   <tr>
     <td><strong>Biegungstyp</strong></td>
-    <td>Lege den Kurvenzeichner fest. <br><ul><li><strong>Standard</strong>: Erstellt ein normalerweise recht scharfes Ergebnis, kann jedoch größere Details vermissen lassen.</li><li><strong>Sobel</strong>: Ergibt ähnliche Ergebnisse wie bei der Standardeinstellung, jedoch leicht unschärfer, da die Normalmap mit einem Sobel-Filter ausgewertet wird.</li><li><strong>Glatt</strong>: Erzeugt verschiedene Weichzeichnungsstufen (wie Mipmaps), um Informationen zu sammeln. Dadurch entstehen in der Regel glattere Kurven, aber Details können verloren gehen.</li></ul></td>
+    <td>Legen Sie die Krümmung fest. <br><ul><li><strong>Standard</strong>: Erstellt ein normalerweise recht scharfes Ergebnis, kann jedoch größere Details vermissen lassen.</li><li><strong>Sobel</strong>: Ergibt ähnliche Ergebnisse wie bei der Standardausgabe, ist jedoch leicht unscharf, da die Normalen-Map mit einem Sobel-Filter ausgewertet wird.</li><li><strong>Glatt</strong>: Erzeugt verschiedene Weichzeichnungsstufen (wie Mipmaps), um Informationen zu sammeln. Dadurch entstehen in der Regel glattere Kurven, aber Details können verloren gehen.</li></ul></td>
   </tr>
   <tr>
     <td><strong>Biegungsstärke</strong></td>
-    <td>Passen Sie die Intensität der Krümmung im Modus <strong>Standard </strong> und <strong>Sobel </strong>Krümmung an.</td>
+    <td>Passen Sie die Intensität der Krümmung im <strong>Standardmodus </strong> und im <strong>Sobelmodus </strong>Krümmung an.</td>
   </tr>
   <tr>
     <td><strong>Höhendetailstärke</strong></td>
@@ -194,10 +194,10 @@ Die Verlaufsposition basiert auf der Positionsmap, die entweder mit der Normalis
   </tr>
   <tr>
     <td><strong>AO-Radius</strong></td>
-    <td>Passen Sie den Radius (Bereich) der Verdeckung "Umgebung" in den Mikrodetails an.</td>
+    <td>Passen Sie den Radius (Bereich) des Ambient occlusion in Mikrodetails an.</td>
   </tr>
   <tr>
     <td><strong>AO-Tiefe</strong></td>
-    <td>Passen Sie die Tiefe (Intensität) der Umgebungsintensität in den Mikrodetails an.</td>
+    <td>Passen Sie die Tiefe (Intensität) des Ambient occlusion in Mikrodetails an.</td>
   </tr>
 </table>

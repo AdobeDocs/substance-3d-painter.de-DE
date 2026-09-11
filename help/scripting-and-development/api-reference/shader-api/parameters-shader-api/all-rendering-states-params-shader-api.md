@@ -24,14 +24,14 @@ ht-degree: 2%
 
 ## Rückseiten ausblenden
 
-Gesichter zurückziehen:
+Flächen zurücknehmen:
 
 ```
 //: state cull_face on
 ```
 
 
-Vordere und hintere Gesichter zeichnen:
+Flächen vorne und hinten zeichnen:
 
 ```
 //: state cull_face off
@@ -75,9 +75,9 @@ Multiplikative Füllmethode:
 ```
 
 
-## Lokalität der Shader-Probenahme
+## Ort der Shader-Probenahme
 
-Standardmäßig werden Dokumentkanäle mit nicht transformierten Texturkoordinaten aufgenommen, um beim Malen Optimierungen für das Rendering zu erzielen.
+Standardmäßig werden für die Darstellung von Optimierungen beim Malen Dokumentkanäle mit nicht transformierten Textur-Koordinaten aufgenommen.
 
 Wenn Artefakte angezeigt werden, setzen Sie den Status *nicht lokal* auf *am* .
 

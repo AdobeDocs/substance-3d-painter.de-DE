@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Photoshop-Pinselvorgaben (ABR)
 
-Substance 3D Painter kann Pinselvorgaben aus Photoshop importieren, indem es ABR-Dateien importiert. ABR-Dateien können mehrere Pinsel- und Werkzeugvorgaben enthalten.
+Substance 3D Painter kann Pinselvorgaben aus Photoshop importieren, indem es ABR-Dateien importiert. ABR-Dateien können mehrere Pinsel und Werkzeugvorgaben enthalten.
 
 Weitere Informationen zu ABR-Pinselvorgaben und deren Unterstützung finden Sie auf den folgenden Seiten:
 

@@ -14,7 +14,7 @@ ht-degree: 8%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_dripping_rust.webp" alt=""/><br><strong>In:</strong> Generator, Graustufen, Farbe</td>
-    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Rost-Tropfgenerator erzeugt nach unten fließende Streifen von Rost, die die Korrosion durch Schwerkraft und Wasserablauf simulieren.<br><br>Der Dripping-Rost-Generator gibt eine monochrome (schwarz-weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken, um einen tropfenden Rost-Effekt zu erzeugen.<br><br>Als Bildeingabe sind eine gebackene Verdeckung, eine Krümmung und eine Umgebungsposition erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Backen</a>.</td>
+    <td style="border: 0;" valign="top"><strong>Beschreibung</strong><br>Der Rost-Tropfgenerator erzeugt nach unten fließende Streifen von Rost, die die Korrosion durch Schwerkraft und Wasserablauf simulieren.<br><br>Der Rost-Generator "Dripping" gibt eine monochrome (Schwarz-Weiß) Textur aus. Daher eignet sie sich gut zum Generieren von Masken, um einen tropfenden Rost-Effekt zu erzeugen.<br><br> Baking geführt Position, Krümmung und ambient occlusion sind als Bildeingaben erforderlich. <a href="../../../baking/baking.md">Weitere Informationen zum Baking</a>.</td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ ht-degree: 8%
 
 | Eingabename | Beschreibung |
 | --- | --- |
-| **Krümmung** Graustufen | Verwenden Sie die Kurvenzeichner-Map. |
-| **Umgebungs-Verdeckung** Graustufen | Verwenden Sie die Karte mit der Verdeckung &quot;Umgebung&quot;. |
-| **Position** Farbe | Verwenden Sie die Positionskarte. |
+| **Krümmung** Graustufen | Verwenden Sie die Baking geführt Krümmungs-Map. |
+| **Ambient occlusion** Graustufen | Verwenden Sie die Baking geführt Ambient occlusion-Map. |
+| **Position** Farbe | Verwenden Sie die Baking geführt Positionszuordnung. |
 
 ## Parameter
 
@@ -39,7 +39,7 @@ ht-degree: 8%
   </tr>
   <tr>
     <td><strong>Invertieren</strong></td>
-    <td>Kehren Sie bestimmte interne Karten um (z. B. Krümmung, AO), bevor sie zur endgültigen Maske kombiniert werden.</td>
+    <td>Invertieren Sie bestimmte interne Maps (z. B. Krümmung, AO), bevor sie zur endgültigen Maske kombiniert werden.</td>
   </tr>
   <tr>
     <td><strong>Rostausbreitung</strong></td>

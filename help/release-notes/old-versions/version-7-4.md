@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 7.4
 
-**Substance 3D Painter 7.4** bietet Unterstützung für OpenColorIO mit der Einführung des neuen Farbmanagement-Workflows.
+**Substance 3D Painter 7.4** bietet mit der Einführung des neuen Farbmanagement-Workflows Unterstützung für OpenColorIO.
 
 Freigabedatum: *24. November 2021*
 
@@ -30,9 +30,9 @@ Freigabedatum: *24. November 2021*
 
 ![](../../assets/banner-cm.jpg)
 
-In dieser Version wird das Farbmanagement mit Unterstützung von [OpenColorIO](https://opencolorio.org/) (kurz OCIO) Version 2 eingeführt.
+In dieser Version wird das Farbmanagement mit Unterstützung von [OpenColorIO](https://opencolorio.org/) (OCIO) Version 2 eingeführt.
 
-Mit diesem neuen Arbeitsablauf können Sie Farben vom Import bis zum Export und auch innerhalb des Viewports verwalten und kalibrieren, sodass Inhalte über verschiedene Anwendungen hinweg einfacher abgeglichen werden können.
+Mit diesem neuen Arbeitsablauf können Sie Farben vom Import bis zum Export sowie innerhalb des Viewports verwalten und kalibrieren, sodass Inhalte unterschiedlicher Anwendungen einfacher abgeglichen werden können.
 
 * **Projekteinstellungen**\
   Beim Erstellen eines neuen Projekts ist es jetzt möglich, das Farb-Management zu aktivieren. Vorhandenes Projekt kann auch das Farbmanagement über die Projekteinstellungen aktivieren.\
@@ -40,23 +40,23 @@ Mit diesem neuen Arbeitsablauf können Sie Farben vom Import bis zum Export und 
 
   ![](../../assets/cm-settings.png){width="400px"}
 
-* **Viewport-Anzeigeeinstellungen**\
+* **Anzeigeeinstellungen für Viewport**\
   Am oberen Rand der 2D- und 3D-Ansichten befinden sich zwei Steuerelemente für das Farbmanagement:\
   **Farbschaltfläche**: die Farbtransformation des Viewports aktivieren oder deaktivieren.\
-  **Dropdown der Transformation anzeigen**: Wählen Sie aus, welche Anzeigetransformation zum Konvertieren der Farben verwendet werden soll.
+  **Dropdown der Anzeige transformieren**: Wählen Sie aus, welche Anzeige zum Konvertieren der Farben transformieren werden soll.
 
   ![](../../assets/cm-viewport.jpg){width="500px"}
 
 * **Farbwählereinstellungen**\
   Wenn Farbmanagement aktiviert ist, bietet der Farbwähler neue Steuerelemente. Die Farbe wird im Arbeitsfarbraum bearbeitet, der in der Konfiguration festgelegt ist.\
-  Unterhalb der HSV-/RGB-Schieberegler wird der endgültige Farbwert angezeigt, der vom Arbeitsfarbraum in den Anzeigefarbraum transformiert wurde.
+  Unterhalb der HSV-/RGB-Schieberegler wird der endgültige Farbwert angezeigt, der vom Arbeitsfarbraum zum Anzeigefarbraum transformieren wird.
 
   ![](../../assets/color-picker-demo.png)
 
   ![](../../assets/cm-picker-display-value.png)
 
-* **Importieren von Bitmaps und Substance-Materialien mit benutzerdefiniertem Farbraum**\
-  Es stehen spezielle Einstellungen zur Verfügung, die festlegen, wie Ressourcen behandelt werden sollen, einschließlich der Interpretation der Substance-Materialausgabe.\
+* **Importieren von Bitmaps und Substance von Materialien mit benutzerdefiniertem Farbraum**\
+  Es sind spezielle Einstellungen verfügbar, die festlegen, wie Ressourcen behandelt werden sollen, einschließlich der Interpretation der Ausgabe von Substance-Materialien.\
   Es ist auch möglich, durch Analysieren des Dateinamens zu wissen, welchen Farbraum eine Ressource verwendet.
 
   ![](../../assets/auto-color-space.png)
@@ -72,11 +72,11 @@ Mit diesem neuen Arbeitsablauf können Sie Farben vom Import bis zum Export und 
 >
 > Weitere Informationen zur Funktionsweise des Farbmanagements in der Anwendung finden Sie auf der [dedizierten Seite](../../features/color-management/color-management.md).
 
-### Neues Abdocken von 2D- und 3D-Ansichtsfenstern
+### Neues Abdocken von 2D- und 3D-Viewport
 
 ![](../../assets/banner-undock.jpg)
 
-Die 2D- und 3D-Ansicht kann jetzt abgedockt und an eine andere Stelle verschoben werden. Beispielsweise, indem die 3D-Ansicht auf einem Hauptbildschirm angezeigt wird, während die 2D-Ansicht auf einem anderen Bildschirm angezeigt wird.
+Die 2D- und 3D-Ansicht kann jetzt abgedockt und an eine andere Stelle verschoben werden. Zum Beispiel, wenn die 3D-Ansicht auf einem Hauptbildschirm liegt, während die 2D-Ansicht auf einem anderen Bildschirm sitzt.
 
 Das Arbeiten mit einer nicht angedockten Ansicht ist einfacher, das Layout der Anwendung zu organisieren und die Dinge im Auge zu behalten, ohne zu viel Malbereich zu verlieren.
 
@@ -91,7 +91,7 @@ Das Arbeiten mit einer nicht angedockten Ansicht ist einfacher, das Layout der A
   ![](../../assets/swap-undock.gif){width="500px"}
 
 * **Kompatibel mit Farbmanagement**\
-  Die abgedockte Ansicht verfügt über eine eigene Farbmanagement-Display-Transformation, was die Verwaltung auf verschiedenen Monitoren vereinfacht.
+  Die abgedockte Ansicht verfügt über ein eigenes Farbmanagement-Display transformieren, was die Verwaltung auf verschiedenen Monitoren vereinfacht.
 
   ![](../../assets/false-colors-undock.jpg){width="500px"}
 
@@ -131,9 +131,9 @@ Dem Standardinhalt, der in der Anwendung verfügbar ist, wurde ein neuer Satz vo
     * Aufblasen Schrumpfen/Umhüllen
 
 * Neue Schmutz-Bitmaps (von **Emil Sleegers**):
-  * Schmutz Gipsfarbe
+  * Schmutz Plaster Malen
   * Schmutz Gips verblasst
-  * Schmutz Paint Peeled
+  * Schmutz Malen Peeled
   * Schmutz Feuchtigkeit
   * Schmutz Fluff
   * Schmutz Cobweb
@@ -143,13 +143,13 @@ Dem Standardinhalt, der in der Anwendung verfügbar ist, wurde ein neuer Satz vo
   * Schmutz ist tief gerissen
   * Schmutz Brushed Dust
 
-### Verbessertes automatisches Ausgliedern von UVs
+### Verbesserter automatischer entpack von UV
 
 ![](../../assets/banner-uv-1.jpg)
 
 Die automatische UV-Entpackung wurde mit einer neuen Option aktualisiert, die die Unterstützung von 3D-Modellen mit erweiterten Oberflächen verbessert.
 
-Diese neue Einstellung mit dem Namen **Vermeiden Sie verlängerte UV-Inseln**, die den UV-Raum besser nutzen, indem Sie UV-Inseln aufteilen, die zu lang sein könnten.
+Diese neue Einstellung mit dem Namen **Vermeiden Sie verlängerte UV-Inseln**, die den UV-Bereich besser ausnutzen, indem Sie UV-Inseln aufteilen, die zu lang sein könnten.
 
 Im Folgenden finden Sie ein Beispiel für diese neuen Einstellungen, ohne sie im Vergleich zu verwenden:
 
@@ -161,7 +161,7 @@ Im Folgenden finden Sie ein Beispiel für diese neuen Einstellungen, ohne sie im
 
 Die Python-API verfügt über eine neue Methode, mit der die JavaScript-API aufgerufen werden kann.
 
-Diese neue Methode erleichtert die Migration alter Plug-ins zur neuen Python-API. Außerdem werden einige Funktionen wie **Backen** und **Shader**-Verwaltung entsperrt, die noch nicht in Python verfügbar gemacht wurden.
+Diese neue Methode erleichtert die Migration alter Plug-ins zur neuen Python-API. Es werden auch einige Funktionen freigeschaltet, z. B. **Baking** und **Shader** Verwaltung, die noch nicht in Python gelegt wurden.
 
 Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion **evaluation()** des neuen **js**-Untermoduls. Weitere Informationen finden Sie in der API-Dokumentation (verfügbar über das Hilfemenü der Anwendung).
 
@@ -230,19 +230,19 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 
 * [Farbmanagement] Verwenden der Datenrolle in exportierten Dateinamen
 * [Farbmanagement] Erweitern Sie den Abschnitt Farbmanagement standardmäßig, wenn OCIO in den Fenstern für neue Projekt- und Projekteinstellungen ausgewählt ist.
-* [Farbmanagement] ACES-Tonzuweiser im Legacy-Modus hinzufügen
+* [Farbmanagement] Hinzufügen ACE Tonwertumsetzers im Legacy-Modus
 * [Farbmanagement] Standardkonfigurationseinstellungen anpassen
 * [Farbmanagement]&#x200B;[Exportieren] Fill $colorSpace in Dateinamen für Datenkanäle
 * [Exportieren] Exportieren eines UV-Kachelprojekts in Stager
 * [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
-* [Interoperabilität] Senden eines UV-Kachelprojekts an Stager zulassen
+* [Interoperabilität] Senden eines UV-Kachel-Projekts an Stager zulassen
 
 **Fest:**
 
 * [MacOS]&#x200B;[Absturz] Painter startet nicht mit Catalina
 * [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
 * [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen den Farbraum an Neues Menü
-* [Farbmanagement] Benutzerkanal ist im Ansichtsfenster im Legacy-Modus + Solo-Ansicht dunkler
+* [Farbmanagement] Benutzerkanal ist im Viewport im Legacy-Modus + Solo-Ansicht dunkler
 * [Farbmanagement] Die Env-Map ist immer linear, wenn sie in iRay verwendet wird
 * [Farbmanagement] Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
 * [Farbmanagement] Farbwähler in einer Substance im Legacy-Modus funktioniert nicht

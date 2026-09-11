@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Version 11.1
 
-<b>Substance 3D Painter 11.1 </b> bietet das neue Bandpfad-Tool mit eigenem Inhalt, Symmetrie auf Füllebenen und -effekten, Physikgröße für Versatz und Unterstützung der Vulkan-Grafik-API.
+<b>Substance 3D Painter 11.1 </b> bietet das neue Bandpfad-Tool mit eigenem Inhalt, Symmetrie zu Füllebenen und Effekten, physische Größe für Versatz und Unterstützung der Vulkan Graphics API.
 
 Freigabedatum: <b>18. November 2025</b>
 
 >[!NOTE]
 >
-> In dieser Version von Painter wird die Grafik-API von OpenGL auf Vulkan umgestellt. Diese Änderung kann sich darauf auswirken, welche GPUs von der Anwendung unterstützt werden, insbesondere für das Backen mit GPU-basiertem Raytracing.
+> In dieser Version von Painter wird die Grafik-API von OpenGL auf Vulkan umgestellt. Diese Änderung kann sich darauf auswirken, welche GPUs von der Anwendung unterstützt werden, insbesondere für das Baking führ mit GPU-basiertem Raytracing.
 > 
 > Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
 
@@ -36,9 +36,9 @@ Freigabedatum: <b>18. November 2025</b>
 
 ![](../assets/banner_ribbon.jpg)
 
-Der <b>Bandpfad</b> ist ein neues Tool in der Pfadwerkzeugfamilie. Über ein Menüband wird eine Textur entlang eines Pfades ohne Schnitte transformiert und wiederholt. Der Anfang und das Ende können zusätzlich gesteuert werden. Obendrein sind Optionen für scharfe Ecken verfügbar.
+Der <b>Bandpfad</b> ist ein neues Tool in der Pfadwerkzeugfamilie. Über ein Menüband wird eine Textur entlang eines Pfades ohne Schnitte transformieren und wiederholt, mit zusätzlicher Kontrolle für Anfang und Ende sowie Optionen für spitze Ecken.
 
-Dieses neue Werkzeug öffnet die Tür zu neuen Verhaltensweisen, z. B. das Platzieren von Text entlang von Pfaden, das Platzieren eines perfekten Verlaufs entlang eines Pfades und das einfache Erstellen eigener erweiterter Zuschnitte, die um ein Gitter gewickelt werden können.\
+Mit diesem neuen Tool können Sie ganz neue Verhaltensweisen anwenden, z. B. das Platzieren von Text entlang von Pfaden, das Platzieren eines perfekten Verlaufs entlang eines Pfades und das einfache Erstellen eigener, erweiterter Zuschnitte, die um einen Mesh gewickelt werden können.\
 Kurz gesagt, das Menüband ist ein saubereres Werkzeug für präziseres Zeichnen mit Pfaden.
 
 * <b>Neues Bandwerkzeug neben anderen pfadähnlichen Werkzeugen verfügbar</b>\
@@ -48,23 +48,23 @@ Kurz gesagt, das Menüband ist ein saubereres Werkzeug für präziseres Zeichnen
 
   ![](../assets/ribbon_path_type.png)
 * <b>Das Menüband ist ein kontinuierlicher Pfad, der über alle Arten von Oberflächen hinweg funktioniert</b>\
-  ItThe Ribbon ist ein Werkzeug, mit dem Sie eine Textur entlang eines Pfades wiederholen oder dehnen können. Es funktioniert über jede Art von Oberflächen und Geometrie, auch wenn die Gitterteile nicht verbunden sind.
+  Die Multifunktionsleiste ist ein Werkzeug, mit dem Sie eine Textur entlang eines Pfads wiederholen oder gedehnt können. Es funktioniert über jede Fläche und Geometrie hinweg, auch wenn die Teile des Meshs nicht miteinander verbunden sind.
 
   ![](../assets/ribbon_robot_1.jpg)
 * <b>Wiederholende Muster und Verläufe erstellen</b>\
-  Dieses neue Werkzeug kann Bilder auf verschiedene Weise wiederholen, ohne Nähte oder Schnitte, was für Verläufe und saubere Muster geeignet ist.
+  Mit diesem neuen Tool können Sie Bilder auf verschiedene Weise wiederholen, ohne Nähte oder Schnitte vorzunehmen. Dies ist für Verläufe und saubere Muster geeignet.
 
   ![](../assets/ribbon_repeat_demo.png)
-* <b>Bilder mit benutzerdefiniertem Anfang und Ende dehnen</b>\
-  Mit der Einstellung <b>Streckung zwischen Versätzen</b> können Teile eines Bildes isoliert werden, um sie als Start- und Endabschnitte auf einem Pfad zu verwenden, während der mittlere Abschnitt entlang des restlichen Pfads gestreckt wird. So kannst du z. B. mit einfachen Bitmaps schnell auf Pfaden platzieren, die keine Verzerrungen enthalten (z. B. Pfeile).
+* <b>Bilder mit benutzerdefiniertem Anfang und Ende Gedehnt</b>\
+  Mit der Einstellung <b> dehn zwischen Versatz</b> können Sie Teile eines Bildes isolieren, um sie als Start- und Endabschnitte auf einem Pfad zu verwenden, während der mittlere Abschnitt entlang des restlichen Pfades gedehnt wird. So kannst du z. B. mit einfachen Bitmaps schnell auf Pfaden platzieren, die keine Verzerrungen enthalten (z. B. Pfeile).
 
   ![](../assets/ribbon_stretch_guides_path.png)
 * <b>Verschiedene Eckentypen verfügbar</b>\
   Beim Brechen von Tangenten zum Erstellen von Ecken sind je nach Bedarf mehrere Formen verfügbar - von der klassischen Unterbrechung bis zum glatten Drehen.
 
   ![](../assets/ribbon_corners_small.jpg)
-* <b>Steuerelemente zum Dehnen und Anordnen</b>\
-  Bilder können entweder automatisch oder manuell entlang eines Bandpfads wiederholt oder gestreckt werden.
+* <b>Steuerelemente für Dehn und Kachelung</b>\
+  Bilder können entweder automatisch oder manuell entlang eines Bandpfads wiederholt oder gedehnt werden.
 
   ![](../assets/ribbon_tiling_mode.gif)
 * <b>Text entlang Pfad</b>\
@@ -77,11 +77,11 @@ Kurz gesagt, das Menüband ist ein saubereres Werkzeug für präziseres Zeichnen
   ![](../assets/ribbon_non-square.jpg)
 * <b>Kompatibel mit dem Workflow für Substance-Dynamische Pinselstriche</b>\
   Bandpfad sind auch mit dem Substance-basierten Dynamic-Stroke-System kompatibel, sodass komplexe Ergebnisse erzielt werden können. Ein bemerkenswertes Beispiel ist die Möglichkeit, benutzerdefinierte Start-/Endpunkte und linke/rechte Ecken zu haben.\
-  Außerdem sind zwei neue Werkzeugvorgaben mit dem Namen <b>Custom Ribbon Grayscale</b> und <b>Custom Ribbon Material</b> verfügbar, damit diese Funktion leicht zugänglich ist.
+  Zwei neue Werkzeugvorgaben mit dem Namen <b>Custom Ribbon Grayscale</b> und <b>Custom Ribbon Material</b> werden ebenfalls bereitgestellt, damit diese Funktion leicht zugänglich ist.
 
   ![](../assets/ribbon_custom_preset.gif)
 * <b>Kompatibel mit Symmetrie</b>\
-  Wie andere Werkzeugtypen ist auch der Bandpfad mit der Symmetrie-Funktion kompatibel.
+  Wie andere Werkzeugtypen ist auch der Bandpfad mit der Funktion &quot;Symmetrie&quot; kompatibel.
 
   ![](../assets/ribbon_gradient_symmetry.jpg)
 * <b>Füllmethoden bei Selbstüberlappung</b>\
@@ -91,8 +91,8 @@ Kurz gesagt, das Menüband ist ein saubereres Werkzeug für präziseres Zeichnen
 
 Zusätzliche Verbesserungen wurden für alle Pfad-Tools vorgenommen:
 
-* <b>Größe und Deckkraft pro Scheitelpunkt auf Pfaden trennen</b>\
-  Die Anpassung der Größe und Deckkraft pro Scheitelpunkt auf einem Pfad ist jetzt möglich und nicht mehr an den Druckparameter gebunden. Diese beiden Eigenschaften werden jetzt separat mit dedizierten Schiebereglern in der Benutzeroberfläche behandelt.
+* <b>Separate Größe und Deckkraft pro Scheitelpunkt auf Pfaden</b>\
+  Die Anpassung der Größe und Deckkraft pro Scheitelpunkt auf einem Pfad ist nun möglich und nicht mehr an den Druckparameter gebunden. Diese beiden Eigenschaften werden jetzt separat mit dedizierten Schiebereglern in der Benutzeroberfläche behandelt.
 
   ![](../assets/vertex_separate_settings_demo.gif)
 * <b>Parametergruppierung im Eigenschaftenfenster </b>\
@@ -113,11 +113,11 @@ Zusätzliche Verbesserungen wurden für alle Pfad-Tools vorgenommen:
 Diese Version enthält 75 neue Werkzeugvorgaben, die die neuen Funktionen der Multifunktionsleiste nutzen. Um das Auffinden der Vorgaben zu erleichtern, wurden neue Vorgabenkategorien im Fenster <b>Eigenschaften</b> hinzugefügt.
 
 * <b>Tastaturbefehle für neue Vorgabenkategorien im Eigenschaftenfenster</b>\
-  Eine Reihe neuer Schaltflächen befindet sich jetzt oben im Fenster &quot;<b>Eigenschaften</b>&quot;, wenn Pfadwerkzeuge verwendet werden. Jede Schaltfläche bietet Zugriff auf Werkzeugvorgaben, sortiert nach Kategorien. In der Favoritenkategorie werden die ausgewählten Vorgaben neu gruppiert.
+  Eine Reihe neuer Schaltflächen befindet sich jetzt oben im Fenster &quot;<b>Eigenschaften</b>&quot;, wenn Pfadwerkzeuge verwendet werden. Jede Schaltfläche ermöglicht den Zugriff auf Werkzeugvorgaben, sortiert nach Kategorien. In der Favoritenkategorie werden die ausgewählten Vorgaben neu gruppiert.
 
   ![](../assets/ribbon_presets_categories.png)
 
-  Durch Klicken auf eine der Schaltflächen erhalten Sie schnellen Zugriff auf einige vorausgewählte Vorgaben. Wenn Sie auf <b>Mehr anzeigen in Assets</b> klicken, werden weitere Pfad-Tool-Vorgaben im Fenster <b>Assets</b> angezeigt.
+  Durch Klicken auf eine der Schaltflächen erhalten Sie schnellen Zugriff auf einige vorausgewählte Vorgaben. Wenn Sie auf <b>Mehr anzeigen in Assets</b> klicken, werden weitere Pfad-Werkzeugvorgaben im Fenster <b>Assets</b> angezeigt.
 
   ![](../assets/ribbon_presets_mini_shelf.png)
 * <b>Schneller Wechsel zwischen Vorgaben</b>\
@@ -125,7 +125,7 @@ Diese Version enthält 75 neue Werkzeugvorgaben, die die neuen Funktionen der Mu
 
   ![](../assets/switch_presets_demo.gif)
 * <b>Neuer Inhalt</b>\
-  In dieser Version wurden 75 neue Werkzeugvorgaben für das Multifunktionsleisten-Werkzeug als Teil des Standardinhalts hinzugefügt. Diese Vorgaben sind direkt im Fenster <b>Elemente</b> unter dem Pinselabschnitt oder über die Tastaturbefehle für neue Kategorien im Fenster <b>Eigenschaften</b> verfügbar.\
+  In dieser Version wurden 75 neue Werkzeugvorgaben für das Menüband-Werkzeug als Teil des Standardinhalts hinzugefügt. Diese Vorgaben sind direkt im Fenster <b>Elemente</b> unter dem Pinselabschnitt oder über die Tastaturbefehle für neue Kategorien im Fenster <b>Eigenschaften</b> verfügbar.\
   Diese Vorgaben umfassen:
 
   * <b>Bekleidung</b>: Verbesserte Presets für Nahtpucker und -aufstiche sowie Reißverschlüsse und Stoffrisse.
@@ -134,7 +134,7 @@ Diese Version enthält 75 neue Werkzeugvorgaben, die die neuen Funktionen der Mu
   * <b>Harte Oberfläche</b>: Greif Muster, Panel und Shutlines Details, Bänder und Schweißen zu verwenden oder mechanische Objekte.
   * <b>Organisch</b>: Verbände, sauber und schmutzig, um Haut und andere Oberflächen zu umwickeln.
   * <b>Farbe</b>: Verläufe auf Pinselbasis und Gouachen-Vorgaben.
-  * <b>Text</b>: Schnellvorgaben zum Einrichten von Text entlang eines Pfads mit der Multifunktionsleiste mit verschiedenen Ausrichtungsmodi und Dehnung.
+  * <b>Text</b>: Schnellvorgaben zum Einrichten von Text entlang eines Pfads mit der Multifunktionsleiste mit verschiedenen Ausrichtungsmodi und dehnend Einstellungen.
 * <b>Neues Tool-Schlüsselwort für die Suche im Fenster &quot;Elemente&quot;</b>\
   Die Eingabe von &quot;Menüband&quot;, &quot;Malen&quot;, &quot;Pfad&quot; oder sogar &quot;Verwischen&quot; im Fenster <b>Elemente</b> ist jetzt möglich und kann Ihnen helfen, Vorgaben zu finden, die mit dem entsprechenden Werkzeug übereinstimmen.
 
@@ -144,24 +144,24 @@ Diese Version enthält 75 neue Werkzeugvorgaben, die die neuen Funktionen der Mu
 
 ![](../assets/banner_symmetry.jpg)
 
-Füllebenen und Effekte unterstützen jetzt die Symmetrie mit ihren 3D-Projektionsmodi. Sie kann über das Symmetrie-Menü in der kontextabhängigen Symbolleiste oder über den neu hinzugefügten Symmetrie-Abschnitt im Fenster <b>Eigenschaften</b> aktiviert werden.
+Füllebenen und Effekte unterstützen jetzt die Symmetrie mit ihren 3D-Projektion-Modi. Sie kann über das Menü &quot;Symmetrie&quot; in der kontextabhängigen Symbolleiste oder über den neu hinzugefügten Abschnitt &quot;Symmetrie&quot; im Fenster <b>Eigenschaften</b> aktiviert werden.
 
 * <b>Symmetrie auf Füllschichten </b>\
-  Bei Verwendung von 3D-Projektionsmodi in Fülleffekten und Ebenen kann die Symmetrie jetzt aktiviert werden. Sowohl die Spiegelsymmetrie als auch die Radialsymmetrie sind verfügbar.
+  Bei Verwendung von 3D-basierten Projektion-Modi in Fülleffekten und Ebenen kann die Symmetrie jetzt aktiviert werden. Sowohl die Symmetrie &quot;Spiegeln&quot; als auch &quot;Radial&quot; sind verfügbar.
 
   ![](../assets/symmetry_fill.jpg)
-* <b>Symmetrie über die Kontextsymbolleiste oder das Eigenschaftenfenster aktivieren</b>\
-  Die Symmetrie kann über das Menü <b>Kontextsymbolleiste</b>, ähnlich wie Malwerkzeuge, oder über das Fenster <b>Eigenschaften</b> mit dem neuen dedizierten Abschnitt aktiviert werden.
+* <b>Symmetrie über die kontextbezogene Symbolleiste oder das Eigenschaftenfenster aktivieren</b>\
+  Die Symmetrie kann über das Menü <b>Kontextsymbolleiste</b> aktiviert werden, ähnlich wie beim Malen von Tools, oder über das Fenster <b>Eigenschaften</b> mit dem neuen dedizierten Abschnitt.
 
   ![](../assets/symmetry_contextual.png)
 
   ![](../assets/symmetry_properties.png)
 * <b>Eingaberessource für Texte und Logos spiegeln</b>\
-  Die Symmetrie von Füllebenen und Effekten profitiert auch von neuen Optionen, die das Spiegeln der Eingabebilder oder der X/Y-Achsen ermöglichen. So kann z. B. ein Text gespiegelt werden, der aber auf beiden Seiten lesbar ist.
+  Die Symmetrie von Füllebenen und Effekten profitiert auch von neuen Optionen, als es erlaubt, die Eingabebilder oder die X/Y-Achsen zu spiegeln. So kann z. B. ein Text gespiegelt werden, der aber auf beiden Seiten lesbar ist.
 
   ![](../assets/mirror_symmetry_flip.gif)
 * <b>Verbesserte Schnittstelle für Symmetrie-Einstellungen</b>\
-  Die Oberfläche der Symmetrieeinstellungen wurde überarbeitet, um leichter lesbar und schneller zu verwenden zu sein. Die Achsenschieberegler haben z. B. jeweils eine eigene Linie, was zu mehr Präzision führt. Die Radialanzeige wurde ebenfalls verkleinert, um weniger Platz einzunehmen.
+  Die Oberfläche der Symmetrie-Einstellungen wurde überarbeitet, um leichter lesbar und schneller zu bedienen zu sein. Die Achsen-Schieberegler haben z. B. jeweils eine eigene Linie, was zu mehr Präzision führt. Die Radialanzeige wurde ebenfalls verkleinert, um weniger Platz einzunehmen.
 
   ![](../assets/symmetry_radial.png)
 
@@ -176,8 +176,8 @@ Versatz kann nun mit einer bestimmten Einheit definiert werden. Diese Änderung 
 * <b>Neue Skalierungseinheitsoption in den Versatz-Einstellungen</b>\
   Im Fenster &quot;<b>Shader settings</b>&quot; ist beim Anpassen der Intensität des Versatzes eine neue Skalierungseinheit verfügbar. Diese Einstellung bietet die folgenden Optionen:
 
-  * <b>Normalisiert</b>: entspricht standardmäßig dem vorherigen Verhalten von Painter. Diese Größe basiert auf dem Gitterbegrenzungsrahmen innerhalb des aktuellen Projekts.
-  * <b>Szene</b>: verwendet die in der Gitterdatei gespeicherten Einheiten als Referenzpunkt.
+  * <b>Normalisiert</b>: entspricht standardmäßig dem vorherigen Verhalten von Painter. Diese Größe basiert auf dem Mesh-Begrenzungsrahmen innerhalb des aktuellen Projekts.
+  * <b>Szene</b>: verwendet die Einheiten, die in der Meshdatei gespeichert sind, als Bezugspunkt.
   * <b>Physische Größe (cm)</b>: verwendet die Einheit des Projekts, die im Fenster <b>Projektkonfiguration</b> definiert ist.
 
   ![](../assets/displacement_ui.png)
@@ -189,10 +189,10 @@ Versatz kann nun mit einer bestimmten Einheit definiert werden. Diese Änderung 
 In Fortsetzung der Arbeit, die in unserer Vorgängerversion, die unter Mac OS von OpenGL auf Metal umgestellt wurde, begonnen wurde, verwendet diese neue Version jetzt <b>Vulkan</b> auf Windows- und Linux-Plattformen.
 
 * <b>Vulkan-Grafik-API wird jetzt anstelle von OpenGL unter Windows und Linux verwendet</b>\
-  Painter verwendet jetzt die Vulkan-Grafik-API für das Rendern im Viewport und das Berechnen von Texturen. Dieser Schalter sollte die allgemeine Leistung der Anwendung verbessern. Außerdem wird es künftig leichter, neue Funktionen zu integrieren.
-* <b>GPU-Raytracing zum Backen über Vulkan</b>\
-  DirectX Raytracing (DRX) und Optix wurden zugunsten von Raytracing über die Vulkan Graphics API in unseren Bäckereien ersetzt. Diese Änderung bedeutet, dass GPU-basiertes Raytracing jetzt sowohl auf AMD-GPUs als auch auf dem Linux-Betriebssystem verfügbar ist.\
-  Der Wechsel zu Vulkan verbessert auch die Backzeiten, insbesondere bei hohen Auflösungen.
+  Painter verwendet jetzt die Vulkan-Grafik-API für das Rendering in den Viewport- und Computing-Texturen. Dieser Schalter sollte die allgemeine Leistung der Anwendung verbessern. Außerdem wird es künftig leichter, neue Funktionen zu integrieren.
+* <b>GPU-Raytracing für den Baking führ über Vulkan</b>\
+  DirectX Raytracing (DRX) und Optix wurden in unseren Bakern durch die Vulkan Graphics API zugunsten von Raytracing ersetzt. Diese Änderung bedeutet, dass GPU-basiertes Raytracing jetzt sowohl auf AMD-GPUs als auch auf dem Linux-Betriebssystem verfügbar ist.\
+  Der Wechsel zu Vulkan verbessert auch die Renderzeiten des Bakings, insbesondere bei hohen Auflösungen.
 
 ### Sonstiges
 
@@ -201,20 +201,20 @@ In Fortsetzung der Arbeit, die in unserer Vorgängerversion, die unter Mac OS vo
 In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt:
 
 * <b>Überschreiben der Substance-Auflösung</b>\
-  Bei Verwendung von Substance-Ressourcen in Tools und Füllebenen/Effekten ist eine neue <b>Auflösung</b>-Parametergruppe verfügbar. Diese Einstellungen können verwendet werden, um die von der Anwendung ausgewählte Standardauflösung zu ändern.\
+  Wenn Sie Substance-Ressourcen in Tools und Füllebenen/Effekten verwenden, ist eine neue <b>Auflösung</b>-Parametergruppe verfügbar. Diese Einstellungen können verwendet werden, um die von der Anwendung ausgewählte Standardauflösung zu ändern.\
   Dies kann nützlich sein, um die Auflösung, mit der ein Substance generiert wird, aus Qualitäts- oder Leistungsgründen zu erhöhen oder zu reduzieren.
 
   Die verfügbaren Einstellungen sind:
 
-  * <b>Auflösung</b>: den Modus und den Kontext, der zur Berechnung der Auflösung verwendet wird. Der Standardwert ist &quot;Auto&quot;, kann jedoch auf <b>Textursatz</b> oder <b>Benutzerdefiniert</b> festgelegt werden.
+  * <b>Auflösung</b>: den Modus und den Kontext, der zur Berechnung der Auflösung verwendet wird. Der Standardwert ist &quot;Auto&quot;, kann jedoch auf &quot;<b>Textursatz</b>&quot; oder &quot;<b>Benutzerdefiniert</b>&quot; festgelegt werden.
   * <b>Faktor</b>: zusätzliche Kontrolle über die Auflösung, um relative Unterschiede zu erzeugen. Beispiel: die Hälfte der Auflösung eines bestimmten Kontexts verwendet.
   * <b>Ausgabegröße</b>: die endgültige Auflösung, die anhand der vorherigen Einstellungen berechnet wurde.
 
   ![](../assets/resolution.png)
 * <b>Leistungsverbesserungen für ein einzelnes großes Dreieck</b>\
-  Bis jetzt hatte Painter mit sehr niedrigen Polymaschen oder Meshes mit sehr großen und/oder langen Dreiecken zu kämpfen. Das ist nicht mehr der Fall. Die Arbeit mit einzelnen Quad-Meshes, z. B. zur Erstellung von Kachelstrukturen, sollte kein Problem mehr sein.
+  Bis jetzt hatte Painter mit sehr niedrigen Poly-Meshs oder Meshs mit sehr großen und/oder langen Dreiecken zu kämpfen. Das ist nicht mehr der Fall. Die Arbeit mit einzelnen Quad-Meshes, z. B. zur Erstellung von Kachelstrukturen, sollte kein Problem mehr sein.
 * <b>Die Standardpinselform wurde verbessert</b>\
-  Die Standardpinselform wurde mit neuen Einstellungen aktualisiert, um ihre Größe und Rundheit unter Berücksichtigung des Härteverhaltens zu steuern.
+  Die Standard-Pinselform wurde mit neuen Einstellungen aktualisiert, um ihre Größe und Rundheit unter Berücksichtigung des Verhaltens &quot;Härte&quot; zu steuern.
 
   ![](../assets/default_shape_demo2.gif)
 
@@ -227,7 +227,7 @@ Hier ist das neueste Tutorial zu unserer neuen Funktion:
 ### 11.1.0
 
 Freigabedatum: <b>2025/11/18</b>\
-Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue Multifunktionsleisten-Tool mit eigenem neuen Inhalt, Symmetrie-Unterstützung für Füllebenen, Leistungsparameter für Versatz, verbesserte Physische Größe durch die aktualisierten Bäcker, vollständige Vulkan-Unterstützung für Windows und Linux und weitere Verbesserungen.</b>
+Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue Tool für die Multifunktionsleiste mit eigenem neuen Inhalt, Unterstützung der Symmetrie für Füllebenen, Leistungsparameter für Versatz, verbesserte Physische Größe durch die aktualisierten Baker, vollständige Vulkan-Unterstützung für Windows und Linux und weitere Verbesserungen.</b>
 
 <b>Hinzugefügt</b>:
 
@@ -239,18 +239,18 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue Mu
 * [Menüband] Entfernen von Anfang/Ende, definiert auf einer Substance, wenn Pfade geschlossen sind
 * [Menüband] Entfernen der Pfad-/Materialvorschau im Eigenschaftenfenster für Pfade-Werkzeuge zum Malen, Radieren und Verwischen
 * [Menüband] Hinzufügen von Füllmethoden für Alpha und einige Kanäle bei selbstüberlappender Anordnung
-* Füllsymmetrie
+* Symmetrie füllen
 * [Füllen] Unterstützung für Symmetrie auf Füllebenen und Effekten hinzufügen
 * [Füllung]&#x200B;[UI] Belichten von Symmetrie-Einstellungen im Eigenschaftenfenster für Füllebene und Effekte
-* [Füllen] Benutzeroberfläche für Symmetrie-Einstellungen im Ansichtsfenster- und Eigenschaftenfenster überarbeiten
+* [Fill] Benutzeroberfläche für Einstellungen für &quot;Symmetrie nachbearbeiten&quot; im Menü &quot;Viewport&quot; und im Eigenschaftenfenster
 * [Füllen] Ordentliche Texturen bei Projektion im Verkrümmungsmodus korrekt neu ausrichten
 * Physische Größe Versatz
 * [Versatz] Physische Größe als Versatz verwenden
 * Leistungssteigerung
 * [Leistung] Verbessern der Darstellung kleiner Pinselstriche auf großen Dreiecken
-* [Performance] Verbesserung der Shader-Kompilierungszeit
+* [Performance] Verbessern der Shader-Kompilierungszeit
 * [Performance] Volle Vulkan-Unterstützung für Windows und Linux
-* [Leistung] Aktualisierte Bäcker mit schnellerem GPU-Rendering und Unterstützung von AMD-Raytracing
+* [Leistung] Aktualisierte Baker mit schnellerem GPU-Rendering und Unterstützung von AMD-Raytracing
 * [UI] Ordnen Sie Werkzeugeigenschaften neu in Gruppen an und reduzieren Sie einige standardmäßig
 * [Engine] Update-Substance Engine auf Version 9.2.5
 * [Substance] Außerkraftsetzung der Auflösung für Substance-Ressourcen in Tools und Füllungen

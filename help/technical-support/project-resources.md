@@ -30,12 +30,12 @@ Manchmal müssen nicht alle durch Baking erzeugte Map eine Auflösung von 2k ode
 +++Verwalten von importierten Bitmaps
 Importierte Bilder können die Leistung erheblich beeinträchtigen. Daher ist es wichtig, den Importvorgang genau zu verfolgen. Wenn deine Textursets auf 2k eingestellt sind und sowieso nicht mit einer höheren Auflösung exportiert werden, hat die Verwendung eines 8k-Bildes keine positiven Auswirkungen - seine Qualität wird auf 2k begrenzt, da dies die Auflösung des Textursets ist.
 
-Auch das Format spielt eine Rolle - EXR, HDR und sogar PNG sind viel schwerer als ein JPG, und nicht alle Bilder benötigen möglicherweise den Qualitätsgrad eines EXR (z. B. Basisfarbe oder Detailgrad des Heights).
+Auch das Format spielt eine Rolle - EXR, HDR und sogar PNG sind viel umfangreicher als eine JPG, und nicht alle Heights benötigen möglicherweise den Qualitätsgrad einer EXR (z. B. Grundfarbe oder Bilddetails).
 
 +++
 
-+++Shader-Einstellungen anpassen.
-Specular-Qualität bei Ultra wird ein präziseres Ergebnis liefern, aber die Einstellung ist kostspielig. Je mehr Effekte gleichzeitig im Shader aktiviert werden, desto schwerer ist die Berechnung. Teile komplexe Materialien nach Möglichkeit mit einem separaten Shader in ein anderes Texturset auf. Wenn Versatz aktiviert ist, achten Sie auf den Tesselierungsparameter.
++++Shader-Einstellungen anpassen
+Specular-Qualität bei Ultra wird ein präziseres Ergebnis liefern, aber die Einstellung ist kostspielig. Je mehr Effekte gleichzeitig im Shader aktiviert werden, desto schwerer ist die Berechnung. Teile komplexe Materialien nach Möglichkeit mit einem separaten Shader in ein anderes Texturset auf. Wenn Versatz aktiviert ist, achten Sie auf den Parameter &quot;Tessellation&quot;.
 
 +++
 

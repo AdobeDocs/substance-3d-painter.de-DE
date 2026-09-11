@@ -24,7 +24,7 @@ Unter Windows [Blue Screens of Death (BSOD)](https://en.wikipedia.org/wiki/Blue_
 
 ## Instabile GPU-Treiber
 
-Substance 3D Painter ist bei der Durchführung der verschiedenen Berechnungen stark auf die GPU angewiesen. GPU-Treiber können manchmal instabil sein oder eine Regression aufweisen. Wir empfehlen, die GPU auf dem neuesten Stand zu halten, um die neuesten Korrekturen und Leistungsverbesserungen zu erhalten. Siehe: [GPU hat veraltete Treiber](../gpu-issues/gpu-has-outdated-drivers.md).
+Substance 3D Painter verlässt sich bei der Ausführung seiner verschiedenen Berechnungen stark auf die GPU. GPU-Treiber können manchmal instabil sein oder eine Regression aufweisen. Wir empfehlen, die GPU auf dem neuesten Stand zu halten, um die neuesten Korrekturen und Leistungsverbesserungen zu erhalten. Siehe: [GPU hat veraltete Treiber](../gpu-issues/gpu-has-outdated-drivers.md).
 
 ### Instabile Windows-Installation
 
@@ -54,7 +54,7 @@ Weitere Informationen zu diesem Thema unter:  [Verwenden Sie das Systemdatei-Üb
 
 ### Mangel an Festplattenspeicher
 
-Seit der Einführung von [Spare Virtual Textures](../../../features/sparse-virtual-textures.md) in Substance 3D Painter verwendet die Anwendung jetzt den Datenträger, um Texturen während der Arbeit zwischenzuspeichern. Wenn auf dem System nicht mehr genügend Speicherplatz zur Verfügung steht, kann dies zu Instabilitäten führen.
+Seit der Einführung der [Dünn besetzte virtuelle Texturen](../../../features/sparse-virtual-textures.md) in Substance 3D Painter verwendet die Anwendung den Datenträger jetzt, um Texturen während der Arbeit zwischenzuspeichern. Wenn auf dem System nicht mehr genügend Speicherplatz zur Verfügung steht, kann dies zu Instabilitäten führen.
 
 Es gibt zwei einfache Lösungen für dieses Problem:
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
 breadcrumb-title: ''
-description: Hier erfahren Sie, wie Sie in Substance 3D Painter Stifte und Tablets für eine optimale Druckempfindlichkeit und Zeichenerfahrung konfigurieren.
+description: Erfahren Sie, wie Sie Stift und Tablets in Substance 3D Painter für eine optimale Druckempfindlichkeit und Zeichenerfahrung konfigurieren.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Configuring Pens and Tablets
 helpx_experience_level: ""
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 # Konfigurieren von Stiften und Tablets
 
-Auf dieser Seite finden Sie mehrere Empfehlungen zur Konfiguration eines Grafiktablettstifts unter Windows, um die Kompatibilität mit der Anwendung zu verbessern.
+Auf dieser Seite finden Sie mehrere Empfehlungen zur Konfiguration eines Grafiktablett-Stifts unter Windows, um die Kompatibilität mit der Anwendung zu verbessern.
 
 ## Was ist Windows Ink?
 
-Windows Ink ist eine Software/ein Dienst, die Stifte wie Stifte oder Stifte von Grafiktabletts verarbeitet. Es bietet verschiedene Anwendungen wie Notizen und Skizzenblock, um mit einem Stift auf dem Computer zu interagieren.
+Windows Ink ist eine Software/ein Dienst, die/der Stift wie Stift oder Stift von Grafiktabletts verarbeitet. Es bietet verschiedene Anwendungen wie Notizen und Skizzenblock, um mit einem Stift auf dem Computer zu interagieren.
 
 Seit der Version 2019.3 ist die Anwendung für Grafiktabletts darauf angewiesen. Vor dieser Version wurde stattdessen Wintab verwendet (älterer Dienst, der nicht von allen Grafiktablett-Modellen unterstützt wird).
 
 ## Aktivieren von Windows Ink in Tablet-Treibereinstellungen
 
-Um sicherzustellen, dass der Stiftdruck richtig erkannt wird, muss Windows Ink in den Treibereinstellungen des Grafiktabletts aktiviert sein.
+Um sicherzustellen, dass der Stift richtig erkannt wird, muss Windows Ink in den Treibereinstellungen des Grafiktabletts aktiviert sein.
 
 >[!NOTE]
 >
-> Windows Ink wird auf virtuellen Computern nicht unterstützt, daher werden Grafiktablett-Ereignisse nicht an die Anwendung weitergeleitet. Der Stiftdruck wird daher in dieser Konfiguration nicht unterstützt.
+> Windows Ink wird auf virtuellen Computern nicht unterstützt, daher werden Grafiktablett-Ereignisse nicht an die Anwendung weitergeleitet. Der Stift wird daher in dieser Ausgestaltung nicht unterstützt.
 
 ### Aktivieren von Windows Ink für Wacom-Tablets
 
@@ -61,7 +61,7 @@ Um sicherzustellen, dass der Stiftdruck richtig erkannt wird, muss Windows Ink i
 
 1. Öffnen Sie das Menü **Start**.
 1. Geben Sie **Huion Tablet** ein, und klicken Sie auf das erste Suchergebnis.
-1. Klicken Sie im Fenster **Huion Tablet** auf **Digital Pen** .\
+1. Klicken Sie im Fenster **Digitales Tablet** auf **Digitaler Stift** .\
    ![](../assets/huion-pen-settings.png)
 1. Vergewissern Sie sich links unten im Fenster, dass **Windows Ink aktivieren** aktiviert ist.\
    ![](../assets/huion-pen-winink.png)
@@ -91,16 +91,16 @@ Im Folgenden finden Sie die Windows Ink-Einstellungen und die empfohlene Konfigu
 > * **Kreis** beim Rechtsklick.
 > * **QuickInfo** unter der Maus beim Drücken eines Tastenmodifikators (Strg, Alt oder Umschalt).
 
-### Zeichenstift-Einstellungen
+### Einstellungen für Stift
 
 ![](../assets/ink-settings-main.png)
 
 | ***Einstellung*** | ***Beschreibung*** |
 | --- | --- |
-| **Wählen Sie die Hand aus, mit der geschrieben werden soll** | Empfohlen:  **Rechte Hand** Diese Einstellungen steuern, wie die Stiftausrichtung erkannt wird. Wenn Sie diese Einstellung auf &quot;Linke Hand&quot; festlegen, kann es beim Anpassen von Parametern zum Einfrieren der Benutzeroberfläche kommen. |
-| **Visuelle Effekte anzeigen** | Empfohlen:  **Deaktiviert** Diese Einstellungen steuern visuelle Effekte, die während verschiedener Zeichenstift-Interaktionen angezeigt werden. Wenn du die Option deaktivierst, kannst du den Effekt &quot;Kreis und Lücke schließen&quot; ausblenden, wenn du klickst: <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/windows-pen-ripple-circle.jpg"/></div> |
+| **Wählen Sie die Hand aus, mit der geschrieben werden soll** | Empfohlen:  **Rechte Hand** Diese Einstellungen steuern, wie die Ausrichtung des Stifts erkannt wird. Wenn Sie diese Einstellung auf &quot;Linke Hand&quot; festlegen, kann es beim Anpassen von Parametern zum Einfrieren der Benutzeroberfläche kommen. |
+| **Visuelle Effekte anzeigen** | Empfohlen:  **Deaktiviert** Diese Einstellungen steuern die Visual Effects, die während der Interaktion mit verschiedenen Stiften angezeigt werden. Wenn du die Option deaktivierst, kannst du den Effekt &quot;Kreis und Lücke schließen&quot; ausblenden, wenn du klickst: <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/windows-pen-ripple-circle.jpg"/></div> |
 | **Zeiger anzeigen** | Empfohlen:  **Deaktiviert** |
-| **Verwenden des Stifts als Maus in einigen Desktop-Anwendungen** | Empfohlen:  **Aktiviert** Mit diesen Einstellungen kann der Grafiktablettstift normale Mauseingaben senden. Wenn diese Einstellung deaktiviert ist, kann dies zu Interaktionsproblemen mit UI-Parametern führen. |
+| **Ich möchte meinen Stift in einigen Desktop-Applikationen als Maus verwenden** | Empfohlen:  **Aktiviert** Mit diesen Einstellungen kann der Grafiktablett-Stift normale Mauseingaben senden. Wenn diese Einstellung deaktiviert ist, kann dies zu Interaktionsproblemen mit UI-Parametern führen. |
 
 ### Handschrifteneinstellungen
 
@@ -110,11 +110,11 @@ Im Folgenden finden Sie die Windows Ink-Einstellungen und die empfohlene Konfigu
 | --- | --- |
 | **Schriftgröße beim direkten Schreiben in das Textfeld** | Empfohlen:  **Mittel (Standard)** |
 | **Schriftart bei Verwendung von Handschrift** | Empfohlen:  **Segoe-Benutzeroberfläche (Standard)** |
-| **Wenn ich mit dem Stift auf ein Textfeld tippe, geben Sie den Text manuell ein** | Empfohlen:  **Nur im Tablet-Modus** Diese Einstellungen steuern, wie und wann das Eingabefenster für Handschrifttext angezeigt wird. Wenn diese Option nicht auf &quot;Nur im Tablet-Modus&quot; eingestellt ist, wird das Fenster jedes Mal angezeigt, wenn ein Textfeld in der Benutzeroberfläche ausgewählt wird. Zum Beispiel, wenn Sie einen bestimmten Wert in einen Schieberegler eingeben. |
-| **Verwenden des Stifts als Maus in einigen Desktop-Anwendungen** | Empfohlen:  **Aktiviert** Mit diesen Einstellungen kann der Grafiktablettstift normale Mauseingaben senden. Wenn diese Einstellung deaktiviert ist, kann dies zu Interaktionsproblemen mit UI-Parametern führen. |
+| **Wenn ich mit meinem Stift auf ein Textfeld tippe, geben Sie den Text manuell ein** | Empfohlen:  **Nur im Tablet-Modus** Diese Einstellungen steuern, wie und wann das Eingabefenster für Handschrifttext angezeigt wird. Wenn diese Option nicht auf &quot;Nur im Tablet-Modus&quot; eingestellt ist, wird das Fenster jedes Mal angezeigt, wenn ein Textfeld in der Benutzeroberfläche ausgewählt wird. Zum Beispiel, wenn Sie einen bestimmten Wert in einen Schieberegler eingeben. |
+| **Ich möchte meinen Stift in einigen Desktop-Applikationen als Maus verwenden** | Empfohlen:  **Aktiviert** Mit diesen Einstellungen kann der Grafiktablett-Stift normale Mauseingaben senden. Wenn diese Einstellung deaktiviert ist, kann dies zu Interaktionsproblemen mit UI-Parametern führen. |
 | **Mit der Fingerspitze in das Handschriftenfeld schreiben** | Empfohlen:  **Deaktiviert** |
 
-### Einstellungen für Zeichenstift-Tastaturbefehle
+### Einstellungen für Stift-Tastaturbefehle
 
 ![](../assets/ink-settings-pen.png)
 
@@ -122,26 +122,26 @@ Im Folgenden finden Sie die Windows Ink-Einstellungen und die empfohlene Konfigu
 | --- | --- |
 | **Einmal klicken** | Empfohlen:  **Nichts** |
 | **Doppelklicken auf** | Empfohlen:  **Nichts** |
-| **Drücken und Halten (wird nur bei einigen Stiften unterstützt)** | Empfohlen:  **Nichts** |
-| **Apps das Überschreiben der Verknüpfungsschaltfläche erlauben (Verhalten)** | Empfohlen:  **Aktiviert** |
+| **Drücken und Halten (wird nur auf einigen Stiften unterstützt)** | Empfohlen:  **Nichts** |
+| **Überschreiben der Tastaturbefehl-Schaltfläche durch Apps zulassen** | Empfohlen:  **Aktiviert** |
 | **Wenn verfügbar, Arbeitsbereich &quot;Tinte&quot; anzeigen, nachdem ich meinen Stift aus dem Speicher entfernt habe** | Empfohlen:  **Deaktiviert** |
 
-## So greifen Sie auf Zeichenstift- und Touch-Einstellungen zu
+## Stift- und Touch-Einstellungen aufrufen
 
-Auf die Einstellungen für Stift und Touch kann über die Systemsteuerung zugegriffen werden:
+Auf die Stift- und Touch-Einstellungen können Sie in der Systemsteuerung zugreifen:
 
 1. Öffnen Sie das Menü **Start**.
 1. Geben Sie **Systemsteuerung** ein, und klicken Sie auf das erste Suchergebnis.
 1. Wechseln Sie im Anzeigemodus der Systemsteuerung **&#x200B;**&#x200B;zum **kleinen Symbol** .\
    ![](../assets/control-panel-display-mode.png)
-1. Klicken Sie auf **Zeichenstift- und Touch**-Einstellungen.\
+1. Klicken Sie auf die Einstellungen &quot;**Stift&quot; und &quot;Touch**&quot;.\
    ![](../assets/control-panel-pen-touch-settings.png)
 
 ## Empfohlene Stift- und Touch-Einstellungen
 
-Die folgenden Einstellungen werden empfohlen, um das Malverhalten und die Kamerabewegung zu verbessern.
+Die folgenden Einstellungen werden empfohlen, um das Malverhalten und die Bearbeitung der Kamera zu verbessern.
 
-Um auf die Einstellungen zuzugreifen, klicken Sie im Fenster auf eine der **Aktionen zum Öffnen** und dann auf die Schaltfläche **Einstellungen**.
+Um auf die Einstellungen zuzugreifen, klicken Sie auf eine der **Stift-Aktionen** im Fenster und dann auf die Schaltfläche **Einstellungen**.
 
 ![](../assets/control-panel-settings.png)
 
@@ -150,5 +150,5 @@ Um auf die Einstellungen zuzugreifen, klicken Sie im Fenster auf eine der **Akti
 | **Einfaches Tippen** | Keine Parameter. |
 | **Doppeltippen** | Empfohlen:  **Standardwerte.** |
 | **Drücken und halten** | Empfohlen:  **Deaktivieren Sie die Einstellung &quot;Drücken und Halten für Rechtsklick aktivieren&quot;** Wenn Sie diese Einstellung deaktivieren, können Sie jedes Element normal ziehen, ohne den Windows-Ziehkreis zu aktivieren: <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/windows-pen-drag-circle.jpg"/></div> |
-| **Verwenden Sie die Schaltfläche &quot;Öffnen&quot; als Äquivalent mit der rechten Maustaste** | Empfohlen:  **Aktiviert** |
-| **Verwenden Sie die Oberseite des Stifts, um die Druckfarbe zu löschen (sofern verfügbar)** | Empfohlen:  **Aktiviert** |
+| **Verwenden Sie die Schaltfläche &quot;Stift&quot; als Entsprechung mit der rechten Maustaste** | Empfohlen:  **Aktiviert** |
+| **Verwenden Sie den oberen Rand des Stifts, um Freihandeingaben zu löschen (sofern verfügbar)** | Empfohlen:  **Aktiviert** |

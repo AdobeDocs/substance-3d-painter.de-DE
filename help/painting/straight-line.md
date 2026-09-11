@@ -24,18 +24,18 @@ ht-degree: 0%
 
 Die Gerade Linie ist eine einfache Möglichkeit, eine Linie mit einem beliebigen Malwerkzeug mit weniger Klicks und mehr Präzision zu zeichnen.
 
-Es handelt sich um eine Änderung, die mithilfe eines Tastaturbefehls vorübergehend angewendet wird.
+Es handelt sich um eine Modifikation, die mithilfe eines Tastatur-Tastaturbefehl temporär angewendet wird.
 
-Die Position der geraden Linie wird vom Viewport aus berechnet, was bedeutet, dass die Kamera beim Verschieben zwischen den Pinselstrichen möglicherweise falsch positioniert wird.
+Die Geradposition wird aus dem Viewport berechnet, was bedeutet, dass die Kamera falsch positioniert werden kann, wenn sie zwischen den Pinselstrichen bewegt wird.
 
 ## Aktivieren der Geraden
 
-Wenn du die Umschalttaste drückst, während das Malwerkzeug ausgewählt ist, erscheinen gepunktete Linien, die den Pfad anzeigen, dem das Malwerkzeug folgt. Wenn die Umschalttaste gedrückt wird, wird die Linie durch Klicken auf eine beliebige Stelle gezeichnet.
+Wenn du die Umschalttaste drückst, während das Malen-Werkzeug aktiviert ist, erscheinen gepunktete Linien, die den Pfad angeben. Wenn die Umschalttaste gedrückt wird, wird die Linie durch Klicken auf eine beliebige Stelle gezeichnet.
 
 ![](../assets/straight-line-optim.gif){width="400px"}
 
-## Ausrichten einer geraden Linie
+## Einrasten Gerade
 
-Zusätzlich zu &quot;Umschalt&quot; ist es möglich, auch &quot;Strg&quot; zu drücken, um die gerade Linie alle 5 Grad auszurichten.
+Zusätzlich zu &quot;Umschalt&quot; können Sie auch &quot;Strg&quot; drücken, um die Geraden alle 5 Grad einrasten.
 
 ![](../assets/straight-line-snap-optim.gif){width="400px"}

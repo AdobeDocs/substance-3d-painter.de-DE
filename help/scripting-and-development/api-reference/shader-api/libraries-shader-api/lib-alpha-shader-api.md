@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
 breadcrumb-title: ''
-description: Greifen Sie auf die Lib Alpha Shader-API-Referenz für Substance 3D Painter zu, um mit Alphakanälen und Transparenz in benutzerdefinierten Shadern zu arbeiten.
+description: Greifen Sie auf die Shader-API-Referenz zu Lib Alpha für Substance 3D Painter zu, um mit Alphakanälen und Transparenz in benutzerdefinierten Shadern zu arbeiten.
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Alpha - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-random.glsl
 ```
 
 
-Deckkraftkarte, vom Motor geliefert.
+Deckkraftkarte, vom Engine bereitgestellt.
 
 ```
 //: param auto channel_opacity 
@@ -61,7 +61,7 @@ uniform float alpha_threshold;
 ```
 
 
-Alpha-Test-Dithering.
+Alpha Test Dithering.
 
 ```
 //: param custom { 
@@ -78,7 +78,7 @@ uniform bool alpha_dither;
 ```
 
 
-Alphatest emulieren: Aktuelles Fragment verwerfen, wenn seine Deckkraft unter einem benutzerdefinierten Schwellenwert liegt. Sollte AFTER-Textursampling-Aufrufe heißen: er kann Derivate zerschlagen
+Alphatest emulieren: Aktuelles Fragment verwerfen, wenn seine Deckkraft unter einem benutzerdefinierten Schwellenwert liegt. Nach Textur-Sampling-Aufrufen aufrufen: er kann Derivate zerschlagen
 
 ```
 void alphaKill(float alpha) 

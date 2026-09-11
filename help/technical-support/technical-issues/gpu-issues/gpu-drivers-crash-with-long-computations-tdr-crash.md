@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Abstürze von GPU-Treibern während langer Berechnungen in Substance 3D Painter beheben können, um TDR-Zeitüberschreitungsfehler zu vermeiden.
+description: Erfahren Sie, wie Sie GPU-Treiber-Absturz während langer Berechnungen in Substance 3D Painter beheben können, um TDR-Zeitüberschreitungsfehler zu vermeiden.
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: GPU-Treiber stürzen mit langen Berechnungen ab (TDR-Absturz)
+title: GPU-Treiber Absturz mit langen Berechnungen (TDR-Absturz)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# GPU-Treiber stürzen mit langen Berechnungen ab (TDR-Absturz)
+# GPU-Treiber Absturz mit langen Berechnungen (TDR-Absturz)
 
 ![TDR-Warnung in Substance 3D Painter](../../../assets/tdr-window-v2.png "TDR-Warnung in Substance 3D Painter"){zoomable="yes"}
 
@@ -28,7 +28,7 @@ Unter Windows wird dieses Fenster angezeigt, wenn Substance 3D Painter erkennt, 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Warum stürzt der GPU-Treiber ab?
+## Warum wird der GPU-Treiber Absturz?
 
 </td>
 <td style="border: 0;" valign="top">
@@ -44,9 +44,9 @@ Unter Windows wird dieses Fenster angezeigt, wenn Substance 3D Painter erkennt, 
 </tr>
 </table>
 
-## Warum stürzt der GPU-Treiber ab?
+## Warum wird der GPU-Treiber Absturz?
 
-Um zu verhindern, dass das System **durch Rendering oder GPU-Berechnung** blockiert wird, beendet das Windows-Betriebssystem **den GPU-Treiber**, wenn das Rendern mehr als einige Sekunden dauert. Wenn der Treiber beendet wird, stürzt die Anwendung, die ihn verwendet, automatisch ab. Es ist nicht möglich zu wissen, wie lange eine Rendering-Aufgabe oder eine Berechnung dauern kann (es hängt von der GPU, den Treibern, dem Betriebssystem, der Maschengröße, der Texturgröße usw. ab), daher ist es nicht möglich, die Verarbeitungsdauer des Computers zu begrenzen und den Absturz von der Anwendungsebene aus zu vermeiden.
+Um zu verhindern, dass das System **durch Rendering oder GPU-Berechnung blockiert wird** tötet das Windows-Betriebssystem **den GPU-Treiber**, wenn das Rendern mehr als einige Sekunden dauert. Wenn der Treiber beendet wird, wird die Anwendung, die ihn verwendet, automatisch Absturz. Es ist nicht möglich zu wissen, wie lange eine Rendering-Aufgabe oder eine Berechnung dauern kann (es hängt von der GPU, den Treibern, dem Betriebssystem, der Computergröße, der Computergröße, der Textur usw. ab), daher ist es nicht möglich, die Verarbeitungsdauer des Meshs zu begrenzen und den Absturz von der Anwendungsebene aus zu vermeiden.
 
 Unter Windows gibt es eine **Registrierung** **Schlüssel**, die angibt, wie lange das Betriebssystem warten soll, bevor der GPU-Treiber beendet wird. Anwendungen sind nicht berechtigt, diese Einstellung direkt zu ändern, dieses Verfahren muss manuell durchgeführt werden (siehe unten).
 
@@ -143,7 +143,7 @@ Der rechte Bereich sollte nun so aussehen:
 
 Der TdrValue wird nur beim Starten des Computers überprüft, sodass ein Neustart erforderlich ist, um eine Aktualisierung zu erzwingen.
 
-Wenn die Anwendung bei einer langen Berechnung immer noch abstürzt, versuchen Sie, die Verzögerung (in Sekunden) von 60 auf 120 zu erhöhen.
+Wenn die Anwendung bei einer langen Berechnung immer noch Absturz macht, versuchen Sie, die Verzögerung (in Sekunden) von 60 auf 120 zu erhöhen.
 
 ## TDR-Werte auf Standardwerte zurücksetzen
 
