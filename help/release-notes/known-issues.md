@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/know-issues.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
+breadcrumb-title: ""
 description: Informieren Sie sich über bekannte Probleme bei Substance 3D Painter , um über die aktuellen Einschränkungen und Problemumgehungen in der neuesten Version auf dem Laufenden zu bleiben.
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
@@ -8,42 +8,44 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Bekannte Probleme
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # Bekannte Probleme
 
-Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.3 von Substance 3D Painter aufgeführt:
+Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Substance 3D Painter aufgeführt:
 
 * `[Baking]` Falsche AO bei einfachen Würfeln
 * `[Baking]` Die Interpretation des Namensuffixes stimmt nicht überein.
 * `[Baking]` UV-Nähte werden nach dem erneuten Importieren von Mes nicht angezeigt
-* `[Baking]` Rasterähnliche Artefakte mit einigen Einstellungen
-* `[Baking]` Umgebungsvariable &quot;Rückfläche nach Netznamen ignorieren&quot; funktioniert nicht.
-* `[Baking]` `[AMD]` Gerät verloren beim Backen mit einem hohen Poly-Gitter
+* `[Baking]` Raster-ähnliche Artefakte mit einigen Einstellungen
+* `[Baking]` Ambient occlusion Rückseitenignorierung nach Mesh funktioniert nicht
+* `[Baking]` `[AMD]` Gerät beim Baking führ mit einem hohen Poly-Mesh verloren
 
 * `[Substance]` Mehrere Rechtschreibfehler in Ressourcen
 * `[Substance]` Bedingung für leere Leerraumunterbrechungen für Sichtbarkeit
 * Das Laden von `[Substance]`-Vorgaben für einige Materialien dauert zu lange
 * `[Substance]` Ressource mit gemischten Verwendungen kann nicht importiert werden.
 
-* `[Engine]` Fehler bei Verwendung von Smart-Materialien, wenn der Textursatz keine Kachel 1001 aufweist
-* `[Engine]` Malen mit dem Kopierwerkzeug in normalen Kanalverschiebungsfarben falsch
-* `[Engine]` Geometriemaske zeigt Artefakte an UV-Rändern mit instanzierten Ebenen
+* `[Engine]` Fehler bei der Verwendung von Intelligenten Materialien, wenn der Textursatz keine Kachel 1001 hat
+* `[Engine]` Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* `[Engine]`-Geometriemaske zeigt Artefakte an UV-Rändern mit instanzierten Ebenen.
 
 * `[Color Management]` Inkompatible Bindungen mit Generator werden nicht in der Maske verwendet
 * `[Color Management]` Filterausgabe wird nicht ordnungsgemäß berücksichtigt.
-* `[Color Management]` HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen eingeklemmte Farben
+* `[Color Management]` HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen eingeklemmte Farben
+
+* `[USD]` Falsche Benutzerzuweisung in einigen Fällen
+* `[USD]` Die exportierte USD wird entlang der UV-Ränder verschoben.
+* `[USD]` Einfrieren beim Laden von falsch formatiertem USDz
 
 * `[Shelf]` Ressourcen erhalten die falsche Verwendung, wenn sie in einen Ordner mit einem bestimmten Namen platziert werden
-* `[Shelf]` `[Substance]` Benutzerdaten werden für die Generierung von Miniaturansichten in der Ablage nicht berücksichtigt
+* `[Shelf]` `[Substance]` Benutzerdaten werden für die Generierung von Regal-Miniaturansichten nicht berücksichtigt
 
 * `[Shader]` Parameter &quot;camera_vp_matrix_inverse&quot; wird nicht erkannt.
 * `[Shader]` Benutzer0-Kanal kann mit einem bestimmten Shader immer nicht als sRGB gelesen werden.
@@ -51,13 +53,13 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.3 von Su
 * `[Scripting]` `[Javascript]` Tippfehler &quot;deaktiviert&quot; beim Festlegen des Dithering-Parameters in Exportfunktionen
 * `[Scripting]` `[Python]` Verschiedene Tippfehler im Modul substance_painter.project
 
-* `[USD]` Falsche Benutzerzuweisung in einigen Fällen
-* `[USD]` Die exportierte USD wird entlang der UV-Ränder verschoben.
+* `[Path]` Height-Überblendung vieler Pfade kann Artefakte verursachen
+* `[Path]` Problem mit der Sichtbarkeit der blauen Quadrate
 
 * Das in der Grundfarbe-Ansicht gespeicherte Projekt &quot;`[Single Channel View]`&quot; sieht nach dem Versionsupdate von Painter dunkler aus
 * Das in der Grundfarbe-Ansicht gespeicherte Projekt &quot;`[Single Channel View]`&quot; sieht nach dem Versionsupdate von Painter dunkler aus
 
-* `[gltf]` Dateien, die über Babylon Exporter exportiert wurden, können nicht geöffnet werden
+* `[gltf]` Dateien, die über Babylon Exporter exportiert wurden, können nicht geöffnet werden.
 * `[Displacement]` Störung beim Malen
 * `[Polygon Fill Tool]` Falsche Auswahl mit Symmetrie
 * `[2D view]` Striche werden beim Malen manchmal nicht angezeigt
@@ -71,9 +73,9 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.3 von Su
 * `[Anchor point]` Fehlerhafte Verweise beim Kopieren und Einfügen von Maskeninhalten
 * `[Mesh export]` Die Namen neuer Textursatz werden nicht berücksichtigt.
 * `[Anchor Points]` Falsche Farbe bei Verwendung im Generator
-* `[Bakers]` ID-Map-Baker berücksichtigt kein physisches Material der 3ds Max 2021-Version
+* `[Bakers]` ID Map Baker berücksichtigt kein physisches Material vom Typ 3ds Max 2021
 * `[UV Tiles]` Keine Fehlermeldung beim Überlappen von UV-Leerzeichen mit einem bestimmten Mesh
-* `[GLTF]` `[Crash]` Das Erstellen eines Projekts mit einer komprimierten GLTF-Datei verursacht einen Absturz
+* `[GLTF]` `[Crash]` Das Erstellen eines Projekts mit einer komprimierten GLTF-Datei führt zu einem Absturz
 * `[UV Tile sequence]` Positionszuordnungen werden nicht korrekt importiert
 * Die `[UVTiles]`-Height-Kombinationsmaske wird nicht mit der UV-Kachel aktualisiert.
 * `[Import]` Die OBJ-Datei mit &quot;nan&quot;-Werten kann nicht importiert werden.
@@ -93,11 +95,12 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.3 von Su
 * `[User Channels]` Vorschau des Farbmischraums ist falsch
 * Die Geometrieauswahl &quot;`[Mask]`&quot; ist nach dem Wechsel in den Baking-Modus noch aktiv.
 * `[Sonoma]` Symbole werden nicht in Menüs angezeigt
-* `[Path]` Height-Überblendung vieler Pfade kann Artefakte verursachen
 * `[Polygon Fill]` Durch Ändern des Farbraums der Grundfarbe wird die Farbauswahl nicht aktualisiert
 * `[UV Padding]` Artefakte beim Hochskalieren der Textur von 4k auf 8k beim Export
 * `[Performances]` Painter VRAM Verwendung
-* `[Generator]` Durch die Einstellung &quot;Textur verwenden&quot; auf &quot;false&quot; wird die Verwendung der Textur-Eingabe nicht deaktiviert
+* `[FBX]` Größenprobleme
+* `[Texture set list]` UV-Kacheln können gleichzeitig mit einem Textursatz ausgewählt werden.
+* `[Viewport]` Cursor-Verzögerung am unteren Rand des Viewports im Baking-Modus
 * Nicht quadratische Ressourcen werden gedehnt, wenn sie in den Steckplätzen des Pinselkanals verwendet werden
 * Substanz konnte nicht decodiert werden
 * Nicht perfekt überlagerte UVs können Artefakte erzeugen
@@ -116,8 +119,6 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.3 von Su
 * Pinselparameter, die von der kontextabhängigen Symbolleiste geändert werden, werden im Verlauf nicht angezeigt
 * Exportvorgaben können nicht umbenannt oder gelöscht werden, wenn Sie sie in dieser Sitzung bereits gelöscht und neu erstellt haben
 * Kanalzuordnung funktioniert in einigen Fällen nicht für die Vorschau des Projektion-Tools
-* Einfrieren des Viewports beim Speichern während der Bearbeitung der 3D-Projektion
-* Material-Ebenenauflösung ist zu niedrig
 
 ## Stabilität
 
