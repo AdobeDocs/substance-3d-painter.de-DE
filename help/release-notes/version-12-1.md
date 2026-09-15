@@ -16,7 +16,7 @@ Freigabedatum: <b>22. Juni 2026</b>
 
 >[!NOTE]
 >
-> Diese Version erhöht die mindestens unterstützte macOS-Version auf 13.0 (Ventura). Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
+> Diese Version erhöht die mindestens unterstützte macOS-Version auf 13.0 (Ventura). Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
@@ -257,7 +257,7 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserun
 * [OpenPBR] Exportieren von OpenPBR-Materials und -Texturen über USD
 * [OpenPBR] Fenster &quot;Export-Texturen aktualisieren&quot;, um die Namenskonvention für OpenPBR anzuzeigen
 * [OpenPBR] Hinzufügen von Dokumentationen zu Änderungen an der Support-OpenPBR
-* [OpenPBR][Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen.
+* [OpenPBR]&#x200B;[Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen.
 * Mehrere geringfügige Verbesserungen bei USD Exporten
 * [UI] Hinzufügen einer Warnung im Viewport beim Malen auf einem anderen Textursatz
 * [Reduzieren] Reduzieren aller instanzierten Ebenen über Textursatz hinweg zulassen
@@ -276,14 +276,14 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserun
 
 <b>Fest</b>:
 
-* [Absturz][Mesh-Map-Einstellungen] Einstellungen auf andere Textursatz anwenden
+* [Absturz]&#x200B;[Mesh-Map-Einstellungen] Einstellungen auf andere Textursatz anwenden
 * [Absturz] Wenn die Krümmung von der Karte ohne den Weltraum normal gebacken wird
-* [Absturz][Backen] Backen mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl stürzt ab
+* [Absturz]&#x200B;[Backen] Backen mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl stürzt ab
 * [Absturz] Abbrechen des AO-Backens
 * [Auto-Cage] Unendliche Belastung, wenn der hohe Poly-Dateipfad ungültig ist
-* [Linux][Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
+* [Linux]&#x200B;[Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
 * [Polygon-Füllwerkzeug] Das Werkzeug funktioniert nicht mit Nicht-PBR
-* [[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
+* &lbrack;[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
 * [USD] Shader-Instanzen werden nicht alle korrekt erkannt.
 * [Substance] Es wird nur die erste Verwendung eines Eingabe-/Ausgabeknotens berücksichtigt
 * [Shader] Umgebungsbelichtung wird zweimal mit Textur-Sets unter Verwendung verschiedener Mischmethoden angewendet.
