@@ -2,13 +2,11 @@
 title: Version 12.1
 description: Versionshinweise zu Version 12.1
 helpx_description: Substance 3D Painter
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1790'
 ht-degree: 0%
-
 ---
-
 
 # Version 12.1
 
@@ -120,7 +118,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
   Nach der Einführung von OpenPBR können Sie in einem neuen Fenster, auf das über die <b>Kanaleinstellungen</b> zugegriffen werden kann, mehrere Textursätze gleichzeitig auswählen. Dies ist praktisch, wenn Sie die vom OpenPBR-Workflow verwendete große Kanalliste einrichten möchten.
 
-  * Das neue Fenster ist über die Schaltfläche <b>Kanäle hinzufügen oder entfernen</b> in den Einstellungen für den Textursatz verfügbar.
+  * Auf das neue Fenster kann über die Schaltfläche <b>Textursätze hinzufügen oder entfernen</b> in den Kanaleinstellungen zugegriffen werden.
 
     ![](../assets/v12/v12_channel_add_remove_button.png)
 
@@ -132,15 +130,15 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
     ![](../assets/v12/v12_channel_apply_all.png)
 
-* <b>Alle Instanzen der Textursätze reduzieren</b>
+* <b>Alle Instanzen zwischen Textursätzen reduzieren</b>
 
-  Eine neue Option <b>Alle Instanzen reduzieren</b> ist für instanzierte Ebenen und Gruppen verfügbar. Es erzeugt ein abgeflachtes Ergebnis über jeden Textursatz, in dem die Instanz angezeigt wird, und geht den gesamten Instanzbaum nach unten. Dies wird als ein einziger Schritt rückgängig gemacht.
+  Eine neue Option <b>Alle Instanzen reduzieren</b> ist für instanzierte Ebenen und Gruppen verfügbar. Das Ergebnis wird auf alle Textursatz, auf denen die Instanz angezeigt wird, abgeflacht und in der gesamten Instanzenstruktur nach unten verschoben. Der Vorgang wird als einzelner Rückgängig-Schritt aufgezeichnet.
 
   ![](../assets/v12/v12_flatten_instances.png)
 
 * <b>Einheitlicher Rückgängig-Verlauf</b>
 
-  Backen und Malen haben jetzt denselben Verlauf zum Rückgängigmachen. Das Umschalten zwischen dem Baking- und dem Malen-Modus wird als Schritt zum Rückgängigmachen aufgezeichnet. Aktionen können daher nur in dem Modus rückgängig gemacht werden, in dem sie ausgeführt wurden.
+  Baking- und Malmodi nutzen jetzt denselben Verlauf zum Rückgängigmachen. Das Umschalten zwischen dem Baking- und dem Malen-Modus wird als Schritt zum Rückgängigmachen aufgezeichnet. Aktionen können daher nur in dem Modus rückgängig gemacht werden, in dem sie ausgeführt wurden.
 
 ## Tutorials
 
@@ -150,6 +148,29 @@ Sehen Sie sich unser neuestes Tutorial auf YouTube an:
 
 ## Versionshinweise
 
+### 12.1.5
+
+Freigabedatum: **2026/09/15**
+
+Zusammenfassung: **Nebenversion**
+
+**Fest:**
+
+* Das Exportieren eines Bildes aus einem Regal in ein Netzwerk funktioniert nicht mehr
+* [Generator] Die Einstellung &quot;Textur verwenden&quot; auf &quot;false&quot; deaktiviert nicht die Verwendung der Textur-Eingabe.
+* Einfrieren des Viewports beim Speichern während der Bearbeitung der 3D-Projektion
+* Material-Ebenenauflösung ist zu niedrig
+
+### 12.1.4
+
+Freigabedatum: **2026/09/04**
+
+Zusammenfassung: **Nebenversion**
+
+**Fest:**
+
+* [Absturz] Absturz beim Importieren oder Exportieren von Dateien, deren Dateinamen Nicht-ASCII-Zeichen enthalten
+
 ### 12.1.3
 
 Freigabedatum: **2026/08/25**
@@ -158,13 +179,13 @@ Zusammenfassung: **Nebenversion**
 
 **Hinzugefügt:**
 
-* Aktualisieren der Substance-Engine auf Version 9.4.6v
+* Aktualisieren des Substance-Engine auf Version 9.4.6v
 
 **Fest:**
 
 * [Graustufenwähler] Die Auswahl bleibt nach dem Ändern des Tools geöffnet
-* [Verkrümmungssicherung] Verkrümmungskorrekturunterbrechungen beim Malen und Rückgängigmachen
-* [Projektionstool] Die Viewport-Interaktion wird vom Projektionstool blockiert
+* [Baking verzerren] Verzerrungskorrektur wird beim Malen und Rückgängigmachen unterbrochen
+* Die Interaktion mit dem [Projektion-Tool]-Viewport wird vom Projektion-Tool blockiert.
 * [Dynamische Kontur] Fehlende dynamische Konturparameter in den Pinseleigenschaften
 * Export in ein Netzwerk funktioniert nicht mehr
 
@@ -177,11 +198,11 @@ Zusammenfassung: **Nebenversion**
 **Fest:**
 
 * \[Absturz\] Einige Substance können beim Rendern zu einem Absturz führen
-* \[Absturz\] Importieren des Gitters im Backmodus
-* \[Absturz\] Fehler beim Initialisieren der Grafikanzeige kann zu einem Absturz führen.
-* \[Absturz\] Exportieren von Texturen kann in einigen Fällen abstürzen, während das Protokoll aktualisiert wird
-* \[Absturz\] Absturz im Backing-Modus in einigen Fällen beim Laden/Aktualisieren der Umgebungszuordnung
-* \[Backen\] Das erneute Starten des Backens nach dem Ändern einer hohen Poly-Datei kann zu einem Einfrieren führen
+* \[Absturz\] Mesh beim Baking erneut importieren
+* \[Absturz\] Fehler bei der Initialisierung der Grafikanzeige kann zu einem Absturz führen.
+* \[Absturz\] Beim Exportieren von Texturen kann in einigen Fällen ein Absturz beim Aktualisieren des Protokolls auftreten.
+* \[Absturz\] Absturz im Baking-Modus in einigen Fällen beim Laden/Aktualisieren der Umgebungs-Map
+* \[Baking\] Das erneute Starten des Baking nach dem Ändern einer Datei mit hohem Poly-Wert kann zu einem Einfrieren führen
 * \[An Photoshop senden\] Fehler beim Exportieren der Ebenenmaske
 * \[Engine\] Das Ergebnis des Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert
 
@@ -201,11 +222,11 @@ Hinzugefügt:
 Fest:
 
 * [Projekt] Das Öffnen und Speichern einiger Projekte kann länger als gewöhnlich dauern
-* [Absturz] Das erneute Laden mehrerer Meshes kann zu einem Absturz führen
-* [Absturz] Das Löschen eines Kanals im Maskenansichtsmodus führt zu einem Absturz
+* [Absturz] Erneutes Laden mehrerer Mesh kann zu einem Absturz führen
+* [Absturz] Löschen eines Kanals im Maskenansichtsmodus führt zu einem Absturz
 * [Absturz] Einige Substance können beim Rendern zu einem Absturz führen
-* [Neigung malen] Das ausgewählte Werkzeug in der Neigung bleibt nach dem Wechsel in den Malmodus ausgewählt
-* [Allgemeine Einstellungen sichern] Einstellungen für die Käfigentfernung aktualisieren die Drahtgitter- und Shader-Visualisierung für Käfige nicht
+* [Malen Skew] Das ausgewählte Tool in Malen Skew bleibt nach dem Wechsel in den Malmodus ausgewählt.
+* [Allgemeine Einstellungen Baking geführt] Käfig-Entfernungseinstellungen aktualisieren die Drahtgitter- und Shader-Visualisierung des Käfigs nicht
 * [Engine] UV-Auffüllmodus &quot;3D Space Neighbor&quot; funktioniert nicht gut bei dünnen Dreiecken
 * Das Ergebnis des [Engine]-Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert
 
@@ -218,34 +239,34 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserun
 <b>Hinzugefügt</b>:
 
 * [Baking Neigen] Malwerkzeuge Neigen
-* [Skew Baking] Hinzufügen von Skew Preview Shader und Skew Direction Vektorgrafiken beim Malen von Skew Map
-* [Skew-Backing] Option &quot;Kantenschutz hinzufügen&quot;
-* [Backen mit Neigung] Automatische Wiederherstellung
-* [Skew Backing] Benutzeroberfläche der Gitterzuordnungs-Liste überarbeiten
-* [Skew Baking] Gitterzuordnung teilen/Allgemeine Backeinstellungen + Allgemeine Einstellungen aus Gitterzuordnungsliste verschieben (nur Grundfarbe oder Maske)
-* [Skew Backing] Symbolleistenschaltflächen für Ansichtsfenster ändern
-* [Schrägbacken] Symmetrie-Schalter für Pinsel in der oberen Symbolleiste anzeigen
-* [Skew Backing] Umbenennungsoptionen im Menü &quot;Listensynchronisation&quot; der Gitterzuordnung
-* [Skew Backing] Dialogfelder &quot;Synchronisation aktualisieren&quot; und &quot;Überwachter Status&quot;
-* [Backen mit Neigung] Erstellen einer Graustufen-Farbwählervariante
-* [Skew Backing] Symbol für Aktualisierungsbackmodus
-* [Automatisch entpacken] Option &quot;Harte Oberfläche integrieren&quot;
+* [Skew-Baking] Hinzufügen von Skew-Vorschau-Shader und Skew-Richtung Vektorgrafiken beim Malen von Skew-Maps
+* [Baking verzerren] Option &quot;Kantenschutz hinzufügen&quot;
+* [Baking neigen] Automatische Wiederherstellung
+* [Skew-Baking] Benutzeroberfläche der Mesh-Map-Liste überarbeiten
+* [Baking verzerren] Mesh-Map teilen / Allgemeine Baking-Einstellungen + Allgemeine Einstellungen aus Mesh-Map-Liste verschieben (nur Grundfarbe oder Maske)
+* [Baking verzerren] Symbolleistenschaltflächen für Viewport ändern
+* [Baking verzerren] Symmetrie für Pinsel in der oberen Symbolleiste anzeigen
+* [Skew-Baking] Umbenennungsoptionen im Menü &quot;Synchronisierung der Mesh-Map-Liste&quot;
+* [Skew-Baking] Dialogfelder &quot;Synchronisation aktualisieren&quot; und &quot;Überwachter Status&quot;
+* [Skew-Baking] Erstellen einer Graustufen-Farbwählervariante
+* [Baking verzerren] Symbol &quot;Baking-Modus aktualisieren&quot;
+* [Automatisch Entpackt] Option zum Integrieren von Festplatten
 * [OpenPBR] Unterstützung für OpenPBR 1.1 hinzufügen
-* [OpenPBR] OpenPBR zum Standard-Workflow und -Shader machen
-* [OpenPBR] Importieren von OpenPBR-Materialien und -Texturen über USD
-* [OpenPBR] Exportieren von OpenPBR-Materialien und -Texturen über USD
-* [OpenPBR] Fenster &quot;Export Textures&quot; aktualisieren, um die OpenPBR-Benennungskonvention anzuzeigen
+* [OpenPBR] OpenPBR zum Standardarbeitsablauf und -Shader machen
+* [OpenPBR] Importieren von OpenPBR-Materials und -Texturen über USD
+* [OpenPBR] Exportieren von OpenPBR-Materials und -Texturen über USD
+* [OpenPBR] Fenster &quot;Export-Texturen aktualisieren&quot;, um die Namenskonvention für OpenPBR anzuzeigen
 * [OpenPBR] Hinzufügen von Dokumentationen zu Änderungen an der Support-OpenPBR
-* [OpenPBR]&#x200B;[Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen
-* Mehrere geringfügige Verbesserungen bei den USD-Exporten
-* [UI] Fügen Sie eine Warnung im Viewport hinzu, wenn Sie versuchen, auf einem anderen Textursatz zu malen
-* [Reduzieren] Reduzieren aller instanzierten Ebenen über Textursätze hinweg zulassen
-* [Einstellungen für Textursatz] Mehrere Kanäle gleichzeitig über ein neues Fenster auswählen
+* [OpenPBR]&#x200B;[Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen.
+* Mehrere geringfügige Verbesserungen bei USD Exporten
+* [UI] Hinzufügen einer Warnung im Viewport beim Malen auf einem anderen Textursatz
+* [Reduzieren] Reduzieren aller instanzierten Ebenen über Textursatz hinweg zulassen
+* [Kanaleinstellungen] Mehrere Textursätze gleichzeitig über ein neues Fenster auswählen
 * [Verlauf] &quot;Wert&quot; aktualisieren Eintragsformulierung rückgängig machen, um den Parameternamen wiederzugeben
 * [Ebenenstapel] Fülleffekte in Masken standardmäßig auf Weiß einstellen (1.0)
-* [Substance] Neue &quot;mesh_hard_edges_triangle&quot;-Engine-Zuordnungseingabe hinzufügen
-* [Substance] Neue Eingabe für die Engine &quot;mesh_hard_edges&quot; hinzufügen
-* [Shader] Verhindern, dass Shader-Instanzen dieselben Namen haben
+* [Substance] Neue Engine-Map-Eingabe &quot;Mesh_hard_edges_triangle&quot; hinzufügen
+* [Substance] Neue Engine-Map-Eingabe &quot;Mesh_harte_Kanten&quot; hinzufügen
+* [Shader] Verhindern von Shader-Instanzen, dieselben Namen zu verwenden
 * [Shader] Verwenden Sie den Shader aus der Projektvorlage beim Importieren einer USD- oder GLTF-Datei.
 * Adobe Color Engine auf Version 7.0 aktualisieren
 * Aktualisieren der MacOSX-Mindestversion auf 13.0 (Ventura)
@@ -255,7 +276,7 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserun
 
 <b>Fest</b>:
 
-* [Absturz]&#x200B;[Einstellungen für Gitterzuordnungen] Anwenden von Einstellungen auf andere Textursätze
+* [Absturz]&#x200B;[Mesh-Map-Einstellungen] Einstellungen auf andere Textursatz anwenden
 * [Absturz] Wenn die Krümmung von der Karte ohne den Weltraum normal gebacken wird
 * [Absturz]&#x200B;[Backen] Backen mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl stürzt ab
 * [Absturz] Abbrechen des AO-Backens
