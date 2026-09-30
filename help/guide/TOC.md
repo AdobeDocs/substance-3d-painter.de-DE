@@ -2,13 +2,11 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 15%
-
+source-wordcount: '1346'
+ht-degree: 14%
 ---
-
 
 # Substance 3D Painter {#using}
 
@@ -69,14 +67,14 @@ ht-degree: 15%
   + Textursatz{#texture-set}
     + [Textursatz - Übersicht](/help/interface/texture-set/texture-set.md)
     + [Textursatz](/help/interface/texture-set/texture-set-list.md)
-    + [Einstellungen für &quot;Textursatz&quot;](/help/interface/texture-set/texture-set-settings.md)
+    + [Textursatz-Einstellungen](/help/interface/texture-set/texture-set-settings.md)
     + [Neuzuordnung von Textursätzen](/help/interface/texture-set/texture-set-reassignment.md)
   + [Symbolleisten](/help/interface/toolbars.md)
   + Viewport{#viewport}
     + [Viewport - Übersicht](/help/interface/viewport/viewport.md)
     + [2D-Ansicht](/help/interface/viewport/2d-view.md)
     + [3D-Ansicht](/help/interface/viewport/3d-view.md)
-    + [Kameramanagement](/help/interface/viewport/camera-management.md)
+    + [Kamera-Management](/help/interface/viewport/camera-management.md)
   + Sonstiges{#miscellaneous}
     + [Schieberegler](/help/interface/miscellaneous/sliders.md)
     + [Protokoll](/help/interface/miscellaneous/log.md)
@@ -160,27 +158,95 @@ ht-degree: 15%
     + [Maskeneditor](/help/features/effects/generators/mask-editor.md)
     + [Metal-Edge Wear](/help/features/effects/generators/metal-edge-wear.md)
     + [Position](/help/features/effects/generators/position.md)
-    + [Dreiplanar Fortgeschrittene](/help/features/effects/generators/tri-planar-advanced.md)
+    + [Tri-Planar Advanced](/help/features/effects/generators/tri-planar-advanced.md)
     + [UV-Randabstand](/help/features/effects/generators/uv-border-distance.md)
     + [UV-Prüfer](/help/features/effects/generators/uv-checker.md)
-    + [UV-Random-Farbe](/help/features/effects/generators/uv-random-color.md)
+    + [UV Zufallsfarbe](/help/features/effects/generators/uv-random-color.md)
     + [UV-Texeldichte](/help/features/effects/generators/uv-texel-density.md)
     + [Raum-Normalen](/help/features/effects/generators/world-space-normals.md)
+  + Filter{#filters}
+    + [Filterübersicht](/help/features/effects/filter.md)
+    + Standard{#standard-filters}
+      + [Weichzeichnen](/help/features/effects/filters/standard/blur.md)
+      + [Weichzeichnungsrichtung](/help/features/effects/filters/standard/blur-directional.md)
+      + [Weichzeichnen-Steigung](/help/features/effects/filters/standard/blur-slope.md)
+      + [Tonwerte limitieren](/help/features/effects/filters/standard/clamp.md)
+      + [Farbbalance](/help/features/effects/filters/standard/color-balance.md)
+      + [Farbkorrektur](/help/features/effects/filters/standard/color-correct.md)
+      + [Kontrast Luminanz](/help/features/effects/filters/standard/contrast-luminosity.md)
+      + [Schlagschatten](/help/features/effects/filters/standard/drop-shadow.md)
+      + [Flächenfarbe](/help/features/effects/filters/standard/fill-area-color.md)
+      + [Flächenmaske füllen](/help/features/effects/filters/standard/fill-area-mask.md)
+      + [FXAA (Anti-Aliasing)](/help/features/effects/filters/standard/fxaa-anti-aliasing.md)
+      + [Glühen](/help/features/effects/filters/standard/glow.md)
+      + [Verlauf](/help/features/effects/filters/standard/gradient.md)
+      + [Dynamischer Verlauf](/help/features/effects/filters/standard/gradient-dynamic.md)
+      + [Graustufenkonvertierung](/help/features/effects/filters/standard/grayscale-conversion.md)
+      + [Hochpass](/help/features/effects/filters/standard/highpass.md)
+      + [Histogramm-Scan](/help/features/effects/filters/standard/histogram-scan.md)
+      + [Histogrammverschiebung](/help/features/effects/filters/standard/histogram-shift.md)
+      + [HSL](/help/features/effects/filters/standard/hsl-perceptive.md)
+      + [Invertieren](/help/features/effects/filters/standard/invert.md)
+      + [Spiegel](/help/features/effects/filters/standard/mirror.md)
+      + [verpixeln](/help/features/effects/filters/standard/pixelate.md)
+      + [Tontrennung](/help/features/effects/filters/standard/posterize.md)
+      + [Schärfen](/help/features/effects/filters/standard/sharpen.md)
+      + [Glätten](/help/features/effects/filters/standard/smoothstep.md)
+      + [Schwellenwert](/help/features/effects/filters/standard/threshold.md)
+      + [Transformieren](/help/features/effects/filters/standard/transform.md)
+      + [Verformen](/help/features/effects/filters/standard/warp.md)
+    + Fertigstellung{#finish-filters}
+      + [MattFinish-Pinsel linear](/help/features/effects/filters/finishes/matfinish-brushed-linear.md)
+      + [MatFinish galvanisiert](/help/features/effects/filters/finishes/matfinish-galvanized.md)
+      + [MatFinish Grainy](/help/features/effects/filters/finishes/matfinish-grainy.md)
+      + [MatFinish Grinded](/help/features/effects/filters/finishes/matfinish-grinded.md)
+      + [MatFinish Hammered](/help/features/effects/filters/finishes/matfinish-hammered.md)
+      + [MatFinish Lochkreise](/help/features/effects/filters/finishes/matfinish-perforated-circles.md)
+      + [mattFinish pulverbeschichtet](/help/features/effects/filters/finishes/matfinish-powder-coated.md)
+      + [MatFinish Raw](/help/features/effects/filters/finishes/matfinish-raw.md)
+      + [MattFinish Rough](/help/features/effects/filters/finishes/matfinish-rough.md)
+    + MatFX{#matfx-filters}
+      + [MatFX Comic Book](/help/features/effects/filters/matfx/matfx-comic-book.md)
+      + [MatFX Detail-Edge Wear](/help/features/effects/filters/matfx/matfx-detail-edge-wear.md)
+      + [MatFX Edge Damages](/help/features/effects/filters/matfx/matfx-edge-damages.md)
+      + [MatFX HBAO](/help/features/effects/filters/matfx/matfx-hbao.md)
+      + [MatFX Öl-Malen](/help/features/effects/filters/matfx/matfx-oil-paint.md)
+      + [MatFX Peeling-Malen](/help/features/effects/filters/matfx/matfx-peeling-paint.md)
+      + [MatFX Rost Verwitterung](/help/features/effects/filters/matfx/matfx-rust-weathering.md)
+      + [MatFX-Absperrleitung](/help/features/effects/filters/matfx/matfx-shut-line.md)
+      + [MatFX Watercolor](/help/features/effects/filters/matfx/matfx-watercolor.md)
+      + [MatFX Wassertropfen](/help/features/effects/filters/matfx/matfx-water-drops.md)
+    + Beleuchtung{#lighting-filters}
+      + [Umgebung mit vorberechnete Beleuchtung](/help/features/effects/filters/lighting/baked-lighting-environment.md)
+      + [Baking geführt Beleuchtung stilisiert](/help/features/effects/filters/lighting/baked-lighting-stylized.md)
+    + Erweitert{#advanced-filters}
+      + [Anisotropes Kuwahara](/help/features/effects/filters/advanced/anisotropic-kuwahara.md)
+      + [Abgeflachte Kante](/help/features/effects/filters/advanced/bevel.md)
+      + [Weiche Abschrägung](/help/features/effects/filters/advanced/bevel-smooth.md)
+      + [Farbabgleich](/help/features/effects/filters/advanced/color-match.md)
+      + [Richtungsabstand](/help/features/effects/filters/advanced/directional-distance.md)
+      + [Gradationskurve](/help/features/effects/filters/advanced/gradient-curve.md)
+      + [Height anpassen](/help/features/effects/filters/advanced/height-adjustments.md)
+      + [Height auf Normal](/help/features/effects/filters/advanced/height-to-normal.md)
+      + [Maskenkontur](/help/features/effects/filters/advanced/mask-outline.md)
+      + [PBR-Validierung](/help/features/effects/filters/advanced/pbr-validate.md)
+      + [Quantisieren](/help/features/effects/filters/advanced/quantize.md)
+      + [Stilisierung](/help/features/effects/filters/advanced/stylization.md)
+      + [Tri-Planar Advanced](/help/features/effects/filters/advanced/tri-planar-advanced-filter.md)
   + [Effekte - Übersicht](/help/features/effects/effects.md)
   + [Farbe](/help/features/effects/paint.md)
   + [Füllen](/help/features/effects/fill.md)
   + [Tonwertkorrektur](/help/features/effects/levels.md)
   + [Vergleichsmaske](/help/features/effects/compare-mask.md)
-  + [Filter](/help/features/effects/filter.md)
   + [Ankerpunkt](/help/features/effects/anchor-point.md)
 + Baking{#baking}
-  + [Backübersicht](/help/baking/baking.md)
+  + [Baking - Übersicht](/help/baking/baking.md)
   + [Baking Interface](/help/baking/baking-interface.md)
-  + [So backen Sie Mesh-Maps](/help/baking/how-to-bake-mesh-maps.md)
+  + [Wie man Mesh-Map Baking führe](/help/baking/how-to-bake-mesh-maps.md)
   + [Verzerrungskorrektur](/help/baking/skew-correction.md)
   + [Einstellungen für Mesh-Maps](/help/baking/mesh-map-settings.md)
-  + [Visualisierungseinstellungen für Backen](/help/baking/baking-visualization-settings.md)
-+ Inhalt{#content}
+  + [Einstellungen für die Visualisierung von Bakings](/help/baking/baking-visualization-settings.md)
++ Inhalte{#content}
   + Erstellen benutzerdefinierter Effekte{#creating-custom-effects}
     + [Erstellen benutzerdefinierter Effekte - Übersicht](/help/content/creating-custom-effects/creating-custom-effects.md)
     + [Generischer Filter](/help/content/creating-custom-effects/generic-filter.md)
@@ -200,7 +266,7 @@ ht-degree: 15%
   + [Physische Größe](/help/features/physical-size.md)
   + [Intelligente Materialien und Masken.](/help/features/smart-materials-and-masks.md)
   + Volumenstreuung{#subsurface-scattering}
-    + [Untergrundstreuung - Übersicht](/help/features/subsurface-scattering/subsurface-scattering.md)
+    + [Übersicht über die Volumenstreuung](/help/features/subsurface-scattering/subsurface-scattering.md)
     + [Untergeordnete Oberfläche in einem Projekt aktivieren](/help/features/subsurface-scattering/enabling-subsurface-in-a-project.md)
     + [Parameter des Untergrunds](/help/features/subsurface-scattering/subsurface-parameters.md)
     + [Typ des unterirdischen Materials](/help/features/subsurface-scattering/subsurface-material-type.md)
@@ -227,7 +293,7 @@ ht-degree: 15%
     + [Farbkorrektur](/help/features/post-processing/color-correction.md)
     + [Farbprofil](/help/features/post-processing/color-profile.md)
   + Iray-Renderer{#iray-renderer}
-    + [Iray Renderer - Übersicht](/help/features/iray-renderer/iray-renderer.md)
+    + [Iray-Renderer - Übersicht](/help/features/iray-renderer/iray-renderer.md)
     + [Iray-Einstellungen](/help/features/iray-renderer/iray-settings.md)
     + [Viewer- und MDL-Einstellungen](/help/features/iray-renderer/viewer-and-mdl-settings.md)
   + Plug-ins{#plugins}
@@ -235,7 +301,7 @@ ht-degree: 15%
     + [Automatisches Speichern](/help/features/plugins/autosave.md)
     + [Resources Updater](/help/features/plugins/resources-updater.md)
     + [ZBrush nach Painter Bridge](../features/plugins/zbrush-bridge.md)
-  + [Virtuelle Strukturen mit geringer Dichte](/help/features/sparse-virtual-textures.md)
+  + [Dünn besetzte virtuelle Texturen](/help/features/sparse-virtual-textures.md)
   + [Eigene Schattierungen](/help/features/custom-shaders.md)
   + [SpaceMouse® by 3Dconnection](/help/features/spacemouse-by-3dconnexion.md)
   + [UNIVERSAL SCENE DESCRIPTION - USD](/help/features/universal-scene-description-usd.md)
@@ -301,14 +367,14 @@ ht-degree: 15%
       + [Fehler: Es ist kein Datenträger im Laufwerk vorhanden.](/help/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.md)
       + [Fehler mit fehlender api-ms-crt-DLL](/help/technical-support/technical-issues/miscellaneous-issues/error-with-missing-api-ms-crt-dll.md)
       + [Dateien können nicht per Drag &amp; Drop in das Regal gezogen werden](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md)
-      + [Verwendung der ALT-Tastenkombination unter Linux nicht möglich](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.md)
+      + [Verwendung des ALT-Tastatur-Tastaturbefehl unter Linux nicht möglich](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.md)
       + [Elemente - oder Regal-Vorschauen sind leer](/help/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.md)
   + Workflow-Probleme{#workflow-issues}
     + Exportprobleme{#export-issues}
       + [Meine exportierte Deckkraftkarte ist komplett schwarz](/help/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.md)
       + [Ausdehnung der Textur oder Auffüllung](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
     + Probleme mit Tools{#tools-issues}
-      + [Normale Karte sieht falsch aus](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
+      + [Normalen-Map sieht falsch aus](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
       + [Malen Tool-Anschnitte auf anderen UV-Inseln](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
     + Projektprobleme{#project-issues}
       + [Beschädigte Projektdatei](/help/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.md)
@@ -341,7 +407,7 @@ ht-degree: 15%
     + Ressourcenpfade{#resource-paths}
       + [Ressourcenpfade manuell hinzufügen](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/adding-resource-paths-by-editing-preferences-manually.md)
       + [Manuelles Bearbeiten von Ressourcenpfaden](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-resource-paths-manually.md)
-      + [Bearbeitungseinstellungen mit Python](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-preferences-with-python.md)
+      + [Bearbeiten der Regal-Voreinstellungen mit Python](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-preferences-with-python.md)
     + [Manuelles Hinzufügen gespeicherter Suchen](/help/pipeline-and-integration/resource-management/adding-saved-searches-manually.md)
     + [Voreinstellungen und Inhaltsmigration](/help/pipeline-and-integration/resource-management/preferences-and-content-migration.md)
     + [Ausschließen von Ressourcen in einem Ressourcenpfad](/help/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.md)
