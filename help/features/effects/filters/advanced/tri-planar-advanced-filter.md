@@ -1,9 +1,9 @@
 ---
 title: Tri-Planar Advanced
 description: Erfahren Sie, wie Sie den Tri-Planar Advanced-Filter von Substance 3D Painter verwenden.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '553'
 ht-degree: 2%
 ---
 
@@ -56,20 +56,11 @@ Sie wird auf einer Maskenebene oder innerhalb einer Textur verwendet, um eine dr
 
 ### X-Achse
 
-<table>
-<tr>
-<td><b>Drehung X:</b></td>
-<td>Passen Sie die Drehung der Projektion der X-Achse-Textur an.</td>
-</tr>
-<tr>
-<td><b>Versatz X X:</b></td>
-<td>Passen Sie den Versatz der X-Achse-Projektion entlang der X-Achse an.</td>
-</tr>
-<tr>
-<td><b>Versatz X Y:</b></td>
-<td>Passen Sie den Versatz der X-Achse-Projektion entlang der Y-Achse an.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Drehung X:** | Passen Sie die Drehung der Projektion der X-Achse-Textur an. |
+| **Versatz X X:** | Passen Sie den Versatz der X-Achse-Projektion entlang der X-Achse an. |
+| **Versatz X Y:** | Passen Sie den Versatz der X-Achse-Projektion entlang der Y-Achse an. |
 
 >[!NOTE]
 >
@@ -79,20 +70,11 @@ Sie wird auf einer Maskenebene oder innerhalb einer Textur verwendet, um eine dr
 
 ### Y-Achse
 
-<table>
-<tr>
-<td><b>Drehung X:</b></td>
-<td>Passen Sie die Drehung der Projektion der Y-Achse-Textur an.</td>
-</tr>
-<tr>
-<td><b>Versatz Y X:</b></td>
-<td>Passen Sie den Versatz der Y-Achse-Projektion entlang der X-Achse an.</td>
-</tr>
-<tr>
-<td><b>Versatz Y Y:</b></td>
-<td>Passen Sie den Versatz der Y-Achse-Projektion entlang der Y-Achse an.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Drehung X:** | Passen Sie die Drehung der Projektion der Y-Achse-Textur an. |
+| **Versatz Y X:** | Passen Sie den Versatz der Y-Achse-Projektion entlang der X-Achse an. |
+| **Versatz Y Y:** | Passen Sie den Versatz der Y-Achse-Projektion entlang der Y-Achse an. |
 
 >[!NOTE]
 >
@@ -102,20 +84,11 @@ Sie wird auf einer Maskenebene oder innerhalb einer Textur verwendet, um eine dr
 
 ### Achse Z
 
-<table>
-<tr>
-<td><b>Drehung X:</b></td>
-<td>Passen Sie die Drehung der Z-Achse Textur Projektion an.</td>
-</tr>
-<tr>
-<td><b>Versatz Z X:</b></td>
-<td>Passen Sie den Versatz der Z-Achse-Projektion entlang der X-Achse an.</td>
-</tr>
-<tr>
-<td><b>Versatz Z Y:</b></td>
-<td>Passen Sie den Versatz der Z-Achse-Projektion entlang der Y-Achse an.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Drehung X:** | Passen Sie die Drehung der Z-Achse Textur Projektion an. |
+| **Versatz Z X:** | Passen Sie den Versatz der Z-Achse-Projektion entlang der X-Achse an. |
+| **Versatz Z Y:** | Passen Sie den Versatz der Z-Achse-Projektion entlang der Y-Achse an. |
 
 >[!NOTE]
 >

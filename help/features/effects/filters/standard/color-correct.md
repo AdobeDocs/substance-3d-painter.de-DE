@@ -1,10 +1,10 @@
 ---
 title: Farbkorrektur
 description: Erfahren Sie, wie Sie den Farbkorrekturfilter von Substance 3D Painter verwenden.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 4%
+source-wordcount: '125'
+ht-degree: 6%
 ---
 
 # Farbkorrektur
@@ -36,52 +36,24 @@ Es wird auf einer Füllebene verwendet, um subtile Anpassungen an Kontrast, Lumi
 
 ### Schatten
 
-<table>
-<tr>
-<td><b>Kontrast:</b></td>
-<td>Passe den Kontrast der Schatten an.</td>
-</tr>
-<tr>
-<td><b>Luminanz:</b></td>
-<td>Passen Sie die Helligkeit der Schatten an.</td>
-</tr>
-<tr>
-<td><b>Sättigung:</b></td>
-<td>Passe die Sättigung der Schatten an.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Kontrast:** | Passe den Kontrast der Schatten an. |
+| **Luminanz:** | Passen Sie die Helligkeit der Schatten an. |
+| **Sättigung:** | Passe die Sättigung der Schatten an. |
 
 ### Mitteltöne
 
-<table>
-<tr>
-<td><b>Kontrast:</b></td>
-<td>Passe den Kontrast der Mitteltöne an.</td>
-</tr>
-<tr>
-<td><b>Luminanz:</b></td>
-<td>Passen Sie die Helligkeit der Mitteltöne an.</td>
-</tr>
-<tr>
-<td><b>Sättigung:</b></td>
-<td>Passe die Sättigung der Mitteltöne an.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Kontrast:** | Passe den Kontrast der Mitteltöne an. |
+| **Luminanz:** | Passen Sie die Helligkeit der Mitteltöne an. |
+| **Sättigung:** | Passe die Sättigung der Mitteltöne an. |
 
 ### Lichter
 
-<table>
-<tr>
-<td><b>Kontrast:</b></td>
-<td>Passe den Kontrast der Lichter an.</td>
-</tr>
-<tr>
-<td><b>Luminanz:</b></td>
-<td>Passe die Helligkeit der Lichter an.</td>
-</tr>
-<tr>
-<td><b>Sättigung:</b></td>
-<td>Passe die Sättigung der Lichter an.</td>
-</tr>
-</table>
-
+| Parametername | Beschreibung |
+| --- | --- |
+| **Kontrast:** | Passe den Kontrast der Lichter an. |
+| **Luminanz:** | Passe die Helligkeit der Lichter an. |
+| **Sättigung:** | Passe die Sättigung der Lichter an. |

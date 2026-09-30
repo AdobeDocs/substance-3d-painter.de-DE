@@ -1,74 +1,43 @@
 ---
 title: Weichzeichnen-Steigung
-description: Erfahren Sie, wie Sie den Weichzeichner-Steigung-Filter von Substance 3D Painter verwenden.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+description: Erfahren Sie, wie Sie den Weichzeichnungsfilter mit Substance 3D Painter verwenden.
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '220'
 ht-degree: 3%
 ---
 
 # Weichzeichnen-Steigung
 
 <table>
-<tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
-
-![Symbol für Weichzeichnungs-Steigung](./Resources/icon_blur_slope.png "Steigung weichzeichnen")
-
-<b>In:</b> Effekte/Weichzeichnen, Graustufen
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-## Beschreibung
-
-Der Farbweichzeichner-Filter erzeugt einen Verschmierungs- oder Verblassungseffekt, der sich vor allem bei kontrastreichen Kanten zwischen Steigungen bemerkbar macht.
-
-Sie wird entweder direkt auf einer Maskenebene verwendet, um ganze Materials oder bestimmte Texturen zu verwischen, oder auf einer Textur, um die Maske zu verschmieren. Es kann zu undichten oder verwitterten Kanten, undichtem Dirt oder verschmiertem Rost führen.
-
-</td>
-</tr>
+  <tr style="border: 0;">
+    <td style="border: 0;" valign="top"><img src="./Resources/icon_blur_slope.png" alt="Symbol für Weichzeichnereinstellungen Steigung" title="Weichzeichnen-Steigung"/><br><strong>In:</strong> Effekte/Weichzeichnen, Graustufen</td>
+    <td style="border: 0;" valign="top">Beschreibung<br>Der Farbweichzeichnungsfilter erzeugt einen Verschmierungs- oder Verblassungseffekt, der sich insbesondere bei kontrastreichen Kanten zwischen Steigungen bemerkbar macht.<br>Sie wird entweder direkt auf einer Maskenebene verwendet, um ganze Materials oder bestimmte Texturen zu verwischen, oder auf einer Textur, um die Maske zu verwischen. Es kann zu undichten oder verwitterten Kanten, undichtem Dirt oder verschmiertem Rost führen.</td>
+  </tr>
 </table>
 
 ## Eingaben
 
 | Eingabename | Beschreibung |
 | --- | --- |
-| <b>Benutzerdefinierte Rauschen:</b> Graustufen | Verwenden Sie eine benutzerdefinierte Textur oder einen Ankerpunkt als benutzerdefiniertes Rauschen. |
-
-<a name="parameters"></a>
+| **Benutzerdefinierte Rauschen:** Graustufen | Verwenden Sie eine benutzerdefinierte Textur oder einen Ankerpunkt als benutzerdefiniertes Rauschen. |
 
 ## Parameter
 
 | Parametername | Beschreibung |
 | --- | --- |
-| <b>Seed:</b> | Weisen Sie einen zufälligen Wert zu, um eine andere Variation zu erstellen, ohne die Gesamteinstellungen zu ändern. |
-| <b>Intensität:</b> | Passe die Weichzeichnungsintensität an. |
-| <b>Intensitätsteilung:</b> | Lege fest, wie die Intensität des Weichzeichners aufgeteilt wird. |
-| <b>Füllmethode:</b> | Wählen Sie die Füllmethode aus, die für die Weichzeichnung der Steigung verwendet wird. |
-| <b>Qualität:</b> | Passen Sie die Qualität des Effekts an. |
+| **Seed:** | Weisen Sie einen zufälligen Wert zu, um eine andere Variation zu erstellen, ohne die Gesamteinstellungen zu ändern. |
+| **Intensität:** | Passe die Weichzeichnungsintensität an. |
+| **Intensitätsteilung:** | Lege fest, wie die Intensität des Weichzeichners aufgeteilt wird. |
+| **Füllmethode:** | Wählen Sie die Füllmethode aus, die für die Weichzeichnung der Steigung verwendet wird. |
+| **Qualität:** | Passen Sie die Qualität des Effekts an. |
 
 ### Quellparameter
 
-<table>
-<tr>
-<td><b>Quelltyp:</b></td>
-<td>Wählen Sie aus, ob die Quelle die Standard-Rauschen, die vorherige Eingabe oder eine benutzerdefinierte Rauschen verwendet.</td>
-</tr>
-<tr>
-<td><b>Weichzeichnen:</b></td>
-<td>Passen Sie die Weichzeichnungsintensität des Quell-Rauschen oder der Eingabe an.</td>
-</tr>
-<tr>
-<td><b>Position:</b></td>
-<td>Passen Sie den Mittelpunkt des Quell-Rauschen oder -Eingangs ähnlich wie bei einer Helligkeitssteuerung an.</td>
-</tr>
-<tr>
-<td><b>Kontrast:</b></td>
-<td>Passen Sie den Kontrast des Quell-Rauschen oder der Eingabe an.</td>
-</tr>
-<tr>
-<td><b>Quellaufhellung:</b></td>
-<td>Passen Sie die Kachelung der Quell-Rauschen oder -Eingabe an.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Quelltyp:** | Wählen Sie aus, ob die Quelle die Standard-Rauschen, die vorherige Eingabe oder eine benutzerdefinierte Rauschen verwendet. |
+| **Weichzeichnen:** | Passen Sie die Weichzeichnungsintensität des Quell-Rauschen oder der Eingabe an. |
+| **Position:** | Passen Sie den Mittelpunkt des Quell-Rauschen oder -Eingangs ähnlich wie bei einer Helligkeitssteuerung an. |
+| **Kontrast:** | Passen Sie den Kontrast des Quell-Rauschen oder der Eingabe an. |
+| **Quellauffüllung:** | Passen Sie die Kachelung der Quell-Rauschen oder -Eingabe an. |

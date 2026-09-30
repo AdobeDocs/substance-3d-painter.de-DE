@@ -1,9 +1,9 @@
 ---
 title: Verlauf
 description: Erfahren Sie, wie Sie den Verlaufsfilter von Substance 3D Painter verwenden.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '201'
 ht-degree: 3%
 ---
 
@@ -48,25 +48,10 @@ Sie kann verwendet werden, um die Werte eines Graustufenbilds zu optimieren oder
 
 ### Eingabetransformation
 
-<table>
-<tr>
-<td><b>Graustufenmodus:</b></td>
-<td>Wählen Sie den Graustufen-Transformationsmodus aus. Sie können zwischen "Sättigung verringern", "Luminanz", "Durchschnitt", "Max" und "Min" wählen.</td>
-</tr>
-<tr>
-<td><b>Weichzeichnungsintensität:</b></td>
-<td>Passen Sie an, wie stark die Eingabe weichgezeichnet wird.</td>
-</tr>
-<tr>
-<td><b>Saldo:</b></td>
-<td>Passen Sie die Balance des Eingangs an, indem Sie den Mittelpunkt in Richtung Schwarz oder Weiß verschieben, ähnlich wie bei einer Helligkeitssteuerung.</td>
-</tr>
-<tr>
-<td><b>Kontrast:</b></td>
-<td>Passen Sie den Kontrast der Eingabe an.</td>
-</tr>
-<tr>
-<td><b>Umkehren:</b></td>
-<td>Umkehren der Eingabefarben aktivieren/deaktivieren.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Graustufenmodus:** | Wählen Sie den Graustufen-Transformationsmodus aus. Sie können zwischen &quot;Sättigung verringern&quot;, &quot;Luminanz&quot;, &quot;Durchschnitt&quot;, &quot;Max&quot; und &quot;Min&quot; wählen. |
+| **Weichzeichnungsintensität:** | Passen Sie an, wie stark die Eingabe weichgezeichnet wird. |
+| **Saldo:** | Passen Sie die Balance des Eingangs an, indem Sie den Mittelpunkt in Richtung Schwarz oder Weiß verschieben, ähnlich wie bei einer Helligkeitssteuerung. |
+| **Kontrast:** | Passen Sie den Kontrast der Eingabe an. |
+| **Umkehren:** | Umkehren der Eingabefarben aktivieren/deaktivieren. |
