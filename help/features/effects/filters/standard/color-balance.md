@@ -1,10 +1,10 @@
 ---
 title: Farbbalance
 description: Erfahren Sie, wie Sie den Farbbalancefilter von Substance 3D Painter verwenden.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '140'
+ht-degree: 5%
 ---
 
 # Farbbalance
@@ -36,52 +36,24 @@ Es wird für eine Füllebene verwendet, um subtile Farbanpassungen vorzunehmen.
 
 ### Lichter
 
-<table>
-<tr>
-<td><b>Cyan &lt;-&gt; Rot:</b></td>
-<td>Ändere die Farbe in Cyan oder Rot.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Grün:</b></td>
-<td>Ändere die Farbe in Richtung Magenta oder Grün.</td>
-</tr>
-<tr>
-<td><b>Gelb &lt;-&gt; Blau:</b></td>
-<td>Verschiebe die Farbe in Richtung Gelb oder Blau.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Cyan &lt;-> Rot:** | Ändere die Farbe in Cyan oder Rot. |
+| **Magenta &lt;-> Grün:** | Ändere die Farbe in Richtung Magenta oder Grün. |
+| **Gelb &lt;-> Blau:** | Verschiebe die Farbe in Richtung Gelb oder Blau. |
 
 ### Mitteltöne
 
-<table>
-<tr>
-<td><b>Cyan &lt;-&gt; Rot:</b></td>
-<td>Ändere die Farbe in Cyan oder Rot.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Grün:</b></td>
-<td>Ändere die Farbe in Richtung Magenta oder Grün.</td>
-</tr>
-<tr>
-<td><b>Gelb &lt;-&gt; Blau:</b></td>
-<td>Verschiebe die Farbe in Richtung Gelb oder Blau.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Cyan &lt;-> Rot:** | Ändere die Farbe in Cyan oder Rot. |
+| **Magenta &lt;-> Grün:** | Ändere die Farbe in Richtung Magenta oder Grün. |
+| **Gelb &lt;-> Blau:** | Verschiebe die Farbe in Richtung Gelb oder Blau. |
 
 ### Schatten
 
-<table>
-<tr>
-<td><b>Cyan &lt;-&gt; Rot:</b></td>
-<td>Ändere die Farbe in Cyan oder Rot.</td>
-</tr>
-<tr>
-<td><b>Magenta &lt;-&gt; Grün:</b></td>
-<td>Ändere die Farbe in Richtung Magenta oder Grün.</td>
-</tr>
-<tr>
-<td><b>Gelb &lt;-&gt; Blau:</b></td>
-<td>Verschiebe die Farbe in Richtung Gelb oder Blau.</td>
-</tr>
-</table>
-
+| Parametername | Beschreibung |
+| --- | --- |
+| **Cyan &lt;-> Rot:** | Ändere die Farbe in Cyan oder Rot. |
+| **Magenta &lt;-> Grün:** | Ändere die Farbe in Richtung Magenta oder Grün. |
+| **Gelb &lt;-> Blau:** | Verschiebe die Farbe in Richtung Gelb oder Blau. |

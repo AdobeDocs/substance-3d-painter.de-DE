@@ -1,10 +1,10 @@
 ---
 title: Baking geführt Beleuchtung stilisiert
 description: Erfahren Sie, wie Sie den stilisierten Filter "Baking geführt Beleuchtung" von Substance 3D Painter verwenden.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 1%
+source-wordcount: '662'
+ht-degree: 2%
 ---
 
 # Baking geführt Beleuchtung stilisiert
@@ -65,7 +65,7 @@ Es wird auf einer Malebene verwendet, die auf den Durchlaufmodus eingestellt und
 | <b>Himmelsfarbe:</b> | Die Farbe des Himmels anpassen. |
 | <b>Horizontfarbe:</b> | Passe die Farbe des Horizontlichts an. |
 | <b>Farbe des Bodens:</b> | Passen Sie die Lichtfarbe des Bodens an. |
-| <b>Horizontaler Winkel:</b> | Passe den horizontalen Winkel des zusätzlichen Lichts an. |
+| <b>Horizontaler Winkel:</b> | Passe die Intensität des zusätzlichen Lichts an. |
 | <b>Vertikaler Winkel:</b> | Passen Sie den vertikalen Winkel des zusätzlichen Lichts an. |
 | <b>Intensität:</b> | Passe die Intensität des zusätzlichen Lichts an. |
 | <b>Farbe:</b> | Passe die Farbe des zusätzlichen Lichts an. |
@@ -76,124 +76,46 @@ Es wird auf einer Malebene verwendet, die auf den Durchlaufmodus eingestellt und
 
 ### Material
 
-<table>
-<tr>
-<td><b>Dielektrischer Reflexionsgrad:</b></td>
-<td>Stellen Sie den dielektrischen Reflexionsgrad ein.</td>
-</tr>
-<tr>
-<td><b>Diffuse AO:</b></td>
-<td>Steuere, wie stark das ambient occlusion die Streuungsdetails beeinflusst.</td>
-</tr>
-<tr>
-<td><b>Diffuse Kavität:</b></td>
-<td>Lege fest, wie stark die Hohlräume die diffusen Details beeinflussen.</td>
-</tr>
-<tr>
-<td><b>Specular AO:</b></td>
-<td>Legen Sie fest, wie stark das ambient occlusion die Specular-Details beeinflusst.</td>
-</tr>
-<tr>
-<td><b>Specular-Hohlraum:</b></td>
-<td>Passen Sie an, wie stark die Hohlraumbereiche die Specular-Details beeinflussen.</td>
-</tr>
-<tr>
-<td><b>Smoothness der Kavität:</b></td>
-<td>Passen Sie an, wie weich die Hohlraumbereiche angezeigt werden.</td>
-</tr>
-<tr>
-<td><b>Kantenintensität:</b></td>
-<td>Legen Sie die Stärke der Kantendetails fest.</td>
-</tr>
-<tr>
-<td><b>Kanten-Smoothness:</b></td>
-<td>Passen Sie die Smoothness der Kantenbereiche an.</td>
-</tr>
-<tr>
-<td><b>Normale Detailart:</b></td>
-<td>Wählen Sie aus, welche Details für die Normalen verwendet werden: Nur Mesh oder Mesh + Height + Normal.</td>
-</tr>
-<tr>
-<td><b>Height bis Normalintensität:</b></td>
-<td>Passen Sie die Stärke der generierten Normalendetails an.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Dielektrische Reflexion:** | Stellen Sie den dielektrischen Reflexionsgrad ein. |
+| **Diffuse AO:** | Steuere, wie stark das ambient occlusion die Streuungsdetails beeinflusst. |
+| **Diffuse-Kavität:** | Lege fest, wie stark die Hohlräume die diffusen Details beeinflussen. |
+| **Specular AO:** | Legen Sie fest, wie stark das ambient occlusion die Specular-Details beeinflusst. |
+| **Specular-Kavität:** | Passen Sie an, wie stark die Hohlraumbereiche die Specular-Details beeinflussen. |
+| **Smoothness der Kavität:** | Passen Sie an, wie weich die Hohlraumbereiche angezeigt werden. |
+| **Kantenintensität:** | Legen Sie die Stärke der Kantendetails fest. |
+| **Kanten-Smoothness:** | Passen Sie die Smoothness der Kantenbereiche an. |
+| **Typ für normale Details:** | Wählen Sie aus, welche Details für die Normalen verwendet werden: Nur Mesh oder Mesh + Height + Normal. |
+| **Height auf Normalintensität:** | Passen Sie die Stärke der generierten Normalendetails an. |
 
 ### Sonne und Himmel
 
-<table>
-<tr>
-<td><b>Sonnenintensität:</b></td>
-<td>Kontrolliere die Stärke der Sonne.</td>
-</tr>
-<tr>
-<td><b>Horizontaler Sonnenwinkel:</b></td>
-<td>Passen Sie den horizontalen Winkel der Sonne an.</td>
-</tr>
-<tr>
-<td><b>Vertikaler Sonnenwinkel:</b></td>
-<td>Passen Sie den vertikalen Winkel der Sonne an.</td>
-</tr>
-<tr>
-<td><b>Farbe der Sonne:</b></td>
-<td>Lege die Farbe der Sonne fest.</td>
-</tr>
-<tr>
-<td><b>Sky-Intensität:</b></td>
-<td>Die Stärke des Himmels anpassen.</td>
-</tr>
-<tr>
-<td><b>Himmelsfarbe:</b></td>
-<td>Lege die Farbe des Himmels fest.</td>
-</tr>
-<tr>
-<td><b>Horizontfarbe:</b></td>
-<td>Passe die Farbe des Horizonts an.</td>
-</tr>
-<tr>
-<td><b>Farbe des Bodens:</b></td>
-<td>Legen Sie die Farbe des Bodens fest.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Sonnenintensität:** | Kontrolliere die Stärke der Sonne. |
+| **Horizontaler Sonnenwinkel:** | Passen Sie den horizontalen Winkel der Sonne an. |
+| **Vertikaler Sonnenwinkel:** | Passen Sie den vertikalen Winkel der Sonne an. |
+| **Sonnenfarbe:** | Lege die Farbe der Sonne fest. |
+| **Sky-Intensität:** | Die Stärke des Himmels anpassen. |
+| **Himmelsfarbe:** | Lege die Farbe des Himmels fest. |
+| **Horizontfarbe:** | Passe die Farbe des Horizonts an. |
+| **Farbe des Bodens:** | Legen Sie die Farbe des Bodens fest. |
 
 ### Licht 1
 
-<table>
-<tr>
-<td><b>Horizontaler Winkel:</b></td>
-<td>Passe den horizontalen Winkel des zusätzlichen Lichts an.</td>
-</tr>
-<tr>
-<td><b>Vertikaler Winkel:</b></td>
-<td>Passen Sie den vertikalen Winkel des zusätzlichen Lichts an.</td>
-</tr>
-<tr>
-<td><b>Intensität:</b></td>
-<td>Passe die Stärke des zusätzlichen Lichts an.</td>
-</tr>
-<tr>
-<td><b>Farbe:</b></td>
-<td>Legen Sie die Farbe des zusätzlichen Lichts fest.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Horizontaler Winkel:** | Passe den horizontalen Winkel des zusätzlichen Lichts an. |
+| **Vertikaler Winkel:** | Passen Sie den vertikalen Winkel des zusätzlichen Lichts an. |
+| **Intensität:** | Passe die Stärke des zusätzlichen Lichts an. |
+| **Farbe:** | Legen Sie die Farbe des zusätzlichen Lichts fest. |
 
 ### Licht 2
 
-<table>
-<tr>
-<td><b>Horizontaler Winkel:</b></td>
-<td>Passe den horizontalen Winkel des zweiten zusätzlichen Lichts an.</td>
-</tr>
-<tr>
-<td><b>Vertikaler Winkel:</b></td>
-<td>Passen Sie den vertikalen Winkel des zweiten zusätzlichen Lichts an.</td>
-</tr>
-<tr>
-<td><b>Intensität:</b></td>
-<td>Passe die Stärke des zweiten zusätzlichen Lichts an.</td>
-</tr>
-<tr>
-<td><b>Farbe:</b></td>
-<td>Legt die Farbe des zweiten zusätzlichen Lichts fest.</td>
-</tr>
-</table>
+| Parametername | Beschreibung |
+| --- | --- |
+| **Horizontaler Winkel:** | Passe den horizontalen Winkel des zweiten zusätzlichen Lichts an. |
+| **Vertikaler Winkel:** | Passen Sie den vertikalen Winkel des zweiten zusätzlichen Lichts an. |
+| **Intensität:** | Passe die Stärke des zweiten zusätzlichen Lichts an. |
+| **Farbe:** | Legt die Farbe des zweiten zusätzlichen Lichts fest. |

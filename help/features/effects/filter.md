@@ -1,9 +1,9 @@
 ---
 title: Filter
 description: Erfahren Sie, wie Sie Filtereffekte in Substance 3D Painter verwenden, um Bildverarbeitungsfilter und Texturen anzuwenden.
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 4b8afda243f2969b036efe14588f201177ee3139
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '635'
 ht-degree: 3%
 ---
 
@@ -18,7 +18,7 @@ Je nach Filtertyp muss ein Filtereffekt auf dem Inhalt oder der Maske einer Eben
 * Der manuelle Ansatz erfordert mehrere Schritte zum Einrichten des Filters, bietet jedoch eine direkte Kontrolle über jeden Schritt des Prozesses.
 * Der Drag-and-Drop-Ansatz ermöglicht das schnelle Hinzufügen eines Filters und stellt den Mischmodus automatisch auf &quot;Passthrough&quot; für alle Kanäle ein.
 
-### Manuelles Anwenden eines Filters
+### Manuelles Hinzufügen eines Filters
 
 Im folgenden Beispiel wird ein Weichzeichnungsfilter auf den Inhalt einer Ebene angewendet, aber er wird häufiger für das Anwenden von Filtern auf Masken verwendet:
 
@@ -55,13 +55,17 @@ Wählen Sie den Filter aus, den Sie im Regal verwenden möchten. Ziehe die Ebene
 
 Beachten Sie im obigen Beispiel, dass der abgelegte Filter bereits über einen Passthrough-Füllmethode verfügt. Dies gilt für alle Kanäle des Dokuments.
 
-## Neue Filter hinzufügen.
+## Neue Filter zu Painter hinzufügen
 
-Alle Filter sind Substance, die mit Substance 3D Designer erstellt werden können. Substance 3D Designer bietet sofort einsetzbare Vorlagen für Substance 3D Painter.
+Wenn Sie neue Filter in Painter importieren möchten, können Sie sie wie Standardressourcen hinzufügen. Ziehen Sie die Sbsar-Dateien einfach per Drag &amp; Drop in das Bedienfeld **Elemente**, und Sie können den Import der neuen Filter verwalten.
+
+## Erstellen eigener Filter
+
+Alle Filter sind Substance, die mit Substance 3D Designer erstellt werden können. Substance 3D Designer bietet Vorlagen für Substance 3D Painter, die Ihnen den schnellen Einstieg erleichtern.
 
 Weitere Informationen finden Sie auf dieser Seite : [Erstellen benutzerdefinierter Effekte](../../content/creating-custom-effects/creating-custom-effects.md)
 
-## Verfügbare Filter
+## Standardfilter in Painter
 
 ### Standard
 
