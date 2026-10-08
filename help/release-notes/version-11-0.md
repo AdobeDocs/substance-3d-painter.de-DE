@@ -22,7 +22,7 @@ Freigabedatum: <b>11. März 2025</b>
 > 
 > Diese Version erhöht auch die unterstützte Mindestversion von Windows 10 auf 22H2.
 > 
-> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
+> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
@@ -263,9 +263,9 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Automatische Aktualisierung] Automatische Aktualisierung standardmäßig deaktiviert lassen
 * [Automatische Aktualisierung] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen (.sbsar, .glsl, .ai, .svg)
 * [Automatische Aktualisierung] Umgebungsvariable hinzufügen, um die automatische Aktualisierung zu deaktivieren
-* [Automatische Aktualisierung][SBSAR] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen
+* [Automatische Aktualisierung]&#x200B;[SBSAR] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen
 * Ausgefüllter Pfad
-* [Pfad][Füllen] Fügen Sie ein neues Werkzeug hinzu, um gefüllte Pfade zu erstellen.
+* [Pfad]&#x200B;[Füllen] Fügen Sie ein neues Werkzeug hinzu, um gefüllte Pfade zu erstellen.
 * Verbesserungen an Pfaden
 * [Pfad] Erstellen eines Pfads, der zu Polygonen einrasten
 * [Pfad] Wechsel der Pfadtypen zulassen
@@ -275,7 +275,7 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Pfad] Form mit einem Klick schließen
 * [Pfad] Anzeigen von Pfadinformationen
 * [Pfad] Skalieren und Drehen von Pfad-Scheitelpunkten zulassen
-* [Pfad][UX] Einfacherer Zugriff auf Transformations-Gizmos
+* [Pfad]&#x200B;[UX] Einfacherer Zugriff auf Transformations-Gizmos
 * [Pfad] Pfadvorschau hinzufügen
 * [Pfad] Deaktivieren der Pfadvorschau mit Umschalt + P
 * [Path] Verbessern der Tangente Edition von der Seitenansicht
@@ -283,7 +283,7 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Pfad] Scheitelpunkt sollten den Auswahlstatus beibehalten, wenn Sie die Benutzeroberfläche aus- und wieder einschalten.
 * [Path] Löschen von Pfaden mit Rücktaste zulassen
 * [Pfad] Die Pfadliste offen halten, wenn der Benutzer sie erweitert
-* [Pfad][Ebenenstapel] Duplikate beim Kopieren/Einfügen richtig umbenennen
+* [Pfad]&#x200B;[Ebenenstapel] Duplikate beim Kopieren/Einfügen richtig umbenennen
 * Verbesserungen an der Benutzeroberfläche und der QuickInfo [Path]
 * Leistung
 * [Performance] Verbessern der Viewport-Performance bei Verwendung einer hohen Tessellation
@@ -297,11 +297,11 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Inhalt] Fügen Sie 3 neue Texturen-Generatoren hinzu (Kachelzufall, Triangle Grid, Scratches-Generator)
 * [Inhalt] Unreale Engine-Vorlage umbenennen und Vorgaben exportieren
 * Python
-* [Regal][Python] Speichern von intelligente Material oder intelligente Maske auf der Festplatte von Python
+* [Regal]&#x200B;[Python] Speichern von intelligente Material oder intelligente Maske auf der Festplatte von Python
 * [Python] Hinzufügen von automatisch Baking führend Käfigen zur Python-API
 * [Python] Bearbeiten von Namen und Beschreibungen von Textursätzen/UV-Kacheln zulassen
 * [Python] Freigeben von Auflösungseinstellungen für Vektor- und Schriftartenquellen
-* [Automatische Aktualisierung][Python] Leg der Funktionen zur automatischen Aktualisierung von Projekten in Python
+* [Automatische Aktualisierung]&#x200B;[Python] Leg der Funktionen zur automatischen Aktualisierung von Projekten in Python
 * Verschiedenes
 * [Exportieren] Erleichtern Sie den Zugriff auf die Optionen für Senden an mit einem neuen Fenster
 * [Nvidia] Warnung über die neuesten Nvidia-Treiber hinzufügen (572.16)
@@ -313,7 +313,7 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 
 <b>Fest</b>:
 
-* [Nvidia][Baking] Ergebnisse von Ambient occlusion-Bakern weisen Artefakte auf
+* [Nvidia]&#x200B;[Baking] Ergebnisse von Ambient occlusion-Bakern weisen Artefakte auf
 * [Absturz] Alt-Klick, um Sichtbarkeit für deaktivierten Textursatz zu aktivieren, führt zu einem Absturz
 * [Baking führend] Käfig wird mit niedrigem Poly- als hohem Poly-Param berücksichtigt
 * [Baking] Die Material-Farbe für ID-Map-Baker funktioniert nicht mit USD Dateiformat
@@ -330,8 +330,8 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 <b>Bekannte Probleme</b>:
 
 * [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression][UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz][Python] USD durch TextureStateEvent ausgelöst
+* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
+* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
 * [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
 * [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
 * [RedHat] Probleme mit dem Farbwähler

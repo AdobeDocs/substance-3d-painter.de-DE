@@ -291,7 +291,7 @@ Zusammenfassung: **Bugfix mit Upgrade auf Iray 2019.3**
 * [Tablet] Fehlerhafte Erkennung beim Verschieben von Schiebereglern
 * [Tastaturbefehle] Mit Strg+Alt+Mausklick kann kein Tastaturbefehl eingerichtet werden
 * [Regal] Die Ressourcen-QuickInfo wird bei Verwendung eines Stift-Tablets nicht angezeigt
-* [2D-Ansicht][Exportieren] Die voreingestellte 2D-Ansicht berücksichtigt nicht die normalen Informationen
+* [2D-Ansicht]&#x200B;[Exportieren] Die voreingestellte 2D-Ansicht berücksichtigt nicht die normalen Informationen
 * Einfrieren beim Malen in UV-Ausrichtung mit bestimmten Pinseln
 * Malen unter einem Filter erzeugt Artefakt auf dem laufenden Strich
 * [Viewport] Falscher Texturen-Cache im Viewport nach dem erneuten Importieren eines Meshs
@@ -372,28 +372,28 @@ Zusammenfassung: **Hauptversion mit Verbesserung der Benutzererfahrung beim Hand
 * [UV entpackend] Automatische UV entpackend im Substance Painter, wenn keine UVs oder partielle UVs vorhanden sind
 * [entpackend UV] Eine globale Einstellung zum Aktivieren und Deaktivieren
 * [entpackend UV] In Protokolldatei gemeldete Version
-* [entpackend UV][UI] Anzeige des Fortschritts beim Entpackend UV
+* [entpackend UV]&#x200B;[UI] Anzeige des Fortschritts beim Entpackend UV
 * [UI] Neue Einstellungen in der kontextabhängigen Symbolleiste zur Auswahl der Pinselvorschau: Vollständige Vorschau, Pinselkontur und Fadenkreuz
 * [Tool] Neuer erweiterter Mischmodus im Alpha-Abschnitt: Aufhellen (Maximal) zusätzlich zu Normal
 * [Ebenenstapel] Gammakorrektur-Option pro Ebene für Alpha oder Maske (Kontextmenü)
-* [Ebenenstapel][UI] Fügen Sie das Symbol &quot;i&quot; hinzu, wenn ein Alpha-Layer gamma-korrigiert ist
-* [Tablet][Tool] Gelegt Mindestdruck für Größe und Fluss
-* [Tablet][UI] Neue Einstellung in der kontextabhängigen Symbolleiste zur Auswahl des Kurvendrucks: linear, easy-in, easy-in-out
-* [Tablet][UX] Strg+Alt+Klick zum Scrollen hinzufügen
+* [Ebenenstapel]&#x200B;[UI] Fügen Sie das Symbol &quot;i&quot; hinzu, wenn ein Alpha-Layer gamma-korrigiert ist
+* [Tablet]&#x200B;[Tool] Gelegt Mindestdruck für Größe und Fluss
+* [Tablet]&#x200B;[UI] Neue Einstellung in der kontextabhängigen Symbolleiste zur Auswahl des Kurvendrucks: linear, easy-in, easy-in-out
+* [Tablet]&#x200B;[UX] Strg+Alt+Klick zum Scrollen hinzufügen
 * Photoshop-Pinselvorgaben importieren (ABR-Format)
 * [ABR] Support Shape-Parameter
 * [ABR] Unterstützung von Parametern für die Formdynamik
 * [ABR] Support Transfer-Parameter
 * [ABR] Unterstützung von Streuungsparametern
-* [ABR][Dynamische Pinselstriche] Unterstützung von Rundheit und Spiegelung
-* [ABR][Regal] Legte die Pinselordnerstruktur im Filtereditor
-* [ABR][Regal] Photoshop-Symbol in Miniaturansichten hinzufügen
-* [ABR][Regal] Liste nicht unterstützter Parameter in der detaillierten Miniaturansicht von ABR hinzufügen
-* [Tool][Dynamische Pinselstriche] Neue dynamische Stricheinstellung zur Steuerung der Anzahl der zu generierenden Zufallszahlen
-* [Tool][UI] Fügen Sie neue Verteilungs- und Achse-Einstellungen für Streuungs-Jitter hinzu.
+* [ABR]&#x200B;[Dynamische Pinselstriche] Unterstützung von Rundheit und Spiegelung
+* [ABR]&#x200B;[Regal] Legte die Pinselordnerstruktur im Filtereditor
+* [ABR]&#x200B;[Regal] Photoshop-Symbol in Miniaturansichten hinzufügen
+* [ABR]&#x200B;[Regal] Liste nicht unterstützter Parameter in der detaillierten Miniaturansicht von ABR hinzufügen
+* [Tool]&#x200B;[Dynamische Pinselstriche] Neue dynamische Stricheinstellung zur Steuerung der Anzahl der zu generierenden Zufallszahlen
+* [Tool]&#x200B;[UI] Fügen Sie neue Verteilungs- und Achse-Einstellungen für Streuungs-Jitter hinzu.
 * [Tastaturbefehl] Fügen Sie Strg+Umschalt+B hinzu, um das Baking führend Fenster zu öffnen.
-* [UI][Menu] Eintrag im Menü &quot;Bearbeiten&quot; hinzufügen, um das Fenster &quot;Baking&quot; zu öffnen
-* [UI][Einstellungen] Verbesserte Ausrichtung der Liste der Tastaturbefehle
+* [UI]&#x200B;[Menu] Eintrag im Menü &quot;Bearbeiten&quot; hinzufügen, um das Fenster &quot;Baking&quot; zu öffnen
+* [UI]&#x200B;[Einstellungen] Verbesserte Ausrichtung der Liste der Tastaturbefehle
 * [UI] Ersetzen von Drucksteuerelementen (Größe und Fluss) durch Schaltflächen zum Ein- und Ausschalten
 * [Viewport] 2D- und 3D-Viewport können separat fokussiert werden.
 * Update auf QT 5.12.5
@@ -424,9 +424,9 @@ Zusammenfassung: **Hauptversion mit Verbesserung der Benutzererfahrung beim Hand
 * [Tablet] Verknüpfungen zum Ändern von Pinseln mit Stift führen in seltenen Fällen zu geringer Leistung
 * [Tablet] Verzögerung beim Malen auf einer bestimmten Ebene
 * Unscharfe Texturen können in seltenen Fällen beim Wechseln des Viewport auftreten
-* [UI][Substance] Bildeingaben werden nicht immer angezeigt
+* [UI]&#x200B;[Substance] Bildeingaben werden nicht immer angezeigt
 * Beim Bereinigen werden keine Vorgaben aus dem Regal entfernt, die in ein Projekt importiert wurden
-* [Tool][Dynamischer Strich] Leistungsproblem beim Anpassen der Stempelzyklusanzahl
+* [Tool]&#x200B;[Dynamischer Strich] Leistungsproblem beim Anpassen der Stempelzyklusanzahl
 * Aktualisierungsprobleme beim Malen im 3D/2D-Viewport in seltenen Fällen
 * Wenn Sie einen sehr langen Pinselstrich zeichnen, kann dies zum Einfrieren führen
 * [Tool] Leistungsproblem beim Malen mit bestimmten Dynamischen Pinselstrichen

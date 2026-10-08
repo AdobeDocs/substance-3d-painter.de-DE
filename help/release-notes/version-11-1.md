@@ -20,7 +20,7 @@ Freigabedatum: <b>18. November 2025</b>
 >
 > In dieser Version von Painter wird die Grafik-API von OpenGL auf Vulkan umgestellt. Diese Änderung kann sich darauf auswirken, welche GPUs von der Anwendung unterstützt werden, insbesondere für das Baking führ mit GPU-basiertem Raytracing.
 > 
-> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
+> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
@@ -233,7 +233,7 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue To
 * [Menüband] Hinzufügen von Füllmethoden für Alpha und einige Kanäle bei selbstüberlappender Anordnung
 * Symmetrie füllen
 * [Füllen] Unterstützung für Symmetrie zu Füllebenen und Effekten hinzufügen
-* [Fill][UI] Einstellungen für die Symmetrie im Eigenschaftenfenster für Füllebene und Effekte Gelegt
+* [Fill]&#x200B;[UI] Einstellungen für die Symmetrie im Eigenschaftenfenster für Füllebene und Effekte Gelegt
 * [Fill] Benutzeroberfläche für Einstellungen für &quot;Symmetrie nachbearbeiten&quot; im Menü &quot;Viewport&quot; und im Eigenschaftenfenster
 * [Füllen] Ordentlich Neuausrichtung normaler Texturen bei Projektion im Verkrümmungsmodus
 * Physische Größe Versatz
@@ -248,7 +248,7 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue To
 * [Substance] Außerkraftsetzung der Auflösung für Substance-Ressourcen in Tools und Füllungen Gelegt
 * [Exportieren] Mesh-Map-Exportvoreinstellung aktualisieren, um Graustufen-Texturen zu exportieren
 * Python
-* [Baking][Python] Anzeige in Änderungsprotokoll, das Änderungen nach Aktualisierung der Baker umbricht
+* [Baking]&#x200B;[Python] Anzeige in Änderungsprotokoll, das Änderungen nach Aktualisierung der Baker umbricht
 * [Python] Leg der Einstellungen für die Symmetrie der Füllung in Python
 * Content und neue Inhalte.
 * [Inhalt] Hinzufügen von 75 neuen Werkzeugvorgaben für das Menüband-Werkzeug
@@ -273,12 +273,12 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue To
 * [Menüband] Leistungsproblem mit UV-Kacheln
 * [Menüband] Pfad kann sich in einigen Fällen nach einer Ecke unerwartet überlappen
 * [Menüband] Tangenten erzeugen eine unerwünschte Schleife, wenn der Punkt nahe an die Pfadenden verschoben wird
-* [Absturz][Menüband] Erstellen sehr langer Texte in Menüband kann Absturz verursachen
+* [Absturz]&#x200B;[Menüband] Erstellen sehr langer Texte in Menüband kann Absturz verursachen
 * [Tool] Die Maskenvorschau funktioniert nicht, wenn die Projektion in einer Material verwendet wird
 * [Baking] AO-Einstellung &quot;Selbstverdeckung&quot; wird bei mehreren Textursätzen ignoriert und &quot;Namensübereinstimmung&quot; aktiviert
 * [Baking] AO mit Normal weist an Kanten Artefakte auf, da die Auffüllung fehlt
 * [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression][UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz][Python] USD durch TextureStateEvent ausgelöst
+* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
+* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
 * [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
 * [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert

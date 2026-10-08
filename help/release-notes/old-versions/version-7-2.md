@@ -54,7 +54,7 @@ Das alte Regal wurde verbessert und in &quot;Elemente&quot; umbenannt. Das neue 
 * **Verbesserte Leistung** Die Lade- und Generierungszeit von Miniaturansichten wurde in mehreren Aspekten verbessert und sollte jetzt viel schneller sein.
 
 * **Das Vorschauspeicherbudget erhöhen, um mehr Miniaturansichten zu laden**\
-  Standardmäßig wird der Anzeige von Miniaturansichten ein begrenzter Speicherplatz zugewiesen, um Performance-Einsparungen zu erzielen. Eine Bibliothek mit vielen Ressourcen kann jedoch dazu führen, dass Miniaturansichten ständig geladen und entladen werden, was die Navigation und die Suche nach Ressourcen erschwert. Es ist jetzt eine neue [Umgebungsvariable ](../../pipeline-and-integration/configuration/environment-variables.md) vorhanden, mit der der standardmäßige Budgetwert überschrieben werden kann.
+  Standardmäßig wird der Anzeige von Miniaturansichten ein begrenzter Speicherplatz zugewiesen, um Performance-Einsparungen zu erzielen. Eine Bibliothek mit vielen Ressourcen kann jedoch dazu führen, dass Miniaturansichten ständig geladen und entladen werden, was die Navigation und die Suche nach Ressourcen erschwert. Es ist jetzt eine neue [Umgebungsvariable &#x200B;](../../pipeline-and-integration/configuration/environment-variables.md) vorhanden, mit der der standardmäßige Budgetwert überschrieben werden kann.
 
 ### Neuer Adobe Standard Material-Arbeitsablauf
 
@@ -199,42 +199,42 @@ Zusammenfassung: **Die Hauptversion bietet eine Aktualisierung des Bedienfelds &
 **Hinzugefügt:**
 
 * [Bibliotheken] Neues Bedienfeld &quot;Elemente&quot;, um das Regal zu ersetzen
-* [Bibliotheken][UI] Neues Bedienfeld &quot;Elemente&quot;
-* [Bibliotheken][UI] Ändern der standardmäßigen Ausrichtung des Bedienfelds &quot;Elemente&quot; und der Benutzeroberfläche
-* [Bibliotheken][Benutzeroberfläche] Einführung einer Listenansichtsoption in die Bibliothek
-* [Bibliotheken][UI] Neue Breadcrumbs-Navigation im Bedienfeld &quot;Elemente&quot;
-* [Bibliotheken][UI] Wählen Sie &quot;Alle Bibliotheken&quot; aus, wenn Sie eine gespeicherte Suche auswählen.
-* [Bibliotheken][UI] Wählen Sie &quot;Alle Bibliotheken&quot;, wenn alle Ordner deaktiviert sind.
-* [Partikeln][UI] Neues Tag für Bibliothekspinsel
-* [Libraries][UI] &quot;Regal&quot; wurde durch &quot;Alle Bibliotheken&quot; in der gesamten App ersetzt
-* [Bibliotheken][UI] Leere Ordner ausblenden
-* [Bibliotheken][UI] Die Standardbenutzerbibliothek sollte auch dann sichtbar sein, wenn sie leer ist
-* [Libraries][UI] Neue Datenmethode über die Symbole des Elementtyps
+* [Bibliotheken]&#x200B;[UI] Neues Bedienfeld &quot;Elemente&quot;
+* [Bibliotheken]&#x200B;[UI] Ändern der standardmäßigen Ausrichtung des Bedienfelds &quot;Elemente&quot; und der Benutzeroberfläche
+* [Bibliotheken]&#x200B;[Benutzeroberfläche] Einführung einer Listenansichtsoption in die Bibliothek
+* [Bibliotheken]&#x200B;[UI] Neue Breadcrumbs-Navigation im Bedienfeld &quot;Elemente&quot;
+* [Bibliotheken]&#x200B;[UI] Wählen Sie &quot;Alle Bibliotheken&quot; aus, wenn Sie eine gespeicherte Suche auswählen.
+* [Bibliotheken]&#x200B;[UI] Wählen Sie &quot;Alle Bibliotheken&quot;, wenn alle Ordner deaktiviert sind.
+* [Partikeln]&#x200B;[UI] Neues Tag für Bibliothekspinsel
+* [Libraries]&#x200B;[UI] &quot;Regal&quot; wurde durch &quot;Alle Bibliotheken&quot; in der gesamten App ersetzt
+* [Bibliotheken]&#x200B;[UI] Leere Ordner ausblenden
+* [Bibliotheken]&#x200B;[UI] Die Standardbenutzerbibliothek sollte auch dann sichtbar sein, wenn sie leer ist
+* [Libraries]&#x200B;[UI] Neue Datenmethode über die Symbole des Elementtyps
 * [Bibliotheken] Tastaturbefehl &quot;STRG&quot;, um mehrere Elementtypen auszuwählen
 * [Bibliotheken] Neue Umgebungsvariable zur Steuerung des Speicherbudgets für die Elementvorschau
-* [Bibliotheken][Inhalt] Neue Umgebungs-Map
-* [Libraries][Content][UI] Versatz auf Standard-Materialien rendern
-* [Libraries][Content] Legen Sie den ASM-Shader (Adobe Standard Material) als Standard für die Vorschaugenerierung fest.
-* [Libraries][Content][ASM] Neue Projektvorlagen für neuen ASM-Shader
-* [Bibliotheken][Miniaturansicht] Neue Studio 6-Umgebungs-Map verwenden
-* [Bibliotheken][Miniaturansicht] Miniaturansicht in Ressource lesen, anstatt sie zu generieren
-* [Bibliotheken][Miniaturansicht] Versatz zur Miniaturgenerierung hinzufügen
+* [Bibliotheken]&#x200B;[Inhalt] Neue Umgebungs-Map
+* [Libraries]&#x200B;[Content]&#x200B;[UI] Versatz auf Standard-Materialien rendern
+* [Libraries]&#x200B;[Content] Legen Sie den ASM-Shader (Adobe Standard Material) als Standard für die Vorschaugenerierung fest.
+* [Libraries]&#x200B;[Content]&#x200B;[ASM] Neue Projektvorlagen für neuen ASM-Shader
+* [Bibliotheken]&#x200B;[Miniaturansicht] Neue Studio 6-Umgebungs-Map verwenden
+* [Bibliotheken]&#x200B;[Miniaturansicht] Miniaturansicht in Ressource lesen, anstatt sie zu generieren
+* [Bibliotheken]&#x200B;[Miniaturansicht] Versatz zur Miniaturgenerierung hinzufügen
 * [Textursatz-Einstellungen]
-* [Textursatz Settings][UI] Neues Height zur normalen Konvertierungsmethode Gelegt
-* [Kanaleinstellungen][UI] Überarbeitung der Benutzeroberflächenorganisation der Textursätze
+* [Textursatz Settings]&#x200B;[UI] Neues Height zur normalen Konvertierungsmethode Gelegt
+* [Kanaleinstellungen]&#x200B;[UI] Überarbeitung der Benutzeroberflächenorganisation der Textursätze
 * [Kanaleinstellungen] Benutzerkanallimit auf 16 Textursätze erhöht
-* [Kanaleinstellungen][UI] Geben Sie an, welche Textursätze mit dem aktuell ausgewählten Shader kompatibel sind.
-* [Shader][ASM] Neuer Adobe Standard Material-Shader
-* [Shader][ASM] Unterstützung für Anisotropie, Clear Coat, Volumenstreuung, Specular edge color und Glanz hinzugefügt
-* [Shader][ASM] Ändern der Farbwerte der Standardkanäle
-* [Shader][ASM][Exportieren] Aktualisierte Exportvorlage Adobe Dimension zu Adobe Substance 3D Stager
-* [Shader][ASM] Beschriftungen und QuickInfos für Shader- und MDL-Parameter hinzugefügt
-* [Shader][ASM] Sichtbarmachen der Streuung-Farbe in der 2D-Ansicht, auch wenn SSS nicht unterstützt wird
-* [Shader][ASM][Iray] Unterstützung von ASM-Shader in Iray mit neuer MDL
-* [Shader][ASM][Iray] Aktualisierte Volumenstreuung in veraltetem PBR-Spezifikationsglanz und beschichtet
-* [Shader][ASM][Content] Der Standard-SSS-Typ für Samples wurde geändert.
-* [Shader][ASM] Zusätzliche Dokumentation für ASM API
-* [Shader][ASM] Optimieren Sie Shader, um nicht genutzte Kanäle zu ignorieren.
+* [Kanaleinstellungen]&#x200B;[UI] Geben Sie an, welche Textursätze mit dem aktuell ausgewählten Shader kompatibel sind.
+* [Shader]&#x200B;[ASM] Neuer Adobe Standard Material-Shader
+* [Shader]&#x200B;[ASM] Unterstützung für Anisotropie, Clear Coat, Volumenstreuung, Specular edge color und Glanz hinzugefügt
+* [Shader]&#x200B;[ASM] Ändern der Farbwerte der Standardkanäle
+* [Shader]&#x200B;[ASM]&#x200B;[Exportieren] Aktualisierte Exportvorlage Adobe Dimension zu Adobe Substance 3D Stager
+* [Shader]&#x200B;[ASM] Beschriftungen und QuickInfos für Shader- und MDL-Parameter hinzugefügt
+* [Shader]&#x200B;[ASM] Sichtbarmachen der Streuung-Farbe in der 2D-Ansicht, auch wenn SSS nicht unterstützt wird
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Unterstützung von ASM-Shader in Iray mit neuer MDL
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Aktualisierte Volumenstreuung in veraltetem PBR-Spezifikationsglanz und beschichtet
+* [Shader]&#x200B;[ASM]&#x200B;[Content] Der Standard-SSS-Typ für Samples wurde geändert.
+* [Shader]&#x200B;[ASM] Zusätzliche Dokumentation für ASM API
+* [Shader]&#x200B;[ASM] Optimieren Sie Shader, um nicht genutzte Kanäle zu ignorieren.
 * [Shader] Leg neuer Textursatz-Kanäle
 * [Shader] Verbesserte Volumenstreuung
 * [Shader] Neue Shader-Parameter für einige Shader wurden ausgeblendet
@@ -251,41 +251,41 @@ Zusammenfassung: **Die Hauptversion bietet eine Aktualisierung des Bedienfelds &
 * [UI] Gesamte Aktualisierung der Benutzeroberfläche
 * [UI] Überarbeitung des Hilfemenüs
 * [UI] Symbol &quot;Umkehren ersetzen&quot;
-* [UI][Plug-In] Symbol &quot;Ersetzen&quot; für den DCC-Link des Plug-Ins
-* [UI][AMD] Mindest erforderliche Version aktualisieren und Popup-Nachricht
+* [UI]&#x200B;[Plug-In] Symbol &quot;Ersetzen&quot; für den DCC-Link des Plug-Ins
+* [UI]&#x200B;[AMD] Mindest erforderliche Version aktualisieren und Popup-Nachricht
 * [Ebenenstapel] Neue Ebene innerhalb des ausgewählten leeren Ordners erstellen
 * Python-Dokumentation aktualisieren
 * [Branding]
-* [Branding][UI] Der Anwendungsname wurde in Adobe Substance 3D Painter aktualisiert.
-* [Branding][UI] Eigenständige Version auf &quot;Substance Edition&quot; aktualisiert
-* [Branding][UI] Aktualisierter Name der ausführbaren Datei der Anwendung, Installationspfad, Paket und Symbole
-* [Branding][UI] Standardbibliothek und -pfad wurden umbenannt
-* [Branding][UI] Aktualisiert über das Fenster
-* [Branding][UI] Aktualisierter Begrüßungsbildschirm
-* [Branding][UI] Die jährliche Versionsnummer wurde entfernt.
+* [Branding]&#x200B;[UI] Der Anwendungsname wurde in Adobe Substance 3D Painter aktualisiert.
+* [Branding]&#x200B;[UI] Eigenständige Version auf &quot;Substance Edition&quot; aktualisiert
+* [Branding]&#x200B;[UI] Aktualisierter Name der ausführbaren Datei der Anwendung, Installationspfad, Paket und Symbole
+* [Branding]&#x200B;[UI] Standardbibliothek und -pfad wurden umbenannt
+* [Branding]&#x200B;[UI] Aktualisiert über das Fenster
+* [Branding]&#x200B;[UI] Aktualisierter Begrüßungsbildschirm
+* [Branding]&#x200B;[UI] Die jährliche Versionsnummer wurde entfernt.
 * [Lokalisierung] Neue Übersetzungen in Deutsch, Französisch und vereinfachtem Chinesisch
 * [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
 * [Interoperabilität] Interoperabilität mit dem Adobe-Ökosystem: Designer, Sampler, Stager und Bridge
-* [Interoperabilität][Benutzeroberfläche] Empfangen und Aktualisieren von Elementen aus Designer
-* [Interoperabilität][Benutzeroberfläche] Empfangen von Elementen aus Sampler
-* [Interoperabilität][UI] Element an Stager senden
-* [Interoperabilität][Benutzeroberfläche] In Adobe Bridge anzeigen
-* [Interoperabilität][UI] Schneller Zugriff auf Adobe 3D-Elemente
+* [Interoperabilität]&#x200B;[Benutzeroberfläche] Empfangen und Aktualisieren von Elementen aus Designer
+* [Interoperabilität]&#x200B;[Benutzeroberfläche] Empfangen von Elementen aus Sampler
+* [Interoperabilität]&#x200B;[UI] Element an Stager senden
+* [Interoperabilität]&#x200B;[Benutzeroberfläche] In Adobe Bridge anzeigen
+* [Interoperabilität]&#x200B;[UI] Schneller Zugriff auf Adobe 3D-Elemente
 * [Interoperabilität] Neue Verwendungs-Tags von sbsar
 * [Interoperabilität] Umgang mit empfangenen Elementtypen
 * [Interoperabilität] Von Adobe Substance 3D Designer oder Adobe Substance 3D Sampler empfangene Elemente werden in der vom Benutzer standardmäßig ausgewählten Bibliothek gespeichert.
-* [Interoperabilität][Benutzeroberfläche] Neues Symbol in der linken Symbolleiste zum Senden an Stager oder Photoshop
+* [Interoperabilität]&#x200B;[Benutzeroberfläche] Neues Symbol in der linken Symbolleiste zum Senden an Stager oder Photoshop
 
 **Fest:**
 
 * [Tablet] Geringe Leistung beim Malen mit Druck
 * [Tablet] Problem auf Tablets mit Schiebereglern
 * [Absturz] Namenskonflikt zwischen der Liste der Textursatz und dem Exporter
-* [Absturz][Bibliotheken] Doppelklicken Sie auf eine Unterbibliothek.
+* [Absturz]&#x200B;[Bibliotheken] Doppelklicken Sie auf eine Unterbibliothek.
 * [Bibliotheken] Problem beim Durchsuchen von Bibliotheksverzeichnissen
 * [Bibliotheken] Befehlszeile zum Erzwingen der Vorschaugenerierung funktioniert nicht wie erwartet
-* [Libraries][Content] Der Baking geführt Lichtumgebungsfilter ist standardmäßig schwarz.
-* [Linux][MacOS][Mesh exportieren] Kann unter Linux/MacOS erstellte glTF nicht importieren
+* [Libraries]&#x200B;[Content] Der Baking geführt Lichtumgebungsfilter ist standardmäßig schwarz.
+* [Linux]&#x200B;[MacOS]&#x200B;[Mesh exportieren] Kann unter Linux/MacOS erstellte glTF nicht importieren
 * [Linux] Das Ziehen und Ablegen einer Datei in das Bedienfeld &quot;Asset&quot; kann zu einem Absturz führen
 * [Automatisches Entpacken] Automatisches Entpacken ist auch dann verfügbar, wenn kein Mesh zum erneuten Laden ausgewählt wurde
 * [Partikeln] Falsche Partikel mit Schwerkraft
@@ -297,7 +297,7 @@ Zusammenfassung: **Die Hauptversion bietet eine Aktualisierung des Bedienfelds &
 * [Iray] Normalen-Map wird beim Rendern in neuen Projekten nicht berücksichtigt
 * [Speichern] Speichern von Problemen auf freigegebenen Laufwerken
 * [Baking] Beim erneuten Erstellen eines Meshs mit geänderten Parametern wird eine Warnung angezeigt.
-* [Baking][Regression] Falsches Ergebnis, wenn der globale Begrenzungsrahmen des hohen Poly-Meshs den Ursprung der Szene nicht enthält
+* [Baking]&#x200B;[Regression] Falsches Ergebnis, wenn der globale Begrenzungsrahmen des hohen Poly-Meshs den Ursprung der Szene nicht enthält
 * [Python] Benutzerdefinierte Benutzerbibliotheken werden nicht berücksichtigt
 
 **Bekannte Probleme:**

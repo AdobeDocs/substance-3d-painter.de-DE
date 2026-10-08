@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Material-Ebenen: Deklarieren bearbeitbarer Stapel
 
-Ein bearbeitbarer Stapel wird durch eine eindeutige Identifizierung und eine Liste von Dokumentkanälen definiert. Mögliche Kanal-ID(en): *Ambientocclusion* *Anisotropyangle* *Anisotropylevel* *Basisfarbe* *Mischmaske* *diffuse* *Versatz* *emissive* *Glanz* *Height* *Älter* *metallic 23}* Normal ** Deckkraft ** Reflexion ** Rauheit ** Streuung ** Specular ** Spiegelebene ** transmissive ** Benutzer0 ** Benutzer1 ** Benutzer2 45} *Benutzer3* *Benutzer4* *Benutzer5* *Benutzer6* *Benutzer7***
+Ein bearbeitbarer Stapel wird durch eine eindeutige Identifizierung und eine Liste von Dokumentkanälen definiert. Mögliche Kanal-ID(en): *Ambientocclusion* *Anisotropyangle* *Anisotropylevel* *Basisfarbe* *Mischmaske* *diffuse* *Versatz* *emissive* *Glanz* *Height* *Älter* *metallic 23&rbrace;* Normal **&#x200B; Deckkraft &#x200B;** Reflexion **&#x200B; Rauheit &#x200B;** Streuung **&#x200B; Specular &#x200B;** Spiegelebene **&#x200B; transmissive &#x200B;** Benutzer0 **&#x200B; Benutzer1 &#x200B;** Benutzer2 45&rbrace; *Benutzer3* *Benutzer4* *Benutzer5* *Benutzer6* *Benutzer7***
 
 Beispiel:
 

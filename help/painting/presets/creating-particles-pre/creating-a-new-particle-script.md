@@ -50,7 +50,7 @@ Ersetzen Sie dann im Fenster &quot;Node Properties&quot; (Knoteneigenschaften) d
 
 **Klonen Sie nun &quot;\_Receiver** **&quot;** (im Ordner &quot;Partikeln&quot;), um Ihren eigenen Receiver aus diesem zu erstellen.
 
-Öffne den Clip. Ersetze den Dummy-Mesh wie beim Emitter durch dein Model in &quot;Layer\_Model&quot;. Wir **haben den Mesh** **, der auf dem Bildschirm** angezeigt wird, geändert, aber wir müssen auch **den von den Partikeln** verwendeten Mesh **** ändern.
+Öffne den Clip. Ersetze den Dummy-Mesh wie beim Emitter durch dein Model in &quot;Layer\_Model&quot;. Wir **haben den Mesh** **, der auf dem Bildschirm** angezeigt wird, geändert, aber wir müssen auch **den von den Partikeln** verwendeten Mesh **&#x200B;**&#x200B;ändern.
 
 Klicken Sie dazu im Fenster &quot;Partikel Treeview&quot; auf &quot;**Shape** &quot;, das sich in folgendem Verzeichnis befinden sollte: &quot;Partikel-Effekt => Spawner => Ebene\_1 => Sampler => Mesh&quot;.
 

@@ -188,10 +188,10 @@ Jetzt werden Meshs in separate UV-Inseln zerlegt, indem eine Methode verwendet w
 * [Farbmanagement] Zulassen, dass lineare Farbwerte im Farbwähler mit dem Legacy-Modus eingegeben werden
 * [Farbmanagement] Geben Sie das Farbprofil an, das für die Farbauswahl außerhalb der Benutzeroberfläche verwendet wird.
 * [Farbmanagement] Merken Sie sich den letzten im Viewport ausgewählten Anzeigewert.
-* [Farbmanagement][Substance] Sorgen Sie dafür, dass Generatoren/Filter mit dem Farbmanagement ordnungsgemäß funktionieren.
-* [Farbmanagement][Substance] Fügen Sie neue Schlüsselwörter für die Farbraumüberschreibung $working und $standardsrgb hinzu
-* [Physische Größe][Engine] Extrahieren von Physische Größe-Informationen aus Mesh
-* [Physische Größe][Engine] Physische Größe Berechnung
+* [Farbmanagement]&#x200B;[Substance] Sorgen Sie dafür, dass Generatoren/Filter mit dem Farbmanagement ordnungsgemäß funktionieren.
+* [Farbmanagement]&#x200B;[Substance] Fügen Sie neue Schlüsselwörter für die Farbraumüberschreibung $working und $standardsrgb hinzu
+* [Physische Größe]&#x200B;[Engine] Extrahieren von Physische Größe-Informationen aus Mesh
+* [Physische Größe]&#x200B;[Engine] Physische Größe Berechnung
 * [Physische Größe] Leg von Optionen zur Verwendung von Physische Größe in der Benutzeroberfläche
 * [Physische Größe] Visuelle Helfer im Viewport hinzufügen
 * [Baking] Height-Baker hinzufügen
@@ -227,13 +227,13 @@ Jetzt werden Meshs in separate UV-Inseln zerlegt, indem eine Methode verwendet w
 
 * [glTF] glTF kann nicht mit Sonderzeichen geöffnet werden
 * [Engine] Artefakte mit deaktivierter Anisotropie und SVT
-* [MacOS][M1] Intelligenten Materials werden nicht korrekt angezeigt
+* [MacOS]&#x200B;[M1] Intelligenten Materials werden nicht korrekt angezeigt
 * [Mesh Processing] Mesh können nicht aus Modeler importiert werden.
 * [UI] Horizontale Bildlaufleiste in neuem Projektfenster mit aktiviertem Farbmanagement
 * [Farbmanagement] Arbeitsfarbraumwert fehlt in der Farbauswahl bei einigen OCIO
 * [Farbmanagement] Pinselvorschau im Viewport ist nicht farbverwaltet
 * [SpaceMouse] Pivot wird nicht sofort mit Fokusänderung aktualisiert und kann außerhalb des Modells liegen
-* [Exportieren][USD] Exportierte USD haben eine falsche Struktur.
+* [Exportieren]&#x200B;[USD] Exportierte USD haben eine falsche Struktur.
 * [USD] Ambient occlusion-Problem beim Exportieren
 * [Inhalt] Mesh der Miniaturansicht entsprechend dem Vorschaukugel-Beispielprojekt aktualisieren
 

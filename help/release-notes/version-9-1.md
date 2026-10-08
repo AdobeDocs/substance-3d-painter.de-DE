@@ -49,7 +49,7 @@ In dieser neuen Version setzen wir die Entwicklung des Pfad-Werkzeugs (eingefüh
 
 >[!NOTE]
 >
-> Weitere Informationen über das Pfad-Tool [finden Sie in der dedizierten Dokumentation ](../painting/tool-list/path.md).
+> Weitere Informationen über das Pfad-Tool [finden Sie in der dedizierten Dokumentation &#x200B;](../painting/tool-list/path.md).
 
 ### Neue Unterstützung für translucency, Transparenz und Absorption im Viewport
 
@@ -139,7 +139,7 @@ Diese Version ermöglicht es, eine externe Datei per Drag &amp; Drop in verschie
 
 >[!NOTE]
 >
-> Weitere Informationen zum Importieren von Ressourcen [finden Sie in der dedizierten Dokumentation ](../content/importing-assets/import-drag-and-drop.md).
+> Weitere Informationen zum Importieren von Ressourcen [finden Sie in der dedizierten Dokumentation &#x200B;](../content/importing-assets/import-drag-and-drop.md).
 
 ### Neue Verhalten beim Ziehen und Ablegen von Ressourcen
 
@@ -164,7 +164,7 @@ Verbesserungen beim Ziehen und Ablegen sind nicht auf den Import von Ressourcen 
 
   Wenn Painter auswählt, wo eine Ressource abgelegt wird, erstellt es automatisch eine neue Ebene oder einen neuen Effekt:
 
-  ![Drag-Drop im Ebenenstapel ](../assets/v91_drop_filter_stack.gif)
+  ![Drag-Drop im Ebenenstapel &#x200B;](../assets/v91_drop_filter_stack.gif)
 * <b>Beim Ziehen zwischen dem Stapel &quot;Inhalt&quot; und &quot;Maskeneffekt&quot; wählen\
   </b>
 
@@ -239,21 +239,21 @@ Zusammenfassung: <b>Hauptversion mit SVG- und Transparenzunterstützung sowie Ve
 <b>Hinzugefügt:</b>
 
 * [SVG] Importieren von Vektordateien zulassen (SVG)
-* [SVG][UI] Unterstützung für SVG-spezifische Eigenschaften hinzufügen
+* [SVG]&#x200B;[UI] Unterstützung für SVG-spezifische Eigenschaften hinzufügen
 * [SVG] Fügen Sie eine Option hinzu, um die ursprünglichen Bildproportionen einfach beizubehalten
 * [SVG] Automatisches Verwenden von Alpha von SVG mit Transparenz zulassen
 * [Interop] Senden eines strukturierten Meshs an After Effects zulassen (Ae 24.1 Beta)
 * [Interop] Hinzufügen von Einstellungen für &quot;An After Effects senden&quot;
-* [QoL][Assets][UI] Automatisches Importieren von Assets beim Ziehen und Ablegen in einen Steckplatz der Benutzeroberfläche
+* [QoL]&#x200B;[Assets]&#x200B;[UI] Automatisches Importieren von Assets beim Ziehen und Ablegen in einen Steckplatz der Benutzeroberfläche
 * [QoL] Zulassen, dass externe Elemente per Drag &amp; Drop in den Ebenenstapel gezogen werden
-* [QoL][Ebenenstapel] Ziehen Sie Texturen aus dem Bedienfeld &quot;Elemente&quot; in den Ebenenstapel
-* [QoL][Viewport] Generatorfilter auf dem Mesh ziehen und ablegen lassen
-* [QoL][Viewport] Zulassen, dass externe Elemente auf den Mesh abgelegt werden.
-* [QoL][Projektion] Hinzufügen eines neuen UV-Satzes zum UV-Satz-Projektion-Modus
+* [QoL]&#x200B;[Ebenenstapel] Ziehen Sie Texturen aus dem Bedienfeld &quot;Elemente&quot; in den Ebenenstapel
+* [QoL]&#x200B;[Viewport] Generatorfilter auf dem Mesh ziehen und ablegen lassen
+* [QoL]&#x200B;[Viewport] Zulassen, dass externe Elemente auf den Mesh abgelegt werden.
+* [QoL]&#x200B;[Projektion] Hinzufügen eines neuen UV-Satzes zum UV-Satz-Projektion-Modus
 * [QoL] Ziehen und Ablegen von Intelligente Masken als neue Ebenen in Viewport und Ebenenstapel
 * [QoL] Hinzufügen eines Selektors für Generatoren mit mehreren Ausgaben, wenn er in der Maske verwendet wird
 * [QoL] Ziehen und Ablegen von Ein Kanal-Bildern über einen Fülleffekt zulassen
-* [QoL][Ebenenstapel] Verwenden Sie STRG/ALT-Modifizierer mit Drag &amp; Drop, um anzugeben, wo/wie Effekte/Ebenen erstellt werden sollen
+* [QoL]&#x200B;[Ebenenstapel] Verwenden Sie STRG/ALT-Modifizierer mit Drag &amp; Drop, um anzugeben, wo/wie Effekte/Ebenen erstellt werden sollen
 * [Pfad] Umschalten der Pfadsichtbarkeit einzeln im Pfadbedienfeld
 * [Path] Verwenden von Transformations-Manipulatoren für Pfadpunkte zulassen
 * [Path] Tangenten pro Scheitelpunkt manuell steuern
@@ -273,7 +273,7 @@ Zusammenfassung: <b>Hauptversion mit SVG- und Transparenzunterstützung sowie Ve
 * [Leistung] Anwendung der verlustfreien Komprimierung auf 16-Bit-Bilder, um den Projektbedarf zu reduzieren
 * [Python] Bearbeiten der standardmäßigen Kamera in der 3D-Ansicht zulassen
 * [Python] Möglichkeit zum Exportieren von Mesh über Skripterstellung Gelegt
-* [Inhalt][Beispiele] Neues Beispielprojekt hinzufügen &quot;Französische Restauranttabelle&quot;
+* [Inhalt]&#x200B;[Beispiele] Neues Beispielprojekt hinzufügen &quot;Französische Restauranttabelle&quot;
 * [Inhalt] Aktualisieren des Alpha-Substance-Logos auf die neue Version
 * [Inhalt] Fügen Sie drei Material-Filter mit SVG hinzu (Benutzerdefinierter Aufkleber, Benutzerdefiniertes Sprühen und Grafik zu Material).
 
@@ -288,18 +288,18 @@ Zusammenfassung: <b>Hauptversion mit SVG- und Transparenzunterstützung sowie Ve
 * [UI] Der kontextbezogene Symbolleistenpfeil wird in einigen Fällen nicht angezeigt
 * [Substance] Schaltfläche &quot;Nebeneinander&quot; für boolesche Werte wird nicht unterstützt
 * [Level] Falsche Kanalbeschriftung bei Verwendung in Maske
-* [Exportieren][glTF] glTF/GLB-Dateien, die aus Painter exportiert werden, haben keine Physische Größe
+* [Exportieren]&#x200B;[glTF] glTF/GLB-Dateien, die aus Painter exportiert werden, haben keine Physische Größe
 * [Inhalt] Intensität des Weichzeichnungsfilters ist auf 16 eingestellt
 * [Inhalt] Farbabstimmungsfilter &quot;Zielfarbe&quot; Bildeingabe ist nicht sichtbar
 
 <b>Bekannte Probleme:</b>
 
 * [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Absturz][Linux] mit Linux Wayland auf AMD beim Ziehen und Ablegen von Ressourcen im Ebenenstapel
-* [Absturz][Mac] Ändern des Werts für anisotrope Filterungen unter Monterey OS
+* [Absturz]&#x200B;[Linux] mit Linux Wayland auf AMD beim Ziehen und Ablegen von Ressourcen im Ebenenstapel
+* [Absturz]&#x200B;[Mac] Ändern des Werts für anisotrope Filterungen unter Monterey OS
 * [Absturz] Exr als Bildeingabe verwendet
 * [Absturz] Verwenden von 16.000 Umgebungs-Map
 * [Automatisch Entpackt] UI-Problem für Texeldichtesteuerung
-* [Regression][UI] Kontextmenü auf HD-Bildschirm ist zu klein
+* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirm ist zu klein
 * [Python] Absturz exportieren USD ausgelöst durch TextureStateEvent
 * [QoL] Ziehen und Ablegen von Alpha-Ressourcen im Aufklebermodus erzeugt UV-Projektion in der Maske

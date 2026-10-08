@@ -89,7 +89,7 @@ Die neuen Funktionen werden in den neuesten Videos ausführlich erläutert:
 * [Scripting] Vor- und Nachher-Rückruffunktionen beim Exportieren von Texturen hinzufügen
 * [Iray] Upgrade auf SDK 2017.1 (Unterstützung für Volta-GPUs)
 
-****Fest:****
+**&#x200B;**&#x200B;Fest:**&#x200B;**
 
 * Absturz beim Beenden der Anwendung, bevor das Hauptfenster angezeigt wird
 * [MAC] Absturz beim Laden von Graustufenkarten mit IRAY

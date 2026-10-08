@@ -200,10 +200,10 @@ Zusammenfassung: **Hauptversion mit neuem Importmodus, neuem Baking und Export v
 * [USD] Importieren USD Meshs mit Skin in einem bestimmten Rahmen
 
   Wenn Sie ein neues Projekt mit einer USD Meshdatei erstellen, die eine Animation enthält, können Sie den Rahmen mithilfe eines Schiebereglers auswählen, der die eingebettete Timeline-Sequenz widerspiegelt. Der Rahmen kann über die Projektkonfiguration modifiziert werden.
-* [USD][Exportieren] Fügen Sie eine Option zum Exportieren USD Dateien hinzu.
+* [USD]&#x200B;[Exportieren] Fügen Sie eine Option zum Exportieren USD Dateien hinzu.
 
   Das neue Kontrollkästchen &quot;USD exportieren&quot; wurde dem Fenster &quot;Texturen exportieren&quot; hinzugefügt. Wenn diese Option aktiviert ist, können USD sowie Textur Maps mit einer beliebigen Vorlage exportiert werden.
-* [USD][Exportieren] Fügen Sie USD Dateiformat zum Mesh-Export hinzu.
+* [USD]&#x200B;[Exportieren] Fügen Sie USD Dateiformat zum Mesh-Export hinzu.
 * [USD] Benennen Sie die vorhandene Exportvorgabe &quot;USD PBR Metal Rauheit&quot; um, um ein expliziteres Format zu erhalten.
 
   Die USD Exportvorlage, die zuvor als &quot;USD PBR Metal Rauheit&quot; bezeichnet wurde, ist weiterhin über &quot;Texturen exportieren&quot; > &quot;Ausgabevorlage&quot; > &quot;USDz&quot; (Apple AR) verfügbar.
@@ -216,13 +216,13 @@ Zusammenfassung: **Hauptversion mit neuem Importmodus, neuem Baking und Export v
 * [Physische Größe] Physische Größe für UV-Projektion Gelegt
 
   Die Skalierung der Physische Größe ist jetzt für UV-Projektionen verfügbar - sie aktiviert die automatische Größenänderung für ein Material basierend auf der Physische Größe eines Meshs. Sie kann über &quot;Skalieren > Physische Größe&quot; im Fenster &quot;Füllebene&quot; oder &quot;Effekteigenschaften&quot; ausgewählt werden.
-* [Scripting][Python] Abfrage der Anwendungsversion zulassen
-* [Scripting][JavaScript] Update-API für neue Baking-Parameter
-* [Scripting][Python] Baking-Modul: Bearbeiten der Parameter für das Baking
-* [Scripting][Python] Baking-Modul: Baking starten/abbrechen
-* [Scripting][Python] Baking-Modul: Methode der selektierten Krümmung
-* [Scripting][Python] Baking-Modul: Auswahl von Bakern/UV-Kacheln
-* [Scripting][Python] Baking-Modul: Baker-Einstellungen auf allen Textursätzen synchronisieren
+* [Scripting]&#x200B;[Python] Abfrage der Anwendungsversion zulassen
+* [Scripting]&#x200B;[JavaScript] Update-API für neue Baking-Parameter
+* [Scripting]&#x200B;[Python] Baking-Modul: Bearbeiten der Parameter für das Baking
+* [Scripting]&#x200B;[Python] Baking-Modul: Baking starten/abbrechen
+* [Scripting]&#x200B;[Python] Baking-Modul: Methode der selektierten Krümmung
+* [Scripting]&#x200B;[Python] Baking-Modul: Auswahl von Bakern/UV-Kacheln
+* [Scripting]&#x200B;[Python] Baking-Modul: Baker-Einstellungen auf allen Textursätzen synchronisieren
 * [SVT] Aktivieren der Unterstützung für wenig Hardware auf AMD-GPUs
 
   Die Hardwarebeschleunigung für das Dünn besetzte virtuelle Textur-System kann jetzt mit AMD-GPUs aktiviert werden. Diese Einstellung wird in den allgemeinen Voreinstellungen automatisch aktiviert.
@@ -241,10 +241,10 @@ Zusammenfassung: **Hauptversion mit neuem Importmodus, neuem Baking und Export v
 **Fest:**
 
 * [Absturz] Ändern von Kanälen bei Filtern mit bestimmtem Stapel
-* [Mac][M1] Absturz beim Erstellen einer Füllebene und beim Verlassen des Ebenenstapels
+* [Mac]&#x200B;[M1] Absturz beim Erstellen einer Füllebene und beim Verlassen des Ebenenstapels
 
   Dieses Problem kann durch Aktualisieren auf Mac OS 13 (Ventura) behoben werden.
-* [Scripting][Python] Absturz bei Verwendung von ui.add\_dock\_widget() mit falschem Typ
+* [Scripting]&#x200B;[Python] Absturz bei Verwendung von ui.add\_dock\_widget() mit falschem Typ
 * [Baking] Unvollständige Fehlermeldung im Protokoll, wenn ein Baking fehlschlägt
 * [Baking] Speicher wird nach Abschluss des Bakings nicht freigegeben
 * [Engine] Texturen-Cache wird nicht aktualisiert, wenn die Effektsichtbarkeit geändert wird

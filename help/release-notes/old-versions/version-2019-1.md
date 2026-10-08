@@ -169,7 +169,7 @@ Es wurden zwei neue Modi für die Projektion mit Füllebenen und Fülleffekten h
 * **Schnelles Umschalten der Schaltflächen für Material-Kanäle**\
   Sie können jetzt ALT drücken und auf eine Kanalschaltfläche klicken, um sie zu isolieren. Wenn Sie erneut klicken, werden alle Kanäle wieder aktiviert.\
   ![](../../assets/channels-toggle.gif)
-* **Dithering beim Export** Dithering kann jetzt über eine dedizierte Einstellung im Exportfenster neben dem Dateiformat und der Bittiefe deaktiviert werden. Weitere Informationen dazu, wie und wann Dithering angewendet wird [finden Sie in der Exportdokumentation ](../../export/export-window/export-window.md).\
+* **Dithering beim Export** Dithering kann jetzt über eine dedizierte Einstellung im Exportfenster neben dem Dateiformat und der Bittiefe deaktiviert werden. Weitere Informationen dazu, wie und wann Dithering angewendet wird [finden Sie in der Exportdokumentation &#x200B;](../../export/export-window/export-window.md).\
   ![](../../assets/dithering.png)
 * **Bessere Histogramme**\
   Wir überarbeiteten unseren Histogrammgenerator. Histogramme sollten jetzt genauere Informationen anzeigen und nach einer Änderung des Ebenenstapels ordnungsgemäß aktualisieren.\
@@ -272,7 +272,7 @@ Zusammenfassung: **Bugfix mit 2 neuen Funktionen**
 * [TextureSet] Absturz beim Klicken zwischen Masken
 * [SVT] Versatz wird nicht richtig angezeigt und flackert in einigen Fällen
 * [Alembic] Absturz mit Mesh, der Punktnormalen anstelle von Scheitelpunkt-Normalen verwendet
-* [Alembic][Log] Melden Sie einen Fehler im Log, wenn die Alembic-Datei während des Imports nicht unterstützt wird
+* [Alembic]&#x200B;[Log] Melden Sie einen Fehler im Log, wenn die Alembic-Datei während des Imports nicht unterstützt wird
 
 ### 2019.1.2
 
@@ -295,9 +295,9 @@ Zusammenfassung: **HotFix**
 **Fest:**
 
 * [Substance] Visible If wird bei Eingabebildern nicht berücksichtigt
-* [SVT][Engine] Das Ändern der Textursatz-Auflösung führt in einigen Fällen zu einem Absturz
+* [SVT]&#x200B;[Engine] Das Ändern der Textursatz-Auflösung führt in einigen Fällen zu einem Absturz
 * [Engine] In einigen Fällen werden zufällige schwarze Texturen angezeigt
-* [Ebenenstapel][UI] Wenn Sie mit UMSCHALTTASTE eine Maske umschalten, können Sie mehrere Ebenen gleichzeitig auswählen
+* [Ebenenstapel]&#x200B;[UI] Wenn Sie mit UMSCHALTTASTE eine Maske umschalten, können Sie mehrere Ebenen gleichzeitig auswählen
 * [Ebenenstapel] Deckkraft hat keine Auswirkungen auf den Malen-Effekt mit dem Mischmodus &quot;Hindurchwirken&quot;
 * [Ebenenstapel] Filtereingabe &quot;Height zu Normal&quot; wird mit dem Pinselstrich des Radiergummis nicht ordnungsgemäß aktualisiert
 * Absturz [LayersStack] beim Rückgängigmachen des Ablagevorgangs für eine intelligente Maske
@@ -326,38 +326,38 @@ Zusammenfassung: **Dynamischer Strich mit eigenem neuen Inhalt, Versatz und Tess
 * [Dynamischer Strich] Parameter $time berücksichtigen
 * [Dynamischer Strich] Generieren eines neuen $randomseed-Parameters pro Strich und pro Stempel
 * [Dynamischer Strich] Starten eines dynamischen Strichindex aus einer zufälligen Zahl
-* [Dynamischer Strich][Regal] Helfen Sie mit dem neuen Symbol, eine dynamische Strichressource zu finden.
+* [Dynamischer Strich]&#x200B;[Regal] Helfen Sie mit dem neuen Symbol, eine dynamische Strichressource zu finden.
 * Versatz und Tessellation im Echtzeit-Viewport
 * Versatz und Tessellation in Iray
-* [Shader-Einstellungen][UI] Neue Registerkarte für die Steuerung von Versatz und Tessellation
+* [Shader-Einstellungen]&#x200B;[UI] Neue Registerkarte für die Steuerung von Versatz und Tessellation
 * [Ebenenstapel] Neuer Effekt &quot;CompareMask&quot;: durch Vergleich zweier Kanäle eine Maske generieren
-* [Ebenenstapel][UI] Neuer Eintrag im Kontextmenü &quot;Height mit Maskenkombination hinzufügen&quot;, um einen CompareMask-Effekt einzufügen
+* [Ebenenstapel]&#x200B;[UI] Neuer Eintrag im Kontextmenü &quot;Height mit Maskenkombination hinzufügen&quot;, um einen CompareMask-Effekt einzufügen
 * [Symmetrie] Neue Symmetrie: Radialmalerei
 * [Einstellungen für Symmetrie] Erweitern Sie beide Abschnitte &quot;Einstellungen&quot; und &quot;Anzeige&quot;.
-* [Symmetrie-Einstellungen][UI] Vorschau für radiales Malen
+* [Symmetrie-Einstellungen]&#x200B;[UI] Vorschau für radiales Malen
 * Leg zweier neuer Modi für die Projektion: planar und kugelförmig
 * [Proj] Neuer Formzuschneidemodus für alle Projektionen
 * [Proj] Planarer Modus mit neuem Manipulator: Oberflächenwerkzeug
-* [Proj][Tastaturbefehl] Tastaturbefehl UMSCHALTTASTE+W für Oberflächenwerkzeug
+* [Proj]&#x200B;[Tastaturbefehl] Tastaturbefehl UMSCHALTTASTE+W für Oberflächenwerkzeug
 * [Proj] Planare Maskierung von Projektionen mit Tiefe ausblenden und Rückseiten-Ausblendung
 * [Manipulator] Verbesserung des Manipulators der Drehung auf allen drei Achsen für triplanare
-* [Tool][UX] Alt-Klick auf einen Kanal fokussiert diesen Kanal (aktiviert ihn oder deaktiviert alle anderen)
+* [Tool]&#x200B;[UX] Alt-Klick auf einen Kanal fokussiert diesen Kanal (aktiviert ihn oder deaktiviert alle anderen)
 * [Engine] Update auf die neueste Version von Substance Engine
 * [Textursatz] Mehrfachauswahl und Auflösungsänderung
 * [Textursatz] Schnelle Aktivierung und Deaktivierung der Textursatz
 * [Textursatz] Kombination von Solo- und allen Optionen in einem neuen Menü
-* [Textursatz][Ebenenstapel] Neues Symbol für Aktivierung und Deaktivierung
-* [Ebenenstapel][UX] Einfügen von Effekten über den bereits ausgewählten
-* [Ebenenstapel][UI] Ebenenstapel-Ansichtenauswahlstil überarbeiten
+* [Textursatz]&#x200B;[Ebenenstapel] Neues Symbol für Aktivierung und Deaktivierung
+* [Ebenenstapel]&#x200B;[UX] Einfügen von Effekten über den bereits ausgewählten
+* [Ebenenstapel]&#x200B;[UI] Ebenenstapel-Ansichtenauswahlstil überarbeiten
 * [Ebenenstapel] Der Mischmodus für instanzierte Ebenen ist jetzt standardmäßig im Durchlaufmodus
 * [Exportieren] Option zum Aktivieren und Deaktivieren von Dithering
 * [Plugin] Präzisionsmodifikator für Schieberegler unterstützen (SHIFT)
-* [Plug-in][UI] Neues Symbol für automatisches Speichern
+* [Plug-in]&#x200B;[UI] Neues Symbol für automatisches Speichern
 * [Scripting] Auflisten des Inhalts eines Ordners
 * [Scripting] Löschen von Dateien zulassen
 * [Skripterstellung] Lesen aller Stapel-Informationen, einschließlich der verwendeten Ressourcen
-* [Inhalt][Dynamischer Strich] Neue Werkzeuge und Pinselvorgaben
-* [Inhalt][Dynamischer Strich] Zwei neue prozedurale Verläufe: Farbton und Verlaufsgenerator
+* [Inhalt]&#x200B;[Dynamischer Strich] Neue Werkzeuge und Pinselvorgaben
+* [Inhalt]&#x200B;[Dynamischer Strich] Zwei neue prozedurale Verläufe: Farbton und Verlaufsgenerator
 * [Inhalt] 11 neue Filter: MatFx Peeling Malen, MatFx Wassertropfen und mehr
 * [Inhalt] 7 neue Generatoren: &quot;Auto-Stitcher&quot;, &quot;UV-Zufallsfarbe&quot;, &quot;UV-Texeldichte&quot; und weitere Eigenschaften
 * [Inhalt] 93 neue Alphas: neue Texte, Pfeile und verschiedene andere Formen
@@ -380,4 +380,4 @@ Zusammenfassung: **Dynamischer Strich mit eigenem neuen Inhalt, Versatz und Tess
 **Bekannte Probleme:**
 
 * Durch Doppelklicken auf den Namen des Textursatzes wird dieser vor dem Umbenennungsmodus ausgewählt.
-* [Ebenenstapel][UI] Wenn Sie mit UMSCHALTTASTE eine Maske umschalten, können Sie mehrere Ebenen gleichzeitig auswählen
+* [Ebenenstapel]&#x200B;[UI] Wenn Sie mit UMSCHALTTASTE eine Maske umschalten, können Sie mehrere Ebenen gleichzeitig auswählen

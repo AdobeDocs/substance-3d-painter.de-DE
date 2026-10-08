@@ -172,7 +172,7 @@ Zusammenfassung: **Bugfix**
 **Fest:**
 
 * [Plugin] Plugin Source funktioniert nicht
-* [MacOS][Shader] Mac OS 10.14.5 und AMD: Material-Ebenen funktionieren nicht wie vorgesehen
+* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 und AMD: Material-Ebenen funktionieren nicht wie vorgesehen
 
 **Bekannte Probleme:**
 
@@ -197,7 +197,7 @@ Zusammenfassung: **Bugfix**
 
 **Fest:**
 
-* [Mac][USD] Exportierte USDZ-Dateien aus MacOS können nicht geöffnet werden.
+* [Mac]&#x200B;[USD] Exportierte USDZ-Dateien aus MacOS können nicht geöffnet werden.
 * [Textursatz] Es ist nicht möglich, einen Textursatz mit dem ALT-Modifizierer zu isolieren
 * [Regal] Vorgaben, Intelligente Materialien und Intelligente Masken werden beim Beenden der Anwendung immer geändert
 * [Ebenenstapel] Effekt kann nach dem Löschen eines anderen Effekts nicht ausgewählt werden
@@ -221,13 +221,13 @@ Zusammenfassung: **Hauptversion mit Leistungsaktualisierungen der Baker und eine
 
 * [Baker] Zusätzliche Unterstützung für GPU-Raytracing mit DXR und OptiX (Ambient occlusion, Thickness)
 * [Baker] Optimierungen und Beschleunigungen für CPU-Raytracing
-* [Baker][VIS-Modus][UI] Neuer Visualisierungsmodus für Baking im Viewport
-* [Baker][Voreinstellungen][Benutzeroberfläche] Neue Baking-Option zum Aktivieren/Deaktivieren von GPU-Raytracing
-* [Baker][UI] Überarbeitung des Fortschrittsbalken-Dialogfelds
+* [Baker]&#x200B;[VIS-Modus]&#x200B;[UI] Neuer Visualisierungsmodus für Baking im Viewport
+* [Baker]&#x200B;[Voreinstellungen]&#x200B;[Benutzeroberfläche] Neue Baking-Option zum Aktivieren/Deaktivieren von GPU-Raytracing
+* [Baker]&#x200B;[UI] Überarbeitung des Fortschrittsbalken-Dialogfelds
 * [Baker] Verbesserung von Warn- und Fehlermeldungen
 * [Baker] Responsiveres Abbrechen des Bakings zulassen
 * [Baker] Fenster &quot;Baking&quot; nach Klicken auf &quot;Abbrechen&quot; erneut öffnen
-* [Proj][UX] Verbesserte Verwendbarkeit des Rotations-Manipulators
+* [Proj]&#x200B;[UX] Verbesserte Verwendbarkeit des Rotations-Manipulators
 * [Einstellungen] Option zur Leistungssteigerung durch Reduzierung der Viewport-Auflösung für HDPI-Bildschirme
 * [Skripterstellung] Ändern der Auflösung von Textursätzen
 * [Skripterstellung] Ausgewählten Textursatz abrufen
