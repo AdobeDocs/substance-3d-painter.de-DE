@@ -58,4 +58,4 @@ Starten Sie die Anwendung neu. Die gespeicherten Suchvorgänge sollten nun im en
 
 Es wird empfohlen, die Anwendungseinstellungen manuell über die Benutzeroberfläche anzupassen. Dies ist der sicherste Weg, um Informationen ohne Kompatibilitätsprobleme zu migrieren.
 
-Andernfalls sehen Sie sich die folgende Seite an, um zu erfahren, wo sich die Voreinstellungen jetzt befinden: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Andernfalls sehen Sie sich die folgende Seite an, um zu erfahren, wo sich die Voreinstellungen jetzt befinden: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

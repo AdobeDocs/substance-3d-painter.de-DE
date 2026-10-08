@@ -21,7 +21,7 @@ ht-degree: 8%
 
 | Aktion | Beschreibung |
 | --- | --- |
-| Tutorials | Link zu offiziellen [Tutorials](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html), die sich auf die Anwendung beziehen. |
+| Tutorials | Link zu offiziellen [Tutorials](https://helpx.adobe.com/de/substance-3d/unlisted/tutorials.html), die sich auf die Anwendung beziehen. |
 | Versionshinweise | Link zu den [Versionshinweisen](../../release-notes/all-changes.md). |
 | Dokumentation | Link zu dieser Dokumentation. |
 | Liste der Tastaturbefehle | Link zur Dokumentation [shortcuts](../settings/shortcuts.md). |

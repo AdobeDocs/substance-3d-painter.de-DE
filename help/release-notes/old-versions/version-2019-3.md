@@ -26,7 +26,7 @@ Sie können Ihre Photoshop-Pinsel jetzt in der Substance Painter verwenden. Inde
 
 Wenn Sie keine ABR-Dateien zum Importieren haben, können Sie viele davon online finden:
 
-* [Kyles Pinselvorgaben auf dem Adobe](https://www.adobe.com/products/photoshop/brushes.html)
+* [Kyles Pinselvorgaben auf dem Adobe](https://www.adobe.com/de/products/photoshop/brushes.html)
 * [Pinselvorgaben auf ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Pinselvorgaben zu DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Pinselvorgaben für Cubebrush](https://cubebrush.co/marketplace?categories=354,57)
@@ -107,7 +107,7 @@ Neben der Unterstützung von Photoshop-Pinselvorgaben wurden zahlreiche Verbesse
 Substance Painter entpackt jetzt automatisch Mesh mit fehlenden UV-Koordinaten. Dies ermöglicht das Importieren beliebiger Geometrien und den sofortigen Start zum Malen. Unser Entpackend UV-System generiert eine UV-Insel pro Sub-Mesh, während es gleichzeitig die Material-Zuweisung zum Erstellen von Textursätzen befolgt. Diese Funktion befindet sich derzeit in der Beta-Version und wird in zukünftigen Versionen weiterentwickelt. Der automatische Entpack wird nur auf Projekte angewendet, die **den UDIM-Workflow nicht verwenden**.
 
 * **Automatisch Entpackend UV**\
-  Standardmäßig generiert Substance Painter jetzt automatisch UV-Koordinaten für Mesh, die diese nicht haben. Dies gilt sowohl für die Projekterstellung als auch für den erneuten Import von Meshs. Es ist jedoch möglich, dieses Verhalten zu deaktivieren, indem Sie die [Haupteinstellungen](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) aufrufen und **Automatische UV-entpack aktivieren** unter **Importoptionen** deaktivieren.
+  Standardmäßig generiert Substance Painter jetzt automatisch UV-Koordinaten für Mesh, die diese nicht haben. Dies gilt sowohl für die Projekterstellung als auch für den erneuten Import von Meshs. Es ist jedoch möglich, dieses Verhalten zu deaktivieren, indem Sie die [Haupteinstellungen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/general-71008262.html) aufrufen und **Automatische UV-entpack aktivieren** unter **Importoptionen** deaktivieren.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Fortschrittsleiste wird Entpackt**.\
@@ -207,7 +207,7 @@ In dieser Version wurden viele neue Inhalte hinzugefügt:
 * **Neue Pinselvorgaben**
 
   * **102 Photoshop-Pinselvorgaben**\
-    Mit der Einführung der Fotoshop-Pinselunterstützung wurde ein neuer Satz von Vorgaben hinzugefügt, um ihn zu präsentieren. Diese Vorgaben wurden aus den Paketen von Kyle T. Webster ausgewählt, die auf der [Adobe-Website verfügbar sind](https://www.adobe.com/products/photoshop/brushes.html).
+    Mit der Einführung der Fotoshop-Pinselunterstützung wurde ein neuer Satz von Vorgaben hinzugefügt, um ihn zu präsentieren. Diese Vorgaben wurden aus den Paketen von Kyle T. Webster ausgewählt, die auf der [Adobe-Website verfügbar sind](https://www.adobe.com/de/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 neue Pinselvorgaben**\

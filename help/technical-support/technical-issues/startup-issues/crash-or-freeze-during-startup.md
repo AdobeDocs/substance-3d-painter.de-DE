@@ -33,7 +33,7 @@ Wenn die Anwendung beim Start unter Windows sofort einfriert (was zu einem weiß
 * Eine externe Anwendung verursacht einen Konflikt. Informationen zu Softwarekonflikten finden Sie unter [Softwarekonflikte](software-conflicts.md).
 * Einige Fenster der Anwendung wurden auf einem anderen Monitor geöffnet. Durch Wiederherstellen des Standardlayouts der Benutzeroberfläche kann die Anwendung normal gestartet werden:
   1. Öffnen Sie den Registrierungseditor (**regedit** aus dem Startmenü).
-  1. Navigieren Sie zu den Anwendungsvoreinstellungen (siehe: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
+  1. Navigieren Sie zu den Anwendungsvoreinstellungen (siehe: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
   1. Erweitern Sie den Schlüssel **Adobe Substance 3D Painter**
   1. Wählen Sie den Schlüssel **Hauptfenster 2018** aus, und löschen Sie ihn.
   1. Starten Sie die Anwendung neu

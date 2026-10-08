@@ -49,7 +49,7 @@ Sie können verschiedene Dateitypen in Ihre Substance 3D Painter-Bibliothek impo
 
 >[!NOTE]
 >
-> Ab Version 7.2.0 können benutzerdefinierte Ordner und Kategorien in einer Bibliothek verwendet werden. Sie sind im Fenster &quot;Elemente&quot; über [Filter nach Pfad](../../interface/assets/filter-by-path.md) oder [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html) zugänglich.
+> Ab Version 7.2.0 können benutzerdefinierte Ordner und Kategorien in einer Bibliothek verwendet werden. Sie sind im Fenster &quot;Elemente&quot; über [Filter nach Pfad](../../interface/assets/filter-by-path.md) oder [Breadcrumbs](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html) zugänglich.
 
 >[!WARNING]
 >

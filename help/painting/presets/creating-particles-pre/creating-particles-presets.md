@@ -18,6 +18,6 @@ Die Pinsel für Partikeln bestehen aus zwei Teilen: **Emitter** und **Empfänger
 
 Weitere Informationen finden Sie auf den entsprechenden Seiten:
 
-* [Installieren des Partikel-Editors](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [Überblick über den Partikeln-Editor](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [Installieren des Partikel-Editors](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [Überblick über den Partikeln-Editor](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [Erstellen eines neuen Partikel-Skripts](creating-a-new-particle-script.md)

@@ -18,7 +18,7 @@ Die Viewporte können aus verschiedenen Gründen verschwommen erscheinen.
 
 Standardmäßig verkleinert Substance 3D Painter die Viewport-Auflösung auf HD-/Retina-Bildschirm, um die Leistung zu verbessern.
 
-Dieses Verhalten kann in den [Haupteinstellungen](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) geändert werden, indem der **Parameter Skalierung des Viewports** geändert wird.
+Dieses Verhalten kann in den [Haupteinstellungen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/general-71008262.html) geändert werden, indem der **Parameter Skalierung des Viewports** geändert wird.
 
 ## Texturfilterung
 

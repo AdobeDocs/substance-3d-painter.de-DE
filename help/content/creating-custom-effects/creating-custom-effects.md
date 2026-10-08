@@ -16,13 +16,13 @@ Substance-Effekte müssen in **Substance 3D Designer** auf bestimmte Weise erste
 
 >[!NOTE]
 >
-> Benutzerdefinierte Effekte können in ein Projekt des Standard-Regals importiert werden. Weitere Informationen hierzu finden Sie unter: [Elemente werden importiert](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+> Benutzerdefinierte Effekte können in ein Projekt des Standard-Regals importiert werden. Weitere Informationen hierzu finden Sie unter: [Elemente werden importiert](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 Weitere Informationen zum Erstellen benutzerdefinierter Effekte finden Sie auf den folgenden Seiten :
 
 * [Generischer Filter](generic-filter.md)
 * [Kanalspezifischer Filter](channel-specific-filter.md)
 * [Generatoren](generators.md)
-* [Mesh-Map](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
+* [Mesh-Map](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
 * [Mesh-basierte Eingabe](mesh-based-input.md)
 * [Benutzerdaten](user-data.md)

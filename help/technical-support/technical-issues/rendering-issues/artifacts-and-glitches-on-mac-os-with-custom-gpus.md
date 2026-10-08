@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Falls unter Mac OS beim Ausführen einer benutzerdefinierten GPU mit benutzerdefinierten Treibern Störungen, Absturz oder sogar Artefakte auftreten, kann eine Problemumgehung darin bestehen, die **ordnungsgemäß aufgelisteten** Dateien, die sich auf die Anwendung beziehen, zu löschen.
 
-Informationen dazu, welche Datei entfernt werden soll, finden Sie unter: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).
+Informationen dazu, welche Datei entfernt werden soll, finden Sie unter: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html).

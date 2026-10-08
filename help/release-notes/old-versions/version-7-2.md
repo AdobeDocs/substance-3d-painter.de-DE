@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Version 7.2
 
-**Substance 3D Painter 7.2** bietet neue Rendering-Funktionen für den Adobe Standard Material-Workflow, neue Möglichkeiten zur Freigabe von Inhalten in [Substance 3D-Anwendungen](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) und ein überarbeitetes Elementfenster.
+**Substance 3D Painter 7.2** bietet neue Rendering-Funktionen für den Adobe Standard Material-Workflow, neue Möglichkeiten zur Freigabe von Inhalten in [Substance 3D-Anwendungen](https://www.adobe.com/de/products/substance3d/3d-augmented-reality.html) und ein überarbeitetes Elementfenster.
 
 Freigabedatum: *23. Juni 2021*
 

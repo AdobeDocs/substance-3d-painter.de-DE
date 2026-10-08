@@ -39,7 +39,7 @@ So fügen Sie einen Generator zu einer Ebene hinzu:
 ![](../../assets/generators/generator_spectrum.png)
 
 Jeder Generator verfügt über einen Satz von Parametern, mit denen Sie die resultierende Maske optimieren können.\
-Informationen zum Hinzufügen benutzerdefinierter Generatoren zum Regal finden Sie unter: [Hinzufügen von Inhalten zum Regal](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Informationen zum Hinzufügen benutzerdefinierter Generatoren zum Regal finden Sie unter: [Hinzufügen von Inhalten zum Regal](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

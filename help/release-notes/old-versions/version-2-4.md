@@ -32,7 +32,7 @@ Informationen zum Erstellen erweiterter Abfragen finden Sie im entsprechenden Te
 
 Mit der Nachbearbeitung des Regals **haben wir auch das Ressourcenimportfenster** verbessert. Das Fenster ist jetzt konsistenter und kann **auf drei verschiedene Arten aufgerufen werden** : über das Dateimenü, über die Schaltfläche im Regal-Fenster oder wie zuvor durch Ziehen und Ablegen einer Ressource in das Regal-Fenster. Mit dem neuen Fenster können **schnell die Verwendung** für **mehrere Ressourcen** gleichzeitig festlegen. Das bedeutet, dass Sie die Ressourcen nicht mehr zuerst an den richtigen Ort ziehen und ablegen müssen. Wir haben außerdem die Möglichkeit hinzugefügt, **einen benutzerdefinierten Pfad anzugeben**, um Unterordner zu erstellen, um die Vorteile der neuen Strukturansicht zu nutzen.
 
-Weitere Informationen finden Sie im entsprechenden Teil der Dokumentation : [Ressourcen werden über das Importfenster hinzugefügt](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+Weitere Informationen finden Sie im entsprechenden Teil der Dokumentation : [Ressourcen werden über das Importfenster hinzugefügt](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
 ### Neue Partikel-Vorgaben
 
