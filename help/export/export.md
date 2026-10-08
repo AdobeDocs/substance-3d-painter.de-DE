@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Texturen aus Substance 3D Painter in verschiedenen Formaten für die Verwendung in anderen Anwendungen und Game-Enginen exportieren.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Exportieren
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
-
 ---
-
 
 # Exportieren
 
@@ -38,7 +30,7 @@ Beim Exportieren eines Meshs stehen Ihnen einige Optionen zur Verfügung:
 
 * <b>Ohne Versatz/Tessellation</b>: exportiert den Basis-Mesh, ohne die Geometrie anhand der Material zu ändern.
   * <b>Triangulation anwenden</b>: Wenn der importierte Mesh aus Quads oder Polygonen bestand, können Sie diese Option aktivieren, um die triangulierte Painter-Version des Meshs zu exportieren. Dies kann dazu beitragen, visuelle Triangulationsfehler zu vermeiden, falls andere Anwendungen anders triangulieren.
-* <b>Mit Versatz/Tesselierung</b>: Painter tesseliert den Mesh, fügt weitere Polygone hinzu und verwendet Versatz oder Height, um die Oberflächengeometrie des Meshs zu ändern.
+* <b>Mit Versatz/Tessellation</b>: Painter tesseliert den Mesh, fügt weitere Polygone hinzu und verwendet Versatz oder Height, um die Oberflächengeometrie des Meshs zu ändern.
   * <b>Normale des Scheitelpunkts erneut berechnen</b>: Die Änderung der Oberfläche des Meshs kann zu fehlerhaften Normalen bereits vorhandener Scheitelpunkt führen. Wenn diese Option aktiviert ist, aktualisiert Painter die Normalen des Scheitelpunkts automatisch auf den richtigen Wert für die neue Fläche.
 
 ![](../assets/export-render.jpg){width="500px"}

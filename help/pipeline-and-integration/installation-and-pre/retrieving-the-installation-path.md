@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/installation-and-preferences/retrieving-the-installation-path.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie den Installationspfad für Substance 3D Painter für Skripterstellung und Pipelineintegration abrufen.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Installation and preferences > Retrieving the installation path
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ermitteln des Installationspfads
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 6%
-
 ---
-
 
 # Ermitteln des Installationspfads
 
@@ -27,7 +19,7 @@ Auf dieser Seite werden Informationen darüber neu gruppiert, wie der Installati
 ### Creative Cloud Desktop
 
 1. Öffnen Sie den Windows-Registrierungseditor (**regedit**).
-1. Navigieren Sie zum Registrierungsschlüssel: **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Pfade\**
+1. Navigieren Sie zum Registrierungsschlüssel: ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Pfade\**
 1. Öffnen Sie den Unterschlüssel &quot;**Adobe Substance 3D Painter.exe**&quot;.
 1. Der Wert des Schlüssels enthält den Pfad zur ausführbaren Anwendungsdatei, in der er installiert ist
 

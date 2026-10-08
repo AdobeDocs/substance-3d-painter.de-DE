@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
-breadcrumb-title: ''
-description: Erfahren Sie, wie Sie den Viewer und die MDL-Einstellungen für den Iray-Renderer in Substance 3D Painter konfigurieren, um das Rendering von Material anzupassen.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer > Viewer and MDL Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Erfahren Sie, wie Sie Viewer- und MDL-Einstellungen für den Iray-Renderer in Substance 3D Painter konfigurieren, um das Rendering von Materialien anzupassen.
 title: Viewer- und MDL-Einstellungen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
-
 ---
-
 
 # Viewer- und MDL-Einstellungen
 
@@ -28,7 +20,7 @@ Wie im regulären Viewport steuert die in Iray verwendete Umgebungs-Map die Bele
 Die Umgebungskarte kann durch Klicken auf den Button oder durch Ziehen und Ablegen einer HDR Textur verändert werden.
 
 * **Umgebungsbelichtung** : Steuern Sie die Belichtungsstufe der HDR. Umgebungs-Map.
-* **Umgebungsrotation** : , um die Umgebungstextur zu verschieben und die Beleuchtung um die Szene zu drehen.
+* **Umgebungsrotation** : , um die Textur der Umgebung zu ändern und die Beleuchtung um die Szene zu drehen.
 
 >[!NOTE]
 >
@@ -73,7 +65,7 @@ Standardmäßig ist der Wert so festgelegt, dass der untere Rand des Begrenzungs
 
 ## MDL- und Shader-Parameter
 
-Iray verwendet MDL zum Definieren der Material, die für das Rendern eines Objekts verwendet werden. Weitere Informationen finden Sie auf der [offiziellen Nvidia-Seite im Format &#x200B;](http://www.nvidia.com/object/material-definition-language.html) .
+Iray verwendet MDL zum Definieren der Material, die für das Rendern eines Objekts verwendet werden. Weitere Informationen finden Sie auf der [offiziellen Nvidia-Seite im Format ](http://www.nvidia.com/object/material-definition-language.html) .
 
 Standardmäßig ist in Substance 3D Painter eine MDL einem GLSL-Shader zugeordnet. Sie können zwischen dem regulären Viewport und dem Iray wechseln, ohne etwas konfigurieren zu müssen.\
 Die Parameter der MDL werden dann unten in den Anzeigeeinstellungen angezeigt. Im Folgenden finden Sie die Parameter der Standard-MDL (kompatibel mit dem PBR-Shader Metallic/Rauheit).

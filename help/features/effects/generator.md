@@ -1,26 +1,18 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: Erfahren Sie, wie Sie Generatoreffekte in Substance 3D Painter verwenden, um prozedurale Texturen und Muster automatisch zu erstellen.
-helpx_creative_field: ''
-helpx_description: Painter > Features > Effects > Generator
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Generatoren
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 
 # Generatoren
 
-Generatoren sind Stoffe, die eine Maske oder Texturen auf der Grundlage der Mesh-Topologie [&#x200B; mithilfe Baking geführt Dienstprogrammzuordnungen wie &quot;Position&quot;, &quot;Krümmung&quot; und &quot;Welt-Raum-Normale&quot; &#x200B;](../../baking/baking.md) generieren.
+Generatoren sind Stoffe, die eine Maske oder Texturen auf der Grundlage der Mesh-Topologie [ mithilfe Baking geführt Dienstprogrammzuordnungen wie &quot;Position&quot;, &quot;Krümmung&quot; und &quot;Welt-Raum-Normale&quot; ](../../baking/baking.md) generieren.
 
 >[!NOTE]
 >
@@ -47,7 +39,7 @@ So fügen Sie einen Generator zu einer Ebene hinzu:
 ![](../../assets/generators/generator_spectrum.png)
 
 Jeder Generator verfügt über einen Satz von Parametern, mit denen Sie die resultierende Maske optimieren können.\
-Informationen zum Hinzufügen benutzerdefinierter Generatoren zum Regal finden Sie unter: [Hinzufügen von Inhalten zum Regal](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+Informationen zum Hinzufügen benutzerdefinierter Generatoren zum Regal finden Sie unter: [Hinzufügen von Inhalten zum Regal](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

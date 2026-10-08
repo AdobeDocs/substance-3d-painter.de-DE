@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
-breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Painter die Texturerweiterung und -auffüllung verwenden, um Kantenartefakte in exportierten Texturen zu verhindern.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Erfahren Sie, wie Sie in Substance 3D Painter die Ausdehnung von Texturen und Innenabstände verwenden, um Kantenartefakte in exportierten Texturen zu verhindern.
 title: Ausdehnung der Textur oder Auffüllung
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 
 # Ausdehnung der Textur oder Auffüllung
 
@@ -46,7 +38,7 @@ Im Folgenden finden Sie ein Beispiel für die unendliche Auffüllung :
 
 ## MipMaps
 
-In 3D-Computergrafiken sind **MIPMaps** vorberechnete, optimierte Sequenzen von Texturen, von denen jede eine progressiv niedrigere Auflösung des gleichen Bildes ist. Sie sollen die Rendering-Geschwindigkeit erhöhen und Aliasing-Artefakte reduzieren. Für Objekte in der Nähe der Kamera wird ein hochauflösendes Mipmap-Bild verwendet. Bilder mit geringerer Auflösung werden verwendet, wenn das Objekt weiter entfernt erscheint. Auf diese Weise lassen sich alle Pixel der ursprünglichen Textur effizient rendern bzw. lesen. Die Mipmaps (jede Ebene) sind in der Textur selbst eingebettet (wenn sie vom Dateiformat unterstützt werden).
+In 3D-Computergrafiken sind **MIPMaps** vorberechnete, optimierte Sequenzen von Texturen, die jeweils eine progressiv niedrigere Auflösungsdarstellung desselben Bildes aufweisen. Sie sollen die Rendering-Geschwindigkeit erhöhen und Aliasing-Artefakte reduzieren. Für Objekte in der Nähe der Kamera wird ein hochauflösendes Mipmap-Bild verwendet. Bilder mit geringerer Auflösung werden verwendet, wenn das Objekt weiter entfernt erscheint. Auf diese Weise lassen sich alle Pixel der ursprünglichen Textur effizient rendern bzw. lesen. Die Mipmaps (jede Ebene) sind in der Textur selbst eingebettet (wenn sie vom Dateiformat unterstützt werden).
 
 Der Innenabstand ist sehr wichtig für Imagemaps, da er verhindert, dass falsche Farben innerhalb der UVs des Meshs verlaufen, wenn die Auflösungen der Textur niedriger sind.
 

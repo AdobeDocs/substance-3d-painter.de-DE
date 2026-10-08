@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/eraser.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Entferne Malen und Texturen präzise und mit dem Radiergummi-Werkzeug von Substance 3D Painter.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Eraser
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Radiergummi
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%
-
 ---
-
 
 # Radiergummi
 
@@ -39,7 +31,7 @@ Beim Löschen von Informationen kann es vorkommen, dass nur bestimmte Kanäle be
 
 >[!NOTE]
 >
-> Im Gegensatz zum Malen-Tool kann der Radiergummi nur festlegen, welche Kanäle betroffen sind. Es ist nicht möglich, eine Ressource aus dem Shelf zu laden, um jeden Kanal zu beeinflussen.
+> Im Gegensatz zum Malen-Tool kann der Radiergummi nur festlegen, welche Kanäle betroffen sind. Es ist nicht möglich, eine Ressource aus dem Regal zu laden, um jeden Kanal zu beeinflussen.
 
 * Wenn alle Kanäle aktiviert sind, entfernt der Radiergummi Informationen aus allen Kanälen:
 

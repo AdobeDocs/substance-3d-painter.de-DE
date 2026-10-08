@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Elemente aus anderen Substance 3D-Applikationen in Substance 3D Painter für nahtlose Workflows importieren und empfangen.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Importing assets > Receiving assets from other Substance 3D applications
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Empfangen von Elementen aus anderen Substance 3D-Programmen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
-
 ---
-
 
 # Empfangen von Elementen aus anderen Substance 3D-Programmen
 

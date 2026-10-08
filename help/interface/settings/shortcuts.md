@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Hier erfahren Sie, wie Sie Tastaturbefehle in Substance 3D Painter anpassen, um Ihren Arbeitsablauf zu optimieren und die Effizienz zu verbessern.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Settings > Shortcuts
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Tastaturkürzel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 5%
-
 ---
-
 
 # Tastaturkürzel
 
@@ -26,11 +18,11 @@ Auf dieser Seite werden alle verfügbaren Tastatur- und Mauskürzel aufgeführt.
 
 ## Übersicht über Tastaturbefehle
 
-Einen kurzen Überblick über alle verfügbaren Tastaturbefehle finden Sie in der Grafik [, die in unseren Tutorials &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) verfügbar ist.
+Einen kurzen Überblick über alle verfügbaren Tastaturbefehle finden Sie in der Grafik [, die in unseren Tutorials ](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) verfügbar ist.
 
 ## So ändern Sie einen Tastaturbefehl
 
-![](../../assets/shortcut-edit.gif)Klicken Sie auf das Symbol &quot;Öffnen&quot; neben einem Tastaturbefehl, um ihn zu bearbeiten, und geben Sie die neue Kombination ein.Durch Drücken der letzten Taste wird der Bearbeitungsmodus automatisch beendet und der Tastaturbefehl geändert.
+![](../../assets/shortcut-edit.gif)Klicken Sie auf das Symbol &quot;Stift&quot; neben einem Tastaturbefehl, um ihn zu bearbeiten, und geben Sie die neue Kombination ein.Durch Drücken der letzten Taste wird der Bearbeitungsmodus automatisch beendet und der Tastaturbefehl geändert.
 
 ### Liste der bearbeitbaren Tastaturbefehle
 
@@ -74,8 +66,8 @@ Um einen Tastaturbefehl auf seinen Standardwert zurückzusetzen, klicken Sie ein
 | **Klon-Tool auswählen (relative Quelle)** | 6 | 6 |  |
 | **Klon-Tool auswählen (absolute Quelle)** | Strg+6 | ⌘+6 |  |
 | **Baking Mesh-Map** | Strg+Umschalt+B | ⌘+Umschalt+B | Öffnen Sie das Einstellungsfenster des Bakings. |
-| **Werkzeuggröße erhöhen** | **&rbrack;** | **&rbrack;** | Erhöhen Sie die Größe des Pinsels für das Malwerkzeug. |
-| **Werkzeuggröße verringern** | **&lbrack;** | **&lbrack;** | Verkleinern Sie den Pinsel für das Malwerkzeug. |
+| **Werkzeuggröße erhöhen** | **&amp;rbrack;** | **&amp;rbrack;** | Erhöhen Sie die Größe des Pinsels für das Malwerkzeug. |
+| **Werkzeuggröße verringern** | **&amp;lbrack;** | **&amp;lbrack;** | Verkleinern Sie den Pinsel für das Malwerkzeug. |
 | **Graustufen-Werkzeug umkehren** | X | X | Aktuellen Graustufenwert umkehren, wenn sich das Malwerkzeug auf einer Maske befindet. |
 | **Strichmuster-Material auswählen** | P | P | Aktiviere die Material-Auswahl. |
 | **Verzögerte Mausbewegung** | D | D | Aktivieren Sie das Verhalten &quot;verzögerte Mausbewegung&quot; für das aktuelle Tool. |
@@ -120,12 +112,12 @@ Um einen Tastaturbefehl auf seinen Standardwert zurückzusetzen, klicken Sie ein
 | **Kontextmenü** | Maus nach rechts | Maus nach rechts | Schnellmenü, um auf das Eigenschaftsfenster im Viewport zuzugreifen. |
 | **Quellspeicherort des Klon-Tools festlegen** | V + Maus nach links | V + Maus nach links |  |
 |  |  |  |  |
-| **Schablonenmaske ignorieren** | H | H | Deaktivieren Sie die Schablone vorübergehend (vermeiden Sie dies, um sie vollständig zu entfernen). |
+| **Schablonen-Maske ignorieren** | H | H | Deaktivieren Sie die Schablone vorübergehend (vermeiden Sie es, sie vollständig zu entfernen). |
 | **Vorherigen Strich fortsetzen** | A | A | Lassen Sie zu, dass der zuvor erstellte Pinselstrich fortgesetzt wird, um Unterbrechungen zu vermeiden. |
 
 ## Liste der nicht bearbeitbaren Tastaturbefehle
 
-Einige Tastaturbefehle funktionieren möglicherweise nur **&#x200B;**, wenn sich die **Maus über dem** bestimmten Fenster befindet.
+Einige Tastaturbefehle funktionieren möglicherweise nur ****, wenn sich die **Maus über dem** bestimmten Fenster befindet.
 
 Beispiel: **Kopieren** und **Einfügen** erfordert, dass die Maus **über den Ebenenstapel** bewegt wird.
 
@@ -142,7 +134,7 @@ Beispiel: **Kopieren** und **Einfügen** erfordert, dass die Maus **über den Eb
 | **Anzeigemaske im Viewport** | Alt+Maus nach links | Wahl + Maus nach links | Ändere den Anzeigemodus des Viewports in die Maskenansicht der gewünschten Ebene. |
 | **Maske deaktivieren/aktivieren** | Umschalt+Maus nach links | Umschalt+Maus nach links | Schaltet den Zustand der Maske auf einer Ebene um. |
 |  |  |  |  |
-| **Ziehen und Ablegen von Material** | Strg+Drag&amp;Drop | ⌘+Drag&amp;Drop | Halten Sie diese Taste gedrückt, während Sie ein Material (oder intelligentes Material) per Drag &amp; Drop in den Viewport ziehen, um nur einen bestimmten Teil des 3D-Modells zu beeinflussen. |
+| **Material ziehen und ablegen** | Strg+Drag&amp;Drop | ⌘+Drag&amp;Drop | Halten Sie diese Taste gedrückt, während Sie ein Material (oder intelligente Material) per Drag &amp; Drop in den Viewport ziehen, um nur einen bestimmten Teil des 3D-Modells zu beeinflussen. |
 |  |  |  |  |
-| **Einschränkung für Manipulator/einrasten** | Shift | Shift | Ausrichtung der Transformation beim Anpassen des Manipulators (Verschiebung oder Drehung) in der 3D-Ansicht. Verhältnis beim Anpassen von Manipulator in der 2D-Ansicht einschränken. |
+| **Einschränkung für Manipulator/einrasten** | Shift | Shift | Einrasten der Transformation beim Anpassen des Manipulators (Verschiebung oder Drehung) in der 3D-Ansicht. Verhältnis beim Anpassen von Manipulator in der 2D-Ansicht einschränken. |
 | **Manipulator Spiegeltransformation** | Strg | ⌘ | Der gespiegelte Manipulator weist die Transformation auf seinen Drehpunkt in der 2D-Ansicht hin. |

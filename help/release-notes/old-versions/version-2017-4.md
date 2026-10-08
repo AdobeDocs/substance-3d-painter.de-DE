@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2017.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2017.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
-
 ---
-
 
 # Version 2017.4
 
@@ -90,25 +82,25 @@ Die neuen Funktionen werden in den neuesten Videos ausführlich erläutert:
 
 * [Export] Erhalten Sie den Status eines Exports mit Schrittfortschritt
 * [Exportieren] Abbrechen eines Exports zulassen
-* [Exportieren] Exportieren von Texturen nach Sketchfab, ohne die normale Kartenqualität zu verlieren
+* [Exportieren] Exportieren von Texturen in Sketchfab ohne Qualitätsverlust beim Normalen-Map
 * [Export] Export im glTF-Binärformat (glb)
 * [Export] Zulassen der Spaltengrößenänderung auf der Registerkarte &quot;Konfiguration&quot; des Exportfensters
-* [Shader] Fügen Sie ein Änderungsprotokoll für den Shader-API hinzu
-* [Scripting] Hinzufügen von Vorher- und Nachher-Rückruffunktionen beim Exportieren von Texturen
+* [Shader] Fügen Sie ein Änderungsprotokoll für den Shader-API hinzu.
+* [Scripting] Vor- und Nachher-Rückruffunktionen beim Exportieren von Texturen hinzufügen
 * [Iray] Upgrade auf SDK 2017.1 (Unterstützung für Volta-GPUs)
 
-**&#x200B;**&#x200B;Fest:**&#x200B;**
+****Fest:****
 
 * Absturz beim Beenden der Anwendung, bevor das Hauptfenster angezeigt wird
-* [MAC] Absturz beim Laden von Graustufenzuordnungen mit IRAY
-* [MAC] VRAM-Erkennung ist mit dem neuen High Sierra OS nicht korrekt
+* [MAC] Absturz beim Laden von Graustufenkarten mit IRAY
+* [MAC] VRAM Erkennung ist mit dem neuen Betriebssystem High Sierra nicht korrekt.
 * [Plug-In] Das Herunterladen von Assets aus Substance Source funktioniert nicht mehr
 * [Scripting] Falsche Erkennung der Mindestversion des Plug-ins
-* [Export] Exportvorgabe kann nach dem Exportieren von Texturen nicht gespeichert werden
-* [Instanz] Problem mit Generatoren, die in einem TextureSet ohne zusätzliche Karten instanziiert werden
+* [Exportieren] Exportvorgabe kann nach dem Exportieren von Texturen nicht gespeichert werden
+* [Instanz] Problem mit Generatoren, die in einem TextureSet ohne zusätzliche Maps instanziieren werden
 * [Viewport] Dithering funktioniert nicht mit einer Auflösung über 4k
-* [Viewport] Die Materialanzeige in 2D-Ansicht ist geräuschvoll.
-* [Shelf] Verbessern der Ladezeit für Shelf-Vorgaben
+* [Viewport] 2D-Ansicht Material Display ist mit Rauschen überzogen
+* [Regal] Verbessern der Ladezeit für Regal-Vorgaben
 * [Engine] Falsche Füllmethode beim Malen unter Farbauswahl
 
 ### 2017.4.1
@@ -117,28 +109,28 @@ Die neuen Funktionen werden in den neuesten Videos ausführlich erläutert:
 
 **Hinzugefügt:**
 
-* [Scripting] Exportieren des Mesh über die Scripting-API
-* [Importieren] Import von nicht unterstütztem Gitterdateiformat deaktivieren (nur obj, fbx, date, layer zulassen)
+* [Scripting] Exportieren von Mesh über die Scripting-API
+* [Importieren] Import nicht unterstützter Meshdateien deaktivieren (nur obj, fbx, date, play zulassen)
 * [Log] Präzisere Angabe des TDR-Problems in der Protokolldatei
 
 **Fest:**
 
 * Absturz, wenn die Anwendung geschlossen wird, bevor das Crawlen der Ressourcen abgeschlossen ist
-* Absturz beim Öffnen von Projekten mit dem Verwischen-/Klonen-Werkzeug
-* Absturz bei Verwendung von &quot;Wiederholen&quot; nach einem Rückgängigmachen einer Shader-Änderung in den Anzeigeeinstellungen
-* [Engine] Texturierung unterscheidet sich zwischen Painter 2017.2 und 2017.4
-* [Viewport] Wenn Sie eine ID-Karte aus einer Instanz auswählen, wird die falsche Farbe angezeigt.
-* [Export] Absturz beim Exportieren einer ungültigen Normalstruktur oder Verdeckung-Textur
+* Absturz beim Öffnen von Projekten mit dem Verwischen-/Klon-Werkzeug
+* Absturz bei der Verwendung von &quot;redo&quot; nach einem Rückgängigmachen einer Shader-Änderung in den Anzeigeeinstellungen
+* [Engine] Die Texturierung unterscheidet sich zwischen Painter 2017.2 und 2017.4
+* [Viewport] Beim Auswählen auf einem ID-Map aus einer Instanz wird die falsche Farbe aufgenommen.
+* [Exportieren] Absturz beim Exportieren einer ungültigen Normal- oder Verdeckung-Textur
 * [Exportieren] Beim Öffnen von PSD-Dateien in Photoshop CS6 sind die Gruppen gesperrt
 * [Plugin] Photoshop Plugin ignoriert die Kanalauswahl und exportiert immer alles
-* [Ebenen] Anker brechen beim Kopieren/Einfügen über Textursätze hinweg ab
+* [Ebenen] Ankerpunkte brechen beim Kopieren/Einfügen über Textursatz hinweg ab
 * [Ebenen] Einige Ankerreferenzen können nicht wiederhergestellt werden, wenn sie beschädigt sind
-* [Shader] pbr-beschichteter Parameter für sekundäre Raueit ist defekt
+* [Shader] Der Parameter für die sekundäre Rauheit mit pbr-Beschichtung ist defekt.
 * [Steam] Popup zur Versionsprüfung sollte beim Start nicht sichtbar sein
 
 **Bekannte Probleme:**
 
-* [AMD] Absturz/Einfrieren beim Malen auf einem Gitter. Kann mit einem GPU-Treiber-Update behoben werden.
+* [AMD] Absturz/Einfrieren beim Malen auf einem Mesh. Kann mit einem GPU-Treiber-Update behoben werden.
 
 ### 2017.4
 
@@ -146,25 +138,25 @@ Die neuen Funktionen werden in den neuesten Videos ausführlich erläutert:
 
 **Hinzugefügt:**
 
-* [Instanz] Parameter über Ebenen hinweg instanziieren
+* [Instanz] Ermöglicht den instanziieren von Parametern über Ebenen hinweg
 * [Instanz] Erlaubt das Wechseln zwischen einer Quellebene und einer Instanz.
-* [Instanz] Hinzufügen einer Aktion &quot;Instanziieren über Textursätze hinweg&quot;
-* [Instanz] Zeigen Sie im Ebenenstapel erneut eintretende Instanzen (Zyklen) an.
+* [Instanz] Hinzufügen einer Aktion &quot;instanziieren über Textursatz hinweg&quot;
+* [Instanz] Geben Sie im Ebenenstapel wieder eintretende Instanzen (Zyklen) an.
 * [Instanz] Instanzen löschen, wenn eine Quelle entfernt wird
 * [Instanz] Verweise auf Anker von außerhalb eines instanzierten Ordners nicht zulassen
-* [UI] Verschieben Sie den Rückgängig-Stapel in ein eigenes Fenster namens &quot;Verlauf&quot;.
+* [UI] Verschieben Sie den Stapel &quot;Rückgängig&quot; in ein eigenes Fenster mit dem Namen &quot;Verlauf&quot;
 * [Plug-In] DCC-Live-Link-Plug-In integrieren
 * [Engine] Verbessern der Malleistung mit Sparse-Malerei
-* [Exportieren] Optionen für Entwürfe und Re-Exporte zum Sketchfab-Exporteur hinzufügen
-* [Shelf] Hinzufügen einer &quot;Flip&quot;-Steuerung für Schriftsubstanzen
-* [Regal] 20 neue Verfahrensmaterialien hinzufügen
-* [Shelf] 40 neue Grunges Maps hinzufügen (Bitmap-basiert und prozedural)
-* [Viewport] Aktivieren von Kollisionen in der Pinselvorschau bei anderen sichtbaren Texturgruppen
+* [Exportieren] Optionen für Entwürfe und Re-Exporte zum Sketchfab-Exporter hinzufügen
+* [Regal] Hinzufügen einer &quot;Spiegeln&quot;-Steuerung für Schriftsubstanzen
+* [Regal] 20 neue Prozeduren hinzufügen Materials
+* [Regal] 40 neue Grunges Maps hinzufügen (Bitmap-basiert und prozedural)
+* [Viewport] Aktivieren von Kollisionen in der Pinselvorschau auf anderen sichtbaren Textursätzen
 * Mindestanforderungen für AMD GPU-Treiber aktualisieren
 
 **Fest:**
 
-* Absturz beim Berechnen von Substance mit zu großen Auflösungen
+* Absturz Beim Berechnen von Substance mit zu großen Auflösungen
 * Absturz beim Malen mit Partikeln
 * [Viewport] Falsche Specular-Reflexion in der 2D-Ansicht mit bestimmten Meshs
 * [UI] Einige unerwünschte Aktionen werden im Protokollfenster angezeigt

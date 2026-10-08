@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Volumenstreuung in Substance 3D Painter-Projekten aktivieren, um realistische transluzente Material-Effekte zu erstellen.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Untergeordnete Oberfläche in einem Projekt aktivieren
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
-
 ---
-
 
 # Untergeordnete Oberfläche in einem Projekt aktivieren
 
@@ -31,7 +23,7 @@ Fügen Sie im [Textursatz](../../interface/texture-set/texture-set.md) einen **S
 
 >[!NOTE]
 >
-> Der Streuungskanal funktioniert wie eine **Maske** über der **Oberfläche**: Wenn der Kanal schwarz ist, gibt es überhaupt keine Unterfläche, während, wenn er weiß ist, die Untergrundintensität maximal ist. Dieser Kanal ist ein Graustufenwert, der standardmäßig **schwarz** ist. Füge eine Füllebene zum Ebenenstapel hinzu, um die Standardfarbe zu ändern, oder verwende eine Malebene, um die Intensität manuell anzupassen.
+> Der Streuungskanal funktioniert wie eine **Maske** über der **Oberfläche**: Wenn der Kanal schwarz ist, gibt es überhaupt keine Unterfläche, während, wenn er weiß ist, die Untergrundintensität maximal ist. Dieser Kanal ist ein Graustufenwert, der standardmäßig **schwarz** ist. Fügen Sie im Ebenenstapel eine Füllebene hinzu, um die Standardfarbe zu ändern, oder verwenden Sie eine Malebene, um die Intensität manuell anzupassen.
 
 ## 2 - Globale Untergrundeinstellung
 
@@ -48,7 +40,7 @@ Aktivieren Sie die Einstellung für die Hauptanzeige in den [Anzeigeeinstellunge
 ![](../../assets/shader-parameters.png)
 
 Im Fenster &quot;[Shader-Einstellungen](../../interface/shader-settings/shader-settings.md)&quot; mit Standardshadern befindet sich eine Gruppe &quot;**SSS-Parameter**&quot; mit zwei Einstellungen.\
-Ändern Sie den Maßstab und die Farbe, um sie an das Zielmaterial anzupassen. Weitere Informationen zu diesen Einstellungen finden Sie unter: [Unteroberflächenparameter](subsurface-parameters.md)
+Passe Größe und Farbe an das Material des Zielgeräts an. Weitere Informationen zu diesen Einstellungen finden Sie unter: [Unteroberflächenparameter](subsurface-parameters.md)
 
 ## Bonus: Aktivieren von Schatten
 

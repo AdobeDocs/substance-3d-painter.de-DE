@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/settings/general-preferences.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Hier erfahren Sie, wie Sie allgemeine Voreinstellungen in Substance 3D Painter konfigurieren, um das Anwendungsverhalten und die Benutzererfahrung anzupassen.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Settings > General preferences
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Allgemeine Voreinstellungen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 3%
-
 ---
-
 
 # Allgemeine Voreinstellungen
 
@@ -74,7 +66,7 @@ Auf dieser Seite werden die Haupteinstellungen der Anwendung erläutert.
 | --- | --- |
 | **Verzeichnis für lokalen Cache** | Definieren Sie den sekundären Speicherort, an dem sich die Miniaturansichten der Ressourcen befinden, wenn sie generiert werden.Diese Einstellung ist nützlich, um Ressourcen-Miniaturansichten zu berechnen und zu speichern, wenn ein Ressourcenpfad schreibgeschützt ist (wie bei einem Netzwerkpfad mit nur Lesezugriff). Dadurch wird vermieden, dass Miniaturansichten bei jedem Start neu berechnet werden, da sie sonst nicht auf der Festplatte gespeichert würden. |
 | **Budget für lokalen Cache (in MB)** | Legen Sie die maximale Größe des Caches für den lokalen Cache fest. |
-| **Materialvorschau-Shader** | Definiere einen Shader, der Miniaturansichten von Materialien in Regalen erzeugt. Dies ist nützlich, wenn Ressourcen einen anderen Workflow als den Standard-Shader verwenden. Diese Einstellung erfordert, dass die Anwendung neu gestartet wird. |
+| **Materialvorschau-Shader** | Definieren Sie einen Shader, der zum Generieren von Materialien-Miniaturansichten in Regalen verwendet werden soll. Dies ist nützlich, wenn Ressourcen einen anderen Arbeitsablauf als den standardmäßigen Shader verwenden. Diese Einstellung erfordert, dass die Anwendung neu gestartet wird. |
 
 ## Temporäre Dateien
 
@@ -82,7 +74,7 @@ Auf dieser Seite werden die Haupteinstellungen der Anwendung erläutert.
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| **Cacheverzeichnis** | Definiert den Speicherort, an dem temporäre Dateien geschrieben werden. Dies umfasst den [Cache für virtuelle Texturen mit geringer Dichte](../../features/sparse-virtual-textures.md). Diese Einstellung kann von [Umgebungsvariablen](../../pipeline-and-integration/configuration/environment-variables.md) überschrieben werden. |
+| **Cacheverzeichnis** | Definiert den Speicherort, an dem temporäre Dateien geschrieben werden. Dies umfasst den [Dünn besetzte virtuelle Texturen](../../features/sparse-virtual-textures.md)-Cache. Diese Einstellung kann von [Umgebungsvariablen](../../pipeline-and-integration/configuration/environment-variables.md) überschrieben werden. |
 
 ## Wenig virtuelle Texturen
 

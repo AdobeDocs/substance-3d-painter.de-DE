@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/automatic-uv-unwrapping.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahre, wie du in Substance 3D Painter mit automatischem UV-entpack UV-Layouts für deine 3D-Modelle erstellen kannst.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Automatic UV Unwrapping
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Automatischer Entpack von UV
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 
 # Automatischer Entpack von UV
 

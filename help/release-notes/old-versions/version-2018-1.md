@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2018.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2018.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 0%
-
 ---
-
 
 # Version 2018.1
 
@@ -55,33 +47,33 @@ Mit Substance Painter 2018.1 wird eine **vollständige Überarbeitung der Benutz
   ![](../../assets/contextual-toolbar_1.png)
 * Es ist jetzt möglich, **Effekte** mithilfe von **Ziehen und Ablegen** im **Ebenenstapel** neu anzuordnen.\
   ![](../../assets/re-order-effects.gif)
-* Während die Tastaturbefehle &quot;**C**&quot; und &quot;**B**&quot; es Ihnen ermöglichen, die **Kanal** und **Gebackenen Texturen** schnell in den **Viewport** zu visualisieren, ist es jetzt möglich, die **einheitliche Dropdown-Liste** zu verwenden, um die Viewport-Anzeige zu ändern.\
-  In der **oberen rechten Ecke** des **Ansichtsports** befindet sich jetzt eine Dropdownliste mit **allen Kanälen und Meshmaps** (zuvor Zusätzliche Karten). Diese vereinheitlichte Dropdown-Liste ist auch im Dock **Anzeigeeinstellungen** verfügbar.\
+* Während Sie mit den Tastaturbefehlen &quot;**C**&quot; und &quot;**B**&quot; die **Kanal** und **Baking geführt Texturen** schnell in den **Viewport** anzeigen können, ist es jetzt möglich, die **vereinheitlichte Dropdown-Liste** zu verwenden, um die Anzeige des Viewports zu ändern.\
+  Am **oberen rechten Rand** des **Viewports** befindet sich jetzt ein Dropdown-Menü mit **allen Kanälen und Mesh-Map** (zuvor Zusätzliche Karten). Diese vereinheitlichte Dropdown-Liste ist auch im Dock **Anzeigeeinstellungen** verfügbar.\
   ![](../../assets/dropdown-viewport.gif)
 * Die **Anzeigeeinstellungen** und **Anzeigeeinstellungen** wurden **zusammengeführt** zu einem einzigen Dock.\
   **Die Einstellungen für Umgebung**, **Kamera** und **Viewport** sind jetzt **gruppiert**, während die **Shader**-Parameter **verschoben** in ein **dediziertes Dock** wurden.\
   Die Anzeigeeinstellungen nutzen jetzt das neue **Registerkarten-Layout**, um schnell durch das Fenster zu navigieren.\
   ![](../../assets/display-shader-settings.png)
 
-### Ziehen und Ablegen von Materialien und Smart-Materialien in den Viewport
+### Materialien und Smart-Materialien per Drag-and-Drop in den Viewport ziehen
 
 ![](../../assets/drag-drop-material-resize.gif){width="650px"}
 
-Sie können jetzt **Materials und Intelligenten Materials von** direkt in den Viewport ziehen und ablegen **&#x200B;**.\
-Durch diese neue Aktion wird **gleichzeitig die Geometrie** des **Ziel-Textursatzes** hervorgehoben. Mit dieser Aktion werden die neuen Ebenen am oberen Rand des Ebenenstapels des Textursatzes erstellt.
+Sie können jetzt **Materials und Intelligenten Materials von** direkt in den Viewport ziehen und ablegen ****.\
+Durch diese neue Aktion wird **die Geometrie** des **Ziel-Textursatzes** gleichzeitig hervorgehoben. Dadurch werden die neuen Ebenen am oberen Rand des Ebenenstapels des Textursatzes erstellt.
 
 ### Verbessertes Verhalten von Tablet-Stiften
 
 ![](../../assets/tablet-pen-events.png)
 
 In dieser Version haben wir die Art und Weise verbessert, wie wir Grafiktablett-Stift-Bewegungen und Eingaben verarbeiten, insbesondere wenn Substance Painter unter einer großen Belastung ist.\
-Wir verlieren die Eingänge nicht mehr, während wir aufeinander folgende Berechnungen durchführen. Dies sollte in allen Situationen präzise Pinselstriche ermöglichen.
+Wir verlieren die Eingaben nicht mehr, während wir aufeinander folgende Berechnungen durchführen. Dies sollte in allen Situationen präzise Pinselstriche ermöglichen.
 
 ### Verbesserte Innenabstände der Naht
 
 ![](../../assets/seam-3.png)
 
-Wir haben die Art und Weise überarbeitet, wie wir Auffüllungen außerhalb der UV-Inseln generieren. Anstatt das aktuelle Pixel auf eine bestimmte Distanz zu erweitern, suchen wir nun nach dem benachbarten Pixel auf der anderen Seite der UV-Naht und interpolieren die beiden Werte.\
+Wir haben die Art und Weise überarbeitet, wie wir Auffüllungen außerhalb der UV-Inseln generieren. Anstatt den aktuellen Pixel auf eine bestimmte Distanz zu erweitern, suchen wir nun nach dem benachbarten Pixel auf der anderen Seite der UV-Naht und interpolieren die beiden Werte.\
 Dies führt zu einem viel besseren Endergebnis und reduziert die Sichtbarkeit der Teilung zwischen UV-Inseln, auch wenn die Textelverhältnisse nicht übereinstimmen.
 
 <table>
@@ -144,11 +136,11 @@ Wir haben in dieser Version auch einige neue Inhalte hinzugefügt:
   Die Richtung kann mit zwei 3D-Positionen definiert werden, die direkt auf der Positionskarte ausgewählt werden können.\
   Beispiel :
 
-1. &#x200B;
+1. 
    1. Erstellen Sie den Maskengenerator **3D Linear gradient** in einer Ihrer Ebenen.
-   1. Wechseln Sie die Viewport-Anzeige zu &quot;**Position**&quot; (über die Viewport-Dropdownliste oder mithilfe der Taste &quot;**B**&quot;).
+   1. Wechseln Sie die Anzeige des Viewports zu &quot;**Position**&quot; (über die Dropdownliste des Viewports oder mithilfe der Taste &quot;**B**&quot;).
    1. Klicken Sie auf den Parameter &quot;**3D-Positionsstart**&quot;, um das Popup **Farbwähler** zu öffnen.
-   1. **Wählen Sie eine Farbe** für das Gitter **im Viewport aus**
+   1. **Farbe** auf dem Mesh **im Viewport auswählen**
    1. Wiederholen Sie den Vorgang für den zweiten Parameter &quot;**3D Position End**&quot;.
 
       ![](../../assets/3d-gradient.jpg)
@@ -186,12 +178,12 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 **Fest:**
 
 * [Plug-In] Substance Source &quot;Suchen&quot; funktioniert nicht
-* [Smart Materials] Das Importieren von Smart-Materialien führt in einigen Fällen zu einem Absturz
-* [Smart Materials] Das Löschen von Smart Materials führt in einigen Fällen zu einem Absturz
-* [Speichern] Das Speichern führt in seltenen Fällen zu einem Absturz
-* [Shelf] Umkehren funktioniert nicht auf Zellen 2 und Zellen 3
-* [Shelf] Typo in einigen Alphas
-* [Shelf] Einige Substance-Materialien lassen sich nicht richtig rendern
+* [Intelligenten Materials] Das Importieren von Intelligenten Materials führt in einigen Fällen zu einem Absturz
+* [Intelligenten Materials] Das Löschen von Intelligenten Materials führt in einigen Fällen zu einem Absturz
+* [Speichern] Das Speichern führt in einigen seltenen Fällen zu einem Absturz
+* [Regal] Umkehren funktioniert nicht auf den Zellen 2 und 3 der Zellen
+* [Regal] Typo in einigen Alphas
+* [Regal] Einige Substance-Material werden nicht richtig gerendert
 
 **Bekannte Probleme:**
 
@@ -204,9 +196,9 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 **Hinzugefügt:**
 
 * Zusammenfassung: Verbesserte Geschwindigkeit beim Baking, verbessertes Speichersystem, aktualisierte Schieberegler, aktualisierte Plug-in-API, Übersetzung ins Chinesische, verbesserter Abstand jetzt optional
-* [Bäcker] Leistungssteigerung mit neuer Bäcker-Version
+* [Baker] Leistungsverbesserung mit neuer Baker-Version
 * Erzwungene Anzeige von Dialogfeldern mit inkompatibler GPU
-* [Speichern] Neue Funktion für kompakte Projekte bereitstellen (vollständiger/kompakter Speichermodus)
+* [Speichern] Leg neuer Kompaktprojekt-Funktionen (vollständiger/kompakter Speichermodus)
 * [Speichern] Benutzer informieren, wenn Fehler beim Speichern auftritt
 * [Clean] Nächste Speicherung im Voll-/Kompaktmodus
 * [Schieberegler] Verbesserung der Präzision der Farb-/Graustufenbalken und Schieberegler
@@ -215,7 +207,7 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 * [Plugin] Automatische Speicherung immer im inkrementellen Modus
 * [Plug-In] Option zum Wechseln von Plug-Ins zu einem neuen Schnittstellenstil
 * [Sprache] Chinesische Übersetzung hinzufügen
-* [Auffüllung] Option zum Wechseln zwischen UV- und 3D-Raum-Nachbarauffüllung pro Textursatz in den Textursatzeinstellungen
+* [Auffüllung] Option zum Wechseln zwischen UV- und 3D-Raum, Nachbar-Auffüllung pro Textursatz in den Textursatz-Einstellungen
 * [Skript] Gelegt Speichermodus: Voll/Kompakt oder inkrementell
 * [Script] Update Scripting/QML documentation
 * [Log] Anzeige des Speichermodus im Protokoll (vollständig/kompakt oder inkrementell)
@@ -251,9 +243,9 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 * [Baker] Leistungsrückgang mit A.O.-Map
 * [Iray] Die Verzerrung des Objektivs wird nicht auf den Alphakanal angewendet
 * [Treiber] Aktualisierung der Mindestanforderungen für Treiber
-* [3Dview] Normale, die nicht korrekt auf UDIM-Netzen ohne Normaleninformationen generiert wurden
+* [3Dview] Normale werden auf UDIM-Meshs ohne Normale-Informationen nicht korrekt generiert
 * [Intel] Absturz mit Substance Painter 2018.1.0
-* [Intel]&#x200B;[Viewport] Problem mit der Auffüllung (schwarze Artefakte)
+* [Intel][Viewport] Problem mit der Auffüllung (schwarze Artefakte)
 
 **Bekannte Probleme:**
 
@@ -269,72 +261,72 @@ Der Substance Academy wurde ein neuer Tutorial-Kurs hinzugefügt, der unsere neu
 * Neues Standardlayout
 * [Tablet] Benutzererfahrung beim Malen verbessert
 * [Hauptmenü] Sortieren Sie native Elemente zuerst in Ansichten und Symbolleisten
-* [Hauptmenü] Schnellmaskierungsaktionen im Ansichtsfenster verschieben
-* [Hauptmenü] Verschieben von Rechtsklick-Aktionen in den Ansichtsfenster-Abschnitt
+* [Hauptmenü] Aktionen &quot;schnelle Maske verschieben&quot; im Abschnitt &quot;Viewport&quot;
+* [Hauptmenü] Verschieben von Rechtsklickaktionen in den Abschnitt &quot;Viewport&quot;
 * [Hauptmenü] Menü &quot;Ansicht&quot; in &quot;Fenster&quot; umbenennen
-* [Schnellmenü] Neue Werkzeugeigenschaften durch Rechtsklick im Ansichtsfenster
+* [Schnellmenü] Neue Werkzeugeigenschaften durch Rechtsklick im Viewport
 * [Dock-Widget] Neue Dock-Symbolleiste zum schnellen Reduzieren/Zurückrufen
 * [Anzeigeeinstellungen] Fenster &quot;Kamera- und Anzeigeeinstellungen&quot; wurde zusammengeführt
 * [Ebenenstapel] Kontextmenü (rechte Maustaste)
-* [Ebenenstapel] Ziehen und Ablegen, um beliebige Effekte innerhalb derselben Ebene zu verschieben
+* [Ebenenstapel] Ziehen und Ablegen, um einen Effekt innerhalb derselben Ebene zu verschieben
 * [Symbolleiste] Neuorganisation der Symbolleiste und neue kontextbezogene Symbolleiste
 * [Werkzeugleiste] Klonwerkzeug in zwei separate Werkzeuge teilen
 * [Werkzeugeigenschaften] Hellerer Graustufenwert im Hintergrund in der Vorschau
 * [Eigenschaften von Tools] Organisation in Registerkarten (Füllung und Werkzeuge)
-* [Tool] Malergebnis entspricht der Schablone
+* [Tool] Das Malergebnis entspricht der Schablone
 * [Viewport] Neuer Cursor für Füllebene
-* [Viewport] Einfachere Navigation und besseres Malen (höhere Framerate)
-* [Viewport] Kombinationsfeld für Material-/Kanal-/Kartenauswahl im Viewport
+* [Viewport] Einfacheres Navigieren und Malen (höhere Rahmen-Rate)
+* [Viewport] Auswahlkombination &quot;Material/Kanal/Karte&quot; im Viewport
 * [Viewport] Flackern beim Drehen reduzieren (Schatten aktiviert)
-* [Shelf] Zeigt Materialien standardmäßig beim Öffnen von Painter an
-* [Shelf] Ladezeitverbesserung von Substance-Texturen und -Materialien (2- bis 6-mal schneller)
-* [Shelf] Neuorganisieren von Materialordnern, um die Struktur der Substance Source anzupassen
-* [Shelf] Ziehen Sie Materialien per Drag &amp; Drop direkt auf das Gitter im Viewport
-* [Shelf] Neue 3D-Geräusche (Perlin, Perlin Fraktal, Simplex und Worley)
-* [Shelf] Neuer 3D Linear gradient-Maskengenerator unter Verwendung der Gitterposition
-* [Shelf] Basisgeräusche zur Unterstützung der quadratische Ausbreitung aktualisiert
-* [Shelf] Neue Vorlage und Exportvorgabe für Lens Studio (Snap-Anwendung) hinzugefügt
-* [Shelf] Smart-Materialien und Smart-Masken wurden aktualisiert, um die neueste Version des Masken-Editors zu verwenden (Mikrodetails)
-* [Shelf] Neues Beispielprojekt &quot;TilingMaterial&quot; zur Erstellung nahtloser Kachelmaterialien
-* [Shelf] Neue Pinselvorgaben (Kalligrafie, Nass, Schraffur usw.)
+* [Regal] Beim Öffnen von Painter werden Materials standardmäßig angezeigt
+* [Regal] Ladezeitverbesserung von Substance-Texturen und -Materialien (2- bis 6-mal schneller)
+* [Regal] Neuordnen von Materialien-Ordnern zum Anpassen an die Substance Source
+* [Regal] Ziehen Sie Materialien per Drag &amp; Drop direkt auf den Mesh im Viewport
+* [Regal] Neue 3D-Rauschen (Perlin, Perlin Fractal, Simplex und Worley)
+* [Regal] Neuer 3D Linear gradient-Maskengenerator mit Mesh-Position
+* [Regal] Die Basis-Rauschen wurden aktualisiert, um die quadratische Ausbreitung zu unterstützen.
+* [Regal] Neue Vorlage und Exportvorgabe für Lens Studio hinzugefügt (Anwendung Einrasten)
+* [Regal] Intelligenten Materials und Intelligente Masken wurden aktualisiert, um die neueste Version des Maskeneditors zu verwenden (Mikrodetails)
+* [Regal] Neues Beispielprojekt &quot;TilingMaterial&quot; zum Erstellen nahtloser Kachelung-Materialien
+* [Regal] Neue Pinselvorgaben (Kalligrafie, Nass, Schraffur usw.)
 * [Schieberegler] Neue Schieberegler und Stil und Verhalten von Graustufen-/Farbbalken
-* [Bäcker] Verwenden des vollständigen Begrenzungsrahmens der Szene, um die Positionskarte zu berechnen
+* [Baker] Erlauben Sie die Verwendung des Begrenzungsrahmens für die volle Szene, um die Positionskarte zu berechnen.
 * [Shader] Entfernen des Height Force-Parameters aus den Standard-Shader-Parametern
-* [Engine] Substance-Engine aktualisiert
-* [Engine] Keine oder weniger Diskontinuitäten zwischen UV-Blöcken (neue Nahtauffüllung)
-* [Plug-ins] Importieren Sie schneller aus Substance Source heruntergeladene Materialien
+* [Engine] Substance Engine aktualisiert
+* [Engine] Keine oder weniger Diskontinuitäten zwischen UV-Blöcken (neue Naht, Auffüllung)
+* [Plug-ins] Importieren Sie schneller aus Substance Source heruntergeladene Materials
 * [Plug-ins] Alle Plug-ins aktualisieren, um dem neuen Gesamtstil zu entsprechen
 * [Voreinstellungen] Automatische Vorschau der Hintergrundfarbänderungen
 * [Clean] Geringeres Risiko für Projektbeschädigung
 * [Öffnen] Verbesserung der Projektzeit wird geöffnet
-* [Neues Projekt] Neues Projekt - Verbesserung der Aktualisierungszeit des Gitters
+* [Neues Projekt] Neues Projekt - Verbesserung der Aktualisierungszeit des Meshs
 * [Speichern] Speichern der Zeitverbesserung für das Projekt
 * [Protokoll] Im Protokoll angegebener Lizenztyp
-* [TextureSet] Umbenennen der Schaltfläche &quot;Texturen backen&quot; in &quot;Gitterzuordnungen backen&quot;
-* &quot;Zusätzliche Karten&quot; in &quot;Gitterkarten&quot; umbenennen
+* [TextureSet] Schaltfläche &quot;Baking Texturen&quot; in &quot;Baking Mesh-Map&quot; umbenennen
+* Benennen Sie &quot;Zusätzliche Maps&quot; in &quot;Mesh-Map&quot; um
 
 **Fest:**
 
-* [Viewport] Fehlerhafte Bewegungen mit Gittern, die viele Unterobjekte enthalten
-* [Werkzeugeigenschaften] Kanal deaktiviert, wenn ein Bild per Drag &amp; Drop in den Materialschlitz gezogen wird
+* [Viewport] Fehlerhafte Bewegungen mit Meshs, die viele Unterobjekte enthalten
+* [Werkzeugeigenschaften] Kanal deaktiviert, wenn ein Material per Drag &amp; Drop in den Bildschlitz gezogen wird
 * [Werkzeugeigenschaften] Pinselvorschau wird mit Verwisch- und Kopierwerkzeugen beschädigt
-* [Textursatz] Die Reihenfolge der Kanäle ist bei Verwendung von Vorlagen falsch
-* [Shelf] Fehlendes Symbol für Graustufen-Konvertierungsgenerator
-* [Shelf] Alpha-Zahl für Signaturkreise ist defekt (fehlende Schrift)
+* [Textursatz] Die Reihenfolge der Kanäle ist falsch, wenn Vorlagen verwendet werden
+* [Regal] Fehlendes Symbol für Graustufenkonvertierung-Generator
+* [Regal] Alpha-Zahl für Signaturkreise ist fehlerhaft (fehlende Schriftart)
 * Falsche Erkennung integrierter GPUs beim Start
-* [Absturz] Ziehen und Ablegen einer importierten Ressource mit dem Namen #
-* [Engine] VRAM-Erkennungsproblem auf integrierter GPU
-* [Engine] Mehrere Abstürze im Substance Engine Linker behoben
-* [Engine] Quadratische Artefakte bei Änderung der Auflösung
-* [Post Effects] Die Größe der Benutzeroberfläche ist langsam, wenn Post-Effekte aktiviert sind
-* [Bäcker] Die Szeneneinheit wird bei den Werten für die Strahlentfernung nicht korrekt eingehalten.
-* [Bäcker] AO aus Mesh Occluder-Entfernung wird unabhängig vom Eingangswert auf 1 geklemmt
-* [Bäcker] Bei der Namensübereinstimmung werden einige Gitter mit bestimmten Namen ignoriert.
-* [Bäcker] Die Einstellung &quot;Farbe aus Gitter - Polygruppe&quot; und &quot;Teilgitter-ID&quot; gibt immer ein schwarzes Bild zurück.
-* [Bäcker] ID-Backen schlägt mit binären FBX-Netzen aus Blender fehl
-* [Shader] Rauschen in der 2D-Ansicht mit dota-2 und nicht-pbr-spec-gloss
-* [Linux] Beim Backen wird nur ein CPU-Thread verwendet
-* [MacOS] Absturz mit Pinselcursor, der sich über den Viewport bewegt
+* [Absturz] Ziehen und Ablegen einer importierten Ressource mit dem Namen &quot;#&quot;
+* [Engine] Vram-Erkennungsproblem auf integrierter GPU
+* [Engine] Mehrere Absturz im Substance Engine Linker behoben
+* [Engine] Quadratische Artefakte bei der Änderung der Auflösung
+* [Post-Effekte] Die Größe der Benutzeroberfläche ist langsam, wenn Post-Effekte aktiviert sind
+* [Baker] Szene wird für Strahlenentfernungswerte nicht korrekt eingehalten
+* [Baker] AO vom Mesh-Verdeckungsabstand wird unabhängig vom Eingabewert auf 1 geklemmt
+* [Baker] Bei der Namensübereinstimmung werden einige Mesh mit bestimmten Namen ignoriert.
+* [Baker] Die Farbe aus den Einstellungen &quot;Mesh-Polygruppe&quot; und &quot;Teilgitter-ID&quot; gibt immer ein schwarzes Bild zurück.
+* [Baker] ID-Baking schlägt mit binären FBX-Meshs von Blender fehl
+* [Shader] Rauschen in der 2D-Ansicht mit dota-2 und non-pbr-spec-gloss
+* [Linux] Beim Baking wird nur ein CPU-Thread verwendet.
+* [MacOS] Absturz mit dem Pinselcursor, der sich über den Viewport bewegt
 
 **Bekannte Probleme:**
 

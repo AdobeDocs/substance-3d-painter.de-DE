@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-11-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 11.0, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 11.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2707'
 ht-degree: 0%
-
 ---
-
 
 # Version 11.0
 
-<b>Substance 3D Painter 11.0</b> fügt einen neuen Arbeitsablauf für die automatische Ressourcenaktualisierung, ein Tool für gefüllte Pfade sowie allgemeine Verbesserungen für Pfade, einen automatischen Käfig für Backen und mehrere neue Filter zum Erstellen stilisierter Texturen hinzu.
+<b>Substance 3D Painter 11.0</b> fügt einen neuen Arbeitsablauf für die automatische Ressourcenaktualisierung, ein Tool für gefüllte Pfade sowie allgemeine Verbesserungen für Pfade, einen Käfig für das automatische Baking und mehrere neue Filter zum Erstellen stilisierter Texturen hinzu.
 
 Freigabedatum: <b>11. März 2025</b>
 
@@ -30,7 +22,7 @@ Freigabedatum: <b>11. März 2025</b>
 > 
 > Diese Version erhöht auch die unterstützte Mindestversion von Windows 10 auf 22H2.
 > 
-> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
+> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
@@ -84,7 +76,7 @@ Das Pfadwerkzeug ist ein neues Pfadwerkzeug, mit dem Sie Formen auf der Oberflä
 
   ![](../assets/filled_path_across_gaps.png)
 * <b>Kompatibel mit Spiegelungs- und radialer Symmetrie</b>\
-  Dieses neue Werkzeug unterstützt auch die Symmetrieeigenschaften, wodurch sich Möglichkeiten zur Erstellung komplexer Formen eröffnen.
+  Dieses neue Tool unterstützt auch die Eigenschaften der Symmetrie, sodass Sie auch komplexe Formen erstellen können.
 
   ![](../assets/filled_path_symmetry.png)
 * <b>Einfaches Umschalten zwischen Pfad-Tools</b>\
@@ -92,7 +84,7 @@ Das Pfadwerkzeug ist ein neues Pfadwerkzeug, mit dem Sie Formen auf der Oberflä
 
   ![](../assets/path_switch_types.png)
 
-### Verbesserte Pfadwerkzeuge mit Ausrichten, geraden Linien und mehr
+### Verbesserte Pfadwerkzeuge mit einrasten, geraden Linien und mehr
 
 ![](../assets/banner_path_improvments.jpg)
 
@@ -102,14 +94,14 @@ In dieser neuen Version wurden zahlreiche Verbesserungen des Verhaltens und der 
   Beim Bearbeiten eines Pfades wird eine neue gepunktete Linie angezeigt, die angibt, wie der Pfad reagiert, wenn Sie einen neuen Punkt am Ende der Kurve hinzufügen. Dadurch werden Änderungen leichter vorhersehbar. Diese Vorschau kann über das dedizierte Einstellungsmenü oder mithilfe des <b>Umschalt+P</b>-Tastatur-Tastaturbefehl deaktiviert werden.
 
   ![](../assets/path_preview.gif)
-* <b>Einrasten von Geraden und Winkeln</b>\
+* <b>Gerade Linie und Winkel einrasten</b>\
   Der Tastaturmodifikator <b>Umschalt </b> kann jetzt verwendet werden, um automatisch gerade Linien zwischen Punkten zu erstellen. Die Beibehaltung von <b>Strg </b> kann auch zum Anwenden von einrasten Winkeln verwendet werden, um geometrische Formen zu erstellen.\
-  Die Einstellungen für die Winkelausrichtung können über das Menü &quot;Pfadeinstellungen&quot; in der kontextbezogenen Symbolleiste geändert werden.
+  Die Einstellungen für die Winkeländerung können über das Menü &quot;Pfadeinstellungen&quot; in der kontextabhängigen Symbolleiste einrasten werden.
 
   ![](../assets/path_angle.gif)
-* <b>Pfadpunkte an Gitterpolygonen ausrichten</b>\
+* <b>Pfadpunkte auf Mesh-Polygone Einrasten</b>\
   Um die Platzierung von Punkten zu erleichtern, kann ein neuer einrasten (Magnetsymbol) aktiviert werden. Mit dieser Option können Sie Scheitelpunkt auf den 3D-Modellkanten setzen und einer Fläche oder Kante folgen.\
-  Das Ausrichten kann auf drei verschiedene Arten erfolgen:
+  Der einrasten kann auf drei verschiedene Arten erfolgen:
 
   * An Scheitelpunkten ausrichten
   * An Kanten ausrichten
@@ -121,7 +113,7 @@ In dieser neuen Version wurden zahlreiche Verbesserungen des Verhaltens und der 
 
   ![](../assets/path_snap_polygon.gif)
 * <b>Automatisches Schließen beim Klicken auf den letzten Scheitelpunkt</b>\
-  Um die Verwendung des <b>Ausgefüllten-Pfad-Werkzeugs </b> zu vereinfachen, wird der Pfad jetzt automatisch geschlossen, wenn Sie auf den ersten Scheitelpunkt klicken, während der letzte ausgewählt ist. Um einen Punkt auszuwählen, anstatt den Pfad zu schließen, können Sie die <b>STRG-TASTE </b> verwenden. (Dieses Verhalten wurde in der vorherigen Version umgekehrt.)
+  Um die Verwendung des <b>Ausgefüllten Pfadwerkzeugs </b> zu vereinfachen, wird der Pfad jetzt automatisch geschlossen, wenn Sie auf den ersten Scheitelpunkt klicken, während der letzte ausgewählt ist. Um einen Punkt auszuwählen, anstatt den Pfad zu schließen, können Sie die <b>STRG-TASTE </b> verwenden. (Dieses Verhalten wurde in der vorherigen Version umgekehrt.)
 
   ![](../assets/path_close_optim.gif)
 * <b>Pfadpositionen von Inhalt in Scheitelpunkt kopieren</b>\
@@ -129,7 +121,7 @@ In dieser neuen Version wurden zahlreiche Verbesserungen des Verhaltens und der 
 
   ![](../assets/paste_vertices.png)
 * <b>Verbessertes Anzeigeverhalten der Benutzeroberfläche</b>\
-  Durch Drücken der Tastaturbefehle für Viewport Manipulator (<b>W</b>, <b>S</b> oder <b>D</b>) können diese jetzt sofort aktiviert und deaktiviert werden. Sie können auch über die kontextbezogenen Symbolleistenschaltflächen aktiviert/deaktiviert werden. Diese Änderung ermöglicht es, sie schnell ein- oder auszublenden, ohne auch die anderen visuellen Elemente im Viewport (wie die Pfadkurve und die Punkte) auszublenden.
+  Durch Drücken der Tastaturbefehle für Viewport Manipulator (<b>W</b>, <b>S</b> oder <b>D</b>) können diese jetzt sofort aktiviert und deaktiviert werden. Sie können auch über die kontextbezogenen Symbolleistenschaltflächen aktiviert/deaktiviert werden. Diese Änderung ermöglicht ein schnelles Ein- oder Ausblenden, ohne auch die anderen visuellen Elemente im Viewport (wie die Pfadkurve und die Punkte) auszublenden.
 
   ![](../assets/manipulator_toggle.png)
 * <b>Auf Pfad-Scheitelpunkt kann jetzt auf Drehen und Skalieren zugegriffen werden</b>\
@@ -149,11 +141,11 @@ In dieser neuen Version wurden zahlreiche Verbesserungen des Verhaltens und der 
 
   ![](../assets/path_panel.png)
 * <b>Fokus auf derzeit ausgewählten Pfad </b>\
-  Durch Drücken der Tastenkombination <b>F</b> wird jetzt der Fokus auf einen Pfad und nicht auf das gesamte 3D-Modell gelegt, wenn ein Pfad bearbeitet wird.
+  Durch Drücken des Tastaturbefehl <b>F</b> der Tastatur wird jetzt der Fokus auf einen Pfad und nicht auf das gesamte 3D-Modell gelegt, wenn ein Pfad bearbeitet wird.
 * <b>Pfad mit Rücktaste </b> löschen\
-  Pfade können jetzt schnell gelöscht werden, indem Sie die Tastenkombination <b>Rücktaste </b> drücken.
+  Pfade können jetzt schnell gelöscht werden, indem Sie den <b>Rücktaste </b>Tastatur-Tastaturbefehl drücken.
 
-### Neue Substance-Filter und Texturgeneratoren
+### Neue Substance-Filter und Textur-Generatoren
 
 ![](../assets/banner_filters.jpg)
 
@@ -192,10 +184,10 @@ In der neuen Version werden einige neue Filter sowie einige prozedurale Muster e
   Ein Rauschen, der aus den Verbindungen von Dreiecken aufgebaut ist, mit Steuerelementen für Zufälligkeit und Smoothness.
 * <b>Kachelzufall </b>\
   Ein Textur-Generator, der auf das Erstellen von Kachelmustern zugeschnitten ist.
-* <b>Voronoi- und Voronoi-Fraktalrauschen </b>\
+* <b>Voronoi und Voronoi Fraktale Rauschen </b>\
   Bereits als 3D-Rauschen erhältlich, können diese neuen 2D-Versionen für die Arbeit und Kachelung im 2D- oder UV-Raum verwendet werden.
 * <b>Rauschen auf die neueste Version von Designer </b> aktualisiert\
-  Die meisten Geräusche, die in Painter verfügbar sind, wurden mit der neuesten Version von Substance 3D Designer aktualisiert. Rauschparameter werden nicht mehr für eine Gruppe ausgeblendet, damit sie schneller bearbeitet werden können.
+  Die meisten in Painter verfügbaren Rauschen wurden mit der neuesten Version von Substance 3D Designer aktualisiert. Rauschen-Parameter werden nicht mehr für eine Gruppe ausgeblendet, damit sie schneller bearbeitet werden können.
 
 ![](../assets/noises.jpg)
 
@@ -203,7 +195,7 @@ In der neuen Version werden einige neue Filter sowie einige prozedurale Muster e
 
 ![](../assets/banner_bake_cage.jpg)
 
-Beim Backen eines Gitters mit hohem Poly auf Gittern mit niedrigem Poly können Sie jetzt eine neue <b>Automatische </b>-Option auswählen, wenn Sie den Käfigmodus angeben. Dieses neue Verfahren versucht, einen automatischen Käfig-Mesh zu berechnen, der am besten zu den Meshs mit hohem Poly passt, um Artefakte zu vermeiden.
+Beim Baking eines Meshs mit hohem Poly auf Meshs mit niedrigem Poly können Sie jetzt eine neue <b>Automatische </b>-Option auswählen, wenn Sie den Käfig-Modus angeben. Dieses neue Verfahren versucht, einen automatischen Käfig-Mesh zu berechnen, der am besten zu den Meshs mit hohem Poly passt, um Artefakte zu vermeiden.
 
 * <b>Neue Einstellung in den allgemeinen Baking-Parametern </b>\
   Innerhalb des allgemeinen Parameters &quot;Baking&quot; wurde der Parameter &quot;Käfig&quot; durch eine Auswahl zwischen drei Optionen ersetzt:\
@@ -271,61 +263,61 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 * [Automatische Aktualisierung] Automatische Aktualisierung standardmäßig deaktiviert lassen
 * [Automatische Aktualisierung] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen (.sbsar, .glsl, .ai, .svg)
 * [Automatische Aktualisierung] Umgebungsvariable hinzufügen, um die automatische Aktualisierung zu deaktivieren
-* [Automatische Aktualisierung]&#x200B;[SBSAR] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen
+* [Automatische Aktualisierung][SBSAR] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen
 * Ausgefüllter Pfad
-* [Pfad]&#x200B;[Füllen] Fügen Sie ein neues Werkzeug hinzu, um gefüllte Pfade zu erstellen.
+* [Pfad][Füllen] Fügen Sie ein neues Werkzeug hinzu, um gefüllte Pfade zu erstellen.
 * Verbesserungen an Pfaden
-* [Pfad] Erstellen von Pfaden, die an Polygonen ausgerichtet werden
+* [Pfad] Erstellen eines Pfads, der zu Polygonen einrasten
 * [Pfad] Wechsel der Pfadtypen zulassen
-* [Pfad] Kopieren und Einfügen von Pfadscheitelpunktdaten zwischen Inhalt und Maske zulassen
+* [Pfad] Kopieren und Einfügen von Pfadmaskendaten zwischen Scheitelpunkt und Maske zulassen
 * [Pfad] Winkel beim Erstellen eines neuen Punkts einschränken
 * [Path] Erlaubt das Beschränken der Punkterstellung auf eine Linie.
 * [Pfad] Form mit einem Klick schließen
 * [Pfad] Anzeigen von Pfadinformationen
-* [Pfad] Skalieren und Drehen von Pfadscheitelpunkten zulassen
-* [Pfad]&#x200B;[UX] Einfacherer Zugriff auf Transformations-Gizmos
+* [Pfad] Skalieren und Drehen von Pfad-Scheitelpunkten zulassen
+* [Pfad][UX] Einfacherer Zugriff auf Transformations-Gizmos
 * [Pfad] Pfadvorschau hinzufügen
 * [Pfad] Deaktivieren der Pfadvorschau mit Umschalt + P
-* [Pfad] Verbesserung der Tangentenausgabe in der Seitenansicht
+* [Path] Verbessern der Tangente Edition von der Seitenansicht
 * [Pfad] Fokus auf einen 3D-Pfad festlegen.
-* [Pfad] Scheitelpunkte sollten den Auswahlstatus beibehalten, wenn die Benutzeroberfläche aus- und wieder aktiviert wird
+* [Pfad] Scheitelpunkt sollten den Auswahlstatus beibehalten, wenn Sie die Benutzeroberfläche aus- und wieder einschalten.
 * [Path] Löschen von Pfaden mit Rücktaste zulassen
 * [Pfad] Die Pfadliste offen halten, wenn der Benutzer sie erweitert
-* [Pfad]&#x200B;[Ebenenstapel] Duplikate beim Kopieren/Einfügen richtig umbenennen
+* [Pfad][Ebenenstapel] Duplikate beim Kopieren/Einfügen richtig umbenennen
 * Verbesserungen an der Benutzeroberfläche und der QuickInfo [Path]
 * Leistung
-* [Leistung] Verbessern der Viewport-Leistung bei Verwendung einer hohen Tesselierungsstufe
-* [Leistung] Nur den ersten Kanal auf neuen Füllebenen/Effekten aktivieren
-* [Leistung] Parallelisierung der Pinselstrichberechnung
+* [Performance] Verbessern der Viewport-Performance bei Verwendung einer hohen Tessellation
+* [Performance] Nur den ersten Kanal für neue Füllebenen/Effekte aktivieren
+* [Leistung] Berechnung des Pinselstrichs parallelisieren
 * Baking
-* [Backen] Neue vollautomatische Käfigerzeugungsoption zum Backen mit High-Poly-Netzen hinzufügen (experimentell)
-* Inhalt
+* [Baking] Neue vollautomatische Käfig-Generierungsoption für das Baking mit hochpolaren Meshs hinzufügen (experimentell)
+* Inhalte
 * [Inhalt] Fügen Sie 6 neue Filter hinzu: stilisierung, quantisieren, anisotropic kuwahara, weiche Abschrägung, Richtungsabstand, Graustufen konvertierung
-* [Inhalt] Aktualisieren von Rauschen und Grunges auf die neueste Version von Designer (mit der neuen 2D-Voronoi)
-* [Inhalt] 3 neue Texturgeneratoren hinzufügen (Kachelzufall, Triangle Grid, Scratches-Generator)
-* [Inhalt] Unreal Engine-Vorlage umbenennen und Vorgaben exportieren
+* [Inhalt] Aktualisieren Sie Rauschen und Grunges auf die neueste Version von Designer (mit der neuen 2D-Voronoi)
+* [Inhalt] Fügen Sie 3 neue Texturen-Generatoren hinzu (Kachelzufall, Triangle Grid, Scratches-Generator)
+* [Inhalt] Unreale Engine-Vorlage umbenennen und Vorgaben exportieren
 * Python
-* [Shelf]&#x200B;[Python] Speichern Sie Smart-Material oder Smart-Maske von Python auf der Festplatte.
-* [Python] Hinzufügen des automatischen Käfigs zum Python-API
+* [Regal][Python] Speichern von intelligente Material oder intelligente Maske auf der Festplatte von Python
+* [Python] Hinzufügen von automatisch Baking führend Käfigen zur Python-API
 * [Python] Bearbeiten von Namen und Beschreibungen von Textursätzen/UV-Kacheln zulassen
 * [Python] Freigeben von Auflösungseinstellungen für Vektor- und Schriftartenquellen
-* [Automatische Aktualisierung]&#x200B;[Python] Stellen Sie die Funktionen zur automatischen Aktualisierung von Projekten in Python bereit.
+* [Automatische Aktualisierung][Python] Leg der Funktionen zur automatischen Aktualisierung von Projekten in Python
 * Verschiedenes
 * [Exportieren] Erleichtern Sie den Zugriff auf die Optionen für Senden an mit einem neuen Fenster
 * [Nvidia] Warnung über die neuesten Nvidia-Treiber hinzufügen (572.16)
 * Die einrasten Winkel sollten durch die Auswahl von Objekt/Welt-Raum beeinflusst werden&#x200B;
-* [Liste der Textursätze] Benutzerdefinierten Namen zu UV-Kacheln hinzufügen und diese beim Export verwenden
+* [Liste der Textursatz] Benutzerdefinierten Namen zu UV-Kacheln hinzufügen und diese beim Exportieren verwenden
 * Mac
 * [Mac] Verwenden von Metal anstelle von OpenGL für das Grafik-Rendering
 * [Mac] Mac Intel-Support entfernen
 
 <b>Fest</b>:
 
-* [Nvidia]&#x200B;[Baking] Ergebnisse von Ambient occlusion-Bakern weisen Artefakte auf
-* [Absturz] Alt-Klick zum Umschalten der Sichtbarkeit für deaktivierten Textursatz führt zu einem Absturz
+* [Nvidia][Baking] Ergebnisse von Ambient occlusion-Bakern weisen Artefakte auf
+* [Absturz] Alt-Klick, um Sichtbarkeit für deaktivierten Textursatz zu aktivieren, führt zu einem Absturz
 * [Baking führend] Käfig wird mit niedrigem Poly- als hohem Poly-Param berücksichtigt
 * [Baking] Die Material-Farbe für ID-Map-Baker funktioniert nicht mit USD Dateiformat
-* [Leistung] Langsames Rendering im Viewport mit Gittern und vielen überlappenden Objekten
+* [Performance] Langsames Rendering im Viewport mit Meshs und vielen überlappenden Objekten
 * [Qt] Benutzerdefinierter Farbwähler hat keine Farbmanagementeinstellungen
 * [Viewport] 3D-Manipulator flackern, wenn Anti-Aliasing aktiviert ist
 * Graustufen-Schlitz des Radiergummis in Maskenblöcken im Pinselzustand
@@ -337,9 +329,9 @@ Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung
 
 <b>Bekannte Probleme</b>:
 
-* [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Crash]&#x200B;[Python] USD-Export, ausgelöst durch TextureStateEvent
-* [Engine] Malen mit dem Kopierwerkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Das Ghost-Widget wird durch das noch funktionierende Skript gelöscht.
+* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* [Regression][UI] Kontextmenü auf HD-Bildschirmen ist zu klein
+* [Absturz][Python] USD durch TextureStateEvent ausgelöst
+* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
 * [RedHat] Probleme mit dem Farbwähler

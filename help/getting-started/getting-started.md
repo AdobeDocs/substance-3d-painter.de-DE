@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started.html"
-breadcrumb-title: ''
-description: Lernen Sie die Grundlagen der Projekterstellung, der Benutzeroberflächennavigation und der Workflows zum Malen mit Texturen in Substance 3D Painter kennen.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Lernen Sie die Grundlagen der Projekterstellung, der Benutzeroberflächennavigation und der Textur-Painting-Workflows in Substance 3D Painter kennen.
 title: Erste Schritte
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 10%
-
 ---
-
 
 # Erste Schritte
 

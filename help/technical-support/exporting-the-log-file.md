@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/exporting-the-log-file.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Protokolldateien aus Substance 3D Painter zur Fehlerbehebung und für den technischen Support exportieren.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Exporting the log file
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Exportieren der Protokolldatei
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 1%
-
 ---
-
 
 # Exportieren der Protokolldatei
 
@@ -40,7 +32,7 @@ Wenn die Anwendung nicht gestartet wird, kann die Protokolldatei nicht exportier
 
 >[!NOTE]
 >
-> Einige der Verzeichnisse in den oben genannten Pfaden sind möglicherweise standardmäßig ausgeblendet. Geben Sie den Pfad manuell im Datei-Explorer ein oder zeigen Sie ausgeblendete Dateien an, um sie anzuzeigen.
+> Einige der Verzeichnisse in den oben genannten Pfaden sind möglicherweise standardmäßig ausgeblendet. Geben Sie den Pfad manuell in den Datei-Explorer ein oder zeigen Sie ausgeblendete Dateien an, um sie anzuzeigen.
 
 ## Anhängen der Protokolldatei an eine Community-Nachricht zur Unterstützung
 

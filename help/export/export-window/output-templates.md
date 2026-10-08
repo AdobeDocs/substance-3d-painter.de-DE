@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export/export-window/output-templates.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Ausgabevorlagen im Substance 3D Painter-Exportfenster verwenden, um Texturen-Exportformate und -Benennungen zu konfigurieren.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ausgabevorlagen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 2%
-
 ---
-
 
 # Ausgabevorlagen
 
@@ -108,15 +100,15 @@ Die Mesh-Map sind die Baking geführt Texturen:
 
 | Name | Beschreibung |
 | --- | --- |
-| **Normal** | Gebackene Normalkarte. |
+| **Normal** | Baking geführt Normalen-Map. |
 | **Welt-Raum-Normale** | Baking geführt Welt-Raum-Normale. |
-| **ID** | Identitätsnachweis. |
+| **ID** | Baking geführt ID. |
 | **Ambient occlusion** | Baking geführt ambient occlusion |
 | **Krümmung** | Baking geführt Krümmung. |
 | **Position** | Baking geführt Position. |
-| **Thickness** | Gebackene Thickness. |
+| **Thickness** | Baking geführt Thickness. |
 | **Height** | Baking geführt Height. |
-| **Gebeugte Normale** | Baking geführt bent normals. |
+| **Bent normals** | Baking geführt bent normals. |
 
 ### Konvertierte Maps
 
@@ -125,14 +117,14 @@ Konvertierte Maps sind Maps, die von der Anwendung aus einer anderen Quelle gene
 | Name | Beschreibung |
 | --- | --- |
 | **Normales OpenGL** | Kombiniertes Normalen-Map im OpenGL-Format des Baking geführt Normalkanals und des Normalkanals des Textursatzes. |
-| **Normale DirectX** | Kombinierte Normalen-Map im DirectX-Format des Baking geführt Normal- und des Normal-Kanals des Textursatzes. |
-| **Gemischte AO** | Kombinierte Umgebungs-Verdeckung der Verdeckung für die gebackene Umgebung und des Kanals für die Verdeckung des Textursatzes. |
-| **Diffus** | Aus dem Kanal **Grundfarbe** und **Metallic** erzeugte Diffuse-Textur (metallic Bereiche werden durch eine schwarze  ersetzt). |
+| **Normales DirectX** | Kombinierte Normalen-Map im DirectX-Format des Baking geführt Normal- und des Normal-Kanals des Textursatzes. |
+| **Gemischte AO** | Kombiniertes ambient occlusion der Baking geführt ambient occlusion und des ambient occlusion-Kanals des Textursatzes. |
+| **Diffuse** | Aus dem Kanal **Grundfarbe** und **Metallic** erzeugte Diffuse-Textur (metallic Bereiche werden durch eine schwarze  ersetzt). |
 | **Specular** | Specular-Textur aus **Grundfarbe** und **Metallic** Kanal generiert. |
-| **Glossarität** | Glanzstruktur, die aus der Umkehrung des Raueitskanals erzeugt wird. |
+| **Glanz** | Glanz-Textur, die aus der Umkehrung des Rauheit-Kanals generiert wird. |
 | **Unity4-Diffusen** | Veraltet. Diffuse-Textur aus **Grundfarbe**-Kanal generiert, um Unity 4-Shadern zu entsprechen. |
 | **Unity4 Gloss** | Veraltet. Glanz-Textur aus **Rauheit** und **Metallic** Kanal generiert, um Unity 4-Shadern zu entsprechen. |
-| **Spiegelung** | Texturen, bei denen Weiß auf ein dielektrisches Material und andere Farben als metallische Materialien hinweist. |
+| **Spiegelung** | Texturen, bei denen Weiß ein dielektrisches Material und andere Farben als metallic Materialien anzeigt. |
 | **1/ior** | Textur, die 1 dividiert durch den **IOR**-Wert enthält. **IOR** wird aus der metallic Map generiert: 1.4 für Dielektrika, 100 für Metalle (schwarze Farbe). |
 | **Glanz<sup>2</sup>** | Quadratische Version des **Glanz**-Kanals (**Glanz** \* **Glanz**) |
 | **f0** | Textur, die einen Reflexionswert wie Fresnel 0 (0,04 für Dielektrika, 1,0 für metallic) enthält. |

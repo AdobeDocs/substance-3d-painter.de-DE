@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Substance 3D Painter-Absturz während Exportvorgängen beheben können, um zuverlässige Workflows für den Export von Texturen zu erhalten.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash during export
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Absturz beim Exportieren
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 
 # Absturz beim Exportieren
 
@@ -26,7 +18,7 @@ In bestimmten Fällen kann es beim Export zu einem Absturz von Substance 3D Pain
 
 Die Zeitüberschreitungserkennung und -wiederherstellung (Timeout Detection and Recovery, TDR) ist ein Sicherheitsmechanismus von Microsoft Windows, um zu verhindern, dass eine GPU das System mit einer nie endenden Berechnung blockiert. Dieser Mechanismus ist leider standardmäßig zu restriktiv für Substance 3D Painter.
 
-Weitere Informationen finden Sie unter: [GPU-Treiber-Absturz mit langen Berechnungen (TDR-Absturz)](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
+Weitere Informationen finden Sie unter: [GPU-Treiber-Absturz mit langen Berechnungen (TDR-Absturz)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html).
 
 ## Wenig virtueller Speicher
 

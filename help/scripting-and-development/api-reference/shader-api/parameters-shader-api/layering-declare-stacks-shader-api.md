@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.html"
-breadcrumb-title: ''
-description: Greifen Sie auf die Shader-API-Referenz für "Ebenen deklarieren" für Substance 3D Painter zu, um benutzerdefinierte Materialebenen-Stapel zu erstellen.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > Layering Declare Stacks - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Greifen Sie auf die Shader-API-Referenz für "Stapel deklarieren für Ebenen" für Substance 3D Painter zu, um benutzerdefinierte Stapel für Materialien zu erstellen.
 title: Declare-Stapel überlagern - Shader-API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
-
 ---
-
 
 # Declare-Stapel überlagern - Shader-API
 
-## Materialschichtung: Deklarieren bearbeitbarer Stapel
+## Material-Ebenen: Deklarieren bearbeitbarer Stapel
 
-Ein bearbeitbarer Stapel wird durch eine eindeutige Kennung und eine Liste von Dokumentkanälen definiert. Mögliche Kanal-ID(en): *Ambientocclusion* *Anisotropyangle* *Anisotropylevel* *Basisfarbe* *Mischmaske* *diffuse* *Versatz* *emittierend* *Glanzgrad* *Height* *Metallisch* *Metallisch* *Normal* *Deckkraft* *Reflexion* *Raueit* *Streuung* *Specular* *Spiegelebene* *durchlässig* *Benutzer0* *Benutzer1* *user2* *user3* *user4* *user5* *user6* *user7*
+Ein bearbeitbarer Stapel wird durch eine eindeutige Identifizierung und eine Liste von Dokumentkanälen definiert. Mögliche Kanal-ID(en): *Ambientocclusion* *Anisotropyangle* *Anisotropylevel* *Basisfarbe* *Mischmaske* *diffuse* *Versatz* *emissive* *Glanz* *Height* *Älter* *metallic 23}* Normal ** Deckkraft ** Reflexion ** Rauheit ** Streuung ** Specular ** Spiegelebene ** transmissive ** Benutzer0 ** Benutzer1 ** Benutzer2 45} *Benutzer3* *Benutzer4* *Benutzer5* *Benutzer6* *Benutzer7***
 
 Beispiel:
 
@@ -57,7 +49,7 @@ Beispiel:
 ```
 
 
-Um einen Kanal aus einem Stapel an einen Samplerparameter zu binden, setzen Sie dem Kanal-Tag die Stapelkennung voran:
+Um einen Kanal von einem Stapel an einen Samplerparameter zu binden, setzen Sie dem Kanal-Tag die Stapel-Identifizierung voran:
 
 ```
 //: param auto Mask1.channel_opacity 

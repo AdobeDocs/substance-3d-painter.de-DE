@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/effects/levels.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie den Effekt "Tonwertkorrektur" in Substance 3D Painter verwenden, um Helligkeit, Kontrast und Tonwertbereich von Texturen anzupassen.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects > Levels
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Tonwertkorrektur
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
-
 ---
-
 
 # Tonwertkorrektur
 
@@ -38,6 +30,6 @@ Um den Farbbereich des Bildes anzupassen, stehen am oberen und unteren Rand des 
 > Der Effekt &quot;Ebenen&quot; kann jeweils nur auf einen Kanal angewendet werden, wie von der Option *Betroffener Kanal* ausgewählt. Wenn du eine Ebene auf mehrere Kanäle anwenden willst, musst du mehrere Effekte auf Ebenen erstellen.
 
 * Mit dem Dropdown-Feld &quot;Farben&quot; (Colors) oben rechts können Sie die Pegel des gesamten RGB-Bildes oder nur eines der Kanäle Rot, Grün und Blau ändern.
-* Mit der Option &quot;Beschränk&quot; unten rechts können Sie die Werte der Pegel zwischen 0 und 1 (0-255) einspannen. Diese Option sollte immer aktiviert sein, wenn Sie an Nicht-HDR-Kanälen arbeiten (z. B. **Grundfarbe**).
+* Mit der Option &quot;Beschränk&quot; unten rechts können Sie die Werte der Pegel zwischen 0 und 1 (0-255) einspannen. Diese Option sollte immer aktiviert sein, wenn Sie an nicht HDR Kanälen arbeiten (wie die **Grundfarbe**).
 
 [Um die Tonwertkorrektur besser zu verstehen, sollten Sie sich unseren Kurs zur Substance Academy ansehen, der sich mit diesem Thema befasst.](https://academy.substance3d.com/courses/Mastering-Levels-Histogram)

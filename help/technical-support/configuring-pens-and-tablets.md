@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Stift und Tablets in Substance 3D Painter für eine optimale Druckempfindlichkeit und Zeichenerfahrung konfigurieren.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Configuring Pens and Tablets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Konfigurieren von Stiften und Tablets
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 0%
-
 ---
-
 
 # Konfigurieren von Stiften und Tablets
 
@@ -132,7 +124,7 @@ Auf die Stift- und Touch-Einstellungen können Sie in der Systemsteuerung zugrei
 
 1. Öffnen Sie das Menü **Start**.
 1. Geben Sie **Systemsteuerung** ein, und klicken Sie auf das erste Suchergebnis.
-1. Wechseln Sie im Anzeigemodus der Systemsteuerung **&#x200B;**&#x200B;zum **kleinen Symbol** .\
+1. Wechseln Sie im Anzeigemodus der Systemsteuerung **** zum **kleinen Symbol** .\
    ![](../assets/control-panel-display-mode.png)
 1. Klicken Sie auf die Einstellungen &quot;**Stift&quot; und &quot;Touch**&quot;.\
    ![](../assets/control-panel-pen-touch-settings.png)

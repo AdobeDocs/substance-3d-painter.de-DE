@@ -1,15 +1,11 @@
 ---
 title: Reduzieren von Ebenen
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack/flatten-layers.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 1%
-
 ---
-
 
 # Reduzieren von Ebenen
 
@@ -82,7 +78,7 @@ Die folgenden Eigenschaften sind fest codiert und können nicht geändert werden
 
 Die Funktion &quot;Reduzieren&quot; erstellt eine Bitmap für jeden aktivierten Kanal in einer neuen Füllebene. Die Auflösung basiert auf der Auflösung des Textursatzes. Die Bittiefe wird durch die Einstellungen des Textursatzes festgelegt.
 
-&quot;Reduzieren&quot; funktioniert, wenn Texturdaten in einem bestimmten Kanal vorhanden sind. Das Reduzieren funktioniert nicht bei einer leeren Malebene und sendet eine Fehlermeldung an das Protokoll, wenn keine Daten in der Auswahl vorhanden sind.
+&quot;Reduzieren&quot; funktioniert, wenn Textur-Daten in einem bestimmten Kanal vorhanden sind. Das Reduzieren funktioniert nicht bei einer leeren Malebene und sendet eine Fehlermeldung an das Protokoll, wenn keine Daten in der Auswahl vorhanden sind.
 
 Nur sichtbare Ebenen und Effekte können reduziert werden. Wenn einige Ebenen in der Gruppe beim Reduzieren der Gruppe deaktiviert sind, werden die Effekte dieser Ebenen nicht in das Reduzierungsergebnis einbezogen.
 

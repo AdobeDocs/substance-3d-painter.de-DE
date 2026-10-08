@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2018.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2018.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 0%
-
 ---
-
 
 # Version 2018.2
 
-**Substance Painter 2018.2** fügt lange erwartete Funktionen hinzu, wie z. B. das Malen mit Untergrundstreuung, die die Texturierung noch einfacher als zuvor machen.
+**Substance Painter 2018.2** fügt lange erwartete Funktionen hinzu, wie z. B. das Malen von Volumenstreuungen, die das Texturieren noch einfacher machen als zuvor.
 
 Freigabedatum: *2. August 2018*
 
@@ -31,7 +23,7 @@ Freigabedatum: *2. August 2018*
 ![](../../assets/changelog-sss.jpg)
 
 **Volumenstreuung** wird jetzt im **Echtzeit**-Viewport und mit dem **Iray-Renderer** unterstützt.\
-Volumenstreuung ist ein Lichtmechanismus, der beim Eindringen in ein Objekt oder eine Fläche entsteht. Anstatt wie bei metallischen Oberflächen reflektiert zu werden, wird ein Teil des Lichts vom Material absorbiert und dann **in das Material gestreut**. Viele Materialien im echten Leben haben Volumenstreuung wie Haut oder Wachs.
+Volumenstreuung ist ein Lichtmechanismus, der beim Eindringen in ein Objekt oder eine Fläche entsteht. Anstatt wie bei metallic Flächen reflektiert zu werden, wird ein Teil des Lichts vom Material absorbiert und dann **in das Innere gestreut**. Viele Materialien im echten Leben haben Volumenstreuung wie Haut oder Wachs.
 
 Unsere Subsurface-Effekt-Implementierung entspricht sehr genau den Echtzeit-Implementierungen anderer Game-Engine sowie anderen Offline-Renderern. So lassen sich ganz einfach streuende Texturen für die Verwendung in anderen Anwendungen erstellen.
 
@@ -43,10 +35,10 @@ Oben sehen Sie ein Beispiel mit dem bekannten Element Digital Emily 2. Vielen Da
 Um einem Projekt eine Volumenstreuung hinzuzufügen, gehen Sie wie folgt vor:
 
 1. Wechseln Sie zum Fenster **Anzeigeeinstellungen**, und **aktivieren** Sie die Einstellung **Volumenstreuung**.
-1. Hinzufügen eines **Streuungskanals** im aktuellen Textursatz
+1. Hinzufügen eines Kanals &quot;**Streuung**&quot; im aktuellen Textursatz
 1. Verwenden Sie eine Füllebene oder **Malen in Weiß** im neuen Kanal, um **den Unteroberflächeneffekt im Viewport freizulegen**.
 
-Eine ausführlichere Vorgehensweise finden Sie in der [Dokumentation zur Untergrundstreuung](../../features/subsurface-scattering/subsurface-scattering.md).
+Eine ausführlichere Vorgehensweise finden Sie in der [Volumenstreuung-Dokumentation](../../features/subsurface-scattering/subsurface-scattering.md).
 
 >[!NOTE]
 >
@@ -57,7 +49,7 @@ Eine ausführlichere Vorgehensweise finden Sie in der [Dokumentation zur Untergr
 
 ![](../../assets/changelog-manipulator.png)
 
-Die Steuerelemente für Füllebenen wurden verbessert, um Manipulatoren mehr Möglichkeiten zu bieten. Es ist jetzt einfacher, die Projektionen der Füllung präzise zu platzieren und zu steuern.
+Die Steuerelemente für Füllebenen wurden verbessert, um Manipulatoren zu bieten. Es ist jetzt einfacher, die Projektionen der Füllung präzise zu platzieren und zu steuern.
 
 Bei Verwendung der **UV-Projektion** wird ein Manipulator in der **2D-Ansicht** angezeigt:
 
@@ -78,7 +70,7 @@ Bei Verwendung der **Tri-Planaren Projektion** wird ein Manipulator in der **3D-
   ![](../../assets/fill-properties-triplanar.png)\
   ![](../../assets/manipulator-3d-optim.gif)
 
-Die kontextbezogene Symbolleiste am oberen Rand des Ansichtsfensters wird sich ebenfalls abhängig vom aktuellen Projektionsmodus anpassen und zusätzliche Werkzeuge und Steuerelemente bereitstellen:
+Die kontextbezogene Symbolleiste am oberen Rand des Viewports wird sich auch je nach aktuellem Projektion-Modus anpassen und bietet zusätzliche Tools und Steuerelemente:
 
 ![](../../assets/contextual-toolbar-manipulator.png)
 
@@ -88,7 +80,7 @@ Weitere Informationen finden Sie in der Dokumentation zur [Füllebene](../../pai
 
 ![](../../assets/non-square-stencil.jpg)
 
-Der Schablonenparameter und das Projektionswerkzeug wurden verbessert, um nicht quadratische Auflösungen und nicht bearbeitungsfreies Verhalten zu unterstützen.\
+Der Parameter &quot;Schablone&quot; und das Werkzeug &quot;Projektion&quot; wurden verbessert und unterstützen nun auch nicht quadratische Auflösungen und Verhalten ohne Bodenbearbeitung.\
 Der Standardparameter ist jetzt standardmäßig auf &quot;Nicht bestellen&quot; festgelegt. Dieser Parameter kann in den Werkzeugeigenschaften geändert werden:
 
 ![](../../assets/tilling-parameter-stencil.png)
@@ -100,7 +92,7 @@ Der Bearbeitungsmodus kann wie folgt eingestellt werden:
 * **Vertikale Kachelung**
 * **H- und V-Kachelung** (altes Verhalten)
 
-Dieser neue Parameter kann in einer Werkzeug- oder Pinselvorgabe gespeichert werden, was die Freigabe mit benutzerdefinierten Inhalten erleichtert.
+Dieser neue Parameter kann in einem Tool oder in einer Pinselvorgabe gespeichert werden, sodass es einfach ist, ihn mit benutzerdefiniertem Inhalt zu teilen.
 
 >[!NOTE]
 >
@@ -144,13 +136,13 @@ Der Rahmen der Kamera (und sein Tor) wird ebenfalls berücksichtigt, sodass es m
   Wenn eine Ressource oder eine Ebene in die Nähe der Ränder des Ebenenstapel-Fensters gezogen wird, wird automatisch ein Bildlauf für den Inhalt durchgeführt.\
   ![](../../assets/layer-drag.gif)
 
-### glTF- und Alembic-Netzimport
+### glTF- und Alembic-Mesh importieren
 
 ![](../../assets/logo-mesh-import.png)
 
 Neue Dateiformate werden jetzt für das Importieren von Meshs und das Erstellen neuer Projekte unterstützt:
 
-* **glTF** : Dieses Format war bereits beim Exportieren von Texturen verfügbar und kann jetzt während des Imports verwendet werden. Wenn eine glTF-Datei Texturen enthält, werden diese importiert und in den Ebenenstapel eingefügt (für den Metall-/Raueit-Workflow).
+* **glTF** : Dieses Format war bereits beim Exportieren von Texturen verfügbar und kann jetzt während des Imports verwendet werden. Wenn eine glTF-Datei Texturen enthält, werden diese importiert und im Ebenenstapel abgelegt (für den Workflow &quot;metallic/Rauheit&quot;).
 * **Alembic** : Dieses Format ist in der VFX-/Animationsbranche weit verbreitet, um Mesh zu übertragen.
 
 >[!NOTE]
@@ -190,11 +182,11 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 
 (Release 25. September 2018)
 
-**&#x200B;**&#x200B;Fest:**&#x200B;**
+****Fest:****
 
-* [2D-Ansicht] Die 2D-Ansicht wird bei der Erstellung eines neuen Projekts mit einigen Gittern unterbrochen.
-* [Absturz] Das Umschalten von der UV-Projektion- auf die dreiplanare Projektion führt zu einem Absturz
-* [RayCollider] Mehrere Abstürze durch &quot;RayCollider&quot;
+* [2D-Ansicht] Bei der Erstellung eines neuen Projekts ist die 2D-Ansicht mit einigen Meshs beschädigt.
+* [Absturz] Der Wechsel von der UV-Projektion zur dreimal planaren Projektion führt zu einem Absturz
+* [RayCollider] Mehrere Absturz durch &quot;RayCollider&quot;
 * [Werkzeug] Beim Wechseln von Ebenen gehen die geänderten Pinseleigenschaften verloren
 * Pinseleinstellungen werden beim Wechsel zum Radierer zurückgesetzt
 
@@ -210,8 +202,8 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 **Hinzugefügt:**
 
 * Zusammenfassung: Hotfix mit Inhaltsaktualisierung, neuen Skriptfunktionen und der Möglichkeit, die automatische Aktualisierung zu deaktivieren
-* [Inhalt]&#x200B;[Regal] Hinzufügen einer Skin-Regalvorgabe
-* [Inhalt]&#x200B;[Regal] Konvertierung von 19 Hautnormalen in Materialien zur Untergrundstreuung
+* [Inhalt][Regal] Hinzufügen einer Skin-Regal-Vorgabe
+* [Inhalt][Regal] Konvertierung von 19 Skinnormalen in Materialien zur Volumenstreuung
 * [Scripting] Erstellen einer Projektvorlage aus einem geöffneten Projekt
 * [Scripting] Abrufen/Festlegen von Exporteinstellungen eines geöffneten Projekts
 * [Updates] Deaktivieren des Popups &quot;Automatische Aktualisierung&quot; in den Einstellungen und der Umgebungsvariablen
@@ -219,18 +211,18 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 
 **Fest:**
 
-* [Kamera] Falscher Zoom durch Wechsel von orthografischer zur Perspektive
+* [Kamera] Falscher Zoom durch Wechsel von orthografisch zu Perspektive
 * [Anzeige] Einige Maps werden linear anstelle von sRGB angezeigt
-* [Viewports] Der Gitterfokus verhält sich nicht ordnungsgemäß.
-* [2D-Ansicht] Projekt mit kaputter Kamera enthält verschwindende UVs-Schalen
-* [SSS]&#x200B;[QuickInfo] QuickInfos für die unterirdische Streuung werden im Protokoll angezeigt
+* [Viewport] Mesh-Fokus verhält sich nicht richtig
+* [2D-Ansicht] Projekt mit beschädigter Kamera enthält verschwindende UVs-Schalen
+* [SSS][QuickInfo] QuickInfos zu Volumenstreuung-Tools werden im Protokoll angezeigt
 * Einige Projekte können nicht in 2018.2 geöffnet werden und die Fehlermeldung kann kein Null-Substance-Paket speichern
-* [Maske] Die Farbe des Malwerkzeugs kann in einigen Fällen beim Arbeiten in einer Maske hängen bleiben
+* [Maske] Die Farbe des Malen-Werkzeugs kann in einigen Fällen beim Arbeiten in einer Maske hängen bleiben
 * [Material] Karten werden in bestimmten Situationen nicht angezeigt
-* [Proj]&#x200B;[Tools] Manipulator aktiv mit einem Generator
+* [Proj][Tools] Manipulator aktiv mit einem Generator
 * [Substance] Fehlende Substance-Parametergruppen
 * [Skripterstellung] Falscher Software-Name in der Dokumentation
-* [UDIMs] Keine Informationen im Protokoll über UVs-Schalen auf mehreren UVs-Kacheln
+* [UDIM] Keine Informationen im Protokoll über UVs-Schalen auf mehreren UVs-Kacheln
 
 **Bekannte Probleme:**
 
@@ -243,7 +235,7 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 
 **Fest:**
 
-* Fehlende Parameter für die Teilflächen-Streuungs-Shader beim Aktualisieren von Projekten
+* Fehlende Shader-Parameter für die Volumenstreuung beim Aktualisieren von Projekten
 
 **Bekannte Probleme:**
 
@@ -256,79 +248,79 @@ Verwenden Sie zum Suchen des Projekts die Datei **Datei** > **Beispiel öffnen..
 
 **Hinzugefügt:**
 
-* Zusammenfassung: Sommerversion, Streuung auf Untergrund Unterstützung, Verbesserungen bei Projektion und Füllung, Kameraimport und -auswahl, Alembic-/glTF-Unterstützung, Drag-and-Drop-Funktionen für ID-Maps, verbesserte Unterstützung für Substance-Formate und neue Inhalte
-* [SSS]&#x200B;[Viewport]&#x200B;[Iray] Generische Untergrundstreuung
-* [SSS] Synchronisierungsparameter für MDL und Untergrundstreuung
+* Zusammenfassung: Sommerversion, Volumenstreuung-Unterstützung, Verbesserungen bei Projektion und Füllung, Import und Auswahl von Kameras, Alembic/glTF-Unterstützung, Drag-and-Drop auf dem ID-Map, verbesserte Unterstützung für Substance-Formate und neue Inhalte
+* [SSS][Viewport][Iray] Generische Volumenstreuung
+* [SSS] Synchronisierungs-MDL- und Volumenstreuung-Parameter
 * [SSS] Es wurde ein neuer Graustufenkanal mit dem Namen &quot;Streuung&quot; hinzugefügt.
-* [SSS]&#x200B;[Schattierungseinstellungen] Streuungstyp-Parameter für Volumenstreuung (Haut oder transluzent)
-* [SSS]&#x200B;[Schattierungseinstellungen] Streuungsmaßstabsparameter für Untergrundstreuung
-* [SSS]&#x200B;[Schattierungseinstellungen] Streuender Farbparameter für Untergrundstreuung
-* [SSS]&#x200B;[Anzeigeeinstellungen] Streuung Abtastanzahl für Untergrundstreuung
-* [Shader]&#x200B;[Iray] Integrieren Sie die unterirdische Streuungs-MDL für Iray
+* [SSS][Shader-Einstellungen] Streutypparameter für die Volumenstreuung (Skin oder transluzent)
+* [SSS][Shader-Einstellungen] Streuungsparameter für die Volumenstreuung
+* [SSS][Shader Settings] Farbstreuung-Parameter für Volumenstreuung
+* [SSS][Anzeigeeinstellungen] Streuung Beispielanzahl für Volumenstreuung
+* [Shader][Iray] Integrieren von Volumenstreuung-MDL für Iray
 * [Shader] Shader-Update über den Ressourcen-Updater
 * [Shader] API und Dokumentation für Änderungsprotokoll aktualisieren
-* [Werkzeugeigenschaften]&#x200B;[Proj] Neue Parameter für die triplanare Projektion
-* [Viewport]&#x200B;[Proj] Steuern Sie die Eigenschaften der Füllebene in der 3D-Ansicht direkt mit Manipulatoren (triplanare Projektion).
-* [Shortcuts]&#x200B;[Proj] Neue Shortcuts Q, W, E, R, T für triplanare Projektionsmanipulatoren
-* [Viewport]&#x200B;[Proj] Steuern Sie die Eigenschaften der Füllebene in der 2D-Ansicht direkt mit den Manipulatoren (UV-Projektion).
-* [Shortcuts]&#x200B;[Proj] Neuer Shortcut Q für UV-Projektion-Manipulatoren
-* [Contextual Toolbar]&#x200B;[Proj] Steuern von triplanaren Projektionsmanipulatoren
-* [Kontextsymbolleiste]&#x200B;[Proj] Manipulatoren für die UV-Projektion steuern
-* [Werkzeugeigenschaften] Deaktivieren der Texturkachelung mit Projektions- und Schablonenwerkzeug
-* [Schablone] Verwenden von nicht quadratischen Bildern mit dem Projektionswerkzeug/der Schablone
-* [Schablone] Steuerung des Kachelmodus im Eigenschaftenfenster zulassen
-* [Schablone] Der Zoom ist nicht auf einer nicht gekachelten Schablone zentriert
+* [Werkzeugeigenschaften][Proj] Neue Parameter für die triplanare Projektion
+* [Viewport][Proj] Steuern Sie die Eigenschaften der Füllebene in der 3D-Ansicht direkt mit Manipulatoren (triplanare Projektion)
+* [Shortcuts][Proj] Neue Shortcuts Q, W, E, R, T für triplanare Projektion Manipulator
+* [Viewport][Proj] Steuern Sie Eigenschaften der Füllebene in 2D-Ansichten direkt mit Manipulatoren (UV-Projektion)
+* [Shortcuts][Proj] Neuer Tastaturbefehl Q für UV-Projektion Manipulator
+* [Kontextsymbolleiste][Proj] triplanare Projektion-Manipulator steuern
+* [Kontextsymbolleiste][Proj] UV-Projektion-Manipulator steuern
+* [Werkzeugeigenschaften] Deaktivieren der Kachelung der Textur mit dem Werkzeug Projektion und Schablone
+* [Schablone] Verwenden von Nicht-quadratischen Bildern mit dem Projektion-Werkzeug/der Schablone
+* [Schablone] Steuerung des Kachelung-Modus im Eigenschaftenfenster zulassen
+* [Schablone] Der Zoom ist nicht auf einer Schablone ohne Kachelung zentriert
 * [Kameras] Importieren von Kameras aus Maya, Max, Blender, Modo, DAE
-* [Kameras]&#x200B;[Viewport] Wählen und steuern Sie die importierten Kameras im Viewport
-* [Kameras]&#x200B;[Iray] Auswählen und Steuern von importierten Kameras in Iray
-* [Kameras]&#x200B;[UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] &quot;Kameras importieren&quot; ist standardmäßig aktiviert.
-* [Kameras]&#x200B;[Tastaturbefehle] Fügen Sie die Tastaturbefehle &quot;&lt;&quot; und &quot;>&quot; hinzu, um zwischen den Kameras zu wechseln.
-* [Kameras]&#x200B;[Viewport] Frame im Viewport hinzufügen
-* [Kameras]&#x200B;[Viewport-Einstellungen] Steuerung der Frame-Deckkraft
-* [Kameras]&#x200B;[Kameraeinstellungen] Maximale Brennweite bei 500 mm
-* [Kameras]&#x200B;[Kameraeinstellungen] Belichtungsverhältnis
-* [Kameras]&#x200B;[Kameraeinstellungen] Fügen Sie eine Sperroption hinzu
-* [Kameras]&#x200B;[Kameraeinstellungen] Hinzufügen einer Wiederherstellungsoption
-* [Kameras]&#x200B;[Kameraeinstellungen] Attribut für den Fokusabstand hinzufügen
+* [Kameras][Viewport] Wählen und steuern Sie importierte Kameras in Viewport
+* [Kameras][Iray] Importierte Kameras in Iray auswählen und steuern
+* [Kameras][UI][Neues Projekt][Projektkonfiguration] &quot;Kameras importieren&quot; ist standardmäßig aktiviert.
+* [Kameras][Tastaturbefehle] Fügen Sie die Tastaturbefehle &quot;&lt;&quot; und &quot;>&quot; hinzu, um zwischen den Kameras zu wechseln.
+* [Kameras][Viewport] Rahmen im Viewport hinzufügen
+* [Kameras][Viewport-Einstellungen] Steuerung der Deckkraft des Rahmens
+* [Kameras][Kamera-Einstellungen] Maximale Brennweite bei 500 mm
+* [Kameras][Kameras] Gelegt Verhältnis
+* [Kameras][Kamera-Einstellungen] Option &quot;Sperren&quot; hinzufügen
+* [Kameras][Kamera-Einstellungen] Hinzufügen einer Wiederherstellungsoption
+* [Kameras][Kamera-Einstellungen] Attribut für den Fokusabstand hinzufügen
 * [glTF] Import einer glTF-Datei
-* [glTF] Umgebungskarte für die Verdeckung importieren
-* [Alembic] Importieren Sie Alembic 1-Rahmen mit statischer Geometrie
-* [Shelf] Ziehen Sie Materialien per Drag &amp; Drop direkt auf das Gitter, indem Sie ID-Zuordnungen mit einem Modifizierer (STRG/Befehlstaste) verwenden.
-* [Ebenenstapel] Automatische Erstellung von ID-Masken durch Ziehen und Ablegen von Materialien auf einem Gitter mit ID-Maps
+* [glTF] Importieren einer ambient occlusion-Map
+* [Alembic] Importieren von Alembic 1-Rahmen mit statischer Geometrie
+* [Regal] Ziehen Sie Materialien mithilfe von ID-Map mit einem Modifizierer (STRG/Befehlstaste) direkt auf den Mesh.
+* [Ebenenstapel] Automatische Erstellung von ID-Masken durch Ziehen und Ablegen von Materialien auf Mesh mit ID-Map
 * [Ebenenstapel] Automatischer Bildlauf von Ebenen per Drag &amp; Drop über den Ebenenstapel
-* [UI]&#x200B;[Werkzeugeigenschaften] Zeigt die Vorgabe des Substance an.
-* [UI]&#x200B;[Hilfemenü] Verbesserung des Hilfemenüs
-* [UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] Reorganisation des Fensters
-* [UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] Ersetzen Sie &quot;Mesh&quot; durch &quot;Datei&quot;.
-* [UI]&#x200B;[Substance] Anzeigen von Substance-Attributen in der Benutzeroberfläche
+* [UI][Tooleigenschaften] Leg der Vorgabe des Substance
+* [UI][Hilfemenü] Verbesserung des Hilfemenüs
+* [UI][Neues Projekt][Projektkonfiguration] Reorganisation des Fensters
+* [UI][Neues Projekt][Projektkonfiguration] Ersetzen Sie &quot;Mesh&quot; durch &quot;Datei&quot;.
+* [UI][Substance] Anzeigen von Substance-Attributen in der Benutzeroberfläche
 * [Tastaturbefehle] &quot;F4&quot; wechselt zwischen 2D- und 3D-Ansicht
 * [Tastaturbefehle] Neue Tastaturbefehle für die Schablone &quot;N&quot; zum Umschalten und die schnelle Maske &quot;U&quot; zum Umschalten
 * [Substance-Integration] Berücksichtigung von &quot;visible if&quot;-Anweisungen in den Substance-Parametern
 * [Viewport] Schatten müssen nach dem Verschieben der Kamera nicht berechnet werden.
 * [Inhalt] Aktualisieren von MeetMat mit importierten Kameras
-* [Inhalt] Muster mit aktivierter Volumenstreuung hinzufügen - JadeToad
-* [Inhalt] Neue PBR-Projektvorlage mit aktivierter Untergrundstreuung hinzufügen
+* [Inhalt] Beispiel mit aktivierter Volumenstreuung hinzufügen - JadeToad
+* [Inhalt] Neue PBR-Projektvorlage mit aktivierter Volumenstreuung hinzufügen
 * [Inhalt] Exportvorgaben wurden aktualisiert, um einen neuen Streuungskanal hinzuzufügen
-* [Content]&#x200B;[Shelf] Zusätzliche Untergrund-Streuunterstützung für: pbr-metal-rau, pbr-metal-rau-alpha-test, pbr-coated, pbr-spec-gloss
-* [Content]&#x200B;[Shelf] Hinzugefügter Streuungskanal zu 5 intelligenten Materialien (Marmor und Skins)
-* [Inhalt]&#x200B;[Regal] 1 neues Jadematerial
-* [Inhalt]&#x200B;[Regal] 1 neues Wachsmaterial
+* [Inhalt][Regal] Zusätzliche Unterstützung für Volumenstreuungen für: pbr-metal-rau, pbr-metal-rau-alpha-test, pbr-coated, pbr-spec-gloss
+* [Inhalt][Regal] Ein Streuungskanal wurde zu 5 intelligenten Materialien (Marmor und Skin) hinzugefügt.
+* [Inhalt][Regal] 1 neues Jade-Material
+* [Inhalt][Regal] 1 neues Wachs-Material
 
 **Fest:**
 
 * [CMD] Verschiedene Ergebnisse über dieselbe Befehlszeile mit unterschiedlichen Versionen
 * [TDR] Wenn TdrLevel eingerichtet ist, sind keine Fehler im Protokoll vorhanden.
-* [Baker] Umgebungskarte der Verdeckung wird gespiegelt
-* [ID Map] Absturz beim Kommissionieren außerhalb des Bereichs 0-1
-* [Iray] Absturz beim Wechseln der Textursätze und Zurückkehren zum Malmodus
-* [Viewport] Synchronisieren von Ablagebereichen zwischen Viewports für Drag &amp; Drop
-* [Engine] Moire-Artefakt beim Kacheln von Füllebenen oder Malen eines kleinen Pinsels
+* [Baker] Ambient occlusion-Map wird gespiegelt
+* [ID-Map] Absturz beim Kommissionieren außerhalb des 0-1-Bereichs
+* [Iray] Absturz beim Wechseln des Textursatzes und beim Wechseln in den Malen
+* [Viewport] Synchronisieren von Ablagebereichen zwischen Viewporten für Drag &amp; Drop
+* [Engine] Moiré-Artefakt bei der Kachelung von Füllebenen oder beim Malen eines kleinen Pinsels
 * [Lizenz] Prüfung auf fehlerhafte Softwareversion des Lizenzdiensts
 * [Lizenz] Überarbeiten Sie die Art und Weise, wie wir die Authentifizierung verarbeiten
 * [API] Rufen Sie das `onNewProjectCreated`-Skript-API-Ereignis auf, selbst wenn Sie mit einer Vorlage erstellen.
 * [Shader] Kompilierter Shader wird nicht aus dem Cache geladen, wenn die Shader-Datei nicht kompiliert wird
-* [Shelf] Beim Exportieren der HDR-Datei aus dem Shelf wird eine Datei mit eingespannten Werten ausgegeben
-* [Exportieren] EXR-Exportklammern RGB Farbwerte zwischen 0-1
+* [Regal] Exportieren der HDR-Datei aus dem Regal gibt eine Datei mit festgeklemmten Werten aus
+* [Exportieren] EXR exportieren Klammern RGB Farbwerte zwischen 0-1
 * [Inhalt] Prozedurale Rauschen &quot;3D Perlin Rauschen Fractal&quot; ist verpixelt
 
 **Bekannte Probleme:**

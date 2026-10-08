@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Mit dem Projektion-Werkzeug in Substance 3D Painter kannst du 2D-Bilder für Texturen auf 3D-Oberflächen projizieren.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Projektion
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%
-
 ---
-
 
 # Projektion
 
@@ -27,7 +19,7 @@ Die Projektion ist ein Werkzeug, mit dem ein Material durch Projektion in den Bi
 Sie können die Transformation der Projektion bearbeiten, indem Sie **Tastaturbefehl S** drücken:
 
 * Verwenden Sie **S + Linker Mausklick**, um die Schablone zu drehen.
-* Verwenden Sie **S + Linksklick mit der Maus und UMSCHALT**, um die Schablone auszurichten bzw. auf die Drehung der Schablone zu beschränken.
+* Verwenden Sie **S + Linksklick + UMSCHALT**, um die Drehung der Schablone einrasten/einzuschränken.
 * Verwenden Sie **S + Rechtsklick**, um die Schablone zu vergrößern/zu verkleinern.
 * Verwenden Sie **S + Mittlere Maustaste**, um die Schablone Kamera bewegen.
 
@@ -51,5 +43,5 @@ Sie können die Transformation der Projektion bearbeiten, indem Sie **Tastaturbe
 </tr>
 </table>
 
-* **Projektion** : Malen-Tool basierend auf der Screenspace-Projektion. Dieses Werkzeug zeigt ein Muster über dem Viewport an und wiederholt es.
+* **Projektion** : Malen-Tool basierend auf der Screenspace-Projektion. Dieses Werkzeug zeigt über dem Viewport ein Muster an und wiederholt es.
 * **Physikalische Projektion** : Projektion-Malen-Tool mit physikalischen Eigenschaften auf der Grundlage von Partikeln-Vorgaben.

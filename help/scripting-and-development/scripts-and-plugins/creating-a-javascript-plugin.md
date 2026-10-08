@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie JavaScript-Plug-ins für Substance 3D Painter erstellen, um die Funktionalität zu erweitern und benutzerdefinierte Workflows zu automatisieren.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > Scripts and plugins > Creating a Javascript plugin
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Erstellen eines JavaScript-Plugins
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 1%
-
 ---
-
 
 # Erstellen eines JavaScript-Plugins
 

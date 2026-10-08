@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahre, wie du Photoshop-Pinselvorgaben (ABR-Dateien) in Substance 3D Painter importierst, um deine Pinselbibliothek zu erweitern.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Importing Photoshop Brush Presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: Importieren von Photoshop-Pinselvorgaben
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: Photoshop-Pinselvorgaben importieren
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
-
 ---
 
-
-# Importieren von Photoshop-Pinselvorgaben
+# Photoshop-Pinselvorgaben importieren
 
 Auf dieser Seite wird Schritt für Schritt erläutert, wie Sie eine ABR-Datei in Substance 3D Painter importieren.
 
@@ -55,7 +47,7 @@ Auf dieser Seite wird Schritt für Schritt erläutert, wie Sie eine ABR-Datei in
    * <b> Bibliothek </b>: Die ABR-Datei wird in das Regal auf der Festplatte kopiert. Pinselvorgaben sind bei jedem Öffnen von Painter für alle Projekte verfügbar.
 
    ![](../../../assets/import-location.png)
-1. <b>Zugriff auf die Pinselvorgaben aus dem Shelf.</b>
+1. <b>Zugriff auf die Pinselvorgaben über das Regal.</b>
 
    ![](../../../assets/shelf-demo.png)
 

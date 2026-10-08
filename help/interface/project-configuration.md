@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
-description: Erfahren Sie, wie Sie in Substance 3D Painter Projekteinstellungen konfigurieren, um die Texturauflösung, Kanäle und Projekteigenschaften einzurichten.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Project configuration
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
+description: Erfahren Sie, wie Sie in Substance 3D Painter Projekteinstellungen konfigurieren, um die Auflösung der Textur, die Kanäle und die Projekteigenschaften festzulegen.
 title: Projektkonfiguration
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 4%
-
 ---
-
 
 # Projektkonfiguration
 
@@ -26,7 +18,7 @@ Das Projektkonfigurationsfenster enthält Steuerelemente zum Ändern von Projekt
 
 ## 3D-Mesh
 
-Wenn Änderungen am 3D-Gitter oder an der Gitterdatei vorgenommen wurden, können Sie das Gitter erneut importieren, während die anderen Projektdaten beibehalten werden. Überprüfen Sie **Mesh** erneut importieren, und stellen Sie sicher, dass die richtige Datei importiert wird.
+Wenn am 3D-Mesh oder an der Meshdatei Änderungen vorgenommen wurden, können Sie den Mesh erneut importieren, ohne die anderen Projektdaten zu verändern. Überprüfen Sie **Mesh** erneut importieren, und stellen Sie sicher, dass die richtige Datei importiert wird.
 
 Ein erneutes Importieren des Meshs ist in den folgenden Fällen hilfreich:
 
@@ -54,7 +46,7 @@ Dieser Abschnitt steuert mehrere projektbezogene Einstellungen:
   </tr>
   <tr>
     <td><strong>Normalen-Map-Format</strong></td>
-    <td>Definiert das Format der Normalmap, die für das Gitter im Viewport verwendet wird. Dieser Parameter betrifft nur die <a href="shader-settings/shader-settings.md">Shader</a> in der Viewport- und Mesh-Maps in <a href="../baking/baking.md">bakers</a>. Der Ebenenstapel ist unabhängig. Empfohlener Wert für gängige Anwendungen:<br><br><ul><li><strong>Einheit</strong>: OpenGL</li><li><strong>Unreales Engine</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS Max.</strong>: DirectX</li><li><strong>Blender</strong>: OpenGL</li></ul></td>
+    <td>Definiert das Format der Normalen-Map, die für den Mesh im Viewport verwendet wird. Dieser Parameter betrifft nur die <a href="shader-settings/shader-settings.md">Shader</a> im Viewport und die Mesh-Map in den <a href="../baking/baking.md">Bakern</a>. Der Ebenenstapel ist unabhängig. Empfohlener Wert für gängige Anwendungen:<br><br><ul><li><strong>Einheit</strong>: OpenGL</li><li><strong>Unreales Engine</strong>: DirectX</li><li><strong>Maya</strong>: OpenGL</li><li><strong>3DS Max.</strong>: DirectX</li><li><strong>Blender</strong>: OpenGL</li></ul></td>
   </tr>
   <tr>
     <td><strong>Berechnen des Tangentialraums pro Fragment</strong></td>
@@ -113,7 +105,7 @@ Passen Sie die [Physische Größe](../features/physical-size.md) des importierte
 | --- | --- |
 | **Interne Einheitenskala der Meshdatei verwenden** | Wenn der Mesh mit physikalisch akkuraten Messungen erstellt wurde, lassen Sie diese Option aktiviert, um dieselbe Physische Größe in Painter beizubehalten. |
 | **Benutzerdefinierte Einheitenskalierung** | Wenn der Mesh nicht unter Berücksichtigung der Physische Größe erstellt wurde, können Sie mit dieser Option die Größe des Meshs anpassen. Sie müssen die gewünschte Physische Größe und die Schriftgröße (in Einheiten) des importierten Meshs kennen, um diesen Wert zu bestimmen. |
-| **Wechseln der Skalierung der Füllebene zur Physische Größe beim Zuweisen von Materialien** | Wenn diese Option aktiviert ist, wechseln Füllebenen und -effekte automatisch die Skalierungsmethode in die Physische Größe, wenn Sie ein Material zuweisen, das Physische Größe-Eigenschaften aufweist. |
+| **Wechseln der Skalierung der Füllebene zur Physische Größe beim Zuweisen von Materialien** | Wenn diese Option aktiviert ist, wechseln Füllebenen und Effekte automatisch die Skalierungsmethode in Physische Größe, wenn Sie ein Material mit Physische Größe-Eigenschaften zuweisen. |
 
 ### Einstellungen für das Farbmanagement
 

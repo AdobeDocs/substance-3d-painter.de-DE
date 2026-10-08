@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/color-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie das Farbmanagement in Substance 3D Painter konfigurieren, um über Ihren Workflow hinweg eine konsistente Farbgenauigkeit zu gewährleisten.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Farbmanagement
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
-
 ---
-
 
 # Farbmanagement
 
@@ -61,23 +53,23 @@ Innerhalb der Anwendung ist vordefiniert, welche Kanäle farbverwaltet sind (Dat
 | **Anisotropy level** | Nein |
 | **Grundfarbe** | **Ja** |
 | **Blending mask** | Nein |
-| **Mantelfarbe** | **Ja** |
+| **Coat color** | **Ja** |
 | **Coat normal** | Nein |
 | **Coat opacity** | Nein |
 | **Coat roughness** | Nein |
 | **Coat specular level** | Nein |
-| **Diffus** | **Ja** |
+| **Diffuse** | **Ja** |
 | **Versatz** | Nein |
-| **Glossarität** | Nein |
+| **Glanz** | Nein |
 | **Height** | Nein |
 | **Ior** | Nein |
-| **Metallisch** | Nein |
+| **Metallic** | Nein |
 | **Normal** | Nein |
 | **Deckkraft** | Nein |
 | **Spiegelung** | Nein |
-| **Raueit** | Nein |
+| **Rauheit** | Nein |
 | **Streuung** | Nein |
-| **Streufarbe** | **Ja** |
+| **Farbstreuung** | **Ja** |
 | **Glanzfarbe** | **Ja** |
 | **Deckkraft des Glanzes** | Nein |
 | **Glanz Rauheit** | Nein |
@@ -86,7 +78,7 @@ Innerhalb der Anwendung ist vordefiniert, welche Kanäle farbverwaltet sind (Dat
 | **Specular level** | Nein |
 | **Translucency** | Nein |
 | **Transmissive** | **Ja** |
-| **UserX (0-15)** | Abhängig von [Textursatzeinstellungen](../../interface/texture-set/texture-set-settings.md). Standardmäßig werden Benutzerkanäle nicht farbverwaltet. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/user-demo.png"/></div> |
+| **UserX (0-15)** | Abhängig von den [Textursatz-Einstellungen](../../interface/texture-set/texture-set-settings.md). Standardmäßig werden Benutzerkanäle nicht farbverwaltet. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/user-demo.png"/></div> |
 
 ## Farbwähler
 
@@ -95,7 +87,7 @@ Wenn das Farbmanagement aktiviert ist, ändert sich das Verhalten der [Farbauswa
 * Die Farben werden auf der Grundlage der aktuell ausgewählten Anzeige bearbeitet.
 * Der Benutzeroberfläche werden einige zusätzliche Informationen hinzugefügt.
 
-Weitere Informationen finden Sie auf der Dokumentationsseite &quot;[&#128279;](../../interface/color-picker.md)&quot; des Farbwählers &quot;&quot;.
+Weitere Informationen finden Sie auf der Dokumentationsseite &quot;](../../interface/color-picker.md)&quot; des Farbwählers &quot;[&quot;.
 
 ## Viewport-Steuerelemente
 

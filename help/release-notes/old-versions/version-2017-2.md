@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2017.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2017.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 
 # Version 2017.2
 
@@ -56,20 +48,20 @@ Die neuen Funktionen werden in den neuesten Videos ausführlich erläutert:
 **Hinzugefügt:**
 
 * [Effekt] Neuer Ankerpunkt, der Ebenen- und Maskenreferenzen zulässt
-* [Ebenen] Möglichkeit, Füll- und Maleffekte umzubenennen
+* [Ebenen] Möglichkeit, Füll- und Malen-Effekte umzubenennen
 * [Plug-In] Aktualisiertes Substance Source-Plug-In
-* [Scripting] Abfragen der Textursatz-Auflösung zulassen
-* [Scripting] Ermöglicht das Abrufen des Status der Painting-Engine
+* [Scripting] Abfrage der Auflösung des Textursatzes zulassen
+* [Scripting] Ermöglicht das Abrufen des Status des Painting-Engine
 * [Leistung] Verbessertes Laden des Projekts und Optimieren des Pinselstempels
 
 **Fest:**
 
-* [Tool] Leistungsprobleme beim Anpassen von Materialparametern
+* [Tool] Leistungsprobleme beim Anpassen von Material-Parametern
 * [Engine] Verschwindende Pinselstriche bei Änderung der Auflösung (4K>2K)
-* [3D-Ansicht] Tangentialraum wird nicht mit Bäckereien synchronisiert
-* [Shelf] Der Shelf-Pfad in den Benutzerdokumenten wird nicht automatisch erstellt
-* [Shelf] Kompatibilität von Vorgaben mit früheren Versionen nach einem Update
+* [3D-Ansicht] Tangente-Speicherplatz wird nicht mit Bakern synchronisiert
+* [Regal] Der Regal-Pfad in den Benutzerdokumenten wird nicht automatisch erstellt
+* [Regal] Kompatibilität von Vorgaben mit Vorgängerversionen nach einem Update
 * [Shader] Nicht-PBR-Shader funktioniert nicht mehr
-* [Bäcker] ID-Zuordnungssicherung schlägt fehl, wenn &quot;Mit Namen abgleichen&quot; aktiviert ist
-* [Beispiel] Beispielprojekt &quot;Matte treffen&quot; Textursatz-Namen sind falsch
+* [Baker] ID-Map-Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; aktiviert ist
+* [Beispiel] Die Namen der Meet Mat-Beispielprojekt-Textursatz sind falsch
 * Beim Speichern eines Projekts vor dem Erstellen einer Vorlage werden Schreibberechtigungsfehler zurückgegeben.

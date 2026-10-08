@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-8-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 8.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 8.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2870'
 ht-degree: 0%
-
 ---
-
 
 # Version 8.2
 
@@ -134,14 +126,14 @@ In dieser neuen Version wurden viele kleine zusätzliche Verbesserungen und Funk
   ![](../assets/whats-new-4.jpg){width="400px"}
 
 * **Neue Aktion zum schnellen erneuten Importieren eines 3D-Modells**\
-  Ein neuer Tastatur-Tastaturbefehl (**CTRL+SHIFT+R** standardmäßig) wurde hinzugefügt und ermöglicht ein schnelles erneutes Importieren des 3D-Modells des aktuellen Projekts. Dies vereinfacht und beschleunigt die Iteration eines Assets. Wenn die Quelldatei nicht gefunden werden kann, wird eine Fehlermeldung im Protokoll ausgelöst. Dem Menü &quot;**Bearbeiten**&quot; wurde ebenfalls eine Aktion hinzugefügt.
+  Ein neuer Tastatur-Tastaturbefehl (**CTRL+SHIFT+R** standardmäßig) wurde hinzugefügt und ermöglicht ein schnelles erneutes Importieren des 3D-Modells des aktuellen Projekts. Dies erleichtert und beschleunigt die Iteration an einem Asset. Wenn die Quelldatei nicht gefunden werden kann, wird eine Fehlermeldung im Protokoll ausgelöst. Dem Menü &quot;**Bearbeiten**&quot; wurde ebenfalls eine Aktion hinzugefügt.
 
   ![](../assets/reimport-mesh.png)
 
 * **Verbesserte HDPI-Unterstützung**\
   Es wurden mehrere Korrekturen in Bezug auf HDPI-Bildschirme und Systemskalierung vorgenommen. Wir unterstützen jetzt auch Zwischenwerte für die Skalierung (z. B. 125 %), wodurch vermieden werden sollte, dass die Benutzeroberfläche auf bestimmten Bildschirmen zu groß oder zu klein ist. Das Verschieben von Fenstern zwischen HDPI-Bildschirmen mit unterschiedlichen Skalierungswerten sollte sich ebenfalls korrekt verhalten.
 
-* **Substance-Diagrammparameter auf Standard zurücksetzen**\
+* **Substance-Graf-Parameter auf Standard zurücksetzen**\
   Überall, wo ein Substance-Graf verwendet wird (als Alpha, Materialien, Filter usw.) Es ist nun möglich, die Parameter auf die Standardwerte zurückzusetzen.
 
   * **Alle Parameter zurücksetzen**: Verwenden Sie die Schaltfläche &quot;Standardeinstellungen wiederherstellen&quot; unter der Parameterliste, um die gesamte Substance-Ressource zurückzusetzen.
@@ -157,12 +149,12 @@ In dieser neuen Version wurden viele kleine zusätzliche Verbesserungen und Funk
   ![](../assets/viewport-channels.jpg){width="450px"}
 
 * **Füllebenen und Effekte der Kachelung über 128 hinaus**\
-  Der Parameter &quot;Kachelung&quot; von Füllebenen und Effekten wurde so angepasst, dass er einen weichen Bereich aufweist. Dadurch ist es nun möglich, einen beliebigen Kachelwert einzugeben. Der Standardbereich des Schiebereglers wurde ebenfalls von [-128,128] auf [-32,32] reduziert, um das Ziehen zu vereinfachen.
+  Der Parameter &quot;Kachelung&quot; von Füllebenen und Effekten wurde so angepasst, dass er einen weichen Bereich aufweist. Dadurch ist es nun möglich, einen beliebigen Wert für die Kachelung einzugeben. Der Standardbereich des Schiebereglers wurde ebenfalls von [-128,128] auf [-32,32] reduziert, um das Ziehen zu vereinfachen.
 
   ![](../assets/fill-tiling.gif)
 
 * **Neue Exporteinstellungen für 16f und 32f EXR Textur**\
-  Früher wurde der EXR-Texturexport auf 32f Bit in der Schnittstelle erzwungen, aber innerhalb der tatsächlichen Datei führte er zu 16f Bit-Daten (Halbschwebetyp). Es wurde nun behoben, und es besteht eine explizite Möglichkeit, zwischen 16f und 32f Bits zu wählen. Alte Projekte und Exportvorgaben, die EXR als Dateiformat verwenden, verwenden standardmäßig 16f Bit, um dem alten Verhalten zu entsprechen (vor allem, um die Produktion größerer Dateien als zuvor zu vermeiden).
+  Früher wurde EXR Export von Texturen auf 32f-Bit in der Benutzeroberfläche erzwungen, aber innerhalb der Originaldatei führte dies zu 16f-Bitdaten (Halbschwebetyp). Es wurde nun behoben, und es besteht eine explizite Möglichkeit, zwischen 16f und 32f Bits zu wählen. Bei alten Projekten und Exportvorgaben, die EXR als Dateiformat verwenden, wird der Standardwert auf 16f Bit gesetzt, um dem alten Verhalten zu entsprechen (vor allem, um die Erstellung umfangreicherer Dateien als zuvor zu vermeiden).
 
   ![](../assets/exr-export.png)
 
@@ -189,7 +181,7 @@ Der Python-API wurden mehrere neue Funktionen hinzugefügt. Ausführliche Inform
 
 * **substance\_painter.resource**\
   **substance\_painter.resource.Type** ermöglicht es jetzt, weitere Arten von Ressourcen zu identifizieren, insbesondere Substance- und Photoshop-Pinselpakete.\
-  Ressourcenobjekte können jetzt ihre übergeordneten und untergeordneten Objekte auflisten, sodass sie beispielsweise zwischen Substance-Paketen und Substance-Graphen navigieren können.
+  Ressourcenobjekte können jetzt ihre übergeordneten und untergeordneten Objekte auflisten, sodass beispielsweise zwischen Substance-Paketen und Substance-Grafen navigiert werden kann.
 
 * **substance\_painter.textureset**\
   Zwei neue Funktionen (und eine Enumeration) wurden hinzugefügt, um Mesh-Map in den Textursatz-Einstellungen abzurufen und festzulegen: **get\_mesh\_map\_resource()** und **set\_mesh\_map\_resource()**.
@@ -198,7 +190,7 @@ Der Python-API wurden mehrere neue Funktionen hinzugefügt. Ausführliche Inform
   Mehrere Funktionen wurden hinzugefügt, um das UI-Layout zu speichern und neu zu laden. Beachten Sie, dass das Layout auch vom aktuellen Anwendungsmodus (Malen oder Rendern) abhängt.
 
 * **substance\_painter.event**\
-  Ein neues **TextureStateEvent** wurde hinzugefügt, um Änderungen im Ebenenstapel von Textursätzen sowie andere Parameteränderungen zu verfolgen. Dieses Ereignis löst beim Malen von Konturen oder beim Hinzufügen/Entfernen von Kanälen aus.
+  Ein neues **TextureStateEvent** wurde hinzugefügt, um die Änderung des Ebenenstapel von Textursätzen sowie andere Parameteränderungen zu verfolgen. Dieses Ereignis löst beim Malen von Konturen oder beim Hinzufügen/Entfernen von Kanälen aus.
 
 ## Versionshinweise
 
@@ -237,58 +229,58 @@ Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrü
 * Mischmodus/Deckkraft auf alle Kanäle einer Ebene anwenden
 
   Dem Mischmodus und der Deckkraft von Ebenen wurde eine Rechtsklick-Funktion hinzugefügt, mit der die derzeit angeklickte Einrichtung auf alle Kanäle angewendet werden kann.
-* Gitter mit einem Tastaturbefehl neu laden (STRG+UMSCHALT+R)
+* Mesh mit einem Tastatur-Tastaturbefehl neu laden (STRG+UMSCHALT+R)
 
-  Es wurde ein bearbeitbarer Tastaturbefehl hinzugefügt, um die Gitterdatei mit den zuletzt verfügbaren Einstellungen neu zu laden. Sie können auch über Bearbeiten > Wiederholen importieren darauf zugreifen.
+  Es wurde ein bearbeitbarer Tastaturbefehl hinzugefügt, um die Meshdatei mit den zuletzt verfügbaren Einstellungen neu zu laden. Sie können auch über Bearbeiten > Mesh erneut importieren darauf zugreifen.
 * Substance-Parameter auf die Standardeinstellungen zurücksetzen
 
   In den Eigenschaften am unteren Rand von .sbsar-Ressourcen wurde eine neue Schaltfläche hinzugefügt, mit der die Ressource auf die Standardwerte zurückgesetzt werden kann.
-* Malpinsel auf Standard zurücksetzen
+* Malen-Pinsel auf die Standardeinstellungen zurücksetzen
 
   Es wurde ein neues Menü zum Abschnitt &quot;Pinsel&quot; in den Eigenschaften hinzugefügt, über das Sie den Standard-Standardpinsel zurücksetzen können.
 * Rechtsklick zum Zurücksetzen der einzelnen Substance-Parameter auf die Standardeinstellungen
 
   Es wurde die Möglichkeit hinzugefügt, einzelne Parameter innerhalb einer .sbsar-Ressource per Rechtsklick zurückzusetzen.
-* [Bedienfeld &quot;Elemente&quot;] Favoritenelemente &quot;anheften&quot;, die oben im Bedienfeld &quot;Elemente&quot; angezeigt werden
+* [Bedienfeld &quot;Elemente&quot;] Favoritenelemente &quot;Nadel&quot; werden oben im Bedienfeld &quot;Elemente&quot; angezeigt
 
-  Es wurde eine neue Option zum Rechtsklick hinzugefügt, um Bibliothekselemente zu erstellen, mit der sie als Favoriten an den oberen Rand des Bedienfelds angeheftet werden können. Sie können auch alle Ihre bevorzugten Assets über &quot;Gespeicherte Suchen&quot; anzeigen.
+  Es wurde eine neue Option zum Klicken mit der rechten Maustaste hinzugefügt, um Elemente zu bibliothekieren, mit der sie oben im Bedienfeld als Favoriten Nadel werden können. Sie können auch alle Ihre bevorzugten Assets über &quot;Gespeicherte Suchen&quot; anzeigen.
 * [Bedienfeld &quot;Elemente&quot;] Elemente löschen, neu laden und umbenennen
 
   Kontextmenüoptionen zum Löschen, erneuten Laden und Umbenennen von Elementen in der Benutzerbibliothek wurden hinzugefügt. Sie werden direkt aus ihrem Bibliotheksspeicherort auf der Festplatte gelöscht und vom ursprünglichen Speicherort neu geladen. Elemente, die Teil eines Pakets wie .abr oder .sbsar sind, können nicht einzeln bearbeitet werden.
-* [Farbauswahl] Hinzufügen von Füllmethoden zum Effekt &quot;Farbauswahl&quot;
-* [Ebenenstapel] Füge Mischmodus und Deckkraft zu Filtern hinzu
-* [Ebenenstapel] Lassen Sie Kachelwerte größer als 128 für Füllebenen/Effekte zu
-* [Ebenenstapel] Zylinderkappen für zylindrische Projektion in Füllschicht/Effekt
+* [Farbauswahl] Füllen des Effekts &quot;Farbauswahl&quot; mit Füllmethoden
+* [Ebenenstapel] Hinzufügen von Füllmethode und Deckkraft für Filter
+* [Ebenenstapel] Kachelung-Werte größer als 128 für Füllebene/Effekte zulassen
+* [Ebenenstapel] Zylinderdeckel für zylindrische Projektion in Füllebene/Wirkung
 
-  Die zylindrische Projektion in den Eigenschaften der Füllebene bietet jetzt die Möglichkeit, Zylinderkappen zu entfernen.
-* [Protokoll] Fehlermeldung anzeigen, wenn sich ein Gitterteil im negativen Raum befindet, wenn versucht wird, ein UV-Kachelprojekt zu erstellen
+  Bei der zylindrischen Projektion in den Eigenschaften der Füllebene haben Sie jetzt die Möglichkeit, Zylinderkappen zu entfernen.
+* [Protokoll] Fehlermeldung anzeigen, wenn sich ein Mesh-Teil beim Erstellen eines UV-Kachel-Projekts in einem negativen Bereich befindet
 
-  Es wurde eine deutlichere Fehlermeldung hinzugefügt, wenn kein UV-Kachelprojekt erstellt werden kann, da UV-Teile in negativen Bereichen gefunden werden.
+  Es wurde eine deutlichere Fehlermeldung hinzugefügt, wenn ein UV-Kachel-Projekt nicht erstellt werden kann, da UV-Teile in Leerzeichen gefunden werden.
 * [Project] Geben Sie beim Öffnen eines Projekts die Version in der Fehlermeldung &quot;Daten zu aktuell&quot; an.
 
   Wenn Sie ein Projekt öffnen, das für die Anwendung zu neu ist, wird in der Fehlermeldung jetzt die Version des Projekts angezeigt, damit Sie die richtige Anwendungsversion leichter erkennen können.
-* [Viewport] Gitter von unten beleuchten
+* [Viewport] Lassen Sie den Mesh von unten beleuchten
 
-  Es wurde ein neuer Parameter Umgebungsausrichtung in Anzeigeeinstellungen > Kamera > Umgebungseinstellungen hinzugefügt, um die Umgebungszuordnungsbeleuchtung an der Kamera auszurichten, wenn sie auf &quot;Lokal&quot; eingestellt ist.
+  Ein neuer Parameter für die Umgebungsausrichtung wurde unter Anzeigeeinstellungen > Kamera > Umgebungseinstellungen hinzugefügt, um die Umgebungs-Map-Beleuchtung an der Kamera auszurichten, wenn sie auf &quot;Lokal&quot; eingestellt ist.
 * [Viewport] Anzeigen von R, G, B und Alpha im Viewport (Einzelanzeigemodus)
 
-  Unter Anzeigeeinstellungen > Viewport-Einstellungen > Kanalanzeige gibt es eine neue Farbkanaleinstellung, mit der nur die R-, G-, B- oder Alpha-Komponente eines Kanals im Einzelanzeigemodus angezeigt werden kann.
-* [Shader] Benutzerkanäle als RGBA in Material Layer-Shadern festlegen
+  Unter Anzeigeeinstellungen > Kanaleinstellungen > Kanalanzeige gibt es eine neue Farbkanaleinstellung, mit der nur die R-, G-, B- oder Kanalkomponente eines Viewports im Einzelanzeigemodus angezeigt werden kann.
+* [Shader] Benutzerkanäle als RGBA in Material-Layer-Shadern festlegen
 
   Wenn Sie die Kanalkonfiguration innerhalb eines Shader für die Kanalschichtung einstellen, ist es nun möglich, das Material des Textursatzes so festzulegen, dass es vom Standardwert abweicht. Auf diese Weise können insbesondere Farb-Benutzerkanäle anstelle von nur Graustufen angefordert werden.
-* [Exportieren] Texturen als SBSAR exportieren
+* [Exportieren] Exportieren von Texturen als SBSAR zulassen
 
   Beim Exportieren von Texturen über das Fenster Datei > Texturen exportieren kann das SBSAR-Dateiformat (Substance Archive) ausgewählt werden, um sie neu zu gruppieren. Der Inhalt des SBSAR richtet sich nach der verwendeten Ausgabevorlage.\
-  Das SBSAR-Dateiformat kann auch in den Exportvorgaben festgelegt werden. Bei Verwendung einer Hybrid-Konfiguration (SBSAR + Anderes Format) werden Texturen, die auf ein SBSAR abzielen, gruppiert, während der Rest parallel exportiert wird.
-* [Export] 16-Bit-Option für EXR-Dateiformat verfügbar machen
+  Das Datenformat kann auch in den Exportvorgaben festgelegt werden. Bei Verwendung einer Hybridkonfiguration (SBSAR + Anderes Format) werden Texturen, die ein SBSAR betreffen, gruppiert, während der Rest parallel exportiert wird.
+* [Exportieren] 16-Bit-Option für EXR Dateiformat Gelegt
 
-  Beim Exportieren von EXR-Texturdateien können Sie jetzt im Fenster Texturexport (sowohl für Exporteinstellungen als auch Exportvorgaben) 16f Bit (Half-Float) oder 32f Bit (Float) auswählen. Alte Projekte und alte Exportvorgaben werden standardmäßig auf 16f Bit gesetzt, um das alte Verhalten widerzuspiegeln.
-* [Python] Ereignis hinzufügen, um zu erfahren, wann Textursätze geändert werden
+  Beim Exportieren EXR Textur-Dateien können Sie jetzt im Fenster &quot;Exporteinstellungen&quot; die Texturen 16f Bit (halbe Fließkommazahl) oder 32f Bit (Fließkommazahl) auswählen (sowohl für Exporteinstellungen als auch Exportvorgaben). Alte Projekte und alte Exportvorgaben werden standardmäßig auf 16f Bit gesetzt, um das alte Verhalten widerzuspiegeln.
+* [Python] Ereignis hinzufügen, um zu wissen, wann Textursatz geändert werden
 
-  Der neue &quot;substance\_painter.event.TextureStateEvent&quot; gibt Aufschluss darüber, wann ein Textursatz entweder aufgrund eines Malstrichs, eines hinzugefügten oder eines entfernten Kanals geändert wurde.
-* [Python] Abrufen und Festlegen von Mesh Map-Ressourcen in den Einstellungen für den Textursatz
+  Der neue &quot;substance\_painter.event.TextureStateEvent&quot; gibt Aufschluss darüber, ob ein Textursatz entweder aufgrund eines Malen-Strichs, eines hinzugefügten oder eines entfernten Kanals geändert wurde.
+* [Python] Abrufen und Festlegen von Mesh-Map-Ressourcen in den Textursatz-Einstellungen zulassen
 
-  Neue Funktionen wurden im Modul &quot;substance\_painter.project&quot; hinzugefügt, um Netzzuordnungsressourcen abzurufen und festzulegen. Diese Funktionen können verwendet werden, um die Gitterzuordnungen zu aktualisieren, auf die in den Einstellungen für den Textursatz verwiesen wird.
+  Neue Funktionen wurden im Modul &quot;substance\_painter.project&quot; hinzugefügt, um Mesh-Map-Ressourcen abzurufen und einzurichten. Diese Funktionen können verwendet werden, um die Mesh-Map zu aktualisieren, auf die in den Textursatz-Einstellungen verwiesen wird.
 * [Plug-ins] Option entfernen, um andere JS-Plug-ins zu erhalten
 
   Die Option, Javascript-Plugins zu erhalten, wurde entfernt, da sie auf der veralteten Share-Website gehostet wurden.
@@ -302,16 +294,16 @@ Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrü
 
 * Absturz bei Verwendung von 16k exr
 * [Absturz] Strg Z Nach dem Löschen einer Shader-Instanz
-* [Iray] IoR ist für einige Shader auf 1 blockiert
-* [Win]&#x200B;[Baking] Einige hohe Poly-Dateien können nicht geladen werden
+* [Iray] IoR ist bei einigen Shadern auf 1 blockiert
+* [Win][Baking] Einige hohe Poly-Dateien können nicht geladen werden
 * [Farbmanagement] Falscher Farbraumname in der Benutzeroberfläche mit Filtern
 * [Python] Von der Importfunktion zurückgegebene Ressourcenobjekte haben keinen Typ
 
-  Beim Importieren des Substance-Pakets in Python gab die Funktion das Paket anstelle der Graf zurück. Das Ressourcenmodul stellt nun Funktionen und Parameter bereit, um die Graphen eines Substance-Pakets abzurufen.
+  Beim Importieren des Substance-Pakets in Python gab die Funktion das Paket anstelle der Graf zurück. Das Ressourcenmodul stellt nun Funktionen und Parameter bereit, mit denen die Graf eines Substance-Pakets abgerufen werden können.
 
 **Bekannte Probleme:**
 
-* [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
 * [Ebenenstapel] Eingabequelle nicht pro Ebene gespeichert
 * [Malen] Zeitweiliges Anti-Aliasing verursacht beim Malen in einigen Fällen Artefakte
 * [Export] 2DView exportiert zufällig einheitliche Karte

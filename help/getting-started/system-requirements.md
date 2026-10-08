@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/system-requirements.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Prüfen Sie die Systemanforderungen für Substance 3D Painter , um sicherzustellen, dass Ihr Computer die Hardware- und Softwarespezifikationen erfüllt.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > System requirements
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Systemanforderungen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 1%
-
 ---
-
 
 # Unterstützte Systeme
 
@@ -111,7 +103,7 @@ Um GPU-Raytracing über Optix oder DXR zu aktivieren, müssen die oben empfohlen
 
 <b>DXR</b> erfordert ebenfalls die folgende Mindestkonfiguration:
 
-* <b>Windows 10</b> Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing).
+* <b>Windows 10</b> Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).
 * <b> GPU mit Pascal-Architektur</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -142,7 +134,7 @@ Im Folgenden finden Sie eine Liste der kompatiblen Grafiktabletts, die mit der S
 | --- | --- |
 | Windows | XP-PENWin\_3.2.2.211027 |
 | macOS | XP-PENMac\_3.2.3\_211203 |
-| Linux | XP-PEN-pentablet-3.2.1.211019-1 |
+| Linux | XP-STIFT-pentablet-3.2.1.211019-1 |
 
 
 +++

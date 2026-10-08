@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lernen Sie Best Practices für die Ebenenverwaltung in Substance 3D Painter kennen, mit denen Sie die Leistung optimieren und strukturierte Projekte beibehalten können.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Layer management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ebenenmanagement
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 
 # Ebenenmanagement
 
 Painter berechnet den Ebenenstapel von unten nach oben. Wenn Sie also Änderungen an der obersten Ebene auf dem Stapel vornehmen, muss Painter nur die Änderungen dieser Ebene berechnen. Wenn Sie jedoch eine Ebene am unteren Rand des Stapels ändern, muss Painter alle Ebenen über dieser Ebene berechnen, um das Endergebnis zu berechnen.
 
-Es gibt verschiedene Optionen, mit denen Sie die Leistungskosten für Änderungen an Ebenen auf einer niedrigeren Ebene im Stapel senken können:
+Es gibt verschiedene Optionen, mit denen Sie die Leistungskosten senken können, wenn Sie Änderungen an Ebenen vornehmen, die sich im Stapel auf einer niedrigeren Ebene befinden:
 
 +++Verwenden von Geometrie-Masken
 Geometriemasken sind das beste Optimierungswerkzeug. Wann immer Sie einen Teil Ihres Meshs zum Arbeiten isolieren können, tun Sie dies, entweder durch Maskieren von Ebenen oder Ordnern. Geometriemasken arbeiten, indem sie entweder durch UDIM oder durch einen Mesh-Teil isoliert werden, sodass Bereiche, die nicht in der Maske enthalten sind, nicht verarbeitet werden, was die Leistung verbessert. Außerdem kannst du diese Bereiche im Viewport isolieren, um die Texturierung zu vereinfachen.

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie in Substance 3D Painter ein neues Partikel-Skript erstellen, um das Verhalten und die Effekte von Pinseln mit benutzerdefinierten Partikeln zu definieren.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets > Creating A New Particle Script
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Erstellen eines neuen Partikel-Skripts
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen eines neuen Partikel-Skripts
 
@@ -52,13 +44,13 @@ Wir werden bestehende Partikeln-Systeme duplizieren und an den neuen Mesh anpass
 
 Klicken Sie mit der rechten Maustaste auf die Partikel &quot;\_Emitter&quot; (im Ordner &quot;Partikeln&quot;) und wählen Sie &quot;Klon&quot; (oder &quot;Duplizieren&quot;), um Ihren eigenen Emitter zu erstellen.
 
-Öffnen Sie sie und wählen Sie im Fenster &quot;Particle Treeview&quot; (unten links) &quot;**Layer\_Model** &quot; aus, das sich befinden soll in: &quot;Editor-Eigenschaften => Hintergrund => 3D-Ebenen&quot;.
+Öffnen Sie sie und wählen Sie im Fenster &quot;Partikel Treeview&quot; (unten links) &quot;**Layer\_Model** &quot; aus, das sich in folgendem Verzeichnis befinden soll: &quot;Editor-Eigenschaften => Hintergrund => 3D-Ebenen&quot;.
 
 Ersetzen Sie dann im Fenster &quot;Node Properties&quot; (Knoteneigenschaften) die Datei &quot;dummymesh.fbx&quot; durch Ihr Modell. Speichern Sie die Änderung (Datei => Speichern) und schließen Sie das Emitterfenster.
 
-**Klonen Sie nun &quot;\_Receiver** **&quot;** (im Ordner &quot;Particle&quot;), um Ihren eigenen Receiver aus diesem zu erstellen.
+**Klonen Sie nun &quot;\_Receiver** **&quot;** (im Ordner &quot;Partikeln&quot;), um Ihren eigenen Receiver aus diesem zu erstellen.
 
-Öffne die Maske. Ersetze das Dummy-Gitter wie der Emitter durch dein Modell in &quot;Layer\_Model&quot;. Wir **haben den Mesh** **, der auf dem Bildschirm** angezeigt wird, geändert, aber wir müssen auch **den von den Partikeln** verwendeten Mesh **&#x200B;**&#x200B;ändern.
+Öffne den Clip. Ersetze den Dummy-Mesh wie beim Emitter durch dein Model in &quot;Layer\_Model&quot;. Wir **haben den Mesh** **, der auf dem Bildschirm** angezeigt wird, geändert, aber wir müssen auch **den von den Partikeln** verwendeten Mesh **** ändern.
 
 Klicken Sie dazu im Fenster &quot;Partikel Treeview&quot; auf &quot;**Shape** &quot;, das sich in folgendem Verzeichnis befinden sollte: &quot;Partikel-Effekt => Spawner => Ebene\_1 => Sampler => Mesh&quot;.
 

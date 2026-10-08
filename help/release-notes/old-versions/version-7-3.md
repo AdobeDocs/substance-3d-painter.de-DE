@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-7-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 7.3, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 7.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 0%
-
 ---
-
 
 # Version 7.3
 
@@ -86,7 +78,7 @@ Diese Version bietet verschiedene Verbesserungen der Lebensqualität beim Farbw�
 
   ![](../../assets/colorpicker-swatches.gif)
 * **Das Farbauswahlfenster bleibt geöffnet**\
-  Das Farbwählerfenster kann jetzt verschoben und an einer beliebigen Stelle platziert werden, auch auf einem anderen Bildschirm. Es bleibt geöffnet, solange kein Kontextschalter vorhanden ist. Das bedeutet, dass Sie das Farbwählerfenster für einen einfacheren Zugriff geöffnet lassen können, wenn Sie beim Malen von Texturen zwischen den Malebenen wechseln.
+  Das Farbwählerfenster kann jetzt verschoben und an einer beliebigen Stelle platziert werden, auch auf einem anderen Bildschirm. Es bleibt geöffnet, solange kein Kontextschalter vorhanden ist. Wenn Sie also beim Malen mit der Hand zwischen den Malebenen wechseln, können Sie das Farbwählerfenster für einen einfacheren Zugriff geöffnet lassen.
 
   ![](../../assets/picker-persistent.gif)
 
@@ -100,8 +92,8 @@ Weitere Informationen finden Sie auf der [Seite der dedizierten Dokumentation](.
 ### Weitere Funktionen und Verbesserungen
 
 * **Verbesserungen beim Ziehen und Ablegen von Elementen**\
-  Mit der Einführung der Verkrümmung wurde die Aufkleberfunktion, mit der Elemente aus der Bibliothek in den Viewport gezogen und abgelegt werden können, während die ALT-Taste beibehalten wird, überarbeitet. Wenn ein Aufkleber auf diese Weise erstellt wird, verwendet er nicht mehr die Planare Projektion, sondern die Verkrümmen-Projektion. Die automatische Auswahl der Projektion &quot;Verformen&quot; sollte die Geschwindigkeit und Effizienz der Aufkleberanpassungen auf dem Mesh verbessern.\
-  Darüber hinaus ist es jetzt möglich, nicht nur Materialien, sondern bildartige Elemente in den Viewport zu ziehen und dort abzulegen. Bei der Auswahl eines Alpha-Elements, einer Textur oder eines prozeduralen Elements ist die Verwendung des ALT-Modifizierers nicht erforderlich. Das Bild kann auf den Mesh abgelegt werden. In diesem Menü kannst du auswählen, ob das Bild in einer Maske oder in einem der Ebenenkanäle verwendet werden soll.
+  Mit der Einführung der Verkrümmung wurde die Aufkleberfunktion, mit der Elemente aus der Bibliothek in den Viewport gezogen und dort abgelegt werden können, während die ALT-Taste beibehalten wird, überarbeitet. Wenn ein Aufkleber auf diese Weise erstellt wird, verwendet er nicht mehr die Planare Projektion, sondern die Verkrümmen-Projektion. Die automatische Auswahl der Projektion &quot;Verformen&quot; sollte die Geschwindigkeit und Effizienz der Aufkleberanpassungen auf dem Mesh verbessern.\
+  Darüber hinaus ist es jetzt möglich, nicht nur Materialien, sondern bildartige Elemente in den Viewport zu ziehen und dort abzulegen. Bei der Auswahl eines Alpha-, Textur- oder prozeduralen Werts ist die Verwendung des ALT-Modifizierers nicht erforderlich. Das Bild kann auf den Mesh abgelegt werden. In diesem Menü kannst du auswählen, ob das Bild in einer Maske oder in einem der Ebenenkanäle verwendet werden soll.
 
   ![](../../assets/improved-decal.gif)
 
@@ -129,18 +121,18 @@ Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion,
 
 **Hinzugefügt:**
 
-* [Projektion]&#x200B;[Verkrümmen] Gelegt 3D-Verkrümmung als neue Projektion
-* [Projektion]&#x200B;[Verformen] Erlauben Sie den Aufklebermodus für Alphas, Texturen und Prozedurale mit Drag &amp; Drop im Viewport
-* [Projektion]&#x200B;[Verkrümmen] Verwenden Sie die Verkrümmungs-Projektion mit dem Decal-Tastaturbefehl (ALT).
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Transformieren Verkrümmung als Ganzes oder pro Scheitelpunkt
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Fügen Sie Raster-Punkte mit den Optionen &quot;Geteilte Verkrümmung&quot; quer, horizontal oder vertikal hinzu
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Dediziertes Menü für Zurücksetzen-Aktionen
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Option zum automatischen Anpassen der Tangenten beim Verschieben von Punkten
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Spezielles Menü für die Raster-Edition (Größe, Zurücksetzen, Farbe und Griffgröße)
-* [Projektion]&#x200B;[Verformen] Neuer Tastatur-Tastaturbefehl zum Schalten des Warp-Editionsmodus für ganze Scheitelpunkt (UMSCHALT+V)
-* [Projektion]&#x200B;[Verformen] Klicken + Strg ermöglicht den Wechsel zwischen Flächenwerkzeug und anderen Werkzeugen.
-* [Projektion]&#x200B;[Zylindrisch] Gelegt Projektion
-* [Projektion]&#x200B;[Symbolleiste] Gruppeneinstellungen für Manipulator (Größe, Raster, Winkelschritte)
+* [Projektion][Verkrümmen] Gelegt 3D-Verkrümmung als neue Projektion
+* [Projektion][Verformen] Erlauben Sie den Aufklebermodus für Alphas, Texturen und Prozedurale mit Drag &amp; Drop im Viewport
+* [Projektion][Verkrümmen] Verwenden Sie die Verkrümmungs-Projektion mit dem Decal-Tastaturbefehl (ALT).
+* [Projektion][Verkrümmen][Symbolleiste] Transformieren Verkrümmung als Ganzes oder pro Scheitelpunkt
+* [Projektion][Verkrümmen][Symbolleiste] Fügen Sie Raster-Punkte mit den Optionen &quot;Geteilte Verkrümmung&quot; quer, horizontal oder vertikal hinzu
+* [Projektion][Verkrümmen][Symbolleiste] Dediziertes Menü für Zurücksetzen-Aktionen
+* [Projektion][Verkrümmen][Symbolleiste] Option zum automatischen Anpassen der Tangenten beim Verschieben von Punkten
+* [Projektion][Verkrümmen][Symbolleiste] Spezielles Menü für die Raster-Edition (Größe, Zurücksetzen, Farbe und Griffgröße)
+* [Projektion][Verformen] Neuer Tastatur-Tastaturbefehl zum Schalten des Warp-Editionsmodus für ganze Scheitelpunkt (UMSCHALT+V)
+* [Projektion][Verformen] Klicken + Strg ermöglicht den Wechsel zwischen Flächenwerkzeug und anderen Werkzeugen.
+* [Projektion][Zylindrisch] Gelegt Projektion
+* [Projektion][Symbolleiste] Gruppeneinstellungen für Manipulator (Größe, Raster, Winkelschritte)
 * [Farbwähler] Neue Benutzeroberfläche für Farbwähler
 * [Farbwähler] Verwenden von sRGB-Werten in Farbwähler-Widgets
 * [Farbwähler] Farbfelder speichern und löschen
@@ -151,9 +143,9 @@ Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion,
 * [Farbwähler] Durch Drücken von Esc wird das Farbwählerfenster geschlossen.
 * Leistungsverbesserung für UI-Interaktion und beim Malen
 * [Engine] Update auf die neue Substance-Engine-Version (8.3.0)
-* [Scripting]&#x200B;[Python] Ermöglicht das erneute Laden des Meshs des aktuellen Projekts.
-* [Scripting]&#x200B;[Python] Aktualisieren von Ressourcen in Projekten zulassen
-* [Scripting]&#x200B;[Python] Festlegen und Abfragen der Auflösung von UV-Kacheln zulassen
+* [Scripting][Python] Ermöglicht das erneute Laden des Meshs des aktuellen Projekts.
+* [Scripting][Python] Aktualisieren von Ressourcen in Projekten zulassen
+* [Scripting][Python] Festlegen und Abfragen der Auflösung von UV-Kacheln zulassen
 * [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
 * [Interoperabilität] Empfangen mehrerer Ressourcen von Bridge
 
@@ -168,9 +160,9 @@ Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion,
 
 **Bekannte Probleme:**
 
-* [Projektion]&#x200B;[Verformen] Die Option &quot;Teilen&quot; bleibt nach dem Teilen ausgewählt.
-* [Projektion]&#x200B;[Verkrümmen] Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum festgelegt ist
-* [Projektion]&#x200B;[Verformen] Artefaktlinien zwischen Patches in seltenen Fällen
-* [Projektion]&#x200B;[UV] Der Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt.
-* [Mac M1] Smart-Materialien werden nicht korrekt angezeigt
-* [M1]&#x200B;[Regression] Materialschichtung funktioniert nicht
+* [Projektion][Verformen] Die Option &quot;Teilen&quot; bleibt nach dem Teilen ausgewählt.
+* [Projektion][Verkrümmen] Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum festgelegt ist
+* [Projektion][Verformen] Artefaktlinien zwischen Patches in seltenen Fällen
+* [Projektion][UV] Der Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt.
+* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
+* [M1][Regression] Material-Layer funktioniert nicht

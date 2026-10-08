@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2018.3 , um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2018.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2018.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 0%
-
 ---
-
 
 # Version 2018.3
 
@@ -74,7 +66,7 @@ Hier ist eine Liste der Änderungen:
 * **Mask** out the secondary layer (via **User1** channel).
 * Wählen Sie das Verhalten, das auf die Oberflächenebene angewendet werden soll: **Normaldetails beibehalten** (Original) oder **Fläche glätten** (neu, Mesh-Normal-Map ignorieren)
 
-Der Einfachheit halber haben wir auch eine neue Projektvorlage für die Texturierung dieses neuen Shader mit dem Namen hinzugefügt: **PBR - Metallische Raueit beschichtet**.
+Der Einfachheit halber haben wir auch eine neue Projektvorlage für die Texturierung dieses neuen Shader mit dem Namen hinzugefügt: **PBR - Metallische Rauheit überzogen**.
 
 ![](../../assets/shader-coated.png)
 
@@ -99,9 +91,9 @@ Das neue **TAA** filtert auch das Blue-Rauschen-Muster, das in den **Specular-Re
 
 Eine große Veränderung in dieser neuen Version ist die Einführung der **Dünn besetzte virtuelle Texturen** oder **SVT**.
 
-Dieses neue System ändert einige Grundlagen des Substance Painters und die Funktionsweise der Anwendung. Substance Painter verwendet die SVT jetzt als Möglichkeit, einen bestimmten Speicherbedarf für den Viewport zu verwalten, sodass **Texturen ein- und ausströmen können**. Der Hauptvorteil besteht in der Möglichkeit, größere Projekte einfacher zu laden und den Druck auf die GPU zu reduzieren, um **die Leistung zu verbessern**. Dies bedeutet, dass, wenn die Dinge beginnen, zu groß zu werden, einige Texturen auf der Festplatte entladen und sie später wieder abrufen wird, wenn nötig). Dies ist ein **flüchtiger Cache**, der beim Schließen der Anwendung gelöscht wird.
+Dieses neue System ändert einige Grundlagen des Substance Painters und die Funktionsweise der Anwendung. Substance Painter verwendet die SVT jetzt als Möglichkeit, einen bestimmten Speicherbedarf für den Viewport zu verwalten, sodass **Texturen ein- und ausströmen können**. Der Hauptvorteil besteht in der Möglichkeit, größere Projekte einfacher zu laden und den Druck auf die GPU zu reduzieren, um **die Leistung zu verbessern**. Dies bedeutet, dass, wenn die Dinge zu groß werden, einige Texturen auf der Festplatte entladen und sie später wieder abrufen werden, falls nötig). Dies ist ein **flüchtiger Cache**, der beim Schließen der Anwendung gelöscht wird.
 
-Ein weiterer Vorteil des Systems ist die Einführung von **Mipmaps** im **Viewport**, die die Texturqualität verbessern und den Moiré-Effekt reduzieren, der besonders bei Fabric-Mustern sichtbar ist.
+Ein weiterer Vorteil des Systems ist die Einführung von **Mipmaps** im **Viewport**, die die Qualität der Textur verbessern und den Moiré-Effekt reduzieren, der besonders bei Fabric-Mustern sichtbar ist.
 
 Wir haben einige Steuerelemente zu diesem neuen System gelegt, die in den Haupteinstellungen bearbeitet werden können (**Bearbeiten > Einstellungen**):
 
@@ -266,20 +258,20 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 
 * Mesh verschwindet manchmal vom 3D-Viewport (drücken Sie F, um die Kamera zurückzusetzen)
 * [glTF] Aktualisieren des Substance Painter Sketchfab-Uploaders mit den neuen Sketchfab-Lizenztypen
-* [Import]&#x200B;[glTF] Falsche Handhabung der Modulation der Eingabe-Textur, wie in glTF-Dateien definiert
-* [Import]&#x200B;[glTF] Boden-Ebene wird beim glTF-Import in einigen Fällen falsch angezeigt
-* [Exportieren]&#x200B;[USD] Deckkraft funktioniert nicht in Arkit
-* [Exportieren]&#x200B;[USD] USDz-Export-Absturz in einigen Fällen
-* [Exportieren]&#x200B;[USD] Exportieren nach USD ohne Speichern führt zu Absturz
-* [Exportieren]&#x200B;[USD] Falsche Kachelung für Texturen, Unterteilungsmodus für Mesh und Ausgabetypen für Shader
-* [Exportieren]&#x200B;[USD] Wenig Exporte von nur einigen Textursätzen mit allen Geometrien
+* [Import][glTF] Falsche Handhabung der Modulation der Eingabe-Textur, wie in glTF-Dateien definiert
+* [Import][glTF] Boden-Ebene wird beim glTF-Import in einigen Fällen falsch angezeigt
+* [Exportieren][USD] Deckkraft funktioniert nicht in Arkit
+* [Exportieren][USD] USDz-Export-Absturz in einigen Fällen
+* [Exportieren][USD] Exportieren nach USD ohne Speichern führt zu Absturz
+* [Exportieren][USD] Falsche Kachelung für Texturen, Unterteilungsmodus für Mesh und Ausgabetypen für Shader
+* [Exportieren][USD] Wenig Exporte von nur einigen Textursätzen mit allen Geometrien
 * [Instanz] Absturz beim Löschen einer beschädigten Instanzebene
-* [Regression]&#x200B;[Exportieren] Einige Maps werden nicht in die ausgewählte Bittiefe exportiert
+* [Regression][Exportieren] Einige Maps werden nicht in die ausgewählte Bittiefe exportiert
 * [Linux] Problem mit der Bibliothek libtbb.so.2
 
 **Bekannte Probleme:**
 
-* Berechnungen frieren in einigen Fällen auf AMD VEGA-GPUs ein
+* Einfrieren der Berechnung in einigen Fällen auf AMD VEGA-GPUs
 * Problem mit Huion-Tablets mit Tastaturbefehlen unter Windows
 
 ### 2018.3.2
@@ -290,31 +282,31 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 
 * Zusammenfassung: Hotfix mit neuen Funktionen
 * [Export] Export nach USDZ zulassen
-* [Viewport] Ermöglicht die Steuerung der Texturqualität in den Anzeigeeinstellungen.
-* [Viewport] Zusätzliche Einstellung für die MIP-Voreinstellung in den Anzeigeeinstellungen
+* [Viewport] Zulassen, dass die Qualität der Textur in den Anzeigeeinstellungen gesteuert wird.
+* [Viewport] Die MIP-Voreinstellung wurde in den Anzeigeeinstellungen hinzugefügt.
 * [Viewport] Anisotrope Filterung in den Anzeigeeinstellungen hinzugefügt
 * [Plug-ins] Offizielle Plug-ins aktualisieren, um den Stil von Substance Painter 2018 zu verwenden
 * [Lizenz] Installation der Lizenz standardmäßig in einem Benutzerordner
 
 **Fest:**
 
-* Absturz mit Dekomprimierung verknüpft
-* Hinzufügen von TAA zu Solomaterial
-* Rauschen mit Schatten, TAA- und Alpha-Test-Shader mit Dithering
-* Entfernen des Specular-Dithering für alle klassischen PBR-Shader
+* Mit Dekomprimierung verknüpfter Absturz
+* Hinzufügen von TAA auf Solo-Material
+* Rauschen mit Shadow, TAA und Alpha-Test-Shader mit Dithering
+* Specular-Dithering für alle klassischen PBR-Shader entfernen
 * Absturz in den Shader-Einstellungen in einigen Fällen
 * Die Streuungsaktivierung wird nicht zwischen OpenGL- und Iray-Renderings synchronisiert
-* Die Verwisch- und Kopierwerkzeuge funktionieren nicht mehr bei bestimmten Netzen
-* Einige Texturensätze können nicht im Iran-Rendering angezeigt werden
-* Umbenannte Textursätze werden nach dem Schließen des Projekts nicht gespeichert
-* Drahtgitter-Artefakte beim Ziehen und Ablegen von Materialien auf ID-Maps
+* Die Verwisch- und Kopierwerkzeuge funktionieren nicht mehr auf bestimmten Meshs
+* Einige Textursatz können nicht im Iray-Rendering angezeigt werden
+* Umbenannte Textursatz werden nach dem Schließen des Projekts nicht gespeichert
+* Drahtgitter-Artefakte beim Ziehen und Ablegen von Materialien auf ID-Map
 * [Scripting] Dateipfaderstellung beim Speichern eines Projekts nicht erzwungen
 * [Scripting] Rückruf von &quot;onProjectAboutToSave()&quot; funktioniert nicht mehr
 * Fehlerhafte Links im Fenster &quot;Fehler melden&quot;
 
 **Bekannte Probleme:**
 
-* Berechnungen frieren in einigen Fällen auf AMD VEGA-GPUs ein
+* Einfrieren der Berechnung in einigen Fällen auf AMD VEGA-GPUs
 * Problem mit Huion-Tablets mit Tastaturbefehlen unter Windows
 
 ### 2018.3.1
@@ -324,19 +316,19 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 **Hinzugefügt:**
 
 * Zusammenfassung: Hotfix
-* [Symmetrie]&#x200B;[Viewport] Symmetrie-Malerei in der 2D-Ansicht ist wieder da und zeigt jetzt eine fixierte Vorschau des Klonpinsels
+* [Symmetrie][Viewport] Das Malen mit Symmetrien in der 2D-Ansicht ist wieder da und zeigt nun eine Vorschau des Klonpinsels an.
 
 **Fest:**
 
-* [Exportieren] Beim Export in die 2D-Ansicht wird in einigen Fällen eine schwarze Textur ausgegeben
-* [Iray] Normale Informationen werden in Iray falsch, nachdem eine Materialschicht instanziiert wurde
-* Nicht quadratische Texturensätze können in einigen Fällen zum Absturz führen
-* [Rückgängig] Mehrere Strg+Z können in einigen Fällen zufällig zum Absturz führen
+* [Exportieren] Beim Exportieren von 2D-Ansichten wird in einigen Fällen eine schwarze Textur ausgegeben
+* [Iray] Normale Informationen werden in Iray falsch, nachdem eine Material-Ebene instanziiert wurde
+* Nicht quadratische Textursatz können in einigen Fällen zu Absturz führen
+* [Rückgängig] Mehrere Strg+Z können in einigen Fällen zufällig zu Absturz führen
 * [QML] AlgScrollView kann in einigen Fällen eine Warnung im Protokoll erstellen (Bindungsschleifen)
 
 **Bekannte Probleme:**
 
-* Berechnungen frieren in einigen Fällen auf AMD VEGA-GPUs ein
+* Einfrieren der Berechnung in einigen Fällen auf AMD VEGA-GPUs
 * Problem mit Huion-Tablets mit Tastaturbefehlen unter Windows
 * Glätten und Schatten können bei gemeinsamer Verwendung zu unerwarteten Ergebnissen führen
 
@@ -346,26 +338,26 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 
 <b><b>Hinzugefügt:</b></b>
 
-* Zusammenfassung: Viewport-Upgrades, richtiger Export von 2D-Ansichten, neue UI-Helfer, ein verbessertes Symmetrie-Tool, neue Inhalte und eine enorme Leistungssteigerung
-* [Glätten]&#x200B;[Viewport] Neue temporale Anti-Aliasing-Filterung für 3D-Viewport (über Anzeigeeinstellungen)
-* [Exportieren] Exportieren Sie den Inhalt des 2D-Viewports als einzelne Textur
-* [Exportieren]&#x200B;[Dithering] Dithering beim Exportieren Gelegt
+* Zusammenfassung: Viewport-Upgrades, richtiger 2D-Ansicht-Export, neue UI-Helfer, ein verbessertes Symmetrie-Tool, neue Inhalte und eine enorme Leistungssteigerung
+* [Glätten][Viewport] Neue temporale Anti-Aliasing-Filterungen für 3D-Viewport (über Anzeigeeinstellungen)
+* [Exportieren] Exportieren Sie den Inhalt des 2D-Viewports als eine einzige Textur
+* [Exportieren][Dithering] Dithering beim Exportieren Gelegt
 * [Ebenenstapel] Farben auf Ebenen und Ordnern
 * [Ebenenstapel] Schnelle Aktivierung und Deaktivierung mehrerer Ebenen und Effekte
 * [Ebenenstapel] Einfachere Navigation für Füllmethoden mit Nach-oben-Tasten und Mausbildlauf
-* [Proj]&#x200B;[UI] Zusätzlicher Dreh-Manipulator auf allen drei Achsen für triplanar
-* [Proj]&#x200B;[Tastaturbefehle] - und +, um die Größe des Manipulators der UV-Projektion zu ändern
+* [Proj][UI] Zusätzlicher Dreh-Manipulator auf allen drei Achsen für triplanar
+* [Proj][Tastaturbefehle] - und +, um die Größe des Manipulators der UV-Projektion zu ändern
 * [Shader] Kontrolle beschichteter Schichtparameter mit Kanälen im PBR-beschichteten Shader
 * [Substance] Leg neuer Mesh-basierter Textur-Eingänge für Filter und Generatoren
-* [Symmetrie]&#x200B;[Viewport]&#x200B;[UI] Steuern des Offsets der Symmetrie auf Manipulator
-* [Symmetrie]&#x200B;[Kontextabhängige Symbolleiste]&#x200B;[Benutzeroberfläche] Neues Bedienfeld &quot;Symmetrie&quot; mit Optionen
+* [Symmetrie][Viewport][UI] Steuern des Offsets der Symmetrie auf Manipulator
+* [Symmetrie][Kontextabhängige Symbolleiste][Benutzeroberfläche] Neues Bedienfeld &quot;Symmetrie&quot; mit Optionen
 * [Symmetrie] Neue Symmetrie Linienüberschneidungsmodus
 * [Symmetrie] Neuer Symmetrie-Clone-Cursor
-* [Symmetrie]&#x200B;[Tastaturbefehle] Q zum Ausblenden und -, + zum Ändern der Größe und Umschalttaste zum einrasten
+* [Symmetrie][Tastaturbefehle] Q zum Ausblenden und -, + zum Ändern der Größe und Umschalttaste zum einrasten
 * [Log] Verbessern von Fehlermeldungen, wenn Texturen nicht exportiert werden können
 * [Scripting] Ressourcen in den Anzeigeeinstellungen ändern oder aktualisieren
 * [Scripting] Erlaubt das Erstellen oder Entfernen von Kanälen in Textursätzen
-* [Content]&#x200B;[Shaders] Unterstützung für Anisotropie mit einem dedizierten Shader hinzufügen (pbr-metal-rau-Anisotropie-angle)
+* [Content][Shaders] Unterstützung für Anisotropie mit einem dedizierten Shader hinzufügen (pbr-metal-rau-Anisotropie-angle)
 * [Inhalt] Aktualisierung der Vorschaukugel mit Anisotropie und verändertem Winkel
 * [Content] Aktualisierte matFx-Shutline
 * [Content] Neuer Scanner zur Texturierung.XYZ-Fläche
@@ -374,35 +366,35 @@ Wir haben auch einige der vorhandenen Inhalte aktualisiert, um sie zu verfeinern
 * [Inhalt] Neue Umgebungs-Map: Studio Automotive Neutral
 * [Inhalt] Neue Projektvorlage: PBR - metallische Rauheit Anisotropy angle (mit Anisotropie-Kanälen)
 * [Inhalt] Neue Projektvorlage: PBR - mit metallische Rauheit beschichtet
-* [SVT]&#x200B;[Engine] Dünn besetzte virtuelle Texturen (SVT)
-* [SVT]&#x200B;[Voreinstellungen]&#x200B;[UI] Beschleunigungsoption für SVT-Hardware-Unterstützung
-* [SVT]&#x200B;[Protokoll] Zusätzliche Informationen für die Funktion &quot;Virtuelle Texturierung mit geringer Dichte&quot; (z. B. Festplatte in Größe)
-* [SVT]&#x200B;[UI] Meldungsfenster beim Start, wenn die Größe auf der Festplatte für den Cache zu niedrig ist
-* [SVT]&#x200B;[Voreinstellungen]&#x200B;[UI] Substance Painter globaler Cachespeicherort
+* [SVT][Engine] Dünn besetzte virtuelle Texturen (SVT)
+* [SVT][Voreinstellungen][UI] Beschleunigungsoption für SVT-Hardware-Unterstützung
+* [SVT][Protokoll] Zusätzliche Informationen für die Funktion &quot;Virtuelle Texturierung mit geringer Dichte&quot; (z. B. Festplatte in Größe)
+* [SVT][UI] Meldungsfenster beim Start, wenn die Größe auf der Festplatte für den Cache zu niedrig ist
+* [SVT][Voreinstellungen][UI] Substance Painter globaler Cachespeicherort
 * [SVT] Neue Umgebungsvariable zur Angabe des Pfads des Substance Painter-Cache
 * [SVT] Neue Umgebungsvariable zum Aktivieren der SVT-Hardware-Support-Beschleunigung
 * [SVT] Erkennen von geringer Unterstützung durch Hardware
-* [SVT]&#x200B;[Hardware Sparse] Erhöhen der Mindesttreiberversion für Nvidia-GPU
-* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Warnen Sie den Benutzer, wenn beim Öffnen des Projekts Artefakte mit virtueller Texturierung mit geringer Dichte vorhanden sind
+* [SVT][Hardware Sparse] Erhöhen der Mindesttreiberversion für Nvidia-GPU
+* [SVT][Shader][Viewport][UI] Warnen Sie den Benutzer, wenn beim Öffnen des Projekts Artefakte mit virtueller Texturierung mit geringer Dichte vorhanden sind
 
 <b><b>Fest:</b>\
 </b>
 
 * [Farbwähler] Beim Auswählen einer Farbe wird ein Malcursor angezeigt
-* Absturz durch Auswählen oder Aufheben der Auswahl von Ebenen in einer bestimmten Reihenfolge kann zum Absturz führen
+* Absturz durch das Auswählen oder Aufheben der Auswahl von Ebenen in einer bestimmten Reihenfolge kann zu Absturz führen
 * Absturz beim Einfügen einer Ebene mit einer Maske als Instanz
-* [Benutzerkanal]&#x200B;[Regression] Absturz beim Umbenennen des Benutzerkanals
+* [Benutzerkanal][Regression] Absturz beim Umbenennen des Benutzerkanals
 * [Benutzerkanal] Graue Pinselvorschau
 * [Alembic] Nur ein Textursatz aus mehreren Materialien nach dem Import
-* [Engine] Exportierte Textur unterscheidet sich vom Viewport für Pinselstempel
+* [Engine] Exportierte Textur unterscheidet sich von Viewport für Pinselstempel
 * [Engine] Die Umkehrung mit einem Ebeneneffekt wirkt sich nicht vollständig auf eine Textur aus
-* Die Materialauswahl wendet beim Auswählen einen Pinselstrich an
-* Das Umschalten der Auflösung auf 128 x 128 px führt zu einem Absturz
-* Gitterzuordnungs-Verknüpfungen werden beim Umbrechen oder Instanziieren von Ebenen nicht ordnungsgemäß aktualisiert
-* [Substance] UserData ColorSpace funktioniert nicht bei der als Eingabe angeforderten Option &quot;Standard für gepuffertes Gitter&quot;
+* Die Material-Auswahl wendet beim Auswählen einen Pinselstrich an
+* Der Wechsel der Auflösung auf 128 x 128 px führt zu einem Absturz
+* Mesh-Map-Verknüpfungen werden beim Umbrechen oder Instanziieren von Ebenen nicht ordnungsgemäß aktualisiert
+* [Substance] UserData ColorSpace funktioniert nicht bei Baking geführt Mesh Normal, der als Eingabe angefordert wird
 * MDL-Zuordnungskonflikt bei Verwendung mehrerer Shader-Instanzen
-* [Symmetrie]&#x200B;[Füllebene] Symmetrieebene und ihr Manipulator in der Füllebene aktiv
-* [Viewport] Drehpunkt für Übersetzung wird nach dem Klicken nicht immer aktualisiert
+* [Symmetrie][Füllebene] Symmetrie-Ebene und ihr in der Füllebene aktiver Manipulator
+* [Viewport] Pivot-Punkt für Übersetzung wird nach dem Klicken nicht immer aktualisiert
 * [UI] Symbole und Entfernen von Platzhaltern für HDPI-Monitore wurden korrigiert
 
 <b><b>Bekannte Probleme:</b>\

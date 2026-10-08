@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Absturz und Abstürze während des Starts von Substance 3D Painter für einen stabilen Anwendungsstart beheben.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Absturz oder Einfrieren beim Starten
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
-
 ---
-
 
 # Absturz oder Einfrieren beim Starten
 
@@ -41,7 +33,7 @@ Wenn die Anwendung beim Start unter Windows sofort einfriert (was zu einem weiß
 * Eine externe Anwendung verursacht einen Konflikt. Informationen zu Softwarekonflikten finden Sie unter [Softwarekonflikte](software-conflicts.md).
 * Einige Fenster der Anwendung wurden auf einem anderen Monitor geöffnet. Durch Wiederherstellen des Standardlayouts der Benutzeroberfläche kann die Anwendung normal gestartet werden:
   1. Öffnen Sie den Registrierungseditor (**regedit** aus dem Startmenü).
-  1. Navigieren Sie zu den Anwendungsvoreinstellungen (siehe: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
+  1. Navigieren Sie zu den Anwendungsvoreinstellungen (siehe: [Speicherort von Voreinstellungen und Anwendungsdaten](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html))
   1. Erweitern Sie den Schlüssel **Adobe Substance 3D Painter**
   1. Wählen Sie den Schlüssel **Hauptfenster 2018** aus, und löschen Sie ihn.
   1. Starten Sie die Anwendung neu

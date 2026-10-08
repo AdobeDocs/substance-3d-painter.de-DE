@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2019-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2019.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2019.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 1%
-
 ---
-
 
 # Version 2019.2
 
@@ -48,12 +40,12 @@ Der Arbeitsablauf für das Baking wurde in dieser Version mit einigen neuen Funk
 
 ![](../../assets/header-image-baker.jpg)
 
-Mit der Workflow-Verbesserung haben wir auch die Gelegenheit genutzt, unsere Baker zu aktualisieren und ihre Leistung zu verbessern. Wir haben auch die Unterstützung von DXR und OptiX hinzugefügt, um GPU-Raytracing zu aktivieren, das das Baking viel schneller als zuvor ermöglicht. Beachten Sie jedoch, dass sich GPU-Raytracing nur auf die Verdeckung &quot;Umgebung&quot; und die Thickness auswirkt.
+Mit der Workflow-Verbesserung haben wir auch die Gelegenheit genutzt, unsere Baker zu aktualisieren und ihre Leistung zu verbessern. Wir haben auch die Unterstützung von DXR und OptiX hinzugefügt, um GPU-Raytracing zu aktivieren, das das Baking viel schneller als zuvor ermöglicht. Beachten Sie jedoch, dass GPU-Raytracing nur den Baker Ambient occlusion und Thickness beeinflusst.
 
 * **CPU-Raytracing wurde verbessert**\
   Die Raytracing-Berechnung auf der CPU ist jetzt 2- bis 3-mal schneller als zuvor. Selbst wenn Ihre GPU mit GPU-Raytracing nicht kompatibel ist, erhalten Sie daher im Allgemeinen trotzdem Leistungsverbesserungen.
 * **GPU-Raytracing-Unterstützung für DXR und Optix**\
-  Mit kompatibler Hardware können die Baker jetzt direkt auf der GPU berechnen, was die Berechnung erheblich verkürzt, insbesondere wenn Anti-Aliasing aktiviert ist und viele Strahlen definiert sind. DXR ist die Standardoption, sofern verfügbar, andernfalls wird Optix verwendet. Sie können GPU-Raytracing deaktivieren, indem Sie in den [Haupteinstellungen](../../interface/settings/settings.md) nach &quot;**Backing-Optionen**&quot; suchen:
+  Mit kompatibler Hardware können die Baker jetzt direkt auf der GPU berechnen, was die Berechnung erheblich verkürzt, insbesondere wenn Anti-Aliasing aktiviert ist und viele Strahlen definiert sind. DXR ist die Standardoption, wenn sie verfügbar ist, andernfalls wird Optix verwendet. Es ist möglich, GPU-Raytracing zu deaktivieren, indem Sie in die [Haupteinstellungen](../../interface/settings/settings.md) gehen und nach &quot;**Baking Options**&quot; suchen:
 
   ![](../../assets/baking-options-v2.png)
 
@@ -73,9 +65,9 @@ Mit der Workflow-Verbesserung haben wir auch die Gelegenheit genutzt, unsere Bak
 In dieser Version haben wir auch einige Dinge hinzugefügt und überarbeitet, um die Lebensqualität im Substance Painter zu verbessern.
 
 * **Verbesserter Manipulator für die Drehung**\
-  Der Rotationsmanipulator war in der Vergangenheit etwas langsam, sodass Drehungen manchmal langwierig durchzuführen waren. Die Drehgeschwindigkeit ist jetzt an die Größe der Kamera und Szene gekoppelt.
-* **Verbesserte Leistung auf Bildschirmen mit hoher DPI-Auflösung mit Verkleinerung des Ansichtsports**\
-  In den [Haupteinstellungen](../../interface/settings/settings.md) gibt es jetzt einen neuen Parameter mit dem Namen &quot;Viewport-Skalierung&quot; mit dem Wert &quot;**Keine**&quot; und &quot;**Auto**&quot; (Standard). Wenn der Substance Painter erkennt, dass ein Bildschirm die HDPI-Skalierung verwendet (z. B. Retina-Bildschirme auf dem MacOS), wird die Viewport-Auflösung automatisch durch 2 dividiert. Durch dieses Verhalten wird vermieden, dass der Viewport zu groß gezeichnet wird, und die allgemeine Leistung wird ohne nennenswerten Qualitätsverlust verbessert.
+  Der Manipulator der Drehung war in der Vergangenheit etwas langsam, sodass Drehungen manchmal langwierig waren. Die Drehgeschwindigkeit ist jetzt an die Größe der Kamera und Szene gekoppelt.
+* **Verbesserte Leistung auf Bildschirmen mit hoher DPI-Einstellung mit Viewport-Downskalierung**\
+  In den [Haupteinstellungen](../../interface/settings/settings.md) gibt es jetzt einen neuen Parameter namens &quot;Viewport-Skalierung&quot; mit dem Wert &quot;**Keine**&quot; und &quot;**Auto**&quot; (Standard). Wenn Substance Painter erkennt, dass ein Bildschirm die HDPI-Skalierung verwendet (z. B. Retina-Screens auf dem MacOS), wird die Auflösung des Viewports automatisch durch 2 dividiert. Dadurch wird vermieden, dass der Viewport zu groß gezeichnet wird, und die Gesamtleistung wird verbessert, ohne dass die Qualität merklich beeinträchtigt wird.
 
   ![](../../assets/settings-viewport-downscale.png)
 * **Neues Konsolen-Plug-in für Skripterstellung**\
@@ -172,7 +164,7 @@ Zusammenfassung: **Bugfix**
 
 **Hinzugefügt:**
 
-* [Textursatzliste] Schaltfläche &quot;Hinzufügen&quot;, um den Fokusmodus schnell zu aktivieren/deaktivieren
+* [Liste der Textursatz] Schaltfläche &quot;Hinzufügen&quot; zum schnellen Aktivieren/Deaktivieren des Fokusmodus
 * [Log] Windows 10-Versionsnummer in die Protokolldatei einfügen
 * Aktualisieren Sie auf die neueste Version von Substance Engine
 * [MacOS] Die Software wurde notariell beglaubigt, um die neuen MacOS Catalina-Verteilungsanforderungen zu befolgen
@@ -180,13 +172,13 @@ Zusammenfassung: **Bugfix**
 **Fest:**
 
 * [Plugin] Plugin Source funktioniert nicht
-* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 und AMD: Materialschichtung funktioniert nicht wie vorgesehen
+* [MacOS][Shader] Mac OS 10.14.5 und AMD: Material-Ebenen funktionieren nicht wie vorgesehen
 
 **Bekannte Probleme:**
 
 * Alembic-Dateien mit Unterteilungen können nicht importiert werden
-* Seltene Abstürze beim Importieren einiger Alembic-Dateien
-* Benutzeroberfläche reagiert vorübergehend nicht, wenn mit DXR auf Pascal-GPUs gebacken wird
+* Seltene Absturz beim Importieren einiger Alembic-Dateien
+* Benutzeroberfläche reagiert beim Baking führ mit DXR auf Pascal-GPUs vorübergehend nicht
 
 ### 2019.2.2
 
@@ -196,7 +188,7 @@ Zusammenfassung: **Bugfix**
 **Fest:**
 
 * Das Importieren von Ressourcen durch Skripterstellung kann zu einem Absturz führen
-* [Plugin] Das Herunterladen von Material von der Quelle kann zu einem Absturz führen
+* [Plugin] Das Herunterladen des Materials von der Quelle kann zu einem Absturz führen
 
 ### 2019.2.1
 
@@ -205,20 +197,20 @@ Zusammenfassung: **Bugfix**
 
 **Fest:**
 
-* [Mac]&#x200B;[USD] Exportierte USDZ-Dateien aus MacOS können nicht geöffnet werden.
-* [Textursatz] Es ist nicht möglich, einen Textursatz mit dem ALT-Modifizierer zu isolieren.
-* [Shelf] Vorgaben, Smart-Materialien und Smart-Masken werden beim Beenden der Anwendung immer geändert
-* [Ebenenstapel] Effekt kann nach Löschen eines anderen Effekts nicht ausgewählt werden
+* [Mac][USD] Exportierte USDZ-Dateien aus MacOS können nicht geöffnet werden.
+* [Textursatz] Es ist nicht möglich, einen Textursatz mit dem ALT-Modifizierer zu isolieren
+* [Regal] Vorgaben, Intelligente Materialien und Intelligente Masken werden beim Beenden der Anwendung immer geändert
+* [Ebenenstapel] Effekt kann nach dem Löschen eines anderen Effekts nicht ausgewählt werden
 * Flackern bei Verwendung eines Schiebereglers im Bedienfeld &quot;Werkzeugeigenschaften&quot;
-* Absturz beim Exportieren von Vorgaben in die Ablage
-* Absturz beim Exportieren einer Vorgabe mit unzureichendem Speicherplatz
+* Absturz beim Exportieren von Vorgaben in Regal
+* Absturz beim Exportieren einer Vorgabe mit zu wenig Speicherplatz
 * Absturz beim Erstellen einer Vorgabe mit zu wenig Speicherplatz
 
 **Bekannte Probleme:**
 
 * Alembic-Dateien mit Unterteilungen können nicht importiert werden
-* Seltene Abstürze beim Importieren einiger Alembic-Dateien
-* Benutzeroberfläche reagiert vorübergehend nicht, wenn mit DXR auf Pascal-GPUs gebacken wird
+* Seltene Absturz beim Importieren einiger Alembic-Dateien
+* Benutzeroberfläche reagiert beim Baking führ mit DXR auf Pascal-GPUs vorübergehend nicht
 
 ### 2019.2
 
@@ -227,40 +219,40 @@ Zusammenfassung: **Hauptversion mit Leistungsaktualisierungen der Baker und eine
 
 **Hinzugefügt:**
 
-* [Bäcker] Zusätzliche Unterstützung für GPU-Raytracing mit DXR und OptiX (Ambient Verdeckung, Thickness)
-* [Bäcker] Optimierungen und Beschleunigungen für CPU Raytracing
-* [Bäcker]&#x200B;[Vis-Modus]&#x200B;[UI] Neuer Visualisierungsmodus für Backen im Viewport
-* [Bäcker]&#x200B;[Voreinstellungen]&#x200B;[UI] Neue Backing-Option zum Aktivieren/Deaktivieren von GPU-Raytracing
-* [Bäcker]&#x200B;[UI] Überarbeitung des Fortschrittsbalken-Dialogfelds
-* [Bäcker] Verbesserung von Warn- und Fehlermeldungen
-* [Bäcker] Ermöglicht reaktionsschnelleres Abbrechen des Backvorgangs
-* [Bäcker] Backfenster nach Klicken auf &quot;Abbrechen&quot; erneut öffnen
-* [Proj]&#x200B;[UX] Verbesserung der Benutzerfreundlichkeit des Rotationsmanipulators
-* [Einstellungen] Option zur Leistungsverbesserung durch Reduzierung der Viewport-Auflösung für HDPI-Bildschirme
-* [Skripterstellung] Ändern der Auflösung des Textursatzes
+* [Baker] Zusätzliche Unterstützung für GPU-Raytracing mit DXR und OptiX (Ambient occlusion, Thickness)
+* [Baker] Optimierungen und Beschleunigungen für CPU-Raytracing
+* [Baker][VIS-Modus][UI] Neuer Visualisierungsmodus für Baking im Viewport
+* [Baker][Voreinstellungen][Benutzeroberfläche] Neue Baking-Option zum Aktivieren/Deaktivieren von GPU-Raytracing
+* [Baker][UI] Überarbeitung des Fortschrittsbalken-Dialogfelds
+* [Baker] Verbesserung von Warn- und Fehlermeldungen
+* [Baker] Responsiveres Abbrechen des Bakings zulassen
+* [Baker] Fenster &quot;Baking&quot; nach Klicken auf &quot;Abbrechen&quot; erneut öffnen
+* [Proj][UX] Verbesserte Verwendbarkeit des Rotations-Manipulators
+* [Einstellungen] Option zur Leistungssteigerung durch Reduzierung der Viewport-Auflösung für HDPI-Bildschirme
+* [Skripterstellung] Ändern der Auflösung von Textursätzen
 * [Skripterstellung] Ausgewählten Textursatz abrufen
 * [Scripting] Benutzer können einen Textursatz auswählen
-* [Scripting] Funktion, um zu erfahren, wann die Auswahl der Texturmenge geändert wurde
-* [Shelf] 40 neue Smart-Materialien hinzugefügt
-* [Shelf] 20 neue Smart-Masken hinzugefügt
+* [Skripterstellung] Funktion, um zu erfahren, wann die Auswahl des Textursatzes geändert wurde
+* [Regal] Es wurden 40 neue intelligente Materialien hinzugefügt.
+* [Regal] 20 neue intelligente Masken hinzugefügt
 
 **Fest:**
 
 * [Ebenenstapel] Einfrieren der Benutzeroberfläche bei Mehrfachauswahl von Ebenen
-* [Ebenenstapel] Wenn viele Ebenen gruppiert werden, friert die Benutzeroberfläche länger als gewöhnlich ein
-* [Ebenenstapel] In einigen Fällen können eine Ebene und ein Effekt gleichzeitig ausgewählt werden.
-* In Malwerkzeugen verwendete Substance-Grafiken werden nicht mit der richtigen Auflösung erstellt
-* [Baker] Schaltfläche &quot;Alle Textursätze backen&quot; ist nicht deaktiviert, wenn keine Bäcker ausgewählt sind
-* [MacOS] Deaktivieren der Warnmeldung zur Tesselierung
-* Das Projektionswerkzeug hat bei Verwendung mit einer Maske keine Vorschau
-* Abstürze und beschädigte Projekte beim Versuch, mit unzureichendem Speicherplatz zu speichern
-* [Shelf] Absturz beim Importieren einer Ressource auf dem Datenträger über das Shelf mit unzureichendem Speicherplatz
-* [Shelf] Absturz beim Wiederherstellen der Sitzungsvorgabe
-* [Shelf] Das Importieren einer Voreinstellung mit einem Namen, der mit einem Leerzeichen endet, führt zu einem Absturz
-* [Shelf] Das Importieren einer Ressource mit einem Präfix, das mit einem leeren Bereich endet, führt zu einem Absturz
+* [Ebenenstapel] Beim Gruppieren vieler Ebenen wird die Benutzeroberfläche länger als gewöhnlich eingefroren.
+* [Ebenenstapel] In einigen Fällen können eine Ebene und ein Effekt gleichzeitig ausgewählt werden
+* In Malwerkzeugen verwendete Substance-Graf werden nicht mit der richtigen Auflösung generiert
+* [Baker] Schaltfläche &quot;Alle Textursatz Baking geführt&quot; ist nicht deaktiviert, wenn keine Baker ausgewählt sind
+* [MacOS] Deaktivieren der Warnmeldung zur Tessellation
+* Bei Verwendung mit einer Projektion hat das Maskierungswerkzeug keine Vorschau.
+* Absturz und beschädigte Projekte beim Speichern mit zu wenig Speicherplatz
+* [Regal] Absturz beim Importieren einer Ressource auf dem Datenträger über ein Regal mit nicht genügend Speicherplatz
+* [Regal] Absturz beim Wiederherstellen der Sitzungsvorgabe
+* [Regal] Das Importieren einer Vorgabe mit einem Namen, der mit einem Leerzeichen endet, führt zu einem Absturz
+* [Regal] Das Importieren einer Ressource mit einem Präfix, das mit einem leeren Leerzeichen endet, führt zu einem Absturz
 
 **Bekannte Probleme:**
 
 * Alembic-Dateien mit Unterteilungen können nicht importiert werden
-* Seltene Abstürze beim Importieren einiger Alembic-Dateien
-* Benutzeroberfläche reagiert vorübergehend nicht, wenn mit DXR auf Pascal-GPUs gebacken wird
+* Seltene Absturz beim Importieren einiger Alembic-Dateien
+* Benutzeroberfläche reagiert beim Baking führ mit DXR auf Pascal-GPUs vorübergehend nicht

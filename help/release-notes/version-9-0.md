@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-9-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 9.0, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 9.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
-
 ---
-
 
 # Version 9.0
 
@@ -49,7 +41,7 @@ Das Werkzeug <b>Malen entlang Pfad</b> ist eine neue Möglichkeit zum Malen von 
 
   ![GIF, das einen geschlossenen Pfad zum Zeichnen von Nieten auf einer mechanischen Oberfläche zeigt](../assets/v90_path_closed_loop_demo.gif)
 * <b>Pfade (und ihre Eigenschaften) mit dem Pfadbedienfeld erneut bearbeiten</b>\
-  Wenn das Pfadwerkzeug ausgewählt ist, werden die Pfade, die innerhalb der aktuellen Malebene erstellt wurden, im speziellen Pfadbedienfeld oben im 3D-Viewport aufgelistet. In diesem Bereich können Sie Pfade in
+  Wenn das Pfadwerkzeug ausgewählt ist, werden die in der aktuellen Malebene erstellten Pfade im speziellen Pfadbedienfeld oben im 3D-Viewport aufgelistet. In diesem Bereich können Sie Pfade in
 
   ![Gif zeigt das Pfadfenster in Aktion an](../assets/v90_path_panel_demo.gif)
 
@@ -133,27 +125,27 @@ Zusammenfassung: <b>Hauptversion mit Malen entlang des Pfades, die 3D-Kurven, ne
 
 <b>Hinzugefügt:</b>
 
-* [Pfad] Neues Werkzeug &quot;entlang Pfad malen&quot; hinzufügen
-* [Pfad] Hinzufügen eines leeren Tastaturbefehls für das Pfadwerkzeug
+* [Pfad] Neues Malen entlang Pfad-Werkzeug hinzufügen
+* [Pfad] Fügen Sie einen leeren Tastaturbefehl für das Pfadwerkzeug hinzu.
 * [Pfad] Hinzufügen neuer Punkte zu einem vorhandenen Pfad zulassen
-* [Pfad] Verknüpfung zum Beenden der aktuellen Pfaderstellung hinzufügen
+* [Pfad] Tastaturbefehl hinzufügen, um die aktuelle Pfaderstellung zu beenden
 * [Pfad] Bearbeiten der Pinseleigenschaften für Pfade zulassen
-* [Pfad] Automatische Anpassung von Tangenten beim Platzieren eines Punkts
+* [Pfad] Automatische Anpassung der Tangenten beim Platzieren eines Punkts
 * [Pfad] Tangenten beim Verschieben eines Punkts neu berechnen
-* [Pfad] Ausrichten neu erstellter Punkte an der Oberfläche eines Gitters
+* [Pfad] Einrasten neu erstellter Punkte an der Oberfläche eines Meshs
 * [Pfad] Bearbeiten des Drucks pro Scheitelpunkt zulassen
 * [Pfad] Anpassen des Drucks des neu erstellten Punkts von benachbarten Punkten
-* [Pfad] Umwandeln von Punkten in Übergang/Ecke zulassen (Tangentenumbruch)
+* [Pfad] Umwandeln von Punkten in Übergangspunkte/Eckpunkte zulassen (Tangente umbrechen)
 * [Pfad] Sofort einen neu hinzugefügten Punkt verschieben
 * [Pfad] Punkte aus vorhandenem Pfad entfernen
 * [Pfad] Umkehren der Richtung eines Pfads zulassen
-* [Pfad] Auswahl eines Pfads im Darstellungsfenster zulassen
+* [Pfad] Wählen Sie einen Pfad im Viewport aus.
 * [Pfad] Auswählen von Pfadpunkten mit dem Auswahlrechteck zulassen
 * [Pfad] Einführung von STRG+A-Tastaturbefehlen zum Auswählen aller Punkte eines Pfads
 * [Pfad] Schließen des Pfads zulassen
-* [Pfad] Geben Sie unter &quot;Eigenschaften&quot; den Pfad um die Achse nach oben an.
+* [Pfad] Geben Sie die Achse &quot;Pfad nach oben&quot; in den Eigenschaften an.
 * [Path] Hinzufügen eines Scheitelpunkt-Steuerungsmenüs zur kontextabhängigen Symbolleiste
-* [Pfad] Hinzufügen von Mal-, Lösch- und Verwischen-Modi zum Pfadwerkzeug
+* [Pfad] Einführung in die Malen-/Lösch-/Verwischen-Modi im Pfadwerkzeug
 * [Pfad] Erstellen von visuellem Feedback für Pfade im Viewport
 * [Pfad] Hinzufügen eines visuellen Indikators für die Pfadrichtung
 * [Path] Hinzufügen der Thickness zu den Anzeigeeinstellungen des Pfads
@@ -165,26 +157,26 @@ Zusammenfassung: <b>Hauptversion mit Malen entlang des Pfades, die 3D-Kurven, ne
 * [Pfad] Meldung anzeigen, wenn versucht wird, im 2D-Viewport mit dem Pfad-Werkzeug zu interagieren
 * [Library] Integrieren neuer Inhalte (Pfad-Tools und -Basismaterial)
 * [Dynamische Pinselstriche] Eigenschaft &quot;Abstand&quot; für Dynamische Pinselstriche hinzufügen
-* [Dynamische Pinselstriche] Hinzufügen von Größen- und Abstandseigenschaften zu Dynamischen Pinselstrichen
+* [Dynamische Pinselstriche] Hinzufügen von Größen- und Abstand-Eigenschaften zu Dynamischen Pinselstrichen
 * [Dynamische Pinselstriche] Hinzufügen der Eigenschaft &quot;Anfang&quot;, &quot;Mitte&quot; und &quot;Ende&quot; für Dynamische Pinselstriche
-* [Python]&#x200B;[USD] Stellen Sie die Projektkonfigurationsparameter für das USD-Format bereit.
-* [Python]&#x200B;[USD] Stellen Sie die Projekterstellungsparameter für das USD-Format bereit.
-* [Exportieren]&#x200B;[USD] Fügen Sie Projektpfadinformationen in die exportierte USD-Datei ein
-* [GLTF] Texturen in der Bibliothek beim erneuten Laden einer GLTF-Datei aktualisieren
-* [Shader] Reduzieren von Nahtartefakten für UV-Inseln mit unterschiedlicher Ausrichtung
-* [Engine] Update auf Substance-Engine Version 9.0
+* [Python][USD] Gelegt Projektkonfigurationsparameter für das USD
+* [Python][USD] Gelegt Projekterstellungsparameter für das USD
+* [Exportieren][USD] Fügen Sie Projektpfadinformationen innerhalb der exportierten USD hinzu
+* [GLTF] Aktualisieren von Texturen in der Bibliothek beim erneuten Laden einer GLTF-Datei
+* [Shader] Reduzieren von Artefakten in der Naht für UV-Inseln mit unterschiedlicher Ausrichtung
+* [Engine] Update auf Substance Engine Version 9.0
 
 <b>Fest:</b>
 
-* [Importieren] Einige GLB mit Texturen erhalten in Painter keine Texturen
-* [AMD] Artefakte an Rändern für alle 3D-Projektionsflächen
+* [Importieren] Einige GLB mit Texturen erhalten keine Texturen in Painter
+* [AMD] Artefakte an Rändern für alle 3D-Projektion-Flächen
 * [Engine] Texturen brechen beim Umschalten der Ebenensichtbarkeit ab
 * [Engine] Texturen sind an einigen Stellen leer, wenn der Mischmodus geändert wird
 * [Engine] Textur/Projektion ist in einigen Fällen leerer Verkrümmungsmodus
-* [Iray] Iteration auf 0 zurückgesetzt, wenn Rendering gespeichert wird
-* [Protokoll] USD-Fehlermeldung beim Ausführen von Datei > Neu
+* [Iray] Iteration wird beim Speichern des Renderings auf 0 zurückgesetzt
+* [Log] USD Fehlermeldung beim Ausführen von Datei > Neu
 
 <b>Bekannte Probleme:</b>
 
-* [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
 * [Ebenenstapel] Eingabequelle nicht pro Ebene gespeichert

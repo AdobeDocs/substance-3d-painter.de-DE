@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/shader-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie in Substance 3D Painter die Shader-Einstellungen konfigurieren, um das Rendern von Materialien und das Erscheinungsbild anzupassen.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Shader settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Shader-Einstellungen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 5%
-
 ---
-
 
 # Shader-Einstellungen
 
@@ -31,7 +23,7 @@ Ein Shader ist eine Funktion, die definiert, wie ein Objekt aussehen soll, wenn 
 ![](../../assets/shader-undo.png)
 
 Dieser Abschnitt im Fenster &quot;Shader-Einstellungen&quot; steuert die Hauptparameter beim Bearbeiten von Shadern.\
-Der Stapel &quot;Rückgängig/Wiederholen&quot; für den Shader ist unabhängig vom Hauptverlauf [1&rbrace;, sodass beim Malen keine Konflikte entstehen.](https://substance3d.adobe.com/display/DRAFTPAINTER/History)
+Der Stapel &quot;Rückgängig/Wiederholen&quot; für den Shader ist unabhängig vom Hauptverlauf [1}, sodass beim Malen keine Konflikte entstehen.](https://substance3d.adobe.com/display/DRAFTPAINTER/History)
 
 Wenn die Shader-Datei als &quot;Veraltet&quot; markiert ist, wird empfohlen, sie nach Möglichkeit zu aktualisieren. Siehe :  [Shader wird aktualisiert](https://substance3d.adobe.com/display/DRAFTPAINTER/Updating+a+Shader)
 

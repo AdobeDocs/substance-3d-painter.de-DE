@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2-5.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2.5, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.5
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2.5
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
-
 ---
-
 
 # Version 2.5
 
-**Substance Painter 2.5** bietet viele neue Funktionen: von der Unterstützung der Deckkraft in den Pinseleinstellungen (zusätzlich zum Fluss) bis hin zur Möglichkeit, zusätzliche Karten in 8K und vieles mehr zu backen.
+**Substance Painter 2.5** bietet viele neue Funktionen: von der Unterstützung der Deckkraft in den Pinseleinstellungen (zusätzlich zum Fluss) bis hin zur Möglichkeit, zusätzliche Maps in 8K und vieles mehr Baking führen.
 
 Freigabedatum: *21. Februar 2017*
 
@@ -128,19 +120,19 @@ Die neuen Hauptfunktionen sind in unserem neuesten Twitch-Stream beschrieben:
 * [Baker] Die Zuordnung nach Namen funktioniert nicht mehr
 * [Baker] Die Einstellung &quot;Normale Mittelwerte&quot; funktioniert nicht mehr.
 * [Iray] Falsches Rendering mit fehlendem Baking geführt Normalen-Map
-* [Iray] Farbprofile verhalten sich anders als beim OpenGL-Renderer
-* [Iran] Exportieren von Rendering als Bitmap beinhaltet keine Farbprofilkorrektur
+* [Iray] Farbprofil verhalten sich anders als beim OpenGL-Renderer
+* [Iray] Exportieren von Rendering als Bitmap beinhaltet keine Farbprofil-Korrektur
 * [Substance] Materialfilter funktionieren nicht mehr
-* [Werkzeug] Die Konturdeckkraft wird nicht in den Pinselvorgaben gespeichert
-* [Tool] Kopierpinsel-UV-Ausrichtung funktioniert nicht mehr
-* [Versatz] Beim Exportieren als Ganzzahl sollte der Exportkanal in 0,5 zentriert sein.
+* [Tool] Die Konturdeckkraft wird nicht in Pinselvorgaben gespeichert
+* [Tool] Klon Brush UV Alignment funktioniert nicht mehr
+* [Versatz] Beim Exportieren in Ganzzahl sollte der Exportkanal auf 0,5 zentriert sein.
 * [Vorlage] Absoluter Pfad wird in Vorlagen gespeichert.
-* [TextureSet] Die Kanaltextur bleibt nach dem Entfernen des Kanals bestehen.
+* [TextureSet] Die Textur des Kanals bleibt nach dem Entfernen des Kanals bestehen.
 
 **Bekanntes Problem :**
 
 * [Linux] Wacom-Tablet-Eingabe funktioniert nicht in 3D und 2D-Ansicht
-* [Mac] Partikel können in einigen Fällen Texturbeschädigungen verursachen
+* [Mac] Partikeln können in einigen Fällen zu Beschädigungen der Textur führen
 * [Exportieren] In sehr seltenen Fällen können auf AMD-GPUs schwarze Rechtecke erscheinen
 
 ### 2.5.0
@@ -153,38 +145,38 @@ Die neuen Hauptfunktionen sind in unserem neuesten Twitch-Stream beschrieben:
 * [Werkzeug] Unterstützung für Konturdeckkraft hinzufügen
 * [Werkzeug] Fügen Sie einen Modifizierer hinzu, mit dem Sie den letzten Pinselstrich fortsetzen können
 * [Iray] Update zur Unterstützung von Pascal-GPUs
-* [Viewport] Hinzufügen von Unterstützung für Farbprofile (LUT)
+* [Viewport] Unterstützung für Farbprofil hinzufügen (LUT)
 * [Substance] Integration eines neuen Frameworks (SD6-Engine)
 * [UI] Liste der &quot;zuletzt verwendeten Dateien&quot; im Menü &quot;Datei&quot; vergrößern
 * [Importieren] Verwenden Sie die Kategorie aus Stoffen, um das Präfix im Dialogfeld &quot;Importieren&quot; auszufüllen.
-* [Bäcker] Backen von 8K-Texturen zulassen
-* [Bäcker] Nicht quadratische Auflösungen backen
-* [Bäcker] Verbessern Sie den Speicherverbrauch beim Backen von schweren High-Poly-Netzen
-* [Shelf] Sperren Sie Regale (und Projekte), um die gleichzeitige Bearbeitung zu verhindern und Beschädigungen zu vermeiden
-* [Shelf] Lesen Sie Kategorie und Schlüsselwörter von Stoffen, um sie für die Filterung zu verwenden
-* [Shelf] Ausschließen von Ressourcen aus dem Ergebnis einer Suchabfrage zulassen
-* [Shelf] Verbesserte Berechnung der Miniaturansichten
-* [Shelf] Einbetten von Vorgaben in Projekte zulassen
-* [Shelf] Schnelles Reduzieren/Erweitern der Strukturansicht mit UMSCHALT
-* [Shelf] Speichern von Miniaturansichten, wenn Assets schreibgeschützt sind (lokaler Cache)
-* [Shelf] Neuer Inhalt : neue Filter (Transformieren, Spiegeln, triplanar usw.)
-* [Shelf] Neuer Inhalt : neue LUTs-Profile (klassisch und künstlerisch, z. B. Film Noir, Vintage usw.)
-* [Shelf] Neuer Inhalt : 10 neue Font-Substance zur schnellen Generierung benutzerdefinierter Texte
-* [Shelf] Neue Vorlagen : Unity 5 und Unreal Engine 4
-* [Shelf] Verbesserter HSL-Filter, um künstlerfreundlicher zu sein
+* [Baker] Baking von 8K-Texturen zulassen
+* [Baker] Baking nicht quadratischer Auflösungen zulassen
+* [Baker] Verbessern Sie den Speicherverbrauch beim Baking führ von großen High-Poly-Meshs
+* [Regal] Sperren von Regalen (und Projekten), um die gleichzeitige Bearbeitung zu verhindern und Beschädigungen zu vermeiden
+* [Regal] Lesen Sie Kategorie und Schlüsselwörter von Stoffen, um sie für die Filterung zu verwenden
+* [Regal] Ausschließen von Ressourcen vom Ergebnis einer Suchabfrage zulassen
+* [Regal] Verbesserte Berechnung der Miniaturansichten
+* [Regal] Einbetten von Vorgaben in Projekte zulassen
+* [Regal] Schnelles Reduzieren/Erweitern der Strukturansicht mit UMSCHALT
+* [Regal] Speichern von Miniaturansichten zulassen, wenn Assets schreibgeschützt sind (lokaler Cache)
+* [Regal] Neuer Inhalt : neue Filter (transformieren, Mirror, Tri-planar usw.)
+* [Regal] Neuer Inhalt : neue LUTs-Profile (klassisch und künstlerisch, z. B. Film Noir, Vintage usw.)
+* [Regal] Neuer Inhalt : 10 neue Font-Substance zur schnellen Generierung benutzerdefinierter Texte
+* [Regal] Neue Vorlagen : Unity 5 und Unreal Engine 4
+* [Regal] Verbesserter HSL, um künstlerfreundlicher zu sein
 * [Shader] Unterstützung für Specular level-Kanal in PBR-Shadern hinzufügen
 * [Shader] Unterstützung für Dithering in Alpha Test Shader hinzufügen
 * [Shader] Unterstützung für Parallax Verdeckung Mapping in PBR Shadern hinzufügen
 * [Shader] Definieren einer benutzerdefinierten Benutzeroberfläche für Shader-Parameter zulassen
-* [MatteLayering] Erstellen eines neuen Maskenkanals für den Workflow der Materialschichtung
+* [MatteLayering] Neuen Maskenkanal für den Workflow der Material-Ebene erstellen
 * [Skripterstellung] Metadaten in einem SP-Projekt schreiben dürfen
 * [Scripting] Export mit einer bestimmten Exportvorgabe zulassen
 * [Scripting] Ermöglicht das Abrufen von Shader-Parametern als JSON.
 * [Scripting] Unterstützung für WebSocket-Verbindungen hinzufügen
-* [Scripting] Fügen Sie die Möglichkeit hinzu, Shader-Instanzen zu laden
+* [Scripting] Hinzufügen der Möglichkeit zum Laden von Shader-Instanzen
 * [Scripting] Fügen Sie die Möglichkeit hinzu, ein neues Projekt zu erstellen
-* [Scripting] Ermöglicht das Abrufen der URL des in ein Projekt importierten Gitters.
-* [Skripterstellung] Nicht quadratisches Backen zulassen
+* [Scripting] Ermöglicht das Abrufen der URL des in ein Projekt importierten Meshs.
+* [Skripterstellung] Nicht quadratisches Baking zulassen
 * [Scripting] Berichtsfehler beim Festlegen von Daten über die Scripting-API
 * [Substance] Benutzerdaten-Tag hinzufügen, um Normalen-Map-Format anzugeben
 
@@ -212,17 +204,17 @@ Die neuen Hauptfunktionen sind in unserem neuesten Twitch-Stream beschrieben:
 * [Exportieren] Shader-Parameter werden nicht ordnungsgemäß exportiert, wenn sie sich in einer Gruppe befinden
 * [Exportieren] Beim Bearbeiten einer Exportvorgabe in einem benutzerdefinierten Regal wird ein Protokollfehler ausgegeben
 * [Regal] Die Filterungen der Strukturansicht stimmen nicht genau mit dem Ordnernamen überein
-* [Shelf] Das Umbenennen einer Shelf-Vorgabe ist schwer zu lesen
-* [Shelf] Die im Shelf importierte Shader-Ressource bleibt nach dem Neustart nicht erhalten
-* [Shelf] Inhalt : Die Vorgabe für das Schweißwerkzeug fehlt
-* [Shelf] Inhalt : Tile Generator funktioniert nicht richtig
-* [Shelf] Inhalt : Falsche Maske auf Gummireifen korrigiert Schmutziges Smart-Material
-* [Shelf] Inhalt : Falscher Gruppenname auf Material der Ledertasche wurde behoben
-* [Iray] Die Hälfte der Maschen fehlt in Iray
+* [Regal] Das Umbenennen einer Regal-Vorgabe ist schwer zu lesen
+* [Regal] In das Regal importierte Shader-Ressource bleibt nach dem Neustart nicht erhalten
+* [Regal] Inhalt : Werkzeugvorgabe fehlt
+* [Regal] Inhalt : Tile Generator funktioniert nicht richtig
+* [Regal] Inhalt : Falsche Maske auf Gummireifen-Schmutziges intelligente Material behoben
+* [Regal] Inhalt : Falscher Gruppenname auf dem Material der Ledertasche wurde behoben
+* [Iray] Die Hälfte der Meshs fehlt in Iray
 * [Linux] Absturz beim Ziehen einer Ressource über die 3D-Ansicht
 * [Mac] Voreinstellungen werden bei jedem Start in Sierra zurückgesetzt
 
 **Bekanntes Problem :**
 
 * [Exportieren] In sehr seltenen Fällen können auf AMD-GPUs schwarze Rechtecke erscheinen
-* [Iray] Farbprofile können sich manchmal ungerade verhalten.
+* [Iray] Farbprofile können sich manchmal seltsam verhalten

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie mehr über die Kompatibilität von Photoshop-Pinselparametern in Substance 3D Painter beim Importieren von ABR-Pinselvorgaben.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Kompatibilität mit Photoshop-Pinselparametern
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
-
 ---
-
 
 # Kompatibilität mit Photoshop-Pinselparametern
 
@@ -40,7 +32,7 @@ Wenn Sie in die ABR-Datei schauen, ruft Substance 3D Painter nur bestimmte Pinse
 
 ## Parameter
 
-Weitere Informationen zu den Möglichkeiten dieser Parameter finden Sie in der offiziellen [Photoshop-Dokumentation](https://helpx.adobe.com/de/photoshop/using/creating-modifying-brushes.html) .
+Weitere Informationen zu den Möglichkeiten dieser Parameter finden Sie in der offiziellen [Photoshop-Dokumentation](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) .
 
 Nicht alle Photoshop-Pinselparameter werden unterstützt. In der Legende finden Sie Informationen zum Status der einzelnen Parameter, die im Folgenden beschrieben werden:
 
@@ -63,9 +55,9 @@ Nicht alle Photoshop-Pinselparameter werden unterstützt. In der Legende finden 
 |  |  |  |  |
 | Formeigenschaften | **Größe Jitter** | ■ | Übereinstimmend mit dem Jitter &quot;Malen-Werkzeuggröße&quot;. |
 | **Steuerelement (für Größe)** | ■ | Abgestimmt auf die Druckeinstellung des Malen-Werkzeugs für den Größenparameter . |  |
-| **Mindestdurchmesser** | ■ | Mit dem Parameter &quot;Mindestgröße&quot; des Malwerkzeugs abgestimmt. |  |
+| **Mindestdurchmesser** | ■ | Übereinstimmend mit dem Parameter Mindestgröße des Malen-Werkzeugs. |  |
 | **Neigungsskala** | ✖ |  |  |
-| **Winkel-Jitter** | ■ | Mit dem Parameter &quot;Winkel-Jitter&quot; des Malwerkzeugs abgestimmt. |  |
+| **Winkel-Jitter** | ■ | Passend für den Jitter des Malen-Werkzeugs &quot;Winkel&quot;. |  |
 | **Steuerung (für Winkel)** | ✖ |  |  |
 | **Rundheits-Jitter** | ■ | Handling via &quot;Brush Maker Photoshop&quot; Substance-Datei. |  |
 | **Mindestrundheit** | ■ | Handling via &quot;Brush Maker Photoshop&quot; Substance-Datei. |  |
@@ -74,9 +66,9 @@ Nicht alle Photoshop-Pinselparameter werden unterstützt. In der Legende finden 
 | **Pinsel-Projektion** | ✖ |  |  |
 |  |  |  |  |
 | Streuung | **Streuung** | ■ | Übereinstimmend mit dem Positions-Jitter des Malen-Werkzeugs. |
-| **Beide Achsen** | ■ | Mit dem Parameter &quot;Jitter-Achse&quot; für die Position des Malwerkzeugs abgeglichen. |  |
+| **Beide Achsen** | ■ | Übereinstimmend mit dem Parameter für die Achse des Malen-Positions-Jitters. |  |
 | **Steuerelement (für Streuung)** | ✖ |  |  |
-| **Anzahl** | ■ | Kompensiert über den Parameter Abstand des Malwerkzeugs. |  |
+| **Anzahl** | ■ | Kompensiert über den Abstand-Parameter des Malen-Tools. |  |
 | **Jitter zählen** | ✖ |  |  |
 | **Steuerelement (für Count Jitter)** | ✖ |  |  |
 |  |  |  |  |

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2019.3 , um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2019.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 0%
-
 ---
-
 
 # Version 2019.3
 
@@ -34,7 +26,7 @@ Sie können Ihre Photoshop-Pinsel jetzt in der Substance Painter verwenden. Inde
 
 Wenn Sie keine ABR-Dateien zum Importieren haben, können Sie viele davon online finden:
 
-* [Kyles Pinselvorgaben auf dem Adobe](https://www.adobe.com/de/products/photoshop/brushes.html)
+* [Kyles Pinselvorgaben auf dem Adobe](https://www.adobe.com/products/photoshop/brushes.html)
 * [Pinselvorgaben auf ArtStation](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [Pinselvorgaben zu DeviantArt](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Pinselvorgaben für Cubebrush](https://cubebrush.co/marketplace?categories=354,57)
@@ -92,9 +84,9 @@ Neben der Unterstützung von Photoshop-Pinselvorgaben wurden zahlreiche Verbesse
 * **Stift-Druckkurven**\
   In der kontextabhängigen Symbolleiste kann nun definiert werden, wie der Stift interpretiert werden soll. Diese neuen Einstellungen steuern, wie schnell der Druckaufbau erfolgt, der verschiedene Malstile ermöglicht.
 
-  * **Linear**: Keine Transformation, der Druck, der vom Grafiktablett-Stift aufgebracht wurde. Verwenden Sie diese Einstellung, wenn in den Einstellungen für Tablet-Treiber bereits eine Druckkurve für den Stift definiert ist.
+  * **Linear**: Keine Transformation, der Druck, der vom Stift des Grafiktabletts erzeugt wurde. Verwenden Sie diese Einstellung, wenn in den Einstellungen für Tablet-Treiber bereits eine Druckkurve für den Stift definiert ist.
   * **Langsam einschwenken** (Standard): Verlangsamen Sie den Druckbeginn, sodass Sie leichter dünne oder schwache Pinselstriche Malen werden können.
-  * **Langsam einschwenken**: Verlangsamen Sie den Anfang des Drucks, und beschleunigen Sie das Ende, sodass Sie leichter weiche oder starke Pinselstriche zeichnen können.
+  * **Langsam einschwenken**: Verlangsamen Sie den Druckbeginn, und beschleunigen Sie das Ende, sodass Sie leichter weiche oder kräftige Malen zeichnen können.
 
   ![](../../assets/pressure-curve.png)
 * **Die Druckschaltfläche ist kein Dropdown mehr**\
@@ -108,18 +100,18 @@ Neben der Unterstützung von Photoshop-Pinselvorgaben wurden zahlreiche Verbesse
   >
   > Stellen Sie sicher, dass Ihre Wacom-Treiber auf dem neuesten Stand sind und dass &quot;Windows Ink&quot; in den Tableteinstellungen aktiviert ist.
 
-### Automatisches UV-Auspacken (Beta)
+### Automatisch Entpackend UV (Beta)
 
 ![](../../assets/banner-uv-unwrap.jpg)
 
-Substance Painter entpackt jetzt automatisch Mesh mit fehlenden UV-Koordinaten. Dies ermöglicht, jede Art von Geometrie zu importieren und sofort zu malen beginnen. Unser Entpackend UV-System generiert eine UV-Insel pro Sub-Mesh, während es gleichzeitig die Material-Zuweisung zum Erstellen von Textursätzen befolgt. Diese Funktion befindet sich derzeit in der Beta-Version und wird in zukünftigen Versionen weiterentwickelt. Der automatische Entpack wird nur auf Projekte angewendet, die **den UDIM-Workflow nicht verwenden**.
+Substance Painter entpackt jetzt automatisch Mesh mit fehlenden UV-Koordinaten. Dies ermöglicht das Importieren beliebiger Geometrien und den sofortigen Start zum Malen. Unser Entpackend UV-System generiert eine UV-Insel pro Sub-Mesh, während es gleichzeitig die Material-Zuweisung zum Erstellen von Textursätzen befolgt. Diese Funktion befindet sich derzeit in der Beta-Version und wird in zukünftigen Versionen weiterentwickelt. Der automatische Entpack wird nur auf Projekte angewendet, die **den UDIM-Workflow nicht verwenden**.
 
 * **Automatisch Entpackend UV**\
-  Standardmäßig generiert der Substance Painter jetzt automatisch UV-Koordinaten für Gitter, bei denen sie fehlen. Dies gilt sowohl für die Projekterstellung als auch für den erneuten Netzimport. Es ist jedoch möglich, dieses Verhalten zu deaktivieren, indem Sie die [Haupteinstellungen](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/general-71008262.html) aufrufen und **Automatische UV-entpack aktivieren** unter **Importoptionen** deaktivieren.
+  Standardmäßig generiert Substance Painter jetzt automatisch UV-Koordinaten für Mesh, die diese nicht haben. Dies gilt sowohl für die Projekterstellung als auch für den erneuten Import von Meshs. Es ist jedoch möglich, dieses Verhalten zu deaktivieren, indem Sie die [Haupteinstellungen](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) aufrufen und **Automatische UV-entpack aktivieren** unter **Importoptionen** deaktivieren.
 
   ![](../../assets/uv-unwrap-setting.png)
 * **Fortschrittsleiste wird Entpackt**.\
-  Beim Importieren eines Gitters wird jetzt ein Fortschrittsbalken angezeigt, der den aktuellen Status des Prozesses angibt. Dazu gehört auch der UV-Entpackungsprozess.
+  Beim Importieren eines Meshs wird jetzt ein Fortschrittsbalken angezeigt, der den aktuellen Status des Prozesses angibt. Dazu gehört auch der Entpack der UV.
 
   ![](../../assets/uv-unwrapping-progress.png)
 * **Derzeit bekannte Probleme**\
@@ -142,7 +134,7 @@ Wir verbessern weiterhin die Integration des Substance-Formats, indem wir einige
 * **Unterstützung des in den Parametern definierten Schritts**\
   Substance-Graf mit Parametern mit einem definierten Schritt werden jetzt bei der Anpassung des Schiebereglers berücksichtigt.
 * **Erhöhte Zifferngenauigkeit für Gleitkommaregler**\
-  Gleitender Schieberegler kann jetzt Eingabewerte haben, die auf 6 Dezimalstellen nach unten gehen. Dies ist jedoch durch Gleitkomma-Präzision begrenzt, was bedeutet, dass die eingegebenen Werte in einigen Fällen gerundet werden können.
+  Der Fließkommazahl-Schieberegler kann jetzt Eingabewerte mit bis zu 6 Dezimalstellen haben. Dies ist jedoch durch Gleitkomma-Präzision begrenzt, was bedeutet, dass die eingegebenen Werte in einigen Fällen gerundet werden können.
 * **Neues Steuerelement für zufälliges Seed mit Dynamischen Pinselstrichen**\
   Es ist nun möglich, mehrere Zufallswerte mit einem definierten Bereich anzufordern. Dies ermöglicht es, einzigartige und zufällige Substance-Varianten zu erstellen und gleichzeitig eine gute Leistung zu erzielen, indem Sie von der Cache-Wiederverwendung profitieren.\
   Wechseln Sie unter der Gruppe &quot;Dynamische Kontur&quot; den Parameter &quot;**Zufallsverteilungstyp&quot;**&quot; in &quot;**Zufällig pro Kontur&quot;**&quot; oder &quot;**Zufällig pro Stempel&quot;**&quot;, um auf den neuen Parameter zuzugreifen. Der **zufällige Beispielbetrag** legt fest, wie viele Substance-Varianten insgesamt generiert werden. Innerhalb des Satzes werden bereits zufällige Variationen ausgewählt, sobald der ausgewählte Betrag generiert wurde.
@@ -167,7 +159,7 @@ In der übrigen Anwendung wurden verschiedene Verbesserungen vorgenommen, die f�
   * **Maus außerhalb der Viewport**: Durch Drücken von F können Sie die 2D- und 3D-Ansicht fokussieren.
 
   ![](../../assets/viewport-focus.gif){width="400px"}
-* **Tastatur- und Menübefehl für Backup-Fenster**\
+* **Baking von Fenstertastatur und Menü-Tastaturbefehl**\
   Es gibt zwei Möglichkeiten, das Fenster &quot;Baking&quot; zu öffnen:
 
   * Durch Drücken von **Strg+Umschalt+B**.
@@ -195,7 +187,7 @@ In dieser Version wurden viele neue Inhalte hinzugefügt:
   Drei neue Filter wurden hinzugefügt, um stilisierte Inhalte zu vereinfachen:
 
   * **MatFx Comic-Buch**\
-    Dieser Filter simuliert Schraffuren und Kantenlinien basierend auf dem bereitgestellten Input (von der Grundfarbe/Diffus bis zur Krümmung).
+    Dieses Filter simuliert Schraffuren und Kantenlinien auf der Grundlage des bereitgestellten Eingangs (von der Grundfarbe/diffus zur Krümmung).
 
     ![](../../assets/icon-matfx-comic-book.png)
   * **MatFx Watercolor**\
@@ -203,7 +195,7 @@ In dieser Version wurden viele neue Inhalte hinzugefügt:
 
     ![](../../assets/icon-matfx-watercolor.png)
   * **MatFx-Öl-Malen**\
-    Inspiriert von der Arbeit [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu), liest dieser Filter die Farbinformationen aus der Eingabe und Kamera bewegt sie in Pinselstriche, die auf verschiedenen Parametern basieren. Mehrere Vorgaben sind verfügbar, um Varianten einfach auszuprobieren. Wir empfehlen, sie mit dem **Umgebung mit vorberechnete Beleuchtung**-Filter zu kombinieren oder Schatten in Ihren Texturen manuell zu backen/zu malen, um ihre Wirkung zu maximieren.
+    Inspiriert von der Arbeit [Emrecan Cubukcu](https://www.artstation.com/emrecancubukcu), liest dieser Filter die Farbinformationen aus der Eingabe und Kamera bewegt sie in Pinselstriche, die auf verschiedenen Parametern basieren. Mehrere Vorgaben sind verfügbar, um Varianten einfach auszuprobieren. Es wird empfohlen, sie mit dem **Umgebung mit vorberechnete Beleuchtung**-Filter zu kombinieren oder in Ihren Texturen manuell Baking-/Malen-Schatten zu verwenden, um die Wirkung zu maximieren.
 
     ![](../../assets/icon-matfx-oil-paint.png)
 
@@ -215,7 +207,7 @@ In dieser Version wurden viele neue Inhalte hinzugefügt:
 * **Neue Pinselvorgaben**
 
   * **102 Photoshop-Pinselvorgaben**\
-    Mit der Einführung der Fotoshop-Pinselunterstützung wurde ein neuer Satz von Vorgaben hinzugefügt, um ihn zu präsentieren. Diese Vorgaben wurden aus den Paketen von Kyle T. Webster ausgewählt, die auf der [Adobe-Website verfügbar sind](https://www.adobe.com/de/products/photoshop/brushes.html).
+    Mit der Einführung der Fotoshop-Pinselunterstützung wurde ein neuer Satz von Vorgaben hinzugefügt, um ihn zu präsentieren. Diese Vorgaben wurden aus den Paketen von Kyle T. Webster ausgewählt, die auf der [Adobe-Website verfügbar sind](https://www.adobe.com/products/photoshop/brushes.html).
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18 neue Pinselvorgaben**\
@@ -261,8 +253,8 @@ In dieser Version wurden viele neue Inhalte hinzugefügt:
     ![](../../assets/icon-brush-maker-paint-roller.png)
 
     ![](../../assets/paint-roller-text-warning2-optim.gif){width="290px"}
-* **Neuer Generator für &quot;UV-Prüfer&quot;**\
-  Ein neuer Generator namens &quot;UV checker&quot; wurde integriert, um die Koordinaten des Meshs UV zu analysieren. Dadurch werden die UVs, die durch unsere automatische UV-Entpackung erzeugt werden, leichter verständlich.
+* **Neuer Generator für &quot;UV Checker&quot;**\
+  Ein neuer Generator namens &quot;UV checker&quot; wurde integriert, um die Koordinaten des Meshs UV zu analysieren. Dadurch werden die UVs, die durch unseren Automatic UV Entpack erzeugt werden, leichter verständlich.
 
   ![](../../assets/icon-uv-checker.png)
 * **Neue Vorlage und Exportvorgaben**
@@ -283,13 +275,13 @@ In dieser Version wurden viele neue Inhalte hinzugefügt:
 ### 2019.3.3
 
 *(veröffentlicht am 06. Februar 2020)*\
-Zusammenfassung: **Bugfix mit Upgrade auf Irak 2019.3**
+Zusammenfassung: **Bugfix mit Upgrade auf Iray 2019.3**
 
 **Hinzugefügt:**
 
-* Upgrade auf Irak 2019.3
+* Upgrade auf Iray 2019.3
 * [Log] Veraltetes BIOS für Ryzen-CPU anzeigen, was während des Bakings zu Abstürzen führt
-* [ABR] Extrahieren von ABR-Alphas in das Regal
+* [ABR] Extrahieren von ABR-Alphas nach Regal
 
 **Fest:**
 
@@ -299,15 +291,15 @@ Zusammenfassung: **Bugfix mit Upgrade auf Irak 2019.3**
 * [Tablet] Fehlerhafte Erkennung beim Verschieben von Schiebereglern
 * [Tastaturbefehle] Mit Strg+Alt+Mausklick kann kein Tastaturbefehl eingerichtet werden
 * [Regal] Die Ressourcen-QuickInfo wird bei Verwendung eines Stift-Tablets nicht angezeigt
-* [2D-Ansicht]&#x200B;[Exportieren] Die Voreinstellung &quot;2D-Ansicht&quot; berücksichtigt nicht die normalen Informationen
+* [2D-Ansicht][Exportieren] Die voreingestellte 2D-Ansicht berücksichtigt nicht die normalen Informationen
 * Einfrieren beim Malen in UV-Ausrichtung mit bestimmten Pinseln
 * Malen unter einem Filter erzeugt Artefakt auf dem laufenden Strich
-* [Viewport] Falscher Textur-Cache im Viewport nach dem erneuten Importieren eines Gitters
+* [Viewport] Falscher Texturen-Cache im Viewport nach dem erneuten Importieren eines Meshs
 * [Absturz] Fehler beim Speichern nach dem Export in Photoshop
-* [Absturz] Schreiben spezieller Symbole im Präfix beim Importieren von Ressourcen
-* [Absturz] Klicken Sie auf die Referenz in den Ankerpunkt-Eigenschaften
+* [Absturz] Schreiben von Sonderzeichen im Präfix beim Importieren von Ressourcen
+* [Absturz] Klicken Sie in den Ankerpunkt-Eigenschaften auf die Referenz.
 * [Ankerpunkte] Kanal wird nicht aktualisiert, wenn ein Filter zwischen Ankerpunkt und Referenz vorhanden ist
-* Der Link &quot;Iray-URL&quot; im Hilfemenü funktioniert nicht
+* Iray-URL-Link im Hilfemenü funktioniert nicht
 
 **Bekannte Probleme:**
 
@@ -347,27 +339,27 @@ Zusammenfassung: **Hotfix**
 
 **Fest:**
 
-* Absturz beim Arbeiten an Netzen mit bestimmten UV-Projektionen
+* Absturz bei der Arbeit an Meshs mit bestimmten UV-Projektionen
 * [ABR] Absturz beim Wechseln zwischen Photoshop-Vorgaben
 * [Linux] Substance Painter kann unter CentOS 7.4 aufgrund eines libGLX-Abhängigkeitsproblems nicht gestartet werden
-* [Bäcker] Absturz beim Backen nach Verwendung von Datei > Bereinigen
-* [Bäcker] Dialogfeld &quot;Backfortschritt&quot; friert nach Abbruch ein
-* [Bäcker] Backen von Gittern nach dem Exportieren von Texturen funktioniert nicht
-* [Bäcker] Verwenden von &quot;Match By Name&quot; mit schwarzen Mesh Maps
-* [Bäcker] Käfig wird nicht berücksichtigt
-* [Shelf] Das Importieren von PSD-Dateien führt zu beschädigten Bildern
-* [Beispiel] Beispielprojekt &quot;Matte&quot; mit beschädigten Kameras und falscher Exportvorgabe
+* [Baker] Absturz beim Baking nach Verwendung von &quot;Datei&quot; > &quot;Bereinigen&quot;
+* [Baker] Dialogfeld &quot;Baking führend Fortschritt&quot; friert nach Abbruch ein
+* [Baker] Das Baking von Mesh nach dem Exportieren von Texturen funktioniert nicht
+* [Baker] Verwenden von &quot;Match By Name&quot;-Ergebnissen mit schwarzen Mesh-Map
+* [Baker] Käfig wird nicht berücksichtigt.
+* [Regal] Das Importieren von PSD-Dateien führt zu fehlerhaften Bildern
+* [Beispiel] Das Beispielprojekt &quot;Matte&quot; enthält fehlerhafte Kameras und eine falsche Exportvorgabe.
 
 **Bekannte Probleme:**
 
-* [Bäcker] Absturz im Zusammenhang mit Multithreading auf Ryzen-CPUs
-* [UV-Entpacken] Die Verarbeitung von hochpolaren Netzen kann lange dauern
-* [UV-Entpackung] Eckpunkte mit genau denselben Koordinaten werden zusammengeführt
-* [UV-Entpackung] Die UV-Generierung kann in seltenen Fällen an einigen Netzteilen fehlschlagen
-* [UV-Entpackung] Uneinheitliches oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
-* [UV-Entpackung] Nicht einheitliches Textilverhältnis zwischen Textursätzen
-* [UV-Entpackung] erzeugte UV-Insel kann sehr lang sein und passt in einigen Fällen nicht in den UV-Raum.
-* [UV-Entpackung] Degenerierte Flächen oder nicht dreieckige Netzflächen mit kleinen oder überlappenden Kanten werden möglicherweise nicht UV-entpackt
+* [Baker] Absturz im Zusammenhang mit Multithreading auf Ryzen-CPUs
+* [Entpackend UV] Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
+* [Entpackend UV] Scheitelpunkt mit genau denselben Koordinaten werden zusammengeführt
+* [UV Entpackend] In seltenen Fällen kann die UV-Generierung auf einigen Mesh-Teilen fehlschlagen.
+* [UV Entpackend] Ungleichmäßiges oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
+* [UV Entpackend] Ungleichmäßiges Textilverhältnis zwischen Textursätzen
+* [UV Entpackend] UV-Insel kann sehr lang sein und passt in manchen Fällen nicht in den UV-Raum
+* [UV Entpackend] Flächen mit degenerierten Flächen oder nicht dreieckigem Mesh mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
 
 ### 2019.3.0
 
@@ -376,48 +368,48 @@ Zusammenfassung: **Hauptversion mit Verbesserung der Benutzererfahrung beim Hand
 
 **Hinzugefügt:**
 
-* Integrieren der automatischen UV-Entpackung 0.3.0 in Substance Painter
-* [UV-Entpacken] Automatisches UV-Entpacken im Substance Painter, wenn keine UVs oder partielle UVs vorhanden sind
-* [UV-Entpackung] Eine globale Einstellung zum Aktivieren und Deaktivieren
-* [UV-Entpackung] In Protokolldatei gemeldete Version
-* [UV-Entpacken]&#x200B;[UI] Zeigt den Fortschritt des UV-Entpackens an
+* Integration von Automatic UV entpack 0.3.0 in Substance Painter
+* [UV entpackend] Automatische UV entpackend im Substance Painter, wenn keine UVs oder partielle UVs vorhanden sind
+* [entpackend UV] Eine globale Einstellung zum Aktivieren und Deaktivieren
+* [entpackend UV] In Protokolldatei gemeldete Version
+* [entpackend UV][UI] Anzeige des Fortschritts beim Entpackend UV
 * [UI] Neue Einstellungen in der kontextabhängigen Symbolleiste zur Auswahl der Pinselvorschau: Vollständige Vorschau, Pinselkontur und Fadenkreuz
-* [Tool] Neuer erweiterter Mischmodus im Alpha-Abschnitt: Aufhellen (maximal) zusätzlich zur normalen
+* [Tool] Neuer erweiterter Mischmodus im Alpha-Abschnitt: Aufhellen (Maximal) zusätzlich zu Normal
 * [Ebenenstapel] Gammakorrektur-Option pro Ebene für Alpha oder Maske (Kontextmenü)
-* [Ebenenstapel]&#x200B;[UI] Fügen Sie das Symbol &quot;i&quot; hinzu, wenn ein Alpha-Layer gamma-korrigiert wird
-* [Tablet]&#x200B;[Tool] Mindestdruck für Größe und Fluss freilegen
-* [Tablet]&#x200B;[UI] Neue Einstellung in der kontextabhängigen Symbolleiste zur Auswahl des Kurvendrucks: linear, easy-in, easy-in-out
-* [Tablet]&#x200B;[UX] Strg+Alt+Klick zum Scrollen hinzufügen
-* Importieren von Photoshop-Pinselvorgaben (ABR-Format)
+* [Ebenenstapel][UI] Fügen Sie das Symbol &quot;i&quot; hinzu, wenn ein Alpha-Layer gamma-korrigiert ist
+* [Tablet][Tool] Gelegt Mindestdruck für Größe und Fluss
+* [Tablet][UI] Neue Einstellung in der kontextabhängigen Symbolleiste zur Auswahl des Kurvendrucks: linear, easy-in, easy-in-out
+* [Tablet][UX] Strg+Alt+Klick zum Scrollen hinzufügen
+* Photoshop-Pinselvorgaben importieren (ABR-Format)
 * [ABR] Support Shape-Parameter
 * [ABR] Unterstützung von Parametern für die Formdynamik
 * [ABR] Support Transfer-Parameter
 * [ABR] Unterstützung von Streuungsparametern
-* [ABR]&#x200B;[Dynamische Pinselstriche] Unterstützung von Rundheit und Spiegelung
-* [ABR]&#x200B;[Shelf] Stellen Sie die Pinselordnerstruktur im Filter-Editor bereit.
-* [ABR]&#x200B;[Regal] Photoshop-Symbol zu Miniaturansichten hinzufügen
-* [ABR]&#x200B;[Regal] Fügen Sie eine Liste nicht unterstützter Parameter zur detaillierten Miniaturansicht von ABR hinzu.
-* [Tool]&#x200B;[Dynamische Pinselstriche] Neue dynamische Stricheinstellung zur Steuerung der Anzahl der zu generierenden Zufallszahlen
-* [Tool]&#x200B;[UI] Neue Verteilungs- und Achseneinstellungen für &quot;Jitter bei Streuung&quot; hinzufügen
-* [Tastaturbefehl] Fügen Sie Strg+Umschalt+B hinzu, um das Backfenster zu öffnen
-* [UI]&#x200B;[Menu] Eintrag im Menü &quot;Bearbeiten&quot; hinzufügen, um das Backfenster zu öffnen
-* [UI]&#x200B;[Einstellungen] Verbesserte Ausrichtung der Liste der Tastaturbefehle
+* [ABR][Dynamische Pinselstriche] Unterstützung von Rundheit und Spiegelung
+* [ABR][Regal] Legte die Pinselordnerstruktur im Filtereditor
+* [ABR][Regal] Photoshop-Symbol in Miniaturansichten hinzufügen
+* [ABR][Regal] Liste nicht unterstützter Parameter in der detaillierten Miniaturansicht von ABR hinzufügen
+* [Tool][Dynamische Pinselstriche] Neue dynamische Stricheinstellung zur Steuerung der Anzahl der zu generierenden Zufallszahlen
+* [Tool][UI] Fügen Sie neue Verteilungs- und Achse-Einstellungen für Streuungs-Jitter hinzu.
+* [Tastaturbefehl] Fügen Sie Strg+Umschalt+B hinzu, um das Baking führend Fenster zu öffnen.
+* [UI][Menu] Eintrag im Menü &quot;Bearbeiten&quot; hinzufügen, um das Fenster &quot;Baking&quot; zu öffnen
+* [UI][Einstellungen] Verbesserte Ausrichtung der Liste der Tastaturbefehle
 * [UI] Ersetzen von Drucksteuerelementen (Größe und Fluss) durch Schaltflächen zum Ein- und Ausschalten
-* [Viewport] Ermöglicht die separate Fokussierung von 2D- und 3D-Viewport.
+* [Viewport] 2D- und 3D-Viewport können separat fokussiert werden.
 * Update auf QT 5.12.5
-* [UI] Mesh-Ladefortschritt anzeigen
+* [UI] Anzeige des Ladefortschritts des Meshs
 * [Substance] Zusätzliche Unterstützung für den nicht geklemmten und weichen Bereich mit Schiebereglern
 * [Substance] Erhöhung der Präzision der Substance-Parameter auf bis zu 6 Dezimalstellen
 * [Substance] Berücksichtigen Sie den durch einen Parameter definierten Schritt.
 * [Substance] Optimieren der dynamischen Konturgenerierung mit Unterstützung von Bedingungen in Benutzerdaten
-* [Substance] Legen Sie die Diagrammausgabe als Maske für alle Kanäle über Benutzerdaten fest.
-* [Inhalt] Aktualisieren des Beispielprojekts &quot;Mat&quot; mit Kameratopologie, neuer ID-Versatz und neuen Kameras
-* [Inhalt] Integration von drei neuen Filtern (MatFx): Comic, Aquarell, Ölfarbe (inspiriert von der Arbeit von Emrecan Cubukcu)
-* [Inhalt] Integrieren Sie 102 Photoshop-Pinselvorgaben aus den Packs von Kyle T. Webster
-* [Inhalt] Integrieren Sie 18 neue Pinselvorgaben: Malrollenpfeil, Malrollenwarntext, Aktivkohle - Fein und vieles mehr
-* [Inhalt] Integrieren Sie 9 neue Alphas: Pinselmacher-Paintroller, Pinselmacher Photoshop, Pinselmuster und mehr
-* [Inhalt] Integrieren Sie zwei neue Werkzeugvorgaben: Gouache Dense und Gouache Faded
-* [Inhalt] 1 neuen Generator integrieren : UV-Prüfer (UV-Inseln und Nähte hervorheben)
+* [Substance] Graphausgabe als Maske für alle Kanäle über Benutzerdaten festlegen
+* [Inhalt] Aktualisieren des Mat-Beispielprojekts mit Versatz-freundlicher Topologie, neuer ID-Map und neuen Kameras
+* [Inhalt] Integration von drei neuen Filtern (MatFx): Comic-Buch, Aquarell, Öl-Malen (inspiriert von der Arbeit von Emrecan Cubukcu)
+* [Content] Integrieren Sie 102 Photoshop-Pinselvorgaben aus den Packs von Kyle T. Webster
+* [Inhalt] Integrieren Sie 18 neue Pinselvorgaben: Malen Roller Arrow, Malen Roller Warning text, Charcoal Fine und mehr
+* [Inhalt] Integrieren Sie 9 neue Alphas: Brush Maker Malen Roller, Brush Maker Photoshop, Pinselmuster und mehr
+* [Inhalt] Integrieren Sie 2 neue Werkzeugvorgaben: Gouache Dense und Gouache Faded
+* [Inhalt] 1 neuen Generator integrieren : UV-Checker (UV-Inseln und Nähte hervorheben)
 * [Inhalt] Integrieren Sie 2 neue Exportvoreinstellungen: Keyshot 9+ und Spark AR Studio
 * [Inhalt] 1 neue Projektvorlage integrieren : Spark AR Studio (Facebook)
 
@@ -427,14 +419,14 @@ Zusammenfassung: **Hauptversion mit Verbesserung der Benutzererfahrung beim Hand
 * [Tablet] Anfangs- und Enddruck werden beim Zeichnen einer Geraden nicht berücksichtigt
 * [Tablet] Der erste Stempel wird bei einer geraden Linie zweimal gezeichnet
 * [Tablet] Verbessern der Unterstützung für Huion-Tablet-Tastaturbefehle
-* [Tablet] Verbesserte Unterstützung für Huion-Stiftschaltflächen
+* [Tablet] Verbesserte Unterstützung für Huion Stift-Buttons
 * [Tablet] Abstand zwischen der Pinselvorschau und dem gezeichneten Stempel
-* [Tablet] Verknüpfungen zum Ändern von Pinseln mit dem Stift führen in seltenen Fällen zu geringer Leistung
+* [Tablet] Verknüpfungen zum Ändern von Pinseln mit Stift führen in seltenen Fällen zu geringer Leistung
 * [Tablet] Verzögerung beim Malen auf einer bestimmten Ebene
 * Unscharfe Texturen können in seltenen Fällen beim Wechseln des Viewport auftreten
-* [UI]&#x200B;[Substance] Bildeingaben werden nicht immer angezeigt
+* [UI][Substance] Bildeingaben werden nicht immer angezeigt
 * Beim Bereinigen werden keine Vorgaben aus dem Regal entfernt, die in ein Projekt importiert wurden
-* [Tool]&#x200B;[Dynamischer Strich] Leistungsproblem beim Anpassen der Stempelzyklusanzahl
+* [Tool][Dynamischer Strich] Leistungsproblem beim Anpassen der Stempelzyklusanzahl
 * Aktualisierungsprobleme beim Malen im 3D/2D-Viewport in seltenen Fällen
 * Wenn Sie einen sehr langen Pinselstrich zeichnen, kann dies zum Einfrieren führen
 * [Tool] Leistungsproblem beim Malen mit bestimmten Dynamischen Pinselstrichen

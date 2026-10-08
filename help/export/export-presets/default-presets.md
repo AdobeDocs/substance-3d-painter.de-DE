@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie mehr über Standardkonfigurationen in Substance 3D Painter, um Ausgabevorlagen und Formate für den Standardexport zu verstehen.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Default Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Standard-Ausgabevorlagen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
-
 ---
-
 
 # Standard-Ausgabevorlagen
 
@@ -24,7 +16,7 @@ Im Folgenden finden Sie eine Liste zusätzlicher Ausgabevorlagen, die standardm�
 
 >[!NOTE]
 >
-> Einige andere Software, die hier nicht aufgeführt ist, wird möglicherweise ebenfalls unterstützt (z. B. **Octane**). Weitere Informationen finden Sie im [Ökosystem und Plug-Ins](https://experienceleague.adobe.com/de/docs/substance-3d/ecosystem/home).
+> Einige andere Software, die hier nicht aufgeführt ist, wird möglicherweise ebenfalls unterstützt (z. B. **Octane**). Weitere Informationen finden Sie im [Ökosystem und Plug-Ins](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
 
 | *Vorgabe* | *Beschreibung* |
 | --- | --- |

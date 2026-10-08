@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack/blending-modes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lerne, wie du in Substance 3D Painter mithilfe von Mischmodi Ebenen kombinieren und verschiedene Textur-Fülleffekte erstellen kannst.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Blending modes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Füllmethoden
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 2%
-
 ---
-
 
 # Füllmethoden
 
@@ -94,4 +86,4 @@ Unten finden Sie eine Liste aller in Substance 3D Painter verfügbaren Mischmodi
 | Normalen-Map-Detail | Detailorientierter Mischvorgang (neu ausgerichtete Normalzuordnung), präziser als Normalen-Map kombinieren. Erhalte flache Normalen-Map und die Intensität der beiden Quellen. Um sicherzustellen, dass das Ergebnis die Normale der obersten Ebene neu ausgerichtet wird, sodass sie der Oberfläche der untersten Ebene folgt. Weitere Informationen finden Sie unter [Normalen-Map Painting](../../painting/advanced-channel-painting/normal-map-painting.md). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
 | Normalen-Map-Detail umgekehrt | Das gleiche Verhalten wie beim Normalen-Map-Detail-Mischen, jedoch wird die Ebene &quot;Unten&quot; an die Oberfläche der Ebene &quot;Oben&quot; transformieren. Weitere Informationen finden Sie unter [Normalen-Map Painting](../../painting/advanced-channel-painting/normal-map-painting.md). <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
 
-&#x200B;>>
+>>

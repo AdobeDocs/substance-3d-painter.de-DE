@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/post-processing.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie in Substance 3D Painter das Rendern von Viewport mithilfe von Nachbearbeitungseffekten durch Farbkorrekturen und Spezialeffekte optimieren können.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Nachbearbeitung
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 12%
-
 ---
-
 
 # Nachbearbeitung
 
@@ -28,7 +20,7 @@ Post-Effekte können in jedem Projekt über das Fenster [Anzeigeeinstellungen](.
 
 >[!NOTE]
 >
-> Diese Nachbearbeitungseffekte werden aus Gründen der Einfachheit nicht auf die 2D-Ansicht angewendet. Nur die 3D-Ansicht zeigt das Bildergebnis mit den Effekten an.
+> Diese Post-Effekte werden aus Gründen der Übersichtlichkeit nicht auf die 2D-Ansicht angewendet. Nur die 3D-Ansicht zeigt das Bildergebnis mit den Effekten an.
 
 Auf den folgenden Seiten werden die verschiedenen Nachbearbeitungseffekte beschrieben, die derzeit unterstützt werden:
 

@@ -1,8 +1,7 @@
 ---
 title: Version 12.1
 description: Versionshinweise zu Version 12.1
-helpx_description: Substance 3D Painter
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -10,103 +9,103 @@ ht-degree: 0%
 
 # Version 12.1
 
-<b>Substance 3D Painter 12.1</b> bietet einen verbesserten Backarbeitsablauf mit automatischem Falzen und Neigungskorrekturmalen, Unterstützung für die OpenPBR-Materialdefinition und einen neuen Hartoberflächenmodus für automatisches UV-Entpacken.
+<b>Substance 3D Painter 12.1</b> bietet einen verbesserten Arbeitsablauf für das Baking mit automatischem Nachmalen und Verzerrungskorrektur-Malen, Unterstützung für die Definition des OpenPBR-Materials und einen neuen Festoberflächenmodus für den automatischen UV-entpack.
 
 Freigabedatum: <b>22. Juni 2026</b>
 
 >[!NOTE]
 >
-> Diese Version erhöht die mindestens unterstützte macOS-Version auf 13.0 (Ventura). Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
+> Diese Version erhöht die mindestens unterstützte macOS-Version auf 13.0 (Ventura). Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
-### Verbesserter Backarbeitsablauf mit Skew-Painting
+### Verbesserter Arbeitsablauf beim Baking mit Neigungsmalen
 
 ![](../assets/v12/v12_banner_skew.jpg)
 
-Der Backarbeitsablauf wurde überarbeitet und unterstützt jetzt kontinuierliches Backen, On-Mesh-Skew-Korrekturmalen, Kantenschutz und eine neu gestaltete Mesh-Map-Liste.
+Der Baking-Arbeitsablauf wurde überarbeitet und unterstützt jetzt kontinuierliches Nachmalen, Malen auf Mesh-Verzerrungskorrekturen, Kantenschutz und eine neu gestaltete Mesh-Map-Liste.
 
 * <b>Automatisches Ausblenden</b>
 
-  Eine Gittermaske kann fortlaufend umgebrochen werden, wenn die Backparameter angepasst werden, sodass nach jeder Änderung kein manuelles Auslösen eines Backens erforderlich ist. Die automatische Wiederherstellung wird pro Karte aktiviert bzw. deaktiviert und gilt jeweils für eine einzelne Karte. Dies ist besonders praktisch für den Skew-Painting-Arbeitsablauf, aber auch beim Anpassen der allgemeinen Backeinstellungen.
+  Ein Mesh-Map kann fortlaufend umgebrochen werden, wenn die Parameter für das Baking angepasst werden, sodass nach jedem Wechsel kein Baking mehr manuell ausgelöst werden muss. Die automatische Wiederherstellung wird pro Karte aktiviert bzw. deaktiviert und gilt jeweils für eine einzelne Karte. Dies ist besonders praktisch für den Skew-Painting-Arbeitsablauf, aber auch beim Anpassen der allgemeinen Baking-Einstellungen.
 
   ![](../assets/v12/v12_auto_rebake.png)
 
-* <b>Malen mit Neigungskorrektur</b>
+* <b>Verzerrungskorrektur malen</b>
 
-  Wenn der Käfig auf den Modus <b>Entfernungsbasiert</b> eingestellt ist, können Neigungskorrekturen direkt auf das Gitter mit geringer Poly-Polung gemalt werden, um die Projektionsrichtung während des Backens zu steuern. Die Pinsel-, Radierer- und Polygonfüllwerkzeuge sind mit einer kompakten Graustufenwertauswahl, Symmetrie und den üblichen Pinselsteuerelementen (<b>Strg + Rechtsklick</b> zum Ändern der Pinselgröße, <b>X</b> zum Umkehren des gemalten Werts) verfügbar. Aktionen zum Zeichnen mit Verzerrungen können rückgängig gemacht werden.
+  Wenn der Käfig auf den <b>entfernungsbasierten Modus</b> festgelegt ist, können Verzerrungskorrekturen direkt auf den Mesh mit niedriger Poly gemalt werden, um die Richtung der Projektion zu steuern, die während des Bakings verwendet wird. Die Pinsel-, Radierer- und Polygonfüllwerkzeuge sind mit einer kompakten Graustufenwertauswahl, einer Symmetrie und den üblichen Pinselsteuerelementen (<b>Strg + Rechtsklick</b> zum Ändern der Pinselgröße, <b>X</b> zum Umkehren des gemalten Werts) verfügbar. Aktionen zum Zeichnen mit Verzerrungen können rückgängig gemacht werden.
 
   ![](../assets/v12/v12_skew_fix_rebake.gif)
 
 * <b>Kantenschutz</b>
 
-  Beim Malen der Neigungskorrektur behält eine neue Kantenschutzoption die hohe Weichheit bei, die auf harte Kanten projiziert wird. Das Ergebnis wird von den Parametern <b>Edge Distance</b> und <b>Edge Contrast</b> gesteuert.
+  Beim Malen von Verzerrungskorrekturen behält eine neue Kantenschutzoption die auf harte Kanten projizierte hohe Weichheit bei. Das Ergebnis wird von den Parametern <b>Edge Distance</b> und <b>Edge Contrast</b> gesteuert.
 
   ![](../assets/v12/v12_skew_edge_distance.gif)
 
-* <b>Neu gestaltete Netzzuordnungsliste </b>
+* <b>Neugestaltete Mesh-Map-Liste</b>
 
-  Die Gittermapliste bietet Steuerelemente für die einzelnen Maps: Umschalten einer Karte als Ansichtsport <b>Vorschau</b>, <b>Schnellbacken</b> einer einzelnen Karte, Umschalten der zugehörigen <b>automatischen Wiederherstellung</b> und <b>Synchronisieren</b> der Einstellungen in den Textursätzen (verfügbar, wenn das Projekt mehrere Textursätze enthält). Jedes Steuerelement verfügt beim Bewegen des Mauszeigers über eine QuickInfo.
+  Die Mesh-Map-Liste bietet Steuerelemente für die einzelnen Zuordnungen: &#39;Map&#39; als Viewport <b>Vorschau</b> umschalten, <b>Schnellzuordnung</b> als einzelne Map, <b>Baking für automatische Wiederherstellung</b> umschalten und <b>Einstellungen für alle Textursatz synchronisieren</b> (verfügbar, wenn das Projekt mehrere Textursatz hat). Jedes Steuerelement verfügt beim Bewegen des Mauszeigers über eine QuickInfo.
 
   ![](../assets/v12/v12_quick_bake.png)
 
-* <b>Vereinfachte Backschaltfläche</b>
+* <b>Schaltfläche &quot;Vereinfachtes Baking&quot;</b>
 
-  Die Viewport-Backschaltfläche wurde durch eine einzelne <b>Backen</b>-Schaltfläche ersetzt, die die Anzahl der zu backenden Maps anzeigt (Textursätze x UV-Kacheln x ausgewählte Mesh-Maps).
+  Die Schaltfläche &quot;Viewport-Baking&quot; wurde durch eine einzige <b>Baking</b>-Schaltfläche ersetzt, die die Anzahl der zu Baking führend Zuordnungen anzeigt (Textursatz x UV-Kacheln x ausgewählte Mesh-Map).
 
   ![](../assets/v12/v12_bake_button.png)
 
 >[!NOTE]
 >
-> Weitere Informationen zum Backen finden Sie auf der [Seite der dedizierten Dokumentation](../baking/baking.md).
+> Weitere Informationen zum Baking finden Sie auf der [dedizierten Dokumentationsseite ](../baking/baking.md).
 
 ### Unterstützung für OpenPBR
 
 ![](../assets/v12/v12_banner_openpbr.jpg)
 
-Das Modell der OpenPBR-Schattierung wird jetzt in Painter unterstützt und als Standard-Arbeitsablauf verwendet, der eine standardisierte Materialdefinition bereitstellt, die anwendungsübergreifend ausgeführt werden kann.
+Das OpenPBR-Schattierung-Modell wird jetzt in Painter unterstützt und als Standardarbeitsablauf verwendet, der eine standardisierte Material-Definition bereitstellt, die anwendungsübergreifend ausgeführt werden kann.
 
 * <b>Neuer OpenPBR-Shader und Standardarbeitsablauf</b>
 
-  Ein Shader, der die OpenPBR 1.1-Spezifikation implementiert, ist verfügbar und wird standardmäßig verwendet. Ein neues Projekt, das ohne Vorlage erstellt wurde, verwendet den OpenPBR-Shader, und der erste Eintrag des neuen Projektfensters ist jetzt mit <b>OpenPBR</b> anstelle von <b>ASM</b> gekennzeichnet. Neue Projektvorlagen für OpenPBR sind enthalten, und die Beispielprojekte wurden aktualisiert, um sie zu verwenden.
+  Ein Shader, der die OpenPBR 1.1-Spezifikation implementiert, ist verfügbar und wird standardmäßig verwendet. Ein neues Projekt, das ohne Vorlage erstellt wurde, verwendet den OpenPBR-Shader, und der erste Eintrag des neuen Projektfensters wird jetzt mit <b>OpenPBR</b> anstelle von <b>ASM</b> bezeichnet. Neue Projektvorlagen für OpenPBR sind enthalten, und die Beispielprojekte wurden aktualisiert, um sie zu verwenden.
 
   ![](../assets/v12/v12_openpbr_shader_icon.jpg)
 
-* <b>Beim Import aus der Projektvorlage ausgewählter Shader</b>
+* <b>Shader aus der Projektvorlage beim Importieren ausgewählt</b>
 
-  Beim Importieren einer USD- oder GLTF-Datei wird der Shader jetzt aus der Projektvorlage festgelegt und nicht aus dem Dateiinhalt erraten. Eine Meldung wird im Protokoll angezeigt, wenn ein Material und eine Vorlage Arbeitsabläufe verwenden, die nicht übereinstimmen.
+  Beim Importieren einer USD- oder GLTF-Datei wird der Shader jetzt aus der Projektvorlage festgelegt und nicht aus dem Dateiinhalt erraten. Eine Meldung wird im Protokoll gemeldet, wenn ein Material und eine Vorlage Workflows verwenden, die nicht übereinstimmen.
 
   ![](../assets/v12/v12_openpbr_template.png)
 
 * <b>OpenPBR-Benennungskonvention beim Export</b>
 
-  Das Fenster <b>Texturen exportieren</b> verfügt über ein neues Dropdown-Menü, in dem Sie die Benennungskonvention auswählen können. Standardmäßig wird OpenPBR verwendet, wenn mindestens ein Shader im Projekt es verwendet, und das ausgewählte Schema wird in der Liste der Maps jedes Textursatzes widergespiegelt.
+  Das Fenster &quot;<b>Texturen exportieren</b>&quot; verfügt über ein neues Dropdown-Menü, in dem Sie die Benennungskonvention auswählen können. Standardmäßig wird OpenPBR verwendet, wenn mindestens ein Shader im Projekt es verwendet, und das ausgewählte Schema wird in der Kartenliste jedes Textursatzes angezeigt.
 
   ![](../assets/v12/v12_openpbr_export.png)
 
-* <b>USD- und MDL-Support</b>
+* <b>USD und MDL-Support</b>
 
-  OpenPBR-Materialien werden über das USD-Format unterstützt. Außerdem wurde eine neue MDL hinzugefügt, um das Rendern von OpenPBR-Materialien in Irak zu ermöglichen und eine genauere Materialdarstellung zu ermöglichen.
+  OpenPBR-Material werden über das USD unterstützt. Außerdem wurde eine neue MDL hinzugefügt, um das Rendern von OpenPBR-Materialien in Iray zu ermöglichen und so präzisere Material-Darstellungen zu ermöglichen.
 
 >[!NOTE]
 >
 > Benutzerdefinierte Shader müssen möglicherweise aktualisiert werden. Der Shader-API wurde geändert, um OpenPBR zu unterstützen. Weitere Informationen finden Sie im Änderungsprotokoll im Hilfemenü der Anwendung.
 
-### Neues automatisches Ausgliedern der harten Oberfläche
+### Neuer automatischer entpack mit harter Oberfläche
 
 ![](../assets/v12/v12_banner_uvs.jpg)
 
-Ein neuer Modus für automatisches Ausgliedern, der auf Elemente mit harten Oberflächen zugeschnitten ist, wurde hinzugefügt.
+Ein neuer automatischer entpack-Modus, der auf Assets mit festen Oberflächen zugeschnitten ist, wurde hinzugefügt.
 
-* <b>Modus für das Freilegen von harten Oberflächen</b>
+* <b>Modus &quot;entpackt Oberfläche&quot;</b>
 
-  Eine Option <b>Harte Oberfläche</b> ist in den Einstellungen für das automatische Ausgliedern verfügbar. Es minimiert die UV-Verzerrung und erzeugt orthografisch ausgerichtete UV-Layouts, wodurch es besser für mechanische und harte Oberflächenmaschen geeignet ist.
+  Die Option <b>Hard surface</b> ist in den Einstellungen für den automatischen entpack verfügbar. Es minimiert die Verzerrung der UV und erzeugt orthografisch ausgerichtete UV-Layouts, wodurch es besser für mechanische und oberflächenharte Meshs geeignet ist.
 
   ![](../assets/v12/v12_unwrap_mode.jpg)
 
 >[!NOTE]
 >
-> Weitere Informationen zum automatischen Entpacken finden Sie auf der [Seite für die dedizierte Dokumentation](../features/automatic-uv-unwrapping.md).
+> Weitere Informationen zum automatischen entpack finden Sie auf der [Seite für die dedizierte Dokumentation](../features/automatic-uv-unwrapping.md).
 
 ### Sonstiges
 
@@ -257,7 +256,7 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserun
 * [OpenPBR] Exportieren von OpenPBR-Materials und -Texturen über USD
 * [OpenPBR] Fenster &quot;Export-Texturen aktualisieren&quot;, um die Namenskonvention für OpenPBR anzuzeigen
 * [OpenPBR] Hinzufügen von Dokumentationen zu Änderungen an der Support-OpenPBR
-* [OpenPBR]&#x200B;[Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen.
+* [OpenPBR][Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen.
 * Mehrere geringfügige Verbesserungen bei USD Exporten
 * [UI] Hinzufügen einer Warnung im Viewport beim Malen auf einem anderen Textursatz
 * [Reduzieren] Reduzieren aller instanzierten Ebenen über Textursatz hinweg zulassen
@@ -276,20 +275,20 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserun
 
 <b>Fest</b>:
 
-* [Absturz]&#x200B;[Mesh-Map-Einstellungen] Einstellungen auf andere Textursatz anwenden
-* [Absturz] Wenn die Krümmung von der Karte ohne den Weltraum normal gebacken wird
-* [Absturz]&#x200B;[Backen] Backen mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl stürzt ab
-* [Absturz] Abbrechen des AO-Backens
-* [Auto-Cage] Unendliche Belastung, wenn der hohe Poly-Dateipfad ungültig ist
-* [Linux]&#x200B;[Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
+* [Absturz][Mesh-Map-Einstellungen] Einstellungen auf andere Textursatz anwenden
+* [Absturz] Beim Baking führ von Krümmungen von einer Karte ohne Welt-Raum-Normale
+* [Absturz][Baking] Baking mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl-Absturz
+* [Absturz] AO-Baking wird abgebrochen
+* [Auto-Käfig] Unendliche Ladezeit, wenn der hohe Poly-Dateipfad ungültig ist
+* [Linux][Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
 * [Polygon-Füllwerkzeug] Das Werkzeug funktioniert nicht mit Nicht-PBR
-* &lbrack;[Malen] Löschen des Kanals für die Grundfarbe löscht keine zuvor gemalte Farbe
-* [USD] Shader-Instanzen werden nicht alle korrekt erkannt.
+* [[Malen] Beim Löschen des Farbkanals werden zuvor gemalte Grundfarben nicht gelöscht
+* [USD] Nicht alle Shader-Instanzen werden korrekt erkannt.
 * [Substance] Es wird nur die erste Verwendung eines Eingabe-/Ausgabeknotens berücksichtigt
-* [Shader] Umgebungsbelichtung wird zweimal mit Textur-Sets unter Verwendung verschiedener Mischmethoden angewendet.
-* [Engine] Normale Texturen mit leerem blauen Kanal (schwarz) können zu falschen Angleichungsergebnissen führen
-* [GLTF Import] Alpha-Überblendung ist für jeden Textursatz aktiviert
-* [GLTF-Export] Die Alpha-Füllmethode ist beim Export immer aktiviert
+* [Shader] Ambient occlusion wird zweimal mit Textursätzen unter Verwendung verschiedener Mischmethoden aufgetragen
+* [Engine] Normale Texturen mit leerem Blaukanal (Schwarz) können zu falschen Angleichungsergebnissen führen
+* [GLTF Import] Alpha-Überblendung ist auf jedem Textursatz aktiviert
+* [GLTF-Export] Alpha-Überblendung ist beim Export immer aktiviert
 * [Export] Doppelseitige Geometrie ist beim Importieren einer GLTF-Datei immer deaktiviert
 * [Javascript] Das Ändern von Shader-Einstellungen trägt nicht zum Rückgängigmachen des Verlaufs bei
-* [Samples] Die Volumenstreuung ist in den Anzeigeeinstellungen für die Meet Mat nicht aktiviert.
+* [Beispiele] Volumenstreuung ist in den Anzeigeeinstellungen für die Meetingmatte nicht aktiviert.

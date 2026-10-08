@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
-breadcrumb-title: ''
-description: Greifen Sie auf die Referenz "Lib Normal"-Shader-API für Substance 3D Painter zu, um mit Normalmaps und Flächennormalen in benutzerdefinierten Shadern zu arbeiten.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Normal - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Rufen Sie die Referenz "Lib Normal" für den Shader-API von Substance 3D Painter auf, um mit Normalen-Map und Flächennormalen in benutzerdefinierten Shadern zu arbeiten.
 title: Lib Normal - Shader-API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
-
 ---
-
 
 # Lib Normal - Shader-API
 
@@ -33,7 +25,7 @@ import lib-sparse.glsl
 ```
 
 
-Alle für den normalen Betrieb nützlichen Motorparameter.
+Alle Engine-Parameter, die für den normalen Betrieb nützlich sind.
 
 ```
 //: param auto channel_height 
@@ -54,7 +46,7 @@ uniform int normal_blending_mode;
 ```
 
 
-Wird zum Umkehren der Y-Achse der Normalmap verwendet
+Wird zum Umkehren der Y-Achse der Normalen-Map verwendet
 
 ```
 //: param auto normal_y_coeff 
@@ -137,7 +129,7 @@ vec3 normalFade(vec3 normal,float attenuation)
 ```
 
 
-Entpacken eines normalen Alphakanals
+Entpacken eines normalen Formulars mit Alphakanal
 
 ```
 vec3 normalUnpack(vec4 normal_alpha, float y_coeff) 
@@ -185,7 +177,7 @@ vec3 normalUnpack(vec4 normal_alpha)
 ```
 
 
-Berechnen der Tangentenraumnormalität aus dem Height-Kanal des Dokuments
+Berechnen des normalen Tangente-Speicherplatzes vom Height-Kanal des Dokuments
 
 ```
 vec3 normalFromHeight(SparseCoord coord, float height_force) 
@@ -296,7 +288,7 @@ vec3 getTSNormal(SparseCoord coord)
 ```
 
 
-Helfer zur Berechnung der Weltraum-Normale aus der Tangenten-Weltraum-Basis-Normale.
+Helfer zum Berechnen des Welt-Raum-Normale aus der normalen Tangente-Space-Basis.
 
 ```
 vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 

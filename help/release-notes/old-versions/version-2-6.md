@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2-6.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2.6, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.6
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2.6
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 
 # Version 2.6
 
@@ -48,7 +40,7 @@ Das **Plug-in** ist auf GitHub verfügbar. Zögern Sie nicht, Ihnen zu helfen, w
 ![](../../assets/texture-set-rename-description.png)
 
 Es ist jetzt möglich, den Namen eines Textursatzes direkt im Substance Painter zu ändern. Das Umbenennen eines Textursatzes wirkt sich auf den Namen der Texturen aus, die auf die Festplatte exportiert werden (abhängig von der verwendeten Exportvorgabe).\
-Um einen Textursatz umzubenennen, doppelklicken Sie einfach auf seinen Namen, um ihn zu ändern, oder öffnen Sie das Kontextmenü mit der rechten Maustaste. Es ist auch möglich, benutzerdefinierte Beschreibungen hinzuzufügen, um weitere Informationen darüber zu erhalten, was Textursatz tun. Dies kann sehr hilfreich sein, wenn Sie an einem [UDIM-Projekt &#x200B;](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html) arbeiten. Verwenden Sie die Schaltfläche &quot;**settings**&quot;, um die Anzeige von Beschreibungen in der Liste zu konfigurieren.
+Um einen Textursatz umzubenennen, doppelklicken Sie einfach auf seinen Namen, um ihn zu ändern, oder öffnen Sie das Kontextmenü mit der rechten Maustaste. Es ist auch möglich, benutzerdefinierte Beschreibungen hinzuzufügen, um weitere Informationen darüber zu erhalten, was Textursatz tun. Dies kann sehr hilfreich sein, wenn Sie an einem [UDIM-Projekt ](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html) arbeiten. Verwenden Sie die Schaltfläche &quot;**settings**&quot;, um die Anzeige von Beschreibungen in der Liste zu konfigurieren.
 
 ![](../../assets/reasign-texture-set.png)
 
@@ -123,7 +115,7 @@ Die wichtigsten neuen Funktionen werden in unserem neuesten Video-Tutorial erlä
 
 * Neues Beispielprojekt &quot;Meet Mat&quot; hinzufügen
 * [Plug-In] Neues Plug-In &quot;Resources Updater&quot;
-* [TextureSet] Ermöglicht das Umbenennen und Hinzufügen einer Beschreibung zu Textursätzen
+* [TextureSet] Umbenennen und Hinzufügen einer Beschreibung zu Textursätzen zulassen
 * [TextureSet] Neuzuweisen von Materialien zulassen
 * [TextureSet] Hinzufügen einer Einstellungsschaltfläche im Fenster &quot;Textursatz-Liste&quot;
 * [TextureSet] &quot;Deaktivierte&quot; Textursatz am Ende der Liste anzeigen
@@ -135,19 +127,19 @@ Die wichtigsten neuen Funktionen werden in unserem neuesten Video-Tutorial erlä
 * [Scripting] Tutorial zur Verbesserung der AlgWidget-Miniaturansicht
 * [Exportieren] Deaktivieren/Aktivieren der Bittiefe je nach Dateiformatunterstützung
 * [Log] Plug-In-Namen zum Drucken in der Konsole hinzufügen
-* [Protokoll] Fehler zu ausgeblendeten Textursätzen entfernen
+* [Protokoll] Fehler bei ausgeblendeten Textursätzen entfernen
 * &quot;Begrüßungsbildschirm&quot; mit neuen Symbolen und Text für Beispiele aktualisieren
 
 **Fest** :
 
-* Absturz beim Aktualisieren eines Gitters in bestimmten Projekten
-* [Viewport] Die innere Symmetrieebene ist nicht mehr sichtbar.
-* [Viewport] Einige Nachbearbeitungseffekte sind aktiviert, wenn die Einzelansicht verwendet wird
+* Absturz beim Aktualisieren eines Meshs in bestimmten Projekten
+* [Viewport] Symmetrie Ebene Innenfarbe ist nicht mehr sichtbar
+* [Viewport] Einige Nachbearbeitungseffekte sind aktiviert, wenn die Solo-Ansicht verwendet wird
 * [Shaders] Überblendung mit &quot;\_premult&quot; funktioniert nicht richtig
-* [Shaders] Warnung zum Alpha-Test mit dem Standard-Shader
-* [Shelf] Falsches Analysieren von Tags aus Substance
-* [Shelf] MatFX Rost Weathering funktioniert nicht richtig
-* [Shelf] HSL-Filter ist standardmäßig für falsche Kanäle aktiviert
-* [Shelf] Der Scharfzeichner ist standardmäßig für den Height-/Normalkanal aktiviert
-* [Exportieren] Verschiedene Exportvorgaben verwenden keine OpenGL-Normalmap
+* [Shaders] Warnung vor Alpha-Test mit dem Standard-Shader
+* [Regal] Falsches Analysieren von Tags aus Substance
+* [Regal] MatFX Rost Verwitterung funktioniert nicht richtig
+* [Regal] HSL ist standardmäßig für falsche Kanäle aktiviert.
+* [Regal] Der Scharfzeichner ist standardmäßig für den Height-/Normalkanal aktiviert
+* [Exportieren] Verschiedene Exportvorgaben verwenden keine OpenGL-Normalen-Map
 * [Tool] Ungenauigkeitsprobleme mit dem Klonen-/Verwischen-Werkzeug erzeugen Artefakte

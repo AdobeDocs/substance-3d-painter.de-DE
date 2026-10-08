@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/assets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie das Bedienfeld "Elemente" in Substance 3D Painter verwenden, um Ihre Ressourcenbibliothek zu durchsuchen und zu verwalten.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Assets
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
-
 ---
-
 
 # Assets
 
-Im Fenster &quot;Asset&quot; können Sie auf die Standardressourcen zugreifen, die mit der Anwendung geliefert werden (als **Starter-Assets** bezeichnet), sowie auf alle [importierten](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) Ressourcen (die dann unter **Ihre Assets** gefunden werden können).
+Im Fenster &quot;Asset&quot; können Sie auf die Standardressourcen zugreifen, die mit der Anwendung geliefert werden (als **Starter-Assets** bezeichnet), sowie auf alle [importierten](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html) Ressourcen (die dann unter **Ihre Assets** gefunden werden können).
 
 * Auf dem Datenträger wird die Bibliothek **Starter Assets** im Installationsordner der Anwendung gespeichert, während sich die in **Ihre Bibliothek** importierten Assets standardmäßig im Ordner Dokumente befinden.
 * Weitere Informationen zum Speicherort Ihrer Elemente auf dem Datenträger finden Sie unter [Hinzufügen von Inhalt auf der Festplatte](../../content/importing-assets/adding-content-on-the-hard-drive.md).

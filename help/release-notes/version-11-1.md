@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-11-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 11.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter > Release notes > Version 11.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 11.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2273'
 ht-degree: 0%
-
 ---
-
 
 # Version 11.1
 
@@ -28,7 +20,7 @@ Freigabedatum: <b>18. November 2025</b>
 >
 > In dieser Version von Painter wird die Grafik-API von OpenGL auf Vulkan umgestellt. Diese Änderung kann sich darauf auswirken, welche GPUs von der Anwendung unterstützt werden, insbesondere für das Baking führ mit GPU-basiertem Raytracing.
 > 
-> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [&#128279;](../getting-started/system-requirements.md).
+> Weitere Informationen finden Sie auf unserer Seite mit den Systemanforderungen für [](../getting-started/system-requirements.md).
 
 ## Wichtigste Funktionen
 
@@ -60,7 +52,7 @@ Kurz gesagt, das Menüband ist ein saubereres Werkzeug für präziseres Zeichnen
 
   ![](../assets/ribbon_stretch_guides_path.png)
 * <b>Verschiedene Eckentypen verfügbar</b>\
-  Beim Brechen von Tangenten zum Erstellen von Ecken sind je nach Bedarf mehrere Formen verfügbar - von der klassischen Unterbrechung bis zum glatten Drehen.
+  Beim Umbrechen von Tangenten, um Ecken zu erstellen, stehen je nach Bedarf verschiedene Formen zur Verfügung - von klassischem Umbruch bis hin zu glattem Drehen.
 
   ![](../assets/ribbon_corners_small.jpg)
 * <b>Steuerelemente für Dehn und Kachelung</b>\
@@ -128,15 +120,15 @@ Diese Version enthält 75 neue Werkzeugvorgaben, die die neuen Funktionen der Mu
   In dieser Version wurden 75 neue Werkzeugvorgaben für das Menüband-Werkzeug als Teil des Standardinhalts hinzugefügt. Diese Vorgaben sind direkt im Fenster <b>Elemente</b> unter dem Pinselabschnitt oder über die Tastaturbefehle für neue Kategorien im Fenster <b>Eigenschaften</b> verfügbar.\
   Diese Vorgaben umfassen:
 
-  * <b>Bekleidung</b>: Verbesserte Presets für Nahtpucker und -aufstiche sowie Reißverschlüsse und Stoffrisse.
+  * <b>Bekleidung</b>: Verbesserte Presets für Naht-Puckering und -Oberstiche sowie Reißverschlüsse und Stoffrisse.
   * <b>Einfach</b>: Einfache Striche wie Linien und Striche, aber auch Verläufe und die <b>benutzerdefinierten Multifunktionsleisten</b>-Vorgaben, die auf dem <b>dynamischen Strich</b>-System basieren.
   * <b>Schmutz</b>: 3 Risse zur Simulation von Beschädigungen auf unterschiedlichen Untergründen.
   * <b>Harte Oberfläche</b>: Greif Muster, Panel und Shutlines Details, Bänder und Schweißen zu verwenden oder mechanische Objekte.
   * <b>Organisch</b>: Verbände, sauber und schmutzig, um Haut und andere Oberflächen zu umwickeln.
-  * <b>Farbe</b>: Verläufe auf Pinselbasis und Gouachen-Vorgaben.
+  * <b>Malen</b>: Verläufe auf Pinselbasis und Gouachen-Vorgaben.
   * <b>Text</b>: Schnellvorgaben zum Einrichten von Text entlang eines Pfads mit der Multifunktionsleiste mit verschiedenen Ausrichtungsmodi und dehnend Einstellungen.
 * <b>Neues Tool-Schlüsselwort für die Suche im Fenster &quot;Elemente&quot;</b>\
-  Die Eingabe von &quot;Menüband&quot;, &quot;Malen&quot;, &quot;Pfad&quot; oder sogar &quot;Verwischen&quot; im Fenster <b>Elemente</b> ist jetzt möglich und kann Ihnen helfen, Vorgaben zu finden, die mit dem entsprechenden Werkzeug übereinstimmen.
+  Die Eingabe von &quot;Menüband&quot;, &quot;Malen&quot;, &quot;Pfad&quot; oder sogar &quot;Verwischen&quot; im Fenster &quot;<b>Elemente</b>&quot; ist jetzt möglich und kann Ihnen dabei helfen, Vorgaben zu finden, die mit dem entsprechenden Tool übereinstimmen.
 
   ![](../assets/ribbon_assets_search.png)
 
@@ -146,7 +138,7 @@ Diese Version enthält 75 neue Werkzeugvorgaben, die die neuen Funktionen der Mu
 
 Füllebenen und Effekte unterstützen jetzt die Symmetrie mit ihren 3D-Projektion-Modi. Sie kann über das Menü &quot;Symmetrie&quot; in der kontextabhängigen Symbolleiste oder über den neu hinzugefügten Abschnitt &quot;Symmetrie&quot; im Fenster <b>Eigenschaften</b> aktiviert werden.
 
-* <b>Symmetrie auf Füllschichten </b>\
+* <b>Symmetrie für Füllebenen </b>\
   Bei Verwendung von 3D-basierten Projektion-Modi in Fülleffekten und Ebenen kann die Symmetrie jetzt aktiviert werden. Sowohl die Symmetrie &quot;Spiegeln&quot; als auch &quot;Radial&quot; sind verfügbar.
 
   ![](../assets/symmetry_fill.jpg)
@@ -174,7 +166,7 @@ Weitere Informationen zur <b>Symmetrie</b> finden Sie auf der [Seite der dedizie
 Versatz kann nun mit einer bestimmten Einheit definiert werden. Diese Änderung vereinfacht die Ausrichtung und Anpassung der verschobenen Geometrie in anderen Anwendungen.
 
 * <b>Neue Skalierungseinheitsoption in den Versatz-Einstellungen</b>\
-  Im Fenster &quot;<b>Shader settings</b>&quot; ist beim Anpassen der Intensität des Versatzes eine neue Skalierungseinheit verfügbar. Diese Einstellung bietet die folgenden Optionen:
+  Wenn Sie im Fenster <b>Shader-Einstellungen</b> die Intensität des Versatzes anpassen, ist eine neue Skalierungseinheitseinstellung verfügbar. Diese Einstellung bietet die folgenden Optionen:
 
   * <b>Normalisiert</b>: entspricht standardmäßig dem vorherigen Verhalten von Painter. Diese Größe basiert auf dem Mesh-Begrenzungsrahmen innerhalb des aktuellen Projekts.
   * <b>Szene</b>: verwendet die Einheiten, die in der Meshdatei gespeichert sind, als Bezugspunkt.
@@ -212,7 +204,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
   ![](../assets/resolution.png)
 * <b>Leistungsverbesserungen für ein einzelnes großes Dreieck</b>\
-  Bis jetzt hatte Painter mit sehr niedrigen Poly-Meshs oder Meshs mit sehr großen und/oder langen Dreiecken zu kämpfen. Das ist nicht mehr der Fall. Die Arbeit mit einzelnen Quad-Meshes, z. B. zur Erstellung von Kachelstrukturen, sollte kein Problem mehr sein.
+  Bis jetzt hatte Painter mit sehr niedrigen Poly-Meshs oder Meshs mit sehr großen und/oder langen Dreiecken zu kämpfen. Das ist nicht mehr der Fall. Die Arbeit mit einzelnen Quad-Meshs, z. B. zur Erstellung von Kachelung-Texturen, sollte kein Problem mehr sein.
 * <b>Die Standardpinselform wurde verbessert</b>\
   Die Standard-Pinselform wurde mit neuen Einstellungen aktualisiert, um ihre Größe und Rundheit unter Berücksichtigung des Verhaltens &quot;Härte&quot; zu steuern.
 
@@ -234,16 +226,16 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue To
 * Neues Bandwerkzeug
 * [Tool] Neues Werkzeug für die Multifunktionsleiste hinzufügen, um nahtlose Pfade zu erstellen
 * [Menüband] Tastenkombinationen für die Menübandvorgabe im Eigenschaftenfenster hinzufügen
-* [Menüband] Ermöglicht das Ändern der Deckkraft des Menübands pro Scheitelpunkt des Pfads.
-* [Menüband] Ermöglicht das Ändern der Größe des Menübands pro Scheitelpunkt des Pfades.
+* [Menüband] Ermöglicht das Ändern der Deckkraft des Menübands pro Scheitelpunkt auf dem Pfad.
+* [Menüband] Ermöglicht das Ändern der Größe des Menübands pro Scheitelpunkt auf dem Pfad.
 * [Menüband] Entfernen von Anfang/Ende, definiert auf einer Substance, wenn Pfade geschlossen sind
-* [Menüband] Entfernen der Pfad-/Materialvorschau im Eigenschaftenfenster für Pfade-Werkzeuge zum Malen, Radieren und Verwischen
+* [Menüband] Entfernen der Pfad-/Material-Vorschau im Eigenschaftenfenster für Malen-/Radiergummi-/Verwischen-Pfadwerkzeuge
 * [Menüband] Hinzufügen von Füllmethoden für Alpha und einige Kanäle bei selbstüberlappender Anordnung
 * Symmetrie füllen
-* [Füllen] Unterstützung für Symmetrie auf Füllebenen und Effekten hinzufügen
-* [Füllung]&#x200B;[UI] Belichten von Symmetrie-Einstellungen im Eigenschaftenfenster für Füllebene und Effekte
+* [Füllen] Unterstützung für Symmetrie zu Füllebenen und Effekten hinzufügen
+* [Fill][UI] Einstellungen für die Symmetrie im Eigenschaftenfenster für Füllebene und Effekte Gelegt
 * [Fill] Benutzeroberfläche für Einstellungen für &quot;Symmetrie nachbearbeiten&quot; im Menü &quot;Viewport&quot; und im Eigenschaftenfenster
-* [Füllen] Ordentliche Texturen bei Projektion im Verkrümmungsmodus korrekt neu ausrichten
+* [Füllen] Ordentlich Neuausrichtung normaler Texturen bei Projektion im Verkrümmungsmodus
 * Physische Größe Versatz
 * [Versatz] Physische Größe als Versatz verwenden
 * Leistungssteigerung
@@ -252,41 +244,41 @@ Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue To
 * [Performance] Volle Vulkan-Unterstützung für Windows und Linux
 * [Leistung] Aktualisierte Baker mit schnellerem GPU-Rendering und Unterstützung von AMD-Raytracing
 * [UI] Ordnen Sie Werkzeugeigenschaften neu in Gruppen an und reduzieren Sie einige standardmäßig
-* [Engine] Update-Substance Engine auf Version 9.2.5
-* [Substance] Außerkraftsetzung der Auflösung für Substance-Ressourcen in Tools und Füllungen
-* [Exportieren] Aktualisieren der Exportvoreinstellung für Mesh Maps zum Exportieren von Graustufen-Texturen
+* [Engine] Update Substance Engine auf Version 9.2.5
+* [Substance] Außerkraftsetzung der Auflösung für Substance-Ressourcen in Tools und Füllungen Gelegt
+* [Exportieren] Mesh-Map-Exportvoreinstellung aktualisieren, um Graustufen-Texturen zu exportieren
 * Python
-* [Backen]&#x200B;[Python] Anzeige in Änderungslog-Umbruchänderungen nach Aktualisierung des Bäckers
-* [Python] Verfügbarmachen von Einstellungen für Füllsymmetrie in Python
+* [Baking][Python] Anzeige in Änderungsprotokoll, das Änderungen nach Aktualisierung der Baker umbricht
+* [Python] Leg der Einstellungen für die Symmetrie der Füllung in Python
 * Content und neue Inhalte.
 * [Inhalt] Hinzufügen von 75 neuen Werkzeugvorgaben für das Menüband-Werkzeug
 * [Inhalt] Aktualisieren der Verlaufsgenerator-Ressource, um mit dem Menüband kompatibel zu sein
 
 <b>Fest</b>:
 
-* [Absturz] Das Laden eines anderen Projekts, während die Pfadausrichtung aktiviert ist, kann abstürzen
-* [Absturz] Ein Rechtsklick im Pfadfenster mit Informationen aus einer anderen Sitzung in der Zwischenablage kann abstürzen
+* [Absturz] Laden eines anderen Projekts bei aktiviertem einrasten des Pfads kann Absturz werden
+* [Absturz] Rechtsklick im Bedienfeld &quot;Pfad&quot; mit Informationen aus einer anderen Sitzung in der Zwischenablage kann Absturz
 * [UI] Die Benutzeroberfläche scrollt in den Werkzeugeigenschaften nach oben, wenn ein Pfad erstellt wird
-* [UI] Maus-Cursor verschwindet, wenn die Pfadansichtsport-Visualisierung ausgeblendet ist
+* [UI] Maus-Cursor verschwindet, wenn die Pfadtext-Visualisierung ausgeblendet ist
 * [Pfad] Das Kopieren/Einfügen verschiedener Werkzeugeigenschaften im Bedienfeld &quot;Pfad&quot; führt zu instabilen Eigenschaften
-* [Werkzeug] Radierer- und Verwischen-Werkzeugvorgaben aktualisieren nicht immer die Kanalauswahl
-* [Tool] Gemalter Wert ist grau, aber Benutzeroberfläche zeigt Weiß nach dem Laden der farbigen Werkzeugvorgabe in der Maske an
+* [Tool] Radiergummi- und Verwischen-Werkzeugvorgaben aktualisieren nicht immer die Kanalauswahl
+* [Tool] Der gemalte Wert ist grau, aber die Benutzeroberfläche zeigt Weiß an, nachdem farbige Werkzeugvorgabe in die Maske geladen wurde
 * [Tool] Die aus der Maske erstellte Voreinstellung behält Kanalwerte bei, die aus einer anderen Voreinstellung geladen wurden
-* [Substance] Die im Diagramm definierte normale Farbraumübersteuerung wird nicht berücksichtigt
+* [Substance] Die in Graf definierte normale Farbraumübersteuerung wird nicht berücksichtigt
 * [Inhalt] Die Standard-Pinselformressource verwendet eine veraltete Substance.
 
 <b>Bekannte Probleme</b>:
 
-* Der Verlauf der Shader-Instanz wurde nicht ordnungsgemäß verfolgt
+* Shader-Instanz-Verlauf wird nicht richtig verfolgt
 * [Menüband] Leistungsproblem mit UV-Kacheln
 * [Menüband] Pfad kann sich in einigen Fällen nach einer Ecke unerwartet überlappen
-* [Menüband] Tangenten erzeugen eine unerwünschte Schleife, wenn der Punkt eng an die Pfadenden verschoben wird
-* [Absturz]&#x200B;[Menüband] Erstellen sehr langer Texte in Menüband kann abstürzen
-* [Werkzeug] Die Materialvorschau funktioniert nicht, wenn die Projektion in einer Maske verwendet wird
-* [Backen] Die AO-Einstellung &quot;Selbstverdeckung&quot; wird bei mehreren Textursätzen ignoriert und &quot;Namensübereinstimmung&quot; ist aktiviert.
-* [Backen] AO mit Normal weist an Kanten Artefakte auf, da die Auffüllung fehlt
-* [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Crash]&#x200B;[Python] USD-Export, ausgelöst durch TextureStateEvent
-* [Engine] Malen mit dem Kopierwerkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Das Ghost-Widget wird durch das noch funktionierende Skript gelöscht.
+* [Menüband] Tangenten erzeugen eine unerwünschte Schleife, wenn der Punkt nahe an die Pfadenden verschoben wird
+* [Absturz][Menüband] Erstellen sehr langer Texte in Menüband kann Absturz verursachen
+* [Tool] Die Maskenvorschau funktioniert nicht, wenn die Projektion in einer Material verwendet wird
+* [Baking] AO-Einstellung &quot;Selbstverdeckung&quot; wird bei mehreren Textursätzen ignoriert und &quot;Namensübereinstimmung&quot; aktiviert
+* [Baking] AO mit Normal weist an Kanten Artefakte auf, da die Auffüllung fehlt
+* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* [Regression][UI] Kontextmenü auf HD-Bildschirmen ist zu klein
+* [Absturz][Python] USD durch TextureStateEvent ausgelöst
+* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert

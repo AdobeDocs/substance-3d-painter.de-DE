@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Hier erfahren Sie, wie Sie Inhalte von Ihrer Festplatte zu Substance 3D Painter hinzufügen, um Ihre Ressourcenbibliothek mit lokalen Dateien zu erweitern.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Importing assets > Adding content on the hard drive
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Hinzufügen von Inhalten auf der Festplatte
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
-
 ---
-
 
 # Hinzufügen von Inhalten auf der Festplatte
 
@@ -32,7 +24,7 @@ Im Folgenden finden Sie die Speicherorte der standardmäßigen **Bibliothek &quo
 
 >[!WARNING]
 >
-> Die **Starter-Assets**, die mit der Anwendung geliefert wurden, befinden sich im Installationsordner und werden in jeder neuen Version ersetzt. Es wird nicht empfohlen, persönliche Inhalte an diesem Speicherort abzulegen, da sie bei jedem Update **&#x200B;**&#x200B;gelöscht werden und sogar Lese-/Schreibberechtigungsprobleme verursachen können.\
+> Die **Starter-Assets**, die mit der Anwendung geliefert wurden, befinden sich im Installationsordner und werden in jeder neuen Version ersetzt. Es wird nicht empfohlen, persönliche Inhalte an diesem Speicherort abzulegen, da sie bei jedem Update **** gelöscht werden und sogar Lese-/Schreibberechtigungsprobleme verursachen können.\
 > Es empfiehlt sich, den Speicherort **Ihre Assets** oder einen anderen benutzerdefinierten Speicherort zu verwenden. Weitere Informationen zum Hinzufügen eines benutzerdefinierten Bibliothekspfads finden Sie unter [Hinzufügen einer neuen Bibliothek](../../interface/assets/adding-a-new-library.md).
 
 ## Dateiformate und Verwendungen
@@ -57,7 +49,7 @@ Sie können verschiedene Dateitypen in Ihre Substance 3D Painter-Bibliothek impo
 
 >[!NOTE]
 >
-> Ab Version 7.2.0 können benutzerdefinierte Ordner und Kategorien in einer Bibliothek verwendet werden. Sie sind im Fenster &quot;Elemente&quot; über [Filter nach Pfad](../../interface/assets/filter-by-path.md) oder [Breadcrumbs](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html) zugänglich.
+> Ab Version 7.2.0 können benutzerdefinierte Ordner und Kategorien in einer Bibliothek verwendet werden. Sie sind im Fenster &quot;Elemente&quot; über [Filter nach Pfad](../../interface/assets/filter-by-path.md) oder [Breadcrumbs](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html) zugänglich.
 
 >[!WARNING]
 >
