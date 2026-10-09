@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Mesh-basierte Eingaben in benutzerdefinierten Effekten für Substance 3D Painter verwenden, um geometrieabhängige Textur-Effekte zu erzeugen.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Mesh Based Input
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: Gitterbasierte Eingabe
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: Mesh-basierte Eingabe
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
-
 ---
 
-
-# Gitterbasierte Eingabe
+# Mesh-basierte Eingabe
 
 &quot;Mesh-basierte Eingabe&quot; sind Texturen, die vom Engine von Substance 3D Painter bereitgestellt werden, das aus dem Mesh innerhalb des aktuellen Projekts extrahiert wurde. Diese Texturen können verwendet werden, um erweiterte Effekte auf der Grundlage der Mesh-Topologie zu erstellen.
 
@@ -33,6 +25,6 @@ ht-degree: 1%
 | *Position (RGB)* | **Mesh\_position** | **meshPosition** | Rufen Sie eine Textur ab, die die Position des Scheitelpunkts enthält. |
 | *Welt-Raum-Normale (RGB)* | **mesh\_world\_space\_normal** | **meshNormalWS** | Rufen Sie eine Textur ab, die den Scheitelpunkt normal im Welt-Raum enthält. |
 | *Welt-Raum-Tangente (RGB)* | **mesh\_world\_space\_tangent** | **meshTangentWS** | Rufen Sie eine Textur ab, die die Scheitelpunkt-Tangente in Welt-Raum enthält. |
-| *Welt-Raum Bitangent (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Rufen Sie eine Textur ab, die den Scheitelpunkt &quot;Bi-Tangente&quot; (Bi-Normal) im Weltraum enthält. |
+| *Welt-Raum Bitangent (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Rufen Sie eine Textur ab, die den Scheitelpunkt bi-Tangente (bi-normal) im Welt-Raum enthält. |
 | *Texelgröße (Graustufen)* | **Mesh\_texel\_size** | **meshTexelSize** | Rufen Sie eine Textur ab, die die Textgröße (Differenz zwischen Pixeldichte und Mesh-UV) enthält. |
 | *UV-Maske (Graustufen)* | **Mesh\_uv\_mask** | **meshUVMask** | Rufen Sie eine Textur als schwarze (Außen) und weiße (Innen) Maske der Mesh-UV-Inseln ab. |

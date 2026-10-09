@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-7-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 7.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 7.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 0%
-
 ---
-
 
 # Version 7.4
 
@@ -147,7 +139,7 @@ Dem Standardinhalt, der in der Anwendung verfügbar ist, wurde ein neuer Satz vo
 
 ![](../../assets/banner-uv-1.jpg)
 
-Die automatische UV-Entpackung wurde mit einer neuen Option aktualisiert, die die Unterstützung von 3D-Modellen mit erweiterten Oberflächen verbessert.
+Der automatische UV-entpack wurde mit einer neuen Option aktualisiert, die die Unterstützung von 3D-Modellen mit erweiterten Flächen verbessert.
 
 Diese neue Einstellung mit dem Namen **Vermeiden Sie verlängerte UV-Inseln**, die den UV-Bereich besser ausnutzen, indem Sie UV-Inseln aufteilen, die zu lang sein könnten.
 
@@ -176,41 +168,41 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [SpaceMouse]&#x200B;[Windows] Unterstützung der 3D-Verbindung von SpaceMouse im 3D-Viewport für die Navigation
 * [SpaceMouse]&#x200B;[Windows] Grundlegende Tastaturbefehle/Tasten für Pro- und Enterprise-SpaceMouse-Modelle im 3D-Viewport
 * [SpaceMouse]&#x200B;[Windows] Dediziertes Drehmittelsymbol im 3D-Viewport
-* [Farbmanagement] Verwenden Sie Rollen aus der OCIO-Konfiguration, um Standardeinstellungen zu ändern
+* [Farbmanagement] Verwenden Sie Rollen aus OCIO Konfiguration, um Standardeinstellungen zu ändern
 * [Farbmanagement] Farbmanagement des Eigenschaftenfensters für Farb-Widgets
-* [Farbmanagement] Farbmanagement des Eigenschaftsfensters für die Materialvorschau
+* [Farbmanagement] Farbmanagement des Eigenschaftenfensters für die Vorschau des Materials
 * [Farbmanagement] Farbfelder im Farbwähler verwalten
 * [Farbmanagement] Fügen Sie eine Einstellung hinzu, um den standardmäßigen sRGB-Farbraum zu definieren
-* [Farbmanagement] Hinzufügen des standardmäßigen sRGB-Farbraums aus der OCIO-Konfiguration in der Farbwähler-Auswahlliste &quot;Anzeige&quot;
+* [Farbmanagement] Hinzufügen des sRGB-Standardfarbraums aus OCIO Konfiguration in der Farbwähler-Auswahlliste &quot;Anzeige&quot;
 * [Farbmanagement] Verbesserungen für das Menü zum Überschreiben des Farbraums
 * [Farbmanagement] Überschreiben des Umgebungs-Map-Farbraums in den Anzeigeeinstellungen zulassen
 * [Farbmanagement] Zeichnen von Farbwählerverläufen basierend auf der aktuellen Anzeige
-* [Farbmanagement] Klemmen von HDR-Werten standardmäßig im Farbeditor
+* [Farbmanagement] HDR standardmäßig im Farbeditor Beschränkt
 * [Farbmanagement] Passthrough (kein Farbraum) für Filter im Legacy-Modus verwenden
 * [Farbmanagement] Anzeige von Farbverläufen im Farbeditor auf Übereinstimmung mit dem Bereich [0-1] beschränken
 * [Farbmanagement] Ausblenden der Anzeigeselektor im Farbwähler im Modus &quot;Legacy&quot;
 * [Farbmanagement] Hex-Code für Farbwähler immer im sRGB-Farbraum
 * [Farbmanagement] Deaktivieren der Farbwähler-Dropdown-Liste &quot;Anzeige&quot; für Datenkanäle
-* [Optimierung] Verkrümmungsraster berechnet nur überdeckte UV-Kacheln neu
-* [Exportieren] Exportieren von UV-Kachelprojekten für Sketchfab, USD und glTF zulassen
+* [Optimierung] Der Verkrümmungs-Raster berechnet nur überdeckte UV-Kacheln neu.
+* [Exportieren] Exportieren von UV-Kachel-Projekten für Sketchfab, USD und glTF zulassen
 * [Scripting]&#x200B;[Python] Ändern der Tonzuordnungsfunktion zulassen
 
 **Fest:**
 
 * [Sketchfab] Durch die Aktualisierung des vorhandenen Modells wird am Ende ein neues Modell erstellt.
 * [Sketchfab] Absturz bei der Suche nach einem zuvor aktualisierten Modell
-* Absturz beim Exportieren in USD
-* Absturz beim Erstellen einer neuen Shader-Instanz in der Geometriemaske oder wenn die Geometrie ausgeblendet ist
-* [Fenster &quot;Element importieren&quot;] Absturz beim Ändern des Typs von importierten Ressourcen
-* Normale Mesh-Maps werden bei Verwendung im Ebenenstapel invertiert
+* Absturz beim Exportieren nach USD
+* Absturz beim Erstellen einer neuen Shader-Instanz in der Geometriemaske oder beim Ausblenden der Geometrie
+* Absturz [Elementfenster importieren] beim Ändern des Typs von importierten Ressourcen
+* Normale Mesh-Map werden bei Verwendung in Ebenenstapel invertiert
 * [Substance] Der Benutzerdaten-Mischmodus wird nicht berücksichtigt.
-* [Farbmanagement] Bitmaps mit Farbraum im Dateinamen werden als UV-Mustersequenzen importiert
-* [Farbmanagement] Farbverwaltete Ausgaben des Substance-Diagramms befinden sich im falschen Farbraum
+* [Farbmanagement] Bitmaps mit Farbraum im Dateinamen werden als UV-Kachel Sequenzen importiert
+* [Farbmanagement] Farbverwaltete Ausgaben von Substance Graf befinden sich im falschen Farbraum
 * [Farbmanagement] Polygon-Füllwerkzeug zeigt die falsche Farbe an
-* [Color Management] ACES-Tonabnehmer wird im Solomodus auf Kanäle angewendet
+* [Farbmanagement] ACE Tonwertumsetzer wird auf Kanäle im Solomodus angewendet
 * [Farbmanagement] Die Kugelbeleuchtung der Werkzeugvorschau ist nicht farbverwaltet
 * [Farbmanagement]&#x200B;[Exportieren] Konvertierte Karten werden falsch konvertiert.
-* [Scripting]&#x200B;[Python]&#x200B;[Farbmanagement] Projekte, die mit Vorlage und OCIO-Umgebungsvariablen erstellt wurden, befinden sich im Modus &quot;Veraltet&quot;.
+* [Scripting]&#x200B;[Python]&#x200B;[Farbmanagement] Projekte, die mit Vorlage und OCIO Umgebungsvariablen erstellt wurden, befinden sich im Modus &quot;Veraltet&quot;.
 * [Scripting]&#x200B;[Python] Die JavaScript-Evaluierungsfunktion kann beim Start nicht verwendet werden.
 * [3D-Adobe-Angebot] Painter kann nicht gestartet werden, wenn regionale Einstellungen mit Sprachen verwendet werden, die nicht standardmäßig unterstützt werden
 
@@ -218,9 +210,9 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 
 * 3D-Verbindung SpaceMouse wird auf MacOS nicht unterstützt
 * [UI] Horizontale Bildlaufleiste mit Farbmanagement, die in einigen Fällen in neuen Projektfenstern angezeigt wird
-* [Bäcker] Die Einstellung &quot;Durchschnittliche Normale&quot; hat keine Auswirkungen in UV-Kachelprojekten
-* [Mac M1] Smart-Materialien werden nicht korrekt angezeigt
-* [Farbmanagement] Im Projektionsmodus verwendete Ressourcen werden in der Überlagerung nicht farbverwaltet
+* [Baker] Die Einstellung &quot;Durchschnittliche Normale&quot; hat keine Auswirkungen auf UV-Kachel-Projekte
+* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
+* [Farbmanagement] Ressourcen, die im Projektion-Modus verwendet werden, werden in der Überlagerung nicht farbverwaltet
 
 ### 7.4.1
 
@@ -233,14 +225,14 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Hinzufügen ACE Tonwertumsetzers im Legacy-Modus
 * [Farbmanagement] Standardkonfigurationseinstellungen anpassen
 * [Farbmanagement]&#x200B;[Exportieren] Fill $colorSpace in Dateinamen für Datenkanäle
-* [Exportieren] Exportieren eines UV-Kachelprojekts in Stager
+* [Exportieren] Exportieren von UV-Kachel-Projekten in Stager
 * [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
 * [Interoperabilität] Senden eines UV-Kachel-Projekts an Stager zulassen
 
 **Fest:**
 
-* [MacOS]&#x200B;[Absturz] Painter startet nicht mit Catalina
-* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
+* [MacOS]&#x200B;[Absturz] Painter beginnt nicht mit Catalina
+* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz bei der Wiedergabe von Datentyp/Farbmanagement auf Benutzerkanal
 * [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen den Farbraum an Neues Menü
 * [Farbmanagement] Benutzerkanal ist im Viewport im Legacy-Modus + Solo-Ansicht dunkler
 * [Farbmanagement] Die Env-Map ist immer linear, wenn sie in iRay verwendet wird
@@ -248,14 +240,14 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 * [Farbmanagement] Farbwähler in einer Substance im Legacy-Modus funktioniert nicht
 * [Farbmanagement] Der Wechsel zwischen Solokanal-Ansichten im Viewport wird bei Verwendung des Dropdown-Menüs nicht mit dem richtigen Farbraum angezeigt
 * [Farbmanagement] Beim Export wird die falsche Konvertierung auf farbverwaltete Benutzerkanäle im Legacy-Modus angewendet.
-* Striche, die in der Einzelansichtsmaske vorgenommen wurden, werden beim Zurückwechseln zur Materialansicht nicht angezeigt
+* In der Einzelansichtsmaske erstellte Konturen werden beim Zurückwechseln zur Material-Ansicht nicht angezeigt
 * [Exportieren] Konvertierte Karten werden nicht als farbverwaltete Kanäle exportiert
-* [Textursatz] QuickInfo mit dem ursprünglichen Namen fehlt auf umbenannten Benutzerkanälen
+* [Textursatz] QuickInfo mit Originalnamen fehlt auf umbenannten Benutzerkanälen
 * [Steam] Dateien fehlen beim Überprüfen der Dateiintegrität mit Steam
 
 **Bekannte Probleme:**
 
-* [Mac M1] Smart-Materialien werden nicht korrekt angezeigt
+* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
 
 ### 7.4.0
 
@@ -263,38 +255,38 @@ Um einen JavaScript-Befehl aus Python auszuführen, verwenden Sie die Funktion *
 
 **Hinzugefügt:**
 
-* [Color Management] Unterstützung von OpenColorIO-Farbmanagement-Version 2
+* [Farbmanagement] Unterstützung von Farbmanagement OpenColorIO Version 2
 * [Farbmanagement] Hinzufügen von Farbmanagementeinstellungen zu Projekteinstellungen
 * [Farbmanagement] Warnfenster zu Farbmanagement-Konfigurationsänderungen beim Öffnen eines Projekts
 * [Farbmanagement] Zeigt eine Fehlermeldung an, wenn eine ungültige OCIO-Konfigurationsdatei ausgewählt ist
-* [Farbmanagement] Überschreiben der Konfiguration mit der OCIO-Umgebungsvariable zulassen
-* [Farbmanagement] Mehrere OCIO-Konfigurationen sind standardmäßig in die Anwendung integriert.
+* [Farbmanagement] Überschreiben der Konfiguration mit OCIO Umgebungsvariablen zulassen
+* [Farbmanagement] Mehrere OCIO sind standardmäßig in die Anwendung integriert.
 * [Farbmanagement] Extrahieren des Farbraumnamens aus dem importierten Bitmap-Dateinamen
 * [Farbmanagement] Überschreiben des Farbraums mit einem Farbraum aus der Konfiguration im Eigenschaftenfenster zulassen
-* [Farbmanagement] Hinzufügen von Farbmanagementoptionen in den Textursatzeinstellungen
-* [Farbmanagement]&#x200B;[Viewport] Ermöglicht das separate Farbmanagement für 2D- und 3D-Ansichten.
-* [Farbmanagement] Umgebungszuordnung laden und in den Arbeitsfarbraum konvertieren
+* [Farbmanagement] Hinzufügen von Farbmanagementoptionen in den Textursatz-Einstellungen
+* [Farbmanagement]&#x200B;[Viewport] Ermöglicht das separate Farbmanagement von 2D- und 3D-Ansichten.
+* [Farbmanagement] Laden und Konvertieren von Umgebungs-Map in den Arbeitsfarbraum
 * [Farbmanagement] Anpassen des Farbwählers und Editors mit dem aktuellen Farbraum
-* [Farbmanagement] Erlauben Sie mit einem neuen Dropdown-Menü die Auswahl des Anzeigetransformationsfarbraums im Viewport.
-* [Farbmanagement] Anwenden der Anzeigetransformation mit Iray-Renderingergebnissen
-* [Farbmanagement] Exportieren von Texturen mit verschiedenen Farbräumen
-* [Farbmanagement]&#x200B;[Python] Anwenden von Farbmanagementeinstellungen der Umgebungsvariablen (OCIO) auf neue Projekte
+* [Farbmanagement] Zulassen, dass die Anzeige transformieren Farbraum im Viewport mit einem neuen Dropdown-Menü auswählen
+* [Farbmanagement] Anwenden von transformieren Anzeige mit Iray-Rendering-Ergebnissen
+* [Farbmanagement] Exportieren von Texturen mit unterschiedlichen Farbräumen
+* [Farbmanagement]&#x200B;[Python] Anwenden von Farbmanagementeinstellungen aus der Umgebungsvariablen (OCIO) auf neue Projekte
 * [Viewport] Abdocken des 2D- oder 3D-Viewports zulassen
-* [Automatisches Ausgliedern] Neue Option zur Vermeidung länglicher Inseln
+* [Automatisch Entpackt] Neue Option zur Vermeidung von länglichen Inseln
 * [Scripting Python] Aufrufen von JavaScript-Funktionen über die Python-API
 * [Neues Projektfenster] Reduzieren des Abschnitts &quot;Importierte Karten&quot;
-* [Projektion]&#x200B;[Verkrümmen] Normale als Option in den Verkrümmungseinstellungen können ausgeblendet werden.
+* [Projektion]&#x200B;[Verformen] Normale Elemente können als Option in den Verkrümmungseinstellungen ausgeblendet werden
 * [Content] 11 neue Schmutz-Maps
 * [Inhalt] 8 neue Werkzeugvorgaben (Reißverschluss, Spannschnur, Glitter)
-* [Inhalt] 8 neue Materialien (Narbe, Tasche, ...)
+* [Inhalt] 8 neue Materialien (Narbe, Hosentasche, ...)
 * [Inhalt] 1 neuer Generator (inflate schrumpfwarp)
 
 **Bekannte Probleme:**
 
-* [Mac M1] Smart-Materialien werden nicht korrekt angezeigt
-* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz beim Spielen mit Datentyp/Farbmanagement auf Benutzerkanal
+* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
+* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz bei der Wiedergabe von Datentyp/Farbmanagement auf Benutzerkanal
 * [Farbmanagement] Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
-* [Farbmanagement]&#x200B;[Iray] Das Speichern des Renderings in EXR oder TIFF, während das Farbmanagement im Viewport aktiviert ist, wird immer linear gespeichert
+* [Farbmanagement]&#x200B;[Iray] Das Speichern des Renderings auf EXR oder TIFF, während das Farbmanagement im Viewport aktiviert ist, wird immer linear gespeichert
 * [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen das falsche Farbraummenü an
 * [Farbmanagement]&#x200B;[Iray] Die Env-Map ist immer linear, wenn sie in Iray verwendet wird
 * [Farbmanagement]&#x200B;[Exportieren] Konvertierte Karten werden nicht als farbverwaltete Kanäle exportiert

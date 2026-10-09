@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-9-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 9.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 9.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
-
 ---
-
 
 # Version 9.1
 
@@ -34,17 +26,17 @@ In dieser neuen Version setzen wir die Entwicklung des Pfad-Werkzeugs (eingefüh
 
 * <b>Tangenten manuell auf den Steuerungspfad verweisen</b>
 
-  Es ist jetzt möglich, die Tangenten eines bestimmten Punktes auf einem Pfad manuell festzulegen. Dies ermöglicht es, das automatische Verhalten zu überschreiben, um neue Formen zu erstellen.
+  Es ist nun möglich, die Tangenten eines bestimmten Punktes auf einem Pfad manuell festzulegen. Dies ermöglicht es, das automatische Verhalten zu überschreiben, um neue Formen zu erstellen.
 
   ![Benutzerdefinierte Tangenten](../assets/path_control_tangents.gif)
-* <b>Pfadpunkte über Manipulatoren bearbeiten</b>
+* <b>Pfadpunkte über Manipulator bearbeiten</b>
 
   Manchmal reicht es nicht aus, einfach nur Punkte auf der Oberfläche des Objekts zu verschieben. Die Manipulator ermöglichen es, Punkte über die Fläche hinaus zu verschieben. Dies kann sehr hilfreich sein, um mehrere Punkte gleichzeitig zu verschieben, z. B. wenn sie nach dem Wiedereinführen eines Meshs zu weit von einer Fläche entfernt waren.
 
-  ![Pfadtangente übersetzen Manipulator](../assets/path_tangents_translate.gif)
+  ![Manipulator Kamera bewogen Pfad-Tangenten](../assets/path_tangents_translate.gif)
 * <b>Pfadsichtbarkeit einzeln ein-/ausschalten</b>
 
-  Die Pfadsichtbarkeit kann jetzt über das dedizierte Viewport-Fenster pro Pfad geändert werden. Wenn Sie einen Pfad deaktivieren, werden seine Beiträge aus den endgültigen Texturen entfernt, ohne dass er gelöscht werden muss.
+  Die Pfadsichtbarkeit kann jetzt über das dedizierte Bedienfeld &quot;Viewport&quot; pro Pfad geändert werden. Wenn Sie einen Pfad deaktivieren, werden seine Beiträge aus den endgültigen Texturen entfernt, ohne dass er gelöscht werden muss.
 
   ![Sichtbarkeit des Pfadbereichs](../assets/path_panel_visibility.png)
 * <b>Kopieren und Einfügen von Pfadpositionen und Eigenschaften</b>
@@ -72,18 +64,18 @@ Das Erstellen von Materialien wie <b>glass</b>, <b>foliage</b> oder <b>plastic</
   Der ASM-Shader wurde aktualisiert, um neue Funktionen zu unterstützen, die über das Fenster [Shader-Einstellungen](../interface/shader-settings/shader-settings.md) geändert werden können:
 
   * <b>Transparenz</b> (Deckkraft): Es ist nicht mehr nötig, auf einen anderen Shader zu wechseln, um transparente Flächen zu erhalten, wie z. B. Laub. Aktivieren Sie stattdessen den <b>Alphatest</b> oder den <b>Parameter Alpha-Überblendung</b> unter der Gruppe <b>Geometrie > Deckkraft</b>. Die üblichen Einstellmöglichkeiten, wie Dithering, sind ebenfalls verfügbar.
-  * <b>Transparenz</b>: Mit dieser neuen Eigenschaft können Sie Oberflächen wie Glas erstellen, Formen transparent machen und gleichzeitig die Specular-Reflexionen beibehalten. Um ihn zu verwenden, fügen Sie einen Translucency-Kanal in Ihrem Projekt hinzu und aktivieren Sie den Parameter <b>Translucency</b> unter der Gruppe <b>Interior</b>.
+  * <b>Translucency</b>: Mit dieser neuen Eigenschaft können Sie Oberflächen wie Glas erstellen, Formen transparent machen und gleichzeitig die Specular-Reflexionen beibehalten. Um ihn zu verwenden, fügen Sie einen Translucency-Kanal in Ihrem Projekt hinzu und aktivieren Sie den Parameter <b>Translucency</b> unter der Gruppe <b>Interior</b>.
   * <b>Absorption</b>: Diese neue Eigenschaft ermöglicht es, Licht zu simulieren, das durch ein Objekt dringt und absorbiert wird, was nützlich sein kann, um Plastik oder Flüssigkeiten auf eine bessere Weise zu simulieren, als mit Volumenstreuung. Um sie zu verwenden, aktivieren Sie die Einstellung &quot;<b>Absorption</b>&quot; unter der Gruppe &quot;<b>Inneres</b>&quot;.
 * <b>Verbesserte Benutzeroberfläche für Shader-Einstellungen und QuickInfos</b>
 
-  Mit der Überarbeitung des Shaders haben wir die Gelegenheit genutzt, die Benutzeroberfläche der Parameter zu verbessern und viele neue QuickInfos hinzuzufügen, um leichter zu entdecken, wie man sie aktiviert.
+  Mit der Überarbeitung des Shader haben wir die Gelegenheit genutzt, um die Benutzeroberfläche der Parameter zu verbessern, sowie viele neue QuickInfos hinzugefügt, um leichter zu entdecken, wie man sie aktiviert.
 
   Die Parameterreihenfolge sollte auch mit der anderer Substance 3D-Software übereinstimmen, was das Hin- und Herschalten beim Ausprobieren der Einstellungen erleichtert.
 
   ![ASM-QuickInfos](../assets/v91_asm_tooltips.png)
 * <b>Neues Beispielprojekt zur Demo des Adobe Standard Materials</b>
 
-  Das Bearbeiten der neuen ASM-Eigenschaften kann zunächst schwierig sein. Daher wurde ein neues Beispielprojekt mit mehreren Funktionen des Shaders hinzugefügt, um das Erlernen dieser Eigenschaften zu vereinfachen.
+  Das Bearbeiten der neuen ASM-Eigenschaften kann zunächst schwierig sein. Daher wurde ein neues Beispielprojekt mit mehreren Funktionen des Shader hinzugefügt, um das Erlernen dieser Funktionen zu erleichtern.
 
   Dieses Projekt heißt <b>Französischer Restauranttisch</b> und ist über das Menü <b>Datei > Muster öffnen</b> zu finden. Es werden auch viele kleine Tricks verwendet, sodass es eine großartige Lernressource sein kann, um neue Möglichkeiten der Texturierung zu entdecken.
 
@@ -229,7 +221,7 @@ In dieser Version wurden auch einige kleinere Funktionen und Verbesserungen hinz
 
   * Painter kann mit der neuen <b>substance\_painter.application.close() </b>-Funktion über Python geschlossen/heruntergefahren werden.
   * Die Kamera des Haupt-Viewports kann jetzt über die API geändert werden. Dazu gehören die Position, die Drehung, aber auch andere Eigenschaften wie Sichtfeld, Blende usw. Um die Positionierung der Kamera in Bezug auf den Mesh zu vereinfachen, legt die API jetzt auch den Begrenzungsrahmen der Szene.
-  * Das Exportieren des Projektgitters, mit Triangulation oder nicht und Versatz oder nicht, ist jetzt über das Exportmodul möglich.
+  * Das Exportieren des Projekt-Meshs, mit Triangulation oder nicht und Versatz oder nicht, ist jetzt über das Exportmodul möglich.
   * Der Pfad der Texturen für den Projektexport kann jetzt auch von der API abgerufen werden.
 * <b>Neuer Versand an After Effects (Beta)</b>
 
@@ -250,47 +242,47 @@ Zusammenfassung: <b>Hauptversion mit SVG- und Transparenzunterstützung sowie Ve
 * [SVG]&#x200B;[UI] Unterstützung für SVG-spezifische Eigenschaften hinzufügen
 * [SVG] Fügen Sie eine Option hinzu, um die ursprünglichen Bildproportionen einfach beizubehalten
 * [SVG] Automatisches Verwenden von Alpha von SVG mit Transparenz zulassen
-* [Interop] Senden eines strukturierten Gitters an After Effects zulassen (Ae 24.1 Beta)
+* [Interop] Senden eines strukturierten Meshs an After Effects zulassen (Ae 24.1 Beta)
 * [Interop] Hinzufügen von Einstellungen für &quot;An After Effects senden&quot;
 * [QoL]&#x200B;[Assets]&#x200B;[UI] Automatisches Importieren von Assets beim Ziehen und Ablegen in einen Steckplatz der Benutzeroberfläche
-* [QoL] Zulassen, dass externe Assets in den Ebenenstapel gezogen und abgelegt werden
+* [QoL] Zulassen, dass externe Elemente per Drag &amp; Drop in den Ebenenstapel gezogen werden
 * [QoL]&#x200B;[Ebenenstapel] Ziehen Sie Texturen aus dem Bedienfeld &quot;Elemente&quot; in den Ebenenstapel
-* [QoL]&#x200B;[Viewport] Generator ziehen und ablegen, Filter auf dem Gitter
-* [QoL]&#x200B;[Viewport] Zulassen, dass externe Elemente im Gitter abgelegt werden.
-* [QoL]&#x200B;[Projektion] Hinzufügen eines neuen UV-Satzes zum UV-Satzprojektionsmodus
-* [QoL] Ziehen und Ablegen von Smart-Masken als neue Ebenen im Ansichtsfenster und im Ebenenstapel
+* [QoL]&#x200B;[Viewport] Generatorfilter auf dem Mesh ziehen und ablegen lassen
+* [QoL]&#x200B;[Viewport] Zulassen, dass externe Elemente auf den Mesh abgelegt werden.
+* [QoL]&#x200B;[Projektion] Hinzufügen eines neuen UV-Satzes zum UV-Satz-Projektion-Modus
+* [QoL] Ziehen und Ablegen von Intelligente Masken als neue Ebenen in Viewport und Ebenenstapel
 * [QoL] Hinzufügen eines Selektors für Generatoren mit mehreren Ausgaben, wenn er in der Maske verwendet wird
-* [QoL] Einkanalbilder können über einen Fülleffekt gezogen und abgelegt werden.
-* [QoL]&#x200B;[Ebenenstapel] Verwenden Sie STRG/ALT-Modifizierer mit Drag &amp; Drop, um anzugeben, wo/wie Effekte/Ebenen erstellt werden
+* [QoL] Ziehen und Ablegen von Ein Kanal-Bildern über einen Fülleffekt zulassen
+* [QoL]&#x200B;[Ebenenstapel] Verwenden Sie STRG/ALT-Modifizierer mit Drag &amp; Drop, um anzugeben, wo/wie Effekte/Ebenen erstellt werden sollen
 * [Pfad] Umschalten der Pfadsichtbarkeit einzeln im Pfadbedienfeld
-* [Pfad] Verwenden von Transformationsmanipulatoren für Pfadpunkte zulassen
-* [Pfad] Tangenten pro Scheitelpunkt können manuell gesteuert werden.
+* [Path] Verwenden von Transformations-Manipulatoren für Pfadpunkte zulassen
+* [Path] Tangenten pro Scheitelpunkt manuell steuern
 * [Pfad] Kopieren/Einfügen von Pfadeigenschaften
-* [Pfad] Einfügen eines leeren Tastaturbefehls für die Schaltfläche &quot;Tangente unterbrechen&quot;
-* [Shader] Unterstützung für Deckkraft und Transparenz in ASM-Shader hinzufügen
+* [Pfad] Schaltfläche &quot;Leerer Tastaturbefehl für Pausen-Tangente einführen&quot;
+* [Shader] Unterstützung für Deckkraft und Translucency in ASM-Shader hinzufügen
 * [Shader] Unterstützung für Absorptionsfarbe Channel mit ASM Shader hinzufügen
-* [Shader] Verbessern von ASM-Shader-Parametern - QuickInfos
-* [Shader] Ändern der Standardfarbe des Transparenzkanals in Schwarz
+* [Shader] ASM-Shader-Parameter verbessern - QuickInfos
+* [Shader] Ändern der Standardfarbe des Translucency-Kanals in Schwarz
 * [Anzeigeeinstellungen] Temporale Anti-Aliasing standardmäßig aktivieren
 * [Anzeigeeinstellungen] Aktivieren Sie standardmäßig die Einstellung für die Teilflächenstreuung.
-* [Substance] Hinzufügen von Unterstützung für die ColorSpace-Eigenschaft von der Diagrammeingabe/-ausgabe
-* [Substance] Aktualisieren der Substance-Engine auf Version 9.0.3
+* [Substance] Hinzufügen von Unterstützung für die ColorSpace-Eigenschaft von der Eingabe/Ausgabe des Grafen
+* [Substance] Substance-Engine auf Version 9.0.3 aktualisieren
 * [UI] Zugriff auf die Schaltfläche der kontextbezogenen Symbolleiste, auch wenn das App-Fenster klein ist
-* [Automatisch entpacken] Steuern der UV-Kachelnummer mit Texeldichte
-* [Backen] Deaktivieren von GPU-Raytracing auf AMD-GPUs standardmäßig
+* [Automatisch Entpackt] Steuernummer für UV-Kacheln mit Texeldichte
+* [Baking] Deaktivieren von GPU-Raytracing auf AMD-GPUs standardmäßig
 * [Leistung] Anwendung der verlustfreien Komprimierung auf 16-Bit-Bilder, um den Projektbedarf zu reduzieren
-* [Python] Ändern der Standardkamera in der 3D-Ansicht zulassen
-* [Python] Stellen Sie die Möglichkeit bereit, ein Gitter über Skripterstellung zu exportieren.
+* [Python] Bearbeiten der standardmäßigen Kamera in der 3D-Ansicht zulassen
+* [Python] Möglichkeit zum Exportieren von Mesh über Skripterstellung Gelegt
 * [Inhalt]&#x200B;[Beispiele] Neues Beispielprojekt hinzufügen &quot;Französische Restauranttabelle&quot;
 * [Inhalt] Aktualisieren des Alpha-Substance-Logos auf die neue Version
-* [Inhalt] Fügen Sie drei SVG-fokussierte Materialfilter hinzu (Benutzerdefinierter Aufkleber, Benutzerdefiniertes Spray und Grafik zu Material).
+* [Inhalt] Fügen Sie drei Material-Filter mit SVG hinzu (Benutzerdefinierter Aufkleber, Benutzerdefiniertes Sprühen und Grafik zu Material).
 
 <b>Fest:</b>
 
-* [Absturz] Ändern der Manipulatorgröße, wenn das Symmetrie-Werkzeug nicht verwendet wird
+* [Absturz] Ändern der Größe von Manipulator, wenn das Werkzeug &quot;Symmetrie&quot; nicht verwendet wird
 * [Absturz] [Ebenenstapel] Erstellen einer Ebene, wenn nichts ausgewählt ist
-* [Project] Mesh Maps können nach dem Entfernen nicht verwendeter Ressourcen beschädigt werden.
-* [Projekt] Ressourcenbeschädigung nach dem erneuten Importieren oder Backen des Images
+* [Project] Mesh-Map können nach dem Entfernen nicht verwendeter Ressourcen beschädigt werden.
+* [Projekt] Ressourcenbeschädigung nach dem erneuten Importieren oder Baking des Images
 * [Assets] Durch erneutes Laden eines Assets wird es aus den Favoriten entfernt
 * [Importieren] Ressourcen können nicht importiert werden, wenn im Bedienfeld &quot;Asset&quot; &quot;Kein Ergebnis gefunden&quot; angezeigt wird
 * [UI] Der kontextbezogene Symbolleistenpfeil wird in einigen Fällen nicht angezeigt
@@ -302,12 +294,12 @@ Zusammenfassung: <b>Hauptversion mit SVG- und Transparenzunterstützung sowie Ve
 
 <b>Bekannte Probleme:</b>
 
-* [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
 * [Absturz]&#x200B;[Linux] mit Linux Wayland auf AMD beim Ziehen und Ablegen von Ressourcen im Ebenenstapel
-* [Absturz]&#x200B;[Mac] Ändern des anisotropen Filterwerts unter Monterey OS
+* [Absturz]&#x200B;[Mac] Ändern des Werts für anisotrope Filterungen unter Monterey OS
 * [Absturz] Exr als Bildeingabe verwendet
-* [Absturz] Verwenden der 16.000-KB-Umgebungszuordnung
-* [Automatisches Ausgliedern] UI-Problem für Texeldichtesteuerung
+* [Absturz] Verwenden von 16.000 Umgebungs-Map
+* [Automatisch Entpackt] UI-Problem für Texeldichtesteuerung
 * [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirm ist zu klein
-* [Python] Absturz beim Exportieren von USD, ausgelöst durch TextureStateEvent
+* [Python] Absturz exportieren USD ausgelöst durch TextureStateEvent
 * [QoL] Ziehen und Ablegen von Alpha-Ressourcen im Aufklebermodus erzeugt UV-Projektion in der Maske

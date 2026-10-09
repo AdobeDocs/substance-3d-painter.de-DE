@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-10-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 10.0, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 10.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 
 # Version 10.0
 
@@ -62,7 +54,7 @@ Mit dieser neuen Version wird die <b>Textressource</b> eingeführt, mit der Schr
 Nach der Unterstützung für <b>.svg</b>-Dateien bietet diese neue Version auch die Möglichkeit, Illustrator-Dateien (<b>.ai</b>) zu importieren.
 
 * <b>Unterstützung für Illustrator-Dateien (.ai)</b>\
-  In dieser neuen Version können AI-Dateien jetzt in Painter importiert und gerendert werden, um sie als Ressource in Pinseln, Füllprojektionen oder als Substance-Bildeingaben zu verwenden.
+  In dieser neuen Version können AI-Dateien jetzt in Painter importiert und gerendert werden, um sie als Ressource in Pinseln, Fülldateien oder als Substance-Projektionen zu verwenden.
 * <b>.svg- und .ai-Dateien verwenden gemeinsame Einstellungen</b>\
   SVG- und Illustrator-Dokumente haben ähnliche Einstellungen, insbesondere die Parameter für Auflösung, Freistellungsbereich und Bereichsauswahl. Dies bedeutet, dass vektorielle Ressourcen auf ähnliche Weise verwaltet werden können.
 
@@ -239,26 +231,26 @@ Zusammenfassung: <b>Hauptversion, Edition des Ebenenstapels mit Python-API, Lese
 * [Textressource] Ermöglicht das Suchen/Anzeigen von Schriftarten in Mini-Regalen
 * [Textressource] Fehlermeldung/Dialogfeld hinzufügen, wenn eine inkompatible Schriftart importiert wird
 * Sonstiges
-* [Füllprojektion] Verbessern des Skalierungsmanipulatorverhaltens bei Verwendung kleiner Werte
-* [Manipulatoren] Hinzufügen eines neuen präzisen Modus beim Drücken von STRG-Tastenkombinationen
-* [Manipulatoren] Verbessern der Stabilität des Oberflächenmanipulators beim Übersetzen
+* [Projektion füllen] Verbessern Sie das Verhalten des Manipulators Skalierung bei Verwendung kleiner Werte
+* [Manipulator] Hinzufügen eines neuen präzisen Modus beim Drücken von STRG-Tastaturbefehl
+* [Manipulator] Verbessern der Stabilität des Manipulators auf der Oberfläche beim Kamera beweg
 * [Exportieren] Hinzufügen eines Farbraumnamens in SBSAR-Ausgaben
 * [Performance] Verbessern der Erkennungszeit von Elementen auf der Festplatte in Bibliotheken
-* [Substance] Update auf Substance-Engine Version 9.1.2
+* [Substance] Update auf Substance Engine Version 9.1.2
 * [Drag &amp; Drop] Ausrichten der Aufkleberdrehung an der Kamera beim Ablegen im Viewport
 * [Python] Edition des Ebenenstapels
 * [Python] Auswahl von Ebene, Effekt, Maske und Geomaske in der Benutzeroberfläche zulassen
 * [Python] Abrufen/Festlegen von Mischmodi für Ebenen
-* [Python] Abrufen/Festlegen von Projektionseinstellungen für Füllebenen zulassen
-* [Python] Abfragen der Substance-Materialfarbe aus einer Füllebene zulassen
-* [Python] Abfragen und Festlegen einheitlicher Farben und Ressourcen in Ebenen und Effekten zulassen
+* [Python] Einstellungen für die Füllebene-Projektion abrufen/festlegen
+* [Python] Abfrage der Substance-Material-Farbe aus einer Füllebene zulassen
+* [Python] Abfragen und Festlegen von einheitliche Farben und Ressourcen in Ebenen und Effekten zulassen
 * [Python] Erstellen und Bearbeiten von Textressourcen im Ebenenstapel zulassen
 * [Python] Bearbeiten aktiver Kanäle für Ebenen und Effekte zulassen
 * [Python] Batch-Aktionen können nur einmal rückgängig gemacht/wiederholt werden.
 * [Python] Laden/Bearbeiten von vektoriellen Quellparametern zulassen
 * [Python] Bearbeiten von Ebenen- und Effektfarbeneigenschaften mit Farbmanagement zulassen
 * [Python] Abfragen und Erstellen instanzierter Ebenen zulassen
-* [Python] Hinzufügen eines Farbauswahleffekts zulassen
+* [Python] Hinzufügen des Effekts &quot;Farbauswahl&quot; zulassen
 * [Python] Steuern des Farbmanagements für Bitmapbilder
 * [Python] Engine anhalten/fortsetzen
 * [Python] Navigation zu gleichrangigen und übergeordneten Knoten zulassen

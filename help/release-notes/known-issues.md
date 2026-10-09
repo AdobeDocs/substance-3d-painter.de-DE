@@ -1,16 +1,10 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Informieren Sie sich über bekannte Probleme bei Substance 3D Painter , um über die aktuellen Einschränkungen und Problemumgehungen in der neuesten Version auf dem Laufenden zu bleiben.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Bekannte Probleme
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -47,10 +41,10 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Su
 * `[Shelf]` Ressourcen erhalten die falsche Verwendung, wenn sie in einen Ordner mit einem bestimmten Namen platziert werden
 * `[Shelf]` `[Substance]` Benutzerdaten werden für die Generierung von Regal-Miniaturansichten nicht berücksichtigt
 
-* `[Shader]` Parameter &quot;camera_vp_matrix_inverse&quot; wird nicht erkannt.
-* `[Shader]` Benutzer0-Kanal kann mit einem bestimmten Shader immer nicht als sRGB gelesen werden.
+* `[Shader]` Parameter &quot;Kamera_vp_matrix_inverse&quot; wird nicht erkannt.
+* Der `[Shader]`-Benutzerkanal 0 kann immer nicht als sRGB mit einem bestimmten Shader gelesen werden.
 
-* `[Scripting]` `[Javascript]` Tippfehler &quot;deaktiviert&quot; beim Festlegen des Dithering-Parameters in Exportfunktionen
+* `[Scripting]` `[Javascript]` Tippfehler &quot;deaktiviert&quot; beim Angeben des Dithering-Parameters in Exportfunktionen
 * `[Scripting]` `[Python]` Verschiedene Tippfehler im Modul substance_painter.project
 
 * `[Path]` Height-Überblendung vieler Pfade kann Artefakte verursachen
@@ -59,7 +53,7 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Su
 * Das in der Grundfarbe-Ansicht gespeicherte Projekt &quot;`[Single Channel View]`&quot; sieht nach dem Versionsupdate von Painter dunkler aus
 * Das in der Grundfarbe-Ansicht gespeicherte Projekt &quot;`[Single Channel View]`&quot; sieht nach dem Versionsupdate von Painter dunkler aus
 
-* `[gltf]` Dateien, die über Babylon Exporter exportiert wurden, können nicht geöffnet werden.
+* `[gltf]` Dateien, die über Babylon Exporter exportiert wurden, können nicht geöffnet werden
 * `[Displacement]` Störung beim Malen
 * `[Polygon Fill Tool]` Falsche Auswahl mit Symmetrie
 * `[2D view]` Striche werden beim Malen manchmal nicht angezeigt
@@ -73,9 +67,9 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Su
 * `[Anchor point]` Fehlerhafte Verweise beim Kopieren und Einfügen von Maskeninhalten
 * `[Mesh export]` Die Namen neuer Textursatz werden nicht berücksichtigt.
 * `[Anchor Points]` Falsche Farbe bei Verwendung im Generator
-* `[Bakers]` ID Map Baker berücksichtigt kein physisches Material vom Typ 3ds Max 2021
+* `[Bakers]` ID-Map-Baker berücksichtigt kein physisches Material der 3ds Max 2021-Version
 * `[UV Tiles]` Keine Fehlermeldung beim Überlappen von UV-Leerzeichen mit einem bestimmten Mesh
-* `[GLTF]` `[Crash]` Das Erstellen eines Projekts mit einer komprimierten GLTF-Datei führt zu einem Absturz
+* `[GLTF]` `[Crash]` Das Erstellen eines Projekts mit einer komprimierten GLTF-Datei verursacht einen Absturz
 * `[UV Tile sequence]` Positionszuordnungen werden nicht korrekt importiert
 * Die `[UVTiles]`-Height-Kombinationsmaske wird nicht mit der UV-Kachel aktualisiert.
 * `[Import]` Die OBJ-Datei mit &quot;nan&quot;-Werten kann nicht importiert werden.
@@ -91,12 +85,12 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Su
 * `[Export mesh]` Versatz wurde nicht mit eingerichteten bestimmten UV-Kacheln exportiert.
 * `[RedHat]` Probleme mit der Farbauswahl
 * `[Regression]` `[UI]` Das Kontextmenü ist auf dem HD-Bildschirm zu klein.
-* `[Resources]` Importierte Netzzuordnungen werden bei der automatischen Aktualisierung ignoriert.
+* `[Resources]` importierte Mesh-Map werden von der automatischen Aktualisierung ignoriert.
 * `[User Channels]` Vorschau des Farbmischraums ist falsch
 * Die Geometrieauswahl &quot;`[Mask]`&quot; ist nach dem Wechsel in den Baking-Modus noch aktiv.
 * `[Sonoma]` Symbole werden nicht in Menüs angezeigt
 * `[Polygon Fill]` Durch Ändern des Farbraums der Grundfarbe wird die Farbauswahl nicht aktualisiert
-* `[UV Padding]` Artefakte beim Hochskalieren der Textur von 4k auf 8k beim Export
+* `[UV Padding]` Artefakte beim Hochskalieren der Textur von 4K auf 8K beim Export
 * `[Performances]` Painter VRAM Verwendung
 * `[FBX]` Größenprobleme
 * `[Texture set list]` UV-Kacheln können gleichzeitig mit einem Textursatz ausgewählt werden.

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/polygon-fill.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Mit dem Polygon-Füllwerkzeug in Substance 3D Painter können Sie ausgewählte Polygone mit Malen füllen, um effizient Texturen malen zu können.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Polygon fill
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Polygon-Füllen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
-
 ---
-
 
 # Polygon-Füllen
 

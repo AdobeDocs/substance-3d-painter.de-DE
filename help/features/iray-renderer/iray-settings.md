@@ -1,37 +1,29 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/iray-renderer/iray-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie in Substance 3D Painter Iray-Renderereinstellungen konfigurieren, um die Rendering-Qualität und -Performance zu steuern.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer > Iray Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Iray-Einstellungen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
-
 ---
-
 
 # Iray-Einstellungen
 
 ![](../../assets/iray-settings.png)
 
-Die Iray-Einstellungen steuern das Rendering des IRay-Viewports, seine Laufzeit und seine Qualität.
+Die Iray-Einstellungen steuern das Rendering des Iray-Viewports, seine Laufzeit und seine Qualität.
 
-## Information über Iray
+## Iray-Informationen
 
 Im oberen Bereich des Fensters wird der Status des Irays neben anderen Informationen angezeigt.
 
 | *Einstellung* | *Beschreibung* |
 | --- | --- |
 | **Status** | Der Status zeigt an, wie das Iray funktioniert :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Rendern</strong> (Iray berechnet das Bild)</li><li data-preserve-html="true"><strong>Angehalten</strong> (Iray wurde beendet, aber nicht beendet)</li><li data-preserve-html="true"><strong>Fertig</strong> (Iray-Berechnung abgeschlossen oder Einstellungswerte erreicht)</li></ul> |
-| **Auflösung** | Die Auflösung des Iray-Bildes (standardmäßig abhängig von der Viewport-Größe). |
+| **Auflösung** | Die Auflösung des Iray-Bildes (standardmäßig abhängig von der Größe des Viewports). |
 | **Größe der Szene** | Die Größe des Begrenzungsrahmens der Szene/des 3D-Mesh. Es gibt keine Einheit, aber es wird angenommen, dass es in Zentimetern ist. |
 | **Iterationen** | Die Anzahl der Berechnungen, die von Irays über den in den Einstellungen festgelegten Höchstwert durchgeführt werden. |
 | **Renderzeit** | Die verstrichene Zeit beim Rendern über die in den Einstellungen definierte maximale Zeit. |

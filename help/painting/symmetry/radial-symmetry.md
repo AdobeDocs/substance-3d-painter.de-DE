@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/symmetry/radial-symmetry.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie die radiale Symmetrie in Substance 3D Painter, um symmetrisch um einen Mittelpunkt zu Malen, um kreisförmige Muster zu erstellen.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Radialsymmetrie
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 1%
-
 ---
-
 
 # Radialsymmetrie
 
@@ -28,7 +20,7 @@ Bei der radialen Symmetrie werden Striche oder Füllebenen radial um eine Achse 
 
 Sie können über die Schaltfläche &quot;<b>Symmetrie-Einstellungen&quot; </b> in der kontextbezogenen Symbolleiste oben in der 3D-Symmetrie auf die Anzeigeeinstellungen für die 3D-Ansicht zugreifen. Unter den Anzeigeeinstellungen können Sie den Manipulator aktivieren und anpassen. Ziehen Sie in der 3D-Ansicht an den Griffen des Manipulators, um die Achse der Symmetrie zu ändern.
 
-![Ein Screenshot des Bedienfelds mit den Einstellungen für die radiale Symmetrie, wobei der Manipulator im Viewport sichtbar ist.](../../assets/RadialSymmetryManip.png){width="600px"}
+![Ein Screenshot des Einstellungsfensters für die radiale Symmetrie mit dem Manipulator, der im Viewport angezeigt wird.](../../assets/RadialSymmetryManip.png){width="600px"}
 
 ## Parameter für die radiale Symmetrie
 
@@ -38,7 +30,7 @@ Sie können über die Schaltfläche &quot;<b>Symmetrie-Einstellungen&quot; </b> 
 | --- | --- |
 | <b>Achse</b> | Definiert, welche Achse der Szene zum Ausführen der Symmetrie verwendet wird. |
 | <b>Kopie spiegeln</b> | Wechselnde Kopien auf der U- oder V-Achse spiegeln. Dies ist hilfreich, wenn Sie Symmetrie auf Inhalt anwenden, der eine Richtung wie Text aufweist. |
-| <b>Position der Achse: X, Y, Z</b> | Definiert den Versatz der Achse im Projekt. Dieser Wert kann mit den Reglern oder mit dem Manipulator (siehe oben) bearbeitet werden. |
+| <b>Position der Achse: X, Y, Z</b> | Definiert den Offset der Achse im Projekt. Dieser Wert kann mit den Reglern oder mit dem Manipulator (siehe oben) bearbeitet werden. |
 | <b>Achse anzeigen</b> | Wenn diese Option aktiviert ist, wird im Viewport eine durchsichtige Linie angezeigt, die die Achse der Symmetrie darstellt. |
 | <b>Schnittmenge anzeigen</b> | Wenn diese Option aktiviert ist, wird ein Punkt auf dem Mesh im Viewport gezeichnet, um anzuzeigen, wo sich die Achse der Symmetrie mit dem Mesh überschneidet. |
 | <b>Cursor (Pinselwerkzeug) anzeigen</b> | Wenn diese Option aktiviert ist, wird ein zweiter Cursor auf der anderen Seite der Symmetrie angezeigt, der angibt, wann das Malen ausgeführt wird. |

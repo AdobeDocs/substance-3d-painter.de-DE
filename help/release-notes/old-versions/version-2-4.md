@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2.4, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # Version 2.4
 
@@ -42,11 +34,11 @@ Mit der Nachbearbeitung des Regals **haben wir auch das Ressourcenimportfenster*
 
 Weitere Informationen finden Sie im entsprechenden Teil der Dokumentation : [Ressourcen werden über das Importfenster hinzugefügt](https://helpx.adobe.com/de/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
-### Neue Partikelvorgaben
+### Neue Partikel-Vorgaben
 
 ![](../../assets/particle-240.png)
 
-Die vorherige **Partikelvorgabe** wurde **überarbeitet**, um einsatzbereiter zu sein (insbesondere die **Regen**-Vorgabe). Wir haben diese Gelegenheit auch genutzt, um **neue Vorgaben** mit neuen Verhalten hinzuzufügen: Sehen Sie sich **Elektrische Schaltung, elektrische Leitungen, Rokoko und Adern klein** an!
+Die vorherige **Partikeln-Vorgabe** wurde **überarbeitet**, um einsatzbereiter zu sein (insbesondere die **Regen**-Vorgabe). Wir haben diese Gelegenheit auch genutzt, um **neue Vorgaben** mit neuen Verhalten hinzuzufügen: Sehen Sie sich **Elektrische Schaltung, elektrische Leitungen, Rokoko und Adern klein** an!
 
 ## Tutorial
 

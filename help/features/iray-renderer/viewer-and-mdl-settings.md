@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
-breadcrumb-title: ''
-description: Erfahren Sie, wie Sie den Viewer und die MDL-Einstellungen für den Iray-Renderer in Substance 3D Painter konfigurieren, um das Rendering von Material anzupassen.
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer > Viewer and MDL Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Erfahren Sie, wie Sie Viewer- und MDL-Einstellungen für den Iray-Renderer in Substance 3D Painter konfigurieren, um das Rendering von Materialien anzupassen.
 title: Viewer- und MDL-Einstellungen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
-
 ---
-
 
 # Viewer- und MDL-Einstellungen
 
@@ -28,7 +20,7 @@ Wie im regulären Viewport steuert die in Iray verwendete Umgebungs-Map die Bele
 Die Umgebungskarte kann durch Klicken auf den Button oder durch Ziehen und Ablegen einer HDR Textur verändert werden.
 
 * **Umgebungsbelichtung** : Steuern Sie die Belichtungsstufe der HDR. Umgebungs-Map.
-* **Umgebungsrotation** : , um die Umgebungstextur zu verschieben und die Beleuchtung um die Szene zu drehen.
+* **Umgebungsrotation** : , um die Textur der Umgebung zu ändern und die Beleuchtung um die Szene zu drehen.
 
 >[!NOTE]
 >

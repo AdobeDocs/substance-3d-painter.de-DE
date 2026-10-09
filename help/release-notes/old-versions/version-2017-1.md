@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2017.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2017.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 
 # Version 2017.1
 

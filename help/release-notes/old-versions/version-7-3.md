@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-7-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 7.3, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 7.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 0%
-
 ---
-
 
 # Version 7.3
 
@@ -86,7 +78,7 @@ Diese Version bietet verschiedene Verbesserungen der Lebensqualität beim Farbw�
 
   ![](../../assets/colorpicker-swatches.gif)
 * **Das Farbauswahlfenster bleibt geöffnet**\
-  Das Farbwählerfenster kann jetzt verschoben und an einer beliebigen Stelle platziert werden, auch auf einem anderen Bildschirm. Es bleibt geöffnet, solange kein Kontextschalter vorhanden ist. Das bedeutet, dass Sie das Farbwählerfenster für einen einfacheren Zugriff geöffnet lassen können, wenn Sie beim Malen von Texturen zwischen den Malebenen wechseln.
+  Das Farbwählerfenster kann jetzt verschoben und an einer beliebigen Stelle platziert werden, auch auf einem anderen Bildschirm. Es bleibt geöffnet, solange kein Kontextschalter vorhanden ist. Wenn Sie also beim Malen mit der Hand zwischen den Malebenen wechseln, können Sie das Farbwählerfenster für einen einfacheren Zugriff geöffnet lassen.
 
   ![](../../assets/picker-persistent.gif)
 
@@ -100,8 +92,8 @@ Weitere Informationen finden Sie auf der [Seite der dedizierten Dokumentation](.
 ### Weitere Funktionen und Verbesserungen
 
 * **Verbesserungen beim Ziehen und Ablegen von Elementen**\
-  Mit der Einführung der Verkrümmung wurde die Aufkleberfunktion, mit der Elemente aus der Bibliothek in den Viewport gezogen und abgelegt werden können, während die ALT-Taste beibehalten wird, überarbeitet. Wenn ein Aufkleber auf diese Weise erstellt wird, verwendet er nicht mehr die Planare Projektion, sondern die Verkrümmen-Projektion. Die automatische Auswahl der Projektion &quot;Verformen&quot; sollte die Geschwindigkeit und Effizienz der Aufkleberanpassungen auf dem Mesh verbessern.\
-  Darüber hinaus ist es jetzt möglich, nicht nur Materialien, sondern bildartige Elemente in den Viewport zu ziehen und dort abzulegen. Bei der Auswahl eines Alpha-Elements, einer Textur oder eines prozeduralen Elements ist die Verwendung des ALT-Modifizierers nicht erforderlich. Das Bild kann auf den Mesh abgelegt werden. In diesem Menü kannst du auswählen, ob das Bild in einer Maske oder in einem der Ebenenkanäle verwendet werden soll.
+  Mit der Einführung der Verkrümmung wurde die Aufkleberfunktion, mit der Elemente aus der Bibliothek in den Viewport gezogen und dort abgelegt werden können, während die ALT-Taste beibehalten wird, überarbeitet. Wenn ein Aufkleber auf diese Weise erstellt wird, verwendet er nicht mehr die Planare Projektion, sondern die Verkrümmen-Projektion. Die automatische Auswahl der Projektion &quot;Verformen&quot; sollte die Geschwindigkeit und Effizienz der Aufkleberanpassungen auf dem Mesh verbessern.\
+  Darüber hinaus ist es jetzt möglich, nicht nur Materialien, sondern bildartige Elemente in den Viewport zu ziehen und dort abzulegen. Bei der Auswahl eines Alpha-, Textur- oder prozeduralen Werts ist die Verwendung des ALT-Modifizierers nicht erforderlich. Das Bild kann auf den Mesh abgelegt werden. In diesem Menü kannst du auswählen, ob das Bild in einer Maske oder in einem der Ebenenkanäle verwendet werden soll.
 
   ![](../../assets/improved-decal.gif)
 
@@ -172,5 +164,5 @@ Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion,
 * [Projektion]&#x200B;[Verkrümmen] Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum festgelegt ist
 * [Projektion]&#x200B;[Verformen] Artefaktlinien zwischen Patches in seltenen Fällen
 * [Projektion]&#x200B;[UV] Der Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt.
-* [Mac M1] Smart-Materialien werden nicht korrekt angezeigt
-* [M1]&#x200B;[Regression] Materialschichtung funktioniert nicht
+* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
+* [M1]&#x200B;[Regression] Material-Layer funktioniert nicht

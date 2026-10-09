@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Substance 3D Painter-Absturz beim Baking beheben können, um zuverlässige Workflows zum Baking von Texturen zu erhalten.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash while baking
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Absturz beim Baking
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # Absturz beim Baking
 
@@ -24,7 +16,7 @@ Bei einigen Konfigurationen kann es zu Abstürzen beim Baking von Substance 3D P
 
 ## Absturz mit Baking führend Vorschau
 
-Standardmäßig zeigt Substance 3D Painter im Viewport den Status an, in dem sich das Backen einer Textur befindet. Auf einigen Computern kann diese Funktion zu Instabilitäten führen.
+Standardmäßig zeigt Substance 3D Painter im Viewport den Status In Bearbeitung des Bakings einer Textur an. Auf einigen Computern kann diese Funktion zu Instabilitäten führen.
 
 So deaktivieren Sie es:
 
@@ -46,7 +38,7 @@ So deaktivieren Sie es:
 
 Die Anwendung kann während des Bakings auf einer Computerkonfiguration, die mit einer Ryzen-CPU ausgeführt wird, einen Absturz aufweisen. Ein Update des BIOS behebt das Problem in der Regel.
 
-Dies bezieht sich auf Multithreadberechnungen. Viele Motherboard-Konstruktoren haben neue BIOS-Updates veröffentlicht, um dieses Problem zu beheben. Wir empfehlen daher, das Update anzuwenden. Weitere Informationen finden Sie im Handbuch zur Hauptplatine und auf der Website des Konstruktors.
+Dies bezieht sich auf Multithread-Berechnungen. Viele Motherboard-Konstruktoren haben neue BIOS-Updates veröffentlicht, um dieses Problem zu beheben. Wir empfehlen daher, das Update anzuwenden. Weitere Informationen finden Sie im Handbuch zur Hauptplatine und auf der Website des Konstruktors.
 
 ## Inkompatible Assbin-Dateien
 

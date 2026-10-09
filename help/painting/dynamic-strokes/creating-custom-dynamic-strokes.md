@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie in Substance 3D Painter benutzerdefinierte Dynamische Pinselstriche erstellen, um einzigartige Verhalten und Effekte für Pinselstriche zu entwerfen.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Erstellen benutzerdefinierter Dynamische Pinselstriche
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen benutzerdefinierter Dynamische Pinselstriche
 
@@ -43,7 +35,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Parameter für Dynamische 
 | <b>stampIndex</b> | <b>Ganzzahl1</b> Wird beim Malen des Pinselstrichs von Substance 3D Painter zugeführt. Die Minimal- und Maximalwerte haben keine Auswirkungen, sie werden von Substance 3D Painter ignoriert. |
 | <b>stampCycleCount</b> | <b>Ganzzahl1</b> Painter liest den Parameterstandardwert, den Minimal- und den Maximalwert, um den Parameter &quot;Stempelzyklusanzahl&quot; legen. Dieser Parameter steuert, wie viele eindeutige Substance-Varianten erstellt werden. |
 | <b>$time</b> | <b>Fließkommazahl1</b> Wird von Substance 3D Painter gespeist, wenn der Pinselstrich auf der Grundlage der verstrichenen Malzeit (pro Strich) gemalt wird. Diese Eigenschaft kann viele Substance-Varianten generieren und sich daher auf die Leistung auswirken. |
-| <b>strokeSpacing</b> | <b>float1</b> Der aktuelle Abstandswert für den gesamten gemalten Strich. |
+| <b>strokeSpacing</b> | <b>float1</b> Der aktuelle Abstand für den gesamten gemalten Strich. |
 | <b>strokeSize</b> | <b>float1</b> Der aktuelle Größenwert für den gesamten gemalten Strich. |
 | <b>stampStrokePosition</b> | <b>Ganzzahl1</b> Wird verwendet, um den Beginn/Anfang einer Kontur anzugeben. Der Endwert ist nur auf dem Pfadstrich verfügbar, nicht beim manuellen Malen. Mögliche Werte:<ul data-preserve-html="true"> <li data-preserve-html="true">0 = Mitte</li> <li data-preserve-html="true">1 = Start</li> <li data-preserve-html="true">2 = Ende</li> </ul>Kann mit dem isstrokepositionactive Benutzertag deaktiviert werden. |
 | <b>distanceAlongCurve</b> | <b>float1</b> Der aktuelle Abstand am angegebenen Stempel entlang eines Pfads. Diese Eigenschaft kann viele Substance-Varianten generieren und sich daher auf die Leistung auswirken. Kann mit dem <b>iscurvedistanceactive</b>-Benutzer-Tag deaktiviert werden. |

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-10-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 10.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 10.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
-
 ---
-
 
 # Version 10.1
 
@@ -68,7 +60,7 @@ In dieser Version wurden mehrere neue Filter hinzugefügt, um den Texturierungsp
   Der Smoothstep-Filter ist eine andere Möglichkeit, Graustufeninformationen auf eine Ebene oder einen Kontrast zu reduzieren. Dieser Filter wendet auch eine exponentielle Kurve auf das Ergebnis an, wodurch es möglich ist, lineare Verläufe in glatte Kurven umzuwandeln.
 
   ![](../assets/v101_filter_smoothstep.jpg)
-* <b>Verbesserte Transformieren- und Spiegelungsfilter</b>\
+* <b>Verbesserte Transformieren- und Spiegelfilter</b>\
   Der transformieren-Filter wurde aktualisiert, um eine ungleichmäßige Skalierung, horizontales oder vertikales Spiegeln und einfachere Verwendung von Parametern zu unterstützen. Der Spiegelfilter wurde ebenfalls mit einfacheren Parametern aktualisiert.
 
   ![](../assets/v101_filter_transform.jpg)
@@ -156,36 +148,36 @@ Zusammenfassung: <b>Hauptversion, neuer Inhalt: Füllbereichsmaske/Farbfilter, S
 * [VFX Platform 2024] Update auf Python 3.11
 * [VFX Platform 2024] Update auf OpenEXR 3.2
 * [VFX Platform 2024] [USD] Update OpenSubdiv 3.6.0
-* [VFX Platform 2024]&#x200B;[Color Management] Update auf OCIO 2.3.2
+* [VFX Platform 2024]&#x200B;[Farbmanagement] Update auf OCIO 2.3.2
 * [Linux] Migration zu Linux RedHat
 * [Linux] Aktualisieren Sie den Nvidia-Treiber auf Version 535.171.04
-* [Importieren] Fügen Sie eine Option hinzu, um die normale Map beim Importieren eines GLTF-Gitters zu spiegeln.
+* [Importieren] Hinzufügen einer Option zum Spiegeln von Normalen-Map beim Importieren eines GLTF-Meshs
 * [UI] Standardwert des Betriebssystems für die Entfernung der Erkennung von Ziehereignissen verwenden
 * [Substance Engine] Fügen Sie eine Aufrufstreifenfunktion hinzu, um die Symbole aus der ausführbaren Datei zu entfernen.
 * [Begrüßungsbildschirm] Update auf neues Begrüßungsbildschirmformat
 * Substance Engine auf Version 9.1.3 aktualisieren
-* [Python] Link zu Beispielen im Dokumentationsmenü des Ebenenstapels anzeigen
+* [Python] Link zu Beispielen im Ebenenstapel-Dokumentationsmenü anzeigen
 * [JavaScript] Verschieben von JavaScript-Plugins in den Unterordner &quot;javascript/plugins&quot;
 
 <b>Fest</b>:
 
 * [Illustrator] Absturz beim Exportieren einer UV-Kachel mit .ai-Grafik in bestimmten Fällen
 * [Dynamische Pinselstriche]&#x200B;[Pfad] Zufällig pro Strich funktioniert nicht auf einem Pfad
-* [UI]&#x200B;[Eigenschaften] Sperre ist aktiviert, wenn die Unterteilung nicht einheitlich ist
+* [UI]&#x200B;[Eigenschaften] Sperre ist aktiviert, wenn die Kachelung nicht einheitlich ist
 * &#x200B; TXT-Datei wird erstellt, wenn Sie auf ein Painter-Projekt doppelklicken
-* [USD]&#x200B;[Export] Möglicherweise fehlen einige Texturen.
-* [ASM] Beim Streufarbkanal werden metallische
+* [USD]&#x200B;[Exportieren] Möglicherweise fehlen einige Texturen.
+* [ASM] Farbstreuung-Kanal ignoriert metallic
 * [Inhalt] Weichzeichnungsfilter funktioniert nicht im &quot;funktionierenden&quot; Farbraum
 * [Inhalt] Height Der Filter &quot;Anpassen&quot; ändert auch das Alpha der Ebene.
 
 <b>Bekannte Probleme</b>:
 
-* [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Win]&#x200B;[Absturz] [ACE] sRGB ICE-Farbraum wird für die Bildschirmtransformation nicht verwendet.
+* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* [Win]&#x200B;[Absturz] [ACE] Der sRGB-ICE-Farbraum für die Anzeige wird nicht transformieren.
 * [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Crash]&#x200B;[Python] USD-Export, ausgelöst durch TextureStateEvent
+* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
 * [MacOS Intel] Absturz beim Importieren einiger Vorgaben
-* [Absturz] Ressource verschieben und Projekt speichern
-* [Engine] Malen mit dem Kopierwerkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Das Ghost-Widget wird durch das noch funktionierende Skript gelöscht.
+* [Absturz] Ressource Verlagert und Projekt gespeichert
+* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
 * [RedHat] Probleme mit dem Farbwähler

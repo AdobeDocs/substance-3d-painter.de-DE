@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/window-menu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie das Menü "Fenster" in Substance 3D Painter verwenden, um Bedienfelder der Benutzeroberfläche zu verwalten und Ihr Arbeitsbereichlayout anzupassen.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Main menu > Window menu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Menü "Fenster"
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 10%
-
 ---
-
 
 # Menü &quot;Fenster&quot;
 

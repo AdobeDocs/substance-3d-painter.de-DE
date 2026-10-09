@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2017.3 , um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2017.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 
 # Version 2017.3
 
@@ -30,7 +22,7 @@ Freigabedatum: *28. September 2017*
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-Einer der neuen Exporteure, die in dieser Version enthalten sind, ist die Unterstützung für Adobe-Standardmaterialien, die mit Adobe Dimension (früher Adobe Project Felix) verwendet werden sollen. Sie können den Szene-Mesh und seine Texturen exportieren, um sie mit einem Klick in Project Felix zu importieren. Um darauf zuzugreifen, wählen Sie einfach &quot;**Adobe Standard Material**&quot; im Fenster &quot;Texturen exportieren&quot; aus. Weitere Informationen finden Sie unter: [http://www.adobe.com/de/products/dimension.html](https://www.adobe.com/de/products/dimension.html)
+Einer der neuen Exporter, die in dieser Version enthalten sind, ist die Unterstützung des Adobe Standard Materials, das mit Adobe Dimension (früher Adobe Project Felix) verwendet werden kann. Sie können den Szene-Mesh und seine Texturen exportieren, um sie mit einem Klick in Project Felix zu importieren. Um darauf zuzugreifen, wählen Sie einfach &quot;**Adobe Standard Material**&quot; im Fenster &quot;Texturen exportieren&quot; aus. Weitere Informationen finden Sie unter: [http://www.adobe.com/de/products/dimension.html](https://www.adobe.com/de/products/dimension.html)
 
 Sie können auch unseren Blogpost darüber lesen: <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -38,7 +30,7 @@ Sie können auch unseren Blogpost darüber lesen: <https://www.allegorithmic.com
 
 ![](../../assets/gltf-export.jpg)
 
-Wir haben außerdem Unterstützung für das Dateiformat **glTF** mit dem Export des **Szenengitters** und der **PBR-Texturen** (Metallisch/Raueit) hinzugefügt. Um darauf zuzugreifen, wählen Sie im Fenster &quot;Exporteinstellungen&quot; einfach &quot;**glTF PBR Metal Rauheit**&quot; aus. **glTF** ist ein Open-Source-Dateiformat, das von der Gruppe Khronos geleitet wird. Sie können Ihre glTF-Datei in **Windows 10** anzeigen oder einfach einen WebGL-Viewer wie [**Babylon**](http://sandbox.babylonjs.com/) verwenden.
+Wir haben außerdem Unterstützung für das Dateiformat **glTF** mit dem Export des Meshs **Szene** und der Texturen **PBR** (metallic/Rauheit) hinzugefügt. Um darauf zuzugreifen, wählen Sie im Fenster &quot;Exporteinstellungen&quot; einfach &quot;**glTF PBR Metal Rauheit**&quot; aus. **glTF** ist ein Open-Source-Dateiformat, das von der Gruppe Khronos geleitet wird. Sie können Ihre glTF-Datei in **Windows 10** anzeigen oder einfach einen WebGL-Viewer wie [**Babylon**](http://sandbox.babylonjs.com/) verwenden.
 
 Weitere Informationen finden Sie unter: <https://github.com/KhronosGroup/glTF>
 
@@ -97,19 +89,19 @@ Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistu
 * [UI] Dialogfeld &quot;Neue Version verbessern&quot; und Änderungsprotokoll hinzufügen
 * [UI] Geben Sie an, ob die Wartung im Dialogfeld &quot;Neue Version&quot; abgelaufen ist
 * [Lizenz] Aktualisieren Sie das Lizenzsystem, um Wartungsdaten zu verarbeiten.
-* [Exportieren] Adobe-Standardmaterial in Adobe Dimension umbenennen
+* [Exportieren] Adobe Standard Material in Adobe Dimension umbenennen
 
 **Fest:**
 
-* [Mac] Malerei führt zu schwarzen Quadraten und Beschädigungen der Textur
-* [Engine] Cache kann im Viewport manchmal verschwinden
+* [Mac] Das Malen führt zu schwarzen Quadraten und Beschädigungen der Textur
+* [Engine] Der Cache kann manchmal im Viewport verschwinden
 * [Engine] Blockige Artefakte werden angezeigt, wenn der Speicherkomprimierungsauslöser aktiviert wird
-* [Backen] Seltsame Fehlermeldungen beim Backen bestimmter Gitter
+* [Baking] Seltsame Fehlermeldungen beim Baking bestimmter Mesh
 * [Exportieren] PSD werden falsch geschrieben und von Photoshop nicht richtig erkannt
 * [Ebenen] Ebenen sollten nicht projektübergreifend kopiert/eingefügt werden können.
 * [Substance] UserData-Farbraum für normale Eingabe wird in einigen Fällen gespiegelt
-* [Shelf] Mikronormale in Generatoren erzeugen invertierte Krümmung
-* [Shelf] HSL-Filter wirken sich auch auf den Alphakanal aus.
+* [Regal] Mikronormal in Generatoren gibt invertierte Krümmung aus
+* [Regal] HSL wirken sich auch auf den Alphakanal aus
 * [Linux] Installation auf Centos schlägt aufgrund fehlender Abhängigkeiten fehl.
 * Das Installationsprogramm entfernt in bestimmten Fällen nicht alle Ressourcen aus der vorherigen Installation
 
@@ -119,29 +111,29 @@ Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistu
 
 **Hinzugefügt:**
 
-* [Exportieren] Exportieren des Gitters aus einem Projekt zulassen
-* [Shelf] Entfernen Sie &quot;Sub-Shelf&quot; aus den Registerkartentiteln.
+* [Exportieren] Mesh aus einem Projekt exportieren
+* [Regal] Entfernen Sie &quot;Sub-Regal&quot; aus den Registerkartentiteln.
 * Einstellungen für die Nachbearbeitung in Vorlagen speichern
 * Die TDR-Meldung verständlicher machen
 * Fenster &quot;Einstellungen&quot; verbessern, um Fehler zu melden
 
 **Fest:**
 
-* Absturz beim Löschen mehrerer Unterböden
-* Absturz beim Umschalten von einem Level auf einen anderen während einer Motorberechnung
+* Absturz beim Löschen mehrerer untergeordneter Regal
+* Absturz beim Wechsel von einer Ebene zu einer anderen während einer Engine-Berechnung
 * [Mac] Absturz auf der Intel-GPU während der Engine-Berechnungen
-* [Mac]&#x200B;[Viewport] Fehlerhafte Bewegungen, wenn Dithering aktiviert ist
+* [Mac]&#x200B;[Viewport] Fehlerhafte Leistung, wenn Dithering aktiviert ist
 * [Mac] MacOS 10.13 wird in der Protokolldatei als &quot;Unbekannte Version&quot; erkannt
-* [Bäcker] Backen mit einem Käfig funktioniert nicht mehr
-* [Ebenen] Strg + C (Aktion kopieren) funktioniert nicht mehr
+* [Baker] Das Baking führ mit einem Käfig funktioniert nicht mehr
+* [Ebenen] Strg + C Tastaturbefehl (Aktion kopieren) funktioniert nicht mehr
 * [Ebenen] Beim Einfügen von Ebenen wird die Benutzeroberfläche mit Ankerreferenzen nicht aktualisiert
 * [Anker] Duplizieren oder Kopieren/Einfügen der Ebene mit Referenzen unterbricht Verknüpfungen
-* [Export] 8K-Export kann in einigen Fällen einen Absturz oder eine Deadlock-Anwendung verursachen
+* [Exportieren] 8K-Export kann Absturz oder Deadlock-Anwendung in einigen Fällen
 * [Export] Mehrere Probleme im generierten glTF-Dateiformat
-* [Importieren] Das erneute Importieren eines Gitters mit demselben Dateinamen funktioniert nicht mehr
+* [Importieren] Der erneute Import eines Meshs mit demselben Dateinamen funktioniert nicht mehr
 * [Plugin] Fenster zum automatischen Speichern wird immer über allem angezeigt
 * [UI] Endlose Schleife, wenn Sie im TDR-Dialog &quot;Escape&quot; drücken
-* [UI] UI zurücksetzen zeigt eine zweite Titelleiste im Shelf-Fenster an
+* [UI] &quot;UI zurücksetzen&quot; zeigt eine zweite Titelleiste im Fenster &quot;Regal&quot; an
 
 ### 2017.3
 
@@ -149,24 +141,24 @@ Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistu
 
 **Hinzugefügt:**
 
-* [Exportieren] Exportieren von Gittern und Texturen für Adobe Project Felix
+* [Exportieren] Mesh und Texturen für Adobe Project Felix exportieren
 * [Exportieren] Export in das glTF-Dateiformat zulassen
-* [Engine] Optimieren der Texturgröße im VRAM mithilfe der Blockkomprimierung
-* [Viewport] Sie können ein Gitter oder Projekt im Viewport ziehen und ablegen.
+* [Engine] Optimieren der Größe von Texturen in VRAM mithilfe der Blockkomprimierung
+* [Viewport] Mesh oder Projekt in den Viewport ziehen und dort ablegen
 * [UI] Verbessern der Warnmeldung bei TDR
 * [UI] Protokoll sollte nur auf Anfrage angezeigt werden
 * [UI] Inhalt des Protokollfensters löschen
 * [UI] Anzeigen von Warnungen und Fehlern in der Statuszeile
 * [UI] Registerkarten oben anzeigen wie in Webbrowsern
-* [UI] Verbessern des Kontexts und der Nachrichten, die nicht bearbeitet werden können
+* [UI] Verbessern des Kontexts und der Meldungen &quot;nicht bemalbar&quot;
 * [UI] Aktion &quot;Als Kopie speichern&quot; im Dateimenü hinzufügen
 * [Ebene] Legen Sie die Standardeinstellung für die Kachelung standardmäßig auf 1 fest.
-* [Shelf] Verbesserter Verlaufsfilter zur Unterstützung von 10 dynamischen Farben
-* [Shelf] Fügen Sie in der Standardabfrage des Mini-Shelf ein Leerzeichen hinzu
+* [Regal] Verbesserter Verlaufsfilter zur Unterstützung von 10 dynamischen Farben
+* [Regal] Fügen Sie ein Leerzeichen in der Standardabfrage des Mini-Regals hinzu
 * [Regal] Hinzufügen einer Aktion &quot;Im Explorer öffnen&quot; für lokale Ressourcen im Regal
-* [Shelf] Vorlage und Shader für Adobe Material Standard hinzufügen (Project Felix)
-* [Shelf] Erhöhen der maximalen Kachelung auf 128 in den Materialschichtschattierungen
-* [Shelf] Zusätzliche Sobelkrümmung für Mikrodetails von Maskengeneratoren
+* [Regal] Vorlage und Shader für Adobe Material Standard hinzufügen (Project Felix)
+* [Regal] Erhöhen der maximalen Kachelung in Material-Ebenenschattierungen auf 128
+* [Regal] Hinzugefügte Sobel-Krümmung für Mikrodetails von Maskengeneratoren
 * [Plug-in] Plug-in zum automatischen Speichern mit anpassbarem Zeitintervall hinzufügen
 * [Skripterstellung] Hinzufügen einer Funktion zum Speichern als Kopie
 
@@ -174,20 +166,20 @@ Diese Version von Substance Painter bietet außerdem eine neue, deutliche Leistu
 
 * [UI] Layout wird beim ersten Start beschädigt
 * [Exportieren] Beim Exportieren generierte PSD weisen Formatfehler auf
-* [Exportieren] EXR exportiert immer 8-Bit-Height-Map
-* [Export] Absturz beim Exportieren beschädigter zusätzlicher Maps
-* [Importieren] Harte Kanten werden in einigen Fällen bei Maschen mit niedrigem Poly-Wert nicht beibehalten.
-* [Import] Verbesserte Fehlermeldungen beim Importieren von Netzen mit Problemen
-* [Bäcker] ID-Zuordnungssicherung schlägt fehl, wenn &quot;Mit Namen abgleichen&quot; aktiviert ist
-* [Viewport] Der Tangent-Bereich wird nicht mit Bäcker synchronisiert
+* [Exportieren] EXR exportiert immer 8-Bit-Höhen-Map
+* [Exportieren] Absturz beim Exportieren beschädigter zusätzlicher Maps
+* [Importieren] Harte Kanten werden bei niedrigen Poly-Meshs in einigen Fällen nicht beibehalten
+* [Import] Verbesserte Fehlermeldungen beim Importieren von Meshs mit Problemen
+* [Baker] ID-Map-Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; aktiviert ist
+* [Viewport] Tangente-Space wird nicht mit Bakern synchronisiert
 * [Effekt] Das Zurückverschieben einer Ebene stellt die Referenz eines Ankers nicht wieder her.
 * [Effekt] Aktualisierungsproblem beim Erstellen einer Verknüpfung zwischen zwei Masken mit Ankern
 * [Effekt] Maskenanker über der Maske sollten nicht aufgeführt werden
 * [Effekt] Die Einstellung &quot;Alpha aus Ankern extrahieren&quot; funktioniert nicht
 * [Engine] Maske kehrt sich nach dem ersten Pinselstrich um
-* [Engine] Absturz beim Wechseln des Textursatzes für ein bestimmtes Projekt
-* [Shelf] Absturz beim Löschen einer Vorgabe, die sich in einem Projekt befindet
-* [Shelf] Typo im erweiterten Tri-Planar Filter
-* [Shelf] MG Mask Builder AO Noise Scale funktioniert nicht richtig
-* [Shelf] MG Mask Builder hat umgekehrte Krümmungsparameter
-* [Shelf] Importierte Alphas erzeugen eine Materialkugel-Vorschau anstelle einer flachen Vorschau
+* [Engine] Absturz beim Wechseln des Textursatzes in einem bestimmten Projekt
+* [Regal] Absturz beim Löschen einer Vorgabe, die sich in einem Projekt befindet
+* [Regal] Typo in erweitertem Tri-Planar-Filter
+* [Regal] MG Mask Builder AO Rauschen Scale funktioniert nicht richtig
+* [Regal] MG Mask Builder hat invertierte Parameter für die Krümmung
+* [Regal] Importierte Alphas erzeugen eine Material-Kugelvorschau anstelle einer flachen.

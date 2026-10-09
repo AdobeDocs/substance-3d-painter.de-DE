@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/color-picker.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie mit dem Farbwähler in Substance 3D Painter Farben aus Ihren Texturen und Materials auswählen können.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Color picker
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Farbwähler
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 1%
-
 ---
-
 
 # Farbwähler
 
@@ -46,7 +38,7 @@ Das Fenster ist vertikal angeordnet und besteht aus drei Bereichen:
 | **Spektrum** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/spectrum.png" width="250px"/></div> | Der vertikale Regler ist der allgemeine Farbton. Mit dieser Option können Sie die Farbschattierung auswählen, die im Verlaufsfeld angezeigt werden soll.Sobald der allgemeine Farbton ausgewählt ist, können Sie den Fadenkreuz-Cursor im Verlaufsfeld halten und ziehen, um die gewünschte Farbe auszuwählen.  **Hinweis:** Wenn [Farbmanagement](../features/color-management/color-management.md) aktiviert ist, werden HDR. Farben aus der aktuellen Anzeige geklemmt (im Arbeitsfarbraum). Dies dient dazu, den HDR in farbverwalteten Kanälen zu vermeiden. |
 | **Aktuelle und vorherige Farbe** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/color-preview-current.png"/></div> | Das linke Rechteck zeigt die endgültige Farbe an, die vom Farbwähler ausgegeben wird.Das rechte Rechteck zeigt die vorherige Farbe an (als der Farbwähler geöffnet wurde). Sie können darauf klicken, um die vorherige Farbe wiederherzustellen und sie zur aktuellen Farbe zu machen. |
 | **Hexadezimalfeld** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/hexa-field.png"/></div> | Die Hexadezimalfelder stellen die aktuelle Farbe als Hexadezimalwerte dar. Die RGB-Komponenten werden als Buchstabenpaar dargestellt.Beispiel: #FF0000 repräsentieren die rote Farbe.  **Hinweis:** Wenn [Farbmanagement](../features/color-management/color-management.md) aktiviert ist, arbeitet das Hexadezimalfeld immer im sRGB-Standardfarbraum, um das Kopieren/Einfügen von Werten über die Software hinweg zu vereinfachen, unabhängig vom aktuellen Anzeige- oder Arbeitsfarbraum, der vom Projekt verwendet wird. |
-| **Pipette** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/picker.png"/></div> | Mit der Pipette können Sie eine Farbe aus einer externen Quelle auswählen. Um es zu verwenden **klicken Sie** auf das Symbol, bewegen Sie dann die Maus und erneut, um die gewünschte Farbe zu kopieren.  **Hinweis:** Wenn Sie eine Farbe im Viewport auswählen, können Sie den **Shift**-Modifizierer verwenden, um den aktuellen Kanal auszuwählen, der direkt bearbeitet wurde. Dadurch wird eine verlustbehaftete Farbkonvertierung zwischen der Originalfarbe und der auf dem Bildschirm angezeigten Textur vermieden. Dies ist auch nützlich, um Farben auszuwählen, ohne vom Anzeigemodus &quot;**Material**&quot; wechseln zu müssen. <div><img data-preserve-html="true" src="../assets/eyedropper-shift.png" width="150"/></div>  **Hinweis:** Farbfelder verfügen auch über eine Pipette daneben und können verwendet werden, um schnell Farben auszuwählen, ohne den Farbwähler öffnen zu müssen. <div><img data-preserve-html="true" height="83" src="../assets/eyedropper.jpg"/></div>  **Hinweis:** Unter Mac OS kann die Pipette aufgrund von Datenschutzeinstellungen möglicherweise keine Farben außerhalb der Anwendungsoberfläche auswählen. Um dieses Problem zu beheben, weisen Sie der Anwendung die richtigen Rechte zu in: `System Preferences > Security & Privacy > Privacy > Screen Recording` |
+| **Pipette** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/picker.png"/></div> | Mit der Pipette können Sie eine Farbe aus einer externen Quelle auswählen. Um es zu verwenden **klicken Sie** auf das Symbol, bewegen Sie dann die Maus und erneut, um die gewünschte Farbe zu kopieren.  **Hinweis:** Wenn Sie eine Farbe innerhalb des Viewports auswählen, können Sie den **Umschalttaste**-Modifizierer verwenden, um den aktuellen Kanal auszuwählen, der direkt bearbeitet wurde. Dadurch wird eine verlustbehaftete Farbkonvertierung zwischen der Originalfarbe und der auf dem Bildschirm angezeigten Textur vermieden. Dies ist auch nützlich, um Farben auszuwählen, ohne vom Anzeigemodus &quot;**Material**&quot; wechseln zu müssen. <div><img data-preserve-html="true" src="../assets/eyedropper-shift.png" width="150"/></div>  **Hinweis:** Farbfelder verfügen auch über eine Pipette daneben und können verwendet werden, um schnell Farben auszuwählen, ohne den Farbwähler öffnen zu müssen. <div><img data-preserve-html="true" height="83" src="../assets/eyedropper.jpg"/></div>  **Hinweis:** Unter Mac OS kann die Pipette aufgrund von Datenschutzeinstellungen möglicherweise keine Farben außerhalb der Anwendungsoberfläche auswählen. Um dieses Problem zu beheben, weisen Sie der Anwendung die richtigen Rechte zu in: `System Preferences > Security & Privacy > Privacy > Screen Recording` |
 
 ### Farbeinstellungen
 
@@ -159,4 +151,4 @@ Im Menü &quot;Einstellungen&quot; können Sie alle Farbfelder löschen.
 
 >[!NOTE]
 >
-> Farbfelder werden in einer Konfigurationsdatei gespeichert, die im Dokumentenordner des Benutzers verfügbar ist. Weitere Informationen finden Sie auf der Seite [Shelf und Assets-Speicherort](../pipeline-and-integration/resource-management/shelf-and-assets-location.md).
+> Farbfelder werden in einer Konfigurationsdatei gespeichert, die im Dokumentenordner des Benutzers verfügbar ist. Weitere Informationen finden Sie auf der Seite &quot;[Regal and Assets location](../pipeline-and-integration/resource-management/shelf-and-assets-location.md)&quot;.

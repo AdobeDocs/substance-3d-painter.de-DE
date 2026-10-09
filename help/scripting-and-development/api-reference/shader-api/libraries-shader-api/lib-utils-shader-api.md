@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
-breadcrumb-title: ''
-description: Greifen Sie auf die Referenz "Lib Utils Shader-API" für Substance 3D Painter zu, um Dienstprogrammfunktionen in der Entwicklung benutzerdefinierter Shader zu verwenden.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Greifen Sie auf die Referenz Lib Utils Shader-API für Substance 3D Painter zu, um Dienstprogrammfunktionen in der benutzerdefinierten Shader-Entwicklung zu verwenden.
 title: Lib Utils - Shader-API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
-
 ---
-
 
 # Lib Utils - Shader-API
 
@@ -24,7 +16,7 @@ ht-degree: 1%
 
 ## Tone Mapping
 
-Dies sind Beispiele für Farbtonzuordnungen, die Sie in Ihrem Shader verwenden können. Painter wendet keine Tonzuordnung an, außer der optionalen, die von Yebis angewendet wird. Wenn du in deinem Shader eine Farbtonzuordnung vornehmen willst, wird diese vor der Farbtonzuordnung auf Yebis angewendet.
+Dies sind Beispiele für Farbtonzuordnungen, die Sie in Ihrem Shader verwenden können. Painter wendet keine Tonzuordnung an, außer der optionalen, die von Yebis angewendet wird. Wenn Sie sich für eine Tonzuordnung in Ihrem Shader entscheiden, wird sie vor der Yebis-Tonzuordnung angewendet.
 
 Führen Sie die S-Gradationskurvenzuordnung basierend auf den Parametern sigma und n durch.
 

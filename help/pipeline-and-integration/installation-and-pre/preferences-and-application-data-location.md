@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Informieren Sie sich über die Speicherorte von Voreinstellungen und Anwendungsdaten für Substance 3D Painter zum Verwalten von Einstellungen und Benutzerdaten.
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Installation and preferences > Preferences and application data location
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Speicherort von Voreinstellungen und Anwendungsdaten
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 4%
-
 ---
-
 
 # Speicherort von Voreinstellungen und Anwendungsdaten
 
@@ -25,7 +17,7 @@ Es kann nützlich sein, zu wissen, wo Voreinstellungen gespeichert sind, falls S
 
 ## Voreinstellungen
 
-Dieser Pfad enthält die Einstellungen der Anwendung (gespeicherte Verknüpfungen, Shelf-/Asset-Pfade, Schnittstellenlayout usw.).
+Dieser Pfad beschreibt den Speicherort der Anwendungsvoreinstellungen (gespeicherte Tastaturbefehle, Regal-/Elementpfade, Schnittstellenlayout usw.).
 
 <table data-preserve-html="true"><colgroup> <col/> <col/> <col/> </colgroup><tbody><tr><th>System</th><th>Version</th><th>Pfad</th></tr><tr><td rowspan="2"><p><strong>Windows</strong></p><p>(Registrierung)</p></td><td><strong>7.2</strong> oder höher</td><td>HKEY_CURRENT_USER\Software\Adobe\Adobe Substance 3D Painter</td></tr><tr><td>Alte Version</td><td>HKEY_CURRENT_USER\Software\Allegorithmic\Substance Painter</td></tr><tr><td rowspan="2"><p><strong>Mac</strong></p><p>(Bibliothek)</p></td><td><strong>7.2</strong> oder höher</td><td>/Users/[Benutzername]/Library/Preferences/com.adobe.Adobe Substance 3D Painter.plist</td></tr><tr><td>Alte Version</td><td>/Users/[Benutzername]/Library/Preferences/com.substance3d.Substance Painter.plist</td></tr><tr><td rowspan="2"><strong>Linux</strong></td><td><strong>7.2</strong> oder höher</td><td>/home/[Benutzername]/.config/Adobe/Adobe Substance 3D Painter.conf</td></tr><tr><td>Alte Version</td><td>/home/[Benutzername]/.config/Allegorithmic/Substance Painter.conf</td></tr></tbody></table>
 
@@ -37,4 +29,4 @@ Dieser Pfad enthält die zusätzlichen Anwendungsdaten (Miniaturansichten der El
 
 >[!NOTE]
 >
-> Einige der Verzeichnisse in den oben genannten Pfaden sind möglicherweise standardmäßig ausgeblendet. Geben Sie den Pfad manuell im Datei-Explorer ein oder zeigen Sie ausgeblendete Dateien an, um sie anzuzeigen.
+> Einige der Verzeichnisse in den oben genannten Pfaden sind möglicherweise standardmäßig ausgeblendet. Geben Sie den Pfad manuell in den Datei-Explorer ein oder zeigen Sie ausgeblendete Dateien an, um sie anzuzeigen.

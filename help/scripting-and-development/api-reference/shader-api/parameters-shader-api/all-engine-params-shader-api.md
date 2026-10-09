@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Rufen Sie die Shader-API-Referenz Alle Engine-Parameter für Substance 3D Painter auf, um Shader-Parameter auf Engine-Ebene zu steuern.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Alle Engine-Parameter - Shader-API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 
 # Alle Engine-Parameter - Shader-API
 
@@ -24,7 +16,7 @@ ht-degree: 0%
 
 ## Parameter für die Textur
 
-Substance Painter verwendet ein SVT-System (Sparse Virtual Texture), um Texturen im Viewport anzuzeigen.
+Substance Painter verwendet ein Dünn besetzte virtuelle Textur (SVT)-System, um Texturen im Viewport anzuzeigen.
 
 Weitere Informationen zu diesem System finden Sie in der [Onlinedokumentation](../../../../features/sparse-virtual-textures.md).
 
@@ -45,7 +37,7 @@ uniform SamplerSparse uniform_tex;   // Texture sampler and its information
 ```
 
 
-Mit Texturparametern kann der Operator &quot;or&quot; zum Definieren eines Fallbacks verwendet werden:
+Textur-Parameter ermöglichen die Verwendung des Operators &quot;or&quot; zum Definieren eines Fallbacks:
 
 ```
 //: param auto TEXTURE_TAG_1 or TEXTURE_TAG_2 
@@ -58,7 +50,7 @@ Dabei ist *TEXTUR\_TAG* eines der unten beschriebenen Tags.
 
 ### Tags für Dokumentkanäle
 
-Alle diese Texturen sind **vormultipliziert** und **erweitert**, um Nahtprobleme zu vermeiden.
+Alle diese Texturen sind **vormultipliziert** und **erweitert**, um Probleme mit Nähte zu vermeiden.
 
 **Textursatz-Kanäle**
 
@@ -70,7 +62,7 @@ Alle diese Texturen sind **vormultipliziert** und **erweitert**, um Nahtprobleme
 
 ### Mesh-Maps
 
-*texture\_ambientocclusion* : Umgebungskarte Verdeckung\
+*Textur\_ambientocclusion* : Ambient occlusion Map\
 *Textur\_Krümmung* : Krümmungs-Map\
 *Textur\_ID* : ID-Map\
 *Textur\_normal* : Tangentialraum-Normalmap\
@@ -95,7 +87,7 @@ uniform vec4 uniform_tex_size;   // The size of the texture (width, height, 1/wi
 ```
 
 
-Mit Texturparametern kann der Operator &quot;or&quot; zum Definieren eines Fallbacks verwendet werden:
+Textur-Parameter ermöglichen die Verwendung des Operators &quot;or&quot; zum Definieren eines Fallbacks:
 
 ```
 //: param auto TEXTURE_TAG_1 or TEXTURE_TAG_2 
@@ -144,7 +136,7 @@ uniform mat4 uniform_camera_view_matrix_it;
 ```
 
 
-*camera\_vp\_matrix\_inverse* : Umgekehrt *Projektion \* Kamera\_view\_matrix*
+*camera\_vp\_matrix\_inverse* : Umgekehrt *Projektion \* Kamera\_view\_matrix* Matrix
 
 ```
 //: param auto camera_vp_matrix_inverse 
@@ -181,7 +173,7 @@ uniform float uniform_environment_rotation;
 ```
 
 
-*gegenüberliegend* : eine *Ganzzahl*, die gerenderte Flächen angibt (-1: Rückseiten, 0: undefiniert, 1: vordere Flächen)\
+*gegenüberliegend* : eine *Ganzzahl*, die gerenderte Flächen angibt (-1: rückseitige Flächen, 0: undefiniert, 1: vordere Flächen)\
 Wert 0 bedeutet, dass Sie sich sicher auf die integrierte glsl-Variable *gl\_FrontFacing* verlassen können.
 
 ```

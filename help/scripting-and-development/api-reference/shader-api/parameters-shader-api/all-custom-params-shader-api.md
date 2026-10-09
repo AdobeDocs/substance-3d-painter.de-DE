@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Rufen Sie die Shader-API-Referenz "Alle benutzerdefinierten Parameter" für Substance 3D Painter auf, um benutzerdefinierte Shader-Parameter zu definieren und zu steuern.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Alle benutzerdefinierten Parameter - Shader-API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
-
 
 # Alle benutzerdefinierten Parameter - Shader-API
 

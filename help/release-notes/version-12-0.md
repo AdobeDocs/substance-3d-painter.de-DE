@@ -1,15 +1,11 @@
 ---
 title: Version 12.0
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-12-0.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
-
 ---
-
 
 # Version 12.0
 
@@ -53,15 +49,15 @@ Reduzierte Elemente des Ebenenstapels können auch direkt auf die Festplatte exp
 Aufkleber können sich jetzt automatisch an komplexe Oberflächen anpassen, sodass keine manuellen Anpassungen mehr erforderlich sind. Der Schalter <b>Auf Geometrie verformen</b> ist in der kontextbezogenen Symbolleiste verfügbar, während die Projektion Verformen aktiviert ist.
 
 * <b>Neuer Parameter in der Kontextsymbolleiste</b>\
-  Ein neuer Schalter <b>Auf Geometrie verformen</b> ist in der kontextabhängigen Symbolleiste verfügbar, wenn der Projektionsmodus Verformen aktiv ist. Sie kann jederzeit deaktiviert werden, ohne die aktuelle Projektion zurückzusetzen.
+  Ein neuer Schalter <b>Auf Geometrie verformen</b> ist in der kontextabhängigen Symbolleiste verfügbar, wenn der Modus &quot;Projektion verformen&quot; aktiviert ist. Sie kann jederzeit deaktiviert werden, ohne die aktuelle Projektion zurückzusetzen.
 
   ![](../assets/v12_warp_toolbar.png)
-* <b>Automatisches Wrapping für die Netzoberfläche </b>\
+* <b>Automatisches Wrapping auf die Mesh-Oberfläche </b>\
   Wenn diese Option aktiviert ist, folgt die Verkrümmungs-Projektion automatisch der Krümmung und Topologie des zugrunde liegenden Meshs. Wenn du die Projektion über die Fläche ziehst, passt sie sich nahtlos an die Geometrie an. So musst du komplexe oder gekrümmte Formen mit einem Aufkleber versehen und musst daher weniger manuell nachbearbeiten.
 
   ![](../assets/v12_warp_to_geometry.gif)
 * <b>Beibehaltung lokaler Deformationen</b>\
-  Beim Bearbeiten der Scheitelpunkte des Verkrümmungsprojektionsrasters versucht der Modus &quot;Verkrümmen in Geometrie&quot;, die vordefinierte Verformung beizubehalten, um sicherzustellen, dass immer dieselbe Form projiziert wird.
+  Beim Bearbeiten der Scheitelpunkte für den Raster der Verkrümmungsgeometrie wird der  &quot;In Projektion verkrümmen&quot; versuchen, die vordefinierte Verformung beizubehalten, um sicherzustellen, dass immer die gleiche Form projiziert wird.
 
   ![](../assets/v12_warp_to_geometry_deformed.gif)
 
@@ -92,7 +88,7 @@ Im Folgenden finden Sie ein Beispiel dafür, was Sie mit den neuen Effekten erre
   * <b>Laterale Aberration</b>: Simuliert chromatische Farbsäume an den Bildrändern, die durch Objektivunregelmäßigkeiten verursacht werden.
   * <b>Vignette</b>: Verdunkelt die Ecken und Kanten des Rahmens, um den Fokus auf die Mitte zu lenken.
   * <b>Scharfzeichnen</b>: Erhöht den Kantenkontrast, um das gerenderte Bild schärfer erscheinen zu lassen.
-  * <b>Filmkörnung</b>: Mit diesem Effekt wird subtiles Rauschen überlagert, um die Textur analoger Filme zu replizieren.
+  * <b>Filmkörnung</b>: Mit diesem Effekt wird subtiles Rauschen überlagert, um die Textur eines analogen Films zu replizieren.
   * <b>Farbtonzuordnung</b>: Ordnet die Werte für die HDR. Luminanz einem anzeigbaren Bereich zu, um einen filmischen Look zu erzielen.
   * <b>Farbkorrektur</b>: Passt Kontrast, Sättigung, Helligkeit und Temperatur an, um die allgemeine Farbbalance zu optimieren.
 
@@ -109,7 +105,7 @@ Das neue Projektfenster und das Dialogfeld &quot;Projekteinstellungen&quot; wurd
 * <b>Neues Projektfenster wurde verbessert</b>\
   Die Parameter im neuen Projektfenster wurden umstrukturiert und neu angeordnet, sodass die am häufigsten verwendeten Einstellungen deutlicher hervortreten. Das Gesamtlayout kann jetzt leichter gescannt werden, sodass die Zeit für die Konfiguration eines neuen Projekts verkürzt wird.
 * <b>Neuer Arbeitsablauf zum erneuten Importieren von Meshs in den Projekteinstellungen</b>\
-  Mit dem neuen Kontrollkästchen <b>Mesh </b> in den Projekteinstellungen erneut importieren können Sie das Mesh des Projekts leichter erneut importieren, da der Dateipfad der zuvor geladenen Datei jetzt automatisch gespeichert und vorausgefüllt wird.
+  Mit dem neuen Kontrollkästchen <b>Mesh </b> in den Projekteinstellungen erneut importieren können Sie den Projekt-Mesh einfacher erneut importieren, da der Dateipfad der zuvor geladenen Datei jetzt automatisch gespeichert und vorab ausgefüllt wird.
 
   ![](../assets/v12_project_settings.png)
 
@@ -120,22 +116,22 @@ Das neue Projektfenster und das Dialogfeld &quot;Projekteinstellungen&quot; wurd
 ### 12.0.0
 
 Freigabedatum: <b>2026/03/09</b>\
-Zusammenfassung: <b>Dies ist eine Hauptversion. Diese Version enthält die Funktionen zum Reduzieren von Ebenen, Verformen auf Geometrie, neue Post-Effekte, Verbesserung des neuen Projektfensters und andere Verbesserungen.</b>
+Zusammenfassung: <b>Dies ist eine Hauptversion. Diese Version enthält die Funktionen zum Reduzieren von Ebenen, Verformen der Geometrie, neue Post-Effekte, Verbesserung des neuen Projektfensters und weitere Verbesserungen.</b>
 
 <b>Hinzugefügt</b>:
 
 * [Ebenen reduzieren] Ebenen innerhalb des Ebenenstapels reduzieren
 * [Ebenen reduzieren] Exportieren reduzierter Ebenen auf die Festplatte
-* [Verformen zu Geometrie] Hinzufügen neuer automatischer Verkrümmungsfunktionen zu Verkrümmen-Projektionen
-* [Post-Effekte] Ersetzen Sie Post-Effekte durch neue
+* [Verformen zu Geometrie] Hinzufügen neuer Funktionen für die automatische Verkrümmung zu den Verkrümmen-Projektionen
+* [Post-Effects] Ersetzen Sie Post-Effekte durch neue
 * [Post-Effects] Aktualisieren der Tonzuordnung
 * [Post-Effects] Neue Verwendung für Post-Effects-Assets hinzufügen
 * [Inhalt]&#x200B;[Nacheffekte] Integrieren von Standard-Nacheffekt-Assets in die Bibliothek
 * [Neues Projekt] Verbessern der Benutzeroberfläche für die Projekterstellung
-* [Neues Projekt] Änderungen an der Funktion zum erneuten Importieren des Gitters
+* [Neues Projekt] Änderungen an der Funktion zum erneuten Importieren von Meshs
 * [Neues Projekt] Öffnen von \*.geo.usd-Dateien zulassen
 * [Projektkonfiguration] Verbessern der Benutzeroberfläche für die Projektkonfiguration
-* Aktualisieren der USD-Bibliothek auf Version 25.05
+* USD auf Version 25.05 aktualisieren
 * Substance Engine auf Version 9.3.4 aktualisieren
 * Erhöhen der Mindesttreiber auf 25.3.1/25.Q2 für AMD-GPUs
 * Update Qt auf 6.8.6
@@ -144,9 +140,9 @@ Zusammenfassung: <b>Dies ist eine Hauptversion. Diese Version enthält die Funkt
 
 <b>Fest:</b>
 
-* [Absturz] Das Ändern der Materialkanalausgabe in einer Maske kann abstürzen
-* [Import] EXR-Texturen werden beim Importieren von USD-Dateien in sRGB anstelle von linear erzwungen
-* [UV-Kacheln] Bildsequenz mit einem einzelnen Bild füllt auch andere UV-Kacheln
-* [Backen] AO unterscheidet sich zwischen CPU- und GPU-Backen
+* [Absturz] Ändern der Ausgabe eines Material-Kanals in einer Maske kann Absturz verursachen
+* [Importieren] EXR Texturen werden beim Importieren von USD in sRGB anstelle von linear erzwungen
+* [UV-Kacheln] Bildsequenz mit einem einzigen Bild füllt auch andere UV-Kacheln
+* [Baking] AO unterscheidet sich zwischen CPU- und GPU-Baking
 * [Farbmanagement]&#x200B;[MacOS] Viewport BaseColor stimmt nicht mit dem Farbwähler überein
-* [USD] Einheitliche Werte werden in einigen Fällen nicht importiert
+* [USD] Einheitliche Werte werden in einigen Fällen nicht importiert.

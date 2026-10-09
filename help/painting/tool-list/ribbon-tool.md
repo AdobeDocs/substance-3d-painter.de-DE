@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/ribbon-tool.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwenden Sie das Menüband-Werkzeug in Substance 3D Painter, um bandähnliche Malen-Konturen entlang von Pfaden für dekorative Texturen zu erstellen.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Bandpfad
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 2%
-
 ---
-
 
 # Bandpfad
 
@@ -75,7 +67,7 @@ Während mit dem Malen-/Pinsel-basierten Werkzeug ein Bild auf einem Pfad mehrma
 
 Der Bandpfad kann zwei verschiedene Modi verwenden, um zu steuern, wie ein Bild entlang eines Pfades wiederholt und gedehnt wird:
 
-* <b> entlang Pfad </b> Gedehnt: (Standard) Das Bild, das entlang des Pfades wiederholt wird, wird entsprechend der Pfadlänge gestreckt.
+* <b> entlang Pfad </b> Gedehnt: (Standard) Das Bild, das entlang des Pfades wiederholt wird, wird an die Pfadlänge gedehnt
 * <b>Seitenverhältnis beibehalten</b>: Das Seitenverhältnis des entlang des Pfades wiederholten Bildes wird beibehalten. Ist das Bild zu lang im Vergleich zum Pfad, wird es beschnitten.
 
 #### An Pfad entlang dehnen
@@ -84,8 +76,8 @@ Der Bandpfad kann zwei verschiedene Modi verwenden, um zu steuern, wie ein Bild 
 
 | Parameter | Beschreibung |
 | --- | --- |
-| <b>Nur zwischen Offsets dehnen</b> | Wenn diese Option aktiviert ist, bleiben der Anfangs- und der Endabschnitt eines Bildes intakt, während der mittlere Bereich gedehnt wird. Verwenden Sie die Parameter <b>Anfangsoffset</b> und <b>Endoffset</b>, um die Größe dieser Abschnitte zu definieren. Der mittlere Abschnitt wird automatisch basierend auf dem Start/Ende berechnet.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../assets/ribbon_stretch_guides_path.png"/></div> |
-| <b>Mustermodus</b> | Legen Sie fest, wie ein Bild entlang des Pfades wiederholt wird. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Keine</b>: Das Bild wird nicht wiederholt. Es wird entlang des gesamten Pfades gedehnt.</li> <li data-preserve-html="true"><b>Auto</b>: (Standard) Das Bild wird automatisch eine bestimmte Anzahl von Malen wiederholt, basierend auf seiner Größe und der Strichbreite.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Das Bild wird um die Anzahl wiederholt, die durch den Parameter <b>Kachelung amount</b> definiert ist.</li> </ul> |
+| <b>Nur zwischen Versatz Gedehnt</b> | Wenn diese Option aktiviert ist, bleiben der Anfangs- und der Endabschnitt eines Bildes intakt, während der mittlere Bereich gedehnt wird. Verwenden Sie die Parameter <b>Anfangsoffset</b> und <b>Endoffset</b>, um die Größe dieser Abschnitte zu definieren. Der mittlere Abschnitt wird automatisch basierend auf dem Start/Ende berechnet.  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../assets/ribbon_stretch_guides_path.png"/></div> |
+| <b>Kachelung-Modus</b> | Legen Sie fest, wie ein Bild entlang des Pfades wiederholt wird. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Keine</b>: Das Bild wird nicht wiederholt. Es wird entlang des gesamten Pfades gedehnt.</li> <li data-preserve-html="true"><b>Auto</b>: (Standard) Das Bild wird automatisch eine bestimmte Anzahl von Malen wiederholt, basierend auf seiner Größe und der Strichbreite.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Das Bild wird um die Anzahl wiederholt, die durch den Parameter <b>Kachelung amount</b> definiert ist.</li> </ul> |
 | <b>Kachelung </b> | Geben Sie an, wie oft ein Bild im <b>benutzerdefinierten</b>-Kachelung-Modus wiederholt wird. |
 | <b>Jede zweite Kachel spiegeln</b> | Spiegeln Sie das verwendete Bild jede zweite Wiederholung entlang der Pfadlänge. |
 | <b>Seitenverhältnisfaktor</b> | Dehne oder komprimiert das aktuelle Bildseitenverhältnis. |
@@ -98,7 +90,7 @@ Der Bandpfad kann zwei verschiedene Modi verwenden, um zu steuern, wie ein Bild 
 | --- | --- |
 | <b>Verhältnis</b> | Legen Sie fest, wie das Bild skaliert wird, ohne das Bildverhältnis zu ändern:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>An Pfadbreite anpassen</b>: (Standard) Skalieren Sie das Bild, um es an die Pfadbreite anzupassen. Dies kann dazu führen, dass das Bild abgeschnitten wird, wenn es zu lang ist.</li> <li data-preserve-html="true"><b>An Pfadlänge anpassen</b>: Passen Sie die Abmessungen des Bildes so an, dass eine exakte Anzahl entlang des Pfades passt, während das Seitenverhältnis annähernd beibehalten wird.</li> </ul> |
 | <b>Beschnittene Kacheln entfernen</b> | Wenn diese Option aktiviert ist, werden Wiederholungen entlang des Pfades entfernt, die nicht vollständig sichtbar sind (wenn sie beschnitten werden). Diese Einstellung ist deaktiviert, wenn die Einstellung <b>Verhältnis</b> auf <b>An Pfadlänge anpassen</b> festgelegt ist. |
-| <b>Mustermodus</b> | Legen Sie fest, wie ein Bild entlang des Pfades wiederholt wird. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Keine</b>: Das Bild wird nicht wiederholt. Es wird entlang des gesamten Pfades gedehnt.</li> <li data-preserve-html="true"><b>Auto</b>: (Standard) Das Bild wird automatisch eine bestimmte Anzahl von Malen wiederholt, basierend auf seiner Größe und der Strichbreite.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Das Bild wird um die Anzahl wiederholt, die durch den Parameter <b>Kachelung amount</b> definiert ist.</li> </ul> |
+| <b>Kachelung-Modus</b> | Legen Sie fest, wie ein Bild entlang des Pfades wiederholt wird. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Keine</b>: Das Bild wird nicht wiederholt. Es wird entlang des gesamten Pfades gedehnt.</li> <li data-preserve-html="true"><b>Auto</b>: (Standard) Das Bild wird automatisch eine bestimmte Anzahl von Malen wiederholt, basierend auf seiner Größe und der Strichbreite.</li> <li data-preserve-html="true"><b>Benutzerdefiniert</b>: Das Bild wird um die Anzahl wiederholt, die durch den Parameter <b>Kachelung amount</b> definiert ist.</li> </ul> |
 | <b>Jede zweite Kachel spiegeln</b> | Spiegeln Sie das verwendete Bild jede zweite Wiederholung entlang der Pfadlänge. |
 | <b>Ausrichtung</b> | Legen Sie fest, wo das Bild entlang des Pfades beginnen soll. Mögliche Werte sind:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Am Anfang ausrichten</b>: Das Bild wird ausgehend vom ersten Punkt des Pfades gezeichnet.</li> <li data-preserve-html="true"><b>In der Mitte ausrichten</b>: Das Bild wird in der Mitte des Pfades gezeichnet.</li> <li data-preserve-html="true"><b>Am Ende ausrichten</b>: Das Bild wird ausgehend vom letzten Punkt des Pfades gezeichnet.</li> </ul> |
 | <b>Seitenverhältnisfaktor</b> | Dehne oder komprimiert das aktuelle Bildseitenverhältnis. |

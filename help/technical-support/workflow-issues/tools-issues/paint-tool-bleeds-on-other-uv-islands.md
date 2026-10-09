@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie das Malen-Werkzeug über UV-Inseln hinweg in Substance 3D Painter ineinander verlaufen lassen können, um saubere Texturen zu erhalten.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Tools Issues > Paint Tool bleeds on other UV islands
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Malen Tool-Anschnitte auf anderen UV-Inseln
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
-
 ---
-
 
 # Malen Tool-Anschnitte auf anderen UV-Inseln
 

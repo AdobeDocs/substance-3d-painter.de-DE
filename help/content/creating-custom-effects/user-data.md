@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/content/creating-custom-effects/user-data.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Benutzerdaten in benutzerdefinierten Effekten für Substance 3D Painter verwenden, um benutzerdefinierte Informationen an Shader-Effekte zu übergeben.
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > User data
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Benutzerdaten
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 1%
-
 ---
-
 
 # Benutzerdaten
 
@@ -45,14 +37,14 @@ Kontextübersicht:
 > * In der folgenden Tabelle werden zuerst die Farbraumeinstellungen aufgeführt, die vor Version 8.1 kompatibel sind. Der zweite Abschnitt gilt ausschließlich für Version 8.1 und höher.
 > * In Bezug auf die Kontexte, in denen die Farbraumeinstellung verwendet werden kann, nur da in Version 8.1 Farbschaltflächen einen Farbraum definieren können. In früheren Versionen wurde davon ausgegangen, dass sie sich im Anzeigebereich (sRGB) befinden.
 > 
-> **snorm** und **unorm** Farbraum/Transformationen sollten nicht mit GPU-Texturformaten gemischt werden. Ihr Zweck ist unterschiedlich.
+> **snorm** und **unorm** Farbraum/Transformationen sollten nicht mit GPU-Texturen-Formaten gemischt werden. Ihr Zweck ist unterschiedlich.
 
 | ColorSpace | Kontextverfügbarkeit | Beschreibung |
 | --- | --- | --- |
-| **auto** | Farbschaltfläche Diagrammeingabe/-ausgabe Bildeingabe | Standard. Die Anwendung entscheidet, welche Farbraumkonvertierung durchgeführt wird, abhängig von den Eingabeknoten-Eigenschaften und dem Bild, das an den Eingang angeschlossen wird. |
-| **linear** | Farbschaltfläche Diagrammeingabe/-ausgabe Bildeingabe | Standard-sRGB IEC 61966-2-1:1999-Farbraum mit linearer Gamma-/Tonwertkurve. Nur verfügbar mit dem Farbmanagementmodus **Legacy**. |
-| **srgb** | Farbschaltfläche Diagrammeingabe/-ausgabe Bildeingabe | sRGB IEC 61966-2-1:1999-Farbraum. Nur verfügbar mit dem Farbmanagementmodus **Legacy**. |
-| **Kennwort** | Farbschaltfläche Diagrammeingabe/-ausgabe Bildeingabe | Veraltet. Wird als **linear** im alten Farbmanagementmodus und **raw** mit OCIO/ACE interpretiert. Sollte stattdessen durch **raw** ersetzt werden. |
+| **auto** | Farbschaltfläche Graf Ein-/Ausgabe Bildeingabe | Standard. Die Anwendung entscheidet, welche Farbraumkonvertierung durchgeführt wird, abhängig von den Eingabeknoten-Eigenschaften und dem Bild, das an den Eingang angeschlossen wird. |
+| **linear** | Farbschaltfläche Graf Ein-/Ausgabe Bildeingabe | Standard-sRGB IEC 61966-2-1:1999-Farbraum mit linearer Gamma-/Tonwertkurve. Nur verfügbar mit dem Farbmanagementmodus **Legacy**. |
+| **srgb** | Farbschaltfläche Graf Ein-/Ausgabe Bildeingabe | sRGB IEC 61966-2-1:1999-Farbraum. Nur verfügbar mit dem Farbmanagementmodus **Legacy**. |
+| **Kennwort** | Farbschaltfläche Graf Ein-/Ausgabe Bildeingabe | Veraltet. Wird als **linear** im alten Farbmanagementmodus und **raw** mit OCIO/ACE interpretiert. Sollte stattdessen durch **raw** ersetzt werden. |
 | **snorm** | Graf Ein-/Ausgabe Bildeingabe | Signiert normalisiert. Das Eingabebild muss im Bereich [0, 1] liegen. Bei 8-Bit-Eingabebildern bedeutet dies, dass der Mittelwert 127 ist. Bei schwebenden Bildeingaben beträgt die mittlere 0,5 und es erfolgt keine Klemmung. |
 | **normalxyzright** | Graf Ein-/Ausgabe Bildeingabe | OpenGL-Normalen-Map-Format. |
 | **normalxyzleft** | Graf Ein-/Ausgabe Bildeingabe | DirectX Normalen-Map-Format. |

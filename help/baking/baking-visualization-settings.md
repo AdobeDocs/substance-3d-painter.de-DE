@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/baking/baking-visualization-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie in Substance 3D Painter Einstellungen für die Visualisierung von Baking konfigurieren, um die Ergebnisse von Mesh-Map-Baking in der Vorschau anzuzeigen und zu debuggen.
-helpx_creative_field: ""
-helpx_description: Painter > Baking > Baking visualization settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: Visualisierungseinstellungen für Backen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: Einstellungen für die Visualisierung von Bakings
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 6%
-
 ---
 
-
-# Visualisierungseinstellungen für Backen
+# Einstellungen für die Visualisierung von Bakings
 
 ![](../assets/viewport-vizu.png)
 
-Die Backvisualisierung ist ein Bedienfeld im Viewport von Painter, wenn Sie sich im Backmodus befinden. Damit können Sie Einstellungen für die Anzeige von Meshs im Viewport anpassen.
+Die Visualisierung des Bakings ist ein Bedienfeld im Viewport von Painter, während es im Baking-Modus läuft. Damit können Sie Einstellungen für die Anzeige von Meshs im Viewport anpassen.
 
 ## Allgemeine Einstellungen
 
@@ -35,14 +27,14 @@ Die Backvisualisierung ist ein Bedienfeld im Viewport von Painter, wenn Sie sich
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| <b>Mesh</b> | Wenn diese Option aktiviert ist, werden die Gitter mit hohem Poly in der 3D-Ansicht angezeigt. Wenn diese Option deaktiviert ist, werden auch hochgepolte Gitter aus dem Speicher entladen, was die Leistung verbessern kann. Verwenden Sie die Farboption neben dieser Einstellung, um die Oberflächenfarbe des Meshs im Viewport zu steuern. |
-| <b>Übereinstimmungsfehler</b> | Wenn diese Option aktiviert ist, werden die Bereiche der Gitter mit hohem Poly, die sich außerhalb der Schale des Gitters des Käfigs befinden, in der angegebenen Farbe angezeigt. Diese Einstellung hilft bei der Identifizierung von Bereichen, die während des Backprozesses fehlen und zu einem Verlust von Details/Informationen führen können. Verwenden Sie die Farboption neben dieser Einstellung, um die Farbe der sich überschneidenden Bereiche im Viewport zu steuern. |
+| <b>Mesh</b> | Wenn diese Option aktiviert ist, zeigen Sie die Meshs mit hohem Poly in der 3D-Ansicht an. Wenn diese Option deaktiviert ist, werden auch Mesh mit hohem Poly-Anteil aus dem Speicher entladen und können die Leistung verbessern. Verwenden Sie die Farboption neben dieser Einstellung, um die Oberflächenfarbe des Meshs im Viewport zu steuern. |
+| <b>Übereinstimmungsfehler</b> | Wenn diese Option aktiviert ist, werden Bereiche der Mesh mit hoher Poly-Qualität angezeigt, die sich außerhalb der Shell des Käfig-Meshs in der angegebenen Farbe befinden. Diese Einstellung hilft dabei, Bereiche zu identifizieren, die während des Bakings nicht berücksichtigt werden und zu einem Verlust von Details/Informationen führen können. Verwenden Sie die Farboption neben dieser Einstellung, um die Farbe der sich überschneidenden Bereiche im Viewport zu steuern. |
 
 ### Käfig
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| <b>Käfigoberfläche</b> | Wenn diese Option aktiviert ist, wird die Oberfläche des Käfig-Meshs in der 3D-Ansicht angezeigt. Die Oberfläche des Käfigs wird durch die Farbschaltfläche neben der Einstellung definiert. |
+| <b>Käfig </b> | Wenn diese Option aktiviert ist, wird die Oberfläche des Käfig-Meshs in der 3D-Ansicht angezeigt. Die Oberfläche des Käfigs wird durch die Farbschaltfläche neben der Einstellung definiert. |
 | <b>Deckkraft der Käfig-Oberfläche</b> | Machen Sie den Mesh mehr oder weniger transparent, um die Sichtbarkeit von Details im zugrunde liegenden Mesh zu verwalten. |
 | <b>Käfig Drahtgitter</b> | Wenn diese Option aktiviert ist, wird das Drahtgitter des Käfig-Meshs im Viewport angezeigt. Die Drahtgitter-Farbe kann mit der Farbschaltfläche neben dieser Einstellung angepasst werden. |
 | <b>Käfig Drahtgitter Deckkraft</b> | Das Drahtgitter mehr oder weniger transparent machen. |
@@ -51,7 +43,7 @@ Die Backvisualisierung ist ein Bedienfeld im Viewport von Painter, wenn Sie sich
 
 | Einstellung | Beschreibung |
 | --- | --- |
-| <b>Fehlende Nähte an harten Kanten</b> | Wenn diese Option aktiviert ist, werden harte Kanten auf der Oberfläche des Meshs, die keine UV-Nähte sind, mit der Farbe hervorgehoben, die durch die Schaltfläche neben der Einstellung definiert wird. Hervorgehobene Kanten sind nur auf dem Käfig und dem Gitter mit geringer Poly-Zahl sichtbar. Kanten können sowohl in der 2D- als auch in der 3D-Ansicht angezeigt werden. Diese Einstellung hilft bei der Identifizierung von Kanten, die geteilte Scheitelpunkt-Normalen haben, ohne dass eine UV-entpackend Naht vorhanden ist, was später zu Problemen beim Baking führen könnte. |
+| <b>Fehlende Nähte an harten Kanten</b> | Wenn diese Option aktiviert ist, werden harte Kanten auf der Oberfläche des Meshs, die keine UV-Nähte sind, mit der Farbe hervorgehoben, die durch die Schaltfläche neben der Einstellung definiert wird. Hervorgehobene Kanten sind nur auf dem Käfig und dem Mesh mit geringer Poly-Zahl sichtbar. Kanten können sowohl in der 2D- als auch in der 3D-Ansicht angezeigt werden. Diese Einstellung hilft bei der Identifizierung von Kanten, die geteilte Scheitelpunkt-Normalen haben, ohne dass eine UV-entpackend Naht vorhanden ist, was später zu Problemen beim Baking führen könnte. |
 
 ### Projekt-Mesh
 

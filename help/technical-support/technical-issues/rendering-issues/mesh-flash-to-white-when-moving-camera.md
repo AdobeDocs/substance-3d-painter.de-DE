@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie den Mesh, der weiß blinkt, wenn Sie die Kamera in Substance 3D Painter Viewport für ein stabiles Rendering verschieben, beheben können.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Mesh flash to white when moving camera
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Mesh blinkt bei Bewegung der Kamera weiß
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 
 # Mesh blinkt bei Bewegung der Kamera weiß
 

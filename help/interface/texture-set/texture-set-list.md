@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/texture-set/texture-set-list.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie mit der Liste der Textursatz in Substance 3D Painter mehrere Textursatz in Ihrem Projekt verwalten und organisieren.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set list
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Textursatz
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
-
 ---
-
 
 # Textursatz
 
@@ -25,7 +17,7 @@ ht-degree: 0%
 Im Fenster &quot;**Textursatz List**&quot; werden alle Material-IDs des aktuellen 3D-Modells in einem Projekt angezeigt. Sie ermöglicht das Wechseln und Anzeigen des Ebenenstapels, der jedem Material auf dem Modell zugeordnet ist, sowie der zugehörigen Einstellungen.
 
 Das Hauptziel des Fensters &quot;Textursatz-Liste&quot; besteht darin, den Wechsel zwischen Materialien zu ermöglichen, um auf den Ebenenstapel zuzugreifen, der jedem Material zugeordnet ist.\
-Im Fall des Arbeitsablaufs [Materialschichtung](../../features/dynamic-material-layering.md) werden die **Unterstapel** **unter dem Namen des Textursatzes** angezeigt.
+Im Fall des [Material-Layering](../../features/dynamic-material-layering.md)-Workflows werden die **Sub-Stapel** **unterhalb** des Namens des Textursatzes angezeigt.
 
 >[!WARNING]
 >
@@ -64,7 +56,7 @@ Die Anzeige eines Textursatzes kann über die dedizierten Symbole verwaltet werd
 
 Wenn Sie mit der rechten Maustaste auf einen Textursatz klicken, wird ein Kontextmenü mit den folgenden Aktionen geöffnet:
 
-* **Textursatz anzeigen/ausblenden** : die Sichtbarkeit des Textursatzes ein-/ausschalten (wie im vorherigen Abschnitt beschrieben)
+* **Textursatz ein-/ausblenden** : Umschalten der Sichtbarkeit des Textursatzes (wie im vorherigen Abschnitt beschrieben)
 * **Name bearbeiten** : ermöglicht das Umbenennen eines Textursatzes. Dieser Name wird auch während des Exportvorgangs der Texturen verwendet. Umbenennen ist auch möglich, indem Sie auf den Namen des Textursatzes doppelklicken.
 * **Setzen Sie den Namen auf \*ursprünglichen Namen\*** zurück: Stellt den ursprünglichen Namen des Textursatzes im Material &quot;Mesh&quot; wieder her, wenn er geändert wurde.
 * **Beschreibung bearbeiten** : ermöglicht das Hinzufügen/Ändern der einem Textursatz zugeordneten Beschreibung.
@@ -83,5 +75,5 @@ Standardmäßig hat jeder Textursatz dieselbe Shader-Instanz. Manchmal ist es je
 * **Leere Beschreibungen ausblenden** (Standard) : Ausblenden der Beschreibungsfelder, wenn diese leer sind
 * **Alle Beschreibungen ausblenden** : Die Beschreibungsfelder ausblenden, auch wenn sie nicht leer sind
 * **Alle Beschreibungen anzeigen** : Beschreibungsfelder anzeigen, auch wenn sie leer sind
-* **Shader-Parameter importieren** : Importieren einer JSON-Datei zum Konfigurieren der Shader-Parameter der Textursätze zulassen
+* **Shader-Parameter importieren** : Importieren einer JSON-Datei zum Konfigurieren der Shader-Parameter der Textursatz zulassen
 * **Textursatz erneut zuweisen** : Weitere Informationen finden Sie unter [Neuzuweisung von Textursätzen](texture-set-reassignment.md).

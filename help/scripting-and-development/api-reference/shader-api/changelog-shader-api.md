@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Prüfen Sie das Änderungsprotokoll für Substance 3D Painter Shader-API, um Updates, neue Funktionen und Änderungen im Zeitverlauf zu verfolgen.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Changelog - Shader-API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
-
 ---
-
 
 # Changelog - Shader-API
 
@@ -43,7 +35,7 @@ ht-degree: 3%
 * Die *shadeShadow*-Funktion wird nicht mehr verwendet und kann sicher aus benutzerdefinierten Oberflächenschattierungen entfernt werden.
 * Unterstützung für das Hinzufügen von Volumenstreuungen finden Sie unter [surface-Shader.glsl](shaders-shader-api/surface-shader-shader-api.md) und [lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md).
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md): Die *pbrComputeBRDF*-Funktion wurde entfernt. Im Beispiel [pbr-metal-raw.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md) erfahren Sie, wie Sie die Bibliothek jetzt verwenden.
-* Neue Motorparameter wurden hinzugefügt: *Textur\_blau\_Rauschen*, *Seitenverhältnis\_Seitenverhältnis*, *camera\_vp\_matrix\_inverse*, *Umgebung\_Belichtung*, *Umgebung\_Drehung*, *Fovy*, *Hauptlicht\_Belichtung* und *Bildschirm\_Größe*. Weitere Informationen finden Sie unter [all-Engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
+* Neue Engine-Parameter wurden hinzugefügt: *Textur\_blau\_Rauschen*, *Seitenverhältnis\_Seitenverhältnis*, *camera\_vp\_matrix\_inverse*, *Umgebung\_Belichtung*, *Umgebung\_Drehung*, *Fovy*, *Hauptlicht\_Belichtung* und *Bildschirm\_Größe*. Weitere Informationen finden Sie unter [all-Engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
 * Fügen Sie die *description*-Metadaten hinzu, um QuickInfos für benutzerdefinierte Shader-Parameter bereitzustellen.
 
 ## 2017.4.2
@@ -59,11 +51,11 @@ ht-degree: 3%
 
 ## 2017.4.0
 
-* Falsche Specular-Spiegelung in der 2D-Ansicht für bestimmte Gitter
+* Falsche Specular-Reflexion in der 2D-Ansicht für bestimmte Meshs
 
 ## 2017.3.1
 
-* Günstigeres Dithering
+* Billigerer Dithering
 
 ## 2017.2.0
 
@@ -83,10 +75,10 @@ ht-degree: 3%
 * Hinzufügen einer Möglichkeit zum Ausblenden benutzerdefinierter Parameter in der Standard-Shader-Benutzeroberfläche
 * Link zur Liste der Channel-Tags in der Shader-Dokumentation mit Ebenen hinzufügen
 * Tag &quot;channel\_ao&quot; durch &quot;channel\_ambientocclusion&quot; ersetzen
-* [Viewport] Einige Normalmaps haben festgeklemmte Werte, die als Artefakte angezeigt werden
+* [Viewport] Einige Normalen-Map haben Werte eingeklemmt, die als Artefakte erscheinen
 * Dokument zu verfügbaren Kanälen im Shader-Format bearbeiten
 * Definieren einer benutzerdefinierten Shader-Benutzeroberfläche zulassen
-* Standard-UI für Shader mit Ebenen für Material hinzufügen
+* Eine benutzerdefinierte Shader-Standardbenutzeroberfläche für Material-Shader mit Ebenen hinzufügen
 * Benutzerdefinierte UI-Dateien werden jetzt relativ zum Ordner &quot;shaders/custom-ui&quot; in den Regale durchsucht (wie beim mdl)
 * Verwenden des Specular level-Kanals in Standard-Shadern
 * Beispiel für vec3-Shader-Parameter beheben

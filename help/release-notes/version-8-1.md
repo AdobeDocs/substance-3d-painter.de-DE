@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/version-8-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 8.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Version 8.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 8.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 0%
-
 ---
-
 
 # Version 8.1
 
@@ -63,14 +55,14 @@ In dieser neuen Version wurde das Farbmanagementsystem um die Unterstützung des
 
 ![](../assets/banner-physicalsize.jpg)
 
-Die Größe innerhalb von Substance-Materialien kann jetzt verwendet werden, um ihre Skalierung und Kachelung innerhalb von Füllebene-Projektionen zu steuern. Dies ist ein nützliches Werkzeug, um Materialien auf Oberflächen richtig an ihre tatsächliche Größe anzupassen, ohne raten zu müssen.
+Die Größe innerhalb von Substance-Materialien kann jetzt verwendet werden, um ihre Skalierung und Kachelung innerhalb von Füllebene-Projektionen zu steuern. Dies ist ein nützliches Tool, um Materialien auf Flächen korrekt an ihre tatsächliche Größe anzupassen, ohne raten zu müssen.
 
 * **Neue Füllebene-Parameter**\
   Eine Füllebene (oder ein Effekt) Es gibt neue Parameter, um die Kachelung/Wiederholung eines Materials zu steuern, wenn eine Physische Größe definiert ist. Diese neuen Parameter sind nur mit 3D-Projektionen verfügbar.
 
   ![](../assets/physical-size-settings-fill.png){width="400px"}
 
-* **Neues Ansichtsport-Raster**\
+* **Neuer Viewport Raster**\
   Um die Physische Größe leichter verständlich und visualisierbar zu machen, ist es jetzt möglich, einen Raster im 3D-Viewport über das Fenster [Anzeigeeinstellungen](../interface/display-settings/display-settings.md) zu aktivieren.\
   Nach der Aktivierung wird der Raster je nach Zoomstufe automatisch untergetaucht. Die Raster-Einheit wird unten links im Viewport angezeigt.
 
@@ -88,13 +80,13 @@ Die Größe innerhalb von Substance-Materialien kann jetzt verwendet werden, um 
 
 Diese drei neuen Funktionen schließen die Lücke zwischen Designer und Painter, um die Möglichkeiten für Texturierung und Rendering zu erweitern.
 
-Sie wurden der Bäckerliste hinzugefügt, sind jedoch standardmäßig deaktiviert:
+Sie wurden der Liste der Baker hinzugefügt, sind jedoch standardmäßig deaktiviert:
 
 ![](../assets/baker-list.png)
 
 Die neuen Baker sind:
 
-* **Bent normals Baker** Der Bent normals Baker ermöglicht das Baking einer Vektorrichtung (als Verdeckung, ähnlich wie Normalen-Map). Diese Textur kann verwendet werden, um die Schattierung im Viewport zu verbessern, indem die Einstellung &quot;**Bent Normal**&quot; im Fenster &quot;[Shader settings](../interface/shader-settings/shader-settings.md)&quot; aktiviert wird. Bent normals verbessern die Echtzeitgenauigkeit der Viewport-Schattierung erheblich.\
+* **Bent normals Baker** Der Bent normals Baker ermöglicht das Baking einer Vektorrichtung (als Verdeckung, ähnlich wie Normalen-Map). Diese Textur kann verwendet werden, um die Schattierung im Viewport zu verbessern, indem die Einstellung **Gebogenes Normal** im Fenster [Shader-Einstellungen](../interface/shader-settings/shader-settings.md) aktiviert wird. Bent normals verbessern die Echtzeitgenauigkeit der Viewport-Schattierung erheblich.\
   Für **diffuse Schattierung** gibt sie eine präzisere Verdeckung und kann sogar wie eine ungefähre globale Beleuchtung aussehen (erstes Beispiel unten).\
   Bei **Specular-Reflexionen** ist es möglich, Selbstschattierungen zu simulieren und den Lichtaustritt zu reduzieren, sodass sich das Objekt besonders bei metallic Flächen viel geerdeter anfühlt (zweites Beispiel unten).
 
@@ -102,13 +94,13 @@ Die neuen Baker sind:
 
   ![](../assets/bent-normal-car-compressed.gif){width="400px"}
 
-* **Height-Bäcker**\
-  Der Height-Bäcker ermöglicht es, die Differenz zwischen dem niedrigen und dem hohen Poly-Mesh als Graustufen-Textur zu backen, die dann verwendet werden könnte, um Versatz auf tessellierten Meshes zu erzeugen. Zum Beispiel beim Sichern von Scaninformationen gegen eine Ebene.
+* **Height-Baker**\
+  Der Height-Baker ermöglicht es, die Differenz zwischen dem Low- und High-Poly-Mesh als Graustufen-Textur Baking führen, die dann verwendet werden könnte, um Versatz auf tessellierten Meshs zu erzeugen. Zum Beispiel beim Baking von Scaninformationen gegen eine Ebene.
 
   ![](../assets/disp-demo.jpg){width="400px"}
 
 * **Deckkraft-Baker**\
-  Der Bäcker für die Deckkraft erstellt eine Schwarz-Weiß-Landkarte mit Löchern aus einem Polygonnetz. Zum Beispiel kann es verwendet werden, um Zäune oder sogar Löcher in einer Gewebeoberfläche zu backen.
+  Mit dem Baker &quot;Deckkraft&quot; erstellen Sie eine Schwarzweißkarte mit den Löchern eines Meshs, der viele Poly-Objekte enthält. Beispielsweise kann sie verwendet werden, um Zäune oder sogar Löcher innerhalb einer Gewebeoberfläche Baking führen.
 
 ### Neuer Inhalt
 
@@ -116,8 +108,8 @@ Die neuen Baker sind:
 
 In dieser Version wurde eine Vielzahl neuer Inhalte hinzugefügt, darunter:
 
-* **Neue und verbesserte 3D-Geräusche mit mehr als 100 Vorgaben**\
-  Die bestehenden 3D-Rauschen wurden überarbeitet und drei neue hinzugefügt. Jeder von ihnen enthält jetzt vordefinierte Einstellungen, die insgesamt 105 Vorgaben für 7 Geräusche bedeuten. Diese Vorgaben können als Ausgangspunkt verwendet werden, um mit ihren Parametern zu experimentieren und einen bestimmten Look zu erzielen. Wie immer bei 3D-Rauschen sind sie nahtlos und können sich sehr leicht wiederholen, ohne dass ein auffälliges Muster entsteht.
+* **Neue und verbesserte 3D-Rauschen mit mehr als 100 Vorgaben**\
+  Die bestehenden 3D-Rauschen wurden überarbeitet und drei neue hinzugefügt. Jede dieser Vorgaben enthält jetzt vordefinierte Einstellungen, die insgesamt 105 Vorgaben in 7 Rauschen ergeben. Diese Vorgaben können als Ausgangspunkt verwendet werden, um mit ihren Parametern zu experimentieren und einen bestimmten Look zu erzielen. Wie immer bei 3D-Rauschen sind sie nahtlos und können sich sehr leicht wiederholen, ohne dass ein auffälliges Muster entsteht.
 
   Die 3D-Rauschen finden Sie im Bedienfeld &quot;Elemente&quot; im Abschnitt &quot;Vorgehensweisen&quot;:
 
@@ -151,7 +143,7 @@ Mehrere Verbesserungen an der Pipette wurden vorgenommen, um das Extrahieren und
 
   ![](../assets/peek-color-shortcut.gif){width="400px"}
 
-* **Neuer Tastaturbefehl für Pipette**\
+* **Neuer Tastaturbefehl der Pipettentastatur**\
   Wenn das Farbwählerfenster geöffnet ist, können Sie auch **I** drücken, um den Pipettenmodus aufzurufen, ohne auf das entsprechende Symbol klicken zu müssen. Dadurch ist es einfacher, schnell zwischen Auswahl und Malen zu wechseln.
 
 * **Neue Vorschau beim Pipetten**\
@@ -170,7 +162,7 @@ Mehrere Verbesserungen an der Pipette wurden vorgenommen, um das Extrahieren und
   ![](../assets/eyedropper-color-space.png)
 
 * **Verbessertes Verhalten der Material-Auswahl**\
-  Die Materialauswahl auf der Werkzeugleiste (Tastaturbefehl P) berücksichtigt jetzt die Kanalauswahl im Eigenschaftenfenster. Sie wird nicht mehr über die Kanäle selbst aktiviert.
+  Die Kanalauswahl in der Werkzeugleiste (Tastatur-Tastaturbefehl P) berücksichtigt jetzt die Kanalauswahl im Material-Eigenschaftenfenster. Sie wird nicht mehr über die Kanäle selbst aktiviert.
 
   ![](../assets/material-picker.gif){width="400px"}
 
@@ -178,9 +170,9 @@ Mehrere Verbesserungen an der Pipette wurden vorgenommen, um das Extrahieren und
 
 ![](../assets/unwrap-banner.jpg)
 
-Der automatische UV-Entpackungsprozess sorgt jetzt für eine natürlichere Segmentierung.
+Der automatische entpack von UV sorgt jetzt für eine natürlichere Segmentierung.
 
-Jetzt werden die Gitter in verschiedene UV-Inseln zerlegt, indem eine Methode verwendet wird, die dem näher kommt, was von Hand gemacht werden kann, besonders bei organischen Gittern.
+Jetzt werden Meshs in separate UV-Inseln zerlegt, indem eine Methode verwendet wird, die dem, was von Hand gemacht werden kann, näher kommt, besonders bei organischen Meshs.
 
 ## Versionshinweise
 
@@ -190,12 +182,12 @@ Jetzt werden die Gitter in verschiedene UV-Inseln zerlegt, indem eine Methode ve
 
 **Hinzugefügt:**
 
-* [Farbmanagement] Unterstützung für ICC-Profile mit Adobe Color Engine (ACE) hinzufügen
+* [Farbmanagement] Unterstützung für ICC-Profile mit Adobe Color Engine hinzufügen (ACE)
 * [Farbmanagement] Unterstützung für &quot;Adobe 98 RGB&quot; als Arbeitsfarbraum für ICC hinzufügen
-* [Farbmanagement] ACE/ICC-Einstellungen über eine Konfigurationsdatei konfigurieren
+* [Farbmanagement] Konfigurieren von ACE/ICC-Einstellungen über eine Konfigurationsdatei zulassen
 * [Farbmanagement] Zulassen, dass lineare Farbwerte im Farbwähler mit dem Legacy-Modus eingegeben werden
 * [Farbmanagement] Geben Sie das Farbprofil an, das für die Farbauswahl außerhalb der Benutzeroberfläche verwendet wird.
-* [Farbmanagement] Merken Sie sich den letzten im Darstellungsfenster ausgewählten Anzeigewert.
+* [Farbmanagement] Merken Sie sich den letzten im Viewport ausgewählten Anzeigewert.
 * [Farbmanagement]&#x200B;[Substance] Sorgen Sie dafür, dass Generatoren/Filter mit dem Farbmanagement ordnungsgemäß funktionieren.
 * [Farbmanagement]&#x200B;[Substance] Fügen Sie neue Schlüsselwörter für die Farbraumüberschreibung $working und $standardsrgb hinzu
 * [Physische Größe]&#x200B;[Engine] Extrahieren von Physische Größe-Informationen aus Mesh
@@ -222,26 +214,26 @@ Jetzt werden die Gitter in verschiedene UV-Inseln zerlegt, indem eine Methode ve
 * Update Auto Entpack auf 0.9.0
 * Update auf Qt 5.15.8
 * Update auf Python 3.9
-* [Shader] Unterstützung für die Schattierung &quot;Gebeugte Normale&quot; hinzufügen
+* [Shader] Unterstützung für Bent normals-Schattierung hinzufügen
 * [MacOS] Unterstützung von 3DConnection SpaceMouse
 * [Python] Dokumentieren der in der API verwendeten Python-Version
-* [Inhalt] Hinzufügen von 6 neuen 3D-Geräuschen mit 105 Vorgaben
+* [Inhalt] Sechs neue 3D-Rauschen mit 105 Vorgaben hinzufügen
 * [Inhalt] 20 neue Schmutz Maps und 2 Stofffalten
-* [Inhalt] Aktualisieren der Exportvoreinstellung &quot;Mesh Maps&quot;, um neue Bäcker zu verwenden
-* [Inhalt] Die Steigung des Weichzeichners und des Verkrümmungsfilters hängt von der Auflösung des Textursatzes ab
-* [Inhalt] Aktualisierung von Beispielprojekten, um die 3 neuen Bäcker zu verwenden
+* [Inhalt] Aktualisieren der Exportvoreinstellung &quot;Mesh-Map&quot;, um neue Baker zu verwenden
+* [Inhalt] Weichzeichnungs- und Verkrümmungsfilter hängen von der Steigung des Textursatzes ab
+* [Inhalt] Aktualisieren von Beispielprojekten, um die 3 neuen Baker zu verwenden
 
 **Fest:**
 
 * [glTF] glTF kann nicht mit Sonderzeichen geöffnet werden
 * [Engine] Artefakte mit deaktivierter Anisotropie und SVT
-* [MacOS]&#x200B;[M1] Smart-Materialien werden nicht korrekt angezeigt
-* [Mesh Processing] Meshes können nicht aus Modeler importiert werden
+* [MacOS]&#x200B;[M1] Intelligenten Materials werden nicht korrekt angezeigt
+* [Mesh Processing] Mesh können nicht aus Modeler importiert werden.
 * [UI] Horizontale Bildlaufleiste in neuem Projektfenster mit aktiviertem Farbmanagement
-* [Farbmanagement] Bei einigen OCIO-Konfigurationen fehlt der Arbeitsfarbraumwert im Farbwähler
+* [Farbmanagement] Arbeitsfarbraumwert fehlt in der Farbauswahl bei einigen OCIO
 * [Farbmanagement] Pinselvorschau im Viewport ist nicht farbverwaltet
 * [SpaceMouse] Pivot wird nicht sofort mit Fokusänderung aktualisiert und kann außerhalb des Modells liegen
-* [Exportieren]&#x200B;[USD] Exportierte USD-Dateien haben eine falsche Struktur
+* [Exportieren]&#x200B;[USD] Exportierte USD haben eine falsche Struktur.
 * [USD] Ambient occlusion-Problem beim Exportieren
 * [Inhalt] Mesh der Miniaturansicht entsprechend dem Vorschaukugel-Beispielprojekt aktualisieren
 
@@ -251,4 +243,4 @@ Jetzt werden die Gitter in verschiedene UV-Inseln zerlegt, indem eine Methode ve
 * Normale/Ambient occlusion-Mischung ist defekt
 * [MacOS] Absturz beim Starten von Iray in seltenen Fällen
 * [Vorschau-Miniaturansicht] Vereinfachte Miniaturansichten werden nicht aktualisiert, wenn ein Anker verwendet wird
-* [Farbmanagement] HDR-Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben

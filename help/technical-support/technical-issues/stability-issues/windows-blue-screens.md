@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Bluescreen-Fehler unter Windows vermeiden, wenn Sie Substance 3D Painter für einen stabilen Systembetrieb verwenden.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Windows Blue Screens
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Bluescreens in Windows
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
-
 ---
-
 
 # Bluescreens in Windows
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/viewport/2d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lerne, wie du mit den 2D-Ansichten von Substance 3D Painter Texturen im UV-Raum anzeigen und bearbeiten kannst, um präzise Texturen zu malen.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Viewport > 2D view
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 2D-Ansicht
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 1%
-
 ---
-
 
 # 2D-Ansicht
 

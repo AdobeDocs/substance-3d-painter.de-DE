@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-7-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 7.2, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 7.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 1%
-
 ---
-
 
 # Version 7.2
 
@@ -68,7 +60,7 @@ Das alte Regal wurde verbessert und in &quot;Elemente&quot; umbenannt. Das neue 
 
 ![](../../assets/banner-asm.jpg)
 
-Ein neuer Shader mit dem Namen **Adobe Standard Material** (ASM) wurde hinzugefügt, der mehrere Funktionen gleichzeitig unterstützt, sodass komplexere und genauere Materialien innerhalb eines einzelnen Textursatzes erstellt werden können. Mit diesem neuen Shader haben wir auch die Möglichkeit genutzt, neue Kanäle hinzuzufügen, um die Erstellung von Materialien zu erleichtern.
+Es wurde ein neuer Shader mit dem Namen **Adobe Standard Material** (ASM) hinzugefügt, der mehrere Funktionen gleichzeitig unterstützt, sodass komplexere und präzisere Materialien in einem einzigen Textursatz erstellt werden können. Mit diesem neuen Shader haben wir auch die Möglichkeit genutzt, neue Kanäle hinzuzufügen, um auch die Erstellung von Materialien zu erleichtern.
 
 * **Neuer Adobe Standard Material-Shader**\
   Der neue ASM Shader ist ein Shader, der mehrere Funktionalitäten sowie eine Weiterentwicklung unseres PBR-Renderings zusammenfasst. Gleichzeitig unterstützt sie Folgendes:
@@ -93,13 +85,13 @@ Ein neuer Shader mit dem Namen **Adobe Standard Material** (ASM) wurde hinzugef�
   * Spiegelartige Randfarbe
   * Benutzerkanäle von 8 bis 15
 
-* **Verbesserte Einstellungen für den Textursatz**\
+* **Verbesserte Textursatz-Einstellungen**\
   Das Kanallistenmenü in den Kanaleinstellungen gruppiert nun die Textursätze nach ihrer Kompatibilität mit dem aktuellen Shader. So können Sie leichter erkennen, welche Kanäle Auswirkungen auf den Viewport haben.
 
   ![](../../assets/channel-list-grouping.png)
 
 * **Neue Shader-API-Funktionen mit sichtbaren if- und Rekompilierungsfunktionen**\
-  Mit der Entwicklung des ASM Shaders wurden einige Änderungen in der API mit zwei bemerkenswerten Funktionen vorgenommen:
+  Mit der Entwicklung des ASM-Shader wurden einige Änderungen an der API mit zwei bemerkenswerten Funktionen vorgenommen:
   * **Sichtbar wenn**: Shader-Parameter können je nach Bedingung ein- oder ausgeblendet werden, um die Shader-Benutzeroberfläche leichter lesbar zu machen.
   * **Neukompilierung**: Durch eine bestimmte Parameterdeklaration ist es nun möglich, einen Teil eines Shader zu deaktivieren und neu zu kompilieren, um ihn zu optimieren, wenn sich der Parameter ändert. Dadurch können ungenutzte Funktionen verworfen werden.
 
@@ -213,47 +205,47 @@ Zusammenfassung: **Die Hauptversion bietet eine Aktualisierung des Bedienfelds &
 * [Bibliotheken]&#x200B;[UI] Neue Breadcrumbs-Navigation im Bedienfeld &quot;Elemente&quot;
 * [Bibliotheken]&#x200B;[UI] Wählen Sie &quot;Alle Bibliotheken&quot; aus, wenn Sie eine gespeicherte Suche auswählen.
 * [Bibliotheken]&#x200B;[UI] Wählen Sie &quot;Alle Bibliotheken&quot;, wenn alle Ordner deaktiviert sind.
-* [Bibliotheken]&#x200B;[UI] Neues Tag für Partikelpinsel
-* [Bibliotheken]&#x200B;[UI] &quot;Ablage&quot; durch &quot;Alle Bibliotheken&quot; in der gesamten App ersetzt
+* [Partikeln]&#x200B;[UI] Neues Tag für Bibliothekspinsel
+* [Libraries]&#x200B;[UI] &quot;Regal&quot; wurde durch &quot;Alle Bibliotheken&quot; in der gesamten App ersetzt
 * [Bibliotheken]&#x200B;[UI] Leere Ordner ausblenden
 * [Bibliotheken]&#x200B;[UI] Die Standardbenutzerbibliothek sollte auch dann sichtbar sein, wenn sie leer ist
-* [Bibliotheken]&#x200B;[UI] Neue Filtermethode über die Symbole des Elementtyps
-* [Bibliotheken] Tastenkombination &quot;STRG&quot; zum Auswählen mehrerer Elementtypen
+* [Libraries]&#x200B;[UI] Neue Datenmethode über die Symbole des Elementtyps
+* [Bibliotheken] Tastaturbefehl &quot;STRG&quot;, um mehrere Elementtypen auszuwählen
 * [Bibliotheken] Neue Umgebungsvariable zur Steuerung des Speicherbudgets für die Elementvorschau
-* [Bibliotheken]&#x200B;[Inhalt] Neue Umgebungszuordnungen
-* [Bibliotheken]&#x200B;[Inhalt]&#x200B;[Benutzeroberfläche] Rendern von Versatz auf Standardmaterialien
-* [Bibliotheken]&#x200B;[Inhalt] Legen Sie den Adobe Standard Material (ASM)-Shader als Standard für die Vorschauerstellung fest.
-* [Bibliotheken]&#x200B;[Inhalt]&#x200B;[ASM] Neue Projektvorlagen für neuen ASM-Shader
-* [Bibliotheken]&#x200B;[Miniaturansicht] Neue Studio 6-Umgebungszuordnung verwenden
+* [Bibliotheken]&#x200B;[Inhalt] Neue Umgebungs-Map
+* [Libraries]&#x200B;[Content]&#x200B;[UI] Versatz auf Standard-Materialien rendern
+* [Libraries]&#x200B;[Content] Legen Sie den ASM-Shader (Adobe Standard Material) als Standard für die Vorschaugenerierung fest.
+* [Libraries]&#x200B;[Content]&#x200B;[ASM] Neue Projektvorlagen für neuen ASM-Shader
+* [Bibliotheken]&#x200B;[Miniaturansicht] Neue Studio 6-Umgebungs-Map verwenden
 * [Bibliotheken]&#x200B;[Miniaturansicht] Miniaturansicht in Ressource lesen, anstatt sie zu generieren
 * [Bibliotheken]&#x200B;[Miniaturansicht] Versatz zur Miniaturgenerierung hinzufügen
-* [Einstellungen für Struktureinstellungen]
-* [Einstellungen für Struktureinstellungen]&#x200B;[UI] Neues Height wird einer normalen Konvertierungsmethode zugewiesen.
-* [Einstellungen für Textursatz]&#x200B;[UI] Nachbearbeitung der UI-Organisation der Kanäle
-* [Einstellungen für Textursatz] Benutzerkanallimit auf 16 Kanäle erhöht
-* [Einstellungen für Textursatz]&#x200B;[UI] Geben Sie an, welche Kanäle mit dem aktuell ausgewählten Shader kompatibel sind.
-* [Shader]&#x200B;[ASM] Neuer Adobe Standard Material Shader
-* [Shader]&#x200B;[ASM] Zusätzliche Unterstützung für Anisotropie, Clear Coat, Subsurface Scattering, Specular edge color und Sheen
+* [Textursatz-Einstellungen]
+* [Textursatz Settings]&#x200B;[UI] Neues Height zur normalen Konvertierungsmethode Gelegt
+* [Kanaleinstellungen]&#x200B;[UI] Überarbeitung der Benutzeroberflächenorganisation der Textursätze
+* [Kanaleinstellungen] Benutzerkanallimit auf 16 Textursätze erhöht
+* [Kanaleinstellungen]&#x200B;[UI] Geben Sie an, welche Textursätze mit dem aktuell ausgewählten Shader kompatibel sind.
+* [Shader]&#x200B;[ASM] Neuer Adobe Standard Material-Shader
+* [Shader]&#x200B;[ASM] Unterstützung für Anisotropie, Clear Coat, Volumenstreuung, Specular edge color und Glanz hinzugefügt
 * [Shader]&#x200B;[ASM] Ändern der Farbwerte der Standardkanäle
-* [Shader]&#x200B;[ASM]&#x200B;[Export] Aktualisierte Exportvorlage Adobe Dimension zu Adobe Substance 3D Stager
+* [Shader]&#x200B;[ASM]&#x200B;[Exportieren] Aktualisierte Exportvorlage Adobe Dimension zu Adobe Substance 3D Stager
 * [Shader]&#x200B;[ASM] Beschriftungen und QuickInfos für Shader- und MDL-Parameter hinzugefügt
-* [Shader]&#x200B;[ASM] Die Farbfarbe der Streuung in der 2D-Ansicht sichtbar machen, auch wenn SSS nicht unterstützt wird
-* [Shader]&#x200B;[ASM]&#x200B;[Iray] Unterstützung des ASM-Shaders in Iray mit neuer MDL
-* [Shader]&#x200B;[ASM]&#x200B;[Iray] Aktualisierte Untergrundstreuung in veraltetem PBR-Spezifikationsglanz und beschichtet
-* [Shader]&#x200B;[ASM]&#x200B;[Content] Der Standard-SSS-Typ für Samples wurde geändert
-* [Shader]&#x200B;[ASM] Hinzugefügte Dokumentation für ASM API
-* [Shader]&#x200B;[ASM] Optimieren Sie Shader, um nicht verwendete Kanäle zu ignorieren
-* [Shader] Neue Texturset-Kanäle anzeigen
-* [Shader] Verbesserte Untergrundstreuung
-* [Shader] Neue Shader-Parameter für einige Shader wurden ausgeblendet.
+* [Shader]&#x200B;[ASM] Sichtbarmachen der Streuung-Farbe in der 2D-Ansicht, auch wenn SSS nicht unterstützt wird
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Unterstützung von ASM-Shader in Iray mit neuer MDL
+* [Shader]&#x200B;[ASM]&#x200B;[Iray] Aktualisierte Volumenstreuung in veraltetem PBR-Spezifikationsglanz und beschichtet
+* [Shader]&#x200B;[ASM]&#x200B;[Content] Der Standard-SSS-Typ für Samples wurde geändert.
+* [Shader]&#x200B;[ASM] Zusätzliche Dokumentation für ASM API
+* [Shader]&#x200B;[ASM] Optimieren Sie Shader, um nicht genutzte Kanäle zu ignorieren.
+* [Shader] Leg neuer Textursatz-Kanäle
+* [Shader] Verbesserte Volumenstreuung
+* [Shader] Neue Shader-Parameter für einige Shader wurden ausgeblendet
 * [Shader] Sichtbar, wenn für Shader-Parameter
 * [Leistung]
 * [Bibliotheken] Verbesserungen der Ladezeit der Ressourcenvorschau und der Berechnungsleistung
-* [Engine] Verbesserungen der Malleistung
-* [Automatisches Ausgliedern] Leistungsverbesserungen bei Packing
-* [Automatisches Ausgliedern]
-* [Automatisches Ausgliedern] Automatisches Ausgliedern, kompatibel mit dem UV-Kachel-Workflow
-* [Automatisch entpacken] Neue Option zur Positionierung von UVs entsprechend der Gitterausrichtung
+* [Engine] Verbesserte Malleistung
+* [Automatisch Entpackt] Leistungsverbesserungen bei Packing
+* [Automatisch Entpackt]
+* [Automatisch Entpackt] Automatisch entpackt, kompatibel mit dem Workflow der UV-Kachel
+* [Automatisches Entpacken] Neue Option zur Positionierung von UVs entsprechend der Ausrichtung des Meshs
 * [Sonstige]
 * [Einstellungen] Standardzoomrichtung geändert
 * [UI] Gesamte Aktualisierung der Benutzeroberfläche
@@ -288,24 +280,24 @@ Zusammenfassung: **Die Hauptversion bietet eine Aktualisierung des Bedienfelds &
 
 * [Tablet] Geringe Leistung beim Malen mit Druck
 * [Tablet] Problem auf Tablets mit Schiebereglern
-* [Absturz] Namenskonflikt zwischen der Textursatzliste und dem Exporteur
-* [Absturz]&#x200B;[Bibliotheken] Doppelklicken Sie auf eine Unterbibliothek
+* [Absturz] Namenskonflikt zwischen der Liste der Textursatz und dem Exporter
+* [Absturz]&#x200B;[Bibliotheken] Doppelklicken Sie auf eine Unterbibliothek.
 * [Bibliotheken] Problem beim Durchsuchen von Bibliotheksverzeichnissen
 * [Bibliotheken] Befehlszeile zum Erzwingen der Vorschaugenerierung funktioniert nicht wie erwartet
-* [Bibliotheken]&#x200B;[Inhalt] Der Filter &quot;Hintergrundbeleuchtung&quot; ist standardmäßig schwarz.
-* [Linux]&#x200B;[MacOS]&#x200B;[Export Mesh] GlTF, das unter Linux/MacOS erstellt wurde, kann nicht importiert werden.
+* [Libraries]&#x200B;[Content] Der Baking geführt Lichtumgebungsfilter ist standardmäßig schwarz.
+* [Linux]&#x200B;[MacOS]&#x200B;[Mesh exportieren] Kann unter Linux/MacOS erstellte glTF nicht importieren
 * [Linux] Das Ziehen und Ablegen einer Datei in das Bedienfeld &quot;Asset&quot; kann zu einem Absturz führen
-* [Automatisches Ausgliedern] Automatisches Ausgliedern ist auch verfügbar, wenn kein Gitter zum erneuten Laden ausgewählt wurde
-* [Partikel] Falsches Partikelverhalten mit Schwerkraft
+* [Automatisches Entpacken] Automatisches Entpacken ist auch dann verfügbar, wenn kein Mesh zum erneuten Laden ausgewählt wurde
+* [Partikeln] Falsche Partikel mit Schwerkraft
 * [Ebenenstapel] Ebenen-Histogramm kann nur Luminanz mit einigen Kanälen verwenden
 * [Geometriemaske] Rechtsklick-Menü auf einen Ordner beim Bearbeiten der Geometriemaske funktioniert nicht
-* [Projektion] Naht mit sphärische Projektion &amp; bilinearer Filterung
+* [Projektion] Naht mit sphärische Projektion und bilinearen Filterungen
 * [UV-Kacheln] Exportmaske in Datei exportiert nur Kachel 0, 0
-* [Gitter exportieren] FBX-Gitterexport ist leer
-* [Iray] Normale Karte wird bei neuen Projekten beim Rendern nicht berücksichtigt
+* [Mesh exportieren] FBX Mesh-Export ist leer.
+* [Iray] Normalen-Map wird beim Rendern in neuen Projekten nicht berücksichtigt
 * [Speichern] Speichern von Problemen auf freigegebenen Laufwerken
-* [Backen] Beim Rebaking eines Gitters mit geänderten Parametern wird eine Warnung angezeigt.
-* [Backen]&#x200B;[Regression] Falsches Ergebnis, wenn der globale Begrenzungsrahmen hoher Poly-Meshes den Szenenursprung nicht enthält
+* [Baking] Beim erneuten Erstellen eines Meshs mit geänderten Parametern wird eine Warnung angezeigt.
+* [Baking]&#x200B;[Regression] Falsches Ergebnis, wenn der globale Begrenzungsrahmen des hohen Poly-Meshs den Ursprung der Szene nicht enthält
 * [Python] Benutzerdefinierte Benutzerbibliotheken werden nicht berücksichtigt
 
 **Bekannte Probleme:**

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/interface/layer-stack/geometry-mask.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie in Substance 3D Painter mithilfe von Geometriemasken Ebenen auf der Grundlage von Mesh-Geometrie und Oberflächeneigenschaften maskieren.
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Geometry mask
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Geometriemaske
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
-
 ---
-
 
 # Geometriemaske
 
@@ -92,6 +84,6 @@ Im folgenden Beispiel wurde das 3D-Modell in zwei Objekte aufgeteilt: ein oberes
 
 | Visuell | Beschreibung |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/no-geo-excluded.jpg" width="420px"/></div> | Es wurde keine Geometrie in der Geometriemaske ausgeschlossen. Die Malebene, auf der der weiße Pinselstrich durchgeführt wurde, kollidiert mit der gesamten Geometrie.Die Schaltfläche **Ausgeschlossene Geometrie ausblenden** ist deaktiviert. |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/no-geo-excluded.jpg" width="420px"/></div> | In der Geometriemaske wurde keine Geometrie ausgeschlossen. Die Malebene, auf der der Pinselstrich erfolgt ist, kollidiert mit der gesamten Geometrie.Die Schaltfläche **Ausgeschlossene Geometrie ausblenden** ist deaktiviert. |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/geo-excluded-hidden.jpg" width="420px"/></div> | Der obere Teil wurde in der Geometriemaske ausgeschlossen, und der weiße Pinselstrich kollidiert nur mit dem unteren Teil der Geometrie.Die Schaltfläche **Ausgeschlossene Geometrie ausblenden** ist aktiviert. |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/geo-excluded-visible.jpg" width="420px"/></div> | Der obere Teil wurde in der Geometriemaske ausgeschlossen, und der weiße Pinselstrich kollidiert nur mit dem unteren Teil der Geometrie.Die Schaltfläche **Ausgeschlossene Geometrie ausblenden** ist deaktiviert. |

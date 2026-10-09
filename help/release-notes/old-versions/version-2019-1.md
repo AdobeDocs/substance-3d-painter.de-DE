@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/old-versions/version-2019-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Lesen Sie die Versionshinweise für Substance 3D Painter 2019.1, um mehr über neue Funktionen, Verbesserungen und Fehlerbehebungen zu erfahren.
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Version 2019.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2954'
 ht-degree: 1%
-
 ---
-
 
 # Version 2019.1
 
@@ -109,15 +101,15 @@ Um die Einrichtung zu vereinfachen, können Sie mit der rechten Maustaste auf ei
 
 ![](../../assets/radial-demo.gif)
 
-Wir haben die Möglichkeiten unseres Symmetrie-Werkzeugs erweitert, um radiale Symmetrie zu handhaben. Es gibt jetzt einen neuen Modus im Menü &quot;Symmetrie-Einstellungen&quot;, um ihn zu aktivieren (verfügbar in der kontextbezogenen Symbolleiste).
+Wir haben die Funktionen unseres Symmetrie-Tools erweitert, um die radiale Symmetrie zu verarbeiten. Es gibt jetzt einen neuen Modus im Menü &quot;Symmetrie-Einstellungen&quot;, um ihn zu aktivieren (verfügbar in der kontextbezogenen Symbolleiste).
 
 Die folgenden Einstellungen sind verfügbar:
 
-* **X / Y / Z** : Steuert die Richtung der Symmetrieachse, die von der Radialsymmetrie verwendet wird.
+* **X / Y / Z** : Steuert die Achse der Symmetrie, die von der radialen Symmetrie verwendet wird.
 * **Anzahl** : Die Anzahl der duplizierten Punkte.
 * **Winkelbereich** : Die Position der duplizierten Punkte vom ursprünglichen Punkt. Diese Einstellung kann verwendet werden, um einen ganzen Kreis, ein Viertel davon usw. zu erstellen.
 
-Wir haben auch eine kleine Vorschau hinzugefügt, um es einfacher zu machen, die Einstellungen vor dem Malen zu optimieren:
+Wir haben auch eine kleine Vorschau hinzugefügt, um es einfacher zu machen, die Einstellungen anzupassen, bevor mit dem Malen begonnen wird:
 
 ![](../../assets/radial-settings.png)
 
@@ -125,7 +117,7 @@ Wir haben auch eine kleine Vorschau hinzugefügt, um es einfacher zu machen, die
 
 ![](../../assets/fill-proj.jpg)
 
-Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefügt: **Planar** und **Kugelförmig**. Wir haben außerdem viele neue Parameter hinzugefügt, um das Verhalten der 3D-Projektionen genauer zu steuern.
+Es wurden zwei neue Modi für die Projektion mit Füllebenen und Fülleffekten hinzugefügt: **Planar** und **Kugelförmig**. Wir haben außerdem viele neue Parameter hinzugefügt, um das Verhalten der 3D-Projektionen genauer zu steuern.
 
 * **Neuer Modus für Planare Projektion**\
   Mit diesem neuen Modus ist nun das Projizieren einer Ebene möglich. Es kann nützlich sein, um Streifen an Fahrzeugen zu erstellen oder Aufkleber an einer bestimmten Stelle zu platzieren.
@@ -138,7 +130,7 @@ Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefü
 
   ![](../../assets/surface-tool-optim.gif)
 * **Planare Projektion wird abgebaut/verblasst**\
-  Es stehen mehrere Einstellungen zur Verfügung, um die planare Projektion entweder kontinuierlich oder endlich zu gestalten. Wenn eine Einstellung für das Keulen aktiviert ist, zeigt der gepunktete Rahmen um den Manipulator den Begrenzungsrahmen für die Projektion an und die Mittellinie ist der Punkt, an dem die Projektion beginnt. Durch Skalieren der Projektion können Sie steuern, wie weit sie geht und wann sie zu verblassen beginnt.
+  Es sind mehrere Einstellungen verfügbar, um die planare Projektion entweder kontinuierlich oder endlich zu gestalten. Wenn eine Einstellung für die Ausmaskierung aktiviert ist, zeigt der gepunktete Rahmen um den Manipulator den Begrenzungsrahmen für die Projektion an und die Mittellinie ist der Punkt, an dem die Projektion beginnt. Die Skalierung der Projektion ermöglicht es zu steuern, wie weit sie geht und wann sie mit der Verblassen beginnt.
 
   ![](../../assets/planar-culling.gif){width="500px"}
 
@@ -168,7 +160,7 @@ Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefü
   Die Auswahl mehrerer Textursatz zur gleichzeitigen Änderung ihrer Auflösung über die Textursatz-Einstellungen ist jetzt möglich.\
   Im Mehrfachauswahlmodus wird immer noch von einem &quot;Haupt&quot;-Textursatz gesprochen, weshalb zusätzliche Elemente grau selektiert werden. Wenn Sie zu einem anderen Textursatz wechseln müssen, während Sie die aktuelle Auswahl beibehalten, können Sie dies mit der mittleren Maustaste tun.
 * **In der Textursatz-Liste schnell ein-/ausblenden**\
-  Sie können jetzt (wie im Ebenenstapel) klicken und ziehen, um Textursätze aus- oder einzublenden.
+  Sie können jetzt (wie im Ebenenstapel) klicken und ziehen, um Textursatz auszublenden oder anzuzeigen.
 * **Verbesserte Benutzeroberfläche für Ebenenstapel**\
   Wir haben das Symbol für den Status &quot;Ein-/Ausblenden&quot; einer Ebene geändert, um einheitlicher und verständlicher zu sein. Wir haben auch die Anzeige der ausgewählten Ebenen geändert, um sie besser mit der Auswahl ihrer Effekte und anderer Ebenen zu vergleichen.\
   ![](../../assets/layer-stack-selection-ui.gif)
@@ -180,10 +172,10 @@ Es wurden zwei neue Projektionsmodi mit Füllebenen und Fülleffekten hinzugefü
 * **Dithering beim Export** Dithering kann jetzt über eine dedizierte Einstellung im Exportfenster neben dem Dateiformat und der Bittiefe deaktiviert werden. Weitere Informationen dazu, wie und wann Dithering angewendet wird [finden Sie in der Exportdokumentation &#x200B;](../../export/export-window/export-window.md).\
   ![](../../assets/dithering.png)
 * **Bessere Histogramme**\
-  Wir überarbeiteten unseren Histogrammgenerator. Histogramme sollten jetzt genauere Informationen anzeigen und nach einer Änderung im Ebenenstapel ordnungsgemäß aktualisieren.\
+  Wir überarbeiteten unseren Histogrammgenerator. Histogramme sollten jetzt genauere Informationen anzeigen und nach einer Änderung des Ebenenstapels ordnungsgemäß aktualisieren.\
   ![](../../assets/histogram.png)
 * **Bessere Instanziierung von Ebenen**\
-  Für instanzierte Ebenen ist jetzt der Mischmodus auf &quot;Hindurchwirken&quot; festgelegt, anstelle des Standardmischmodus. Dieser Mischmodus verbessert die Kompatibilität einiger Effekte, wenn Ebenen über Textursätze hinweg instanziiert werden.
+  Für instanzierte Ebenen ist jetzt der Mischmodus auf &quot;Hindurchwirken&quot; festgelegt, anstelle des Standardmischmodus. Dieser Mischmodus verbessert die Kompatibilität einiger Effekte, wenn Ebenen über Textursatz hinweg instanziiert werden.
 
 ### Neue Inhalte
 
@@ -194,7 +186,7 @@ In dieser Version haben wir auch viele neue Inhalte hinzugefügt: von der Vorgab
 * **Neuer Pinsel und Werkzeugvorgaben**\
   In dieser Version wird die neue Funktion &quot;Dynamische Pinselstriche&quot; eingeführt und damit haben wir einige gebrauchsfertige Pinsel und Werkzeugvorgaben hinzugefügt.
 
-  * 10 neue Pinselvorgaben :
+  * 10 neue Pinselvorgaben:
     * Ink Dirty
     * Freihand-Zufallswert
     * Blattwölbung stark
@@ -231,19 +223,19 @@ In dieser Version haben wir auch viele neue Inhalte hinzugefügt: von der Vorgab
   * **Height auf Normal** : Dieser Filter wandelt den Height-Kanal in einen Normal-Kanal um und übergibt ihn an den Normal-Kanal. Es hat verschiedene Intensitätskontrollen je nach Bedarf.
   * **Maskenkontur** : Dieser Filter erstellt einen weißen schwarzen Rahmen um eine Graustufeneingabe. Dies ist am nützlichsten in Masken, um Rahmen um Formen zu erstellen.
   * **PBR-Validierung** : Wir haben diesen Filter hinzugefügt, um zu überprüfen, ob die Farben Ihres PBR-Materials im richtigen Bereich sind. Weitere Informationen finden Sie im [PBR-Handbuch](https://www.allegorithmic.com/pbr-guide) !
-  * **MatFX Peeling Paint** : Simuliert das Ablösen alter Malen. Dieser Filter gibt Alpha aus, sodass du die Farben leicht mit den Materialien darunter mischen kannst.
+  * **MatFX Peeling-Malen** : Simuliert das Ablösen alter Malen. Dieser Filter gibt Alpha aus, sodass du die Farben leicht mit den Materialien darunter mischen kannst.
   * **MatFx Wassertropfen** : Simuliert Wassertropfen auf der Oberfläche eines Objekts. Wie Wasser auf einem Auto nach dem Regen.
 * **7 neue Generatoren**\
   In dieser Version haben wir einige neue Generatoren hinzugefügt:
 
-  * **Umgebungs-Verdeckung** : Maskengenerator mit Steuerelementen auf der Ambient occlusion-Mesh-Map. Basierend auf dem Maskeneditor.
+  * **Ambient occlusion** : Maskengenerator mit Steuerelementen auf der Ambient occlusion-Mesh-Map. Basierend auf dem Maskeneditor.
   * **Welt-Raum-Normale** : Maskengenerator mit Steuerelementen auf der Welt-Raum-Normale-Mesh-Map. Basierend auf dem Maskeneditor.
   * **Position** : Maskengenerator mit Steuerelementen auf der Mesh-Map &quot;Position&quot;. Basierend auf dem Maskeneditor.
-  * **Krümmung** : Maskengenerator mit Steuerelementen für die Krümmungsgitter-Map. Basierend auf dem Maskeneditor.
+  * **Krümmung** : Maskengenerator mit Steuerelementen auf der Krümmung-Mesh-Map. Basierend auf dem Maskeneditor.
   * **Automatisches Zusammensetzen** : Maskengenerator, der Masken in der Nähe der UV-Ränder, der Mesh-Krümmung oder um eine benutzerdefinierte Maskeneingabe herum erstellt.
   * **UV Texeldichte** : Helfer, der einen farbigen Verlauf ausgibt, der auf der Texeldichte der Polygone des Meshs basiert.
   * **UV Zufallsfarbe** : Generieren Sie eine zufällige Farbe pro UV-Insel (oder basierend auf einer benutzerdefinierten Verlaufseingabe).
-* **2 neue Umgebungszuordnungen**
+* **2 neue Umgebungs-Map**
 
   * Herbstwald
   * Canopus-Boden
@@ -253,8 +245,8 @@ In dieser Version haben wir auch viele neue Inhalte hinzugefügt: von der Vorgab
 
   * Farbverlauf
   * Gradient Builder
-  * Farbjitter nach Index
-  * Farbenjitter nach Seed
+  * Jitter nach Index einfärben
+  * Jitter nach Seed einfärben
   * Weiche Kante stilisiert
 
     ![](../../assets/procedurals.png)
@@ -275,11 +267,11 @@ Zusammenfassung: **Bugfix mit 2 neuen Funktionen**
 **Fest:**
 
 * &quot;Pfad folgen&quot; funktioniert nicht immer
-* Kanalzuordnung funktioniert nicht mit SBSAR, das in Einkanal-Steckplätzen verwendet wird
+* Kanalzuordnung funktioniert nicht mit SBSAR, das in Ein Kanal-Steckplätzen verwendet wird
 * [Ebenenstapel] Niedrige Leistung beim Scrollen mit ausgeblendeten Ebenen
 * [TextureSet] Absturz beim Klicken zwischen Masken
 * [SVT] Versatz wird nicht richtig angezeigt und flackert in einigen Fällen
-* [Alembic] Absturz mit Gitter mit Punktnormalen anstelle von Scheitelpunktnormalen
+* [Alembic] Absturz mit Mesh, der Punktnormalen anstelle von Scheitelpunkt-Normalen verwendet
 * [Alembic]&#x200B;[Log] Melden Sie einen Fehler im Log, wenn die Alembic-Datei während des Imports nicht unterstützt wird
 
 ### 2019.1.2
@@ -302,25 +294,25 @@ Zusammenfassung: **HotFix**
 
 **Fest:**
 
-* [Substance] Sichtbar, wenn bei Eingabebildern nicht berücksichtigt wird
-* [SVT]&#x200B;[Engine] Das Ändern der Auflösung des Textursatzes führt in einigen Fällen zu einem Absturz
+* [Substance] Visible If wird bei Eingabebildern nicht berücksichtigt
+* [SVT]&#x200B;[Engine] Das Ändern der Textursatz-Auflösung führt in einigen Fällen zu einem Absturz
 * [Engine] In einigen Fällen werden zufällige schwarze Texturen angezeigt
 * [Ebenenstapel]&#x200B;[UI] Wenn Sie mit UMSCHALTTASTE eine Maske umschalten, können Sie mehrere Ebenen gleichzeitig auswählen
-* [Ebenenstapel] Deckkraft hat keine Auswirkungen auf den Effekt &quot;Malen&quot; mit dem Mischmodus &quot;Hindurchwirken&quot;
-* [Ebenenstapel] Die Filtereingabe &quot;Height zu Normal&quot; wird mit dem Pinselstrich des Radiergummis nicht ordnungsgemäß aktualisiert
-* [LayersStack] Absturz beim Rückgängigmachen des Ablagevorgangs für eine Smart-Maske
+* [Ebenenstapel] Deckkraft hat keine Auswirkungen auf den Malen-Effekt mit dem Mischmodus &quot;Hindurchwirken&quot;
+* [Ebenenstapel] Filtereingabe &quot;Height zu Normal&quot; wird mit dem Pinselstrich des Radiergummis nicht ordnungsgemäß aktualisiert
+* Absturz [LayersStack] beim Rückgängigmachen des Ablagevorgangs für eine intelligente Maske
 * Flackerndes Drahtgitter mit aktiviertem temporalem Anti-Aliasing
-* [Versatz] Verzögerung bei AMD mit einigen schweren Maschen
+* [Versatz] Verzögerung bei AMD mit einigen schweren Meshs
 * [Windows] Absturz beim Öffnen einiger Projekte über den Datei-Explorer
-* [Histogramm] Absturz beim Entfernen der Maske mit Ankerpunkt in einigen Fällen
-* Absturz beim Generieren der Vorschau in einigen seltenen Fällen
-* [Absturz] Ein Projekt kann nicht mit zu vielen Klon- und Verwischen-Werkzeugen erneut geöffnet werden
-* Kein Gitter im Materialmodus nach dem Speichern in einigen Fällen angezeigt
+* [Histogramm] Absturz beim Entfernen von Masken mit Ankerpunkt in einigen Fällen
+* Absturz bei der Vorschauerstellung in einigen seltenen Fällen
+* [Absturz] Ein Projekt kann mit zu vielen Klon- und Verwisch-Tools nicht erneut geöffnet werden
+* Nach dem Speichern wird in einigen Fällen kein Mesh im Materialmodi angezeigt
 * [Scripting] alg.mapexport.documentStructure() gibt falsche Werte für Ordner zurück
 
 **Bekannte Probleme:**
 
-* Durch Doppelklicken auf den Namen des Textursatzes wird dieser vor dem Umbenennungsmodus ausgewählt
+* Durch Doppelklicken auf den Namen des Textursatzes wird dieser vor dem Umbenennungsmodus ausgewählt.
 
 ### 2019.1
 
@@ -330,35 +322,35 @@ Zusammenfassung: **Dynamischer Strich mit eigenem neuen Inhalt, Versatz und Tess
 **Hinzugefügt:**
 
 * [Werkzeug] Dynamischer Strich: Substance-Variation entlang eines Pinselstrichs
-* [Dynamischer Strich] Stellen Sie einen neuen Stempelindexparameter mit Optionen bereit.
+* [Dynamische Kontur] Leg eines neuen Stempelindexparameters mit Optionen
 * [Dynamischer Strich] Parameter $time berücksichtigen
 * [Dynamischer Strich] Generieren eines neuen $randomseed-Parameters pro Strich und pro Stempel
 * [Dynamischer Strich] Starten eines dynamischen Strichindex aus einer zufälligen Zahl
-* [Dynamischer Strich]&#x200B;[Ablage] Helfen Sie, eine dynamische Strichressource mit einem neuen Symbol zu finden.
-* Versatz und Tesselierung im Echtzeit-Viewport
-* Versatz und Tesselierung in Iran
-* [Shader settings]&#x200B;[UI] Neue Registerkarte für die Steuerung von Versatz und Tesselierung
-* [Ebenenstapel] Neuer Effekt &quot;Maske vergleichen&quot;: durch Vergleich zweier Kanäle eine Maske generieren
-* [Ebenenstapel]&#x200B;[UI] Neuer Eintrag im Rechtsklick-Menü &quot;Height mit Maskenkombination hinzufügen&quot;, um einen CompareMask-Effekt einzufügen
-* [Symmetrie] Neuer Symmetriemodus: Radialmalerei
-* [Symmetrie-Einstellungen] Erweitern Sie beide Abschnitte &quot;Einstellungen&quot; und &quot;Anzeige&quot;.
+* [Dynamischer Strich]&#x200B;[Regal] Helfen Sie mit dem neuen Symbol, eine dynamische Strichressource zu finden.
+* Versatz und Tessellation im Echtzeit-Viewport
+* Versatz und Tessellation in Iray
+* [Shader-Einstellungen]&#x200B;[UI] Neue Registerkarte für die Steuerung von Versatz und Tessellation
+* [Ebenenstapel] Neuer Effekt &quot;CompareMask&quot;: durch Vergleich zweier Kanäle eine Maske generieren
+* [Ebenenstapel]&#x200B;[UI] Neuer Eintrag im Kontextmenü &quot;Height mit Maskenkombination hinzufügen&quot;, um einen CompareMask-Effekt einzufügen
+* [Symmetrie] Neue Symmetrie: Radialmalerei
+* [Einstellungen für Symmetrie] Erweitern Sie beide Abschnitte &quot;Einstellungen&quot; und &quot;Anzeige&quot;.
 * [Symmetrie-Einstellungen]&#x200B;[UI] Vorschau für radiales Malen
-* Zeigen Sie zwei neue Projektionsmodi an: planar und sphärisch
+* Leg zweier neuer Modi für die Projektion: planar und kugelförmig
 * [Proj] Neuer Formzuschneidemodus für alle Projektionen
 * [Proj] Planarer Modus mit neuem Manipulator: Oberflächenwerkzeug
-* [Proj]&#x200B;[Shortcut] Shortcut UMSCHALTTASTE+W für Oberflächenwerkzeug
-* [Proj] Planare Projektionsmaskierung mit Tiefe ausblenden- und Rückseitenschälung
-* [Manipulator] Verbesserung des Rotationsmanipulators auf allen drei Achsen für triplanar
+* [Proj]&#x200B;[Tastaturbefehl] Tastaturbefehl UMSCHALTTASTE+W für Oberflächenwerkzeug
+* [Proj] Planare Maskierung von Projektionen mit Tiefe ausblenden und Rückseiten-Ausblendung
+* [Manipulator] Verbesserung des Manipulators der Drehung auf allen drei Achsen für triplanare
 * [Tool]&#x200B;[UX] Alt-Klick auf einen Kanal fokussiert diesen Kanal (aktiviert ihn oder deaktiviert alle anderen)
 * [Engine] Update auf die neueste Version von Substance Engine
-* [Textursatz] Mehrfachauswahl und Änderung der Auflösung
-* [Texturset] Schnelle Aktivierung und Deaktivierung der Textursets
-* [Struktursatz] Kombination von Solo- und allen Optionen in einem neuen Menü
+* [Textursatz] Mehrfachauswahl und Auflösungsänderung
+* [Textursatz] Schnelle Aktivierung und Deaktivierung der Textursatz
+* [Textursatz] Kombination von Solo- und allen Optionen in einem neuen Menü
 * [Textursatz]&#x200B;[Ebenenstapel] Neues Symbol für Aktivierung und Deaktivierung
 * [Ebenenstapel]&#x200B;[UX] Einfügen von Effekten über den bereits ausgewählten
-* [Ebenenstapel]&#x200B;[UI] Auswahlstil für Ebenenstapelansicht überarbeiten
+* [Ebenenstapel]&#x200B;[UI] Ebenenstapel-Ansichtenauswahlstil überarbeiten
 * [Ebenenstapel] Der Mischmodus für instanzierte Ebenen ist jetzt standardmäßig im Durchlaufmodus
-* [Export] Option zum Aktivieren und Deaktivieren des Dithering
+* [Exportieren] Option zum Aktivieren und Deaktivieren von Dithering
 * [Plugin] Präzisionsmodifikator für Schieberegler unterstützen (SHIFT)
 * [Plug-in]&#x200B;[UI] Neues Symbol für automatisches Speichern
 * [Scripting] Auflisten des Inhalts eines Ordners

@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/main-menu/help-menu.html'
 breadcrumb-title: ''
 description: Greifen Sie auf das Hilfemenü in Substance 3D Painter zu, um Dokumentation, Tutorials und Support-Ressourcen zu finden.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Main menu > Help menu
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Hilfemenü
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e370ba212d3e90f71e09b75ff41be6123d37c5eb
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 8%
-
 ---
-
 
 # Hilfemenü
 

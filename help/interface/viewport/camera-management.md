@@ -1,24 +1,16 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
 description: Erfahre, wie du in Substance 3D Painter Viewport die Ansicht einer Kamera verwaltest, um deine 3D-Modelle effektiv zu navigieren und mit Rahmen zu versehen.
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Viewport > Camera management
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
-title: Kameramanagement
+title: Kamera-Management
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e370ba212d3e90f71e09b75ff41be6123d37c5eb
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
-
 ---
 
-
-# Kameramanagement
+# Kamera-Management
 
 In Maya, Max, Blender, Modo und DAE erstellte Kameras können in Substance 3D Painter importiert werden.
 
@@ -30,7 +22,7 @@ In Maya, Max, Blender, Modo und DAE erstellte Kameras können in Substance 3D Pa
 
 Die Kameras sollten in die Meshdatei aufgenommen werden, entweder im FBX- oder im ABC-Format (Alembic).
 
-Der Name, die Transformationsparameter, das FOV und das Seitenverhältnis (sofern vorhanden) werden importiert.
+Der Name, die transformieren-Parameter, das STF und das Seitenverhältnis (sofern vorhanden) werden importiert.
 
 Wählen Sie im Fenster Neues Projekt die Meshdatei aus, in der die Kameras enthalten sind, und überprüfen Sie, ob das Kontrollkästchen **Kameras importieren** aktiviert ist. Wenn Sie im **Bearbeiten > Projektkonfigurationsfenster** auf **Mesh neu importieren** umschalten, können Sie auch **Kameras importieren** aktivieren, wenn Sie sie bei der ersten Projekterstellung verpasst haben.
 
@@ -47,7 +39,7 @@ Klicken Sie dann auf **OK**:
 
 Wenn Kameras in Ihr aktuelles Projekt importiert wurden, können Sie im **Dropdown** im **3D-Viewport** auswählen, welche Kamera aktiviert ist.
 
-Standardmäßig ist die Painter-Kamera mit dem Namen &quot;Standardkamera&quot; ausgewählt und befindet sich im Perspektivmodus.
+Standardmäßig ist die Painter-Kamera mit dem Namen &quot;Standard-Kamera&quot; ausgewählt und sie befindet sich im Modus &quot;Perspektive&quot;.
 
 ![](../../assets/camera-select.png)
 
@@ -59,7 +51,7 @@ Wenn eine importierte Kamera ausgewählt ist, wird das Verschieben der Kamera du
 
 >[!NOTE]
 >
-> Wenn Sie die importierte Kameraposition ändern müssen, können Sie diese in der ausgewählten Szenenbearbeitungsanwendung aktualisieren und die Szene mit **Bearbeiten > Projektkonfiguration** erneut importieren.
+> Wenn Sie die Position der importierten Kamera ändern müssen, können Sie diese in der Anwendung zur Bearbeitung der Szene aktualisieren und die Szene mit **Bearbeiten > Projektkonfiguration** erneut importieren.
 
 Sie können die Parameter der importierten Kameras im **Einstellungsfenster anzeigen** steuern.
 
@@ -79,7 +71,7 @@ Das Sichtfeld oder das FOV wird in Grad angegeben.
 
 Die Brennweite wird in mm angegeben.
 
-Im Viewport-Modus (OpenGL) sind Fokusabstand und Blende deaktiviert. Um sie zu aktivieren, müssen Post Effects und DOF aktiviert sein.
+Im Viewport-Modus (OpenGL) sind Fokusabstand und Blende deaktiviert. Um sie zu aktivieren, müssen Post-Effekte und DOF aktiviert sein.
 
 ### Anzeigeverhältnis
 
@@ -97,7 +89,7 @@ Der Kamera-Rahmen kann in **Anzeigeeinstellungen > Viewport-Einstellungen** umge
 
 ![](../../assets/image2018-7-26-15-54-58.png)
 
-Sie können die Deckkraft des Bereichs außerhalb des Rahmens auch mit der **Gate-Maskendeckkraft** anpassen.
+Sie können auch die Deckkraft des Bereichs außerhalb des Rahmens mit der **Gate-Maskendeckkraft** anpassen.
 
 <table>
   <tr style="border: 0;">

@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: Mit dem Pfadwerkzeug in Substance 3D Painter können Sie Pfade erstellen und bearbeiten, um die Textur präzise zu zeichnen und Konturen zu platzieren.
-helpx_creative_field: ''
-helpx_description: Painting > Path tools list > Path tool
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Pfad-Werkzeug - Übersicht
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6fcf10add7086a0e2a070ee6046c0a261ef1ae34
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 0%
-
 ---
-
 
 # Pfad-Werkzeug - Übersicht
 

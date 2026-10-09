@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/tool-list/paint-brush.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Verwende das Malen-Pinsel-Werkzeug in Substance 3D Painter, um Texturen mit anpassbaren Pinseleinstellungen direkt auf 3D-Modelle Malen.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Paint brush
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Malen
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
-
 ---
-
 
 # Malen
 
@@ -78,7 +70,7 @@ Die Pinselparameter definieren das Aussehen des Pinselstrichs, wenn er auf dem 3
 | **Positions-Jitter** | Wenden Sie einen zufälligen Positionsversatz pro Stempel innerhalb des Pinselstrichs an. Ein Wert von 0 bedeutet keine Zufälligkeit, ein Wert von 1 bedeutet volle Zufälligkeit. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
 | **Ausrichtung** | Legt fest, wie die Stempel innerhalb des Pinselstrichs auf die Oberfläche des 3D-Mesh projiziert/ausgerichtet werden. Die folgenden Werte sind verfügbar:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Kamera </strong> : Richten Sie den Stempel auf die Perspektive des Viewports aus</li><li data-preserve-html="true"><strong> Tangente `\|` Umbruch (Standard) </strong> : Richten Sie den Stempel so aus, dass er auf die 3D-Mesh-Oberfläche ausgerichtet ist. Der Stempel wird ebenfalls so verformt, dass er der Oberfläche entspricht.</li><li data-preserve-html="true"><strong> Tangente `\|` Planar </strong> :  Richten Sie den Stempel so aus, dass er auf die 3D-Mesh-Oberfläche ausgerichtet ist. Die Briefmarke wird Verblassen seine Grenze sind zu weit von der Oberfläche des 3D-Meshs. </li><li data-preserve-html="true"><strong> UV </strong> : Richten Sie den Stempel nach den 3D-Mesh-UVs aus.</li></ul> |
 | **Rückseiten-Ausblendung** | Ermöglicht das Ignorieren von Flächen auf dem 3D-Mesh, die nicht mit dem Stempel ausgerichtet sind. Um zu berechnen, welche Teile des 3D-Mesh ignoriert werden sollen, schaut das Engine auf die Normalität an der Oberfläche des 3D-Mesh und vergleicht seinen Winkel mit dem definierten Wert. |
-| **Speicherkapazität** | Steuert, in welchem relativen Abstand die Pinselgröße berechnet wird. Mögliche Werte sind:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Objekt (Standard) </strong> : Die Pinselgröße wird mit der 3D-Gittergröße synchronisiert. Das Verschieben der Kamera im Viewport wirkt sich auf die Größe aus, damit sie im Verhältnis zum 3D-Mesh bleibt.</li><li data-preserve-html="true"><strong> Viewport </strong> : Die Pinselgröße ist mit dem Viewport verknüpft. Die Änderung der Größe der Benutzeroberfläche wirkt sich auf die Pinselgröße aus. Das Bewegen der Kamera hat keine Auswirkungen.</li><li data-preserve-html="true"><strong> Textur </strong> : Die Pinselgröße ist mit der 2D-Viewport-Ebene des Zooms verknüpft.</li></ul> |
+| **Speicherkapazität** | Steuert, in welchem relativen Abstand die Pinselgröße berechnet wird. Mögliche Werte sind:<ul data-preserve-html="true"><li data-preserve-html="true"><strong> Objekt (Standard) </strong> : Die Pinselgröße wird mit der 3D-Mesh-Größe synchronisiert. Das Verschieben der Kamera im Viewport wirkt sich auf die Größe aus, damit sie im Verhältnis zum 3D-Mesh bleibt.</li><li data-preserve-html="true"><strong> Viewport </strong> : Die Pinselgröße ist mit dem Viewport verknüpft. Die Änderung der Größe der Benutzeroberfläche wirkt sich auf die Pinselgröße aus. Das Verschieben der Kamera hat keine Auswirkungen.</li><li data-preserve-html="true"><strong> Textur </strong> : Die Pinselgröße ist mit der 2D-Viewport-Ebene des Zooms verknüpft.</li></ul> |
 
 ## Alpha
 
@@ -120,20 +112,20 @@ Die Schablone ist eine zusätzliche Graustufenmaske für den Pinselstrich. Im Ge
 | **Schablone drehen** | Das Drehen der Schablone kann durch Drücken der Taste **S** und Klicken und Ziehen mit der Schaltfläche **Linke Maustaste** erfolgen. Außerdem kann durch Drücken der **Umschalttaste** die Drehung alle **90 Grad** einrasten werden. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-rotate.gif" width="350px"/></div> |
 | **Größe der Schablone ändern** | Sie können die Größe der Schablone ändern, indem Sie die Taste **S** drücken und mit der Schaltfläche **Rechte Maustaste** klicken und ziehen. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-resize.gif" width="350px"/></div> |
 
-Die Einstellung für den Kachelmodus steuert, wie die Schablonenmaske über dem Viewport wiederholt wird (diese Einstellung wirkt sich auch auf die Texturierung aus):
+Die Einstellung für den Maskenmodus steuert, wie die Kachelung über dem Viewport wiederholt wird (diese Einstellung wirkt sich auch auf die Texturierung aus):
 
-| *Kachelmodus* | *Beschreibung* |
+| *Kachelungsmodi* | *Beschreibung* |
 | --- | --- |
 | **Keine Kachelung (Standard)** | Die Schablone wird nicht wiederholt. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-notiling.png" width="350px"/></div> |
-| **Horizontale Kachelung** | Wiederholen Sie die Schablonenmaske nur auf der horizontalen Achse. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-horizontal.png" width="350px"/></div> |
-| **Vertikale Kachelung** | Wiederholen Sie die Schablonenmaske nur auf der vertikalen Achse. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-vertical.png" width="350px"/></div> |
+| **Horizontale Kachelung** | Wiederholen Sie die Schablone nur auf der horizontalen Achse. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-horizontal.png" width="350px"/></div> |
+| **Vertikale Kachelung** | Wiederholen Sie die Schablone nur auf der vertikalen Achse. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-vertical.png" width="350px"/></div> |
 | **H- und V-Kachelung** | Wiederholen Sie die Schablone auf der horizontalen und der vertikalen Achse. <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-both.png" width="350px"/></div> |
 
 ## Material
 
 ![](../../assets/material.png)
 
-Ein Material besteht aus mehreren Kanälen, wobei jeder Kanal bestimmte Eigenschaften beibehält. Die Kanalliste ist von den Kanälen abhängig, die in den [Kanaleinstellungen](../../interface/texture-set/texture-set-settings.md) definiert sind. Textursatz:
+Ein Material besteht aus mehreren Kanälen, von denen jeder bestimmte Eigenschaften beibehält. Die Kanalliste ist von den Kanälen abhängig, die in den [Kanaleinstellungen](../../interface/texture-set/texture-set-settings.md) definiert sind. Textursatz:
 
 Mit der Schaltfläche **Materialmodi** können Sie ganz einfach eine Substance-Datei oder eine Vorgabe laden, um schnell mehrere Kanäle gleichzeitig zuzuweisen und zu bearbeiten.
 

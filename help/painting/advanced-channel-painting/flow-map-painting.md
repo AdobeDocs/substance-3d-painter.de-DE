@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie in Substance 3D Painter Flow Maps zum Malen von Material-Flussrichtungen und anisotropen Effekten verwenden.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Flow Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Flow Map Painting
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 
 # Flow Map Painting
 
-Ein eigener Kanal ist geplant, aber in der Zwischenzeit ist es möglich, mithilfe des Kanals &quot;Normal&quot; und einiger Pinselparameter Flussdiagramme in Substance 3D Painter zu malen.
+Ein eigener Kanal ist geplant, aber in der Zwischenzeit ist es möglich, mithilfe des Normal-Kanals und einiger Pinselparameter Flow Maps in Substance 3D Painter Malen.
 
-## Schritt 1: Normale Map erstellen
+## Schritt 1: Erstellen der Normalen-Map
 
 Erstellen Sie eine Normalen-Map-Textur von 16 x 16 Pixel. Die Farbe muss 128, 255, 128 sein, was die folgende Farbe ergeben sollte: ![](../../assets/up-dx.png)\
 (Diese Farbe entspricht einer in DirectX nach oben schauenden Vektorgrafik)

@@ -1,16 +1,10 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Informieren Sie sich über bekannte Probleme bei Substance 3D Painter , um über die aktuellen Einschränkungen und Problemumgehungen in der neuesten Version auf dem Laufenden zu bleiben.
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Bekannte Probleme
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%

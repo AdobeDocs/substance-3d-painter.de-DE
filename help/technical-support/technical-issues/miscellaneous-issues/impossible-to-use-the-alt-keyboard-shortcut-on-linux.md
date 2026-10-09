@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie, wie Sie Probleme mit dem Tastaturbefehl der ALT-Tastatur unter Linux in Substance 3D Painter beheben, um eine korrekte Tastaturnavigation zu gewährleisten.
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to use the ALT keyboard shortcut on Linux
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Verwendung des ALT-Tastatur-Tastaturbefehl unter Linux nicht möglich
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
-
 ---
-
 
 # Verwendung des ALT-Tastatur-Tastaturbefehl unter Linux nicht möglich
 

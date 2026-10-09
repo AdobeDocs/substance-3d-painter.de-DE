@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/getting-started/glossary.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Im Glossar von Substance 3D Painter finden Sie wichtige Begriffe und Konzepte, die in der gesamten Dokumentation verwendet werden.
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Glossary
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Glossar
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 9%
-
 ---
-
 
 # Glossar
 
@@ -42,7 +34,7 @@ Auf dieser Seite werden die von der Anwendung am häufigsten verwendeten Keyword
 | **FOV / Sichtfeld** | Das FOV ist die Ausdehnung der beobachtbaren Welt durch die Kamera. |
 | **Füllung** | Die Füllung ist eine Aktion (die ein Effekt oder eine Ebene sein kann), die eine Farbe, eine Textur oder sogar ein Material über den gesamten 3D-Mesh laden kann. |
 | **Filter** | Ein Filter ist ein Substance-Effekt, der die vorherigen Informationen ändern kann. Ein Weichzeichnungsfilter mildert beispielsweise ein vorheriges Bild ab. Filter können auch komplexer sein und ein vollständiges Material ändern. |
-| **Filtern** | Filterungen beziehen sich auf die Art und Weise, wie Texturen innerhalb eines 3D-Viewports dargestellt werden. Die häufigsten sind die nächstgelegenen (Pixel werden unverändert gelesen, wodurch ein Bild blockartig in der Nähe erscheint) und die bilinearsten (Pixel werden interpoliert, wodurch ein Bild unscharf in der Nähe erscheint). |
+| **Filterung** | Filterungen beziehen sich auf die Art und Weise, wie Texturen innerhalb eines 3D-Viewports dargestellt werden. Die häufigsten sind die nächstgelegenen (Pixel werden unverändert gelesen, wodurch ein Bild blockartig in der Nähe erscheint) und die bilinearsten (Pixel werden interpoliert, wodurch ein Bild unscharf in der Nähe erscheint). |
 | **GPU** | Die GPU (Graphic Processing Unit, Grafikprozessor) ist der Teil eines Computers, der eine schnelle Berechnung zum Erzeugen von Bildern ausführt. |
 | **Generator** | Ein Generator ist eine Substance, die neue Informationen/Bilder generiert, die in der Regel auf zusätzlichen Texturen basieren. Einige Maskengenerator verwenden beispielsweise Baking geführt Textur, um komplexe Masken zu erstellen. |
 | **Histogramm** | Ein Histogramm ist eine grafische Darstellung der Verteilung von Farbwerten. Es dient zur Visualisierung des Farbausgleichs zwischen Schatten, Mitteltönen und Lichtern innerhalb eines Bildes. |
@@ -55,14 +47,14 @@ Auf dieser Seite werden die von der Anwendung am häufigsten verwendeten Keyword
 | **Protokoll** | Ein Protokoll ist eine Textdatei, in die Informationen aus der Software geschrieben werden, die sich normalerweise auf den Computer beziehen, auf dem die Anwendung ausgeführt wird. |
 | **Niedrig / High-Poly-Mesh** | Ein niedriger und ein High-Poly-Mesh sind beide 3D-Mesh, einer ist mit einer niedrigen Polygondichte, der andere mit einer höheren Polyanzahlmenge (oft 100-mal größer). In der Regel werden die Informationen für den hohen Mesh bis zum niedrigen Mesh Baking geführt. |
 | **Material** | Ein Material definiert die Eigenschaften für ein bestimmtes Thema. Auf einem 3D-Mesh wird das Material auch verwendet, um Gruppen von Polygon-Flächen zu definieren. |
-| **Mesh** | Ein Gitter ist ein 3D-Objekt, das durch mehrere Informationen definiert wird. In Substance 3D Painter wird ein Mesh durch Polygone (in der Regel Dreiecke) definiert. Ein Mesh kann in einer 3D-Modellierungsanwendung wie **Blender** oder **Autodesk Maya** erstellt werden. |
+| **Mesh** | Ein Mesh ist ein 3D-Objekt, das durch mehrere Informationen definiert wird. In Substance 3D Painter wird ein Mesh durch Polygone (in der Regel Dreiecke) definiert. Ein Mesh kann in einer 3D-Modellierungsanwendung wie **Blender** oder **Autodesk Maya** erstellt werden. |
 | **Mesh-Map** | Eine Mesh-Map ist eine von einem Mesh Baking geführt Map, die Informationen zum Mesh enthält. Es kann sich beispielsweise um eine Positionsinformation oder um eine Information der Verdeckung handeln. |
 | **MIP-Map** | Eine MIP-Map ist eine vorberechnete Textur, die in der Regel als Bildsequenz jedes Mal mit einer geringeren Auflösung als die ursprüngliche Textur vorliegt. |
 | **Modus** | Ein Modus bezieht sich auf das Setup der Benutzeroberfläche, die Zugriff auf einen bestimmten Satz von Werkzeugen und Steuerelementen je nach Modus bietet. |
 | **Rauschen** | Ein Rauschen ist ein prozedurales und zufälliges Bild, das in der Regel organische Formen und Farb-/Graustufenwerte darstellt. |
-| **Normal** | Eine Normale ist eine spezielle Textur, die das Verhalten eines Lichts auf der Oberfläche eines 3D-Gitters verformt, um Details zu simulieren, die in der Geometrie nicht vorhanden sind. |
+| **Normal** | Eine Normalität ist eine besondere Textur, die das Verhalten eines Lichts auf der Oberfläche eines 3D-Mesh verändert, um Einzelheiten zu simulieren, die in der Geometrie nicht vorhanden sind. |
 | **OpenGL / DirectX** | OpenGL und DirectX sind beide eine API (Application Programming Interface) zum Rendern von 2D- und 3D-Informationen. Sie definieren auch die Normalen-Map-Format. |
-| **Orthographisch** | Eine Orthografische Projektion ist ein Mittel zur Darstellung dreidimensionaler Objekte in zwei Dimensionen, in denen alle Projektionen senkrecht zur Projektionen-Ebene sind. |
+| **Orthografisch** | Eine Orthografische Projektion ist ein Mittel zur Darstellung dreidimensionaler Objekte in zwei Dimensionen, in denen alle Projektionen senkrecht zur Projektionen-Ebene sind. |
 | **PBR / PBS** | Physikalisch basiertes Rendering (PBR) oder Physikalisch basierte Schattierung (PBS) ist ein Modell in der Computergrafik, das versucht, Grafiken auf eine Weise zu rendern, die den Lichtfluss in der realen Welt genauer modelliert. |
 | **Packing** | Beim Verpacken werden mehrere Bilder in einer Textur gespeichert. Da Texturen aus getrennten Kanälen für Rot, Grün und Blau bestehen, können sie unterschiedliche Informationen speichern, die unabhängig in einer anderen Anwendung gelesen werden können. |
 | **Partikeln** | Partikeln sind eine Art Werkzeug, mit dem sich Pinselstriche auf Basis physikalischer Eigenschaften oder anderer komplexer Verhaltensweisen erzeugen lassen. |
@@ -70,7 +62,7 @@ Auf dieser Seite werden die von der Anwendung am häufigsten verwendeten Keyword
 | **Pixel / Texel** | Ein Pixel ist ein Punkt in einem Bild, es ist das kleinstmögliche Element, das Farbinformationen enthält. Je größer die Auflösung, desto mehr Pixel sind verfügbar, was eine bessere Definition und mehr Details ermöglicht. Texel sind Pixel innerhalb einer Textur. |
 | **Plug-In** | Plugins sind Programmierfunktionen (oft über Scripting ausgedrückt), die der Software hinzugefügt werden können, um die Möglichkeiten der Anwendung zu erweitern. |
 | **Nachbearbeitung** | Ein Nachbearbeitungsprozess ist ein visueller Effekt, der auf den Bildschirm angewendet wird, sobald das 3D-Bild gerendert wurde, häufig um ein spezielles Verhalten wie Farbkorrektur oder Blüte zu simulieren. |
-| **Procedural** | Prozedural ist ein Begriff zur Beschreibung von Prozessen, die von einem Computer auf der Grundlage einer Parameterreihe generiert werden. Es kann sich einfach um mathematische Ergebnisse wie Zahlen oder komplexe Bilder handeln. |
+| **Prozedural** | Prozedural ist ein Begriff zur Beschreibung von Prozessen, die von einem Computer auf der Grundlage einer Parameterreihe generiert werden. Es kann sich einfach um mathematische Ergebnisse wie Zahlen oder komplexe Bilder handeln. |
 | **Projektion** | Eine Projektion ist ein Vorgang, bei dem ein Bild/Objekt aus einem bestimmten Blickwinkel (z. B. der Kamera) auf die Oberfläche des 3D-Mesh angewendet wird. |
 | **Auflösung (Leistung von 2)** | Die Auflösung definiert die Größe einer Textur anhand ihrer X- und Y-Achse (bzw. Breite und Height). Oft in einer Leistung von 2 Skala (2, 4, 8, 16... 512, 1024, 2048...) weil es für Berechnungen auf einer GPU optimiert ist. |
 | **Skripterstellung** | Scripting ist der Vorgang oder die Verwendung eines bestimmten Befehls über ein textbasiertes Dateiformat, um bestimmte Verhalten auszuführen. |
@@ -84,8 +76,8 @@ Auf dieser Seite werden die von der Anwendung am häufigsten verwendeten Keyword
 | **Symmetrie** | Die Symmetrie ist eine Option eines Werkzeugs, das das Malen an zwei Stellen gleichzeitig im Spiegel ermöglicht. |
 | **Vorlage** | Eine Vorlage ist ein Satz vordefinierter Optionen, die beim Erstellen eines neuen Projekts verwendet werden. Sie kann beispielsweise die Standardauflösung oder die Standardeinstellung für das Baking definieren. |
 | **Texel-Verhältnis** | Das Texelverhältnis ist die Regel, die die Größe einer UV-Insel (2D) und die damit verbundene Geometrie des 3D-Meshs vergleicht. Ein gutes Texelverhältnis bedeutet eine gleichmäßige Entfaltung der Geometrie in 2D. Dies ist wichtig, um den Look und die Qualität des Gemäldes/der Texturierung auf dem 3D-Mesh konsistent zu halten. |
-| **Struktur** | Eine Textur ist eine Datei, die Pixel in zwei Dimensionen enthält, die durch eine Auflösung definiert sind. Die Pixel können grau oder farbig dargestellt werden. Beim Einfärben können die Pixel über Transparenzinformationen verfügen (sofern diese vom Dateiformat unterstützt werden). |
-| **Textursatz** | In Substance 3D Painter stellt ein Texturensatz einen Teil eines Gitters dar, auf dem bestimmte UVs gemalt werden. Der Textursatz wird für jedes eindeutige Material erstellt, das beim Importieren eines 3D-Mesh erkannt wird. |
+| **Textur** | Eine Textur ist eine Datei, die Pixel in zwei Dimensionen enthält, die durch eine Auflösung definiert sind. Die Pixel können grau oder farbig dargestellt werden. Beim Einfärben können die Pixel über Transparenzinformationen verfügen (sofern diese vom Dateiformat unterstützt werden). |
+| **Textursatz** | In Substance 3D Painter stellt ein Textursatz einen Teil eines Meshs dar, auf dem bestimmte UVs gemalt werden. Der Textursatz wird für jedes eindeutige Material erstellt, das beim Importieren eines 3D-Mesh erkannt wird. |
 | **Auffüllen** | Tilling ist die Wiederholung einer Textur, bei der Nähte nicht an den Rändern zu sehen sind, es soll eine unendliche Ebene simulieren. Beispiel : Gras oder Bürgersteige. |
 | **Tool** | Ein Tool bezeichnet eine Aktion, die die Interaktion mit dem 3D-Mesh ermöglicht, häufig zum Malen oder Anwenden von Effekten. |
 | **Symbolleiste** | Die Symbolleiste ist der Speicherort, an dem alle Symbolverknüpfungen zu den Werkzeugen verfügbar sind. |

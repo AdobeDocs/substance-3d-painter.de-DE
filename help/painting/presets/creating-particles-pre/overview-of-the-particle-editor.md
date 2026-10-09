@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Erfahren Sie mehr über den Partikel-Editor in Substance 3D Painter, um benutzerdefinierte Pinselvorgaben für die Partikel von Texturen zu erstellen.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets > Overview of the particle editor
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Überblick über den Partikeln-Editor
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
-
 ---
-
 
 # Überblick über den Partikeln-Editor
 
@@ -58,7 +50,7 @@ Substance 3D Painter löst standardmäßig Emitter aus der Kamera aus.
 
 Deaktivieren Sie &quot;Laichen auf Kamera-Ebene beschränken&quot;, wenn diese Option aktiviert ist.
 
-Erstelle ein Partikelattribut mit dem Namen &quot;Global&quot;. Substance 3D Painter erzeugt nun deine Partikel an der Quelle.
+Wenn Sie ein Partikel-Attribut mit dem Namen &quot;Global&quot; erstellen, erzeugt Substance 3D Painter jetzt Ihre Partikeln am Ursprung.
 
 Um auf dem oberen Teil des Meshs zu laichen, füge eine Form Sampler BOX oder CYLINDER hinzu, platziere sie oben und nimm sie in deinem Spawner Script auf.
 
@@ -174,7 +166,7 @@ Da das Feld &quot;Partikel&quot; zwischen 0 und 1 liegen muss, um die Pinselgrö
 
 Die Reihenfolge der Evolution kann sehr wichtig sein.
 
-Angenommen, Sie möchten immer Ihre 2 letzten Evolver haben, um der Projektions-Evolver zu sein, dann der Script-Evolver, der die UV- und Normal-Proben mit den vom Projektions-Evolver generierten Pfaden nimmt.
+Zum Beispiel könnten Sie immer Ihre 2 letzten Evolver haben, um die Projektion Evolver dann die Script Evolver, die Samples der UV und Normal mit den von der Projektion Evolver generiert.
 
 Beachte, dass die Reihenfolge der Evolutionäre buchstäblich die Reihenfolge der Ausführung innerhalb eines Rahmens ist und dass Substance 3D Painter Feldwerte für die Partikel und das Ende jedes Rahmens sammelt.
 
@@ -295,7 +287,7 @@ In PopcornFX haben Sie die Funktion &quot;Attribute in Evolve&quot;, die Ihnen d
 
 #### Problematische Partikeln erkennen
 
-Partikel mit seltsamen Partikelfeldwerten sollten nie vorhanden sein. Stellen Sie daher sicher, dass Sie von Zeit zu Zeit mit problematischen Elementen arbeiten:
+Partikeln mit seltsamen Feldwerten für die Partikel sollten nie vorhanden sein. Stellen Sie daher sicher, dass Sie gelegentlich mit problematischen Elementen arbeiten:
 
 <http://www.popcornfx.com/wiki/index.php/Particle_tips_BreakOnProblematicParticle>
 
@@ -305,7 +297,7 @@ Im Substance 3D Painter-Installationsverzeichnis sollte sich die Datei &quot;pop
 
 #### Partikel-Felder richtig initialisieren
 
-Um gültige Werte für UV und Normal ab dem ersten Frame zu erhalten, fügen Sie dies zu Ihrem Spawner-Skript hinzu:
+Um vom ersten Rahmen an gültige Werte für UV und Normal zu erhalten, fügen Sie dies zu Ihrem Spawner-Skript hinzu:
 
 <b>  
 </b>

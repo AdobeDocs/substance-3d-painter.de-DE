@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Greifen Sie auf die Shader-API-Referenz für Substance 3D Painter zu, um benutzerdefinierte Shader zu erstellen und die Rendering-Funktionen zu erweitern.
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Shader-API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 0%
-
 ---
-
 
 # Shader-API
 
 ![](../../../assets/header-shader.jpg)
 
-Substance Painter verwendet Shader, um Materialien in seinem Echtzeit-Viewport zu rendern. Es ist möglich, benutzerdefinierte Shader zu schreiben, um neue Verhalten zu implementieren oder den Viewport einfach an andere Renderer anzupassen.
+Substance Painter verwendet Shader, um Materialien in seinem Echtzeit-Viewport zu rendern. Es ist möglich, benutzerdefinierte Shader zu schreiben, um neue Verhaltensweisen zu implementieren oder den Viewport einfach mit anderen Renderern abzugleichen.
 
 Zusätzliche Shader für Substance Painter finden Sie auf [Substance share](https://share.allegorithmic.com/libraries?by_category_type_id=6).
 
@@ -57,13 +49,13 @@ Wenn Sie dieses Snippet jetzt in einer Datei vom Typ *.glsl* speichern und in de
 
 ## Von Engine bereitgestellte Daten (oder wie greife ich auf meine Kanäle zu?)
 
-Im Substance Painter können Sie auf die Parameter der Rendering-Engine (Dokumentkanäle, zusätzliche Texturen, kamerabezogene Daten und Ähnliches) zugreifen. Hier finden Sie eine vollständige Liste aller Parameter, die für das Engine angegeben wurden:
+Im Substance Painter können Sie auf die Parameter des Render-Engine zugreifen (Dokumentkanäle, zusätzliche Texturen, Daten zu Kameras und Ähnliches). Hier finden Sie eine vollständige Liste aller Parameter, die für das Engine angegeben wurden:
 
-* [all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
+* [all-Engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
 
 ## Engine-Einstellungen (oder wie gebe ich Rendering-Status an?)
 
-In einigen Fällen können Sie eine bestimmte Rendering-Konfiguration (Keulung, Füllmethode, Aufnahmeort usw.) für einen Effekt verwenden. Einige Renderstatus werden angezeigt und können im Shader festgelegt werden. Im Folgenden finden Sie eine vollständige Liste aller gelegt Rendering-Status:
+In einigen Fällen können Sie eine bestimmte Rendering-Konfiguration (Keulung, Füllmethode, Aufnahmeort usw.) für einen Effekt verwenden. Einige Renderstatus werden gelegt und können im Shader festgelegt werden. Im Folgenden finden Sie eine vollständige Liste aller gelegt Rendering-Status:
 
 * [all-rendering-states-params.glsl](parameters-shader-api/all-rendering-states-params-shader-api.md)
 

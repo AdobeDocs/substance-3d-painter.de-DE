@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/de/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
-breadcrumb-title: ''
-description: Erfahren Sie, wie Sie Normalmaps direkt in Substance 3D Painter zeichnen, um Ihren Texturen Oberflächendetails und Tiefe hinzuzufügen.
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Normal Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Lerne, wie du in Substance 3D Painter Normalen-Map direkt auf eine Malen-Datei anwendest, um den Texturen Oberflächendetails und Tiefe zu verleihen.
 title: Normalen-Map Painting
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
-
 ---
-
 
 # Normalen-Map Painting
 
@@ -28,9 +20,9 @@ Malen von Normalen-Map-Details:
 
 1. Hinzufügen eines Normalkanals im aktuellen Textursatz (falls nicht bereits vorhanden)
 1. Normalen Kanal im aktuellen Malwerkzeug aktivieren
-1. Lädt eine Ressource vom Typ Normal in den Schlitz Normal des Bereichs Material des aktuellen Malwerkzeugs.
+1. Lädt eine Ressource vom Typ Normal in den Steckplatz Normal des Bereichs Material des aktuellen Malwerkzeugs.
 
-Von dort aus ist das Malen mit einer Normalmap sehr ähnlich wie das Malen mit [Height Map Painting](height-map-painting.md) , mit der zusätzlichen Präzision einer eingebrannten Normalmap.
+Von dort aus ähnelt das Malen mit einer Normalen-Map sehr dem [Höhen-Map-Malen](height-map-painting.md) , mit der zusätzlichen Präzision einer Baking geführt Normalität.
 
 ![](../../assets/normal-painting.gif)
 
@@ -39,8 +31,8 @@ Von dort aus ist das Malen mit einer Normalmap sehr ähnlich wie das Malen mit [
 Normalen-Map haben ihre eigenen Füllmethoden im Ebenenstapel:
 
 * **Normalen-Map-Details** (Standard)
-* **Inverse Details der normalen Karte**
-* **Normale Kartenkombination**
+* **Normalen-Map Inverse Detail**
+* **Normalen-Map-Kombination**
 
 Weitere Informationen finden Sie auf der Seite [Füllmethoden](../../interface/layer-stack/blending-modes.md).
 
@@ -52,10 +44,10 @@ Diese Einstellung kann zur Angabe der Normalen-Map-Format verwendet werden, da s
 
 ![](../../assets/normal-color-space.png)
 
-## Malen über eine fertig gestellte Normalkarte
+## Malen über eine Baking geführt Normalen-Map
 
 In manchen Situationen kann es hilfreich sein, über die Baking geführt Normalen-Map Malen, um Details auszublenden (oder sogar Baking führend Probleme zu beheben).\
-Beim Standardsetup eines Projekts in Substance 3D Painter ist dies nicht möglich, da der Normalkanal und der Baking geführt Normalkanal separat berechnet werden. Dieses Verhalten kann über die [Einstellungen für den Textursatz](../../interface/texture-set/texture-set-settings.md) geändert werden.
+Beim Standardsetup eines Projekts in Substance 3D Painter ist dies nicht möglich, da der Normalkanal und der Baking geführt Normalkanal separat berechnet werden. Dieses Verhalten kann über die [Textursatz-Einstellungen](../../interface/texture-set/texture-set-settings.md) geändert werden.
 
 ### 1 - Ändern des Textursatz-Mischmodus
 
