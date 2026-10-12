@@ -2,9 +2,9 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1348'
 ht-degree: 14%
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 14%
     + Photoshop Pinselvorgaben{#photoshop-brush-presets}
       + [Überblick über Photoshop-Pinselvorgaben](/help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
       + [Exportieren von Pinselvorgaben aus Photoshop](/help/painting/presets/photoshop-brush-presets/exporting-brush-presets-from-photoshop.md)
-      + [Importieren von Photoshop-Pinselvorgaben](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
+      + [Photoshop-Pinselvorgaben importieren](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
       + [Kompatibilität mit Photoshop-Pinselparametern](/help/painting/presets/photoshop-brush-presets/photoshop-brush-parameters-compatibility.md)
   + Dynamische Pinselstriche{#dynamic-strokes}
     + [Übersicht über Dynamische Pinselstriche](/help/painting/dynamic-strokes/dynamic-strokes.md)
@@ -244,6 +244,7 @@ ht-degree: 14%
   + [Baking Interface](/help/baking/baking-interface.md)
   + [Wie man Mesh-Map Baking führe](/help/baking/how-to-bake-mesh-maps.md)
   + [Verzerrungskorrektur](/help/baking/skew-correction.md)
+  + {hide-from-toc}[Käfig malen](/help/baking/cage-painting.md)
   + [Einstellungen für Mesh-Maps](/help/baking/mesh-map-settings.md)
   + [Einstellungen für die Visualisierung von Bakings](/help/baking/baking-visualization-settings.md)
 + Inhalte{#content}
