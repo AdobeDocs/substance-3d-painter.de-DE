@@ -2,9 +2,9 @@
 title: Käfig-Malerei
 description: Erfahren Sie, wie Sie mit dem Käfig-Malen in Substance 3D Painter Artefakte vermeiden und den Käfig während des Bakings anpassen können.
 hold: true
-source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
+source-git-commit: a6741dd7c792608e886e0b04ee59ebf3fe4d3285
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '923'
 ht-degree: 0%
 ---
 
@@ -20,11 +20,7 @@ Damit **Käfig-Painting** verfügbar ist, muss das Projekt über mindestens eine
 >
 > Unterstützung für **Käfig-Malerei** wird in einer zukünftigen Version für den **automatischen Käfig-Typ** hinzugefügt.
 
-Das Anpassen von **Käfig**-Parametern nach dem Malen mit dem Käfig kann die gemalten Bereiche verändern, was möglicherweise eine Nachbearbeitung erfordert oder sogar einen Neustart des Käfig-Malvorgangs erfordert. Daher ist es besser, diese Parameter zuerst anzupassen.
-
-**Der maximale Abstand nach vorn** und **Der maximale Abstand nach hinten** steuern den Basisabstand zwischen dem Käfig und der Oberfläche des Meshs mit niedriger Poly-Auflösung. Beim Malen mit dem Käfig werden diese Werte als Grenzen verwendet, um festzulegen, wie stark der Käfig geändert werden soll. Große Anpassungen dieser Werte nach dem Malen des Käfigs können zu unerwarteten Schnittpunkten führen.
-
-**Relativ zum Begrenzungsrahmen** steuert die Einheiten, die zum Definieren der Größe des Käfigs verwendet werden. Wenn Sie diesen Parameter ändern, kann sich die Größe des Käfigs drastisch ändern. Daher müssen alle bemalten Bereiche wahrscheinlich neu bemalt werden, um die neuen Werte zu korrigieren.
+Es wird empfohlen, die Werte **Maximaler frontaler Abstand** und **Relativ zum Begrenzungsrahmen** festzulegen, bevor Sie mit dem Malen Ihres Käfigs beginnen, da das Ändern dieser Werte nach dem Malen möglicherweise ein Retuschieren oder sogar ein erneutes Malen des Käfigs von Grund auf erfordert.
 
 >[!TIP]
 >
@@ -44,19 +40,19 @@ So beginnen Sie mit dem Käfig-Malen:
 
 >[!NOTE]
 >
-> Standardmäßig ist **Quick Baking** für den normalen Kanal aktiviert, wenn Sie zum ersten Mal **Käfig Malerei** eingeben. Dies bedeutet, dass der Normalen-Map bei jeder Änderung des Käfigs automatisch neu gestartet wird. Wenn Sie dies bevorzugen, können Sie im [**Mesh-Map-Baker-Bedienfeld**](../interface/baking-panels/mesh-map-bakers.md) das **Quick Baking** deaktivieren.
+> Standardmäßig ist **Auto-reframe** für den normalen Kanal aktiviert, wenn Sie zum ersten Mal **Käfig-Malerei** eingeben. Dies bedeutet, dass der Normalen-Map bei jeder Änderung des Käfigs automatisch neu gestartet wird. Wenn Sie dies bevorzugen, können Sie **Auto-Rebake** im Bedienfeld [**Mesh-Map-Baker**](../interface/baking-panels/mesh-map-bakers.md) deaktivieren.
 
 Sobald Sie den Käfig-Malmodus aufrufen, zeigt die Standardvisualisierung in **Viewport** Folgendes an:
 
 * Der Käfig um den Mesh in Beige.
 * Bereiche, in denen die hohe Poly den Käfig in leuchtendem Rot schneidet.
-* Käfig bemalte grüne Bereiche auf der Oberfläche von Meshs mit niedrigem Poly-Anteil.
+* Käfig bemalte Bereiche in Grün (positiv) und Blau (negativ) auf der Oberfläche mit wenig Mesh.
 
 Im Käfig-Malmodus können Sie das [**Elementvisualisierungsmenü**](baking-visualization-settings.md) im **Viewport** verwenden, um die Visualisierungsfarbe und -deckkraft für jedes Baking zu ändern, oder die Visualisierung für bestimmte Elemente aktivieren bzw. deaktivieren.
 
 >[!NOTE]
 >
-> Die leuchtend rote Visualisierung von Kreuzungen mit dem Käfig ist eine ungefähre Vorschau und stimmt nicht genau mit den endgültigen Baking-Ergebnissen überein. In den meisten Fällen ist die Visualisierung recht präzise, aber bei Meshs mit geringem Poly-Wert und langen, schmalen Polygonen kann sie ungenau sein, und es ist besser, das Baking geführt Ergebnis zu sehen.
+> Die leuchtend rote Visualisierung von Kreuzungen mit dem Käfig ist eine ungefähre Vorschau und stimmt nicht genau mit den endgültigen Baking-Ergebnissen überein. In den meisten Fällen ist die Visualisierung recht präzise, bei Meshs mit geringer Poly-Intensität und langen, schmalen Polygonen kann sie jedoch ungenau sein. Es empfiehlt sich daher, **Quick Baking** oder **Auto-Rebake** zu verwenden, um das Endergebnis zu überprüfen.
 
 ## Käfig-Malwerkzeuge
 
@@ -71,42 +67,46 @@ Die Verwendung des **Pinsels** in voller **Stärke**, **Fluss** und **Deckkraft*
 
 TODO: Animation/Video, die den Unterschied in der Stärke zeigt
 
->[!NOTE]
->
-> Standardmäßig verwendet das Pinselwerkzeug beim Malen mit Käfigen den Mischmodus **Linear abwedeln (Hinzufügen)**. Bei dieser Füllmethode wird durch nachfolgende Striche im selben Bereich die Stärke des Effekts konsistent aufgebaut, sodass Sie die Käfig-Oberfläche mit konsistenten Ergebnissen formen können. Die standardmäßigen **Maximalen (Aufhellen)**- und **Normalen**-Mischmodi sind weiterhin verfügbar:
->
-> 1. Klicken Sie mit der rechten Maustaste, um die Pinseleigenschaften zu öffnen.
-> 1. Scrollen Sie nach unten zu **Alpha > Erweiterte Füllmethode**.
-> 1. Wählen Sie den Modus &quot;**Stempelmischung**&quot; aus.
-
 ### Radiergummi
 
 Mit dem Radiergummi-Werkzeug können Sie Malen aus dem Käfig entfernen und gelöschte Bereiche effektiv auf die Standardgröße des Käfigs zurücksetzen.
 
 ### Polygon-Füllen
 
-Im **Käfig-Malen** **Modus** verfügt das Polygon-Füllwerkzeug über eine zusätzliche Funktion. Nach der Auswahl von Polygonen wird im Viewport ein **Stärke-Schieberegler** angezeigt, mit dem Sie die Stärke für die ausgewählten Polygone anpassen können. Dies kann die Feinabstimmung der Stärke des Effekts erleichtern, ohne dass Polygone ständig neu ausgewählt werden müssen.
+Im **Käfig-Malen** **Modus** verfügt das **Polygon-Füllwerkzeug** über eine zusätzliche Funktion. Ein **Stärke-Schieberegler** wird im **Viewport** angezeigt, wenn Sie Änderungen vornehmen, mit denen Sie den Wert für den letzten Satz von ausgewählten Polygonen anpassen können.
+
+Dies ist besonders nützlich, um Korrekturen pro Element mit dem Füllmodus &quot;**&quot; von &quot;** Mesh&quot; in Szenen mit mehreren separaten Meshs vorzunehmen.
 
 >[!NOTE]
 >
 > Diese Funktion wiederholt den letzten Vorgang (Anwenden der Polygonfüllung) mit einer anderen Stärke. Wenn Sie einen anderen Vorgang ausführen oder Werkzeuge ändern, verschwindet der Schieberegler.
 
-Es kann oft sinnvoll sein, den gleichen Polygon-Füllwert auf mehrere Bereiche des Meshs anzuwenden. Gehen Sie folgendermaßen vor:
+Es kann oft sinnvoll sein, den gleichen **Polygonfüllwert** auf mehrere Bereiche des Meshs anzuwenden. Gehen Sie folgendermaßen vor:
 
 1. Wählen Sie den ersten Polygonsatz aus.
 1. Verwenden Sie den Regler **Käfig Stärke**, um die Stärke des Effekts anzupassen.
 1. Kopieren Sie den Wert **Käfig Stärke** aus dem temporären Schieberegler in **Viewport**.
 1. Fügen Sie den Wert in den Schieberegler **Stärke** oben im **Viewport** ein.
-1. Wählen Sie die nachfolgenden Sätze von Polygonen mit der gleichen Stärke aus, die auf sie angewendet werden soll.
+1. Wählen Sie die nachfolgenden Sätze von Polygonen aus, um denselben Wert für die Stärke anzuwenden.
 
 Im folgenden Video wird dieser Arbeitsablauf in Aktion gezeigt. Dabei wird die **Polygonfüllung** **Werkzeug** mit **Mesh-Füllung** ausgewählt.
 
 TODO: VIDEO
 
+>[!NOTE]
+>
+> Wenn Sie diese Schritte ausführen, ist es möglicherweise hilfreich, den **normalen Mischmodus** auszuwählen, damit das Polygon-Füllwerkzeug die vorhandenen gemalten Werte überschreibt, anstatt sie zu ergänzen.
+
 ### Überblendung
 
-Standardmäßig wird für das Pinsel- und das Polygon-Füllwerkzeug der Mischmodus &quot;**Linear abwedeln&quot; (Hinzufügen)**&quot; verwendet, Sie können jedoch auch die Mischmodi &quot;**Normal**&quot; und &quot;**Aufhellen&quot; (Max)&quot;** verwenden.
+Standardmäßig wird für die Werkzeuge **Pinsel** und **Polygonfüllung** der Mischmodus **Linear abwedeln (Hinzufügen)** verwendet, Sie können jedoch auch die Mischmodi **Normal** und **Aufhellen (Max)** verwenden.
 
-* **Linear abwedeln (hinzufügen)**: Mit jeder Kontur/jedem Stempel wird der angegebene Wert für die Stärke zum vorhandenen Wert hinzugefügt oder vom vorhandenen Wert abgezogen. Dieser Mischmodus funktioniert ähnlich wie bei 3D-Modellierungsanwendungen, bei denen jeder von Ihnen Malen Strich zur Mesh-Oberfläche hinzufügt.
-* **Normal**: Jeder Strich/Stempel legt den Wert auf die angegebene Stärke fest und überschreibt den vorhandenen Wert. Dieser Mischmodus verhält sich wie der Standard-Pinsel im Malmodus, sodass Sie die vorhandene Oberfläche mit einem anderen Wert abdecken können.
-* **Aufhellen (max.)**: Jede Kontur/jeder Stempel wählt den Maximalwert zwischen der Stärke und dem vorhandenen Wert aus. Bei dieser Füllmethode dauert es länger, bis die Kanten des Pinsels auf den nachfolgenden Strichen aufbauen, was einen fließenderen Übergang ermöglicht.
+* **Linear abwedeln (hinzufügen)**
+  * Mit jeder Kontur/jedem Stempel wird der angegebene Wert für die Stärke zum vorhandenen Wert hinzugefügt oder vom vorhandenen Wert abgezogen.
+  * Dieser Mischmodus funktioniert ähnlich wie bei 3D-Modellierungsanwendungen, bei denen jeder von Ihnen Malen Strich zur Mesh-Oberfläche hinzufügt.
+* **Normal**
+  * Jeder Strich/Stempel legt den Wert auf die angegebene Stärke fest und überschreibt den vorhandenen Wert.
+  * Dieser Mischmodus verhält sich wie der Standard-Pinsel im Malmodus, sodass Sie die vorhandene Oberfläche mit einem anderen Wert abdecken können.
+* **Aufhellen (max.)**:
+  * Jede Kontur/jeder Stempel wählt den Maximalwert zwischen der Stärke und dem vorhandenen Wert aus.
+  * Bei dieser Füllmethode dauert es länger, bis die Kanten des Pinsels auf den nachfolgenden Strichen aufbauen, was einen fließenderen Übergang ermöglicht.
