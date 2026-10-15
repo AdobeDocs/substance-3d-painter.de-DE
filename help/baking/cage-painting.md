@@ -2,15 +2,23 @@
 title: Käfig-Malerei
 description: Erfahren Sie, wie Sie mit dem Käfig-Malen in Substance 3D Painter Artefakte vermeiden und den Käfig während des Bakings anpassen können.
 hold: true
-source-git-commit: a6741dd7c792608e886e0b04ee59ebf3fe4d3285
+source-git-commit: 8e09732a300f321ad8fc04883db7a338b8c6a5a7
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '1044'
 ht-degree: 0%
 ---
 
 # Käfig-Malerei
 
 Mit **Käfig-Painting** können Sie Bereiche Malen, um den Baking führend Käfig weiter weg zu schieben oder näher an die Oberfläche mit geringer Polung heranzuführen. Mit dem Käfig-Painting können Sie Artefakte während des Bakings verhindern, während Sie gleichzeitig alle polyvalenten Details Ihres Meshs erfassen.
+
+![](../assets/baking/cage-painting/splash_example.png)
+
+*Der linke Handschuh, Baking geführt mit einem Käfig auf Distanzbasis und einem niedrigen Abstand auf der Vorderseite von Max, zeigt Baking führend Artefakte, einschließlich der Verzerrung und der Bereiche, in denen der Käfig den Mesh mit hohem Poly schneidet, und verliert dabei an Details. Der rechte Handschuh wurde mit denselben Einstellungen Baking geführt, jedoch mit Käfig-Maleffekt, um die Größe des Käfigs zu steuern.*
+
+>[!NOTE]
+>
+> Käfig-Malerei unterteilt den Käfig-Mesh automatisch, was bedeutet, dass der Käfig selbst bei Meshs mit niedriger Auflösung so weit geschoben und gezogen werden kann, dass er alle Details abdeckt.
 
 ## Einrichten des Käfig-Malens
 
@@ -24,7 +32,7 @@ Es wird empfohlen, die Werte **Maximaler frontaler Abstand** und **Relativ zum B
 
 >[!TIP]
 >
-> Wenn Sie das Käfig-Malen von Grund auf neu beginnen möchten, können Sie die Käfig-Malparameter, die Käfig-Malstriche oder alle Baking-Einstellungen zurücksetzen.
+> Wenn Sie das Käfig-Malen von Grund auf neu beginnen möchten, setzen Sie die Käfig-Malparameter, die Käfig-Malstriche oder alle Baking-Einstellungen zurück.
 >
 > ![](../assets/baking/cage-painting/resetcage.png)
 
@@ -38,9 +46,15 @@ So beginnen Sie mit dem Käfig-Malen:
 1. Legen Sie den **Käfig type** auf **Distance-based** fest.
 1. Klicken Sie auf **Malen Käfig**.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3504611?learn=on)
+
+*Dieses Video zeigt, wie ein neues Projekt für das Malen von Käfigen eingerichtet wird. Zuerst wechseln wir in den Baking-Modus, dann wählen Sie eine High-Poly-Szene. Der entfernungsbasierte Käfig-Typ ist standardmäßig ausgewählt, sodass wir sofort mit dem Malen des Käfigs beginnen können.*
+
 >[!NOTE]
 >
-> Standardmäßig ist **Auto-reframe** für den normalen Kanal aktiviert, wenn Sie zum ersten Mal **Käfig-Malerei** eingeben. Dies bedeutet, dass der Normalen-Map bei jeder Änderung des Käfigs automatisch neu gestartet wird. Wenn Sie dies bevorzugen, können Sie **Auto-Rebake** im Bedienfeld [**Mesh-Map-Baker**](../interface/baking-panels/mesh-map-bakers.md) deaktivieren.
+> Standardmäßig ist **Auto-reframe** für den normalen Kanal aktiviert, wenn Sie zum ersten Mal **Käfig-Malerei** eingeben. Dies bedeutet, dass der Normalen-Map bei jeder Änderung des Käfigs automatisch umgebrochen wird. **Automatisches Rebake** im Bedienfeld [**Mesh-Map-Baker aktivieren oder deaktivieren**](../interface/baking-panels/mesh-map-bakers.md).
+>
+> ![](../assets/baking/cage-painting/auto-rebake.png)
 
 Sobald Sie den Käfig-Malmodus aufrufen, zeigt die Standardvisualisierung in **Viewport** Folgendes an:
 
@@ -48,11 +62,11 @@ Sobald Sie den Käfig-Malmodus aufrufen, zeigt die Standardvisualisierung in **V
 * Bereiche, in denen die hohe Poly den Käfig in leuchtendem Rot schneidet.
 * Käfig bemalte Bereiche in Grün (positiv) und Blau (negativ) auf der Oberfläche mit wenig Mesh.
 
-Im Käfig-Malmodus können Sie das [**Elementvisualisierungsmenü**](baking-visualization-settings.md) im **Viewport** verwenden, um die Visualisierungsfarbe und -deckkraft für jedes Baking zu ändern, oder die Visualisierung für bestimmte Elemente aktivieren bzw. deaktivieren.
+Verwenden Sie im Käfig-Malmodus das [**Elementvisualisierungsmenü**](baking-visualization-settings.md) im **Viewport**, um die Darstellung der einzelnen Baking anzupassen.
 
 >[!NOTE]
 >
-> Die leuchtend rote Visualisierung von Kreuzungen mit dem Käfig ist eine ungefähre Vorschau und stimmt nicht genau mit den endgültigen Baking-Ergebnissen überein. In den meisten Fällen ist die Visualisierung recht präzise, bei Meshs mit geringer Poly-Intensität und langen, schmalen Polygonen kann sie jedoch ungenau sein. Es empfiehlt sich daher, **Quick Baking** oder **Auto-Rebake** zu verwenden, um das Endergebnis zu überprüfen.
+> Die leuchtend rote Visualisierung von Kreuzungen mit dem Käfig ist eine ungefähre Vorschau und stimmt nicht genau mit den endgültigen Baking-Ergebnissen überein. In den meisten Fällen ist die Visualisierung recht präzise, aber bei Meshs mit geringem Poly-Wert und langen, dünnen Polygonen kann sie falsch sein. Für diese Mesh ist es besser, **Quick Baking** oder **Auto-Rebake** zu verwenden, um das Endergebnis zu überprüfen.
 
 ## Käfig-Malwerkzeuge
 
@@ -63,9 +77,11 @@ Beim Malen des Käfigs können Sie viele der Tools und Tastaturbefehle verwenden
 
 ### Pinsel
 
-Die Verwendung des **Pinsels** in voller **Stärke**, **Fluss** und **Deckkraft** hat einen großen Einfluss auf die Oberfläche des Käfigs. Es wird empfohlen, einen sehr niedrigen Wert für **Stärke** festzulegen und die Parameter &quot;Fluss&quot; und &quot;Deckkraft&quot; zu verwenden, um die Stärke des Pinsels zu steuern.
+Die Verwendung des **Pinsels** in voller **Stärke**, **Fluss** und **Deckkraft** hat einen großen Einfluss auf die Käfig-Oberfläche. Es wird empfohlen, einen sehr niedrigen Wert für **Stärke** festzulegen und die Parameter &quot;Fluss&quot; und &quot;Deckkraft&quot; zu verwenden, um die Stärke des Pinsels zu steuern.
 
-TODO: Animation/Video, die den Unterschied in der Stärke zeigt
+![](../assets/baking/cage-painting/brush-strength.gif)
+
+*In diesem Beispiel ist der erste Pinselstrich viel zu stark, selbst bei einer Stärke von 0,05. Nachdem wir die Deckkraft für Stärke, Fluss und Kontur verringert haben, haben wir viel mehr Kontrolle über den Effekt.*
 
 ### Radiergummi
 
@@ -75,13 +91,13 @@ Mit dem Radiergummi-Werkzeug können Sie Malen aus dem Käfig entfernen und gel�
 
 Im **Käfig-Malen** **Modus** verfügt das **Polygon-Füllwerkzeug** über eine zusätzliche Funktion. Ein **Stärke-Schieberegler** wird im **Viewport** angezeigt, wenn Sie Änderungen vornehmen, mit denen Sie den Wert für den letzten Satz von ausgewählten Polygonen anpassen können.
 
-Dies ist besonders nützlich, um Korrekturen pro Element mit dem Füllmodus &quot;**&quot; von &quot;** Mesh&quot; in Szenen mit mehreren separaten Meshs vorzunehmen.
+Diese Funktion ist besonders nützlich für Korrekturen pro Element mithilfe des Füllmodus **Mesh** in Szenen mit mehreren separaten Meshs.
 
 >[!NOTE]
 >
-> Diese Funktion wiederholt den letzten Vorgang (Anwenden der Polygonfüllung) mit einer anderen Stärke. Wenn Sie einen anderen Vorgang ausführen oder Werkzeuge ändern, verschwindet der Schieberegler.
+> Diese Funktion führt den letzten Vorgang (Anwenden der Polygonfüllung) mit einem anderen Wert für die Stärke erneut aus. Infolgedessen verschwindet der Schieberegler, wenn Sie einen anderen Vorgang ausführen oder Werkzeuge ändern.
 
-Es kann oft sinnvoll sein, den gleichen **Polygonfüllwert** auf mehrere Bereiche des Meshs anzuwenden. Gehen Sie folgendermaßen vor:
+Oft ist es sinnvoll, den gleichen Wert für die Bemalung des Käfigs auf mehrere Bereiche des Meshs anzuwenden. Gehen Sie folgendermaßen vor:
 
 1. Wählen Sie den ersten Polygonsatz aus.
 1. Verwenden Sie den Regler **Käfig Stärke**, um die Stärke des Effekts anzupassen.
@@ -91,7 +107,7 @@ Es kann oft sinnvoll sein, den gleichen **Polygonfüllwert** auf mehrere Bereich
 
 Im folgenden Video wird dieser Arbeitsablauf in Aktion gezeigt. Dabei wird die **Polygonfüllung** **Werkzeug** mit **Mesh-Füllung** ausgewählt.
 
-TODO: VIDEO
+>[!VIDEO](https://video.tv.adobe.com/v/3504621?learn=on)
 
 >[!NOTE]
 >
