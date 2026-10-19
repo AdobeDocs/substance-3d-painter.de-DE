@@ -4,9 +4,9 @@ description: Prüfen Sie die Systemanforderungen für Substance 3D Painter , um 
 title: Systemanforderungen
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '814'
 ht-degree: 1%
 ---
 
@@ -18,28 +18,32 @@ Im Folgenden finden Sie eine Liste der von der Anwendung unterstützten Hardware
 
 |  | Minimum | Empfohlen | Optimal |
 | --- | --- | --- | --- |
-| <b>Betriebssystem</b> | Windows 11 64-Bit Version 23H2 | Windows 11 64-Bit Version 24H1 | Windows 11 64-Bit Version 24H2 |
-| <b>CPU</b> | Intel Core i5 AMD Ryzen 5 | Intel Core i7 AMD Ryzen 7 | Intel Core i9 AMD Ryzen 9 |
-| <b>GPU</b> | NVIDIA GeForce RTX 2060 Super NVIDIA Quadro RTX 4000 AMD Radeon RX 5700 XT AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080 NVIDIA Quadro RTX A4000 AMD Radeon RX 6800 XT AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090 NVIDIA Quadro RTX 5000 ADA Generation AMD Radeon RX 7900 XTX AMD Radeon Pro W7800 |
-| <b>VRAM</b> | 8 GB | 16 GB | 24 GB |
-| <b>RAM</b> | 16 GB | 32 GB | 64 GB |
-| <b>Speicher</b> | SSD mit 30 GB verfügbarem Speicherplatz | SSD mit 50 GB verfügbarem Speicherplatz | SSD mit 70 GB verfügbarem Speicherplatz |
+| **Betriebssystem** | Windows 11 64-Bit Version 23H2 | Windows 11 64-Bit Version 24H1 | Windows 11 64-Bit Version 24H2 |
+| **CPU** | Intel Core i5 AMD Ryzen 5 | Intel Core i7 AMD Ryzen 7 | Intel Core i9 AMD Ryzen 9 |
+| **GPU** | NVIDIA GeForce RTX 2060 Super NVIDIA Quadro RTX 4000 AMD Radeon RX 5700 XT AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080 NVIDIA Quadro RTX A4000 AMD Radeon RX 6800 XT AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090 NVIDIA Quadro RTX 5000 ADA Generation AMD Radeon RX 7900 XTX AMD Radeon Pro W7800 |
+| **VRAM** | 8 GB | 16 GB | 24 GB |
+| **RAM** | 16 GB | 32 GB | 64 GB |
+| **Speicher** | SSD mit 30 GB verfügbarem Speicherplatz | SSD mit 50 GB verfügbarem Speicherplatz | SSD mit 70 GB verfügbarem Speicherplatz |
 
-### MacOS
+### macOS
 
 |  | Minimum | Empfohlen | Optimal |
 | --- | --- | --- | --- |
-| <b>Betriebssystem</b> | macOS 12 Monterey | macOS 13 Ventura | macOS 14 Sonoma |
-| <b>CPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
-| <b>GPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
-| <b>RAM</b> | 16 GB | 32 GB | 64 GB |
-| <b>Speicher</b> | SSD mit 30 GB verfügbarem Speicherplatz | SSD mit 50 GB verfügbarem Speicherplatz | SSD mit 70 GB verfügbarem Speicherplatz |
+| **Betriebssystem** | macOS 15 Sequoia | macOS 27 Golden gate | macOS 27 Golden Gate |
+| **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
+| **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
+| **RAM** | 16 GB | 32 GB | 64 GB |
+| **Speicher** | SSD mit 30 GB verfügbarem Speicherplatz | SSD mit 50 GB verfügbarem Speicherplatz | SSD mit 70 GB verfügbarem Speicherplatz |
+
+>[!WARNING]
+>
+> Für Pipelines, die unter Berücksichtigung der [VFX-Referenzplattform](https://vfxplatform.com/) erstellt wurden, kann Substance 3D Painter weiterhin auf macOS 14 Sonoma installiert werden. Painter wird jedoch nicht mehr mit Betriebssystemversionen getestet, die unter den Mindestsystemanforderungen liegen, sodass die Stabilität nicht gewährleistet ist.
 
 ### Linux
 
 | Unternehmen | dämpfen |
 | --- | --- |
-| RHEL 8</br>RHEL 9 | Ubuntu 22,04 |
+| RHEL 8<br>RHEL 9 | Ubuntu 22,04 |
 
 ## Allgemeine Empfehlungen
 
@@ -53,28 +57,28 @@ Sonstiges:
 
 * Viele Substance-Apps sind für RHEL8/9-Kompatibilität auf OpenSSL 1.1.1 angewiesen. Bei Systemen mit neueren OpenSSL-Versionen muss der Kunde diese manuell bereitstellen.
 * Für die Arbeit unter angenehmen Bedingungen empfehlen wir einen Monitor mit einer vertikalen Auflösung größer als 1000 Pixel und breiter als 1280 Pixel.
-* Für den Export mit <b>8K</b> (8192\*8192 Pixel) ist eine GPU mit <b> mehr als </b> 2 GB VRam erforderlich.
+* Für den Export mit **8K** (8192\*8192 Pixel) ist eine GPU mit **mehr als** 2 GB VRam erforderlich.
 * Nur die Versionen 2019.x und höher wurden notariell beglaubigt, um auf MacOS 10.15 (Catalina) ausgeführt zu werden.
 * Informationen zum Verwenden der Software über RDP (Remote Desktop) finden Sie auf der dedizierten [Dokumentationsseite](../pipeline-and-integration/configuration/remote-desktop.md).
 * Absturz auf Ryzen CPU beim Baking, kann durch Aktualisierung des BIOS behoben werden.
 
 ## Nicht unterstützte Konfigurationen
 
-<b>Windows</b>
+**Windows**
 
 * Virtuelle Computer werden nicht unterstützt.
 * Windows Server wird nicht unterstützt.
 
-<b>Mac</b>
+**Mac**
 
 * Es werden nur offizielle Apple-Konfigurationen unterstützt.
 * eGPUs werden derzeit nicht unterstützt und haben möglicherweise Stabilitätsprobleme.
 
-<b>Linux</b>
+**Linux**
 
 * Mesa-Treiber unter Linux werden nicht unterstützt.
 
-<b>Beliebige Plattform</b>
+**Beliebige Plattform**
 
 * Integrierte GPUs werden auf x86-64-CPUs (Intel, AMD) nicht unterstützt.
 
@@ -86,8 +90,8 @@ Informationen zum Herunterladen neuer Treiber finden Sie unter: [GPU hat veralte
 
 | Betriebssystem | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
-| <b>Windows</b> | GeForce 442,50 Quadro 442,50 | Radeon 19.7.1 Radeon Pro/FirePro 18.Q4 | 15.33 |
-| <b>Linux</b> | 535.171.04 oder höher | Radeon 22,40,6 | Nicht unterstützt |
+| **Windows** | GeForce 442,50 Quadro 442,50 | Radeon 19.7.1 Radeon Pro/FirePro 18.Q4 | 15.33 |
+| **Linux** | 535.171.04 oder höher | Radeon 22,40,6 | Nicht unterstützt |
 
 >[!NOTE]
 >
@@ -101,10 +105,10 @@ Eine detaillierte Liste der Probleme mit GPU-Treibern pro Konstruktor finden Sie
 
 Um GPU-Raytracing über Optix oder DXR zu aktivieren, müssen die oben empfohlenen Mindesttreiber installiert sein.
 
-<b>DXR</b> erfordert ebenfalls die folgende Mindestkonfiguration:
+**DXR** erfordert ebenfalls die folgende Mindestkonfiguration:
 
-* <b>Windows 10</b> Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing).
-* <b> GPU mit Pascal-Architektur</b> (Nvidia GeForce 10XX)
+* **Windows 10** Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing).
+* **GPU mit Pascal-Architektur** (Nvidia GeForce 10XX)
 
 >[!TIP]
 >
@@ -112,63 +116,59 @@ Um GPU-Raytracing über Optix oder DXR zu aktivieren, müssen die oben empfohlen
 
 ## Unterstützte Grafiktabletts
 
-Im Folgenden finden Sie eine Liste der kompatiblen Grafiktabletts, die mit der Substance 3D Painter-Version <b>7.4.2</b> getestet wurden:
+Im Folgenden finden Sie eine Liste der kompatiblen Grafiktabletts, die mit der Substance 3D Painter-Version **7.4.2** getestet wurden:
 
 +++Wacom
-<b>Modelle:</b> Intuos Pro (M-Größe), Intuos (S-Größe)
 
+**Modelle:** Intuos Pro (M-Größe), Intuos (S-Größe)
 
 | Betriebssystem | Treiberversion |
 | --- | --- |
 | Windows | 6.3.45-1 |
 | macOS | 6.3.45-3 |
 
-
 +++
 
 +++XPen
-<b>Modell:</b> Deco 01
 
+**Modell:** Deco 01
 
 | Betriebssystem | Treiberversion |
 | --- | --- |
-| Windows | XP-PENWin\_3.2.2.211027 |
-| macOS | XP-PENMac\_3.2.3\_211203 |
+| Windows | XP-PENWin_3.2.2.211027 |
+| macOS | XP-PENMac_3.2.3_211203 |
 | Linux | XP-STIFT-pentablet-3.2.1.211019-1 |
-
 
 +++
 
 +++Huion
-<b>Modell:</b> Q11K
 
+**Modell:** Q11K
 
 | Betriebssystem | Treiberversion |
 | --- | --- |
-| Windows | XP-PENWin\_3.2.2.211027 |
-| macOS | XP-PENMac\_3.2.3\_211203 |
-
+| Windows | XP-PENWin_3.2.2.211027 |
+| macOS | XP-PENMac_3.2.3_211203 |
 
 +++
 
 +++Xencelabs
-<b>Modell:</b> Stift Tablet Medium
 
+**Modell:** Stift Tablet Medium
 
 | Betriebssystem | Treiberversion |
 | --- | --- |
-| Windows | XencelabsWin\_1.2.1-14 |
-| macOS | XencelabsMac\_1.2.1-18 |
-| Linux | XencelabsLinux\_1.1.0-2 |
-
+| Windows | XencelabsWin_1.2.1-14 |
+| macOS | XencelabsMac_1.2.1-18 |
+| Linux | XencelabsLinux_1.1.0-2 |
 
 +++
 
 ## Unterstützte 3Dconnection SpaceMouse-Modelle
 
-Im Folgenden finden Sie eine Liste der kompatiblen Treiberversionen für die [3Dconnection Space Mouse](https://3dconnection.com/us/spacemouse/), die mit der Substance 3D Painter-Version <b>8.1.</b> getestet wurden.
+Im Folgenden finden Sie eine Liste der kompatiblen Treiberversionen für die [3Dconnection Space Mouse](https://3dconnection.com/us/spacemouse/), die mit der Substance 3D Painter-Version **8.1.** getestet wurden.
 
-Die Treiberversionen gelten für die Modelle <b>Compact</b>, <b>Pro</b> und <b>Enterprise</b>.
+Die Treiberversionen gelten für die Modelle **Compact**, **Pro** und **Enterprise**.
 
 | Betriebssystem | Treiberversion |
 | --- | --- |
