@@ -76,7 +76,7 @@ Diese Einstellungen steuern, wie das Füllergebnis mit den darunter liegenden Pi
 
 >[!NOTE]
 >
-> Das Tool unterstützt dieselben Füllmethoden, die auch im Ebenenstapel verfügbar sind. Weitere Informationen finden Sie auf der Dokumentationsseite zu den [Füllmethoden](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
+> Das Tool unterstützt dieselben Füllmethoden, die auch im Ebenenstapel verfügbar sind. Weitere Informationen finden Sie auf der Dokumentationsseite zu den [Füllmethoden](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/interface/layer-stack/blending-modes).
 
 ### Material
 
@@ -100,5 +100,5 @@ Das Polygon-Füllwerkzeug kann mithilfe bestimmter Tastaturbefehle effektiv verw
 Für das Tool gelten einige Einschränkungen:
 
 * **Polygonschleifenfüllung** und **Partielle Polygonschleifenfüllung** funktionieren nur bei Quads, sodass Dreiecke und n-Gons nicht mit diesen Modi gefüllt werden können.
-* Die Unterstützung für **Radial Symmetrie** ist ebenfalls eingeschränkt und möglicherweise unzuverlässig. Um Symmetrie zu verwenden, verwenden Sie stattdessen den Spiegelmodus. Weitere Informationen finden Sie auf der [Symmetrie-Dokumentationsseite &#x200B;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/symmetry/symmetry).
+* Die Unterstützung für **Radial Symmetrie** ist ebenfalls eingeschränkt und möglicherweise unzuverlässig. Um Symmetrie zu verwenden, verwenden Sie stattdessen den Spiegelmodus. Weitere Informationen finden Sie auf der [Symmetrie-Dokumentationsseite &#x200B;](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/painting/symmetry/symmetry).
 * Das Tool füllt nur die Geometrie des **aktiven Textursatzes** aus. Das Drahtgitter wird für diesen Textursatz angezeigt und aktualisiert, wenn sich der aktive Textursatz ändert.

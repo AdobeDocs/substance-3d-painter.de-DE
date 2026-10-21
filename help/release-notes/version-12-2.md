@@ -94,7 +94,7 @@ Das Werkzeug **Polygonfüllung** wurde mit einer neuen Schnittstelle und neuen A
 
 >[!NOTE]
 >
-> Weitere Informationen zum Werkzeug **Polygonfüllung** finden Sie auf der [Seite der dedizierten Dokumentation](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
+> Weitere Informationen zum Werkzeug **Polygonfüllung** finden Sie auf der [Seite der dedizierten Dokumentation](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
 
 ### Malen mit neuem Käfig im Baking-Modus
 
@@ -158,7 +158,7 @@ Der neue **Käfig-Malmodus** ist ein Käfig-Offset pro Pixel, der über den glob
 
 >[!NOTE]
 >
-> Weitere Informationen zum Baking finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking).
+> Weitere Informationen zum Baking finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/baking/baking).
 
 ### Hervorhebung von neuem Textursatz im Viewport
 
@@ -228,7 +228,7 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
   Für das Substance von Materialien und Filtern ist eine neue `mesh_uv_neighbor`-Engine-Map-Eingabe verfügbar. Es funktioniert wie eine UV Advektion-Textur, um die andere Seite einer UV-Insel-Naht zu finden. Die Rot- und Grün-Kanäle speichern den UV-Vorschub, der verwendet wird, um die benachbarten Pixel über eine UV-Naht zu erreichen.
 
-  Weitere Informationen zu diesen Engine-Texturen finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
+  Weitere Informationen zu diesen Engine-Texturen finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
 
 ## Versionshinweise
 
