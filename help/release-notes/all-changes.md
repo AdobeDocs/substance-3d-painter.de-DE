@@ -4,10 +4,9 @@ description: Prüfe alle Änderungen und Updates in den verschiedenen Substance 
 title: Alle Änderungen
 user-guide-description: ''
 user-guide-title: ''
-hold: false
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 479eb327180dd223bbff362e3f200995565cbcfa
 workflow-type: tm+mt
-source-wordcount: '34065'
+source-wordcount: '40713'
 ht-degree: 0%
 ---
 
@@ -21,6 +20,58 @@ Diese Seite enthält Versionshinweise für alle früheren Versionen von Substanc
 
 ## Version 12
 
+### 12.2.0
+
+Freigabedatum: **2026/10/21**
+
+Zusammenfassung: **Dieses Update ist eine Hauptversion, es fügt eine neue Funktion zum Zeichnen von Käfigen für das Baking hinzu und verbessert die Funktionen zum Füllen von Polygonen. Weitere Informationen finden Sie in den vollständigen Versionshinweisen.**
+
+**Hinzugefügt:**
+
+* Baking, Käfig malen
+* &lbrack;Käfig malen&rbrack; Einfache Käfig-Malen-Benutzeroberfläche erstellen
+* &lbrack;Käfig malen&rbrack; Neue Optionen zur Visualisierung von Käfig
+* &lbrack;Käfig malen&rbrack; Bearbeitbares Auswahl-/Füllwerkzeug
+* &lbrack;Käfig malen&rbrack; Überblendung-Modus in Symbolleiste anzeigen
+* &lbrack;Käfig malen&rbrack; HDR. Regler Änderungen an der Benutzeroberfläche
+* &lbrack;Käfig malen&rbrack; Visualisierungs-Shader
+* &lbrack;Käfig malen&rbrack; Optionen zum Zurücksetzen des Stapels
+* Verbesserungen am Werkzeug &quot;Polygonfüllung&quot;
+* &blbrack;Polygon Fill&rbrack; Polygon-Ausbesserung hinzufügen
+* &blbrack;Polygon Fill&rbrack; Polygonschleife hinzufügen
+* &blbrack;Polygon Fill&rbrack; Symmetrie-Unterstützung mit Loop/Patch
+* &blbrack;Polygon Fill&rbrack; Symmetrie Edge Preview
+* &blbrack;Polygon Fill&rbrack; Dreiecke mit Endlosschleifen und Partialschleifen entfernen
+* &blbrack;Polygon Fill&rbrack; Drahtgitter nur für aktiven Textursatz sichtbar
+* &Klammer;Polygonfüllung&Klammer; Rote Kantenmarkierung bei nicht klickbaren Dreiecken
+* &Klammer;Polygonfüllung&Klammer; Deaktivieren Sie nicht die Füllmodusoptionen
+* &blbrack;Polygon Fill&rbrack; Festlegen aller Kanaleigenschaften mit der Polygonfüllung zulassen
+* &blbrack;Polygon Fill&rbrack; Vorherigen Strich fortsetzen funktioniert mit Polygonfüllung
+* &Klammer;Polygonfüllung&Klammer; Unzulässige Cursorposition auf nicht aktiven Textursätzen anzeigen
+* &blbrack;Polygon Fill&rbrack; ALT-Sofortvorschau
+* &blbrack;Polygon Fill&rbrack; Tastaturbefehl für temporären Wechsel zu Polyloop (UMSCHALT+A)
+* &lbrack;Viewport&rbrack; Markierung für Textursatz-/UV-Kacheln-Auswahl anzeigen
+* &lbrack;Viewport&rbrack; Unterstützung für &quot;Order Independent Transparency&quot; im Echtzeit-Viewport hinzufügen
+* &lbrack;Anzeigeeinstellungen&rbrack; Anzeigeeinstellungen in neuen Gruppen neu organisieren
+* &lbrack;Werkzeug&rbrack; Hinzufügen von Unterstützung für das additive Mischen mit Pinselstrichen
+* &lbrack;Werkzeug&rbrack; Unterstützung für additive Überblendung mit der Polygonfüllung hinzufügen
+* &lbrack;USD&rbrack; Exportierte USD mit Deckkraftmap werden in Arnold transparent dargestellt
+* &lbrack;Nvidia&rbrack; Fügen Sie eine Warnung zu den neuesten Nvidia-Treibern hinzu (616.56 bis 617.14)
+* Neue Eingabe für &quot;Mesh_UV_Neighbor&quot;-Engine hinzufügen
+* Baker auf Version 3.23.0 aktualisieren
+* Substance Engine auf Version 9.6.1 aktualisieren
+
+**Fest:**
+
+* &blbrack;Baking&rbrack; Ambient occlusion &quot;Rückseitige ignorierung nach Mesh&quot; funktioniert nicht
+* &blbrack;Baking&rbrack; &lbrack;AMD&rbrack; Gerät beim Baking führ mit hochpolaren Meshs verloren
+* &lbrack;Performances&rbrack; Painter VRAM Verwendung
+* &lbrack;Viewport&rbrack; Fehlende Texturen beim Öffnen von Projekten auf HDPI-Bildschirmen
+* &lbrack;Werkzeug&rbrack; Füllmethode ist ausgegraut, wenn in eine Maske gemalt wird
+* Temporäre Ordner werden nach dem Export im Netzwerk nicht gelöscht
+* &lbrack;USD&rbrack; Die exportierte USD wird entlang der UV-Begrenzungslinien geteilt
+* &lbrack;USD&rbrack; Einfrieren beim Laden von falsch geformtem USDz
+
 ### 12.1.5
 
 Freigabedatum: **2026/09/15**
@@ -30,7 +81,7 @@ Zusammenfassung: **Nebenversion**
 **Fest:**
 
 * Das Exportieren eines Bildes aus einem Regal in ein Netzwerk funktioniert nicht mehr
-* [Generator] Die Einstellung &quot;Textur verwenden&quot; auf &quot;false&quot; deaktiviert nicht die Verwendung der Textur-Eingabe.
+* &lbrack;Generator&rbrack; Die Einstellung &quot;Textur verwenden&quot; auf &quot;false&quot; deaktiviert nicht die Verwendung der Textur-Eingabe.
 * Einfrieren des Viewports beim Speichern während der Bearbeitung der 3D-Projektion
 * Material-Ebenenauflösung ist zu niedrig
 
@@ -42,7 +93,7 @@ Zusammenfassung: **Nebenversion**
 
 **Fest:**
 
-* \[Absturz\] Absturz beim Importieren oder Exportieren von Dateien, deren Dateinamen Nicht-ASCII-Zeichen enthalten
+* &lbrack;Absturz&rbrack; Absturz beim Importieren oder Exportieren von Dateien, deren Dateinamen Nicht-ASCII-Zeichen enthalten
 
 ### 12.1.3
 
@@ -56,10 +107,10 @@ Zusammenfassung: **Nebenversion**
 
 **Fest:**
 
-* [Graustufenwähler] Die Auswahl bleibt nach dem Ändern des Tools geöffnet
-* [Baking verzerren] Verzerrungskorrektur wird beim Malen und Rückgängigmachen unterbrochen
-* Die Interaktion mit dem [Projektion-Tool]-Viewport wird vom Projektion-Tool blockiert.
-* [Dynamische Kontur] Fehlende dynamische Konturparameter in den Pinseleigenschaften
+* &lbrack;Graustufenwähler&rbrack; Picker bleibt nach dem Ändern des Werkzeugs geöffnet
+* &Klammer;Baking&amp;Klammer verzerren; Verzerrungskorrektur bricht beim Malen und Rückgängigmachen
+* &blbrack;Projektion-Werkzeug&blbrack; Viewport-Interaktion wird vom Projektion-Werkzeug blockiert
+* &lbrack;Dynamischer Strich&rbrack; Fehlende dynamische Konturparameter in den Pinseleigenschaften
 * Export in ein Netzwerk funktioniert nicht mehr
 
 ### 12.1.2
@@ -70,102 +121,102 @@ Zusammenfassung: **Nebenversion**
 
 **Fest:**
 
-* \[Absturz\] Einige Substance können beim Rendern zu einem Absturz führen
-* \[Absturz\] Mesh beim Baking erneut importieren
-* \[Absturz\] Fehler bei der Initialisierung der Grafikanzeige kann zu einem Absturz führen.
-* \[Absturz\] Beim Exportieren von Texturen kann in einigen Fällen ein Absturz beim Aktualisieren des Protokolls auftreten.
-* \[Absturz\] Absturz im Baking-Modus in einigen Fällen beim Laden/Aktualisieren der Umgebungs-Map
-* \[Baking\] Das erneute Starten des Baking nach dem Ändern einer Datei mit hohem Poly-Wert kann zu einem Einfrieren führen
-* \[An Photoshop senden\] Fehler beim Exportieren der Ebenenmaske
-* \[Engine\] Das Ergebnis des Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert
+* &lbrack;Absturz&rbrack; Einige Substance können beim Rendern zu einem Absturz führen
+* &lbrack;Absturz&rbrack; Mesh beim Baking erneut importieren
+* &lbrack;Absturz&rbrack; Wenn die Grafikanzeige nicht initialisiert wird, kann dies zu einem Absturz führen
+* &lbrack;Absturz&rbrack; Beim Exportieren von Texturen kann in einigen Fällen ein Absturz beim Aktualisieren des Protokolls auftreten
+* &lbrack;Absturz&rbrack; Absturz im Baking-Modus in einigen Fällen beim Laden/Aktualisieren der Umgebungs-Map
+* &blbrack;Baking&rbrack; Das erneute Starten von Baking nach dem Ändern einer Datei mit hohem Poly-Wert kann zum Einfrieren führen
+* &lbrack;An Photoshop senden&rbrack; Fehler beim Exportieren der Ebenenmaske
+* &lbrack;Engine&rbrack; Das Ergebnis des Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert
 
 ### 12.1.1
 
-Freigabedatum: <b>2026/07/09</b>
+Freigabedatum: **2026/07/09**
 
 Zusammenfassung: Nebenversion
 
 Hinzugefügt:
 
-* [Skew-Baking] Gelegt: Normaler Neigungsbasismodus: Mesh oder pro Dreieck
-* [Eigenschaften] einheitliche Farben immer auf den Standardwert ihres Kanals zurücksetzen lassen
-* [OpenPBR] Kanäle nach Kategorien im Fenster &quot;Texturen exportieren&quot; für die Erstellung von Ausgabevorlagen neu gruppieren
+* &Klammer;Baking&amp;Klammer verzerren; Leg des normalen Neigungsbasismodus: Mesh oder pro Dreieck
+* &lbrack;Eigenschaften&rbrack; Einheitliche Farben immer auf den Standardwert ihres Kanals zurücksetzen lassen
+* &lbrack;OpenPBR&rbrack; Kanäle zur Erstellung von Ausgabevorlagen im Fenster &quot;Texturen exportieren&quot; nach Kategorien neu gruppieren
 * Substance Engine auf Version 9.4.5 aktualisieren
 
 Fest:
 
-* [Projekt] Das Öffnen und Speichern einiger Projekte kann länger als gewöhnlich dauern
-* [Absturz] Erneutes Laden mehrerer Mesh kann zu einem Absturz führen
-* [Absturz] Löschen eines Kanals im Maskenansichtsmodus führt zu einem Absturz
-* [Absturz] Einige Substance können beim Rendern zu einem Absturz führen
-* [Malen Skew] Das ausgewählte Tool in Malen Skew bleibt nach dem Wechsel in den Malmodus ausgewählt.
-* [Allgemeine Einstellungen Baking geführt] Käfig-Entfernungseinstellungen aktualisieren die Drahtgitter- und Shader-Visualisierung des Käfigs nicht
-* [Engine] UV-Auffüllmodus &quot;3D Space Neighbor&quot; funktioniert nicht gut bei dünnen Dreiecken
-* Das Ergebnis des [Engine]-Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert
+* &lbrack;Projekt&rbrack; Das Öffnen und Speichern einiger Projekte kann länger als gewöhnlich dauern
+* &lbrack;Absturz&rbrack; Das erneute Laden mehrerer Mesh kann zu einem Absturz führen
+* &lbrack;Absturz&rbrack; Das Löschen eines Kanals im Maskenansichtsmodus führt zu einem Absturz
+* &lbrack;Absturz&rbrack; Einige Substance können beim Rendern zu einem Absturz führen
+* &lbrack;Malen Skew&rbrack; Das ausgewählte Werkzeug in Malen Skew bleibt nach dem Wechsel in den Malmodus ausgewählt
+* &lbrack;Baking Allgemeine Einstellungen&rbrack; Käfig-Entfernungseinstellungen aktualisieren die Käfig-Drahtgitter- und Shader-Visualisierung nicht
+* &lbrack;Engine&rbrack; UV-Auffüllmodus &quot;3D-Raum-Nachbar&quot; funktioniert nicht gut bei dünnen Dreiecken
+* &lbrack;Engine&rbrack; Das Ergebnis des Ankerpunkts wird nicht zwischen einer Maske und einem Farbkanal gerendert
 
 ### 12.1.0
 
-Freigabedatum: <b>2026/06/23</b>
+Freigabedatum: **2026/06/23**
 
-Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält Verbesserungen an Bakern mit dem Standardzustand &quot;Neues Baking&quot;, der Zeichnungs-Skew-Map, dem automatischen Reake, einer neuen Option für den automatischen entpack von UV für Mesh und OpenPBR mit fester Oberfläche. Weitere Informationen finden Sie in den vollständigen Versionshinweisen.</b>
+Zusammenfassung: **Dieses Update ist eine Hauptversion. Es enthält Verbesserungen an Bakern mit dem Standardzustand &quot;Neues Baking&quot;, der Zeichnungs-Skew-Map, dem automatischen Reake, einer neuen Option für den automatischen entpack von UV für Mesh und OpenPBR mit fester Oberfläche. Weitere Informationen finden Sie in den vollständigen Versionshinweisen.**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Baking Neigen] Malwerkzeuge Neigen
-* [Skew-Baking] Hinzufügen von Skew-Vorschau-Shader und Skew-Richtung Vektorgrafiken beim Malen von Skew-Maps
-* [Baking verzerren] Option &quot;Kantenschutz hinzufügen&quot;
-* [Baking neigen] Automatische Wiederherstellung
-* [Skew-Baking] Benutzeroberfläche der Mesh-Map-Liste überarbeiten
-* [Baking verzerren] Mesh-Map teilen / Allgemeine Baking-Einstellungen + Allgemeine Einstellungen aus Mesh-Map-Liste verschieben (nur Grundfarbe oder Maske)
-* [Baking verzerren] Symbolleistenschaltflächen für Viewport ändern
-* [Baking verzerren] Symmetrie für Pinsel in der oberen Symbolleiste anzeigen
-* [Skew-Baking] Umbenennungsoptionen im Menü &quot;Synchronisierung der Mesh-Map-Liste&quot;
-* [Skew-Baking] Dialogfelder &quot;Synchronisation aktualisieren&quot; und &quot;Überwachter Status&quot;
-* [Skew-Baking] Erstellen einer Graustufen-Farbwählervariante
-* [Baking verzerren] Symbol &quot;Baking-Modus aktualisieren&quot;
-* [Automatisch Entpackt] Option zum Integrieren von Festplatten
-* [OpenPBR] Unterstützung für OpenPBR 1.1 hinzufügen
-* [OpenPBR] OpenPBR zum Standardarbeitsablauf und -Shader machen
-* [OpenPBR] Importieren von OpenPBR-Materials und -Texturen über USD
-* [OpenPBR] Exportieren von OpenPBR-Materials und -Texturen über USD
-* [OpenPBR] Fenster &quot;Export-Texturen aktualisieren&quot;, um die Namenskonvention für OpenPBR anzuzeigen
-* [OpenPBR] Hinzufügen von Dokumentationen zu Änderungen an der Support-OpenPBR
-* [OpenPBR]&#x200B;[Iray] Fügen Sie eine neue MDL hinzu, um OpenPBR 1.1 in Iray zu unterstützen.
+* &Klammer;Baking&amp;Klammer verzerren; Malwerkzeuge verzerren
+* &Klammer;Baking&amp;Klammer verzerren; Skew-Vorschau hinzufügen Shader und Skew-Richtung Vektorgrafiken beim Malen einer Skew-Map
+* &Klammer;Baking&amp;Klammer verzerren; Option &quot;Kantenschutz hinzufügen&quot;
+* &Klammer;Baking&amp;Klammer verzerren; Auto-Reake
+* &Klammer;Baking&amp;Klammer verzerren; Benutzeroberfläche der Mesh-Map-Liste überarbeiten
+* &Klammer;Baking&amp;Klammer verzerren; Mesh-Map teilen/Allgemeine Baking-Einstellungen + Allgemeine Einstellungen aus Mesh-Map-Liste verschieben (nur Grundfarbe oder Maske)
+* &Klammer;Baking&amp;Klammer verzerren; Symbolleistenschaltflächen für Viewport ändern
+* &Klammer;Baking&amp;Klammer verzerren; Symmetrie-Schalter für Pinsel in der oberen Symbolleiste anzeigen
+* &Klammer;Baking&amp;Klammer verzerren; Umbenennungsoptionen im Menü &quot;Synchronisierung der Mesh-Map-Liste&quot;
+* &Klammer;Baking&amp;Klammer verzerren; Dialogfelder &quot;Synchronisation aktualisieren&quot; und &quot;Überwachter Status&quot;
+* &Klammer;Baking&amp;Klammer verzerren; Variante des Graustufen-Farbwählers erstellen
+* &Klammer;Baking&amp;Klammer verzerren; Symbol &quot;Baking aktualisieren&quot;
+* &lbrack;Automatisch Entpackt&rbrack; Option &quot;Festplatte integrieren&quot;
+* &lbrack;OpenPBR&rbrack; Unterstützung für OpenPBR 1.1 hinzufügen
+* &lbrack;OpenPBR&rbrack; OpenPBR zum Standard-Arbeitsablauf und -Shader machen
+* &lbrack;OpenPBR&rbrack; Importieren von OpenPBR Materials und Texturen über USD
+* &lbrack;OpenPBR&rbrack; Exportieren von OpenPBR und Texturen über USD
+* &lbrack;OpenPBR&rbrack; Fenster &quot;Texturen exportieren&quot; aktualisieren, um die Namenskonvention für OpenPBR anzuzeigen
+* &lbrack;OpenPBR&rbrack; Fügen Sie Dokumentationen zu Änderungen an der Support-OpenPBR hinzu
+* &lbrack;OpenPBR&rbrack;&lbrack;Iray&rbrack; Neue MDL zur Unterstützung von OpenPBR 1.1 in Iray hinzufügen
 * Mehrere geringfügige Verbesserungen bei USD Exporten
-* [UI] Hinzufügen einer Warnung im Viewport beim Malen auf einem anderen Textursatz
-* [Reduzieren] Reduzieren aller instanzierten Ebenen über Textursatz hinweg zulassen
-* [Kanaleinstellungen] Mehrere Textursätze gleichzeitig über ein neues Fenster auswählen
-* [Verlauf] &quot;Wert&quot; aktualisieren Eintragsformulierung rückgängig machen, um den Parameternamen wiederzugeben
-* [Ebenenstapel] Fülleffekte in Masken standardmäßig auf Weiß einstellen (1.0)
-* [Substance] Neue Engine-Map-Eingabe &quot;Mesh_hard_edges_triangle&quot; hinzufügen
-* [Substance] Neue Engine-Map-Eingabe &quot;Mesh_harte_Kanten&quot; hinzufügen
-* [Shader] Verhindern von Shader-Instanzen, dieselben Namen zu verwenden
-* [Shader] Verwenden Sie den Shader aus der Projektvorlage beim Importieren einer USD- oder GLTF-Datei.
+* &lbrack;UI&rbrack; Warnmeldung im Viewport beim Malen auf einem anderen Textursatz hinzufügen
+* &lbrack;Reduzieren&rbrack; Reduzieren aller instanzierten Ebenen über Textursatz hinweg zulassen
+* &amp;Textursatz&rbrack;Einstellungen&rbrack; Auswahl mehrerer Kanäle gleichzeitig über neues Fenster zulassen
+* &lbrack;Verlauf&rbrack; &quot;Wert&quot; aktualisieren Eintragstext rückgängig machen, um den Parameternamen anzugeben
+* &lbrack;Ebenenstapel&rbrack; Fülleffekte in Masken auf Weiß (1.0) festlegen
+* &lbrack;Substance&rbrack; Neue Eingabe für &quot;Mesh_harte_Kanten_Dreieck&quot;-Engine hinzufügen
+* &lbrack;Substance&rbrack; Neue Eingabe für Engine &quot;Mesh_hard_edges&quot; hinzufügen
+* &lbrack;Shader&rbrack; Shader-Instanzen zum Freigeben derselben Namen verhindern
+* &lbrack;Shader&rbrack; Verwenden des Shaders aus der Projektvorlage beim Importieren einer USD- oder GLTF-Datei
 * Adobe Color Engine auf Version 7.0 aktualisieren
 * Aktualisieren der MacOSX-Mindestversion auf 13.0 (Ventura)
-* [Inhalt] Neue Projektvorlagen für OpenPBR
-* [Inhalt] Aktualisieren von Beispielprojekten, um den neuen OpenPBR Shader zu verwenden
-* [Python] Erweitern Sie die Geometrie-Masken-API, um Einschluss- und Ausschlussmodi wie in der Benutzeroberfläche zu ermöglichen.
+* &lbrack;Inhalt&rbrack; Neue Projektvorlagen für OpenPBR
+* &lbrack;Inhalt&rbrack; Aktualisieren von Beispielprojekten, um den neuen OpenPBR-Shader zu verwenden
+* &lbrack;Python&rbrack; Erweitern Sie die Geometrie-Masken-API, um Einschluss- und Ausschlussmodi wie in der Benutzeroberfläche zuzulassen.
 
-<b>Fest</b>:
+**Fest**:
 
-* [Absturz]&#x200B;[Mesh-Map-Einstellungen] Einstellungen auf andere Textursatz anwenden
-* [Absturz] Beim Baking führ von Krümmungen von einer Karte ohne Welt-Raum-Normale
-* [Absturz]&#x200B;[Baking] Baking mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl-Absturz
-* [Absturz] AO-Baking wird abgebrochen
-* [Auto-Käfig] Unendliche Ladezeit, wenn der hohe Poly-Dateipfad ungültig ist
-* [Linux]&#x200B;[Windows] Der Farbwähler kann manchmal ganz schwarz sein oder nicht angezeigt werden.
-* [Polygon-Füllwerkzeug] Das Werkzeug funktioniert nicht mit Nicht-PBR
-* &lbrack;[Malen] Beim Löschen des Farbkanals werden zuvor gemalte Grundfarben nicht gelöscht
-* [USD] Nicht alle Shader-Instanzen werden korrekt erkannt.
-* [Substance] Es wird nur die erste Verwendung eines Eingabe-/Ausgabeknotens berücksichtigt
-* [Shader] Ambient occlusion wird zweimal mit Textursätzen unter Verwendung verschiedener Mischmethoden aufgetragen
-* [Engine] Normale Texturen mit leerem Blaukanal (Schwarz) können zu falschen Angleichungsergebnissen führen
-* [GLTF Import] Alpha-Überblendung ist auf jedem Textursatz aktiviert
-* [GLTF-Export] Alpha-Überblendung ist beim Export immer aktiviert
-* [Export] Doppelseitige Geometrie ist beim Importieren einer GLTF-Datei immer deaktiviert
-* [Javascript] Das Ändern von Shader-Einstellungen trägt nicht zum Rückgängigmachen des Verlaufs bei
-* [Beispiele] Volumenstreuung ist in den Anzeigeeinstellungen für die Meetingmatte nicht aktiviert.
+* &lbrack;Absturz&rbrack;&lbrack;Mesh-Map-Einstellungen&rbrack; Einstellungen auf andere Textursatz anwenden
+* &lbrack;Absturz&rbrack; Beim Baking von Krümmungen von einer Karte ohne Welt-Raum-Normale
+* &lbrack;Absturz&rbrack;&lbrack;Baking&rbrack; Baking mit aktiviertem benutzerdefiniertem Käfig, aber ohne Dateiauswahl-Absturz
+* &lbrack;Absturz&rbrack; AO-Baking wird abgebrochen
+* &lbrack;Käfig&rbrack; Unendliche Ladung, wenn der hohe Polydateipfad ungültig ist
+* &lbrack;Linux&rbrack;&lbrack;Windows&rbrack; Der Farbwähler kann ganz schwarz sein oder nicht angezeigt werden.
+* &blbrack;Polygon-Füllwerkzeug&rbrack; Das Tool funktioniert nicht mit Nicht-PBR
+* &lbrack;&lbrack;Malen&rbrack; Durch Löschen des Farbkanals werden zuvor gemalte Grundfarben nicht gelöscht.
+* &lbrack;USD&rbrack; Shader-Instanzen werden nicht alle korrekt erkannt
+* &lbrack;Substance&rbrack; Es wird nur die erste Verwendung eines Eingabe-/Ausgabeknotens berücksichtigt
+* &lbrack;Shader&rbrack; Ambient occlusion wird zweimal mit Textursätzen unter Verwendung unterschiedlicher Mischmethoden aufgetragen
+* &lbrack;Engine&rbrack; Normale Texturen mit leerem Blaukanal (Schwarz) können zu falschen Füllergebnissen führen.
+* &lbrack;GLTF Import&rbrack; Alpha-Überblendung ist auf jedem Textursatz aktiviert
+* &lbrack;GLTF Export&rbrack; Alpha-Überblendung ist beim Export immer aktiviert
+* &lbrack;Export&rbrack; Doppelseitige Geometrie ist beim Importieren einer GLTF-Datei immer deaktiviert
+* &lbrack;Javascript&rbrack; Das Ändern der Shader-Einstellungen trägt nicht zum Rückgängig-Verlauf bei
+* &lbrack;Samples&rbrack; Volumenstreuung ist in den Anzeigeeinstellungen für Meet Mat nicht aktiviert
 
 ### 12.0.3
 
@@ -177,18 +228,18 @@ Zusammenfassung: **Nebenversion**
 
 * Baker auf Version 3.22.2 aktualisieren
 * Substance Engine auf Version 9.4.3 aktualisieren
-* \[Python\] Speichern Sie ein intelligente Material an einem bestimmten Speicherort
+* &lbrack;Python&rbrack; Speichern eines intelligenten Materials an einem bestimmten Speicherort
 
 **Fest:**
 
-* \[Ubuntu\] Absturz beim Auswählen des Materials
-* \[Mac\] Wiederkehrendes Popupfenster fordert den Zugriff auf Daten anderer Anwendungen an
-* \[Baking\] Artefakte können auf dem Krümmungs-Map angezeigt werden
-* \[Baking\] Das Baking ist in einigen Fällen langsamer
-* \[Verformen zu Geometrie\] Verformen zu Geometrie wird in einigen Fällen deaktiviert
-* \[UV-Kachel\] Alpha des extrahierten Ankerpunkts wird von anderen Kacheln ignoriert
-* \[Python\]\[Mac\] Ausnahmen in der Python-Konsole mit SSL
-* \[Python\] Painter-Absturz beim Beenden mit verbleibenden Qt-Widgets
+* &lbrack;Ubuntu&rbrack; Absturz bei der Auswahl von Material
+* &lbrack;Mac&rbrack; Es wird ein Popup angezeigt, in dem Sie um Zugriff auf Daten anderer Anwendungen gebeten werden.
+* &blbrack;Baking&rbrack; Artefakte können auf dem Krümmungs-Map erscheinen
+* &blbrack;Baking&rbrack; Das Baking ist in manchen Fällen langsamer
+* &lbrack;Verkrümmen auf Geometrie&rbrack; In einigen Fällen wird &quot;Auf Geometrie verformen&quot; deaktiviert
+* &lbrack;UV-Kachel&rbrack; Der extrahierte Alpha-Wert des Ankerpunkts wird von anderen Kacheln ignoriert
+* &lbrack;Python&rbrack;&lbrack;Mac&rbrack; Ausnahmen in der Python-Konsole mit SSL
+* &lbrack;Python&rbrack; Painter Absturz beim Beenden mit verbleibenden Qt-Widgets
 
 ### 12.0.2
 
@@ -198,24 +249,24 @@ Zusammenfassung: **Nebenversion**
 
 **Hinzugefügt:**
 
-* [Farbmanagement] Fügen Sie neue OCIO hinzu, um den Standardfarbraum des Farbwählers anzugeben
-* [Python] Automatisch entpackt Einstellungen in der Python-API Gelegt
+* &lbrack;Farbmanagement&rbrack; Fügen Sie neue OCIO hinzu, um den Standardfarbraum des Farbwählers anzugeben
+* &lbrack;Python&rbrack; Leg der Einstellungen für den automatischen entpack in der Python-API
 
 **Fest:**
 
-* [Absturz] Das Speichern mit nicht genügend Speicherplatz kann zu Abstürzen oder beschädigten Projekten führen
-* [Absturz] [Menüband] Verwenden des Menübands kann bei einigen Projekten zu Abstürzen führen
-* [Absturz] [Baking] Absturz, wenn die .assbin-Datei nicht in den Ordner geschrieben werden kann
-* [Importieren] OBJ Meshs aus Stager können bei der Projekterstellung fehlschlagen
-* [Importieren] OBJ fehlt in einigen Fällen die Fläche.
-* [Importieren] USD Mesh ohne zugewiesenes Material kann beim Importieren Absturz hinzufügen.
-* [Ausgefüllter Pfad] Nicht von der Symmetrie betroffen
-* [Schablone] Die Vorschau hat eine geringere Auflösung als das gemalte Ergebnis
-* [UI] &quot;UV Island&quot; wird weiterhin in der QuickInfo für ID-Map-Farbquellen erwähnt
-* [Anzeige] Schatten erscheinen invertiert
-* [Viewport] transformieren Warp-Projektion bleibt nach dem Wechsel in den Baking-Modus erhalten
-* [Verformen] Raster verschwindet, wenn die Skalierung auf der Z-Achse auf 0 gesetzt ist und &quot;Verformen auf Geometrie&quot; aktiviert ist
-* [Python] Unerwarteter Fehler beim Hinzufügen eines Kanals mit umfangreichen Änderungen
+* &lbrack;Absturz&rbrack; Das Speichern bei zu wenig Speicherplatz kann zu einem Absturz oder einer Beschädigung der Projekte führen.
+* &lbrack;Absturz&rbrack; &lbrack;Menüband&rbrack; Die Verwendung des Menübands kann bei einigen Projekten zu Abstürzen führen
+* &lbrack;Absturz&rbrack; &blbrack;Baking&rbrack; Absturz, wenn die .assbin-Datei nicht in den Ordner geschrieben werden kann
+* &lbrack;Import&rbrack; OBJ Meshs aus Stager können bei der Projekterstellung fehlschlagen
+* &lbrack;Import&rbrack; OBJ fehlt in einigen Fällen die Fläche
+* &lbrack;Import&rbrack; USD Mesh ohne zugewiesenes Material kann beim Importieren Absturz hinzufügen.
+* &lbrack;Ausgefüllter Pfad&rbrack; Nicht von der Symmetrie betroffen
+* &lbrack;Schablone&rbrack; Die Vorschau hat eine geringere Auflösung als das gemalte Ergebnis
+* &lbrack;UI&rbrack; &quot;uv island&quot; wird in der QuickInfo für ID-Map-Farbquellen noch erwähnt
+* &lbrack;Anzeige&rbrack; Schatten erscheinen invertiert
+* &lbrack;Viewport&rbrack; Transformieren Projektion der Verkrümmung bleibt nach dem Wechsel in den Baking-Modus erhalten
+* &lbrack;Verkrümmen&rbrack; Raster verschwindet, wenn die Skalierung auf der Z-Achse auf 0 eingestellt ist und &quot;Auf Geometrie verformen&quot; aktiviert ist
+* &lbrack;Python&rbrack; Unerwarteter Fehler beim Hinzufügen eines Kanals mit bereichsbezogener Änderung
 
 ### 12.0.1
 
@@ -225,1064 +276,1085 @@ Zusammenfassung: **Nebenversion**
 
 **Fest:**
 
-* \[Absturz\]\[Fixieren\] Exportieren aus bestimmten Projekten
+* &lbrack;Absturz&rbrack;&lbrack;Freeze&rbrack; Exportieren aus bestimmten Projekten
 
 ### 12.0.0
 
-Freigabedatum: <b>2026/03/09</b>
-Zusammenfassung: <b>Dies ist eine Hauptversion. Diese Version enthält die Funktionen zum Reduzieren von Ebenen, Verformen der Geometrie, neue Post-Effekte, Verbesserung des neuen Projektfensters und weitere Verbesserungen.</b>
+Freigabedatum: **2026/03/09** Zusammenfassung: **Dies ist eine Hauptversion. Diese Version enthält die Funktionen zum Reduzieren von Ebenen, Verformen der Geometrie, neue Post-Effekte, Verbesserung des neuen Projektfensters und weitere Verbesserungen.**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Ebenen reduzieren] Ebenen innerhalb des Ebenenstapels reduzieren
-* [Ebenen reduzieren] Exportieren reduzierter Ebenen auf die Festplatte
-* [Verformen zu Geometrie] Hinzufügen neuer Funktionen für die automatische Verkrümmung zu den Verkrümmen-Projektionen
-* [Post-Effects] Ersetzen Sie Post-Effekte durch neue
-* [Post-Effects] Aktualisieren der Tonzuordnung
-* [Post-Effects] Neue Verwendung für Post-Effects-Assets hinzufügen
-* [Inhalt]&#x200B;[Nacheffekte] Integrieren von Standard-Nacheffekt-Assets in die Bibliothek
-* [Neues Projekt] Verbessern der Benutzeroberfläche für die Projekterstellung
-* [Neues Projekt] Änderungen an der Funktion zum erneuten Importieren von Meshs
-* [Neues Projekt] Öffnen von \*.geo.usd-Dateien zulassen
-* [Projektkonfiguration] Verbessern der Benutzeroberfläche für die Projektkonfiguration
+* &lbrack;Ebenen reduzieren&rbrack; Ebenen innerhalb des Ebenenstapels reduzieren
+* &lbrack;Ebenen reduzieren&rbrack; Exportieren reduzierter Ebenen auf die Festplatte
+* &lbrack;Verkrümmen auf Geometrie&rbrack; Neue Funktion für die automatische Verkrümmung in Verkrümmen-Projektionen hinzufügen
+* &lbrack;Post-effects&rbrack; Post-Effekte durch neue ersetzen
+* &lbrack;Post-effects&rbrack; Tonzuordnung aktualisieren
+* &lbrack;Post-effects&rbrack; Neue Verwendung für Post-Effects-Elemente hinzufügen
+* &lbrack;Content&rbrack;&lbrack;Post-effects&rbrack; Standard-Post-Effects-Elemente in die Bibliothek integrieren
+* &lbrack;Neues Projekt&rbrack; Verbessern der Benutzeroberfläche für die Projekterstellung
+* &lbrack;Neues Projekt&rbrack; Änderungen an der Funktion zum erneuten Importieren von Mesh
+* &lbrack;Neues Projekt&rbrack; Öffnen von \*.geo.usd-Dateien zulassen
+* &lbrack;Projektkonfiguration&rbrack; Verbessern der Benutzeroberfläche für die Projektkonfiguration
 * USD auf Version 25.05 aktualisieren
 * Substance Engine auf Version 9.3.4 aktualisieren
 * Erhöhen der Mindesttreiber auf 25.3.1/25.Q2 für AMD-GPUs
 * Update Qt auf 6.8.6
-* [Scripting] JavaScript-API auf Version 1.1.20 aktualisieren
+* &lbrack;Skripterstellung&rbrack; JavaScript-API auf Version 1.1.20 aktualisieren
 * Aktualisieren von Python auf 3.13
 
-<b>Fest:</b>
+**Fest:**
 
-* [Absturz] Ändern der Ausgabe eines Material-Kanals in einer Maske kann Absturz verursachen
-* [Importieren] EXR Texturen werden beim Importieren von USD in sRGB anstelle von linear erzwungen
-* [UV-Kacheln] Bildsequenz mit einem einzigen Bild füllt auch andere UV-Kacheln
-* [Baking] AO unterscheidet sich zwischen CPU- und GPU-Baking
-* [Farbmanagement]&#x200B;[MacOS] Viewport BaseColor stimmt nicht mit dem Farbwähler überein
-* [USD] Einheitliche Werte werden in einigen Fällen nicht importiert.
+* &lbrack;Absturz&rbrack; Ändern der Ausgabe eines Material-Kanals in einer Maske kann Absturz verursachen
+* &lbrack;Import&rbrack; EXR Texturen werden beim Importieren von USD in sRGB anstelle von linear erzwungen
+* &blbrack;UV-Kacheln&rbrack; Bildsequenz mit einem einzigen Bild füllt auch andere UV-Kacheln
+* &blbrack;Baking&rbrack; AO unterscheidet sich zwischen CPU- und GPU-Baking
+* &lbrack;Farbmanagement&rbrack;&lbrack;MacOS&rbrack; Viewport &quot;BaseColor&quot; stimmt nicht mit dem Farbwähler überein
+* &lbrack;USD&rbrack; Einheitliche Werte werden in einigen Fällen nicht importiert
 
 ## Version 11
 
 ### 11.1.3
 
-Freigabedatum: <b>2026/02/12</b>
-Zusammenfassung: <b>Nebenversion</b>
+Freigabedatum: **2026/02/12** Zusammenfassung: **Nebenversion**
 
-<b>Fest</b>:
+**Fest**:
 
-* [Malen] Schablone und Symmetrie funktionieren in einigen Fällen nicht
-* [Pfad] Keine Aktualisierung beim Ändern des Deckkraftreglers für Verwischungsstrich
-* [Projekt] Malen auf einer bestimmten Geometrie nicht möglich
-* [Menüband] Instanziieren Pfad verschwindet, wenn die Auflösung des Textursatzes geändert wird
-* [UI] Farbwähler kann in einigen Fällen schrumpfen und verschwinden
+* &lbrack;Malen&rbrack; Schablone und Symmetrie funktionieren in einigen Fällen nicht
+* &lbrack;Pfad&rbrack; Keine Aktualisierung beim Ändern des Deckkraftreglers für den Verwischungsstrich
+* &lbrack;Projekt&rbrack; Malen auf einer bestimmten Geometrie nicht möglich
+* &lbrack;Menüband&rbrack; Der instanziieren Pfad verschwindet, wenn die Auflösung des Textursatzes geändert wird
+* &lbrack;UI&rbrack; Der Farbwähler kann sich verkleinern und in einigen Fällen verschwinden
 
 ### 11.1.2
 
-Freigabedatum: <b>2026/01/13</b>
-Zusammenfassung: <b>Nebenversion</b>
+Freigabedatum: **2026/01/13** Zusammenfassung: **Nebenversion**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Baking] Verbessern der Baking-Zeit für UV-Kacheln-Projekt mit asynchronem Speichern
-* [Shaders] Erwähnung in Shader-API Changelog ändert sich nach Vulkan migration
+* &blbrack;Baking&rbrack; Verbessern des Bakings von UV-Kacheln-Projekten durch asynchrones Speichern
+* &lbrack;Shaders&rbrack; Erwähnung in Shader-API Changelog Veränderungen nach Vulkan Migration
 * Update OpenEXR auf Version 3.4.4
 
-<b>Fest</b>:
+**Fest**:
 
-* [Absturz] Absturz beim Starten von Nvidia GTX 10xx
-* [Absturz] Die Verwendung des Farbwählers auf verschiedenen Textursätzen kann beim Beenden der Anwendung zu einem Absturz führen
-* [Leistung] Leistungsproblem beim Malen im Projekt mit vielen Ebenen
-* [Leistung] Verzögerung beim Malen mit Grafiktablett-Stift
-* [UI] Kamera-Einstellungen bleiben im Rendermodus deaktiviert (Iray)
-* [Menüband] Pfad kann sich in einigen Fällen nach einer Ecke unerwartet überlappen
-* [Menüband] Leistungsproblem mit UV-Kacheln
-* [Substance]&#x200B;[UI] Bildeingaben verschwinden, wenn sie ausgeblendet werden
-* [Substance]&#x200B;[UI] Verschachtelte Gruppen können auch dann erhalten bleiben, wenn &quot;Sichtbar&quot; sie ausblendet.
-* [Baking]&#x200B;[UI] Der Krümmungen-Sampling-Radius kann nicht über 0,01 hinaus festgelegt werden.
-* [Baking]&#x200B;[UI] Max. Verdeckungsabstand kann nicht auf mehr als 1 festgelegt werden
-* [Baking] AO-Einstellung &quot;Selbstverdeckung&quot; wird bei mehreren Textursätzen ignoriert und Niedrig als Hoch-Baking
-* [Baking] ID-Map Baking führe keine Textfarben aus FBX im Modus &quot;Niedrig bis Hoch&quot;
-* [Inhalt] Hochpassfilter führt zu ausgewaschenen Farben in farbverwalteten Kanälen
+* &lbrack;Absturz&rbrack; Absturz beim Starten von Nvidia GTX 10xx
+* &lbrack;Absturz&rbrack; Die Verwendung des Farbwählers auf verschiedenen Textursätzen kann beim Beenden der Anwendung zu einem Absturz führen
+* &lbrack;Performance&rbrack; Leistungsproblem beim Malen im Projekt mit vielen Ebenen
+* &lbrack;Performance&rbrack; Verzögerung beim Malen mit Grafiktablett-Stift
+* &lbrack;UI&rbrack; Kamera-Einstellungen bleiben im Rendermodus deaktiviert (Iray)
+* &lbrack;Menüband&rbrack; Pfad kann sich in einigen Fällen nach einer Ecke unerwartet überlappen
+* &lbrack;Menüband&rbrack; Leistungsproblem mit UV-Kacheln
+* &lbrack;Substance&rbrack;&lbrack;UI&rbrack; Bildeingaben verschwinden, wenn sie ausgeblendet werden
+* &lbrack;Substance&rbrack;&lbrack;UI&rbrack; Verschachtelte Gruppen können auch dann beibehalten werden, wenn sie unter Sichtbar, wenn sie ausgeblendet sind.
+* &lbrack;Baking&rbrack;&lbrack;UI&rbrack; Der Krümmung-Sampling-Radius kann nicht über 0,01 hinaus festgelegt werden
+* &lbrack;Baking&rbrack;&lbrack;UI&rbrack; Max. Verdeckungsabstand kann nicht auf mehr als 1 eingestellt werden
+* &blbrack;Baking&rbrack; AO-Einstellung &quot;Selbstverdeckung&quot; wird bei mehreren Textursätzen ignoriert und &quot;Niedrig&quot; steht für &quot;Hoch&quot; Baking geführt
+* &blbrack;Baking&rbrack; ID-Map Baking führe keine Textfarben aus FBX im Scheitelpunkt &quot;Niedrig bis Hoch&quot;
+* &lbrack;Inhalt&rbrack; Hochpassfilter führt zu ausgewaschenen Farben in farbverwalteten Kanälen
 
 ### 11.1.1
 
-Freigabedatum: <b>2025/12/09</b>
-Zusammenfassung: <b>Nebenversion</b>
+Freigabedatum: **2025/12/09** Zusammenfassung: **Nebenversion**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Performance] Verbessern der UV-Kachel-Performance bei der Berechnung partieller Texturen
-* [Baker] Update auf Version 3.15.4
+* &lbrack;Performance&rbrack; Verbessern der UV-Kacheln-Performance bei der Berechnung partieller Texturen
+* &lbrack;Baker&rbrack; Update auf Version 3.15.4
 
-<b>Fest</b>:
+**Fest**:
 
-* [Absturz]&#x200B;[MacOS] Speichern eines Projekts aus einer früheren Version immer Absturz
-* [Absturz] Das Schließen eines Projekts kann zu einem Absturz führen.
-* [Project] Fehler &quot;Die Mitgliederanzahl stimmt nicht überein&quot; beim Öffnen des in der vorherigen Version erstellten Projekts.
-* [Baking] UV-Kacheln werden nicht mit vorherigen Baking-Ergebnissen kombiniert, sofern vorhanden.
-* [Baking] Gerät verloren, auch wenn Raytracing auf Nvidia GTX 10XX deaktiviert ist
-* [Baking] AO mit Normal weist an Kanten Artefakte auf, da keine Auffüllung erfolgt.
-* [Baking] AO-Einstellung &quot;Selbstverdeckung&quot; wird mit mehreren Textursätzen ignoriert und &quot;Namensübereinstimmung&quot; auf
-* [Baking] ID-Map ist vollständig schwarz, wenn hochpolare Mesh keine Scheitelpunkt-Farben aufweisen
-* [Menüband] QuickInfo für den Modus &quot;Alpha-Überblendung&quot; erwähnt den Modus &quot;Bildschirmüberblendung&quot; anstelle von &quot;Linear abwedeln&quot;
-* [Pfad] Tangenten erzeugen eine unerwartete Schleife, wenn der Punkt nahe an das Pfadende verschoben wird
-* [Tool] Die Maskenvorschau funktioniert nicht, wenn die Projektion in einer Material verwendet wird
-* [Engine] Das Malen kleiner Striche kann zu blockartigen Artefakten führen
-* [Shader] Beim Rückgängigmachen der Erstellung von Shader-Instanzen wird diese nicht ordnungsgemäß entfernt.
-* [Exportieren] Der Alpha-Modus für den GLTF-Export ist immer auf MASK festgelegt.
-* [Python] Unerwarteter Fehler beim Bearbeiten von Ebenenstapel außerhalb des umfangreichen Änderungsblocks
+* &lbrack;Absturz&rbrack;&lbrack;MacOS&rbrack; Speichern eines Projekts aus einer früheren Version immer mit dem Absturz
+* &lbrack;Absturz&rbrack; Das Schließen eines Projekts kann zu einem Absturz führen
+* &lbrack;Projekt&rbrack; Fehler &quot;Die Mitgliederanzahl stimmt nicht überein&quot; beim Öffnen des Projekts, das in der vorherigen Version erstellt wurde
+* &blbrack;Baking&rbrack; UV-Kacheln werden nicht mit vorherigen Baking-Ergebnissen kombiniert, sofern vorhanden.
+* &blbrack;Baking&rbrack; Gerät verloren, selbst wenn Raytracing in der Nvidia GTX 10XX-Serie deaktiviert ist
+* &blbrack;Baking&rbrack; AO mit Normal weist an Kanten Artefakte auf, da keine Auffüllung erfolgt.
+* &blbrack;Baking&rbrack; AO-Einstellung &quot;Selbstverdeckung&quot; wird bei mehreren Textursätzen ignoriert und &quot;Namensübereinstimmung&quot; aktiviert.
+* &blbrack;Baking&rbrack; ID-Map ist vollständig schwarz, wenn Scheitelpunkt-Farben bei Meshs mit hohem Poly fehlen
+* &lbrack;Menüband&rbrack; QuickInfo für den Modus &quot;Alpha-Überblendung&quot; nennt den Bildschirmüberblendmodus anstelle von &quot;Linear abwedeln&quot;
+* &lbrack;Pfad&rbrack; Tangenten erstellen eine unerwartete Schleife, wenn der Punkt dicht an das Pfadende verschoben wird
+* &lbrack;Werkzeug&rbrack; Die Maskenvorschau funktioniert nicht, wenn die Projektion in einer Material verwendet wird
+* &lbrack;Engine&rbrack; Das Malen kleiner Striche kann zu blockartigen Artefakten führen
+* &lbrack;Shader&rbrack; Durch Rückgängigmachen der Erstellung von Shader-Instanzen wird sie nicht ordnungsgemäß entfernt.
+* &lbrack;Export&rbrack; Alpha-Modus für GLTF-Export ist immer auf MASK festgelegt
+* &lbrack;Python&rbrack; Unerwarteter Fehler beim Bearbeiten von Ebenenstapel außerhalb des umfangreichen Änderungsblocks
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Menüband] Leistungsproblem mit UV-Kacheln
-* [Menüband] Pfad kann sich in einigen Fällen nach einer Ecke unerwartet überlappen
-* [Absturz]&#x200B;[Menüband] Erstellen sehr langer Texte in Menüband kann Absturz verursachen
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
+* &lbrack;Menüband&rbrack; Leistungsproblem mit UV-Kacheln
+* &lbrack;Menüband&rbrack; Pfad kann sich in einigen Fällen nach einer Ecke unerwartet überlappen
+* &lbrack;Absturz&rbrack;&lbrack;Ribbon&rbrack; Erstellen von sehr langen Texten im Menüband kann Absturz
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
 
 ### 11.1.0
 
-Freigabedatum: <b>2025/11/18</b>
-Zusammenfassung: <b>Dieses Update ist eine Hauptversion. Es enthält das neue Tool für die Multifunktionsleiste mit eigenem neuen Inhalt, Unterstützung der Symmetrie für Füllebenen, Leistungsparameter für Versatz, verbesserte Physische Größe durch die aktualisierten Baker, vollständige Vulkan-Unterstützung für Windows und Linux und weitere Verbesserungen.</b>
+Veröffentlichungsdatum: **2025/11/18** Zusammenfassung: **Dieses Update ist eine Hauptversion, es enthält das neue Multifunktionsleisten-Tool mit eigenem neuen Inhalt, Unterstützung von Füllebenen, Leistungsparameter für Versatz, verbesserte Physische Größe durch die aktualisierten Baker, vollständige Vulkan-Unterstützung für Windows und Linux und weitere Symmetrien.**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
 * Neues Bandwerkzeug
-* [Tool] Neues Werkzeug für die Multifunktionsleiste hinzufügen, um nahtlose Pfade zu erstellen
-* [Menüband] Tastenkombinationen für die Menübandvorgabe im Eigenschaftenfenster hinzufügen
-* [Menüband] Ermöglicht das Ändern der Deckkraft des Menübands pro Scheitelpunkt auf dem Pfad.
-* [Menüband] Ermöglicht das Ändern der Größe des Menübands pro Scheitelpunkt auf dem Pfad.
-* [Menüband] Entfernen von Anfang/Ende, definiert auf einer Substance, wenn Pfade geschlossen sind
-* [Menüband] Entfernen der Pfad-/Material-Vorschau im Eigenschaftenfenster für Malen-/Radiergummi-/Verwischen-Pfadwerkzeuge
-* [Menüband] Hinzufügen von Füllmethoden für Alpha und einige Kanäle bei selbstüberlappender Anordnung
+* &lbrack;Werkzeug&rbrack; Neues Werkzeug &quot;Menüband&quot; für nahtlose Pfade hinzufügen
+* &lbrack;Menüband&rbrack; Tastenkombinationen für die Bandvorgabe im Eigenschaftenfenster hinzufügen
+* &lbrack;Menüband&rbrack; Zulassen, dass die Deckkraft des Menübands pro Scheitelpunkt auf dem Pfad geändert wird
+* &lbrack;Menüband&rbrack; Ändern der Größe des Menübands pro Scheitelpunkt auf dem Pfad zulassen
+* &lbrack;Menüband&rbrack; In einer Substance definierte Anfang-/Endpunkte entfernen, wenn Pfade geschlossen sind
+* &lbrack;Menüband&rbrack; Entfernen der Pfad-/Material-Vorschau im Eigenschaftenfenster für Malen-/Radiergummi-/Verwisch-Pfadwerkzeuge
+* &lbrack;Menüband&rbrack; Fülloptionen für Alpha und einige Kanäle bei Selbstüberlappung hinzufügen
 * Symmetrie füllen
-* [Füllen] Unterstützung für Symmetrie zu Füllebenen und Effekten hinzufügen
-* [Fill]&#x200B;[UI] Einstellungen für die Symmetrie im Eigenschaftenfenster für Füllebene und Effekte Gelegt
-* [Fill] Benutzeroberfläche für Einstellungen für &quot;Symmetrie nachbearbeiten&quot; im Menü &quot;Viewport&quot; und im Eigenschaftenfenster
-* [Füllen] Ordentlich Neuausrichtung normaler Texturen bei Projektion im Verkrümmungsmodus
+* &lbrack;Füllen&rbrack; Unterstützung für Symmetrie zu Füllebenen und Effekten hinzufügen
+* &lbrack;Fill&rbrack;&lbrack;UI&rbrack; Einstellungen für die Symmetrie von Füllebene und Effekten im Eigenschaftenfenster gelegt
+* &lbrack;Füllen&rbrack; Benutzeroberfläche für Symmetrie-Einstellungen im Viewport- und Eigenschaftenfenster überarbeiten
+* &lbrack;Füllen&rbrack; Normale Texturen bei Projektion im Verkrümmungsmodus korrekt neu ausrichten
 * Physische Größe Versatz
-* [Versatz] Physische Größe als Versatz verwenden
+* &lbrack;Versatz&rbrack; Physische Größe als Versatz verwenden
 * Leistungssteigerung
-* [Leistung] Verbessern der Darstellung kleiner Pinselstriche auf großen Dreiecken
-* [Performance] Verbessern der Shader-Kompilierungszeit
-* [Performance] Volle Vulkan-Unterstützung für Windows und Linux
-* [Leistung] Aktualisierte Baker mit schnellerem GPU-Rendering und Unterstützung von AMD-Raytracing
-* [UI] Ordnen Sie Werkzeugeigenschaften neu in Gruppen an und reduzieren Sie einige standardmäßig
-* [Engine] Update Substance Engine auf Version 9.2.5
-* [Substance] Außerkraftsetzung der Auflösung für Substance-Ressourcen in Tools und Füllungen Gelegt
-* [Exportieren] Mesh-Map-Exportvoreinstellung aktualisieren, um Graustufen-Texturen zu exportieren
+* &lbrack;Performance&rbrack; Verbessern der Darstellung kleiner Pinselstriche auf großen Dreiecken
+* &lbrack;Performance&rbrack; Verbessern der Shader-Kompilierungszeit
+* &lbrack;Performance&rbrack; Vollständige Vulkan-Unterstützung für Windows und Linux
+* &lbrack;Performance&rbrack; Aktualisierte Baker mit schnellerem GPU-Rendering und Unterstützung von AMD-Raytracing
+* &lbrack;UI&rbrack; Werkzeugeigenschaften neu in Gruppen organisieren und einige standardmäßig reduzieren
+* &lbrack;Engine&rbrack; Substance Engine auf Version 9.2.5 aktualisieren
+* &lbrack;Substance&rbrack; Irreguläre Auflösung für Substance-Ressourcen in &quot;Extras und Füllungen&quot; gelegt
+* &lbrack;Export&rbrack; Exportvoreinstellung für Mesh-Map aktualisieren, um Graustufen-Texturen zu exportieren
 * Python
-* [Baking]&#x200B;[Python] Anzeige in Änderungsprotokoll, das Änderungen nach Aktualisierung der Baker umbricht
-* [Python] Leg der Einstellungen für die Symmetrie der Füllung in Python
+* &lbrack;Baking&rbrack;&lbrack;Python&rbrack; Anzeige der Änderungen im Änderungsprotokoll nach Aktualisierung der Baker
+* &lbrack;Python&rbrack; Leg der Einstellungen für die Symmetrie der Füllung in Python
 * Content und neue Inhalte.
-* [Inhalt] Hinzufügen von 75 neuen Werkzeugvorgaben für das Menüband-Werkzeug
-* [Inhalt] Aktualisieren der Verlaufsgenerator-Ressource, um mit dem Menüband kompatibel zu sein
+* &lbrack;Inhalt&rbrack; 75 neue Werkzeugvorgaben für das Menüband-Werkzeug hinzufügen
+* &lbrack;Inhalt&rbrack; Verlaufsgenerator-Ressource so aktualisieren, dass sie mit dem Menüband kompatibel ist
 
-<b>Fest</b>:
+**Fest**:
 
-* [Absturz] Laden eines anderen Projekts bei aktiviertem einrasten des Pfads kann Absturz werden
-* [Absturz] Rechtsklick im Bedienfeld &quot;Pfad&quot; mit Informationen aus einer anderen Sitzung in der Zwischenablage kann Absturz
-* [UI] Die Benutzeroberfläche scrollt in den Werkzeugeigenschaften nach oben, wenn ein Pfad erstellt wird
-* [UI] Maus-Cursor verschwindet, wenn die Pfadtext-Visualisierung ausgeblendet ist
-* [Pfad] Das Kopieren/Einfügen verschiedener Werkzeugeigenschaften im Bedienfeld &quot;Pfad&quot; führt zu instabilen Eigenschaften
-* [Tool] Radiergummi- und Verwischen-Werkzeugvorgaben aktualisieren nicht immer die Kanalauswahl
-* [Tool] Der gemalte Wert ist grau, aber die Benutzeroberfläche zeigt Weiß an, nachdem farbige Werkzeugvorgabe in die Maske geladen wurde
-* [Tool] Die aus der Maske erstellte Voreinstellung behält Kanalwerte bei, die aus einer anderen Voreinstellung geladen wurden
-* [Substance] Die in Graf definierte normale Farbraumübersteuerung wird nicht berücksichtigt
-* [Inhalt] Die Standard-Pinselformressource verwendet eine veraltete Substance.
+* &lbrack;Absturz&rbrack; Laden eines anderen Projekts bei aktiviertem einrasten des Pfads kann Absturz
+* &lbrack;Absturz&rbrack; Rechtsklick im Bedienfeld &quot;Pfad&quot; mit Informationen aus einer anderen Session in der Zwischenablage kann Absturz enthalten
+* &lbrack;UI&rbrack; Oberfläche scrollt in den Werkzeugeigenschaften nach oben, wenn ein Pfad erstellt wird
+* &lbrack;UI&rbrack; Mauszeiger verschwindet, wenn die Pfadzeigerdarstellung ausgeblendet ist
+* &lbrack;Pfad&rbrack; Kopieren/Einfügen verschiedener Werkzeugeigenschaften im Bedienfeld &quot;Pfad&quot; führt zu instabilen Eigenschaften
+* &lbrack;Werkzeug&rbrack; Radiergummi- und Verwischen-Werkzeugvorgaben aktualisieren nicht immer die Kanalauswahl
+* &lbrack;Werkzeug&rbrack; Gemalter Wert ist grau, aber Benutzeroberfläche zeigt Weiß an, nachdem farbige Werkzeugvorgabe in die Maske geladen wurde
+* &lbrack;Werkzeug&rbrack; Die aus der Maske erstellte Vorgabe behält Kanalwerte bei, die aus einer anderen Vorgabe geladen wurden.
+* &lbrack;Substance&rbrack; Die in Graf definierte normale Farbraumübersteuerung wird nicht berücksichtigt
+* &lbrack;Inhalt&rbrack; Die Standard-Pinselform-Ressource verwendet eine veraltete Substance
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
 * Shader-Instanz-Verlauf wird nicht richtig verfolgt
-* [Menüband] Leistungsproblem mit UV-Kacheln
-* [Menüband] Pfad kann sich in einigen Fällen nach einer Ecke unerwartet überlappen
-* [Menüband] Tangenten erzeugen eine unerwünschte Schleife, wenn der Punkt nahe an die Pfadenden verschoben wird
-* [Absturz]&#x200B;[Menüband] Erstellen sehr langer Texte in Menüband kann Absturz verursachen
-* [Tool] Die Maskenvorschau funktioniert nicht, wenn die Projektion in einer Material verwendet wird
-* [Baking] AO-Einstellung &quot;Selbstverdeckung&quot; wird bei mehreren Textursätzen ignoriert und &quot;Namensübereinstimmung&quot; aktiviert
-* [Baking] AO mit Normal weist an Kanten Artefakte auf, da die Auffüllung fehlt
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
+* &lbrack;Menüband&rbrack; Leistungsproblem mit UV-Kacheln
+* &lbrack;Menüband&rbrack; Pfad kann sich in einigen Fällen nach einer Ecke unerwartet überlappen
+* &lbrack;Menüband&rbrack; Tangenten erzeugen eine unerwünschte Schleife, wenn der Punkt nahe an das Pfadende verschoben wird
+* &lbrack;Absturz&rbrack;&lbrack;Ribbon&rbrack; Erstellen von sehr langen Texten im Menüband kann Absturz
+* &lbrack;Werkzeug&rbrack; Die Maskenvorschau funktioniert nicht, wenn die Projektion in einer Material verwendet wird
+* &blbrack;Baking&rbrack; AO-Einstellung &quot;Selbstverdeckung&quot; wird bei mehreren Textursätzen ignoriert und &quot;Namensübereinstimmung&quot; ist aktiviert
+* &blbrack;Baking&rbrack; AO mit Normal weist an den Kanten Artefakte auf, da die Auffüllung fehlt.
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
 
 ### 11.0.3
 
-Freigabedatum: <b>2025/08/05</b>
-Zusammenfassung: <b>Nebenversion</b>
+Freigabedatum: **2025/08/05** Zusammenfassung: **Nebenversion**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Substance 3D Assets] Hinzufügen eines Benachrichtigungspunkts zum Bedienfeld &quot;3D-Elemente&quot;
-* [VFX Platform 2025] Hinzufügen der ACE 2.0-Konfiguration in den Farbmanagementeinstellungen
-* [VFX Platform 2025] Update OCIO Version 2.4.2
+* &lbrack;Substance 3D Assets&rbrack; Hinzufügen eines Benachrichtigungspunkts zum Bedienfeld &quot;3D-Elemente&quot;
+* &lbrack;VFX Platform 2025&rbrack; Hinzufügen der ACE 2.0-Konfiguration in den Farbmanagementeinstellungen
+* &lbrack;VFX Platform 2025&rbrack; Aktualisieren Sie OCIO auf Version 2.4.2
 * Iray auf Version 2024.10 aktualisieren
-* [Engine] Update auf Substance Engine v.9.2.3
-* [Nvidia] Erhöhung der Nvidia-Mindesttreiberversion auf 572.60 (Win) und 570.169 (Linux)
+* &lbrack;Engine&rbrack; Update auf Substance Engine v.9.2.3
+* &lbrack;Nvidia&rbrack; Erhöhen der Nvidia-Mindesttreiberversion auf 572.60 (Win) und 570.169 (Linux)
 
-<b>Fest</b>:
+**Fest**:
 
-* [Python] Bereichsänderung wird nicht im Verlaufsfenster angezeigt
+* &lbrack;Python&rbrack; Die Änderung des Gültigkeitsbereichs wird nicht im Verlaufsfenster angezeigt
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
 
 ### 11.0.2
 
-Freigabedatum: <b>2025/06/10</b>
-Zusammenfassung: <b>Nebenversion</b>
+Freigabedatum: **2025/06/10** Zusammenfassung: **Nebenversion**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Mac] Fügen Sie Warnungen zu bestimmten Betriebssystemversionen hinzu, die zu Artefakten führen
-* [Automatische Aktualisierung] Kleine UX-Verbesserungen im Fehlerprotokoll &quot;Assets&quot;
-* [Automatisches Entpacken] Update auf Version 1.3.2 mit Seaming-Verbesserungen
-* [USD]&#x200B;[FBX] Unterstützung für mehrere UV-Satz mit wenigen Daten hinzufügen
-* [Exportieren] Meshs, die als FBX exportiert wurden, fehlen ihre zusätzlichen UV-Satz, wenn beim Import vorhanden waren
+* &lbrack;Mac&rbrack; Warnmeldungen zu bestimmten Betriebssystemversionen hinzufügen, die zu Artefakten führen
+* &lbrack;Automatische Aktualisierung&rbrack; Kleine UX-Verbesserungen im Fehlerprotokoll &quot;Assets&quot;
+* &lbrack;Automatisches Entpacken&rbrack; Update auf Version 1.3.2 mit Seaming-Verbesserungen
+* &lbrack;USD&rbrack;&lbrack;FBX&rbrack; Unterstützung für mehrere UV-Satz mit wenigen Daten hinzufügen
+* &lbrack;Export&rbrack; Meshs, die als FBX exportiert wurden, fehlen ihre zusätzlichen UV-Satz, wenn beim Import vorhanden waren
 
-<b>Fest</b>:
+**Fest**:
 
-* [MacOS]&#x200B;[Linux] Absturz beim Speichern auf dem Netzwerklaufwerk
-* [Win]&#x200B;[Tablet] Flackern beim Schwenken
-* [SpaceMouse] Problem bei der Arbeit mit dem Pfadwerkzeug
-* [Auto-Käfig] Kann nach einem erneuten Laden des Meshs nicht Baking geführt werden
-* [Automatische Aktualisierung] Bildsequenz wird nicht neu geladen, wenn die erste Kachel fehlt
-* [Path] Benutzerdefinierte Tangente kann sich auf andere Tangenten auswirken.
-* [Pfad] Pfad wird nicht auf dem Textursatz angezeigt, wenn sich der erste Punkt auf einem anderen Textursatz befindet
-* [UI] Einige Menüs sind nach dem Öffnen eines Projekts immer deaktiviert (z. B.: Symmetrie)
-* [Eigenschaften] Werkzeugvorgaben mit ausgefülltem Pfadwerkzeug können nicht verwendet/geladen werden
-* [USD] Mehrere UV-Satz werden bei Verwendung von USD nicht im benutzerdefinierten Shader erkannt.
-* [USD] Kameras mit den gleichen Namen werden überschrieben.
-* [Exportieren] &quot;An Photoshop senden&quot; führt zu einem falschen Farbraum für Farb- und Graustufenergebnisse
-* [Exportieren] Graustufen-Kanäle mit Alpha werden als Farbe anstatt als Graustufen mit PNG-Format exportiert
-* [Exportieren] Exportieren des Graustufenkanals als PSD führt zu einer ungültigen/verkürzten Datei
-* [Inhalt] Verkrümmungsfilter im Mehrrichtungsmodus funktioniert nicht
-* [Python] Beim Crawlen von Ebenenstapel-Knoten kann kein Listenfehler zugewiesen werden
+* &lbrack;MacOS&rbrack;&lbrack;Linux&rbrack; Absturz beim Speichern auf dem Netzlaufwerk
+* &lbrack;Win&rbrack;&lbrack;Tablet&rbrack; Flackern beim Schwenken
+* &lbrack;SpaceMouse&rbrack; Problem beim Arbeiten mit dem Pfadwerkzeug
+* &lbrack;Käfig&rbrack; Nach einem erneuten Laden des Meshs kann kein Baking ausgeführt werden
+* &lbrack;Automatische Aktualisierung&rbrack; Bildsequenz wird nicht neu geladen, wenn die erste Kachel fehlt
+* &lbrack;Pfad&rbrack; Benutzerdefinierte Tangente kann sich auf andere Tangenten auswirken
+* &lbrack;Pfad&rbrack; Pfad wird auf dem Textursatz nicht angezeigt, wenn sich der erste Punkt auf einem anderen Textursatz befindet
+* &lbrack;UI&rbrack; Einige Menüs sind nach dem Öffnen eines Projekts immer deaktiviert (z. B.: Symmetrie)
+* &lbrack;Eigenschaften&rbrack; Werkzeugvorgaben mit ausgefülltem Pfadwerkzeug können nicht verwendet/geladen werden
+* &lbrack;USD&rbrack; Mehrere UV-Satz werden bei Verwendung von USD nicht im benutzerdefinierten Shader erkannt.
+* &lbrack;USD&rbrack; Kameras mit dem gleichen Namen werden überschrieben
+* &lbrack;Export&rbrack; &quot;An Photoshop senden&quot; führt zu einem falschen Farbraum für Farb- und Graustufenergebnisse
+* &lbrack;Export&rbrack; Graustufen-Kanäle mit Alpha werden als Farbe anstatt als Graustufen mit PNG-Format exportiert
+* &lbrack;Export&rbrack; Exportieren des Graustufenkanals als PSD führt zu einer ungültigen/abgeschnittenen Datei
+* &lbrack;Inhalt&rbrack; Der Verkrümmungsfilter im Mehrrichtungsmodus funktioniert nicht
+* &lbrack;Python&rbrack; Listenfehler beim Crawlen von Ebenenstapel-Knoten kann nicht zugewiesen werden
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
 
 ### 11.0.1
 
-Freigabedatum: <b>2025/04/10</b>
-Zusammenfassung: <b>Nebenversion</b>
+Freigabedatum: **2025/04/10** Zusammenfassung: **Nebenversion**
 
-Hinweis: <b>Die Linux CCD-Version wird auf den 29. April verschoben.</b>
+Hinweis: **Die Linux CCD-Version wird auf den 29. April verschoben.**
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
 * Update auf Qt 6.5.8
-* [Substance] Fügen Sie eine Protokollmeldung für Filter hinzu, wenn mehrere Bildeingaben dieselbe Verwendung haben.
-* [Nvidia] Warnung über die neuesten Nvidia-Treiber hinzufügen (572.47)
+* &lbrack;Substance&rbrack; Fügen Sie eine Protokollmeldung für Filter hinzu, wenn mehrere Bildeingaben dieselbe Verwendung haben
+* &lbrack;Nvidia&rbrack; Fügen Sie eine Warnung zu den neuesten Nvidia-Treibern hinzu (572.47)
 
-<b>Fest:</b>
+**Fest:**
 
-* [Absturz] Wenn Sie einen Balken mit einer Verwendung in einem Ein Kanal-Steckplatz ziehen und ablegen
-* [Absturz]&#x200B;[Pfad] Die Option &quot;Pfadtyp ändern&quot; ist nicht ausgegraut, wenn Sie nicht auf einen bestimmten Pfad klicken.
-* [Füllpfad] Sollte nicht in der Lage sein, Substance-Material auszuwählen
-* [Engine] Artefakte an Pinselstrichen
-* [Engine] Pfade können mit bestimmten Einstellungen unterbrochen werden.
+* &lbrack;Absturz&rbrack; Wenn Sie einen Balken mit einer Verwendung in einem Ein Kanal-Steckplatz ziehen und ablegen
+* &lbrack;Absturz&rbrack;&lbrack;Pfad&rbrack; Die Option &quot;Pfadtyp ändern&quot; ist nicht ausgegraut, wenn nicht auf einen bestimmten Pfad geklickt wird
+* &lbrack;Pfad füllen&rbrack; Sollte nicht in der Lage sein, Substance-Material auszuwählen
+* &lbrack;Engine&rbrack; Artefakte an Pinselstrichen
+* &lbrack;Engine&rbrack; Pfade können mit bestimmten Einstellungen unterbrochen werden.
 * Problem mit der Dropdown-Liste für den Pipetten-Farbraum
-* [Automatische Aktualisierung] [Python] Falsche Fehlermeldung bei Verwendung von ResourceID ohne Version
-* [Shader] Absturz beim Öffnen einiger Projekte
+* &lbrack;Automatische Aktualisierung&rbrack; &lbrack;Python&rbrack; Falsche Fehlermeldung bei Verwendung von ResourceID ohne Version
+* &lbrack;Shader&rbrack; Absturz beim Öffnen einiger Projekte
 
-<b>Bekannte Probleme:</b>
+**Bekannte Probleme:**
 
-* [SpaceMouse] Problem bei der Arbeit mit dem Pfadwerkzeug
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
+* &lbrack;SpaceMouse&rbrack; Problem beim Arbeiten mit dem Pfadwerkzeug
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
 
 ### 11.0.0
 
-Freigabedatum: <b>2025/03/11</b>
-Zusammenfassung: <b>Hauptversion, neue Funktion zur automatischen Aktualisierung, Tool für gefüllte Pfade und andere Pfadverbesserungen sowie neue Filter und eine experimentelle Generierung automatischer Käfige für das Baking</b>
+Freigabedatum: **2025/03/11** Zusammenfassung: **Hauptversion, neue Funktion zur automatischen Aktualisierung, ausgefülltes Pfadwerkzeug und andere Pfadverbesserungen sowie neue Filter und eine experimentelle Generierung von automatischen Käfigen für das Baking**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
 * Automatische Aktualisierung
-* [Automatische Aktualisierung] Automatische Aktualisierung geänderter Elemente im Bedienfeld &quot;Elemente&quot;
-* [Automatische Aktualisierung] Automatische Aktualisierung geänderter Elemente im gesamten Projekt
-* [Automatische Aktualisierung] Automatische Aktualisierung standardmäßig deaktiviert lassen
-* [Automatische Aktualisierung] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen (.sbsar, .glsl, .ai, .svg)
-* [Automatische Aktualisierung] Umgebungsvariable hinzufügen, um die automatische Aktualisierung zu deaktivieren
-* [Automatische Aktualisierung]&#x200B;[SBSAR] Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen
+* &lbrack;Automatische Aktualisierung&rbrack; Geänderte Elemente im Bedienfeld &quot;Elemente&quot; automatisch aktualisieren
+* &lbrack;Automatische Aktualisierung&rbrack; Geänderte Elemente im gesamten Projekt automatisch aktualisieren
+* &lbrack;Automatische Aktualisierung&rbrack; Automatische Aktualisierung standardmäßig deaktiviert lassen
+* &lbrack;Automatische Aktualisierung&rbrack; Optionale Aktualisierung, wenn die Ressourcenparameter nicht übereinstimmen (.sbsar, .glsl, .ai, .svg)
+* &lbrack;Automatische Aktualisierung&rbrack; Umgebungsvariable zum Deaktivieren der automatischen Aktualisierung hinzufügen
+* &lbrack;Auto-update&rbrack;&lbrack;SBSAR&rbrack; Update optional machen, wenn die Ressourcenparameter nicht übereinstimmen
 * Ausgefüllter Pfad
-* [Pfad]&#x200B;[Füllen] Fügen Sie ein neues Werkzeug hinzu, um gefüllte Pfade zu erstellen.
+* &lbrack;Pfad&rbrack;&lbrack;Füllen&rbrack; Neues Werkzeug zum Erstellen ausgefüllter Pfade hinzufügen
 * Verbesserungen an Pfaden
-* [Pfad] Erstellen eines Pfads, der zu Polygonen einrasten
-* [Pfad] Wechsel der Pfadtypen zulassen
-* [Pfad] Kopieren und Einfügen von Pfadmaskendaten zwischen Scheitelpunkt und Maske zulassen
-* [Pfad] Winkel beim Erstellen eines neuen Punkts einschränken
-* [Path] Erlaubt das Beschränken der Punkterstellung auf eine Linie.
-* [Pfad] Form mit einem Klick schließen
-* [Pfad] Anzeigen von Pfadinformationen
-* [Pfad] Skalieren und Drehen von Pfad-Scheitelpunkten zulassen
-* [Pfad]&#x200B;[UX] Einfacherer Zugriff auf Transformations-Gizmos
-* [Pfad] Pfadvorschau hinzufügen
-* [Pfad] Deaktivieren der Pfadvorschau mit Umschalt + P
-* [Path] Verbessern der Tangente Edition von der Seitenansicht
-* [Pfad] Fokus auf einen 3D-Pfad festlegen.
-* [Pfad] Scheitelpunkt sollten den Auswahlstatus beibehalten, wenn Sie die Benutzeroberfläche aus- und wieder einschalten.
-* [Path] Löschen von Pfaden mit Rücktaste zulassen
-* [Pfad] Die Pfadliste offen halten, wenn der Benutzer sie erweitert
-* [Pfad]&#x200B;[Ebenenstapel] Duplikate beim Kopieren/Einfügen richtig umbenennen
-* Verbesserungen an der Benutzeroberfläche und der QuickInfo [Path]
+* &lbrack;Pfad&rbrack; Erstellen eines zu Polygonen einrasten Pfads
+* &lbrack;Pfad&rbrack; Wechseln von Pfadtypen zulassen
+* &lbrack;Pfad&rbrack; Kopieren und Einfügen von Pfadmaskendaten zwischen Scheitelpunkt und Maske zulassen
+* &lbrack;Pfad&rbrack; Winkel beim Erstellen eines neuen Punkts einschränken
+* &lbrack;Pfad&rbrack; Zuzulassen, dass die Punkterstellung auf eine Linie beschränkt wird
+* &lbrack;Pfad&rbrack; Form mit einem Klick schließen
+* &lbrack;Pfad&rbrack; Anzeigen von Pfadinformationen
+* &lbrack;Pfad&rbrack; Skalieren und Drehen von Pfad-Scheitelpunkten zulassen
+* &lbrack;Path&rbrack;&lbrack;UX&rbrack; Gizmos für Transformation leichter zugänglich machen
+* &lbrack;Pfad&rbrack; Pfadvorschau hinzufügen
+* &lbrack;Pfad&rbrack; Pfadvorschau mit Umschalt + P deaktivieren
+* &lbrack;Pfad&rbrack; Verbessern der Tangente Edition in der Seitenansicht
+* &lbrack;Pfad&rbrack; Fokus auf einen 3D-Pfad festlegen.
+* &lbrack;Pfad&rbrack; Scheitelpunkt sollten den Auswahlstatus beibehalten, wenn sie die Benutzeroberfläche aus- und wieder einschalten
+* &lbrack;Pfad&rbrack; Löschen von Pfaden mit Rücktaste zulassen
+* &lbrack;Pfad&rbrack; Pfadliste offen halten, wenn der Benutzer sie erweitert
+* &lbrack;Pfad&rbrack;&lbrack;Ebenenstapel&rbrack; Duplikate beim Kopieren/Einfügen richtig umbenennen
+* &lbrack;Pfad&rbrack; Verbesserungen an Benutzeroberfläche und QuickInfo
 * Leistung
-* [Performance] Verbessern der Viewport-Performance bei Verwendung einer hohen Tessellation
-* [Performance] Nur den ersten Kanal für neue Füllebenen/Effekte aktivieren
-* [Leistung] Berechnung des Pinselstrichs parallelisieren
+* &lbrack;Performance&rbrack; Verbessern der Viewport-Performance bei Verwendung einer hohen Tessellation
+* &lbrack;Performance&rbrack; Nur den ersten Kanal für neue Füllebenen/Effekte aktivieren
+* &lbrack;Performance&rbrack; Berechnung des Pinselstrichs parallelisieren
 * Baking
-* [Baking] Neue vollautomatische Käfig-Generierungsoption für das Baking mit hochpolaren Meshs hinzufügen (experimentell)
+* &blbrack;Baking&rbrack; Neue vollautomatische Option zur Generierung von Käfigen für das Baking führ mit Meshs mit hohem Poly (experimentell)
 * Inhalte
-* [Inhalt] Fügen Sie 6 neue Filter hinzu: stilisierung, quantisieren, anisotropic kuwahara, weiche Abschrägung, Richtungsabstand, Graustufen konvertierung
-* [Inhalt] Aktualisieren Sie Rauschen und Grunges auf die neueste Version von Designer (mit der neuen 2D-Voronoi)
-* [Inhalt] Fügen Sie 3 neue Texturen-Generatoren hinzu (Kachelzufall, Triangle Grid, Scratches-Generator)
-* [Inhalt] Unreale Engine-Vorlage umbenennen und Vorgaben exportieren
+* &lbrack;Inhalt&rbrack; Fügen Sie sechs neue Filter hinzu: stilisierung, quantisieren, anisotropic kuwahara, weiche Abschrägung, Richtungsabstand, Graustufen konvertierung
+* &lbrack;Inhalt&rbrack; Aktualisieren von Rauschen und Grunges auf die neueste Version von Designer (mit der neuen 2D-Voronoi)
+* &lbrack;Inhalt&rbrack; 3 neue Textur-Generatoren hinzufügen (Kachel-Zufallsgenerator, Triangle Grid, Scratches-Generator)
+* &lbrack;Inhalt&rbrack; Vorlage für &quot;Unreales Engine umbenennen&quot; und Exportvorgaben
 * Python
-* [Regal]&#x200B;[Python] Speichern von intelligente Material oder intelligente Maske auf der Festplatte von Python
-* [Python] Hinzufügen von automatisch Baking führend Käfigen zur Python-API
-* [Python] Bearbeiten von Namen und Beschreibungen von Textursätzen/UV-Kacheln zulassen
-* [Python] Freigeben von Auflösungseinstellungen für Vektor- und Schriftartenquellen
-* [Automatische Aktualisierung]&#x200B;[Python] Leg der Funktionen zur automatischen Aktualisierung von Projekten in Python
+* &lbrack;Regal&rbrack;&lbrack;Python&rbrack; Intelligente Material oder intelligente Maske aus Python auf Festplatte speichern
+* &lbrack;Python&rbrack; Hinzufügen von automatischem Baking-Käfig zur Python-API
+* &lbrack;Python&rbrack; Bearbeiten von Namen und Beschreibungen von Textursätzen/UV-Kacheln zulassen
+* &lbrack;Python&rbrack; Auflösungseinstellungen für Vektor- und Schriftquellen freigeben
+* &lbrack;Automatische Aktualisierung&rbrack;&lbrack;Python&rbrack; Automatische Aktualisierung von Projekten in Python gelegt
 * Verschiedenes
-* [Exportieren] Erleichtern Sie den Zugriff auf die Optionen für Senden an mit einem neuen Fenster
-* [Nvidia] Warnung über die neuesten Nvidia-Treiber hinzufügen (572.16)
+* &lbrack;Export&rbrack; Erleichtern Sie den Zugriff auf die Optionen für &quot;Senden an&quot; mit einem neuen Bedienfeld
+* &lbrack;Nvidia&rbrack; Fügen Sie eine Warnung zu den neuesten Nvidia-Treibern hinzu (572.16)
 * Die einrasten Winkel sollten durch die Auswahl von Objekt/Welt-Raum beeinflusst werden.
-* [Liste der Textursatz] Benutzerdefinierten Namen zu UV-Kacheln hinzufügen und diese beim Exportieren verwenden
+* &lbrack;Textursatz list&rbrack; UV-Kacheln benutzerdefinierten Namen hinzufügen und beim Exportieren verwenden
 * Mac
-* [Mac] Verwenden von Metal anstelle von OpenGL für das Grafik-Rendering
-* [Mac] Mac Intel-Support entfernen
+* &lbrack;Mac&rbrack; Verwenden von Metal anstelle von OpenGL für das Grafik-Rendering
+* &lbrack;Mac&rbrack; Drop Mac Intel-Support
 
-<b>Fest</b>:
+**Fest**:
 
-* [Absturz] Bildeingabe löschen
+* &lbrack;Absturz&rbrack; Löschen der Bildeingabe
 * Smart-Matte kann nicht über Ebenenstapel-Taste hinzugefügt werden
-* [Python] Effekte auf GroupLayerNode können nicht gefunden werden
+* &lbrack;Python&rbrack; Effekte für GroupLayerNode können nicht gefunden werden
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [MacOS Intel] Absturz beim Importieren einiger Vorgaben
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
-* [RedHat] Probleme mit dem Farbwähler
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;MacOS Intel&rbrack; Absturz beim Importieren einiger Vorgaben
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
+* &lbrack;RedHat&rbrack; Probleme mit dem Farbwähler
 
 ## Version 10
 
 ### 10.1.2
 
-Freigabedatum: <b>2024/12/3</b>
-Zusammenfassung: <b>Nebenversion, Fehlerbehebungen</b>
+Veröffentlichungsdatum: **2024/12/3** Zusammenfassung: **Nebenversion, Fehlerbehebungen**
 
-<b>Fest</b>:
+**Fest**:
 
-* [Absturz] Bildeingabe löschen
+* &lbrack;Absturz&rbrack; Löschen der Bildeingabe
 * Smart-Matte kann nicht über Ebenenstapel-Taste hinzugefügt werden
-* [Python] Effekte auf GroupLayerNode können nicht gefunden werden
+* &lbrack;Python&rbrack; Effekte für GroupLayerNode können nicht gefunden werden
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [MacOS Intel] Absturz beim Importieren einiger Vorgaben
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
-* [RedHat] Probleme mit dem Farbwähler
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;MacOS Intel&rbrack; Absturz beim Importieren einiger Vorgaben
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
+* &lbrack;RedHat&rbrack; Probleme mit dem Farbwähler
 
 ### 10.1.1
 
-Freigabedatum: <b>2024/11/5</b>
-Zusammenfassung: <b>Nebenversion, Fehlerbehebungen</b>
+Veröffentlichungsdatum: **2024/11/5** Zusammenfassung: **Nebenversion, Fehlerbehebungen**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Projekt] Aktuelles Projekt bleibt geöffnet, bis die neue Projektauswahl validiert wurde
-* [Automatisches Entpacken] Texeldichte ermöglicht eine bessere Aufteilung von UV-Inseln in UDIM
-* [Baking] Mehrdeutige Kopie im Kontextmenü von Mesh-Map reparieren
-* [Verformen] Skalierung im Viewport für Z-Achse (Tiefe) entfernen
-* [Importieren/Exportieren] Unterstützung nicht verwendeter Bilddateiformate entfernen
+* &lbrack;Projekt&rbrack; Aktuelles Projekt geöffnet lassen, bis die Auswahl eines neuen Projekts überprüft wurde
+* &lbrack;Automatisches Entpacken&rbrack; Texeldichte ermöglicht eine bessere Aufteilung von UV-Inseln in UDIM
+* &blbrack;Baking&rbrack; Mehrdeutige Kopie im Kontextmenü von Mesh-Map reparieren
+* &lbrack;Verkrümmen&rbrack; Entfernen der Skalierung im Viewport für die Z-Achse (Tiefe)
+* &lbrack;Import/Export&rbrack; Unterstützung nicht verwendeter Bilddateiformate entfernen
 * Update Substance Engine auf 9.1.4
 
-<b>Fest</b>:
+**Fest**:
 
-* [Absturz] Nachdem eine Ressource in &quot;Elemente&quot; verlagert und das Projekt gespeichert wurde
-* [Absturz] Probleme mit der Serverbibliothek
-* [Absturz] Illustrator Server-Absturz in einigen seltenen Fällen
-* [Absturz] Beim Beenden der Anwendung in seltenen Fällen
+* &lbrack;Absturz&rbrack; Nachdem Sie Ressourcen in &quot;Elemente&quot; verlagert und das Projekt gespeichert haben
+* &lbrack;Absturz&rbrack; Probleme mit der Aiserver-Bibliothek
+* &lbrack;Absturz&rbrack; Illustrator Server-Absturz in einigen seltenen Fällen
+* &lbrack;Absturz&rbrack; Beim Beenden der Anwendung in seltenen Fällen
 * Absturz-Berichte können auf einigen Computern nicht gesendet werden
-* [Baking] Die Farbe des Scheitelpunkts wird nicht richtig gelesen
-* [UI] Position von Fenstern und Neue Funktionen beim Start wurde verschoben
-* [Assimp] Maya StandardSurface wird im ID-Baking nicht erkannt
-* [Python] Fehlende SSL-Bibliothek gibt einen Fehler aus
-* [Python]&#x200B;[Win] Fehler beim Aufrufen von QColorConstants.Transparent
-* [Python] Ebenen-Miniaturansichten, die über Python erstellt wurden, werden erst aktualisiert, wenn Sie in den Ebenenstapel klicken
-* [Shader] Fehlerhafte Verknüpfung im Shader-API-Changelog
-* [3D-Elemente] OS-Proxy-Einstellungen für den Zugriff auf 3D-Elemente verwenden
+* &blbrack;Baking&rbrack; Die Farbe des Scheitelpunkts ist nicht richtig gelesen
+* &lbrack;UI&rbrack; Position von Fenstern und Neuerungen beim Start wurde verschoben
+* &lbrack;Assimp&rbrack; Maya&#39;s StandardSurface wird im ID-Baking nicht erkannt
+* &lbrack;Python&rbrack; Fehlende SSL-Bibliothek gibt einen Fehler aus
+* &lbrack;Python&rbrack;&lbrack;Win&rbrack; Fehler beim Aufrufen von QColorConstants.Transparent
+* &lbrack;Python&rbrack; Über Python erstellte Ebenen-Miniaturansichten werden erst aktualisiert, wenn Sie in den Ebenenstapel klicken
+* &lbrack;Shader&rbrack; Fehlerhafte Verknüpfung im Shader-API-Changelog
+* &lbrack;3D Assets&rbrack; OS-Proxy-Einstellungen beim Zugriff auf 3D-Elemente verwenden
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [MacOS Intel] Absturz beim Importieren einiger Vorgaben
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Widget, das über ein noch funktionierendes Skript gelöscht scheint
-* [RedHat] Probleme mit dem Farbwähler
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;MacOS Intel&rbrack; Absturz beim Importieren einiger Vorgaben
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Widget, das über ein Skript gelöscht scheint, das noch funktioniert
+* &lbrack;RedHat&rbrack; Probleme mit dem Farbwähler
 
 ### 10.1.0
 
-Freigabedatum: <b>2024/09/17</b>
-Zusammenfassung: <b>Hauptversion, neuer Inhalt: Füllbereichsmaske/Farbfilter, Stickereiaufklebefilter und sechs generische Substance-Filter, USD mit Material- und Shader-Eigenschaften importieren, Leistungsverbesserung, VFX-Plattform 2024-kompatibel und Migration auf Linux RedHat</b>
+Freigabedatum: **2024/09/17** Zusammenfassung: **Hauptversion, neuer Inhalt: Füllbereichsmaske/Farbfilter, Stickereiaufklebefilter und sechs generische Substance-Filter, USD mit Material- und Shader-Eigenschaften importieren, Leistungsverbesserung, VFX-Plattform 2024-kompatibel und Migration auf Linux RedHat**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Inhalt] Neue Füllbereichsmaske/Farbfilter hinzufügen
-* [Inhalt] Neuen Stickerei Decal Filter hinzufügen
-* [Inhalt] Fügen Sie 6 neue generische Substance-Filter hinzu (FXAA, Vergröberungsfilter, Hochpass, Posterisierung, Glättungsschritt, Schwellenwert).
-* [USD] Exportieren USD Ebene mit einem definierten ASM-Material
-* [USD] Importieren von USD mit Material- und Shader-Eigenschaften
-* [Leistung] Aktivieren Sie standardmäßig optimierte Ebenenstapel-Miniaturansichten
-* [Leistung] Reduzieren der Öffnungszeit von Projektdateien und des Speicherverbrauchs (Datendecodierung)
+* &lbrack;Inhalt&rbrack; Neue Füllbereichsmaske/neuer Farbfilter hinzufügen
+* &lbrack;Inhalt&rbrack; Neuen Stickerei Aufkleber Filter hinzufügen
+* &lbrack;Inhalt&rbrack; Fügen Sie 6 neue generische Substance-Filter hinzu (FXAA, Vergröberungsfilter, Hochpass, Posterisierung, Glättungsschritt, Schwellenwert).
+* &lbrack;USD&rbrack; Exportieren USD Ebene mit einem definierten ASM-Material
+* &lbrack;USD&rbrack; USD mit Material- und Shader-Eigenschaften importieren
+* &lbrack;Performance&rbrack; Optimierte Ebenenstapel-Miniaturansichten standardmäßig aktivieren
+* &lbrack;Performance&rbrack; Reduzieren der Öffnungszeit von Projektdateien und des Speicherverbrauchs (Datendecodierung)
 * VFX-Plattform 2024-kompatibel
-* [VFX Platform 2024] Update auf Python 3.11
-* [VFX Platform 2024] Update auf OpenEXR 3.2
-* [VFX Platform 2024] [USD] Update OpenSubdiv 3.6.0
-* [VFX Platform 2024]&#x200B;[Farbmanagement] Update auf OCIO 2.3.2
-* [Linux] Migration zu Linux RedHat
-* [Linux] Aktualisieren Sie den Nvidia-Treiber auf Version 535.171.04
-* [Importieren] Hinzufügen einer Option zum Spiegeln von Normalen-Map beim Importieren eines GLTF-Meshs
-* [UI] Standardwert des Betriebssystems für die Entfernung der Erkennung von Ziehereignissen verwenden
-* [Substance Engine] Fügen Sie eine Aufrufstreifenfunktion hinzu, um die Symbole aus der ausführbaren Datei zu entfernen.
-* [Begrüßungsbildschirm] Update auf neues Begrüßungsbildschirmformat
+* &lbrack;VFX Platform 2024&rbrack; Update auf Python 3.11
+* &lbrack;VFX Platform 2024&rbrack; Update auf OpenEXR 3.2
+* &lbrack;VFX Platform 2024&rbrack; &lbrack;USD&rbrack; Update OpenSubdiv 3.6.0
+* &lbrack;VFX Platform 2024&rbrack;&lbrack;Farbmanagement&rbrack; Update auf OCIO 2.3.2
+* &lbrack;Linux&rbrack; Migration zu Linux RedHat
+* &lbrack;Linux&rbrack; Aktualisieren Sie die NVIDIA-Treibermindestversion auf 535.171.04
+* &lbrack;Import&rbrack; Hinzufügen einer Option zum Spiegeln von Normalen-Map beim Importieren eines GLTF-Meshs
+* &lbrack;UI&rbrack; Standardwert des Betriebssystems für die Entfernung der Erkennung von Ziehereignissen verwenden
+* &lbrack;Substance Engine&rbrack; Aufrufstreifenfunktion hinzufügen, um die Symbole aus der ausführbaren Datei zu entfernen
+* &lbrack;Startbildschirm&rbrack; Update auf neues Startbildschirmformat
 * Substance Engine auf Version 9.1.3 aktualisieren
-* [Python] Link zu Beispielen im Ebenenstapel-Dokumentationsmenü anzeigen
-* [JavaScript] Verschieben von JavaScript-Plugins in den Unterordner &quot;javascript/plugins&quot;
+* &lbrack;Python&rbrack; Link zu Beispielen im Ebenenstapel-Dokumentationsmenü anzeigen
+* &lbrack;JavaScript&rbrack; Javascript-Plug-ins in den Unterordner &quot;javascript/plugins&quot; verschieben
 
-<b>Fest</b>:
+**Fest**:
 
-* [Illustrator] Absturz beim Exportieren einer UV-Kachel mit .ai-Grafik in bestimmten Fällen
-* [Dynamische Pinselstriche]&#x200B;[Pfad] Zufällig pro Strich funktioniert nicht auf einem Pfad
-* [UI]&#x200B;[Eigenschaften] Sperre ist aktiviert, wenn die Kachelung nicht einheitlich ist
+* &lbrack;Illustrator&rbrack; Absturz beim Exportieren einer UV-Kachel mit .ai-Grafik in bestimmten Fällen
+* &lbrack;Dynamische Pinselstriche&rbrack;&lbrack;Pfad&rbrack; Zufällig pro Strich funktioniert nicht auf einem Pfad
+* &lbrack;UI&rbrack;&lbrack;Eigenschaften&rbrack; Sperre ist aktiviert, wenn die Kachelung nicht einheitlich ist
 * Debug TXT-Datei wird erstellt, wenn Sie auf ein Painter-Projekt doppelklicken
-* [USD]&#x200B;[Exportieren] Möglicherweise fehlen einige Texturen.
-* [ASM] Farbstreuung-Kanal ignoriert metallic
-* [Inhalt] Weichzeichnungsfilter funktioniert nicht im &quot;funktionierenden&quot; Farbraum
-* [Inhalt] Height Der Filter &quot;Anpassen&quot; ändert auch das Alpha der Ebene.
+* &lbrack;USD&rbrack;&lbrack;Export&rbrack; Möglicherweise fehlen einige Texturen
+* &lbrack;ASM&rbrack; Farbstreuung-Kanal ignoriert metallic
+* &lbrack;Inhalt&rbrack; Weichzeichnungsfilter funktioniert nicht im &quot;funktionierenden&quot; Farbraum
+* &lbrack;Inhalt&rbrack; Mit dem Filter &quot;Height anpassen&quot; wird auch das Alpha der Ebene geändert.
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Win]&#x200B;[Absturz] [ACE] Der sRGB-ICE-Farbraum für die Anzeige wird nicht transformieren.
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [MacOS Intel] Absturz beim Importieren einiger Vorgaben
-* [Absturz] Ressource Verlagert und Projekt gespeichert
-* [Engine] Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
-* [Python] Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
-* [RedHat] Probleme mit dem Farbwähler
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Win&rbrack;&lbrack;Absturz&rbrack; &lbrack;ACE&rbrack; Kein Verwenden des sRGB ICE-Farbraums für die Anzeige transformieren
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;MacOS Intel&rbrack; Absturz beim Importieren einiger Vorgaben
+* &lbrack;Absturz&rbrack; Ressource verlagern und Projekt speichern
+* &lbrack;Engine&rbrack; Malen mit dem Klon-Werkzeug in normalen Kanalverschiebungsfarben falsch
+* &lbrack;Python&rbrack; Phantom-Widget wird angezeigt, weil das Skript noch funktioniert
+* &lbrack;RedHat&rbrack; Probleme mit dem Farbwähler
 
 ### 10.0.1
 
-Freigabedatum: <b>2024/06/11</b>
-Zusammenfassung: <b>Nebenversion, Fehlerbehebungen</b>
+Freigabedatum: **2024/06/11** Zusammenfassung: **Nebenversion, Fehlerbehebungen**
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
-* [Library] Konvertieren von Substance-Schriftarten in normale Schriftdateien
-* [Illustrator]&#x200B;[SVG] Miniaturansichten in der Bereichsauswahl einen hellgrauen Hintergrund geben
-* [Python] Hinzufügen einer Funktion in der Bitmapquelle, um verfügbare Farbräume aufzulisten
+* &lbrack;Library&rbrack; Konvertieren von Substance-Schriftarten in normale Schriftdateien
+* &lbrack;Illustrator&rbrack;&lbrack;SVG&rbrack; Miniaturen in der Bereichsauswahl einen hellgrauen Hintergrund geben
+* &lbrack;Python&rbrack; Hinzufügen einer Funktion zur Bitmapquelle, um verfügbare Farbräume aufzulisten
 
-<b>Fest</b>:
+**Fest**:
 
-* [Ebenenstapel] Ordner immer geschlossen, wenn er in andere Ordner verschoben oder aus anderen Ordnern verschoben wird
-* [Speichern] Projektdatei geht verloren, wenn &quot;Speichern als Kopie&quot; oder automatisches Speichern in bestimmten Fällen fehlschlägt
-* [Importieren] Assets mit demselben Namen, aber unterschiedlichen Erweiterungen werden überschrieben
-* [Eigenschaften] Einstellungen fehlen, wenn Ankerpunkt in Bildeingaben verwendet wird
-* [Illustrator] Illustrator-Dateien können nach dem Server-Absturz nicht importiert werden, ohne Painter neu zu starten
-* [Python] Übergeordnete Instanz kann nicht mit Typ &quot;Eigenschaften&quot; festgelegt werden
-* [Python] Das Festlegen des hohen Poly als Baking führend Parameter lädt das hohe Poly nicht
-* [Python] Fehlermeldung für set\_color\_space() ist zu allgemein
-* [Python] Referenzquellen ermöglichen das Erstellen von Zyklen
+* &lbrack;Ebenenstapel&rbrack; Ordner immer geschlossen, wenn er in andere Ordner verschoben oder aus anderen Ordnern verschoben wird
+* &lbrack;Speichern&rbrack; Die Projektdatei geht verloren, wenn das &quot;Speichern als Kopie&quot; oder das automatische Speichern in bestimmten Fällen fehlschlägt
+* &lbrack;Import&rbrack; Assets mit demselben Namen, aber unterschiedlichen Erweiterungen werden überschrieben
+* &lbrack;Eigenschaften&rbrack; Einstellungen fehlen, wenn Ankerpunkt in Bildeingaben verwendet wird
+* &lbrack;Illustrator&rbrack; Illustrator-Dateien können nach dem Server-Absturz nicht importiert werden, ohne Painter neu zu starten
+* &lbrack;Python&rbrack; Übergeordnete Instanz kann nicht mit Typ &quot;Eigenschaften&quot; festgelegt werden
+* &lbrack;Python&rbrack; Das Festlegen des hohen Poly-Werts als Baking führend Parameter lädt das hohe Poly nicht
+* &lbrack;Python&rbrack; Fehlermeldung für set_color_space() ist zu allgemein
+* &lbrack;Python&rbrack; Mit Referenzquellen können Zyklen erstellt werden.
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [MacOS Intel] Absturz beim Importieren einiger Vorgaben
-* [Illustrator] Absturz beim Exportieren einer UV-Kachel mit .ai-Grafik in bestimmten Fällen
-* [Dynamische Pinselstriche]&#x200B;[Pfad] Zufällig pro Strich funktioniert nicht auf einem Pfad
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;MacOS Intel&rbrack; Absturz beim Importieren einiger Vorgaben
+* &lbrack;Illustrator&rbrack; Absturz beim Exportieren einer UV-Kachel mit .ai-Grafik in bestimmten Fällen
+* &lbrack;Dynamische Pinselstriche&rbrack;&lbrack;Pfad&rbrack; Zufällig pro Strich funktioniert nicht auf einem Pfad
 
 ### 10.0.0
 
-Freigabedatum: <b>2024/05/16</b>
-Zusammenfassung: <b>Hauptversion, Edition des Ebenenstapels mit Python-API, Lesen nativer Illustrator-Dateien, Integration von 3D-Assets und neuer Textressource</b>
+Freigabedatum: **2024/05/16** Zusammenfassung: **Hauptversion, Edition des Ebenenstapels mit Python-API, Lesen nativer Illustrator-Dateien, Integration von 3D-Assets und neuer Textressource**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Illustrator] Verwenden von Illustrator-Dateien mit Zeichenflächen in Painter
-* [Illustrator]&#x200B;[SVG] Hinzufügen von Vorschauen in der Bereichsauswahl
-* [Substance 3D Assets] Durchsuchen, Auswählen und Herunterladen von 3D-Assets direkt in Painter
-* [Substance 3D Assets]&#x200B;[UI] Neues Bedienfeld
-* [Substance 3D Assets] Unterstützung für Umgebungs-Map und Materials
-* [Substance 3D Assets] Ermöglicht das erneute Laden und Navigieren im Speicherortordner und das Öffnen im neuen Bedienfeld &quot;Substance 3D Assets&quot;.
-* [Substance 3D Assets] Hinzufügen eines Download-Managers
-* [Textressource] Einbettbare Schriftarten verwenden
-* [Textressource] Erlaubt das Rendern einer Schriftart/eines Texts auf einem Mesh.
-* [Textressource] Anzeigen von Schriftarten von Benutzer- und anderen freigegebenen Pfaden im Bedienfeld &quot;Elemente&quot; mit einer neuen Kategorie
-* [Textressource]&#x200B;[Eigenschaften] Unterstützung für erweiterte Schriftarteigenschaften hinzufügen
-* [Textressource] Ermöglicht das Suchen/Anzeigen von Schriftarten in Mini-Regalen
-* [Textressource] Fehlermeldung/Dialogfeld hinzufügen, wenn eine inkompatible Schriftart importiert wird
+* &lbrack;Illustrator&rbrack; Verwenden von Illustrator-Dateien mit Zeichenflächen in Painter
+* &lbrack;Illustrator&rbrack;&lbrack;SVG&rbrack; Vorschauen in der Bereichsauswahl hinzufügen
+* &lbrack;Substance 3D Assets&rbrack; Durchsuchen, Auswählen und Herunterladen von 3D-Elementen direkt in Painter
+* &lbrack;Substance 3D Assets&rbrack;&lbrack;UI&rbrack; Neues Bedienfeld
+* &lbrack;Substance 3D Assets&rbrack; Unterstützung für Umgebungs-Map und Materials
+* &lbrack;Substance 3D Assets&rbrack; Ermöglicht das erneute Laden und Navigieren im und Öffnen des Speicherortordners in einem neuen Substance 3D Assets-Bedienfeld
+* &lbrack;Substance 3D Assets&rbrack; Hinzufügen eines Download-Managers
+* &lbrack;Textressource&rbrack; Einbettbare Schriften verwenden
+* &lbrack;Textressource&rbrack; Rendern einer Schrift/eines Textes auf einem Mesh zulassen
+* &lbrack;Textressource&rbrack; Schriften von Benutzern und anderen freigegebenen Pfaden im Bedienfeld &quot;Elemente&quot; mit einer neuen Kategorie anzeigen
+* &lbrack;Textressource&rbrack;&lbrack;Eigenschaften&rbrack; Unterstützung für erweiterte Schrifteigenschaften hinzufügen
+* &lbrack;Textressource&rbrack; Suchen/Anzeigen von Schriftarten in Mini-Regalen zulassen
+* &lbrack;Textressource&rbrack; Fehlermeldung/Dialogfeld beim Importieren einer inkompatiblen Schrift hinzufügen
 * Sonstiges
-* [Projektion füllen] Verbessern Sie das Verhalten des Manipulators Skalierung bei Verwendung kleiner Werte
-* [Manipulator] Hinzufügen eines neuen präzisen Modus beim Drücken von STRG-Tastaturbefehl
-* [Manipulator] Verbessern der Stabilität des Manipulators auf der Oberfläche beim Kamera beweg
-* [Exportieren] Hinzufügen eines Farbraumnamens in SBSAR-Ausgaben
-* [Performance] Verbessern der Erkennungszeit von Elementen auf der Festplatte in Bibliotheken
-* [Substance] Update auf Substance Engine Version 9.1.2
-* [Drag &amp; Drop] Ausrichten der Aufkleberdrehung an der Kamera beim Ablegen im Viewport
-* [Python] Edition des Ebenenstapels
-* [Python] Auswahl von Ebene, Effekt, Maske und Geomaske in der Benutzeroberfläche zulassen
-* [Python] Abrufen/Festlegen von Mischmodi für Ebenen
-* [Python] Einstellungen für die Füllebene-Projektion abrufen/festlegen
-* [Python] Abfrage der Substance-Material-Farbe aus einer Füllebene zulassen
-* [Python] Abfragen und Festlegen von einheitliche Farben und Ressourcen in Ebenen und Effekten zulassen
-* [Python] Erstellen und Bearbeiten von Textressourcen im Ebenenstapel zulassen
-* [Python] Bearbeiten aktiver Kanäle für Ebenen und Effekte zulassen
-* [Python] Batch-Aktionen können nur einmal rückgängig gemacht/wiederholt werden.
-* [Python] Laden/Bearbeiten von vektoriellen Quellparametern zulassen
-* [Python] Bearbeiten von Ebenen- und Effektfarbeneigenschaften mit Farbmanagement zulassen
-* [Python] Abfragen und Erstellen instanzierter Ebenen zulassen
-* [Python] Hinzufügen des Effekts &quot;Farbauswahl&quot; zulassen
-* [Python] Steuern des Farbmanagements für Bitmapbilder
-* [Python] Engine anhalten/fortsetzen
-* [Python] Navigation zu gleichrangigen und übergeordneten Knoten zulassen
-* [Python] Erstellen eines Filter-/Generatoreffekts zulassen
-* [Python] Hinzufügen des Ebeneneffekts zulassen
-* [Python] Hinzufügen von intelligente Maske zu einer Ebene zulassen
-* [Python] Erstellen/Bearbeiten von Ankerpunkten zulassen
-* [Python] Maske für Ebenen abrufen/festlegen
-* [Python] Erstellen des Effekts &quot;Maske vergleichen&quot; zulassen
-* [Python] Zulassen, dass Vorgaben aus Substance-Ressourcen abgefragt und verwendet werden
-* [Python] Erlaubt das Auflisten von Vorgaben und ihren Werten über die interne \_properties-Funktion für Substance-Ressourcen.
-* [Python] Liste vordefinierter Exportvorgaben zulassen
-* [Python] Auflisten der in der Bibliothek verfügbaren Exportvorgaben
-* [Python] Abrufen des Inhalts von Exportvorgaben zulassen
+* &Klammer;Projektion&amp;Klammer füllen; Verbessern des Verhaltens von Skalierungs-Manipulatoren bei Verwendung kleiner Werte
+* &lbrack;Manipulator&rbrack; Hinzufügen eines neuen präzisen Modus beim Drücken von STRG-Tastaturbefehl
+* &lbrack;Manipulator&rbrack; Verbessern der Stabilität des Manipulators auf der Oberfläche beim Kamera beweg
+* &lbrack;Export&rbrack; Hinzufügen eines Farbraumnamens in SBSAR-Ausgaben
+* &lbrack;Performance&rbrack; Verbessern der Erkennungszeit von Elementen auf der Festplatte in der Bibliothek
+* &lbrack;Substance&rbrack; Update auf Substance Engine Version 9.1.2
+* &lbrack;Drag &amp; Drop&rbrack; Ausrichtung der Aufkleberdrehung an der Kamera beim Ablegen im Viewport
+* &lbrack;Python&rbrack; Edition des Ebenenstapels
+* &lbrack;Python&rbrack; Auswahl von Ebene, Effekt, Maske und Geomaske in der Benutzeroberfläche zulassen
+* &lbrack;Python&rbrack; Ebenen-Mischmodi abrufen/festlegen
+* &lbrack;Python&rbrack; Einstellungen für die Projektion der Füllebene abrufen/festlegen
+* &lbrack;Python&rbrack; Abfragen der Substance-Material-Farbe aus einer Füllebene zulassen
+* &lbrack;Python&rbrack; Abfragen und Festlegen von einheitliche Farben und Ressourcen in Ebenen und Effekten zulassen
+* &lbrack;Python&rbrack; Erstellen und Bearbeiten von Textressourcen im Ebenenstapel zulassen
+* &lbrack;Python&rbrack; Bearbeiten aktiver Kanäle für Ebenen und Effekte zulassen
+* &lbrack;Python&rbrack; Stapelverarbeitung von Aktionen zum Rückgängigmachen/Wiederholen einzelner Vorgänge
+* &lbrack;Python&rbrack; Laden/Bearbeiten von vektoriellen Quellparametern zulassen
+* &lbrack;Python&rbrack; Bearbeitung von Farbegenschaften für Ebenen und Effekte mit Farbmanagement zulassen
+* &lbrack;Python&rbrack; Abfragen und Erstellen von instanzierten Ebenen zulassen
+* &lbrack;Python&rbrack; Hinzufügen des Effekts &quot;Farbauswahl&quot; zulassen
+* &lbrack;Python&rbrack; Steuerung des Farbmanagements für Bitmapbilder zulassen
+* &lbrack;Python&rbrack; Engine anhalten/fortsetzen
+* &lbrack;Python&rbrack; Navigation zu gleichrangigen und übergeordneten Knoten zulassen
+* &lbrack;Python&rbrack; Erstellen eines Filter-/Generatoreffekts zulassen
+* &lbrack;Python&rbrack; Hinzufügen eines Ebeneneffekts zulassen
+* &lbrack;Python&rbrack; Hinzufügen von intelligente Maske zu einer Ebene zulassen
+* &lbrack;Python&rbrack; Erstellen/Bearbeiten von Ankerpunkten zulassen
+* &lbrack;Python&rbrack; Maske auf Ebenen abrufen/festlegen
+* &lbrack;Python&rbrack; Erstellen des Effekts &quot;Maske vergleichen&quot; zulassen
+* &lbrack;Python&rbrack; Abfragen und Verwenden von Vorgaben aus Substance-Ressourcen zulassen
+* &lbrack;Python&rbrack; Zulassen, dass Vorgaben und ihre Werte über die Funktion internal_properties für Substance-Ressourcen aufgelistet werden
+* &lbrack;Python&rbrack; Auflisten vordefinierter Exportvorgaben zulassen
+* &lbrack;Python&rbrack; Erlaubt das Auflisten der in der Bibliothek verfügbaren Exportvorgaben
+* &lbrack;Python&rbrack; Abrufen des Inhalts von Exportvorgaben zulassen
 
-<b>Fest</b>:
+**Fest**:
 
-* [Absturz] Rückgängigmachen von &quot;Shader-Instanz entfernen&quot; mit Strg+Z
-* [Absturz] Erstellen einer Ebene auf leerem Stapel, wenn die letzte Auswahl ein Effekt war
-* [SVG] Problem mit benutzerdefiniertem Wert für den zugeschnittenen Bereich
-* [Automatisches Entpacken] Die Neuberechnung nur des Packings ohne Änderung der Ausrichtung der UV führt zu einem Absturz
-* [Drag &amp; Drop] Verzögerung aufgrund externer Ressourcen wird mehrmals vorgeladen
-* [UI] Miniaturansicht der Ressource per Drag &amp; Drop kann Warnmeldung im Ebenenstapel ausblenden
-* [Performance] Maskierte UV-Kacheln werden noch berechnet
-* [USD] Falsche Markierung für die Bereichsauswahl
-* [Ressource] Bitmapbild wird beschädigt, nachdem im normalen Kanal gemalt und das Projekt gespeichert wurde
-* [USD] Unterstützung für die Bestellung von Meshs für den linkshändigen Scheitelpunkt
-* [Substance] Auf die Standardeinstellung zurücksetzen, um immer auf null für Winkel-Widget zurückzusetzen
-* [Engine] Das Malen mit einem SVG in einer Schablone funktioniert nicht
-* [Engine] Normalen-Map-Pinselstriche brechen nach einem Rückgängigmachen
-* [Inhalt] Grafik zu Materialfilter hat falsche Alpha-Überblendung und falschen Farbraum
-* [Inhalt] Füllmethoden auf dem Tile Generator funktionieren nicht
-* [Inhalt] Histogramm-Scanfilter erzeugt in einigen Fällen Streifenbildung
-* [Inhalt] Baking geführt stilisierte Beleuchtung berücksichtigt kein gemaltes Height
-* [Python] Unerwarteter Fehler beim Abrufen instanzierter Ebeneninformationen nach Shader-Änderung
-* [Speichern] Projektdatei geht verloren, wenn &quot;Speichern unter&quot; in bestimmten Fällen fehlschlägt
+* &lbrack;Absturz&rbrack; &quot;Shader-Instanz entfernen&quot; mit Strg+Z rückgängig machen
+* &lbrack;Absturz&rbrack; Erstellen einer Ebene auf leerem Stapel, wenn die letzte Auswahl ein Effekt war
+* &lbrack;SVG&rbrack; Problem mit benutzerdefiniertem Wert für den zugeschnittenen Bereich
+* &lbrack;Automatisches Entpacken&rbrack; Die Neuberechnung nur des Packings ohne Änderung der UV-Ausrichtung führt zu Absturz
+* &blbrack;Drag &amp; Drop&rbrack; Verzögerung aufgrund externer Ressourcen wird mehrmals vorgeladen
+* &lbrack;UI&rbrack; Durch Ziehen und Ablegen der Ressourcen-Miniaturansicht kann eine Warnmeldung im Ebenenstapel ausgeblendet werden
+* &lbrack;Performance&rbrack; Maskierte UV-Kacheln werden noch berechnet
+* &lbrack;USD&rbrack; Falsche Markierung für die Bereichsauswahl
+* &lbrack;Ressource&rbrack; Bitmapbild wird beschädigt, nachdem im normalen Kanal gemalt und das Projekt gespeichert wurde
+* &lbrack;USD&rbrack; Unterstützung der Bestellung von Meshs für linkshändige Scheitelpunkt
+* &lbrack;Substance&rbrack; Auf die Standardeinstellung zurücksetzen, für Winkel-Widget immer wieder auf null zurücksetzen
+* &lbrack;Engine&rbrack; Das Malen mit einem SVG in einer Schablone funktioniert nicht
+* &lbrack;Engine&rbrack; Normalen-Map-Pinselstriche brechen nach einem Rückgängigmachen ab
+* &lbrack;Inhalt&rbrack; &quot;Grafik zu Materialfilter&quot; hat falsche Alpha-Überblendung und falschen Farbraum
+* &lbrack;Inhalt&rbrack; Füllmethoden auf dem Tile Generator funktionieren nicht
+* &lbrack;Inhalt&rbrack; Histogramm-Scanfilter erzeugt in einigen Fällen Streifenbildung
+* &lbrack;Inhalt&rbrack; Baking geführt Beleuchtungsstil berücksichtigt kein gemaltes Height
+* &lbrack;Python&rbrack; Unerwarteter Fehler beim Abrufen der instanzierten Ebeneninformationen nach dem Shader-Wechsel
+* &lbrack;Speichern&rbrack; Projektdatei geht verloren, wenn &quot;Speichern unter&quot; in bestimmten Fällen fehlschlägt
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Absturz]&#x200B;[Linux]&#x200B;[AMD] Ziehen und Ablegen von Ressourcen im Ebenenstapel unter Wayland OS
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
-* [Speichern] Spp-Projektdatei geht verloren, wenn &quot;Als Kopie speichern&quot; in bestimmten Fällen fehlschlägt
-* [MacOS Intel] Absturz beim Importieren einiger Vorgaben
-* [Illustrator] Ai-Dateien können nach dem Server-Absturz nicht importiert werden, ohne Painter neu zu starten
-* [Importieren] Assets mit demselben Namen, aber unterschiedlichen Erweiterungen werden überschrieben
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Absturz&rbrack;&lbrack;Linux&rbrack;&lbrack;AMD&rbrack; Ziehen und Ablegen von Ressourcen in Ebenenstapel unter Mac OS
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
+* &lbrack;Speichern&rbrack; Die SPP-Projektdatei geht verloren, wenn &quot;Als Kopie speichern&quot; in bestimmten Fällen fehlschlägt
+* &lbrack;MacOS Intel&rbrack; Absturz beim Importieren einiger Vorgaben
+* &lbrack;Illustrator&rbrack; Ai-Dateien können nach dem Server-Absturz nicht importiert werden, ohne Painter neu zu starten
+* &lbrack;Import&rbrack; Assets mit demselben Namen, aber unterschiedlichen Erweiterungen werden überschrieben
 
 ## Version 9
 
 ### 9.1.2
 
-Freigabedatum: <b>2024/01/30</b>
-Zusammenfassung: <b>Nebenversion, Fehlerbehebungen</b>
+Veröffentlichungsdatum: **2024/01/30** Zusammenfassung: **Nebenversion, Fehlerbehebungen**
 
-<b>Hinzugefügt</b>:
+**Hinzugefügt**:
 
-* [Performance] Verbessern der Erstellungszeit der ersten Füllebene in neuen Projekten
-* [Performance] Verkürzung der Ladezeit schwerer Umgebungs-Map
-* [Substance] Speichern/Schließen von Projekten zulassen, selbst wenn Miniaturansichten generiert werden
+* &lbrack;Performance&rbrack; Verkürzung der Erstellungszeit für erste Füllebenen in neuen Projekten
+* &lbrack;Performance&rbrack; Verkürzung der Ladezeit bei großen Umgebungs-Map
+* &lbrack;Substance&rbrack; Speichern/Schließen von Projekten zulassen, selbst wenn Miniaturansichten generiert werden
 
-<b>Fest</b>:
+**Fest**:
 
 * Speichern schlägt in Projekten früherer Versionen fehl, wenn der Viewport geändert wird
-* [Absturz] Mesh wird bei Verwendung von benutzerdefiniertem AO und Farbmanagement erneut importiert
-* [Projektion füllen] Beim Klicken auf den Manipulator &quot;Skalieren&quot; wird die Meldung &quot;nicht bemalbar&quot; angezeigt.
-* [Pinsel] Malen mit UV-Ausrichtung verursacht Artefakte
-* [Ebenenstapel] Das Umbenennen der Ebene ist langsam, wenn der Stapel sehr lang ist
-* [Ebenenstapel] Falsche Fehlermeldung bei Verwendung eines inkompatiblen Filters in der Maske
-* [Ebenenstapel] Die Auswahl wechselt nach dem Löschen zurück zur obersten Ebene
-* [Exportieren] Generierte normale Textur befindet sich immer im 3D-Raum-Nachbar-Auffüllmodus
-* [Exportieren] Alpha der Textur wird nicht mit der Exportvorgabe der 2D-Ansicht generiert
-* [Export] Beim SBSAR-Export werden falsche Verwendungsmöglichkeiten mit konvertierten Karten verwendet.
-* [Shader] Shader-API Changelog ist nicht auf dem neuesten Stand bei ASM
+* &lbrack;Absturz&rbrack; Mesh bei Verwendung von benutzerdefiniertem AO und Farbmanagement erneut importieren
+* &Klammer;Projektion&amp;Klammer füllen; Durch Klicken auf den Manipulator &quot;Skalieren&quot; wird die Meldung &quot;nicht bemalbar&quot; angezeigt.
+* &Klammer;Pinsel&Klammer; Malen mit UV-Ausrichtung verursacht Artefakte
+* &lbrack;Ebenenstapel&rbrack; Das Umbenennen der Ebene ist langsam, wenn der Stapel sehr lang ist
+* &lbrack;Ebenenstapel&rbrack; Falsche Fehlermeldung bei Verwendung eines inkompatiblen Filters in der Maske
+* &lbrack;Ebenenstapel&rbrack; Die Auswahl wechselt nach dem Löschen wieder zur obersten Ebene
+* &lbrack;Export&rbrack; Generierte normale Textur befindet sich immer im 3D-Raum-Nachbar-Auffüllmodus
+* &lbrack;Export&rbrack; Textur Alpha wird nicht mit der Exportvorgabe 2D-Ansicht generiert
+* &lbrack;Export&rbrack; SBSAR-Export hat falsche Verwendungen mit konvertierten Karten
+* &lbrack;Shader&rbrack; Shader-API Changelog ist nicht auf dem neuesten Stand bei ASM
 
-<b>Bekannte Probleme</b>:
+**Bekannte Probleme**:
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Absturz]&#x200B;[Linux]&#x200B;[AMD] Ziehen und Ablegen von Ressourcen im Ebenenstapel unter Wayland OS
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirmen ist zu klein
-* [Absturz]&#x200B;[Python] USD durch TextureStateEvent ausgelöst
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Absturz&rbrack;&lbrack;Linux&rbrack;&lbrack;AMD&rbrack; Ziehen und Ablegen von Ressourcen in Ebenenstapel unter Mac OS
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf HD-Bildschirmen zu klein
+* &lbrack;Absturz&rbrack;&lbrack;Python&rbrack; USD Export ausgelöst durch TextureStateEvent
 
 ### 9.1.1
 
-Freigabedatum: <b>2023/12/05</b>
-Zusammenfassung: <b>Nebenversion, Fehlerbehebungen und Senden an After Effects-Funktionen</b>
+Veröffentlichungsdatum: **2023/12/05** Zusammenfassung: **Nebenversion, Fehlerbehebungen und Senden an After Effects-Funktionen**
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
-* [Interop] Senden eines strukturierten Meshs an After Effects zulassen (Ae 24.1)
+* &lbrack;Interop&rbrack; Senden eines strukturierten Meshs an After Effects zulassen (Ae 24.1)
 
-<b>Fest:</b>
+**Fest:**
 
-* [Fill] UV-Satz-zu-UV-Satz-Projektion liest nicht mehr als 2 UV-Satz
-* [Absturz] Verwenden von 16.000 Umgebungs-Map
-* [Absturz] Exr als Bildeingabe verwendet
-* [Absturz] Kopieren und Einfügen von Pfaden über Projekte hinweg
-* [QoL] Ziehen und Ablegen von Alpha-Ressourcen im Aufklebermodus erzeugt UV-Projektion in der Maske
-* [Pfad] Beim Kopieren von Pfad-Scheitelpunkten wird auch der Zielpfad beim erneuten Öffnen des Projekts umbenannt.
-* [Linux] Die Farbauswahl kann mit mehreren Bildschirmen unterbrochen werden
-* [Automatisch Entpackt] UI-Problem für Texeldichtesteuerung
-* [Farbmanagement] UI-Feedback ist sinnvoll, aber Engine ist nicht
-* [Farbmanagement] Falsche Farbraumauswahl in der Maske mit Überschreibung von Benutzerdaten
+* &lbrack;Füllen&rbrack; Projektion UV-Satz zu UV-Satz liest nicht mehr als 2 UV-Satz
+* &lbrack;Absturz&rbrack; 16.000 Umgebungs-Map
+* &lbrack;Absturz&rbrack; Exr als Bildeingabe verwendet
+* &lbrack;Absturz&rbrack; Kopieren und Einfügen von Pfaden in andere Projekte
+* &lbrack;QoL&rbrack; Ziehen und Ablegen der Alpha-Ressource im Aufklebermodus erstellt UV-Projektion in der Maske
+* &lbrack;Pfad&rbrack; Durch Kopieren von Pfad-Scheitelpunkten wird auch der Zielpfad beim erneuten Öffnen des Projekts umbenannt.
+* &lbrack;Linux&rbrack; Die Farbauswahl kann mit mehreren Bildschirmen unterbrochen werden
+* &lbrack;Automatisch Entpackt&rbrack; UI-Problem für die Texeldichtesteuerung
+* &lbrack;Farbmanagement&rbrack; UI-Feedback ist sinnvoll, aber Engine ist nicht
+* &lbrack;Farbmanagement&rbrack; Falsche Farbraumauswahl in der Maske mit Überschreibung der Benutzerdaten
 
-<b>Bekannte Probleme:</b>
+**Bekannte Probleme:**
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Absturz]&#x200B;[Linux] mit Linux Wayland auf AMD beim Ziehen und Ablegen von Ressourcen im Ebenenstapel
-* [Absturz]&#x200B;[Mac] Ändern des Werts für anisotrope Filterungen unter Monterey OS
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirm ist zu klein
-* [Python] Absturz exportieren USD ausgelöst durch TextureStateEvent
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Absturz&rbrack;&lbrack;Linux&rbrack; mit Linux Wayland auf AMD, wenn Ressourcen per Drag &amp; Drop in den Ebenenstapel gezogen werden
+* &lbrack;Absturz&rbrack;&lbrack;Mac&rbrack; Anisotropische Filterung ändern unter Monterey OS
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf dem HD-Bildschirm zu klein
+* &lbrack;Python&rbrack; Absturz beim Exportieren von USD, die durch TextureStateEvent ausgelöst werden
 
 ### 9.1.0
 
-Freigabedatum: <b>2023.11.07</b>
-Zusammenfassung: <b>Hauptversion mit SVG- und Transparenzunterstützung sowie Verbesserungen an Drag-and-Drop- und Pfad-Tools</b>
+Freigabedatum: **2023/11/07** Zusammenfassung: **Hauptversion mit SVG- und Transparenzunterstützung sowie Verbesserungen an Drag-and-Drop- und Pfad-Tools**
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
-* [SVG] Importieren von Vektordateien zulassen (SVG)
-* [SVG]&#x200B;[UI] Unterstützung für SVG-spezifische Eigenschaften hinzufügen
-* [SVG] Fügen Sie eine Option hinzu, um die ursprünglichen Bildproportionen einfach beizubehalten
-* [SVG] Automatisches Verwenden von Alpha von SVG mit Transparenz zulassen
-* [Interop] Senden eines strukturierten Meshs an After Effects zulassen (Ae 24.1 Beta)
-* [Interop] Hinzufügen von Einstellungen für &quot;An After Effects senden&quot;
-* [QoL]&#x200B;[Assets]&#x200B;[UI] Automatisches Importieren von Assets beim Ziehen und Ablegen in einen Steckplatz der Benutzeroberfläche
-* [QoL] Zulassen, dass externe Elemente per Drag &amp; Drop in den Ebenenstapel gezogen werden
-* [QoL]&#x200B;[Ebenenstapel] Ziehen Sie Texturen aus dem Bedienfeld &quot;Elemente&quot; in den Ebenenstapel
-* [QoL]&#x200B;[Viewport] Generatorfilter auf dem Mesh ziehen und ablegen lassen
-* [QoL]&#x200B;[Viewport] Zulassen, dass externe Elemente auf den Mesh abgelegt werden.
-* [QoL]&#x200B;[Projektion] Hinzufügen eines neuen UV-Satzes zum UV-Satz-Projektion-Modus
-* [QoL] Ziehen und Ablegen von Intelligente Masken als neue Ebenen in Viewport und Ebenenstapel
-* [QoL] Hinzufügen eines Selektors für Generatoren mit mehreren Ausgaben, wenn er in der Maske verwendet wird
-* [QoL] Ziehen und Ablegen von Ein Kanal-Bildern über einen Fülleffekt zulassen
-* [QoL]&#x200B;[Ebenenstapel] Verwenden Sie STRG/ALT-Modifizierer mit Drag &amp; Drop, um anzugeben, wo/wie Effekte/Ebenen erstellt werden sollen
-* [Pfad] Umschalten der Pfadsichtbarkeit einzeln im Pfadbedienfeld
-* [Path] Verwenden von Transformations-Manipulatoren für Pfadpunkte zulassen
-* [Path] Tangenten pro Scheitelpunkt manuell steuern
-* [Pfad] Kopieren/Einfügen von Pfadeigenschaften
-* [Pfad] Schaltfläche &quot;Leerer Tastaturbefehl für Pausen-Tangente einführen&quot;
-* [Shader] Unterstützung für Deckkraft und Translucency in ASM-Shader hinzufügen
-* [Shader] Unterstützung für Absorptionsfarbe Channel mit ASM Shader hinzufügen
-* [Shader] ASM-Shader-Parameter verbessern - QuickInfos
-* [Shader] Ändern der Standardfarbe des Translucency-Kanals in Schwarz
-* [Anzeigeeinstellungen] Temporale Anti-Aliasing standardmäßig aktivieren
-* [Anzeigeeinstellungen] Aktivieren Sie standardmäßig die Einstellung für die Teilflächenstreuung.
-* [Substance] Hinzufügen von Unterstützung für die ColorSpace-Eigenschaft von der Eingabe/Ausgabe des Grafen
-* [Substance] Substance-Engine auf Version 9.0.3 aktualisieren
-* [UI] Zugriff auf die Schaltfläche der kontextbezogenen Symbolleiste, auch wenn das App-Fenster klein ist
-* [Automatisch Entpackt] Steuernummer für UV-Kacheln mit Texeldichte
-* [Baking] Deaktivieren von GPU-Raytracing auf AMD-GPUs standardmäßig
-* [Leistung] Anwendung der verlustfreien Komprimierung auf 16-Bit-Bilder, um den Projektbedarf zu reduzieren
-* [Python] Bearbeiten der standardmäßigen Kamera in der 3D-Ansicht zulassen
-* [Python] Möglichkeit zum Exportieren von Mesh über Skripterstellung Gelegt
-* [Inhalt]&#x200B;[Beispiele] Neues Beispielprojekt hinzufügen &quot;Französische Restauranttabelle&quot;
-* [Inhalt] Aktualisieren des Alpha-Substance-Logos auf die neue Version
-* [Inhalt] Fügen Sie drei Material-Filter mit SVG hinzu (Benutzerdefinierter Aufkleber, Benutzerdefiniertes Sprühen und Grafik zu Material).
+* &lbrack;SVG&rbrack; Importieren von Vektordateien zulassen (SVG)
+* &lbrack;SVG&rbrack;&lbrack;UI&rbrack; Unterstützung für SVG-spezifische Eigenschaften hinzufügen
+* &lbrack;SVG&rbrack; Mit dieser Option werden die Proportionen des Originalbilds beibehalten.
+* &lbrack;SVG&rbrack; Automatisches Verwenden von Alpha von SVG mit Transparenz zulassen
+* &lbrack;Interop&rbrack; Senden eines strukturierten Meshs an After Effects zulassen (Ae 24.1 Beta)
+* &lbrack;Interop&rbrack; Hinzufügen von Einstellungen für &quot;An After Effects senden&quot;
+* &lbrack;QoL&rbrack;&lbrack;Assets&rbrack;&lbrack;UI&rbrack; Element automatisch importieren, wenn es per Drag &amp; Drop in einen Benutzeroberflächensteckplatz gezogen wird
+* &lbrack;QoL&rbrack; Zulassen, dass externe Elemente in den Ebenenstapel gezogen und dort abgelegt werden
+* &lbrack;QoL&rbrack;&lbrack;Ebenenstapel&rbrack; Ziehen Sie Texturen per Drag &amp; Drop aus dem Bedienfeld &quot;Elemente&quot; in den Ebenenstapel
+* &lbrack;QoL&rbrack;&lbrack;Viewport&rbrack; Generator ziehen und ablegen, Filter auf dem Mesh zulassen
+* &lbrack;QoL&rbrack;&lbrack;Viewport&rbrack; Zulassen, dass externe Elemente auf den Mesh gezogen werden
+* &lbrack;QoL&rbrack;&lbrack;Projektion&rbrack; Neuen UV-Satz zum UV-Satz-Projektion hinzufügen
+* &lbrack;QoL&rbrack; Intelligente Masken in Viewport und Ebenenstapel als neue Ebenen ziehen und ablegen
+* &lbrack;QoL&rbrack; Selektor für Generatoren mit mehreren Ausgaben hinzufügen, wenn er in der Maske verwendet wird
+* &lbrack;QoL&rbrack; Ziehen und Ablegen von Ein Kanal-Bildern über einen Fülleffekt zulassen
+* &lbrack;QoL&rbrack;&lbrack;Ebenenstapel&rbrack; Verwenden Sie STRG/ALT-Modifizierer mit Drag &amp; Drop, um anzugeben, wo/wie Effekte/Ebenen erstellt werden sollen
+* &lbrack;Pfad&rbrack; Sichtbarkeit einzelner Pfade im Pfadbedienfeld ein-/ausschalten
+* &lbrack;Pfad&rbrack; Verwenden von Transformations-Manipulatoren für Pfadpunkte zulassen
+* &lbrack;Pfad&rbrack; Manuelles Steuern der Tangenten pro Scheitelpunkt zulassen
+* &lbrack;Pfad&rbrack; Kopieren/Einfügen von Pfadeigenschaften
+* &lbrack;Pfad&rbrack; Leerer Tastaturbefehl für die Tangente der Unterbrechung
+* &lbrack;Shader&rbrack; Unterstützung für Deckkraft und Translucency in ASM Shader hinzufügen
+* &lbrack;Shader&rbrack; Unterstützung für Absorptionsfarbe Channel mit ASM Shader hinzufügen
+* &lbrack;Shader&rbrack; QuickInfos zu ASM-Shader-Parametern verbessern
+* &lbrack;Shader&rbrack; Standardfarbe des Translucency-Kanals in Schwarz ändern
+* &lbrack;Anzeigeeinstellungen&rbrack; Temporale Anti-Aliasing standardmäßig aktivieren
+* &lbrack;Anzeigeeinstellungen&rbrack; Standardeinstellung für die Teilflächenstreuung aktivieren
+* &lbrack;Substance&rbrack; Hinzufügen von Unterstützung für die ColorSpace-Eigenschaft von der Eingabe/Ausgabe durch den Graf
+* &lbrack;Substance&rbrack; Substance Engine auf Version 9.0.3 aktualisieren
+* &lbrack;UI&rbrack; Kontextabhängige Symbolleistenschaltfläche barrierefrei machen, selbst wenn das App-Fenster klein ist
+* &lbrack;Automatisch Entpackt&rbrack; Steuert die Anzahl der UV-Kacheln mit der Texeldichte
+* &blbrack;Baking&rbrack; GPU-Raytracing auf AMD-GPUs standardmäßig deaktivieren
+* &lbrack;Performance&rbrack; Verlustfreie Komprimierung auf 16-Bit-Bilder anwenden, um den Projektbedarf zu verringern
+* &lbrack;Python&rbrack; Ändern der standardmäßigen Kamera in der 3D-Ansicht zulassen
+* &lbrack;Python&rbrack; Gelegt Möglichkeit, Mesh über Skripterstellung zu exportieren
+* &lbrack;Content&rbrack;&lbrack;Samples&rbrack; Neues Beispielprojekt &quot;Französischer Restauranttisch&quot; hinzufügen
+* &lbrack;Inhalt&rbrack; Alpha-Substance-Logo auf neue Version aktualisieren
+* &lbrack;Inhalt&rbrack; Drei Material-Filter auf SVG anwenden (Custom Sticker, Custom Spray und Graphic to Material)
 
-<b>Fest:</b>
+**Fest:**
 
-* [Absturz] Ändern der Größe von Manipulator, wenn das Werkzeug &quot;Symmetrie&quot; nicht verwendet wird
-* [Absturz] [Ebenenstapel] Erstellen einer Ebene, wenn nichts ausgewählt ist
-* [Project] Mesh-Map können nach dem Entfernen nicht verwendeter Ressourcen beschädigt werden.
-* [Projekt] Ressourcenbeschädigung nach dem erneuten Importieren oder Baking des Images
-* [Assets] Durch erneutes Laden eines Assets wird es aus den Favoriten entfernt
-* [Importieren] Ressourcen können nicht importiert werden, wenn im Bedienfeld &quot;Asset&quot; &quot;Kein Ergebnis gefunden&quot; angezeigt wird
-* [UI] Der kontextbezogene Symbolleistenpfeil wird in einigen Fällen nicht angezeigt
-* [Substance] Schaltfläche &quot;Nebeneinander&quot; für boolesche Werte wird nicht unterstützt
-* [Level] Falsche Kanalbeschriftung bei Verwendung in Maske
-* [Exportieren]&#x200B;[glTF] glTF/GLB-Dateien, die aus Painter exportiert werden, haben keine Physische Größe
-* [Inhalt] Intensität des Weichzeichnungsfilters ist auf 16 eingestellt
-* [Inhalt] Farbabstimmungsfilter &quot;Zielfarbe&quot; Bildeingabe ist nicht sichtbar
+* &lbrack;Absturz&rbrack; Ändern der Manipulator-Größe, wenn das Symmetrie-Werkzeug nicht verwendet wird
+* &lbrack;Absturz&rbrack; &lbrack;Ebenenstapel&rbrack; Erstellen einer Ebene, wenn nichts ausgewählt ist
+* &lbrack;Projekt&rbrack; Mesh-Map können beschädigt werden, nachdem nicht verwendete Ressourcen entfernt wurden.
+* &lbrack;Projekt&rbrack; Ressourcenbeschädigung nach dem erneuten Importieren oder Baking des Images
+* &lbrack;Assets&rbrack; Durch erneutes Laden eines Assets wird es aus den Favoriten entfernt
+* &lbrack;Import&rbrack; Ressourcen können nicht importiert werden, wenn im Bedienfeld &quot;Elemente&quot; &quot;Kein Ergebnis gefunden&quot; angezeigt wird
+* &lbrack;UI&rbrack; Der Pfeil der kontextbezogenen Symbolleiste wird in einigen Fällen nicht angezeigt
+* &lbrack;Substance&rbrack; Schaltfläche &quot;Nebeneinander&quot; für boolesche Werte wird nicht unterstützt
+* &lbrack;Ebene&rbrack; Falsche Kanalbeschriftung bei Verwendung in der Maske
+* &lbrack;Export&rbrack;&lbrack;glTF&rbrack; glTF/GLB-Dateien, die aus Painter exportiert werden, haben keine Physische Größe
+* &lbrack;Inhalt&rbrack; Intensität des Weichzeichnungsfilters ist auf 16 eingestellt
+* &lbrack;Inhalt&rbrack; Farbabstimmungsfilter &quot;Zielfarbe&quot; Bildeingabe ist nicht sichtbar
 
-<b>Bekannte Probleme:</b>
+**Bekannte Probleme:**
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Absturz]&#x200B;[Linux] mit Linux Wayland auf AMD beim Ziehen und Ablegen von Ressourcen im Ebenenstapel
-* [Absturz]&#x200B;[Mac] Ändern des Werts für anisotrope Filterungen unter Monterey OS
-* [Absturz] Exr als Bildeingabe verwendet
-* [Absturz] Verwenden von 16.000 Umgebungs-Map
-* [Automatisch Entpackt] UI-Problem für Texeldichtesteuerung
-* [Regression]&#x200B;[UI] Kontextmenü auf HD-Bildschirm ist zu klein
-* [Python] Absturz exportieren USD ausgelöst durch TextureStateEvent
-* [QoL] Ziehen und Ablegen von Alpha-Ressourcen im Aufklebermodus erzeugt UV-Projektion in der Maske
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Absturz&rbrack;&lbrack;Linux&rbrack; mit Linux Wayland auf AMD, wenn Ressourcen per Drag &amp; Drop in den Ebenenstapel gezogen werden
+* &lbrack;Absturz&rbrack;&lbrack;Mac&rbrack; Anisotropische Filterung ändern unter Monterey OS
+* &lbrack;Absturz&rbrack; Exr als Bildeingabe verwendet
+* &lbrack;Absturz&rbrack; 16.000 Umgebungs-Map
+* &lbrack;Automatisch Entpackt&rbrack; UI-Problem für die Texeldichtesteuerung
+* &lbrack;Regression&rbrack;&lbrack;UI&rbrack; Kontextmenü ist auf dem HD-Bildschirm zu klein
+* &lbrack;Python&rbrack; Absturz beim Exportieren von USD, die durch TextureStateEvent ausgelöst werden
+* &lbrack;QoL&rbrack; Ziehen und Ablegen der Alpha-Ressource im Aufklebermodus erstellt UV-Projektion in der Maske
 
 ### 9.0.1
 
-Freigabedatum: <b>2023/09/19</b>
-Zusammenfassung: <b>Geringfügige Fehlerbehebungsversion mit mehreren Verbesserungen</b>
+Freigabedatum: **2023/09/19** Zusammenfassung: **Geringfügige Fehlerbehebungsversion mit mehreren Verbesserungen**
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
-* [Import] Festlegen des Standard-Importspeicherorts im Importfenster
-* [Baking-Modus] Parameter auf ihre Standardwerte zurücksetzen
-* [Baking] Legen Sie beim Erstellen eines Projekts die Baking-Auflösung auf Malen fest.
-* [Symmetrie] Binden Sie Symmetrie-spezifischen Manipulator von Tastaturbefehl Q ab.
-* [Menü] Option &quot;Protokoll anzeigen&quot; im Hilfemenü hinzufügen
-* [Viewport] Verbessern der Schatten-Rendering-Geschwindigkeit
-* [Substance] Engine auf Version 9.0.1 aktualisieren
-* [Farbmanagement] OCIO Konfigurationsdatei kann einen beliebigen Erweiterungstyp haben
-* [Assets] Sbsar-Ressource mit der Verwendung von Aufklebern sollte automatisch auf Verkrümmungs-Projektion gesetzt werden.
-* [Pfad] Meldung anzeigen, wenn versucht wird, mit dem Pfad-Werkzeug zu interagieren, während UI und Gizmos ausgeblendet sind
+* &lbrack;Import&rbrack; Standard-Importspeicherort im Importfenster festlegen
+* &blbrack;Baking-Modus&rbrack; Parameter auf ihre Standardwerte zurücksetzen
+* &blbrack;Baking&rbrack; Baking beim Erstellen eines Projekts auf Malen-Auflösung festlegen
+* &lbrack;Symmetrie&rbrack; Symmetrie-spezifischen Manipulator vom Tastaturbefehl Q lösen
+* &lbrack;Menü&rbrack; Option &quot;Protokoll anzeigen&quot; im Hilfemenü hinzufügen
+* &lbrack;Viewport&rbrack; Verbessern der Schatten-Rendering-Geschwindigkeit
+* &lbrack;Substance&rbrack; Engine auf Version 9.0.1 aktualisieren
+* &lbrack;Farbmanagement&rbrack; OCIO Konfigurationsdatei kann einen beliebigen Erweiterungstyp haben
+* &lbrack;Assets&rbrack; SBSAR-Ressource mit &#39;Aufkleber&#39; sollte automatisch auf Warp-Projektion gesetzt werden
+* &lbrack;Pfad&rbrack; Anzeigen einer Meldung, wenn versucht wird, mit dem Pfadwerkzeug zu interagieren, während UI und Gizmos ausgeblendet sind
 
-<b>Fest:</b>
+**Fest:**
 
-* [Absturz] Alt + Ziehen im Pfadbedienfeld
-* [Ressourcen importieren] Zufälliger Absturz beim Entfernen der zu importierenden Ressourcen
+* &lbrack;Absturz&rbrack; Alt + Ziehen im Pfadbedienfeld
+* &lbrack;Ressourcen&rbrack; importieren Zufälliger Absturz beim Entfernen der zu importierenden Ressourcen
 * Absturz beim Importieren einer komprimierten GLB-Datei
 * Problem beim Malen auf Meshs, die UVs gemeinsam nutzen
 * Mesh blinkt schwarz, wenn der Cache neu berechnet oder geladen wird
-* [Eigenschaften] Kontextmenü zum Zurücksetzen von Parametern wird in Dropdown-Listen nicht angezeigt
-* [Level] Eingangsregler durch vorherige Ebene gesperrt
-* [AMD]&#x200B;[Weniger] SVT-Option, wenn aktiviert, erzeugt Artefakte
-* [Projektion]&#x200B;[Verformen] Absturz beim Doppelklicken auf Scheitelpunkt
-* Benutzeroberfläche und Pfad von [Pfad] im Baking-Modus
-* [AMD] Textur verloren, wenn mit Sichtbarkeit gespielt wird
-* [Gering] Die Auflösung ist zu niedrig, wenn Sie den Mesh umdrehen.
+* &lbrack;Eigenschaften&rbrack; Kontextmenü zum Zurücksetzen der Parameter wird in Dropdown-Listen nicht angezeigt
+* &lbrack;Ebene&rbrack; Schieberegler für Eingabe nach vorheriger Ebene gesperrt
+* &lbrack;AMD&rbrack;&lbrack;Sparse&rbrack; SVT-Option, wenn aktiviert, erzeugt Artefakte
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Absturz beim Doppelklicken auf Scheitelpunkte
+* &lbrack;Pfad&rbrack; Benutzeroberfläche und Pfad werden im Baking-Modus angezeigt
+* &lbrack;AMD&rbrack; Textur verloren, wenn mit Sicht gespielt wird
+* &lbrack;Sparse&rbrack; Zu niedrige Auflösung beim Umdrehen des Meshs
 
-<b>Bekannte Probleme:</b>
+**Bekannte Probleme:**
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
 
 ### 9.0.0
 
-Freigabedatum: <b>2023/06/20</b>
-Zusammenfassung: <b>Hauptversion mit Malen entlang des Pfades, die 3D-Kurven, neue Basismaterialien und das Bereinigen älterer Materialien und neue Vorgaben für 3D-Kurven ermöglicht</b>
+Freigabedatum: **2023/06/20** Zusammenfassung: **Hauptversion mit Malen entlang des Pfades, die 3D-Kurven, neue Basismaterialien und das Bereinigen älterer Materialien sowie neue Vorgaben für 3D-Kurven ermöglicht**
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
-* [Pfad] Neues Malen entlang Pfad-Werkzeug hinzufügen
-* [Pfad] Fügen Sie einen leeren Tastaturbefehl für das Pfadwerkzeug hinzu.
-* [Pfad] Hinzufügen neuer Punkte zu einem vorhandenen Pfad zulassen
-* [Pfad] Tastaturbefehl hinzufügen, um die aktuelle Pfaderstellung zu beenden
-* [Pfad] Bearbeiten der Pinseleigenschaften für Pfade zulassen
-* [Pfad] Automatische Anpassung der Tangenten beim Platzieren eines Punkts
-* [Pfad] Tangenten beim Verschieben eines Punkts neu berechnen
-* [Pfad] Einrasten neu erstellter Punkte an der Oberfläche eines Meshs
-* [Pfad] Bearbeiten des Drucks pro Scheitelpunkt zulassen
-* [Pfad] Anpassen des Drucks des neu erstellten Punkts von benachbarten Punkten
-* [Pfad] Umwandeln von Punkten in Übergangspunkte/Eckpunkte zulassen (Tangente umbrechen)
-* [Pfad] Sofort einen neu hinzugefügten Punkt verschieben
-* [Pfad] Punkte aus vorhandenem Pfad entfernen
-* [Pfad] Umkehren der Richtung eines Pfads zulassen
-* [Pfad] Wählen Sie einen Pfad im Viewport aus.
-* [Pfad] Auswählen von Pfadpunkten mit dem Auswahlrechteck zulassen
-* [Pfad] Einführung von STRG+A-Tastaturbefehlen zum Auswählen aller Punkte eines Pfads
-* [Pfad] Schließen des Pfads zulassen
-* [Pfad] Geben Sie die Achse &quot;Pfad nach oben&quot; in den Eigenschaften an.
-* [Path] Hinzufügen eines Scheitelpunkt-Steuerungsmenüs zur kontextabhängigen Symbolleiste
-* [Pfad] Einführung in die Malen-/Lösch-/Verwischen-Modi im Pfadwerkzeug
-* [Pfad] Erstellen von visuellem Feedback für Pfade im Viewport
-* [Pfad] Hinzufügen eines visuellen Indikators für die Pfadrichtung
-* [Path] Hinzufügen der Thickness zu den Anzeigeeinstellungen des Pfads
-* [Path] Pfade ausblenden - Benutzeroberfläche
-* [Pfad] Bedienfeld &quot;Pfad hinzufügen&quot; zur Liste der Pfade der aktuell ausgewählten Ebene
-* [Pfad] Fügen Sie visuelles Feedback hinzu, wenn Sie den Mauszeiger über einen Pfad im Pfadbedienfeld bewegen
-* [Pfad] Pfadbedienfeld anzeigen, wenn das Pfadwerkzeug ausgewählt ist
-* [Pfad] Umbenennen, Löschen, Kopieren, Ausschneiden und Duplizieren von Pfaden im Bedienfeld &quot;Pfad&quot; zulassen
-* [Pfad] Meldung anzeigen, wenn versucht wird, im 2D-Viewport mit dem Pfad-Werkzeug zu interagieren
-* [Library] Integrieren neuer Inhalte (Pfad-Tools und -Basismaterial)
-* [Dynamische Pinselstriche] Eigenschaft &quot;Abstand&quot; für Dynamische Pinselstriche hinzufügen
-* [Dynamische Pinselstriche] Hinzufügen von Größen- und Abstand-Eigenschaften zu Dynamischen Pinselstrichen
-* [Dynamische Pinselstriche] Hinzufügen der Eigenschaft &quot;Anfang&quot;, &quot;Mitte&quot; und &quot;Ende&quot; für Dynamische Pinselstriche
-* [Python]&#x200B;[USD] Gelegt Projektkonfigurationsparameter für das USD
-* [Python]&#x200B;[USD] Gelegt Projekterstellungsparameter für das USD
-* [Exportieren]&#x200B;[USD] Fügen Sie Projektpfadinformationen innerhalb der exportierten USD hinzu
-* [GLTF] Aktualisieren von Texturen in der Bibliothek beim erneuten Laden einer GLTF-Datei
-* [Shader] Reduzieren von Artefakten in der Naht für UV-Inseln mit unterschiedlicher Ausrichtung
-* [Engine] Update auf Substance Engine Version 9.0
+* &lbrack;Pfad&rbrack; Neue Malen entlang des Pfads hinzufügen
+* &lbrack;Pfad&rbrack; Hinzufügen eines leeren Tastaturbefehls für das Pfadwerkzeug
+* &lbrack;Pfad&rbrack; Hinzufügen neuer Punkte zu einem vorhandenen Pfad zulassen
+* &lbrack;Pfad&rbrack; Tastaturbefehl hinzufügen, um die aktuelle Pfaderstellung zu beenden
+* &lbrack;Pfad&rbrack; Bearbeiten der Pinseleigenschaften für Pfade zulassen
+* &lbrack;Pfad&rbrack; Tangenten beim Platzieren eines Punkts automatisch anpassen
+* &lbrack;Pfad&rbrack; Tangenten beim Verschieben eines Punkts neu berechnen
+* &lbrack;Pfad&rbrack; Einrasten neu erzeugter Ankerpunkte an die Fläche eines Meshs
+* &lbrack;Pfad&rbrack; Bearbeiten des Drucks pro Scheitelpunkt zulassen
+* &lbrack;Pfad&rbrack; Anpassen des Drucks des neu erstellten Punkts von benachbarten Punkten
+* &lbrack;Pfad&rbrack; Umwandeln von Punkten in Übergangspunkte/Eckpunkte zulassen (Tangente umbrechen)
+* &lbrack;Pfad&rbrack; Verschieben eines neu hinzugefügten Punkts sofort zulassen
+* &lbrack;Pfad&rbrack; Entfernen von Punkten aus vorhandenem Pfad zulassen
+* &lbrack;Pfad&rbrack; Umkehren der Richtung eines Pfades zulassen
+* &lbrack;Pfad&rbrack; Auswahl eines Pfads im Viewport zulassen
+* &lbrack;Pfad&rbrack; Auswählen von Pfadpunkten mit dem Auswahlrechteck zulassen
+* &lbrack;Pfad&rbrack; Einführung von STRG+A-Tastaturbefehlen zum Auswählen aller Punkte eines Pfades
+* &lbrack;Pfad&rbrack; Schließen des Pfads zulassen
+* &lbrack;Pfad&rbrack; Geben Sie die Achse &quot;Pfad nach oben&quot; in den Eigenschaften an
+* &lbrack;Pfad&rbrack; Hinzufügen eines Scheitelpunkt-Steuerungsmenüs zur kontextabhängigen Symbolleiste
+* &lbrack;Pfad&rbrack; Hinzufügen von Malen-/Radier-/Verwischen-Modi zum Pfadwerkzeug
+* &lbrack;Pfad&rbrack; Visuelles Feedback für Pfade im Viewport erstellen
+* &lbrack;Pfad&rbrack; Visuelle Anzeige der Pfadrichtung hinzufügen
+* &lbrack;Pfad&rbrack; Thickness der Pfadanzeige hinzufügen
+* &lbrack;Pfad&rbrack; Pfade ausblenden.
+* &lbrack;Pfad&rbrack; Bedienfeld &quot;Pfad hinzufügen&quot;, um Pfade der aktuell ausgewählten Ebene aufzulisten
+* &lbrack;Pfad&rbrack; Visuelles Feedback beim Bewegen des Mauszeigers über einen Pfad im Pfadbedienfeld hinzufügen
+* &lbrack;Pfad&rbrack; Pfadbedienfeld anzeigen, wenn das Pfadwerkzeug ausgewählt ist
+* &lbrack;Pfad&rbrack; Umbenennen, Löschen, Kopieren, Ausschneiden und Duplizieren von Pfaden im Bedienfeld &quot;Pfad&quot; zulassen
+* &lbrack;Pfad&rbrack; Meldung anzeigen, wenn versucht wird, im 2D-Viewport mit dem Pfadwerkzeug zu interagieren
+* &lbrack;Library&rbrack; Neue Inhalte integrieren (Pfadwerkzeuge und Basismaterialien)
+* &lbrack;Dynamische Pinselstriche&rbrack; Eigenschaft &quot;Abstand&quot; für Dynamische Pinselstriche hinzufügen
+* &lbrack;Dynamische Pinselstriche&rbrack; Hinzufügen von Größen- und Abstand-Eigenschaften zu Dynamischen Pinselstrichen
+* &lbrack;Dynamische Pinselstriche&rbrack; Hinzufügen der Eigenschaft &quot;Anfang/Mitte/Ende&quot; für Dynamische Pinselstriche
+* &lbrack;Python&rbrack;&lbrack;USD&rbrack; Leg von Projektkonfigurationsparametern für das USD
+* &lbrack;Python&rbrack;&lbrack;USD&rbrack; Leg der Projekterstellungsparameter für das USD
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; Projektpfadinformationen in exportierten USD hinzufügen
+* &lbrack;GLTF&rbrack; Texturen in der Bibliothek beim erneuten Laden einer GLTF-Datei aktualisieren
+* &lbrack;Shader&rbrack; Reduzieren von Artefakten in der Naht von UV-Inseln mit unterschiedlicher Ausrichtung
+* &lbrack;Engine&rbrack; Update auf Substance Engine Version 9.0
 
-<b>Fest:</b>
+**Fest:**
 
-* [Importieren] Einige GLB mit Texturen erhalten keine Texturen in Painter
-* [AMD] Artefakte an Rändern für alle 3D-Projektion-Flächen
-* [Engine] Texturen brechen beim Umschalten der Ebenensichtbarkeit ab
-* [Engine] Texturen sind an einigen Stellen leer, wenn der Mischmodus geändert wird
-* [Engine] Textur/Projektion ist in einigen Fällen leerer Verkrümmungsmodus
-* [Iray] Iteration wird beim Speichern des Renderings auf 0 zurückgesetzt
-* [Log] USD Fehlermeldung beim Ausführen von Datei > Neu
+* &lbrack;Import&rbrack; Einige GLB mit Texturen erhalten keine Texturen in Painter
+* &lbrack;AMD&rbrack; Artefakte an Rahmen für alle 3D-Projektion-Flächen
+* &lbrack;Engine&rbrack; Texturen brechen beim Umschalten der Ebenensichtbarkeit ab
+* &lbrack;Engine&rbrack; Beim Ändern des Mischmodus sind an einigen Stellen Texturen leer
+* &lbrack;Engine&rbrack; Textur/Projektion ist in einigen Fällen leerer Verkrümmungsmodus
+* &lbrack;Iray&rbrack; Iteration wird beim Speichern des Renderings auf 0 zurückgesetzt
+* &lbrack;Log&rbrack; USD Fehlermeldung beim Ausführen von &quot;Datei&quot; > &quot;Neu&quot;
 
-<b>Bekannte Probleme:</b>
+**Bekannte Probleme:**
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Ebenenstapel] Eingabequelle nicht pro Ebene gespeichert
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Ebenenstapel&rbrack; Eingabequelle nicht pro Ebene gespeichert
 
 ## Version 8
 
 ### 8.3.1
 
-Freigabedatum: <b>2023/04/27</b>
-
-<b>Hinzugefügt:</b>
-
-* [Baking-Modus] Hinzufügen (leeren) Tastaturbefehl, um den Viewport anzuzeigen/auszublenden
-* [Baking führend Modus] Bei Verwendung der Schaltfläche &quot;Baking führend Mesh ausblenden&quot; immer niedrige Poly-Werte anzeigen
-* [Baking Mode] Suffix für &quot;Matching By Name&quot; basierend auf aktuellem Textursatz anzeigen
-* [Import] Unterstützung für GLTF-Binärdateien (glb) hinzufügen
-* [Liste der Textursatz] Menü &quot;Hinzufügen&quot;, um Shader-Instanzen auszuwählen oder zu erstellen
-* [Liste der Textursatz] Schnelles Ändern der Auflösung von Textursatz und UV-Kachel
-* [Physische Größe] Verbessern des Manipulator-Verhaltens bei Verwendung von Physische Größe in UV-Projektion
-* [UI] &quot;Speichern unter&quot; wieder im Hauptmenü &quot;Datei&quot; anzeigen
-* [UI] Speichern der Ansichtsauswahl (nur 2D, nur 3D, beide) im UI-Layout
-* [USD] Weniger vage Fehlermeldung bei der Projekterstellung mit nicht unterstützten USD
-* [Python] Hinzufügen von Baking führend Ereignissen, um dem Fortschritt des Bakings zu folgen
-* [Python] Abbrechen eines Baking zulassen
-* [Python] Leg &quot;Basierend auf Ausgabevorlage&quot; für Dateityp und Bittiefe beim Export
-* [Python] Gelegt Aktualisierungszeit für TextureStateEvent.Update
-
-<b>Fest:</b>
-
-* [Absturz] Seltener Absturz beim Schließen eines Projekts
-* [Absturz] [Baking] Aktivieren der Mesh-Map-Synchronisierung mit dem Height oder der Krümmung für ein bestimmtes Projekt
-* [Absturz]&#x200B;[Skripterstellung] Absturz beim Hinzufügen eines Materials nach der Erstellung einer Shader-Instanz
-* [Baking Mode] AO-Intensität im neutralen Material hat keine Auswirkung
-* [Baking-Modus] Absturz beim Wechseln in den Baking-Modus vor dem Laden des Modells
-* [Baking führend Modus] Fehlende Fehlermeldung auf der Registerkarte &quot;Baking führend Prozess&quot;
-* [Baking-Modus] Einstellungen für neutrale Material haben nach dem erneuten Importieren eines Meshs keine Auswirkungen
-* [Modustrennzeichen] Viewport-Trennzeichen werden global und nicht pro Baking gespeichert.
-* [Baking führend Modus] Visualisierungsproblem: Durchschnittliche Normale verändert die Oberfläche des Käfigs nicht
-* [Farbmanagement] Die Einstellung &quot;Farbraum automatisch erkennen&quot; ist deaktiviert, wenn OCIO env var vorhanden ist
-* [Inhalt] Der Maskenkonturfilter weist ein Artefakt mit Height-Eingabe auf.
-* [Inhalt] Regler für die Intensität des Steigung-Weichzeichnungsfilters ist bei 1,0 eingeklemmt
-* [Interop] Projekt mit GLTF kann nicht aus Sampler erstellt werden
-* [Ebenenstapel] Der Wert für die Kachelung der Projektion wird nicht korrekt mit dem Manipulator aktualisiert.
-* [Linux] Versatz zwischen Grafiktablett-Stift und Cursor mit einem HDPI von mehr als 100 %
-* [Python] Absturz beim erneuten Importieren eines Meshs nach dem Erstellen eines Projekts
-* [Substance] 3D-Rauschen werden nach dem erneuten Importieren eines Meshs beschädigt
-* [UV-Kacheln] Offset für UV-Projektion auf 1 geklemmt
-* [Viewport] Visuelles Feedback für gerade Linien ist nicht mehr sichtbar
-* [WhatsNew] Falscher Zeilenumbruch bei Funktionstiteln
-
-<b>Bekannte Probleme:</b>
-
-* [Importieren] Einige GLB mit Texturen erhalten keine Texturen in Painter
-
-### 8.3.0
-
-*(Freigegeben: 10. Januar 2023)*
-Zusammenfassung: <b>Hauptversion mit neuem Importmodus, neuem Baking und Export von USD und Physische Größe-Unterstützung für UV-Projektion</b>
-
-<b>Hinzugefügt:</b>
-
-* [Baking führend Modus] Neuer Baking führend Modus, der dem Baking führend Prozess gewidmet ist
-* [Baking-Modus] Stellen Sie den Tastaturbefehl so ein, dass er in den Baking-Modus auf F8 wechselt.
-* [Baking-Modus] Hinzufügen der Schaltfläche &quot;Start&quot; und &quot;Baking abbrechen&quot; im Viewport
-* [Baking führend Modus] Hinzufügen einer Baking führend Auswahl zur Liste der Textursatz
-* [Baking-Modus] Fenster &quot;Neue Mesh-Map-Baker hinzufügen&quot;, um Baker auszuwählen
-* [Baking Mode] Neues Mesh-Map-Einstellungsfenster hinzufügen, um Baking-Einstellungen zu bearbeiten
-* [Baking führend Modus] Neues Baking führend Protokollfenster hinzufügen, um dem Baking führend Prozess zu folgen
-* [Baking Mode] Hinzufügen von Baking-Parametern und Rückgängigmachen von Aktionen zum Verlaufsfenster
-* [Baking führend Modus] Hinzufügen von Breadcrumbs in den Mesh-Map-Einstellungen
-* [Baking-Modus] Hinzufügen von Mesh-Map-Miniaturansichten im Fenster &quot;Mesh-Map Baker&quot;
-* [Baking Mode] Menü &quot;Visualisierungseinstellungen hinzufügen&quot; im 3D-Viewport
-* [Baking Mode] Fügen Sie eine Visualisierungseinstellung hinzu, um den Mesh mit der hohen Poly-Dichte ein- bzw. auszublenden.
-* [Baking Mode] Fügen Sie eine Visualisierungseinstellung hinzu, um den Käfig Mesh und Drahtgitter ein- bzw. auszublenden
-* [Baking Mode] Fügen Sie eine Visualisierungseinstellung hinzu, um den Mesh mit geringer Poly-Zahl ein- bzw. auszublenden.
-* [Baking Mode] Fügen Sie eine Visualisierungseinstellung hinzu, um harte Kanten ohne UV-Nähte als Fehler anzuzeigen.
-* [Baking Mode] Informieren Sie im Viewport über Mesh- und Baking-Fehler, wenn das Baking Log nicht angezeigt wird.
-* [Baking-Modus] Aktion hinzufügen, um die Baker-Einstellungen auf allen Textursätzen zu synchronisieren
-
-  Im Fenster &quot;Mesh-Map-Baker&quot; kann jeder Baker (sowie die allgemeinen Einstellungen) über Textursatz hinweg synchronisiert werden, indem Sie auf das Verknüpfungssymbol neben dem Namen klicken. Dadurch wird ein Fenster geöffnet, in dem Sie auswählen können, welche Textursatz dieselben Parameter verwenden sollen.
-
-* [Baking führend Modus] Hinzufügen von Aktionen zum Kopieren und Einfügen von Baker-Einstellungen
-
-  Im Fenster &quot;Mesh-Map-Baker&quot; stehen Aktionen zum Kopieren und Übergehen der einzelnen Baker-Einstellungen über Textursätze hinweg zur Verfügung, entweder über das spezielle Menü am oberen Fensterrand oder über das Kontextmenü mit der rechten Maustaste.
-
-* [Fehlermodus] Schaltfläche &quot;Hinzufügen&quot; im Fehlerprotokoll, um von den Baking zu den richtigen Baking zu springen
-
-  Wenn ein Baker fehlschlägt oder ein Mesh nicht ordnungsgemäß geladen wird, wird im Protokoll eine Fehlermeldung Baking geführt. Mit einer Schaltfläche neben der Meldung können Sie das Fenster Mesh-Map-Baker und Mesh-Map-Einstellungen ändern, um die entsprechenden Einstellungen anzuzeigen. Dies hilft dabei, die Ursache eines Problems einfacher zu isolieren, um es beheben zu können.
-
-* [Baking-Modus] Hinzufügen von Menüs zum Verwalten von Textursätzen und Auswahl von Bakern
-
-  Sowohl im Fenster &quot;Textursatz-Liste&quot; als auch im Fenster &quot;Mesh-Map-Baker&quot; wurde ein kleines Aktionsmenü hinzugefügt, um das Kopieren und Umkehren von Auswahlen zu unterstützen.
-
-* [Baking-Modus] Auswahlliste für geteilte Baker pro Textursatz
-* [Baking-Modus] Gemeinsame Einstellungen pro Textursatz teilen
-* [Baking-Modus] Lädt Meshs mit hohem Poly- und Käfig, ohne die Benutzeroberfläche einzufrieren
-* [Baking-Modus] Verwenden Sie die Fortschrittsleiste des Viewports, um das Laden des Meshs anzuzeigen
-* [Baking Mode] Fügen Sie den Ladestatus des Meshs im Baking-Protokoll hinzu
-* [Baking-Modus] Ermöglicht das Umkehren von Mesh im Viewport während des Bakings
-* [Baking Mode] Legt die Reihenfolge des Bakings auf der Grundlage der Sichtbarkeit des aktuellen Meshs für den Viewport fest.
-* [Baking-Modus] Anzeige des impliziten Baking führend Käfigs im Viewport
-
-  Wenn keine benutzerdefinierte Käfig-Meshdatei verwendet wird, wird ein automatischer Käfig-Mesh generiert und im Viewport angezeigt. Die Größe basiert auf dem Parameter &quot;Max. Frontalentfernung&quot; aus den allgemeinen Einstellungen des Bakings. Mit dem Mesh &quot;Käfig&quot; wird angegeben, wie weit die Anpassung zwischen dem niedrigen und dem hohen Poly-Wert gehen wird.
-
-* [Baking-Modus] Anzeigen einer übereinstimmenden Liste von Mesh-Namen für &quot;Matching By Name&quot; im Baking-Protokoll
-* [Modellmodus] Verwenden Sie neutrales Material, um das 3D-Baking im Viewport anzuzeigen.
-* [Baking-Modus] Deaktivieren der Engine-Berechnung im Baking-Modus
-* [Baking führend Modus] Beim Beenden der App während eines laufenden Baking wird eine Warnung angezeigt
-* [Baker] Aktualisieren der Beschriftungen für Anti-Aliasing-Einstellungen
-
-  Die Einstellungswerte für das Anti-Aliasing wurden in &quot;Supersampling&quot; umbenannt und mit einer expliziten Multiplikatornummer versehen, um das Verhalten zu verdeutlichen.
-
-* [Baker] Aktualisieren Sie die Baker auf Version 2.5.7.
-* [USD] Importieren und Exportieren von Universal Scene Description (USD)-Dateien
-* [USD] Hinzufügen USD Optionen zum Fenster &quot;Neues Projekt&quot; bei Auswahl einer USD
-* [USD] Neues Auswahlfenster für Umfang und Varianten hinzufügen
-
-  Wenn Sie eine USD-Datei importieren, können Sie durch Klicken auf die Schaltfläche &quot;Ändern&quot; im Fenster &quot;Neues Projekt&quot; oder &quot;Projektkonfiguration&quot; auswählen, welche Teile und Varianten einer USD-Datei importiert werden sollen.
-
-* [USD] Option &quot;Unterteilungsebenen hinzufügen&quot;
-
-  Beim Erstellen eines neuen Projekts mit einer USD Meshdatei, die Unterteilungen enthält, ist es möglich, die Ebene der Unterteilungen mithilfe eines Schiebereglers auszuwählen. Das Projekt wird mit dem unterteilten Mesh erstellt. Die Ebene kann über die Projektkonfiguration geändert werden.
-
-* [USD] Importieren USD Meshs mit Skin in einem bestimmten Rahmen
-
-  Wenn Sie ein neues Projekt mit einer USD Meshdatei erstellen, die eine Animation enthält, können Sie den Rahmen mithilfe eines Schiebereglers auswählen, der die eingebettete Timeline-Sequenz widerspiegelt. Der Rahmen kann über die Projektkonfiguration modifiziert werden.
-
-* [USD]&#x200B;[Exportieren] Fügen Sie eine Option zum Exportieren USD Dateien hinzu.
-
-  Das neue Kontrollkästchen &quot;USD exportieren&quot; wurde dem Fenster &quot;Texturen exportieren&quot; hinzugefügt. Wenn diese Option aktiviert ist, können USD sowie Textur Maps mit einer beliebigen Vorlage exportiert werden.
-
-* [USD]&#x200B;[Exportieren] Fügen Sie USD Dateiformat zum Mesh-Export hinzu.
-* [USD] Benennen Sie die vorhandene Exportvorgabe &quot;USD PBR Metal Rauheit&quot; um, um ein expliziteres Format zu erhalten.
-
-  Die USD Exportvorlage, die zuvor als &quot;USD PBR Metal Rauheit&quot; bezeichnet wurde, ist weiterhin über &quot;Texturen exportieren&quot; > &quot;Ausgabevorlage&quot; > &quot;USDz&quot; (Apple AR) verfügbar.
-
-* [Automatisch Entpackt] Ausrichtung der Sperre für Packing hinzufügen
-
-  Neue Option für Einstellungen für den automatischen entpack, mit der die Ausrichtung bestehender UV-Inseln beibehalten werden kann, wenn die Funktion &quot;Packing&quot; verwendet wird. Der Zugriff darauf erfolgt über &quot;Neues Projekt&quot; > &quot;Optionen für Automatisches Entpacken&quot; > &quot;Ausrichtung der UV-Insel&quot;.
-
-* [Physische Größe] Fügen Sie eine Einstellung hinzu, um die Physische Größe automatisch in Fülleffekt/Ebene zu verwenden.
-
-  Eine neue Option zum automatischen Umschalten auf die Skalierung der Physische Größe wurde hinzugefügt, wenn ein Material mit eingebetteter Physische Größe verwendet wird. Sie kann pro Projekt über Neues Projekt oder über Bearbeiten > Projektkonfiguration > Physische Größe > Füllebene-Skalierung auf Physische Größe umschalten, wenn Materialien zugewiesen werden, aktiviert werden.
-
-* [Physische Größe] Physische Größe für UV-Projektion Gelegt
-
-  Die Skalierung der Physische Größe ist jetzt für UV-Projektionen verfügbar - sie aktiviert die automatische Größenänderung für ein Material basierend auf der Physische Größe eines Meshs. Sie kann über &quot;Skalieren > Physische Größe&quot; im Fenster &quot;Füllebene&quot; oder &quot;Effekteigenschaften&quot; ausgewählt werden.
-
-* [Scripting]&#x200B;[Python] Abfrage der Anwendungsversion zulassen
-* [Scripting]&#x200B;[JavaScript] Update-API für neue Baking-Parameter
-* [Scripting]&#x200B;[Python] Baking-Modul: Bearbeiten der Parameter für das Baking
-* [Scripting]&#x200B;[Python] Baking-Modul: Baking starten/abbrechen
-* [Scripting]&#x200B;[Python] Baking-Modul: Methode der selektierten Krümmung
-* [Scripting]&#x200B;[Python] Baking-Modul: Auswahl von Bakern/UV-Kacheln
-* [Scripting]&#x200B;[Python] Baking-Modul: Baker-Einstellungen auf allen Textursätzen synchronisieren
-* [SVT] Aktivieren der Unterstützung für wenig Hardware auf AMD-GPUs
-
-  Die Hardwarebeschleunigung für das Dünn besetzte virtuelle Textur-System kann jetzt mit AMD-GPUs aktiviert werden. Diese Einstellung wird in den allgemeinen Voreinstellungen automatisch aktiviert.
-
-* [Projektion] Parameter für zylindrische Projektion umbenennen
-
-  Der Parameter &quot;Cylinder Cap Culling&quot; wurde in &quot;Rückseiten-Ausblendung&quot; umbenannt, um seine Wirkung besser darzustellen. Die zugehörige QuickInfo wurde entsprechend angepasst.
-
-* [Project] Speichern Sie die Anwendungsversion im Projekt und rufen Sie sie über Skripterstellung ab.
-
-  Seit Version 8.2 wird die Version der Anwendung beim Speichern in der spp-Datei gespeichert.
-  Diese Versionsnummer kann mit der Funktion last\_saved\_substance\_painter\_version() im Projektmodul der Python-API abgerufen werden.
-  Für Projekte, die vor 8.2 erstellt wurden, ist der zurückgegebene Wert null.
-
-* [Import] Verbessern der allgemeinen Importzeit von 3D-Modellen
-
-  Wir haben die allgemeine Importzeit von Meshs verbessert. Zum Beispiel die Verkürzung der Wartezeit beim Laden von High-Poly-Meshs zum Baking. Diese Optimierung gilt insbesondere für das Laden von OBJ.
-
-<b>Fest:</b>
-
-* [Absturz] Ändern von Kanälen bei Filtern mit bestimmtem Stapel
-* [Mac]&#x200B;[M1] Absturz beim Erstellen einer Füllebene und beim Verlassen des Ebenenstapels
-
-  Dieses Problem kann durch Aktualisieren auf Mac OS 13 (Ventura) behoben werden.
-
-* [Scripting]&#x200B;[Python] Absturz bei Verwendung von ui.add\_dock\_widget() mit falschem Typ
-* [Baking] Unvollständige Fehlermeldung im Protokoll, wenn ein Baking fehlschlägt
-* [Baking] Speicher wird nach Abschluss des Bakings nicht freigegeben
-* [Engine] Texturen-Cache wird nicht aktualisiert, wenn die Effektsichtbarkeit geändert wird
-* [Exportieren] 2D-Ansicht exportiert zufällig einheitliche Map
-* [Projekt] Speicherzuordnungsfehler beim Speichern eines Projekts mit großem Mesh
-* [Viewport] TAA verursacht Artefakte beim Malen in einigen Fällen
-
-<b>Bekannte Probleme:</b>
-
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Ebenenstapel] Eingabequelle nicht pro Ebene gespeichert
-
-### 8.2.0
-
-*(Freigegeben: 6. Oktober 2022)*
-Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrüßungs-Bedienfeld und neues Bedienfeld), Export in SBSAR, Effekten für Ordner, mehreren Verbesserungen für die Lebensqualität und Fehlerbehebungen.**
+Freigabedatum: **2023/04/27**
 
 **Hinzugefügt:**
 
-* [Onboarding] Onboarding-Bereich zur Begrüßung neuer Benutzer
+* &blbrack;Baking-Modus&rbrack; Tastaturbefehl hinzufügen (leer), um den Viewport anzuzeigen/auszublenden
+* &blbrack;Baking-Modus&rbrack; Bei Verwendung der Schaltfläche &quot;Baking führend Mesh ausblenden&quot; immer niedrige Poly-Werte anzeigen
+* &blbrack;Baking-Modus&rbrack; Suffix für &quot;Zuordnung nach Name&quot; basierend auf aktuellem Textursatz anzeigen
+* &lbrack;Import&rbrack; Unterstützung für GLTF-Binärdateien (glb) hinzufügen
+* &lbrack;Textursatz list&rbrack; Menü &quot;Hinzufügen&quot; zum Auswählen oder Erstellen von Shader-Instanzen
+* &lbrack;Textursatz list&rbrack; Schnelles Ändern der Auflösung von Textursatz und UV-Kachel
+* &lbrack;Physische Größe&rbrack; Verbessern des Manipulator-Verhaltens bei der Verwendung von Physische Größe in UV-Projektionen
+* &lbrack;UI&rbrack; &quot;Speichern unter&quot; wieder im Dateimenü anzeigen
+* &lbrack;UI&rbrack; Speichern der Ansichtsauswahl (nur 2D, nur 3D, beide) im UI-Layout
+* &lbrack;USD&rbrack; Weniger vage Fehlermeldung bei der Projekterstellung mit nicht unterstützten USD
+* &lbrack;Python&rbrack; Hinzufügen von Baking führend Ereignissen, um den Fortschritt des Bakings zu verfolgen
+* &lbrack;Python&rbrack; Abbrechen eines Baking zulassen
+* &lbrack;Python&rbrack; &quot;Basierend auf Ausgabevorlage&quot; für Dateityp und Bittiefe beim Exportieren gelegt
+* &lbrack;Python&rbrack; Gelegt Aktualisierungszeit für TextureStateEvent.Update
+
+**Fest:**
+
+* &lbrack;Absturz&rbrack; Seltener Absturz beim Schließen eines Projekts
+* &lbrack;Absturz&rbrack; &blbrack;Baking&rbrack; Mesh-Map-Synchronisierung mit Height oder Krümmung für ein bestimmtes Projekt aktivieren
+* &lbrack;Absturz&rbrack;&lbrack;Scripting&rbrack; Absturz beim Hinzufügen eines Materials nach dem Erstellen einer Shader-Instanz
+* &blbrack;Baking-Modus&rbrack; Die AO-Intensität im neutralen Material hat keine Auswirkungen
+* &blbrack;Baking-Modus&rbrack; Absturz beim Wechseln in den Baking-Modus, bevor das Modell geladen wird
+* &blbrack;Baking-Modus&rbrack; Fehlermeldung &quot;Fehlende Fehlermeldung&quot; auf der Registerkarte &quot;Baking führend Prozess&quot;
+* &blbrack;Baking-Modus&rbrack; Einstellungen für neutrales Material haben nach dem erneuten Importieren eines Meshs keine Auswirkungen
+* &blbrack;Baking-Modus&rbrack; Viewport-Trennzeichen werden global und nicht pro Modus gespeichert.
+* &blbrack;Baking-Modus&rbrack; Visualisierungsproblem: Durchschnittliche Normale verändert die Oberfläche des Käfigs nicht
+* &lbrack;Farbmanagement&rbrack; Die Einstellung &quot;Farbraum automatisch erkennen&quot; ist deaktiviert, wenn OCIO env var vorhanden ist
+* &lbrack;Inhalt&rbrack; Der Maskenkonturfilter weist ein Artefakt mit Height-Eingabe auf.
+* &lbrack;Inhalt&rbrack; Intensitätsregler des Steigung-Weichzeichnungsfilters ist auf 1,0 geklemmt
+* &lbrack;Interop&rbrack; Projekt mit GLTF kann nicht aus Sampler erstellt werden
+* &lbrack;Ebenenstapel&rbrack; Der Wert für die Kachelung der Projektion wird nicht korrekt mit dem Manipulator aktualisiert
+* &lbrack;Linux&rbrack; Versatz zwischen Grafiktablett-Stift und Cursor mit einem HDPI-Wert von mehr als 100 %
+* &lbrack;Python&rbrack; Absturz beim erneuten Importieren eines Meshs nach dem Erstellen eines Projekts
+* &lbrack;Substance&rbrack; 3D-Rauschen funktionieren nach dem erneuten Importieren eines Meshs nicht mehr
+* &blbrack;UV-Kacheln&rbrack; Offset für UV-Projektion wird auf 1 geklemmt
+* &lbrack;Viewport&rbrack; Visuelles Feedback zu geraden Linien ist nicht mehr sichtbar
+* &lbrack;WhatsNew&rbrack; Falscher Zeilenumbruch bei Funktionstiteln
+
+**Bekannte Probleme:**
+
+* &lbrack;Import&rbrack; Einige GLB mit Texturen erhalten keine Texturen in Painter
+
+### 8.3.0
+
+*(Freigegeben: 10. Januar 2023 (1&rbrace;)Zusammenfassung:**Hauptversion mit neuem Importmodus, neuem Baking und Export von USD und Physische Größe-Unterstützung für UV-Projektion***
+
+**Hinzugefügt:**
+
+* &blbrack;Baking-Modus&rbrack; Neuer Baking-Modus, der dem Baking gewidmet ist
+
+* &blbrack;Baking-Modus&rbrack; Tastaturbefehl so einstellen, dass er in den Baking-Modus auf F8 wechselt
+
+* &blbrack;Baking-Modus&rbrack; Schaltfläche &quot;Baking hinzufügen&quot; und &quot;Abbrechen&quot; im Viewport
+
+* &blbrack;Baking-Modus&rbrack; Hinzufügen einer Baking führend Auswahl in der Liste &quot;Textursatz&quot;
+
+* &blbrack;Baking-Modus&rbrack; Fenster &quot;Neue Mesh-Map-Baker hinzufügen&quot;, um Baker auszuwählen
+
+* &blbrack;Baking-Modus&rbrack; Neues Fenster &quot;Mesh-Map-Einstellungen hinzufügen&quot; zum Bearbeiten der Baking-Einstellungen
+
+* &blbrack;Baking-Modus&rbrack; Neues Baking-Protokollfenster hinzufügen, um dem Baking zu folgen
+
+* &blbrack;Baking-Modus&rbrack; Hinzufügen von Baking führend Parametern und Rückgängigmachen von Aktionen zum Verlaufsfenster
+
+* &blbrack;Baking-Modus&rbrack; Breadcrumbs in den Mesh-Map-Einstellungen hinzufügen
+
+* &blbrack;Baking-Modus&rbrack; Hinzufügen von Mesh-Map-Miniaturansichten im Fenster &quot;Mesh-Map Baker&quot;
+
+* &blbrack;Baking-Modus&rbrack; Minimierbares Menü &quot;Visualisierungseinstellungen hinzufügen&quot; im 3D-Viewport
+
+* &blbrack;Baking-Modus&rbrack; Hinzufügen einer Visualisierungseinstellung zum Ein-/Ausblenden des Meshs mit hoher Poly-Intensität
+
+* &blbrack;Baking-Modus&rbrack; Visualisierungseinstellung zum Ein-/Ausblenden des Käfig-Meshs und der Drahtgitter hinzufügen
+
+* &blbrack;Baking-Modus&rbrack; Visualisierungseinstellung hinzufügen, um den Mesh mit geringer Poly-Intensität ein- oder auszublenden
+
+* &blbrack;Baking-Modus&rbrack; Visualisierungseinstellung hinzufügen, um harte Kanten ohne UV-Nähte als Fehler darzustellen
+
+* &blbrack;Baking-Modus&rbrack; Im Viewport über Mesh- und Baking-Fehler informieren, wenn das Baking-Protokoll nicht angezeigt wird
+
+* &blbrack;Baking-Modus&rbrack; Aktion zum Synchronisieren der Baker-Einstellungen auf allen Textursätzen hinzufügen
+
+  Im Fenster &quot;Mesh-Map-Baker&quot; kann jeder Baker (sowie die allgemeinen Einstellungen) über Textursatz hinweg synchronisiert werden, indem Sie auf das Verknüpfungssymbol neben dem Namen klicken. Dadurch wird ein Fenster geöffnet, in dem Sie auswählen können, welche Textursatz dieselben Parameter verwenden sollen.
+
+* &blbrack;Baking-Modus&rbrack; Hinzufügen von Aktionen zum Kopieren und Einfügen von Baker
+
+  Im Fenster &quot;Mesh-Map-Baker&quot; stehen Aktionen zum Kopieren und Übergehen der einzelnen Baker-Einstellungen über Textursätze hinweg zur Verfügung, entweder über das spezielle Menü am oberen Fensterrand oder über das Kontextmenü mit der rechten Maustaste.
+
+* &blbrack;Baking-Modus&rbrack; Schaltfläche &quot;Baking hinzufügen&quot; im Fehlerprotokoll, um von den Fehlereinstellungen nach rechts zu springen
+
+  Wenn ein Baker fehlschlägt oder ein Mesh nicht ordnungsgemäß geladen wird, wird im Protokoll eine Fehlermeldung Baking geführt. Mit einer Schaltfläche neben der Meldung können Sie das Fenster Mesh-Map-Baker und Mesh-Map-Einstellungen ändern, um die entsprechenden Einstellungen anzuzeigen. Dies hilft dabei, die Ursache eines Problems einfacher zu isolieren, um es beheben zu können.
+
+* &blbrack;Baking-Modus&rbrack; Menüs hinzufügen, um Textursatz und Baker zu verwalten
+
+  Sowohl im Fenster &quot;Textursatz-Liste&quot; als auch im Fenster &quot;Mesh-Map-Baker&quot; wurde ein kleines Aktionsmenü hinzugefügt, um das Kopieren und Umkehren von Auswahlen zu unterstützen.
+
+* &blbrack;Baking-Modus&rbrack; Baker-Auswahlliste pro Textursatz teilen
+
+* &blbrack;Baking-Modus&rbrack; Gemeinsame Einstellungen pro Textursatz teilen
+
+* &blbrack;Baking-Modus&rbrack; Mesh mit hoher Poly- und Käfig-Auflösung laden, ohne die Oberfläche einzufrieren
+
+* &blbrack;Baking-Modus&rbrack; Verwenden Sie die Fortschrittsleiste des Viewports, um das Laden des Meshs anzuzeigen
+
+* &blbrack;Baking-Modus&rbrack; Ladestatus des Meshs im Baking-Protokoll hinzufügen
+
+* &blbrack;Baking-Modus&rbrack; Mesh im Viewport während des Bakings umkehren
+
+* &blbrack;Baking-Modus&rbrack; Baking-Reihenfolge auf der Grundlage der Sichtbarkeit des aktuellen Viewports des Meshs festlegen
+
+* &blbrack;Baking-Modus&rbrack; Implizit Baking führend Käfig in Viewport anzeigen
+
+  Wenn keine benutzerdefinierte Käfig-Meshdatei verwendet wird, wird ein automatischer Käfig-Mesh generiert und im Viewport angezeigt. Die Größe basiert auf dem Parameter &quot;Max. Frontalentfernung&quot; aus den allgemeinen Einstellungen des Bakings. Mit dem Mesh &quot;Käfig&quot; wird angegeben, wie weit die Anpassung zwischen dem niedrigen und dem hohen Poly-Wert gehen wird.
+
+* &blbrack;Baking-Modus&rbrack; Übereinstimmende Liste von Mesh-Namen für &quot;Übereinstimmender Name&quot; im Baking-Protokoll anzeigen
+
+* &blbrack;Baking-Modus&rbrack; 3D-Material im Viewport mit neutralem Modell anzeigen
+
+* &blbrack;Baking-Modus&rbrack; Berechnung des Engine im Baking deaktivieren
+
+* &blbrack;Baking-Modus&rbrack; Beim Beenden der App während eines Baking wird eine Warnung angezeigt
+
+* &lbrack;Baker&rbrack; Aktualisieren der Beschriftungen für Anti-Aliasing-Einstellungen
+
+  Die Einstellungswerte für das Anti-Aliasing wurden in &quot;Supersampling&quot; umbenannt und mit einer expliziten Multiplikatornummer versehen, um das Verhalten zu verdeutlichen.
+
+* &lbrack;Baker&rbrack; Aktualisieren Sie die Baker auf Version 2.5.7.
+
+* &lbrack;USD&rbrack; Importieren und Exportieren von Universal Scene Description-Dateien (USD)
+
+* &lbrack;USD&rbrack; Hinzufügen USD Optionen zum Fenster &quot;Neues Projekt&quot; bei Auswahl einer USD Datei
+
+* &lbrack;USD&rbrack; Neues Auswahlfenster &quot;Umfang und Varianten hinzufügen&quot;
+
+  Wenn Sie eine USD-Datei importieren, können Sie durch Klicken auf die Schaltfläche &quot;Ändern&quot; im Fenster &quot;Neues Projekt&quot; oder &quot;Projektkonfiguration&quot; auswählen, welche Teile und Varianten einer USD-Datei importiert werden sollen.
+
+* &lbrack;USD&rbrack; Option &quot;Unterteilungsebenen hinzufügen
+
+  Beim Erstellen eines neuen Projekts mit einer USD Meshdatei, die Unterteilungen enthält, ist es möglich, die Ebene der Unterteilungen mithilfe eines Schiebereglers auszuwählen. Das Projekt wird mit dem unterteilten Mesh erstellt. Die Ebene kann über die Projektkonfiguration geändert werden.
+
+* &lbrack;USD&rbrack; Importieren USD Meshs mit Skin in bestimmten Rahmen
+
+  Wenn Sie ein neues Projekt mit einer USD Meshdatei erstellen, die eine Animation enthält, können Sie den Rahmen mithilfe eines Schiebereglers auswählen, der die eingebettete Timeline-Sequenz widerspiegelt. Der Rahmen kann über die Projektkonfiguration modifiziert werden.
+
+* &lbrack;USD&rbrack;&lbrack;Export&rbrack; Option zum Exportieren USD Dateien hinzufügen
+
+  Das neue Kontrollkästchen &quot;USD exportieren&quot; wurde dem Fenster &quot;Texturen exportieren&quot; hinzugefügt. Wenn diese Option aktiviert ist, können USD sowie Textur Maps mit einer beliebigen Vorlage exportiert werden.
+
+* &lbrack;USD&rbrack;&lbrack;Export&rbrack; USD Dateiformat zum Mesh-Export hinzufügen
+
+* &lbrack;USD&rbrack; Benennen Sie die vorhandene Exportvorgabe &quot;USD PBR Metal Rauheit&quot; um, um sie genauer zu benennen
+
+  Die USD Exportvorlage, die zuvor als &quot;USD PBR Metal Rauheit&quot; bezeichnet wurde, ist weiterhin über &quot;Texturen exportieren&quot; > &quot;Ausgabevorlage&quot; > &quot;USDz&quot; (Apple AR) verfügbar.
+
+* &lbrack;Automatisch Entpackt&rbrack; &quot;Ausrichtung sperren&quot; für Packing hinzufügen
+
+  Neue Option für Einstellungen für den automatischen entpack, mit der die Ausrichtung bestehender UV-Inseln beibehalten werden kann, wenn die Funktion &quot;Packing&quot; verwendet wird. Der Zugriff darauf erfolgt über &quot;Neues Projekt&quot; > &quot;Optionen für Automatisches Entpacken&quot; > &quot;Ausrichtung der UV-Insel&quot;.
+
+* &lbrack;Physische Größe&rbrack; Hinzufügen einer Einstellung zur automatischen Verwendung von Physische Größe im Fülleffekt/in der Ebene
+
+  Eine neue Option zum automatischen Umschalten auf die Skalierung der Physische Größe wurde hinzugefügt, wenn ein Material mit eingebetteter Physische Größe verwendet wird. Sie kann pro Projekt über Neues Projekt oder über Bearbeiten > Projektkonfiguration > Physische Größe > Füllebene-Skalierung auf Physische Größe umschalten, wenn Materialien zugewiesen werden, aktiviert werden.
+
+* &lbrack;Physische Größe&rbrack; Physische Größe für UV-Projektion gelegt
+
+  Die Skalierung der Physische Größe ist jetzt für UV-Projektionen verfügbar - sie aktiviert die automatische Größenänderung für ein Material basierend auf der Physische Größe eines Meshs. Sie kann über &quot;Skalieren > Physische Größe&quot; im Fenster &quot;Füllebene&quot; oder &quot;Effekteigenschaften&quot; ausgewählt werden.
+
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Abfragen der Anwendungsversion zulassen
+
+* &lbrack;Skripterstellung&rbrack;&lbrack;JavaScript&rbrack; API zur Anpassung an neue Baking-Parameter aktualisieren
+
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Baking: Bearbeiten der Parameter für das Baking
+
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Baking: Baking starten/abbrechen
+
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Baking: Methode der selektierten Krümmung
+
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Baking: Auswahl von Bakern/UV-Kacheln
+
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Baking: Baker-Einstellungen auf allen Textursätzen synchronisieren
+
+* &lbrack;SVT&rbrack; Aktivieren der Unterstützung von geringer Hardware auf AMD-GPUs
+
+  Die Hardwarebeschleunigung für das Dünn besetzte virtuelle Textur-System kann jetzt mit AMD-GPUs aktiviert werden. Diese Einstellung wird in den allgemeinen Voreinstellungen automatisch aktiviert.
+
+* &lbrack;Projektion&rbrack; Parameter für zylindrische Projektion umbenennen
+
+  Der Parameter &quot;Cylinder Cap Culling&quot; wurde in &quot;Rückseiten-Ausblendung&quot; umbenannt, um seine Wirkung besser darzustellen. Die zugehörige QuickInfo wurde entsprechend angepasst.
+
+* &lbrack;Projekt&rbrack; Anwendungsversion im Projekt speichern und über Skripterstellung abrufen
+
+  Seit Version 8.2 wird die Version der Anwendung beim Speichern in der spp-Datei gespeichert. Diese Versionsnummer kann mit der Funktion last_saved_substance_painter_version() im Projektmodul der Python-API abgerufen werden. Für Projekte, die vor 8.2 erstellt wurden, ist der zurückgegebene Wert null.
+
+* &lbrack;Import&rbrack; Verbessern der allgemeinen Importzeit von 3D-Modellen
+
+  Wir haben die allgemeine Importzeit von Meshs verbessert. Zum Beispiel die Verkürzung der Wartezeit beim Laden von High-Poly-Meshs zum Baking. Diese Optimierung gilt insbesondere für das Laden von OBJ.
+
+**Fest:**
+
+* &lbrack;Absturz&rbrack; Ändern von Kanälen bei Filtern mit bestimmtem Stapel
+
+* &lbrack;Mac&rbrack;&lbrack;M1&rbrack; Absturz beim Erstellen einer Füllebene und Verlassen des Ebenenstapels
+
+  Dieses Problem kann durch Aktualisieren auf Mac OS 13 (Ventura) behoben werden.
+
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Absturz bei Verwendung von ui.add_dock_widget() mit falschem Typ
+
+* &blbrack;Baking&rbrack; Unvollständige Fehlermeldung im Protokoll, wenn ein Baking fehlschlägt
+
+* &blbrack;Baking&rbrack; Der Speicher wird nach Abschluss des Bakings nicht freigegeben
+
+* &lbrack;Engine&rbrack; Texturen-Cache wird nicht aktualisiert, wenn die Effektsichtbarkeit geändert wird
+
+* &lbrack;Export&rbrack; 2D-Ansicht exportiert zufällig einheitliche Map
+
+* &lbrack;Projekt&rbrack; Speicherzuordnungsfehler beim Speichern eines Projekts mit großem Mesh
+
+* &lbrack;Viewport&rbrack; TAA verursacht beim Malen in einigen Fällen Artefakte
+
+**Bekannte Probleme:**
+
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Ebenenstapel&rbrack; Eingabequelle nicht pro Ebene gespeichert
+
+### 8.2.0
+
+*(Freigegeben: 06. Oktober 2022*)Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrüßungs-Bedienfeld und neues Bedienfeld), Export in SBSAR, Effekten für Ordner, mehreren Verbesserungen für die Lebensqualität und Fehlerbehebungen.**
+
+**Hinzugefügt:**
+
+* &lbrack;Onboarding&rbrack; Onboarding-Bereich zur Aufnahme neuer Benutzer
 
   Es wurde ein neuer Begrüßungsbildschirm hinzugefügt, wenn neue CC-Benutzer Painter zum ersten Mal öffnen.
 
-* [Onboarding] Neuerungen im Bedienfeld zur Verbesserung der Auffindbarkeit neuer Funktionen
+* &lbrack;Onboarding&rbrack; Fenster &quot;Neue Funktionen&quot; zur Verbesserung der Auffindbarkeit neuer Funktionen
 
   Es wurde ein neuer Bildschirm &quot;Neue Funktionen&quot; hinzugefügt, auf dem die wichtigsten neuen Funktionen angezeigt werden. Es wird automatisch angezeigt, wenn Painter nach einem wichtigen Update zum ersten Mal geöffnet wird, und Sie können erneut auf es über Hilfe > Neue Funktionen zugreifen.
 
-* [Onboarding] Alten Begrüßungsbildschirm in &quot;Startseite&quot; umbenennen
+* &lbrack;Onboarding&rbrack; Alte Willkommensseite in &quot;Startbildschirm&quot; umbenennen
 
   Alter Begrüßungsbildschirm wurde in Startbildschirm umbenannt, um Verwechslungen mit dem neuen Begrüßungsbildschirm zu vermeiden.
 
-* [UI] Beheben von Skalierungsproblemen für Bildschirme mit hoher DPI
+* &lbrack;UI&rbrack; Beheben von Skalierungsproblemen für HD-Bildschirme
 
   Verbesserte Anpassung der Painter-Benutzeroberfläche auf HD-Bildschirmen mit benutzerdefinierter Anzeigeskalierung.
 
-* [UI] Vermeiden Sie persistente Fehlermeldungen in der Benutzeroberfläche
+* &lbrack;UI&rbrack; Vermeiden von dauerhaften Fehlermeldungen in der Benutzeroberfläche
 
   Fehlermeldungen aus vorherigen Projekten werden jetzt aus der unteren Statusleiste entfernt.
 
-* [UI] Menü zum Speichern von Überarbeitung
+* &lbrack;UI&rbrack; Menü &quot;Speichern&quot; überarbeiten
 
   Zusätzliche Speicheroptionen sind jetzt in einem Untermenü gruppiert und einige werden aus Konsistenzgründen umbenannt.
 
-* [UI] Speichern und Exportieren/Freigeben von UI-Layouts
+* &lbrack;UI&rbrack; Speichern und Exportieren/Freigeben von UI-Layouts
 
-  Im Menü &quot;Fenster&quot; (Window) gibt es neue Aktionen, mit denen Sie das UI-Layout in Dateien speichern und neu laden können. Die Layouts &quot;Malen&quot; und &quot;Rendern&quot; werden separat gespeichert.
-  &quot;substance\_painter.ui&quot; wurde um verschiedene Funktionen erweitert, mit denen auch UI-Layouts gespeichert, zurückgesetzt und geladen werden können.
+  Im Menü &quot;Fenster&quot; (Window) gibt es neue Aktionen, mit denen Sie das UI-Layout in Dateien speichern und neu laden können. Die Layouts &quot;Malen&quot; und &quot;Rendern&quot; werden separat gespeichert. &quot;substance_painter.ui&quot; wurde um verschiedene Funktionen erweitert, mit denen auch UI-Layouts gespeichert, zurückgesetzt und geladen werden können.
 
 * Hinzufügen von Kopier-/Einfügeaktionen für Mischmodi/Deckkraft einer Ebene
 
@@ -1308,91 +1380,98 @@ Zusammenfassung: **Hauptversion mit neuen Onboarding-Bedienfeldern (neues Begrü
 
   Es wurde die Möglichkeit hinzugefügt, einzelne Parameter innerhalb einer .sbsar-Ressource per Rechtsklick zurückzusetzen.
 
-* [Bedienfeld &quot;Elemente&quot;] Favoritenelemente &quot;Nadel&quot; werden oben im Bedienfeld &quot;Elemente&quot; angezeigt
+* &blbrack;Bedienfeld &quot;Elemente&quot;&blbrack; &quot;Nadel&quot; von bevorzugten Elementen, die oben im Bedienfeld &quot;Elemente&quot; angezeigt werden
 
   Es wurde eine neue Option zum Klicken mit der rechten Maustaste hinzugefügt, um Elemente zu bibliothekieren, mit der sie oben im Bedienfeld als Favoriten Nadel werden können. Sie können auch alle Ihre bevorzugten Assets über &quot;Gespeicherte Suchen&quot; anzeigen.
 
-* [Bedienfeld &quot;Elemente&quot;] Elemente löschen, neu laden und umbenennen
+* &blbrack;Bedienfeld &quot;Elemente&quot;&blbrack; Elemente löschen, neu laden und umbenennen
 
   Kontextmenüoptionen zum Löschen, erneuten Laden und Umbenennen von Elementen in der Benutzerbibliothek wurden hinzugefügt. Sie werden direkt aus ihrem Bibliotheksspeicherort auf der Festplatte gelöscht und vom ursprünglichen Speicherort neu geladen. Elemente, die Teil eines Pakets wie .abr oder .sbsar sind, können nicht einzeln bearbeitet werden.
 
-* [Farbauswahl] Füllen des Effekts &quot;Farbauswahl&quot; mit Füllmethoden
-* [Ebenenstapel] Hinzufügen von Füllmethode und Deckkraft für Filter
-* [Ebenenstapel] Kachelung-Werte größer als 128 für Füllebene/Effekte zulassen
-* [Ebenenstapel] Zylinderdeckel für zylindrische Projektion in Füllebene/Wirkung
+* &lbrack;Farbauswahl&rbrack; Effekt &quot;Füllmethoden für Farbauswahl&quot; definieren.
+
+* &lbrack;Ebenenstapel&rbrack; Füllmethode und Deckkraft auf Filtern anwenden.
+
+* &lbrack;Ebenenstapel&rbrack; Kachelung größer als 128 für Füllebene/Effekte zulassen
+
+* &lbrack;Ebenenstapel&rbrack; Zylinderdeckel für zylindrische Projektion in Füllebene/Wirkung
 
   Bei der zylindrischen Projektion in den Eigenschaften der Füllebene haben Sie jetzt die Möglichkeit, Zylinderkappen zu entfernen.
 
-* [Protokoll] Fehlermeldung anzeigen, wenn sich ein Mesh-Teil beim Erstellen eines UV-Kachel-Projekts in einem negativen Bereich befindet
+* &lbrack;Log&rbrack; Fehlermeldung anzeigen, wenn beim Erstellen eines UV-Kachel-Projekts ein Mesh-Teil im Leerzeichen steht
 
   Es wurde eine deutlichere Fehlermeldung hinzugefügt, wenn ein UV-Kachel-Projekt nicht erstellt werden kann, da UV-Teile in Leerzeichen gefunden werden.
 
-* [Project] Geben Sie beim Öffnen eines Projekts die Version in der Fehlermeldung &quot;Daten zu aktuell&quot; an.
+* &lbrack;Projekt&rbrack; Geben Sie beim Öffnen eines Projekts die Version in der Fehlermeldung &quot;Daten zu aktuell&quot; an.
 
   Wenn Sie ein Projekt öffnen, das für die Anwendung zu neu ist, wird in der Fehlermeldung jetzt die Version des Projekts angezeigt, damit Sie die richtige Anwendungsversion leichter erkennen können.
 
-* [Viewport] Lassen Sie den Mesh von unten beleuchten
+* &lbrack;Viewport&rbrack; Mesh von unten beleuchten
 
   Ein neuer Parameter für die Umgebungsausrichtung wurde unter Anzeigeeinstellungen > Kamera > Umgebungseinstellungen hinzugefügt, um die Umgebungs-Map-Beleuchtung an der Kamera auszurichten, wenn sie auf &quot;Lokal&quot; eingestellt ist.
 
-* [Viewport] Anzeigen von R, G, B und Alpha im Viewport (Einzelanzeigemodus)
+* &lbrack;Viewport&rbrack; Anzeigen von R, G, B und Alpha im Viewport (Einzelanzeigemodus)
 
   Unter Anzeigeeinstellungen > Kanaleinstellungen > Kanalanzeige gibt es eine neue Farbkanaleinstellung, mit der nur die R-, G-, B- oder Kanalkomponente eines Viewports im Einzelanzeigemodus angezeigt werden kann.
 
-* [Shader] Benutzerkanäle als RGBA in Material-Layer-Shadern festlegen
+* &lbrack;Shader&rbrack; Zulassen, dass Benutzerkanäle in Material-Ebenenschattierungen als RGBA festgelegt werden
 
   Bei der Einstellung der Kanalkonfiguration innerhalb eines Shader für die Kanalschichtung ist es nun möglich, das Textursatz des Materials so festzulegen, dass es vom Standardwert abweicht. Auf diese Weise können Benutzer-Farbkanäle anstelle von Graustufen angefordert werden.
 
-* [Exportieren] Exportieren von Texturen als SBSAR zulassen
+* &lbrack;Export&rbrack; Exportieren von Texturen als SBSAR zulassen
 
-  Beim Exportieren von Texturen über das Fenster Datei > Texturen exportieren kann das Dateiformat SBSAR (Substance Archive) ausgewählt werden, um sie neu zu gruppieren. Der Inhalt des SBSAR richtet sich nach der verwendeten Ausgabevorlage.
-  Das Datenformat kann auch in den Exportvorgaben festgelegt werden. Bei Verwendung einer Hybridkonfiguration (SBSAR + Anderes Format) werden Texturen, die ein SBSAR betreffen, gruppiert, während der Rest parallel exportiert wird.
+  Beim Exportieren von Texturen über das Fenster Datei > Texturen exportieren kann das Dateiformat SBSAR (Substance Archive) ausgewählt werden, um sie neu zu gruppieren. Der Inhalt des SBSAR richtet sich nach der verwendeten Ausgabevorlage. Das Datenformat kann auch in den Exportvorgaben festgelegt werden. Bei Verwendung einer Hybridkonfiguration (SBSAR + Anderes Format) werden Texturen, die ein SBSAR betreffen, gruppiert, während der Rest parallel exportiert wird.
 
-* [Exportieren] 16-Bit-Option für EXR Dateiformat Gelegt
+* &lbrack;Export&rbrack; 16-Bit-Option für EXR Dateiformat gelegt
 
   Beim Exportieren EXR Textur-Dateien können Sie jetzt im Fenster &quot;Exporteinstellungen&quot; die Texturen 16f Bit (halbe Fließkommazahl) oder 32f Bit (Fließkommazahl) auswählen (sowohl für Exporteinstellungen als auch Exportvorgaben). Alte Projekte und alte Exportvorgaben werden standardmäßig auf 16f Bit gesetzt, um das alte Verhalten widerzuspiegeln.
 
-* [Python] Ereignis hinzufügen, um zu wissen, wann Textursatz geändert werden
+* &lbrack;Python&rbrack; Ereignis hinzufügen, um zu erfahren, wann Textursatz geändert werden
 
-  Der neue &quot;substance\_painter.event.TextureStateEvent&quot; gibt Aufschluss darüber, ob ein Textursatz entweder aufgrund eines Malen-Strichs, eines hinzugefügten oder eines entfernten Kanals geändert wurde.
+  Mit dem neuen &quot;substance_painter.event.TextureStateEvent&quot; kann ermittelt werden, ob ein Textursatz entweder aufgrund eines Malen-Strichs, eines hinzugefügten oder eines entfernten Kanals geändert wurde.
 
-* [Python] Abrufen und Festlegen von Mesh-Map-Ressourcen in den Textursatz-Einstellungen zulassen
+* &lbrack;Python&rbrack; Mesh-Map-Ressourcen in den Textursatz-Einstellungen abrufen und festlegen
 
-  Neue Funktionen wurden im Modul &quot;substance\_painter.project&quot; hinzugefügt, um Mesh-Map-Ressourcen abzurufen und einzurichten. Diese Funktionen können verwendet werden, um die Mesh-Map zu aktualisieren, auf die in den Textursatz-Einstellungen verwiesen wird.
+  Neue Funktionen wurden im Modul &quot;substance_painter.project&quot; hinzugefügt, um Mesh-Map-Ressourcen abzurufen und einzurichten. Diese Funktionen können verwendet werden, um die Mesh-Map zu aktualisieren, auf die in den Textursatz-Einstellungen verwiesen wird.
 
-* [Plug-ins] Option entfernen, um andere JS-Plug-ins zu erhalten
+* &lbrack;Plugins&rbrack; Option zum Abrufen anderer JS-Plug-ins entfernen
 
   Die Option, JavaScript-Plug-ins abzurufen, wurde entfernt, da sie auf der veralteten Freigabe-Website gehostet wurden.
 
-* [Inhalt] Neue Roblox-Vorlage hinzufügen und Vorgabe exportieren
+* &lbrack;Inhalt&rbrack; Neue Roblox-Vorlage hinzufügen und Vorgabe exportieren
 
   Eine neue Roblox-Projektvorlage &quot;Material Variant&quot; und &quot;Surface Appearance&quot; sowie eine Exportvorgabe wurden hinzugefügt, um den Export von PBR-Texturen nach Roblox zu erleichtern. Auf die Vorlage kann über das Fenster Datei > Neues Projekt zugegriffen werden.
 
 * Substance Engine auf die neueste Version (8.6.3) aktualisieren
-* [Steam] Optimierter Build für Apple Silicon Chipsatz (Apple M1 / M2)
+
+* &lbrack;Steam&rbrack; Optimierter Build für Apple Silicon-Chipsatz (Apple M1/M2)
 
 **Fest:**
 
 * Absturz bei Verwendung von 16k exr
-* [Absturz] Strg Z Nach dem Löschen einer Shader-Instanz
-* [Iray] IoR ist bei einigen Shadern auf 1 blockiert
-* [Win]&#x200B;[Baking] Einige High-Poly-Fehler beim Laden
-* [Farbmanagement] Falscher Farbraumname in der Benutzeroberfläche mit Filtern
-* [Python] Von der Importfunktion zurückgegebene Ressourcenobjekte haben keinen Typ
+
+* &lbrack;Absturz&rbrack; Strg+Z Nach dem Löschen einer Shader-Instanz
+
+* &lbrack;Iray&rbrack; IoR ist bei einigen Shadern auf 1 blockiert
+
+* &lbrack;Win&rbrack;&lbrack;Baking&rbrack; Einige High-Poly können nicht geladen werden
+
+* &lbrack;Farbmanagement&rbrack; Falscher Farbraumname in der Benutzeroberfläche mit Filtern
+
+* &lbrack;Python&rbrack; Von der Importfunktion zurückgegebene Ressourcenobjekte haben keinen Typ
 
   Beim Importieren eines Substance-Pakets in Python gab die Funktion das Paket anstelle der Graf zurück. Das Ressourcenmodul stellt nun Funktionen und Parameter bereit, um die Graf eines Substance-Pakets abzurufen.
 
 **Bekannte Probleme:**
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Ebenenstapel] Eingabequelle nicht pro Ebene gespeichert
-* [Malen] Zeitweiliges Anti-Aliasing verursacht beim Malen in einigen Fällen Artefakte
-* [Exportieren] 2D-Ansicht exportiert zufällig einheitliche Map
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Ebenenstapel&rbrack; Eingabequelle nicht pro Ebene gespeichert
+* &lbrack;Malen&rbrack; Zeitweiliges Anti-Aliasing verursacht beim Malen in einigen Fällen Artefakte
+* &lbrack;Export&rbrack; 2D-Ansicht exportiert zufällig einheitliche Map
 
 ### 8.1.3
 
-*(Freigegeben: 25. August 2022)*
-Zusammenfassung: **Geringfügige Fehlerbehebungsversion**
+*(Freigegeben: 25. August 2022*)Zusammenfassung: **Geringfügige Fehlerbehebungsversion**
 
 **Hinzugefügt:**
 
@@ -1400,427 +1479,416 @@ Zusammenfassung: **Geringfügige Fehlerbehebungsversion**
 
 **Fest:**
 
-* [Shader] Absturz mit altem fehlerhaftem Shader
-* [Material-Ebenen] Materialien können beim erneuten Öffnen eines Projekts verschwinden
+* &lbrack;Shader&rbrack; Absturz mit altem fehlerhaftem Shader
+* &blbrack;Material-Ebenen&blbrack; Material können beim erneuten Öffnen eines Projekts verschwinden
 
 **Bekannte Probleme:**
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Ebenenstapel] Eingabequelle nicht pro Ebene gespeichert
-* [Absturz] Strg Z Nach dem Löschen einer Shader-Instanz
-* [Iray] IoR ist bei einigen Shadern auf 1 blockiert
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Ebenenstapel&rbrack; Eingabequelle nicht pro Ebene gespeichert
+* &lbrack;Absturz&rbrack; Strg+Z Nach dem Löschen einer Shader-Instanz
+* &lbrack;Iray&rbrack; IoR ist bei einigen Shadern auf 1 blockiert
 
 ### 8.1.2
 
-*(Freigegeben: 19. Juli 2022)*
-Zusammenfassung: **Geringfügige Fehlerbehebungsversion**
+*(Freigegeben: 19. Juli 2022*)Zusammenfassung: **Geringfügige Fehlerbehebungsversion**
 
 **Hinzugefügt:**
 
-* [Automatisch Entpackt] Neue Option &quot;Für organische Mesh optimieren&quot; zur Auswahl des Segmentierungsalgorithmus
-* [Physische Größe] Gelegt Einheitsoptionen in &quot;Neues Projekt&quot; und &quot;Projektkonfiguration&quot;
-* [Farbmanagement] Verwenden Sie die Monitoranzeige standardmäßig, wenn Sie ACE
-* [Farbmanagement]&#x200B;[Python] Berücksichtigen Sie ACE env-var-Vorgabedatei beim Erstellen von Projekten
-* [Farbmanagement] Setzen Sie die Farbmanagement-Einstellungen im Fenster &quot;Neues Projekt&quot; zurück, wenn sich die Konfiguration ändert
-* [Farbmanagement] Deaktivieren Sie den Zugriff auf die OCIO, wenn env-var vorhanden ist
-* [Farbmanagement] Sicheres Aktualisieren ACE Einstellungen, wenn ein Parameter nicht mehr vorhanden ist
+* &lbrack;Automatisch Entpackt&rbrack; Neue Option &quot;Für organische Mesh optimieren&quot; zur Auswahl des Segmentierungsalgorithmus
+* &lbrack;Physische Größe&rbrack; Einheitenoptionen in &quot;Neues Projekt&quot; und &quot;Projektkonfiguration&quot; gelegt
+* &lbrack;Farbmanagement&rbrack; Verwenden Sie die Monitoranzeige standardmäßig, wenn Sie ACE verwenden
+* &lbrack;Farbmanagement&rbrack;&lbrack;Python&rbrack; Berücksichtigung ACE env-var-Vorgabedatei beim Erstellen eines Projekts
+* &lbrack;Farbmanagement&rbrack; Zurücksetzen der Farbmanagement-Einstellungen im Fenster &quot;Neues Projekt&quot;, wenn sich die Konfiguration ändert
+* &lbrack;Farbmanagement&rbrack; Zugriff auf OCIO deaktivieren, wenn env-var vorhanden ist
+* &lbrack;Farbmanagement&rbrack; Sicheres Aktualisieren ACE Einstellungen, wenn kein Parameter mehr vorhanden ist
 * Substance Engine auf Version 8.6.0 aktualisieren
-* [Exportieren] Fügen Sie eine neue GLTF-Exportvorgabe mit Versatz-Unterstützung hinzu
-* [Scripting]&#x200B;[Python] Abrufen von Ressourceninformationen (einschließlich benutzerdefinierter Metadaten)
-* [Scripting]&#x200B;[Python] Funktion zur Abfrageliste der Mesh pro Textursatz hinzufügen
-* [Inhalt] Neue Mischervorlage hinzufügen und Vorgabe exportieren
+* &lbrack;Export&rbrack; Neue GLTF-Exportvorgabe mit Versatz-Unterstützung hinzufügen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Abrufen von Ressourceninformationen (einschließlich benutzerdefinierter Metadaten)
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Funktion zur Abfrageliste der Mesh-Namen pro Textursatz hinzufügen
+* &lbrack;Inhalt&rbrack; Neue Misch- und Exportvorgabe hinzufügen
 
 **Fest:**
 
-* [MacOS] Absturz beim Starten von Iray in einigen Fällen
-* [Miniaturansichten] Regal-Miniaturansichten werden nicht richtig geladen
+* &lbrack;MacOS&rbrack; Absturz beim Starten von Iray in einigen Fällen
+* &Klammer;Miniaturen&Klammer; Regal-Miniaturansichten werden nicht richtig geladen
 * Mehrere UV-Kanäle werden ignoriert.
-* [Automatisch Entpackt] Unnötige Berechnung beim Aufteilen langer Inseln
-* [Automatisch Entpackt] Option zur Vermeidung länglicher Inseln, die nicht berücksichtigt werden
-* [Automatisch Entpackt] Verlust zusätzlicher Daten (Scheitelpunkt-Farben) beim Umpacken von UVs
-* [UI] Horizontale Bildlaufleiste im Eigenschaftsfenster, wenn Farbmanagement aktiviert ist
-* [Farbmanagement] OCIO fehlen substance\_3d\_painter\_standard\_srgb
-* [Generator] Falsche Verwendung von Benutzerdaten &quot;deaktiviert&quot;
-* [Farbmanagement] Dropdown-Liste &quot;Nicht kompatibel&quot; für Farbraum sollte nicht klickbar sein
-* [Farbmanagement]&#x200B;[Shader] sRGB override define funktioniert nicht mehr
-* [Generator] Falsche Verwendung von Benutzerdaten &quot;deaktivieren&quot;
-* [Ebenenstapel] Fehlerhafte Vorschauen bei Projekten mit UV-Kacheln
-* [Shader] Die API-Dokumentation ist mit den Bent normals nicht vollständig auf dem neuesten Stand.
-* [Export]&#x200B;[Interoperabilität] Kann nicht mit Sonderzeichen an Stager gesendet werden.
-* [Inhalt] Einige Miniaturansichten von Pinselvorgaben sind leer oder zu dunkel
+* &lbrack;Automatisch Entpackt&rbrack; Unnötige Berechnung bei der Teilung langer Inseln
+* &lbrack;Automatisch Entpackt&rbrack; Option zur Vermeidung länglicher Inseln, die nicht berücksichtigt werden
+* &lbrack;Automatisch Entpackt&rbrack; Verlust zusätzlicher Daten (Scheitelpunkt-Farben) beim Umpacken von UVs
+* &lbrack;UI&rbrack; Horizontale Bildlaufleiste im Eigenschaftenfenster, wenn Farbmanagement aktiviert ist
+* &lbrack;Farbmanagement&rbrack; OCIO Konfigurationen fehlen substance_3d_painter_standard_srgb
+* &lbrack;Generator&rbrack; Falsche Verwendung von Benutzerdaten &quot;deaktiviert&quot;
+* &lbrack;Farbmanagement&rbrack; Die Dropdown-Liste &quot;Nicht kompatibel&quot; im Farbraum sollte nicht anklickbar sein.
+* &lbrack;Farbmanagement&rbrack;&lbrack;Shader&rbrack; sRGB override define funktioniert nicht mehr
+* &lbrack;Generator&rbrack; Falsche Verwendung von Benutzerdaten &quot;deaktivieren&quot;
+* &lbrack;Ebenenstapel&rbrack; Fehlerhafte Vorschauen bei UV-Kacheln-Projekten
+* &lbrack;Shader&rbrack; Die API-Dokumentation ist mit den Bent normals nicht vollständig auf dem neuesten Stand.
+* &lbrack;Export&rbrack;&lbrack;Interoperabilität&rbrack; Kann nicht mit Sonderzeichen an Stager gesendet werden
+* &lbrack;Inhalt&rbrack; Einige Miniaturansichten von Pinselvorgaben sind leer oder zu dunkel
 
 **Bekannte Probleme:**
 
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
-* [Ebenenstapel] Eingabequellen werden nicht pro Ebene gespeichert
-* [Absturz] Strg Z Nach dem Löschen einer Shader-Instanz
-* [Iray] IoR ist bei einigen Shadern auf 1 blockiert
-* [Shader] Absturz mit altem fehlerhaftem Shader
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
+* &lbrack;Ebenenstapel&rbrack; Eingabequellen werden nicht pro Ebene gespeichert
+* &lbrack;Absturz&rbrack; Strg+Z Nach dem Löschen einer Shader-Instanz
+* &lbrack;Iray&rbrack; IoR ist bei einigen Shadern auf 1 blockiert
+* &lbrack;Shader&rbrack; Absturz mit altem fehlerhaftem Shader
 
 ### 8.1.1
 
-*(Freigegeben: 28. Juni 2022)*
-Zusammenfassung: **Minor Release-Hotfix**
+*(Freigegeben: 28. Juni 2022*)Zusammenfassung: **Hotfix für Nebenversion**
 
 **Hinzugefügt:**
 
-* [Ebenenstapel] Mit Alt-Klick auf Maske wird die Auswahl von Effekten nicht mehr aufgehoben
+* &lbrack;Ebenenstapel&rbrack; Alt-Klick auf Maske hebt Auswahl von Effekten nicht mehr auf
 
 **Fest:**
 
-* [Absturz] Öffnen des alten Projekts im Einzelansichtsmodus gespeichert
-* [Absturz] Löschen eines Generators in Eigenschaften
-* [Textursatz-Einstellungen] Normale/Ambient occlusion-Abmischung und Height-zu-Normal-Methoden sind fehlerhaft
-* [Exportieren] Exportieren von Texturen mit Diffusion-Innenabständen rendert schwarze Maps
+* &lbrack;Absturz&rbrack; Öffnen von im Einzelansichtsmodus gespeicherten alten Projekten
+* &lbrack;Absturz&rbrack; Generator in Eigenschaften löschen
+* &blbrack;Textursatz-Einstellungen&rbrack; Normale/Ambient occlusion-Mischung und Height-zu-Normal-Methoden sind nicht mehr funktionsfähig
+* &lbrack;Export&rbrack; Texturen mit Innenabständen exportieren macht schwarze Diffusionen.
 
 **Bekannte Probleme:**
 
-* [MacOS] Absturz beim Starten von Iray auf Monterey
-* [Vorschau-Miniaturansicht] Vereinfachte Miniaturansichten werden nicht aktualisiert, wenn ein Anker verwendet wird
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* &lbrack;MacOS&rbrack; Absturz beim Starten von Iray auf Monterey
+* &blbrack;Vorschau-Miniatur&blbrack; Vereinfachte Miniaturen werden nicht aktualisiert, wenn ein Anker verwendet wird
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
 
 ### 8.1.0
 
-*(Freigegeben: 7. Juni 2022)*
-Zusammenfassung: **Hauptversion mit ICC-Unterstützung, Material-Skalierung auf der Grundlage von Physische Größe-Daten, neue Baker, Verbesserungen an der FarbPipette und eine Reihe zusätzlicher Inhalte**
+*(Freigegeben: 07. Juni 2022*)Zusammenfassung: **Hauptversion mit ICC-Unterstützung, Material-Skalierung auf der Grundlage von Physische Größe-Daten, neue Baker, Verbesserungen an der FarbPipette und eine Reihe zusätzlicher Inhalte**
 
 **Hinzugefügt:**
 
-* [Farbmanagement] Unterstützung für ICC-Profile mit Adobe Color Engine hinzufügen (ACE)
-* [Farbmanagement] Unterstützung für &quot;Adobe 98 RGB&quot; als Arbeitsfarbraum für ICC hinzufügen
-* [Farbmanagement] Konfigurieren von ACE/ICC-Einstellungen über eine Konfigurationsdatei zulassen
-* [Farbmanagement] Zulassen, dass lineare Farbwerte im Farbwähler mit dem Legacy-Modus eingegeben werden
-* [Farbmanagement] Geben Sie das Farbprofil an, das für die Farbauswahl außerhalb der Benutzeroberfläche verwendet wird.
-* [Farbmanagement] Merken Sie sich den letzten im Viewport ausgewählten Anzeigewert.
-* [Farbmanagement]&#x200B;[Substance] Sorgen Sie dafür, dass Generatoren/Filter mit dem Farbmanagement ordnungsgemäß funktionieren.
-* [Farbmanagement]&#x200B;[Substance] Fügen Sie neue Schlüsselwörter für die Farbraumüberschreibung $working und $standardsrgb hinzu
-* [Physische Größe]&#x200B;[Engine] Extrahieren von Physische Größe-Informationen aus Mesh
-* [Physische Größe]&#x200B;[Engine] Physische Größe Berechnung
-* [Physische Größe] Leg von Optionen zur Verwendung von Physische Größe in der Benutzeroberfläche
-* [Physische Größe] Visuelle Helfer im Viewport hinzufügen
-* [Baking] Height-Baker hinzufügen
-* [Baking] Bent normals-Baker hinzufügen
-* [Baking] Baker für Deckkraft hinzufügen
-* [Pipette] Neue Farb-Pipettenvorschau neben der Maus und Farbmanagement
-* [Pipette] Das Farbwählerbedienfeld wird wieder an der letzten Position angezeigt, wenn es erneut geöffnet wird
-* [Pipette] Ein neues Symbol für die Material-Auswahl
-* [Pipette] Farbe verwaltet die Kanalvorschau des Farbwählers
-* [Pipette] Fügen Sie der Pipette eine Funktion zum Klicken hinzu, um diese auszuwählen
-* [Eye Dropper] Kanalauswahl aktiviert nicht aktive Materialien nicht mehr
-* [Pipette] Pipette mit Tastaturbefehl verwenden
-* [Pipette] Die Pipette nimmt den relevanten Kanal auf, falls zutreffend.
-* [Pipette] Beim Aufrufen des Farbwählermodus werden alle Tastaturbefehle deaktiviert
-* [Pipette] Automatische Auswahl des Hexadezimalfelds entfernen
-* [Pipette] Schließen Sie das Bedienfeld nicht, wenn Sie die Material-Auswahl verwenden
-* [Pipette] Neuer deaktivierter Zustand, wenn der Kanal nicht zur Auswahl verfügbar ist
-* [Exportieren] Fügen Sie das Attribut &quot;Tangente&quot; dem glTF-Export hinzu
+* &lbrack;Farbmanagement&rbrack; Unterstützung für ICC-Profile mit Adobe Color Engine hinzufügen (ACE)
+* &lbrack;Farbmanagement&rbrack; Unterstützung für &quot;Adobe 98 RGB&quot; als Arbeitsfarbraum für ICC hinzufügen
+* &lbrack;Farbmanagement&rbrack; Konfigurieren von ACE/ICC-Einstellungen über eine Konfigurationsdatei zulassen
+* &lbrack;Farbmanagement&rbrack; Zulassen, dass lineare Farbwerte im Farbwähler mit dem Legacy-Modus eingegeben werden
+* &lbrack;Farbmanagement&rbrack; Festlegen des Farbprofils für die Farbauswahl außerhalb der Benutzeroberfläche zulassen
+* &lbrack;Farbmanagement&rbrack; Erinnern Sie sich an den letzten im Viewport ausgewählten Anzeigewert
+* &lbrack;Farbmanagement&rbrack;&lbrack;Substance&rbrack; Generatoren/Filter mit dem Farb-Management für die einwandfreie Funktion sorgen
+* &lbrack;Farbmanagement&rbrack;&lbrack;Substance&rbrack; Neue Schlüsselwörter für die Farbraumüberschreibung hinzufügen $working und $standardsrgb
+* &lbrack;Physische Größe&rbrack;&lbrack;Engine&rbrack; Informationen zur Physische Größe aus dem Mesh extrahieren
+* &lbrack;Physische Größe&rbrack;&lbrack;Engine&rbrack; Physische Größe Berechnung
+* &lbrack;Physische Größe&rbrack; Leg von Optionen für die Verwendung von Physische Größe in der Benutzeroberfläche
+* &lbrack;Physische Größe&rbrack; Visuelle Helfer zum Viewport hinzufügen
+* &blbrack;Baking&rbrack; Height-Baker hinzufügen
+* &blbrack;Baking&rbrack; Bent normals-Baker hinzufügen
+* &blbrack;Baking&rbrack; Deckkraft-Baker hinzufügen
+* &lbrack;Pipette&rbrack; Neue Farbvorschau mit Pipette neben der Maus und Farb-Management
+* &lbrack;Pipette&rbrack; Das Bedienfeld &quot;Farbwähler&quot; wird wieder an der letzten Position angezeigt, wenn es erneut geöffnet wird
+* &lbrack;Pipette&rbrack; Ein neues Symbol für die Material-Auswahl
+* &lbrack;Pipette&rbrack; Farb-Management der Kanalvorschau des Farbwählers
+* &lbrack;Pipette&rbrack; Hinzufügen von Click-to-Select-Funktionen zur Pipette
+* &lbrack;Pipette&rbrack; Kanalauswahl aktiviert nicht aktive Materialien nicht mehr
+* &lbrack;Pipette&rbrack; Pipette mit einem Tastaturbefehl verwenden
+* &lbrack;Pipette&rbrack; Die Pipette nimmt ggf. den entsprechenden Kanal auf.
+* &lbrack;Pipette&rbrack; Wenn Sie den Farbwählermodus aufrufen, werden alle Tastaturbefehle deaktiviert
+* &lbrack;Pipette&rbrack; Entfernen der automatischen Auswahl des Hexadezimalfelds
+* &lbrack;Pipette&rbrack; Schließen Sie das Bedienfeld nicht, wenn Sie die Material-Auswahl verwenden
+* &lbrack;Pipette&rbrack; Neuer deaktivierter Status, wenn der Kanal nicht zur Auswahl verfügbar ist
+* &lbrack;Export&rbrack; Tangente-Attribut zum glTF-Export hinzufügen
 * Substance Engine auf Version 8.4 aktualisieren
 * Update Auto Entpack auf 0.9.0
 * Update auf Qt 5.15.8
 * Update auf Python 3.9
-* [Shader] Unterstützung für Bent normals-Schattierung hinzufügen
-* [MacOS] Unterstützung von 3DConnection SpaceMouse
-* [Python] Dokumentieren der in der API verwendeten Python-Version
-* [Inhalt] Sechs neue 3D-Rauschen mit 105 Vorgaben hinzufügen
-* [Inhalt] 20 neue Schmutz Maps und 2 Stofffalten
-* [Inhalt] Aktualisieren der Exportvoreinstellung &quot;Mesh-Map&quot;, um neue Baker zu verwenden
-* [Inhalt] Weichzeichnungs- und Verkrümmungsfilter hängen von der Steigung des Textursatzes ab
-* [Inhalt] Aktualisieren von Beispielprojekten, um die 3 neuen Baker zu verwenden
+* &lbrack;Shader&rbrack; Unterstützung für Bent normals-Schattierung hinzufügen
+* &lbrack;MacOS&rbrack; Unterstützung von 3DConnection SpaceMouse
+* &lbrack;Python&rbrack; Dokumentieren der in der API verwendeten Python-Version
+* &lbrack;Inhalt&rbrack; 6 neue 3D-Rauschen mit 105 Vorgaben hinzufügen
+* &lbrack;Inhalt&rbrack; 20 neue Schmutz-Maps und 2 Stofffaltenmuster
+* &lbrack;Inhalt&rbrack; Exportvoreinstellung &quot;Mesh-Map&quot; aktualisieren, um neue Baker zu verwenden
+* &lbrack;Inhalt&rbrack; Die Steigung des Weichzeichners und der Verkrümmungsfilter hängen von der Auflösung des Textursatzes ab
+* &lbrack;Inhalt&rbrack; Beispielprojekte aktualisieren, um die 3 neuen Baker zu verwenden
 
 **Fest:**
 
-* [glTF] glTF kann nicht mit Sonderzeichen geöffnet werden
-* [Engine] Artefakte mit deaktivierter Anisotropie und SVT
-* [MacOS]&#x200B;[M1] Intelligenten Materials werden nicht korrekt angezeigt
-* [Mesh Processing] Mesh können nicht aus Modeler importiert werden.
-* [UI] Horizontale Bildlaufleiste in neuem Projektfenster mit aktiviertem Farbmanagement
-* [Farbmanagement] Arbeitsfarbraumwert fehlt in der Farbauswahl bei einigen OCIO
-* [Farbmanagement] Pinselvorschau im Viewport ist nicht farbverwaltet
-* [SpaceMouse] Pivot wird nicht sofort mit Fokusänderung aktualisiert und kann außerhalb des Modells liegen
-* [Exportieren]&#x200B;[USD] Exportierte USD haben eine falsche Struktur.
-* [USD] Ambient occlusion-Problem beim Exportieren
-* [Inhalt] Mesh der Miniaturansicht entsprechend dem Vorschaukugel-Beispielprojekt aktualisieren
+* &lbrack;glTF&rbrack; glTF mit Sonderzeichen kann nicht geöffnet werden
+* &lbrack;Engine&rbrack; Artefakte mit deaktivierter Anisotropie und SVT
+* &lbrack;MacOS&rbrack;&lbrack;M1&rbrack; Intelligente Material werden nicht korrekt angezeigt
+* &lbrack;Mesh-Verarbeitung&rbrack; Mesh können nicht aus Modeler importiert werden
+* &lbrack;UI&rbrack; Horizontale Bildlaufleiste in neuem Projektfenster mit aktiviertem Farbmanagement
+* &lbrack;Farbmanagement&rbrack; Im Farbwähler fehlt bei einigen OCIO der Arbeitsfarbraumwert
+* &lbrack;Farbmanagement&rbrack; Die Pinselvorschau im Viewport ist nicht farbverwaltet
+* &lbrack;SpaceMouse&rbrack; Pivot wird nicht sofort mit Fokusänderung aktualisiert und manchmal außerhalb des Modells
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; Exportierte USD haben eine falsche Struktur
+* &lbrack;USD&rbrack; Ambient occlusion-Problem beim Exportieren
+* &lbrack;Inhalt&rbrack; Mesh der Miniaturansicht an das Vorschaukugel-Beispielprojekt anpassen
 
 **Bekannte Probleme:**
 
 * Texturen mit Innenabständen exportieren macht schwarze Diffusionen.
 * Normale/Ambient occlusion-Mischung ist defekt
-* [MacOS] Absturz beim Starten von Iray in seltenen Fällen
-* [Vorschau-Miniaturansicht] Vereinfachte Miniaturansichten werden nicht aktualisiert, wenn ein Anker verwendet wird
-* [Farbmanagement] HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen festgeklemmte Farben
+* &lbrack;MacOS&rbrack; Absturz beim Starten von Iray in seltenen Fällen
+* &blbrack;Vorschau-Miniatur&blbrack; Vereinfachte Miniaturen werden nicht aktualisiert, wenn ein Anker verwendet wird
+* &lbrack;Farbmanagement&rbrack; HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen geklemmte Farben
 
 ## Version 7
 
 ### 7.4.3
 
-*(Freigegeben: 11. April 2022)*
-Zusammenfassung: **Bugfix mit Unterstützung von 3D-Verbindung SpaceMouse im 2D-Viewport**
+*(Freigegeben: 11. April 2022*)Zusammenfassung: **Bugfix mit Unterstützung von 3D-Verbindung SpaceMouse im 2D-Viewport**
 
 **Hinzugefügt:**
 
-* [SpaceMouse] Unterstützung von 3DConnection SpaceMouse im 2D-Viewport
+* &lbrack;SpaceMouse&rbrack; Unterstützung von 3DConnection SpaceMouse im 2D-Viewport
 
 **Fest:**
 
-* [Farbwähler] Kann nicht in das Hexadezimalfeld geschrieben werden
-* [Farbmanagement] Ressourcen, die im Projektion-Modus verwendet werden, werden in der Überlagerung nicht farbverwaltet
-* [Farbmanagement] Fehler werden nicht im Protokoll gemeldet.
-* [SpaceMouse] Generische Fehlermeldung entfernen, wenn der Benutzer keine SpaceMouse hat
-* [SpaceMouse] Beim Laden eines Projekts ist der Drehpunkt immer ausgeblendet.
-* [Baker] Die Einstellung &quot;Durchschnittliche Normale&quot; hat keine Auswirkungen auf UV-Kachel-Projekte
-* [UV-Kachel] Inaktive UV-Kachelüberlagerungen verschwinden beim erneuten Laden von Mesh mit verschiedenen Kacheln
-* [Scripting]&#x200B;[Python] Remote-Scripting ist beschädigt
-* [Scripting]&#x200B;[Python] Mehrere Kanäle können nicht von der API abgefragt werden und es wird ein Fehler ausgelöst.
-* [Scripting]&#x200B;[Python] Absturz bei Verwendung des ProjectEditionEntered-Ereignisses
-* [Scripting]&#x200B;[Python] Absturz beim Aufruf von get\_active\_Stapel()
+* &Klammer;Farbwähler&Klammer; Schreibzugriff im Hexadezimalfeld nicht möglich
+* &lbrack;Farbmanagement&rbrack; Im Projektion-Modus verwendete Ressourcen werden in der Überlagerung nicht farbverwaltet
+* &lbrack;Farbmanagement&rbrack; Fehler werden nicht im Protokoll gemeldet.
+* &lbrack;SpaceMouse&rbrack; Generische Fehlermeldung entfernen, wenn der Benutzer keine SpaceMouse hat
+* &lbrack;SpaceMouse&rbrack; Beim Laden eines Projekts ist der Drehpunkt immer ausgeblendet
+* &lbrack;Baker&rbrack; Die Einstellung &quot;Durchschnittliche Normale&quot; hat keine Auswirkungen auf UV-Kachel-Projekte
+* &lbrack;UV-Kachel&rbrack; Inaktive Überlagerungen von UV-Kacheln verschwinden beim erneuten Laden von Mesh mit verschiedenen Kacheln
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Remote-Skripterstellung ist fehlerhaft
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Mehrere Kanäle können nicht von der API abgefragt werden und es löst einen Fehler aus
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Absturz bei der Verwendung des ProjectEditionEntered-Ereignisses
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Absturz beim Aufruf von get_active_Stapel()
 
 **Bekannte Probleme:**
 
 * 3D-Verbindung SpaceMouse wird auf MacOS nicht unterstützt
-* [UI] Horizontale Bildlaufleiste mit Farbmanagement, die in einigen Fällen in neuen Projektfenstern angezeigt wird
-* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
+* &lbrack;UI&rbrack; Horizontale Bildlaufleiste mit Farbmanagement, die in einigen Fällen in einem neuen Projektfenster angezeigt wird
+* &lbrack;Mac M1&rbrack; Intelligente Material werden nicht korrekt angezeigt
 
 ### 7.4.2
 
-*(Freigegeben: 8. März 2022)*
-Zusammenfassung: **Bugfix mit Unterstützung von 3D-Verbindung, SpaceMouse und Verbesserungen des Farbmanagements (OCIO)**
+*(Freigegeben: 08. März 2022*)Zusammenfassung: **Bugfix mit Unterstützung von Verbesserungen für 3D-Verbindung, SpaceMouse und Farbmanagement (OCIO)**
 
 **Hinzugefügt:**
 
-* [SpaceMouse]&#x200B;[Windows] Unterstützung der 3D-Verbindung von SpaceMouse im 3D-Viewport für die Navigation
-* [SpaceMouse]&#x200B;[Windows] Grundlegende Tastaturbefehle/Tasten für Pro- und Enterprise-SpaceMouse-Modelle im 3D-Viewport
-* [SpaceMouse]&#x200B;[Windows] Dediziertes Drehmittelsymbol im 3D-Viewport
-* [Farbmanagement] Verwenden Sie Rollen aus OCIO Konfiguration, um Standardeinstellungen zu ändern
-* [Farbmanagement] Farbmanagement des Eigenschaftenfensters für Farb-Widgets
-* [Farbmanagement] Farbmanagement des Eigenschaftenfensters für die Vorschau des Materials
-* [Farbmanagement] Farbfelder im Farbwähler verwalten
-* [Farbmanagement] Fügen Sie eine Einstellung hinzu, um den standardmäßigen sRGB-Farbraum zu definieren
-* [Farbmanagement] Hinzufügen des sRGB-Standardfarbraums aus OCIO Konfiguration in der Farbwähler-Auswahlliste &quot;Anzeige&quot;
-* [Farbmanagement] Verbesserungen für das Menü zum Überschreiben des Farbraums
-* [Farbmanagement] Überschreiben des Umgebungs-Map-Farbraums in den Anzeigeeinstellungen zulassen
-* [Farbmanagement] Zeichnen von Farbwählerverläufen basierend auf der aktuellen Anzeige
-* [Farbmanagement] HDR standardmäßig im Farbeditor Beschränkt
-* [Farbmanagement] Passthrough (kein Farbraum) für Filter im Legacy-Modus verwenden
-* [Farbmanagement] Anzeige von Farbverläufen im Farbeditor auf Übereinstimmung mit dem Bereich [0-1] beschränken
-* [Farbmanagement] Ausblenden der Anzeigeselektor im Farbwähler im Modus &quot;Legacy&quot;
-* [Farbmanagement] Hex-Code für Farbwähler immer im sRGB-Farbraum
-* [Farbmanagement] Deaktivieren der Farbwähler-Dropdown-Liste &quot;Anzeige&quot; für Datenkanäle
-* [Optimierung] Der Verkrümmungs-Raster berechnet nur überdeckte UV-Kacheln neu.
-* [Exportieren] Exportieren von UV-Kachel-Projekten für Sketchfab, USD und glTF zulassen
-* [Scripting]&#x200B;[Python] Ändern der Tonzuordnungsfunktion zulassen
+* &lbrack;SpaceMouse&rbrack;&lbrack;Windows&rbrack; Unterstützung der 3D-Verbindung SpaceMouse im 3D-Viewport für die Navigation
+* &lbrack;SpaceMouse&rbrack;&lbrack;Windows&rbrack; Grundlegende Tastaturbefehle/Tasten für Pro- und Enterprise SpaceMouse-Modelle im 3D-Viewport
+* &lbrack;SpaceMouse&rbrack;&lbrack;Windows&rbrack; Dediziertes Drehmittensymbol im 3D-Viewport
+* &lbrack;Farbmanagement&rbrack; Rollen aus OCIO Konfiguration verwenden, um Standardeinstellungen zu ändern
+* &lbrack;Farbmanagement&rbrack; Farb-Management des Eigenschaftenfensters für Farb-Widgets
+* &lbrack;Farbmanagement&rbrack; Farb-Management des Eigenschaftenfensters für die Vorschau des Materials
+* &lbrack;Farbmanagement&rbrack; Farbfelder in der Farbauswahl verwalten
+* &lbrack;Farbmanagement&rbrack; Fügen Sie eine Einstellung hinzu, um den standardmäßigen sRGB-Farbraum zu definieren
+* &lbrack;Farbmanagement&rbrack; Hinzufügen des sRGB-Standardfarbraums aus OCIO Konfiguration in der Farbwähler-Anzeigeliste
+* &lbrack;Farbmanagement&rbrack; Verbesserungen für das Menü zum Überschreiben des Farbraums
+* &lbrack;Farbmanagement&rbrack; Überschreiben des Umgebungs-Map-Farbraums in den Anzeigeeinstellungen zulassen
+* &lbrack;Farbmanagement&rbrack; Farbwähler-Verläufe basierend auf aktueller Anzeige zeichnen
+* &lbrack;Farbmanagement&rbrack; Standardmäßig HDR im Farbeditor beschränkt
+* &lbrack;Farbmanagement&rbrack; Passthrough (keinen Farbraum) für Filter im Legacy-Modus verwenden
+* &lbrack;Farbmanagement&rbrack; Anzeige von Farbverläufen im Farbeditor auf &lbrack;0-1&rbrack; beschränken Spanne
+* &lbrack;Farbmanagement&rbrack; Anzeigeselektor in der Farbauswahl im Legacy-Modus ausblenden
+* &lbrack;Farbmanagement&rbrack; Hex-Code für Farbwähler immer im sRGB-Farbraum
+* &lbrack;Farbmanagement&rbrack; Deaktivieren der Farbauswahl-Dropdown-Liste für Datenkanäle
+* &lbrack;Optimierung&rbrack; Mit &quot;Verkrümmen-Raster&quot; werden nur überdeckte UV-Kacheln neu berechnet
+* &lbrack;Export&rbrack; Exportieren von UV-Kachel-Projekten für Sketchfab, USD und glTF zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Ändern der Tonzuordnungsfunktion zulassen
 
 **Fest:**
 
-* [Sketchfab] Durch die Aktualisierung des vorhandenen Modells wird am Ende ein neues Modell erstellt.
-* [Sketchfab] Absturz bei der Suche nach einem zuvor aktualisierten Modell
+* &lbrack;Sketchfab&rbrack; Durch die Aktualisierung des vorhandenen Modells wird am Ende ein neues Modell erstellt.
+* &lbrack;Sketchfab&rbrack; Absturz bei der Suche nach einem zuvor aktualisierten Modell
 * Absturz beim Exportieren nach USD
 * Absturz beim Erstellen einer neuen Shader-Instanz in der Geometriemaske oder beim Ausblenden der Geometrie
-* Absturz [Elementfenster importieren] beim Ändern des Typs von importierten Ressourcen
+* &lbrack;Elementfenster importieren&rbrack; Absturz beim Ändern des Typs von importierten Ressourcen
 * Normale Mesh-Map werden bei Verwendung in Ebenenstapel invertiert
-* [Substance] Der Benutzerdaten-Mischmodus wird nicht berücksichtigt.
-* [Farbmanagement] Bitmaps mit Farbraum im Dateinamen werden als UV-Kachel Sequenzen importiert
-* [Farbmanagement] Farbverwaltete Ausgaben von Substance Graf befinden sich im falschen Farbraum
-* [Farbmanagement] Polygon-Füllwerkzeug zeigt die falsche Farbe an
-* [Farbmanagement] ACE Tonwertumsetzer wird auf Kanäle im Solomodus angewendet
-* [Farbmanagement] Die Kugelbeleuchtung der Werkzeugvorschau ist nicht farbverwaltet
-* [Farbmanagement]&#x200B;[Exportieren] Konvertierte Karten werden falsch konvertiert.
-* [Scripting]&#x200B;[Python]&#x200B;[Farbmanagement] Projekte, die mit Vorlage und OCIO Umgebungsvariablen erstellt wurden, befinden sich im Modus &quot;Veraltet&quot;.
-* [Scripting]&#x200B;[Python] Die JavaScript-Evaluierungsfunktion kann beim Start nicht verwendet werden.
-* [3D-Adobe-Angebot] Painter kann nicht gestartet werden, wenn regionale Einstellungen mit Sprachen verwendet werden, die nicht standardmäßig unterstützt werden
+* &lbrack;Substance&rbrack; Der Mischmodus für Benutzerdaten wird nicht berücksichtigt.
+* &lbrack;Farbmanagement&rbrack; Bitmaps mit einem Farbraum im Dateinamen werden als UV-Kachel importiert
+* &lbrack;Farbmanagement&rbrack; Farbverwaltete Ausgaben von Substance Graf befinden sich im falschen Farbraum
+* &lbrack;Farbmanagement&rbrack; Falsche Farbe mit dem Polygon-Füllwerkzeug
+* &lbrack;Farbmanagement&rbrack; ACE Tonemapper wird im Solomodus auf Kanäle angewendet
+* &lbrack;Farbmanagement&rbrack; Die Kugelbeleuchtung der Werkzeugvorschau ist nicht farbverwaltet
+* &lbrack;Farbmanagement&rbrack;&lbrack;Export&rbrack; Konvertierte Karten werden falsch konvertiert.
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack;&lbrack;Farbmanagement&rbrack; Projekte, die mit einer Vorlage und OCIO Umgebungsvariablen erstellt wurden, befinden sich im Modus &quot;Veraltet&quot;
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Die JavaScript-Evaluierungsfunktion kann beim Start nicht verwendet werden.
+* &lbrack;3D Adobe Offer&rbrack; Painter kann nicht gestartet werden, wenn Regionaleinstellungen mit Sprachen verwendet werden, die nicht standardmäßig unterstützt werden
 
 **Bekannte Probleme:**
 
 * 3D-Verbindung SpaceMouse wird auf MacOS nicht unterstützt
-* [UI] Horizontale Bildlaufleiste mit Farbmanagement, die in einigen Fällen in neuen Projektfenstern angezeigt wird
-* [Baker] Die Einstellung &quot;Durchschnittliche Normale&quot; hat keine Auswirkungen auf UV-Kachel-Projekte
-* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
-* [Farbmanagement] Ressourcen, die im Projektion-Modus verwendet werden, werden in der Überlagerung nicht farbverwaltet
-* [Farbwähler] Kann nicht in das Hexadezimalfeld geschrieben werden
+* &lbrack;UI&rbrack; Horizontale Bildlaufleiste mit Farbmanagement, die in einigen Fällen in einem neuen Projektfenster angezeigt wird
+* &lbrack;Baker&rbrack; Die Einstellung &quot;Durchschnittliche Normale&quot; hat keine Auswirkungen auf UV-Kachel-Projekte
+* &lbrack;Mac M1&rbrack; Intelligente Material werden nicht korrekt angezeigt
+* &lbrack;Farbmanagement&rbrack; Im Projektion-Modus verwendete Ressourcen werden in der Überlagerung nicht farbverwaltet
+* &Klammer;Farbwähler&Klammer; Schreibzugriff im Hexadezimalfeld nicht möglich
 
 ### 7.4.1
 
-*(Freigegeben: 14. Dezember 2021)*
-Zusammenfassung: **Bugfix mit Farbmanagement-Verbesserungen**
+*(Freigegeben: 14. Dezember 2021*)Zusammenfassung: **Bugfix mit Farbmanagement-Verbesserungen**
 
 **Hinzugefügt:**
 
-* [Farbmanagement] Verwenden der Datenrolle in exportierten Dateinamen
-* [Farbmanagement] Erweitern Sie den Abschnitt Farbmanagement standardmäßig, wenn OCIO in den Fenstern für neue Projekt- und Projekteinstellungen ausgewählt ist.
-* [Farbmanagement] Hinzufügen ACE Tonwertumsetzers im Legacy-Modus
-* [Farbmanagement] Standardkonfigurationseinstellungen anpassen
-* [Farbmanagement]&#x200B;[Exportieren] Fill $colorSpace in Dateinamen für Datenkanäle
-* [Exportieren] Exportieren von UV-Kachel-Projekten in Stager
-* [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
-* [Interoperabilität] Senden eines UV-Kachel-Projekts an Stager zulassen
+* &lbrack;Farbmanagement&rbrack; Verwenden der Datenrolle in exportierten Dateinamen
+* &lbrack;Farbmanagement&rbrack; Erweitern Sie den Abschnitt Farbmanagement standardmäßig, wenn OCIO in den Fenstern für neue Projekt- und Projekteinstellungen ausgewählt ist.
+* &lbrack;Farbmanagement&rbrack; ACE Tongemapper im Legacy-Modus hinzufügen
+* &lbrack;Farbmanagement&rbrack; Standardkonfigurationseinstellungen anpassen
+* &lbrack;Farbmanagement&rbrack;&lbrack;Export&rbrack; $colorSpace in Dateinamen für Datenkanäle füllen
+* &lbrack;Export&rbrack; UV-Kachel-Projekt in Stager exportieren
+* &lbrack;Interoperabilität&rbrack; Nicht verfügbar für Steam- und Substance-Editionen
+* &lbrack;Interoperabilität&rbrack; Senden eines UV-Kachel-Projekts an Stager zulassen
 
 **Fest:**
 
-* [MacOS]&#x200B;[Absturz] Painter beginnt nicht mit Catalina
-* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz bei der Wiedergabe von Datentyp/Farbmanagement auf Benutzerkanal
-* [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen den Farbraum an Neues Menü
-* [Farbmanagement] Benutzerkanal ist im Viewport im Legacy-Modus + Solo-Ansicht dunkler
-* [Farbmanagement] Die Env-Map ist immer linear, wenn sie in iRay verwendet wird
-* [Farbmanagement] Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
-* [Farbmanagement] Farbwähler in einer Substance im Legacy-Modus funktioniert nicht
-* [Farbmanagement] Der Wechsel zwischen Solokanal-Ansichten im Viewport wird bei Verwendung des Dropdown-Menüs nicht mit dem richtigen Farbraum angezeigt
-* [Farbmanagement] Beim Export wird die falsche Konvertierung auf farbverwaltete Benutzerkanäle im Legacy-Modus angewendet.
+* &lbrack;MacOS&rbrack;&lbrack;Absturz&rbrack; Painter beginnt nicht mit Catalina
+* &lbrack;Farbmanagement&rbrack;&lbrack;Absturz&rbrack; Zufälliger Absturz bei der Wiedergabe mit Datentyp/Farbmanagement auf Benutzerkanal
+* &lbrack;Farbmanagement&rbrack; Ressourcen, die als Graustufen in der Maskenanzeige verwendet werden, zeigen das neue Menü den Farbraum an
+* &lbrack;Farbmanagement&rbrack; Benutzerkanal ist im Viewport im Legacy-Modus + Solo-Ansicht dunkler
+* &lbrack;Farbmanagement&rbrack; Env-Map ist immer linear, wenn sie in iRay verwendet wird
+* &lbrack;Farbmanagement&rbrack; Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
+* &lbrack;Farbmanagement&rbrack; Farbwähler in einer Substance im Legacy-Modus funktioniert nicht
+* &lbrack;Farbmanagement&rbrack; Wenn Sie im Viewport zwischen den Einzelkanalansichten wechseln, wird bei Verwendung des Dropdown-Menüs der richtige Farbraum angezeigt
+* &lbrack;Farbmanagement&rbrack; Beim Export wird die falsche Konvertierung auf farbverwalteten Benutzerkanälen im Legacy-Modus angewendet.
 * In der Einzelansichtsmaske erstellte Konturen werden beim Zurückwechseln zur Material-Ansicht nicht angezeigt
-* [Exportieren] Konvertierte Karten werden nicht als farbverwaltete Kanäle exportiert
-* [Textursatz] QuickInfo mit Originalnamen fehlt auf umbenannten Benutzerkanälen
-* [Steam] Dateien fehlen beim Überprüfen der Dateiintegrität mit Steam
+* &lbrack;Export&rbrack; Konvertierte Maps werden nicht als farbverwaltete Kanäle exportiert
+* &lbrack;Textursatz&rbrack; QuickInfo mit dem ursprünglichen Namen fehlt auf umbenannten Benutzerkanälen
+* &lbrack;Steam&rbrack; Dateien fehlen beim Überprüfen der Dateiintegrität mit Steam
 
 **Bekannte Probleme:**
 
-* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
+* &lbrack;Mac M1&rbrack; Intelligente Material werden nicht korrekt angezeigt
 
 ### 7.4.0
 
-*(Freigegeben: 24. November 2021)*
-Zusammenfassung: **Hauptversion. Einführung der ersten Farbmanagement-Version, Abdocken der 2D- oder 3D-Ansicht, neue Option für den automatischen entpack von UV zum Vermeiden von länglichen Inseln, Aufruf von JavaScript-Funktionen von der Python-API und neuer Inhalt**
+*(Freigegeben: 24. November 2021*)Zusammenfassung: **Hauptversion. Einführung der ersten Farbmanagement-Version, Abdocken der 2D- oder 3D-Ansicht, neue Option für den automatischen entpack von UV zum Vermeiden von länglichen Inseln, Aufruf von JavaScript-Funktionen von der Python-API und neuer Inhalt**
 
 **Hinzugefügt:**
 
-* [Farbmanagement] Unterstützung von Farbmanagement OpenColorIO Version 2
-* [Farbmanagement] Hinzufügen von Farbmanagementeinstellungen zu Projekteinstellungen
-* [Farbmanagement] Warnfenster zu Farbmanagement-Konfigurationsänderungen beim Öffnen eines Projekts
-* [Farbmanagement] Zeigt eine Fehlermeldung an, wenn eine ungültige OCIO-Konfigurationsdatei ausgewählt ist
-* [Farbmanagement] Überschreiben der Konfiguration mit OCIO Umgebungsvariablen zulassen
-* [Farbmanagement] Mehrere OCIO sind standardmäßig in die Anwendung integriert.
-* [Farbmanagement] Extrahieren des Farbraumnamens aus dem importierten Bitmap-Dateinamen
-* [Farbmanagement] Überschreiben des Farbraums mit einem Farbraum aus der Konfiguration im Eigenschaftenfenster zulassen
-* [Farbmanagement] Hinzufügen von Farbmanagementoptionen in den Textursatz-Einstellungen
-* [Farbmanagement]&#x200B;[Viewport] Ermöglicht das separate Farbmanagement von 2D- und 3D-Ansichten.
-* [Farbmanagement] Laden und Konvertieren von Umgebungs-Map in den Arbeitsfarbraum
-* [Farbmanagement] Anpassen des Farbwählers und Editors mit dem aktuellen Farbraum
-* [Farbmanagement] Zulassen, dass die Anzeige transformieren Farbraum im Viewport mit einem neuen Dropdown-Menü auswählen
-* [Farbmanagement] Anwenden von transformieren Anzeige mit Iray-Rendering-Ergebnissen
-* [Farbmanagement] Exportieren von Texturen mit unterschiedlichen Farbräumen
-* [Farbmanagement]&#x200B;[Python] Anwenden von Farbmanagementeinstellungen aus der Umgebungsvariablen (OCIO) auf neue Projekte
-* [Viewport] Abdocken des 2D- oder 3D-Viewports zulassen
-* [Automatisch Entpackt] Neue Option zur Vermeidung von länglichen Inseln
-* [Scripting Python] Aufrufen von JavaScript-Funktionen über die Python-API
-* [Neues Projektfenster] Reduzieren des Abschnitts &quot;Importierte Karten&quot;
-* [Projektion]&#x200B;[Verformen] Normale Elemente können als Option in den Verkrümmungseinstellungen ausgeblendet werden
-* [Content] 11 neue Schmutz-Maps
-* [Inhalt] 8 neue Werkzeugvorgaben (Reißverschluss, Spannschnur, Glitter)
-* [Inhalt] 8 neue Materialien (Narbe, Hosentasche, ...)
-* [Inhalt] 1 neuer Generator (inflate schrumpfwarp)
+* &lbrack;Farbmanagement&rbrack; Unterstützung des Farbmanagements OpenColorIO Version 2
+* &lbrack;Farbmanagement&rbrack; Hinzufügen von Farbmanagementeinstellungen zu Projekteinstellungen
+* &lbrack;Farbmanagement&rbrack; Warnfenster zu Farbmanagement-Konfigurationsänderungen beim Öffnen eines Projekts
+* &lbrack;Farbmanagement&rbrack; Fehlermeldung anzeigen, wenn eine ungültige OCIO Konfigurationsdatei ausgewählt ist
+* &lbrack;Farbmanagement&rbrack; Überschreiben der Konfiguration mit OCIO Umgebungsvariable zulassen
+* &lbrack;Farbmanagement&rbrack; Mehrere OCIO sind standardmäßig in die Anwendung integriert.
+* &lbrack;Farbmanagement&rbrack; Extrahieren des Farbraumnamens aus dem importierten Bitmap-Dateinamen
+* &lbrack;Farbmanagement&rbrack; Überschreiben des Farbraums mit einem Farbraum aus der Konfiguration im Eigenschaftenfenster zulassen
+* &lbrack;Farbmanagement&rbrack; Hinzufügen von Farbmanagementoptionen in den Textursatz-Einstellungen
+* &lbrack;Farbmanagement&rbrack;&lbrack;Viewport&rbrack; Erlaubt das separate Farbmanagement für 2D- und 3D-Ansichten.
+* &lbrack;Farbmanagement&rbrack; Umgebungs-Map laden und in den Arbeitsfarbraum konvertieren
+* &lbrack;Farbmanagement&rbrack; Anpassen des Farbwählers und des Editors mit dem aktuellen Farbraum
+* &lbrack;Farbmanagement&rbrack; Auswahl des transformieren Farbraums für die Anzeige im Viewport über ein neues Dropdown-Menü zulassen
+* &lbrack;Farbmanagement&rbrack; Anzeige mit Iray-Rendering-Ergebnissen transformieren anwenden
+* &lbrack;Farbmanagement&rbrack; Exportieren von Texturen mit unterschiedlichen Farbräumen
+* &lbrack;Farbmanagement&rbrack;&lbrack;Python&rbrack; Anwenden von Farbmanagementeinstellungen aus der Umgebungsvariablen (OCIO) auf neue Projekte
+* &lbrack;Viewport&rbrack; Abdocken des 2D- oder 3D-Viewports zulassen
+* &lbrack;Automatisch Entpackt&rbrack; Neue Option zur Vermeidung länglicher Inseln
+* &lbrack;Skripterstellung Python&rbrack; Aufrufen von JavaScript-Funktionen über die Python-API
+* &lbrack;Neues Projektfenster&rbrack; Reduzieren des Abschnitts &quot;Importierte Karten&quot;
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Option zum Ausblenden von Normalen in den Verkrümmen-Einstellungen
+* &lbrack;Inhalt&rbrack; 11 neue Schmutz Maps
+* &lbrack;Inhalt&rbrack; 8 neue Werkzeugvorgaben (Reißverschluss, Spannschnur, Glitter)
+* &lbrack;Inhalt&rbrack; 8 neue Materialien (Narbe, Hosentasche, ...)
+* &lbrack;Inhalt&rbrack; 1 neuer Generator (aufblasen Schrumpfwarp)
 
 **Bekannte Probleme:**
 
-* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
-* [Farbmanagement]&#x200B;[Absturz] Zufälliger Absturz bei der Wiedergabe von Datentyp/Farbmanagement auf Benutzerkanal
-* [Farbmanagement] Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
-* [Farbmanagement]&#x200B;[Iray] Das Speichern des Renderings auf EXR oder TIFF, während das Farbmanagement im Viewport aktiviert ist, wird immer linear gespeichert
-* [Farbmanagement] Ressourcen, die als Graustufen in Masken verwendet werden, zeigen das falsche Farbraummenü an
-* [Farbmanagement]&#x200B;[Iray] Die Env-Map ist immer linear, wenn sie in Iray verwendet wird
-* [Farbmanagement]&#x200B;[Exportieren] Konvertierte Karten werden nicht als farbverwaltete Kanäle exportiert
-* [Farbmanagement]&#x200B;[Exportieren] Der Export ignoriert, wenn der Benutzerkanal farbverwaltet ist oder nicht im Legacy-Modus ausgeführt wird
+* &lbrack;Mac M1&rbrack; Intelligente Material werden nicht korrekt angezeigt
+* &lbrack;Farbmanagement&rbrack;&lbrack;Absturz&rbrack; Zufälliger Absturz bei der Wiedergabe mit Datentyp/Farbmanagement auf Benutzerkanal
+* &lbrack;Farbmanagement&rbrack; Die Farbauswahl wählt im Legacy-Modus nicht den richtigen Wert für den Datenkanal aus
+* &lbrack;Farbmanagement&rbrack;&lbrack;Iray&rbrack; Speichern des Renderings auf EXR oder TIFF, während das Farbmanagement im Viewport aktiviert ist, wird immer linear gespeichert
+* &lbrack;Farbmanagement&rbrack; Ressourcen, die als Graustufen in einer Maske verwendet werden, zeigen das falsche Menü &quot;Farbraum&quot; an
+* &lbrack;Farbmanagement&rbrack;&lbrack;Iray&rbrack; Env-Map ist immer linear, wenn sie in Iray verwendet wird
+* &lbrack;Farbmanagement&rbrack;&lbrack;Export&rbrack; Konvertierte Karten werden nicht als Farbmanagement-Kanäle exportiert
+* &lbrack;Farbmanagement&rbrack;&lbrack;Export&rbrack; Der Export ignoriert, wenn der Benutzerkanal farbverwaltet ist oder nicht im Legacy-Modus ausgeführt wird
 
 ### 7.3.1
 
-*(Freigegeben: 24. November 2021)*
-Zusammenfassung: **Bugfix**
+*(Freigegeben: 24. November 2021*)Zusammenfassung: **Bugfix**
 
 **Hinzugefügt:**
 
-* [Projektion] Skalierung sollte nur im Objektbereich funktionieren
+* &lbrack;Projektion&rbrack; Skalierung sollte nur im Objektbereich funktionieren
 
 **Fest:**
 
-* [Mac M1] Material-Ebene funktioniert nicht
-* [Mac M1]&#x200B;[Projektion] Verkrümmung funktioniert nicht
+* &lbrack;Mac M1&rbrack; Material-Ebene funktioniert nicht
+* &lbrack;Mac M1&rbrack;&lbrack;Projektion&rbrack; Verkrümmen funktioniert nicht
 * Micro-Details werden nicht richtig angezeigt
-* [Projektion]&#x200B;[Absturz] Wechseln in den Verkrümmungsmodus mit einer Ebene, die mit einer Vorgängerversion erstellt wurde
-* [Projektion]&#x200B;[Verkrümmen] Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum festgelegt ist
-* [Projektion]&#x200B;[Verformen] Die Option &quot;Teilen&quot; bleibt nach dem Teilen ausgewählt.
-* [Projektion]&#x200B;[UV] Der Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt.
-* [Filter] Baking Die Beleuchtungsumgebung ändert sich beim erneuten Laden oder Ändern eines Parameters
-* [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
-* [Interoperabilität] Die Schaltfläche &quot;3D-Assets auf dem Marktplatz durchsuchen&quot; sollte immer CCD auf der Registerkarte &quot;Stock &amp; Marketplace 3D&quot; öffnen.
+* &lbrack;Projektion&rbrack;&lbrack;Absturz&rbrack; Wechseln in den Verzerrungsmodus mit einer Ebene, die mit einer früheren Version erstellt wurde
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum eingestellt ist
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Die Option &quot;Teilen&quot; bleibt ausgewählt, nachdem das Teilen abgeschlossen ist
+* &lbrack;Projektion&rbrack;&lbrack;UV&rbrack; Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt
+* &lbrack;Filter&rbrack; Baking Die Beleuchtungsumgebung ändert sich beim erneuten Laden oder Ändern eines Parameters
+* &lbrack;Interoperabilität&rbrack; Nicht verfügbar für Steam- und Substance-Editionen
+* &lbrack;Interoperabilität&rbrack; Die Schaltfläche &quot;3D-Assets im Marketplace durchsuchen&quot; sollte immer CCD auf der Registerkarte &quot;Stock &amp; Marketplace 3D&quot; öffnen.
 
 **Bekannte Probleme:**
 
-* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
+* &lbrack;Mac M1&rbrack; Intelligente Material werden nicht korrekt angezeigt
 
 ### 7.3.0
 
-*(Freigegeben: 13. Oktober 2021)*
-Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion, eine neue zylindrische Projektion, Projektionen am Farbwähler, neue Funktionen in der Python-API und Fehlerbehebungen**
+*(Freigegeben: 13. Oktober 2021*)Zusammenfassung: **Hauptversion. Es enthält eine neue 3D-Verkrümmungsfunktion, eine neue zylindrische Projektion, Projektionen am Farbwähler, neue Funktionen in der Python-API und Fehlerbehebungen**
 
 **Hinzugefügt:**
 
-* [Projektion]&#x200B;[Verkrümmen] Gelegt 3D-Verkrümmung als neue Projektion
-* [Projektion]&#x200B;[Verformen] Erlauben Sie den Aufklebermodus für Alphas, Texturen und Prozedurale mit Drag &amp; Drop im Viewport
-* [Projektion]&#x200B;[Verkrümmen] Verwenden Sie die Verkrümmungs-Projektion mit dem Decal-Tastaturbefehl (ALT).
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Transformieren Verkrümmung als Ganzes oder pro Scheitelpunkt
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Fügen Sie Raster-Punkte mit den Optionen &quot;Geteilte Verkrümmung&quot; quer, horizontal oder vertikal hinzu
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Dediziertes Menü für Zurücksetzen-Aktionen
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Option zum automatischen Anpassen der Tangenten beim Verschieben von Punkten
-* [Projektion]&#x200B;[Verkrümmen]&#x200B;[Symbolleiste] Spezielles Menü für die Raster-Edition (Größe, Zurücksetzen, Farbe und Griffgröße)
-* [Projektion]&#x200B;[Verformen] Neuer Tastatur-Tastaturbefehl zum Schalten des Warp-Editionsmodus für ganze Scheitelpunkt (UMSCHALT+V)
-* [Projektion]&#x200B;[Verformen] Klicken+Strg ermöglicht den Wechsel zwischen Flächenwerkzeug und anderen Werkzeugen
-* [Projektion]&#x200B;[Zylindrisch] Gelegt Projektion
-* [Projektion]&#x200B;[Symbolleiste] Gruppeneinstellungen für Manipulator (Größe, Raster, Winkelschritte)
-* [Farbwähler] Neue Benutzeroberfläche für Farbwähler
-* [Farbwähler] Verwenden von sRGB-Werten in Farbwähler-Widgets
-* [Farbwähler] Farbfelder speichern und löschen
-* [Farbwähler] Pipette, die über Farbkanäle und normale Slots zugänglich ist
-* [Farbwähler] Dynamische Farbe zwischen 0 und 255 Werten bearbeiten
-* [Farbwähler] Gemeinsamer HSV-/RGB-Status in der App
-* [Farbwähler] Das Fenster &quot;Farbwähler&quot; ist halbpersistent.
-* [Farbwähler] Durch Drücken von Esc wird das Farbwählerfenster geschlossen.
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; 3D-Verkrümmung als neue Projektion gelegt
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Aufklebermodus für Alphas, Texturen und Prozedurale per Drag &amp; Drop im Viewport zulassen
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Verkrümmen-Projektion mit Aufkleber-Tastaturbefehl (ALT) verwenden
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack;&lbrack;Werkzeugleiste&rbrack; Transformieren der Verformung als Ganzes oder pro Scheitelpunkt
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack;&lbrack;Werkzeugleiste&rbrack; Raster-Punkte mit geteilter Verkrümmung in Querrichtung, horizontal oder vertikal hinzufügen
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack;&lbrack;Werkzeugleiste&rbrack; Dediziertes Menü zum Zurücksetzen von Aktionen
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack;&lbrack;Werkzeugleiste&rbrack; Option zum automatischen Anpassen der Tangenten beim Verschieben von Punkten
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack;&lbrack;Werkzeugleiste&rbrack; Spezielles Menü für die Raster-Edition (Größe, Reset, Farbe und Handle-Größe)
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Neuer Tastatur-Tastaturbefehl zum Schalten des Warp-Editionsmodus für ganze Scheitelpunkt (UMSCHALT+V)
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Klicken + Strg ermöglicht den Wechsel zwischen Oberflächenwerkzeug und anderen Werkzeugen
+* &lbrack;Projektion&rbrack;&lbrack;Zylindrisch&rbrack; Leg der zylindrischen Projektion
+* &lbrack;Projektion&rbrack;&lbrack;Werkzeugleiste&rbrack; Einstellungen für Manipulator gruppieren (Größe, Raster, Winkelschritte)
+* &Klammer;Farbwähler&Klammer; Neue Benutzeroberfläche für den Farbwähler
+* &Klammer;Farbwähler&Klammer; sRGB-Werte in Farbwähler-Widgets verwenden
+* &Klammer;Farbwähler&Klammer; Farbfelder speichern und löschen
+* &Klammer;Farbwähler&Klammer; Pipette zugänglich von Farbe und normalen Slots
+* &Klammer;Farbwähler&Klammer; Bearbeiten dynamischer Farben zwischen 0 und 255 Werten zulassen
+* &Klammer;Farbwähler&Klammer; Einheitlicher HSV-/RGB-Status in der gesamten App
+* &Klammer;Farbwähler&Klammer; Das Fenster &quot;Farbwähler&quot; ist halbpersistent.
+* &Klammer;Farbwähler&Klammer; Durch Drücken von Esc wird das Farbauswahlfenster geschlossen.
 * Leistungsverbesserung für UI-Interaktion und beim Malen
-* [Engine] Update auf die neue Substance-Engine-Version (8.3.0)
-* [Scripting]&#x200B;[Python] Ermöglicht das erneute Laden des Meshs des aktuellen Projekts.
-* [Scripting]&#x200B;[Python] Aktualisieren von Ressourcen in Projekten zulassen
-* [Scripting]&#x200B;[Python] Festlegen und Abfragen der Auflösung von UV-Kacheln zulassen
-* [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
-* [Interoperabilität] Empfangen mehrerer Ressourcen von Bridge
+* &lbrack;Engine&rbrack; Update auf die neue Substance Engine-Version (8.3.0)
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Erlaubt das erneute Laden des Meshs des aktuellen Projekts
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Aktualisieren von Ressourcen in Projekten zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Festlegen und Abfragen der Auflösung von UV-Kacheln zulassen
+* &lbrack;Interoperabilität&rbrack; Nicht verfügbar für Steam- und Substance-Editionen
+* &lbrack;Interoperabilität&rbrack; Mehrere Ressourcen von Bridge erhalten
 
 **Fest:**
 
 * Der Farbwähler zeigt nicht die richtige Farbe an
-* [Baking] Liste der Textursatz ist nicht korrekt angeordnet
-* [FBX Import] 3ds Max-Gruppen-Pivot-Transformationen werden nicht berücksichtigt
-* [Substance Engine] Absturz beim Importieren von beschädigtem SBSAR
-* [MacOS] Projektkonfigurationsoption in verschiedenen Sprachen ist nicht vorhanden.
+* &blbrack;Baking&rbrack; Textursatz-Listen sind nicht korrekt angeordnet
+* &lbrack;FBX import&rbrack; 3ds Max-Gruppen-Pivot-Transformationen werden nicht berücksichtigt
+* &lbrack;Substance Engine&rbrack; Absturz beim Importieren von beschädigtem SBSAR
+* &lbrack;MacOS&rbrack; Projektkonfigurationsoption in verschiedenen Sprachen ist nicht vorhanden
 * Automatische Speicherung kann Painter während langer Prozesse einfrieren
 
 **Bekannte Probleme:**
 
-* [Projektion]&#x200B;[Verformen] Die Option &quot;Teilen&quot; bleibt nach dem Teilen ausgewählt.
-* [Projektion]&#x200B;[Verkrümmen] Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum festgelegt ist
-* [Projektion]&#x200B;[Verformen] Artefaktlinien zwischen Patches in seltenen Fällen
-* [Projektion]&#x200B;[UV] Der Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt.
-* [Mac M1] Intelligenten Materials werden nicht korrekt angezeigt
-* [M1]&#x200B;[Regression] Material-Layer funktioniert nicht
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Die Option &quot;Teilen&quot; bleibt ausgewählt, nachdem das Teilen abgeschlossen ist
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Spiegeln funktioniert nicht, wenn die Transformation auf Welt-Raum eingestellt ist
+* &lbrack;Projektion&rbrack;&lbrack;Verkrümmen&rbrack; Artefaktlinien zwischen Patches in seltenen Fällen
+* &lbrack;Projektion&rbrack;&lbrack;UV&rbrack; Drehpunkt wird beim Spiegeln der Projektion zurückgesetzt
+* &lbrack;Mac M1&rbrack; Intelligente Material werden nicht korrekt angezeigt
+* &lbrack;M1&rbrack;&lbrack;Regression&rbrack; Material-Ebene funktioniert nicht
 
 ### 7.2.3
 
-*(Freigegeben: 24. August 2021)*
-Zusammenfassung: **Nebenversion, Bugfix**
+*(Freigegeben: 24. August 2021*)Zusammenfassung: **Nebenversion, Bugfix**
 
 **Hinzugefügt:**
 
-* [Bibliotheken] Hinzufügen einer Möglichkeit, unerwünschte Dateien vom Durchsuchen auszuschließen
+* &lbrack;Libraries&rbrack; Hinzufügen einer Möglichkeit zum Ausschließen unerwünschter Dateien vom Durchsuchen
 
 **Fest:**
 
-* [Win] Mehrere Bildschirme und Schlafprobleme
-* [MacOS]&#x200B;[Absturz] Wechseln des Shader bei Verwendung von Effekten
-* [Viewport] Im vollständigen Vorschaumodus wird der Pinselcursor nicht mehr ohne Alpha angezeigt.
-* [UI] Winkel-Widget schlägt falsch
-* [Ebenenstapel] Viele Unterordner erstellen eine sehr lange Einfrierung
-* [Iray] Verschiedene Ansichten in Iray und OpenGL: Sichtbar, wenn nicht funktionierend
-* [Iray] Brechungsindex wird nicht berücksichtigt und erscheint nicht in den mdl-Eigenschaften
-* [JavaScript] ShowExportDialog() gibt nie true zurück.
+* &lbrack;Win&rbrack; Mehrere Bildschirme und Schlafprobleme
+* &lbrack;MacOS&rbrack;&lbrack;Absturz&rbrack; Wechseln des Shader bei Verwendung von Effekten
+* &lbrack;Viewport&rbrack; Im Vollvorschaumodus wird der Pinselcursor nicht mehr ohne Alpha angezeigt
+* &lbrack;UI&rbrack; Winkel-Widget wechselt in die falsche Richtung
+* &lbrack;Ebenenstapel&rbrack; Viele Unterordner erstellen sehr lange Einfrieren
+* &lbrack;Iray&rbrack; Verschiedene Ansichten in Iray und OpenGL: Sichtbar, wenn nicht funktionierend
+* &lbrack;Iray&rbrack; Brechungsindex wird nicht berücksichtigt und erscheint nicht in den mdl-Eigenschaften
+* &lbrack;JavaScript&rbrack; ShowExportDialog() gibt niemals true zurück.
 * Kann keine MTL aus Adobe Stock lesen
 
 ### 7.2.2
 
-*(Freigegeben: 27. Juli 2021)*
-Zusammenfassung: **Nebenversion, Bugfix**
+*(Freigegeben: 27. Juli 2021*)Zusammenfassung: **Nebenversion, Bugfix**
 
 **Hinzugefügt:**
 
@@ -1828,603 +1896,590 @@ Zusammenfassung: **Nebenversion, Bugfix**
 
 **Fest:**
 
-* [Mac M1] Falsche Speichererkennung
-* [Exportieren] Sehr lange Pfade werden nicht richtig angezeigt
+* &lbrack;Mac M1&rbrack; Falsche Speichererkennung
+* &lbrack;Export&rbrack; Sehr lange Pfade werden nicht richtig angezeigt
 
 **Bekannte Probleme:**
 
-* [Inhalt] Veraltete Shader der Samples
+* &lbrack;Inhalt&rbrack; Veraltete Shader der Beispiele
 
 ### 7.2.1
 
-*(Freigegeben: 2. Juli 2021)*
-Zusammenfassung: **Nebenversion, Hotfix**
+*(Freigegeben: 02. Juli 2021*)Zusammenfassung: **Nebenversion, Hotfix**
 
 **Hinzugefügt:**
 
-* [Interop] Fügen Sie eine QuickInfo hinzu, die darüber informiert, dass das Senden von UV-Kachel-Projekten an Stager noch nicht unterstützt wird.
-* [Plug-in]&#x200B;[UI] Aktualisierung des LiveLink-Symbols
+* &lbrack;Interop&rbrack; Fügen Sie einen QuickInfo hinzu, um zu informieren, dass das Senden von UV-Kachel-Projekten an Stager noch nicht unterstützt wird.
+* &lbrack;Plugin&rbrack;&lbrack;UI&rbrack; Aktualisierung des Livelink-Symbols
 
 **Fest:**
 
-* [NVIDIA] Treiberversion ab 30 gilt als veraltet
-* [Bibliotheken] Der Status des Bedienfelds &quot;Elemente&quot; wird nur gespeichert, wenn ein Projekt geöffnet ist
-* [Bibliotheken] Neue gespeicherte Suche behält Stichwörter aus alter gespeicherter Suche bei
-* [Baker]&#x200B;[UVTiles] ID-Map pro MeshID berücksichtigen auch UV-Kacheln
-* [Exportieren] gLTF-Dateien importieren keine Scheitelpunkt-Farbe
-* [Iray] Einige QuickInfos fehlen
-* [Interop] Senden an Stager ist nicht immer deaktiviert, wenn Stager nicht erkannt wird
-* [Resource Updater] Photoshop-Pinselmaker kann nicht aktualisiert werden.
-* [Inhalt] Glasfaser-Kantenverschleißgenerator ist defekt
+* &lbrack;Nvidia&rbrack; Treiberversion ab 30 gilt als veraltet
+* &lbrack;Libraries&rbrack; Der Status des Bedienfelds &quot;Elemente&quot; wird nur gespeichert, wenn ein Projekt geöffnet ist
+* &lbrack;Libraries&rbrack; Neue gespeicherte Suche behält Schlüsselwort aus alter gespeicherter Suche bei
+* &lbrack;Baker&rbrack;&lbrack;UVTiles&rbrack; ID-Map pro MeshID berücksichtigen ebenfalls UV-Kacheln
+* &lbrack;Export&rbrack; gLTF-Dateien importieren keine Scheitelpunkt-Farbe
+* &lbrack;Iray&rbrack; Einige QuickInfos fehlen
+* &lbrack;Interop&rbrack; An Stager senden ist nicht immer deaktiviert, wenn Stager nicht erkannt wird
+* &lbrack;Ressourcenaktualisierung&rbrack; Photoshop-Pinselmaker kann nicht aktualisiert werden
+* &lbrack;Inhalt&rbrack; Generator für Glasfaserkantenverschleiß ist defekt
 
 ### 7.2.0
 
-*(Freigegeben: 23. Juni 2021)*
-Zusammenfassung: **Die Hauptversion bietet eine Aktualisierung des Bedienfelds &quot;Elemente&quot;, einen neuen Shader mit Zugriff auf neue Kanäle und Parameter, eine allgemeine Aktualisierung der Benutzeroberfläche, einige dringend angeforderte Leistungsverbesserungen, erweiterte Sprachunterstützung und vieles mehr!**
+*(Freigegeben: 23. Juni 2021*)Zusammenfassung: **Die Hauptversion bietet eine Aktualisierung des Bedienfelds &quot;Elemente&quot;, einen neuen Shader mit Zugriff auf neue Kanäle und Parameter, eine allgemeine Aktualisierung der Benutzeroberfläche, einige dringend angeforderte Leistungsverbesserungen, erweiterte Sprachunterstützung und vieles mehr!**
 
 **Hinzugefügt:**
 
-* [Bibliotheken] Neues Bedienfeld &quot;Elemente&quot;, um das Regal zu ersetzen
-* [Bibliotheken]&#x200B;[UI] Neues Bedienfeld &quot;Elemente&quot;
-* [Bibliotheken]&#x200B;[UI] Ändern der standardmäßigen Ausrichtung des Bedienfelds &quot;Elemente&quot; und der Benutzeroberfläche
-* [Bibliotheken]&#x200B;[Benutzeroberfläche] Einführung einer Listenansichtsoption in die Bibliothek
-* [Bibliotheken]&#x200B;[UI] Neue Breadcrumbs-Navigation im Bedienfeld &quot;Elemente&quot;
-* [Bibliotheken]&#x200B;[UI] Wählen Sie &quot;Alle Bibliotheken&quot; aus, wenn Sie eine gespeicherte Suche auswählen.
-* [Bibliotheken]&#x200B;[UI] Wählen Sie &quot;Alle Bibliotheken&quot;, wenn alle Ordner deaktiviert sind.
-* [Partikeln]&#x200B;[UI] Neues Tag für Bibliothekspinsel
-* [Libraries]&#x200B;[UI] &quot;Regal&quot; wurde durch &quot;Alle Bibliotheken&quot; in der gesamten App ersetzt
-* [Bibliotheken]&#x200B;[UI] Leere Ordner ausblenden
-* [Bibliotheken]&#x200B;[UI] Die Standardbenutzerbibliothek sollte auch dann sichtbar sein, wenn sie leer ist
-* [Libraries]&#x200B;[UI] Neue Datenmethode über die Symbole des Elementtyps
-* [Bibliotheken] Tastaturbefehl &quot;STRG&quot;, um mehrere Elementtypen auszuwählen
-* [Bibliotheken] Neue Umgebungsvariable zur Steuerung des Speicherbudgets für die Elementvorschau
-* [Bibliotheken]&#x200B;[Inhalt] Neue Umgebungs-Map
-* [Libraries]&#x200B;[Content]&#x200B;[UI] Versatz auf Standard-Materialien rendern
-* [Libraries]&#x200B;[Content] Legen Sie den ASM-Shader (Adobe Standard Material) als Standard für die Vorschaugenerierung fest.
-* [Libraries]&#x200B;[Content]&#x200B;[ASM] Neue Projektvorlagen für neuen ASM-Shader
-* [Bibliotheken]&#x200B;[Miniaturansicht] Neue Studio 6-Umgebungs-Map verwenden
-* [Bibliotheken]&#x200B;[Miniaturansicht] Miniaturansicht in Ressource lesen, anstatt sie zu generieren
-* [Bibliotheken]&#x200B;[Miniaturansicht] Versatz zur Miniaturgenerierung hinzufügen
-* [Textursatz-Einstellungen]
-* [Textursatz Settings]&#x200B;[UI] Neues Height zur normalen Konvertierungsmethode Gelegt
-* [Kanaleinstellungen]&#x200B;[UI] Überarbeitung der Benutzeroberflächenorganisation der Textursätze
-* [Kanaleinstellungen] Benutzerkanallimit auf 16 Textursätze erhöht
-* [Kanaleinstellungen]&#x200B;[UI] Geben Sie an, welche Textursätze mit dem aktuell ausgewählten Shader kompatibel sind.
-* [Shader]&#x200B;[ASM] Neuer Adobe Standard Material-Shader
-* [Shader]&#x200B;[ASM] Unterstützung für Anisotropie, Clear Coat, Volumenstreuung, Specular edge color und Glanz hinzugefügt
-* [Shader]&#x200B;[ASM] Ändern der Farbwerte der Standardkanäle
-* [Shader]&#x200B;[ASM]&#x200B;[Exportieren] Aktualisierte Exportvorlage Adobe Dimension zu Adobe Substance 3D Stager
-* [Shader]&#x200B;[ASM] Beschriftungen und QuickInfos für Shader- und MDL-Parameter hinzugefügt
-* [Shader]&#x200B;[ASM] Sichtbarmachen der Streuung-Farbe in der 2D-Ansicht, auch wenn SSS nicht unterstützt wird
-* [Shader]&#x200B;[ASM]&#x200B;[Iray] Unterstützung von ASM-Shader in Iray mit neuer MDL
-* [Shader]&#x200B;[ASM]&#x200B;[Iray] Aktualisierte Volumenstreuung in veraltetem PBR-Spezifikationsglanz und beschichtet
-* [Shader]&#x200B;[ASM]&#x200B;[Content] Der Standard-SSS-Typ für Samples wurde geändert.
-* [Shader]&#x200B;[ASM] Zusätzliche Dokumentation für ASM API
-* [Shader]&#x200B;[ASM] Optimieren Sie Shader, um nicht genutzte Kanäle zu ignorieren.
-* [Shader] Leg neuer Textursatz-Kanäle
-* [Shader] Verbesserte Volumenstreuung
-* [Shader] Neue Shader-Parameter für einige Shader wurden ausgeblendet
-* [Shader] Sichtbar, wenn für Shader-Parameter
-* [Leistung]
-* [Bibliotheken] Verbesserungen der Ladezeit der Ressourcenvorschau und der Berechnungsleistung
-* [Engine] Verbesserte Malleistung
-* [Automatisch Entpackt]
-* [Automatisch Entpackt] Leistungsverbesserungen bei Packing
-* [Automatisch Entpackt] Automatisch entpackt, kompatibel mit dem Workflow der UV-Kachel
-* [Automatisches Entpacken] Neue Option zur Positionierung von UVs entsprechend der Ausrichtung des Meshs
-* [Sonstige]
-* [Einstellungen] Standardzoomrichtung geändert
-* [UI] Gesamte Aktualisierung der Benutzeroberfläche
-* [UI] Überarbeitung des Hilfemenüs
-* [UI] Symbol &quot;Umkehren ersetzen&quot;
-* [UI]&#x200B;[Plug-In] Symbol &quot;Ersetzen&quot; für den DCC-Link des Plug-Ins
-* [UI]&#x200B;[AMD] Mindest erforderliche Version aktualisieren und Popup-Nachricht
-* [Ebenenstapel] Neue Ebene innerhalb des ausgewählten leeren Ordners erstellen
+* &lbrack;Libraries&rbrack; Neues Bedienfeld &quot;Element&quot;, um das Regal zu ersetzen
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Neues Bedienfeld &quot;Elemente&quot;
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Ändern der standardmäßigen Ausrichtung und Benutzeroberfläche des Bedienfelds &quot;Elemente&quot;
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Listenansichtsoption in Bibliothek einfügen
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Neue Breadcrumbs-Navigation im Bedienfeld &quot;Elemente&quot;
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Beim Auswählen einer gespeicherten Suche &quot;Alle Bibliotheken&quot; auswählen
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Wählen Sie &quot;Alle Bibliotheken&quot;, wenn die Auswahl aller Ordner aufgehoben wird.
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Neues Tag für Partikel-Pinsel
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; &quot;Regal&quot; durch &quot;Alle Bibliotheken&quot; in der gesamten App ersetzt
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Ausblenden leerer Ordner zulassen
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Standardbenutzerbibliothek sollte sichtbar sein, auch wenn sie leer ist
+* &lbrack;Libraries&rbrack;&lbrack;UI&rbrack; Neue Filterung-Methode über Symbole des Elementtyps
+* &lbrack;Libraries&rbrack; Tastaturbefehl &quot;STRG&quot;, um mehrere Elementtypen auszuwählen
+* &lbrack;Libraries&rbrack; Neue Umgebungsvariable zur Steuerung des Speicherbudgets für die Elementvorschau
+* &lbrack;Libraries&rbrack;&lbrack;Content&rbrack; Neue Umgebungs-Map
+* &lbrack;Libraries&rbrack;&lbrack;Content&rbrack;&lbrack;UI&rbrack; Versatz auf Standard-Materialien rendern
+* &lbrack;Libraries&rbrack;&lbrack;Content&rbrack; Adobe Standard Material-Shader (ASM) als Standard für die Vorschauerstellung festlegen
+* &lbrack;Libraries&rbrack;&lbrack;Content&rbrack;&lbrack;ASM&rbrack; Neue Projektvorlagen für neuen ASM-Shader
+* &lbrack;Libraries&rbrack;&lbrack;Thumbnail&rbrack; Verwenden der neuen Studio 6-Umgebungs-Map
+* &lbrack;Libraries&rbrack;&lbrack;Thumbnail&rbrack; Miniaturansicht in Ressource lesen, anstatt sie zu generieren
+* &lbrack;Libraries&rbrack;&lbrack;Thumbnail&rbrack; Versatz zur Miniaturbildgenerierung hinzufügen
+* &blbrack;Textursatz-Einstellungen&rbrack;
+* &lbrack;Textursatz-Einstellungen&rbrack;&lbrack;UI&rbrack; Leg eines neuen Heights zur normalen Konvertierungsmethode
+* &lbrack;Textursatz-Einstellungen&rbrack;&lbrack;UI&rbrack; Überarbeitung der Organisation der Benutzeroberfläche der Kanäle
+* &blbrack;Textursatz-Einstellungen&rbrack; Obergrenze für Benutzerkanäle auf 16 Kanäle erhöht
+* &lbrack;Textursatz-Einstellungen&rbrack;&lbrack;UI&rbrack; Geben Sie an, welche Kanäle mit dem aktuell ausgewählten Shader kompatibel sind.
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack; Neuer Adobe Standard Material-Shader
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack; Zusätzliche Unterstützung für Anisotropie, Clear Coat, Volumenstreuung, Specular edge color und Glanz
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack; Ändern der Farbwerte der Standardkanäle
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack;&lbrack;Export&rbrack; Aktualisierte Exportvorlage Adobe Dimension zu Adobe Substance 3D Stager
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack; Beschriftungen und QuickInfos für Shader- und MDL-Parameter hinzugefügt
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack; Sichtbarkeit der Farbe der Streuung in der 2D-Ansicht, auch wenn SSS nicht unterstützt wird
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack;&lbrack;Iray&rbrack; Unterstützung von ASM-Shader in Iray mit neuer MDL
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack;&lbrack;Iray&rbrack; Aktualisierte Volumenstreuung in veraltetem PBR-Spezifikationsglanz und beschichtet
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack;&lbrack;Content&rbrack; Standard-SSS-Typ für Beispiele geändert
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack; Dokumentation für ASM-API hinzugefügt
+* &lbrack;Shader&rbrack;&lbrack;ASM&rbrack; Shader optimieren, um nicht verwendete Kanäle zu ignorieren
+* &lbrack;Shader&rbrack; Leg neuer Textursatz-Kanäle
+* &lbrack;Shader&rbrack; Verbesserte Volumenstreuung
+* &lbrack;Shader&rbrack; Neue Shader-Parameter für einige Shader ausgeblendet
+* &lbrack;Shader&rbrack; Sichtbar, wenn für Shader-Parameter
+* &lbrack;Performance&rbrack;
+* &lbrack;Libraries&rbrack; Verbesserungen beim Laden der Ressourcenvorschau und bei der Rechenleistung
+* &lbrack;Engine&rbrack; Verbesserte Malleistung
+* &lbrack;Automatisch Entpackt&rbrack;
+* &lbrack;Automatisch Entpackt&rbrack; Leistungsverbesserungen bei Packing
+* &lbrack;Automatisch Entpackt&rbrack; Automatisch entpackt, kompatibel mit dem Arbeitsablauf für die UV-Kachel
+* &lbrack;Automatisches Entpacken&rbrack; Neue Option zur Positionierung von UVs entsprechend der Ausrichtung des Meshs
+* &lbrack;Andere&rbrack;
+* &lbrack;Einstellungen&rbrack; Standardzoomrichtung geändert
+* &lbrack;UI&rbrack; Allgemeine Aktualisierung der Benutzeroberfläche
+* &lbrack;UI&rbrack; Überarbeitung des Hilfemenüs
+* &lbrack;UI&rbrack; Symbol &quot;Umkehren ersetzen&quot;
+* &lbrack;UI&rbrack;&lbrack;Plugin&rbrack; Symbol &quot;Ersetzen&quot; für den Link &quot;Plug-in dcc&quot;
+* &lbrack;UI&rbrack;&lbrack;AMD&rbrack; Erforderliche Mindestversion aktualisieren und Popup-Nachricht
+* &lbrack;Ebenenstapel&rbrack; Neue Ebene innerhalb des ausgewählten leeren Ordners erstellen
 * Python-Dokumentation aktualisieren
-* [Branding]
-* [Branding]&#x200B;[UI] Der Anwendungsname wurde in Adobe Substance 3D Painter aktualisiert.
-* [Branding]&#x200B;[UI] Eigenständige Version auf &quot;Substance Edition&quot; aktualisiert
-* [Branding]&#x200B;[UI] Aktualisierter Name der ausführbaren Datei der Anwendung, Installationspfad, Paket und Symbole
-* [Branding]&#x200B;[UI] Standardbibliothek und -pfad wurden umbenannt
-* [Branding]&#x200B;[UI] Aktualisiert über das Fenster
-* [Branding]&#x200B;[UI] Aktualisierter Begrüßungsbildschirm
-* [Branding]&#x200B;[UI] Die jährliche Versionsnummer wurde entfernt.
-* [Lokalisierung] Neue Übersetzungen in Deutsch, Französisch und vereinfachtem Chinesisch
-* [Interoperabilität] Nicht verfügbar für Steam- und Substance-Editionen
-* [Interoperabilität] Interoperabilität mit dem Adobe-Ökosystem: Designer, Sampler, Stager und Bridge
-* [Interoperabilität]&#x200B;[Benutzeroberfläche] Empfangen und Aktualisieren von Elementen aus Designer
-* [Interoperabilität]&#x200B;[Benutzeroberfläche] Empfangen von Elementen aus Sampler
-* [Interoperabilität]&#x200B;[UI] Element an Stager senden
-* [Interoperabilität]&#x200B;[Benutzeroberfläche] In Adobe Bridge anzeigen
-* [Interoperabilität]&#x200B;[UI] Schneller Zugriff auf Adobe 3D-Elemente
-* [Interoperabilität] Neue Verwendungs-Tags von sbsar
-* [Interoperabilität] Umgang mit empfangenen Elementtypen
-* [Interoperabilität] Von Adobe Substance 3D Designer oder Adobe Substance 3D Sampler empfangene Elemente werden in der vom Benutzer standardmäßig ausgewählten Bibliothek gespeichert.
-* [Interoperabilität]&#x200B;[Benutzeroberfläche] Neues Symbol in der linken Symbolleiste zum Senden an Stager oder Photoshop
+* &lbrack;Branding&rbrack;
+* &lbrack;Branding&rbrack;&lbrack;UI&rbrack; Der Anwendungsname wurde in Adobe Substance 3D Painter aktualisiert
+* &lbrack;Branding&rbrack;&lbrack;UI&rbrack; Eigenständige Version auf &quot;Substance Edition&quot; aktualisiert
+* &lbrack;Branding&rbrack;&lbrack;UI&rbrack; Name, Installationspfad, Paket und Symbole der aktualisierten ausführbaren Datei der Anwendung
+* &lbrack;Branding&rbrack;&lbrack;UI&rbrack; Standardbibliothek und Pfad umbenannt
+* &lbrack;Branding&rbrack;&lbrack;UI&rbrack; Aktualisiertes Info-Fenster
+* &lbrack;Branding&rbrack;&lbrack;UI&rbrack; Aktualisierter Begrüßungsbildschirm
+* &lbrack;Branding&rbrack;&lbrack;UI&rbrack; Versionsnummer nach Jahr entfernt
+* &lbrack;Lokalisierung&rbrack; Neue Übersetzungen in Deutsch, Französisch und vereinfachtem Chinesisch
+* &lbrack;Interoperabilität&rbrack; Nicht verfügbar für Steam- und Substance-Editionen
+* &lbrack;Interoperabilität&rbrack; Interoperabilität mit Adobe Ecosystem: Designer, Sampler, Stager und Bridge
+* &lbrack;Interoperabilität&rbrack;&lbrack;UI&rbrack; Element aus Designer empfangen und aktualisieren
+* &lbrack;Interoperabilität&rbrack;&lbrack;UI&rbrack; Element aus Sampler erhalten
+* &lbrack;Interoperabilität&rbrack;&lbrack;UI&rbrack; Element an Stager senden
+* &lbrack;Interoperabilität&rbrack;&lbrack;UI&rbrack; In Adobe Bridge anzeigen
+* &lbrack;Interoperabilität&rbrack;&lbrack;UI&rbrack; Schneller Zugriff auf Adobe von 3D-Elementen
+* &lbrack;Interoperabilität&rbrack; Neue Verwendungs-Tags von sbsar
+* &lbrack;Interoperabilität&rbrack; Umgang mit empfangenen Elementtypen
+* &lbrack;Interoperabilität&rbrack; Elemente, die von Adobe Substance 3D Designer oder Adobe Substance 3D Sampler empfangen werden, werden in der vom Benutzer standardmäßig ausgewählten Bibliothek gespeichert
+* &lbrack;Interoperabilität&rbrack;&lbrack;UI&rbrack; Neues Symbol in der linken Symbolleiste zum Senden an Stager oder Photoshop
 
 **Fest:**
 
-* [Tablet] Geringe Leistung beim Malen mit Druck
-* [Tablet] Problem auf Tablets mit Schiebereglern
-* [Absturz] Namenskonflikt zwischen der Liste der Textursatz und dem Exporter
-* [Absturz]&#x200B;[Bibliotheken] Doppelklicken Sie auf eine Unterbibliothek.
-* [Bibliotheken] Problem beim Durchsuchen von Bibliotheksverzeichnissen
-* [Bibliotheken] Befehlszeile zum Erzwingen der Vorschaugenerierung funktioniert nicht wie erwartet
-* [Libraries]&#x200B;[Content] Der Baking geführt Lichtumgebungsfilter ist standardmäßig schwarz.
-* [Linux]&#x200B;[MacOS]&#x200B;[Mesh exportieren] Kann unter Linux/MacOS erstellte glTF nicht importieren
-* [Linux] Das Ziehen und Ablegen einer Datei in das Bedienfeld &quot;Asset&quot; kann zu einem Absturz führen
-* [Automatisches Entpacken] Automatisches Entpacken ist auch dann verfügbar, wenn kein Mesh zum erneuten Laden ausgewählt wurde
-* [Partikeln] Falsche Partikel mit Schwerkraft
-* [Ebenenstapel] Ebenen-Histogramm kann nur Luminanz mit einigen Kanälen verwenden
-* [Geometriemaske] Rechtsklick-Menü auf einen Ordner beim Bearbeiten der Geometriemaske funktioniert nicht
-* [Projektion] Naht mit sphärische Projektion und bilinearen Filterungen
-* [UV-Kacheln] Exportmaske in Datei exportiert nur Kachel 0, 0
-* [Mesh exportieren] FBX Mesh-Export ist leer.
-* [Iray] Normalen-Map wird beim Rendern in neuen Projekten nicht berücksichtigt
-* [Speichern] Speichern von Problemen auf freigegebenen Laufwerken
-* [Baking] Beim erneuten Erstellen eines Meshs mit geänderten Parametern wird eine Warnung angezeigt.
-* [Baking]&#x200B;[Regression] Falsches Ergebnis, wenn der globale Begrenzungsrahmen des hohen Poly-Meshs den Ursprung der Szene nicht enthält
-* [Python] Benutzerdefinierte Benutzerbibliotheken werden nicht berücksichtigt
+* &Klammer;Tablet&Klammer; Geringe Leistung beim Malen mit Druck
+* &Klammer;Tablet&Klammer; Problem auf Tablets mit Schiebereglern
+* &lbrack;Absturz&rbrack; Nicht übereinstimmender Name zwischen Textursatz-Liste und Exporter
+* &lbrack;Absturz&rbrack;&lbrack;Libraries&rbrack; Doppelklicken Sie auf eine Unterbibliothek
+* &lbrack;Libraries&rbrack; Problem beim Durchsuchen von Bibliotheksverzeichnissen
+* &lbrack;Libraries&rbrack; Die Befehlszeile &quot;Generierung der Vorschau erzwingen&quot; funktioniert nicht wie erwartet
+* &lbrack;Libraries&rbrack;&lbrack;Content&rbrack; Der Baking geführt Lichtumgebungsfilter ist standardmäßig schwarz
+* &lbrack;Linux&rbrack;&lbrack;MacOS&rbrack;&lbrack;Mesh&amp;rbrack exportieren; glTF kann nicht importiert werden, wenn es unter Linux/MacOS erstellt wurde
+* &lbrack;Linux&rbrack; Das Ziehen und Ablegen einer Datei in das Bedienfeld &quot;Elemente&quot; kann zu einem Absturz führen
+* &lbrack;Automatisches Entpacken&rbrack; Automatisches Entpacken ist auch dann verfügbar, wenn kein Mesh zum erneuten Laden ausgewählt wurde
+* &blbrack;Partikeln&rbrack; Falsche Partikel mit Schwerkraft
+* &lbrack;Ebenenstapel&rbrack; Ebenen-Histogramm kann nur Luminanz mit einigen Kanälen verwenden
+* &lbrack;Geometrie-Maske&rbrack; Kontextmenü auf einem Ordner, wenn das Bearbeiten der Geometriemaske nicht funktioniert
+* &lbrack;Projektion&rbrack; Naht mit sphärische Projektion &amp; bilinearer Filterung
+* &blbrack;UV-Kacheln&rbrack; Maske in Datei exportieren exportiert nur Kachel 0, 0
+* &lbrack;Mesh&rbrack; exportieren FBX Mesh-Export ist leer
+* &lbrack;Iray&rbrack; Normalen-Map wird beim Rendern in neuen Projekten nicht berücksichtigt
+* &lbrack;Speichern&rbrack; Probleme auf freigegebenen Laufwerken speichern
+* &blbrack;Baking&rbrack; Beim erneuten Erstellen eines Meshs mit geänderten Parametern wird eine Warnung angezeigt
+* &lbrack;Baking&rbrack;&lbrack;Regression&rbrack; Falsches Ergebnis, wenn der globale Begrenzungsrahmen des hohen Poly-Meshs den Ursprung der Szene nicht enthält
+* &lbrack;Python&rbrack; Benutzerdefinierte Benutzerbibliotheken werden nicht berücksichtigt
 
 **Bekannte Probleme:**
 
-* [Bibliotheken] Gespeicherte Suchen werden nicht gespeichert, wenn kein Projekt geöffnet wird
-* [NVIDIA] Meldung für veralteten Treiber, selbst wenn der Treiber auf dem neuesten Stand ist
+* &lbrack;Libraries&rbrack; Gespeicherte Suchvorgänge werden nicht gespeichert, wenn kein Projekt geöffnet wird
+* &lbrack;NVIDIA&rbrack; Meldung für veralteten Treiber, selbst wenn der Treiber auf dem neuesten Stand ist
 
 ### 7.1.1 (2021.1.1)
 
-*(Freigegeben: 23. März 2021)*
-Zusammenfassung: **Nebenversion, Bugfix mit der Möglichkeit, Hexadezimalwerte in den Farbwähler einzugeben**
+*(Freigegeben: 23. März 2021*)Zusammenfassung: **Nebenversion, Bugfix mit der Möglichkeit, Hexadezimalwerte in den Farbwähler einzugeben**
 
 **Hinzugefügt:**
 
-* [Protokoll] Benutzer über inkompatible AMD-GPU-Treiber warnen
-* [Farbwähler] Hexadezimalwerte können eingegeben werden
+* &lbrack;Log&rbrack; Benutzer über inkompatible AMD-GPU-Treiber warnen
+* &Klammer;Farbwähler&Klammer; Eingabe von Hexadezimalwerten zulassen
 
 **Fest:**
 
-* [Baker] Leistungseinbruch
-* [Geometriemaske] Alt-Klick auf Mesh-Namen kann zu einem Absturz führen
-* [Engine] Beim Malen wird bei Bedarf nicht die gesamte Ansicht aktualisiert
-* [Ebenenstapel] Auswahl bleibt nach dem Ändern des Shader hängen
-* [MacOS]&#x200B;[Farbwähler] Die Farbe ist etwas anders als die ausgewählte
-* [Exportieren] Bei Verwendung des PSD-Dateiformats wird nicht eine Datei pro UV-Kachel generiert.
-* [Scripting]&#x200B;[Javascript] alg.mapexport.getPathsExportDocumentMaps() gibt nicht alle Werte zurück.
-* [Scripting]&#x200B;[Python] Deaktivierte Plug-ins werden beim erneuten Öffnen von Painter wieder aktiviert
+* &lbrack;Baker&rbrack; Einbruch der Leistung
+* &lbrack;Geometrie-Maske&rbrack; Alt-Klick auf den Namen des Meshs kann zu einem Absturz führen
+* &lbrack;Engine&rbrack; Beim Malen wird nicht die gesamte Ansicht aktualisiert, wenn dies erforderlich ist
+* &lbrack;Ebenenstapel&rbrack; Auswahl bleibt nach dem Ändern des Shader hängen
+* &lbrack;MacOS&rbrack;&lbrack;Farbwähler&rbrack; Die Farbe ist etwas anders als die ausgewählte
+* &lbrack;Export&rbrack; Bei Verwendung des PSD-Dateiformats wird nicht eine Datei pro UV-Kachel generiert
+* &lbrack;Skripterstellung&rbrack;&lbrack;Javascript&rbrack; alg.mapexport.getPathsExportDocumentMaps() gibt nicht alle Werte zurück
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Deaktivierte Plug-ins werden beim erneuten Öffnen von Painter wieder aktiviert
 
 ### 7.1.0 (2021.1.0)
 
-*(Freigegeben: 28. Januar 2021)*
-Zusammenfassung: **Hauptversion, neue Geometriemaske, mit der Teile der UV-Kachel ausgewählt und Malen werden können, Kopier-/Einfügeeffekte im Ebenenstapel, verbesserte Geometriemaske, Aktualisierung von Iray, Bakern, Substance Engine und neuen Inhalten**
+*(Freigegeben: 28. Januar 2021*)Zusammenfassung: **Hauptversion, neue Geometriemaske, mit der Teile der UV-Kachel ausgewählt und Malen werden können, Kopier-/Einfügeeffekte im Ebenenstapel, verbesserte Geometriemaske, Aktualisierung von Iray, Bakern, Substance Engine und neuen Inhalten**
 
 **Hinzugefügt:**
 
 * Neue Geometriemaske und Malen ausgewählter Teile der Geometrie
-* [Geometriemaske] Erlaubt das Malen ausgewählter Geometrieteile nach Mesh-Namen.
-* [Geometriemaske] Rechteckige Auswahl in beiden Viewporten
-* [Geometriemaske] Ausgeschlossene Geometrie auf einer Ebene ausblenden/ignorieren
-* [Geometriemaske]&#x200B;[Eigenschaften] Schnellauswahl für Kontrollkästchen mit Klicken und Ziehen
-* [Geometriemaske]&#x200B;[Eigenschaften]&#x200B;[UI] Alle Elemente mit einer Dropdown-Liste im Eigenschaftenfenster einschließen/ausschließen
-* [Geometriemaske]&#x200B;[Eigenschaften] Ermöglicht die schnelle Auswahl eines Elements in einer Liste mit ALT+LINKSKLICK.
-* [Geometriemaske]&#x200B;[Eigenschaften] Überlagerung in Viewporten beim Zeigen auf Mesh-Namen/UV-Kacheln im Eigenschaftenfenster
-* [Geometriemaske]&#x200B;[Ebenenstapel] Hinzufügen von Kopier-/Einfügeoptionen zur Geometriemaske
-* [Geometriemaske] Neues Symbol für Schaltfläche &quot;Ausgeschlossene Geometrie ausblenden/ignorieren&quot;
-* [Geometriemaske] Neue QuickInfo für Ausgeschlossene Geometrie ausblenden/ignorieren
-* [Geometriemaske] Drücken Sie ALT+H, um die Schaltfläche &quot;Ausgeschlossene Geometrie ignorieren&quot; ein- oder auszublenden. Tastaturbefehl:
-* [UV-Kacheln]&#x200B;[Ebenenstapel] Neue Miniaturansicht der Kugelvorschau der Füllebene für UV-Kacheln und vereinfachten Modus
-* [UV-Kacheln]&#x200B;[Ebenenstapel] Ermöglicht das einfache Beenden der UV-Kachel
-* [UV-Kacheln]&#x200B;[Liste der Textursatz] Ermöglicht die Angabe einer Beschreibung pro UV-Kachel.
-* [UV-Kacheln]&#x200B;[Textursatz-Einstellungen]&#x200B;[UI] Zwei neue Abschnittstitel im Dropdown-Menü zum Ändern der Auflösung der UV-Kachel
-* [UV-Kacheln]&#x200B;[Viewport] UV-Kachel-Maske beenden, wenn ein Material in den Viewport gezogen wird
-* [Ebenenstapel] Optionen zum Kopieren/Einfügen für Effekte hinzufügen
-* [Ebenenstapel] Kopieren/Einfügen von Effekten von einem Textursatz in einen anderen zulassen
-* [Ebenenstapel] Mehrfachauswahl von Effekten zulassen
-* [Ebenenstapel] Hinzufügen von Kopier-/Einfügeoptionen als Verknüpfungen für Ebeneneffekte
-* [Ebenenstapel] Automatisch zwischen Maske und Inhalt wechseln, wenn Effekte auf eine andere Ebene gezogen werden
-* [Ebenenstapel] Beim Einfügen einer Maske aus einer anderen Ebene automatisch eine Maske erstellen
-* [Ebenenstapel] Hinzufügen von Verschiebungseffekt-Aktionen im Kontextmenü der Effekte
-* [Ebenenstapel] Ziehen und Ablegen von Effekten von einer Ebene in eine andere zulassen
-* [Ebenenstapel] Wenn Elemente in einen Ordner gezogen werden, werden sie oben im Ordner abgelegt.
+* &lbrack;Geometrie-Maske&rbrack; Malen ausgewählter Geometrieteile nach Mesh-Namen zulassen
+* &lbrack;Geometrie-Maske&rbrack; Rechteckige Auswahl in beiden Viewporten
+* &lbrack;Geometrie-Maske&rbrack; Ausgeschlossene Geometrie auf einer Ebene ausblenden/ignorieren
+* &lbrack;Geometriemaske&rbrack;&lbrack;Eigenschaften&rbrack; Schnellauswahl für Kontrollkästchen durch Klicken und Ziehen
+* &lbrack;Geometry Mask&rbrack;&lbrack;Properties&rbrack;&lbrack;UI&rbrack; Alle einschließen/ausschließen mit einer Dropdown-Liste im Eigenschaftenfenster
+* &lbrack;Geometriemaske&rbrack;&lbrack;Eigenschaften&rbrack; Schnelles Auswählen eines Elements in einer Liste mit ALT+LINKSKLICK
+* &lbrack;Geometriemaske&rbrack;&lbrack;Eigenschaften&rbrack; Überlagerung in Viewporten, wenn der Mauszeiger über Mesh-Namen/-UV-Kacheln im Eigenschaftenfenster bewegt wird
+* &lbrack;Geometriemaske&rbrack;&lbrack;Ebenenstapel&rbrack; Hinzufügen von Kopier-/Einfügeoptionen zur Geometriemaske
+* &lbrack;Geometrie-Maske&rbrack; Neues Symbol für die Schaltfläche &quot;Ausgeschlossene Geometrie ausblenden/ignorieren&quot;
+* &lbrack;Geometrie-Maske&rbrack; Neue QuickInfo für Ausgeschlossene Geometrie ausblenden/ignorieren
+* &lbrack;Geometrie-Maske&rbrack; Tastaturbefehl ALT+H drücken, um die Schaltfläche &quot;Ausgeschlossene Geometrie ignorieren&quot; ein- oder auszublenden
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Ebenenstapel&rbrack; Vorschau der neuen Füllebene-Kugel für UV-Kacheln und vereinfachten Modus
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Ebenenstapel&rbrack; UV-Kachel-Maske leicht verlassen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Textursatz Liste&rbrack; Geben Sie eine Beschreibung pro UV-Kachel an.
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Textursatz-Einstellungen&rbrack;&lbrack;UI&rbrack; Zwei neue Abschnittstitel im Dropdown-Menü zum Ändern der Auflösung der UV-Kachel
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Viewport&rbrack; UV-Kachel-Maske beenden, wenn ein Material in den Viewport gezogen wird
+* &lbrack;Ebenenstapel&rbrack; Optionen zum Kopieren/Einfügen für Effekte hinzufügen
+* &lbrack;Ebenenstapel&rbrack; Kopieren/Einfügen von Effekten von einem Textursatz in einen anderen zulassen
+* &lbrack;Ebenenstapel&rbrack; Mehrfachauswahl von Effekten zulassen
+* &lbrack;Ebenenstapel&rbrack; Optionen zum Kopieren/Einfügen als Tastaturbefehle für Ebeneneffekte hinzufügen
+* &lbrack;Ebenenstapel&rbrack; Automatisches Umschalten zwischen Maske und Inhalt beim Ziehen von Effekten auf eine andere Ebene
+* &lbrack;Ebenenstapel&rbrack; Beim Einfügen einer Maske aus einer anderen Ebene automatisch eine Maske erstellen
+* &lbrack;Ebenenstapel&rbrack; Hinzufügen von Aktionen zum Verschieben von Effekten im Kontextmenü des jeweiligen Effekts
+* &lbrack;Ebenenstapel&rbrack; Ziehen und Ablegen von Effekten von einer Ebene auf eine andere zulassen
+* &lbrack;Ebenenstapel&rbrack; Wenn Elemente in einen Ordner gezogen werden, werden sie oben im Ordner abgelegt.
 * Iray auf Version 2020.1.0 aktualisieren
-* [Baker] Baker auf Version 2.5.4 aktualisieren
-* [Baker] Einzelne UV-Kacheln im Fenster &quot;Baking-Fortschritt&quot; anzeigen
-* [Baker]&#x200B;[UI] Ermöglicht das schnelle Baking des aktuellen Textursatzes mit einer neuen Schaltfläche.
-* [Baker] Benutzer können mit ALT+LINKSKLICK schnell einen der Baker auswählen
+* &lbrack;Baker&rbrack; Baker auf Version 2.5.4 aktualisieren
+* &lbrack;Baker&rbrack; Einzelne UV-Kacheln im Fenster &quot;Baking-Fortschritt&quot; anzeigen
+* &lbrack;Baker&rbrack;&lbrack;UI&rbrack; Ermöglicht das schnelle Baking des aktuellen Textursatzes mit einer neuen Schaltfläche
+* &lbrack;Baker&rbrack; Benutzer können mit ALT+LINKSKLICK schnell einen der Baker auswählen
 * Substance Engine auf Version 8.0.8 aktualisieren
-* [Substance Engine] Unterstützung der Standardfarbe in neuen .sbsar-Dateien
-* [Automatisch Entpackt] Leistungsverbesserung
-* [Exportieren] Fügen Sie visuelles Feedback hinzu, um anzugeben, welche Auflösung der UV-Kachel von der Standardauflösung des Projekts abweicht
-* [Exportieren] Szene-Größenfaktor zur exportierten Shader-JSON-Datei hinzufügen
-* [Sprache] Japanische Übersetzung hinzufügen
-* [UI] Aktualisierung des Fensters mit Versionierung interner Abhängigkeiten
-* [Scripting]&#x200B;[Python] Verwaltung von Regal-Ressourcen zulassen
-* [Scripting]&#x200B;[Python] Ermitteln Sie, wann ein Projekt zum Baking und Exportieren bereit ist.
-* [Scripting]&#x200B;[Python] Ermitteln Sie, wann ein Regal das Crawlen von Ressourcen auf der Festplatte abgeschlossen hat.
-* [Scripting]&#x200B;[Python] Abfragen der Liste der UV-Kacheln pro Textursatz zulassen
-* [Scripting]&#x200B;[Python] Weisen Sie Regal-Ressourcen eine benutzerdefinierte Vorschau zu
-* [Scripting]&#x200B;[Python] Verwalten benutzerdefinierter Regal zulassen
-* [Scripting]&#x200B;[Python] Hinzufügen eines Methodenindexes in jedem Untermodul in der Dokumentation
-* [Scripting]&#x200B;[Python] Neuer Stil für die Dokumentation
-* [Scripting]&#x200B;[Python] Verbesserung der Ressourcen- und Regal-Dokumentation
-* [Content] Drei neue Werkzeugvorgaben zum Nähen
-* [Regal] Entfernen Sie vorübergehend &quot;Exportieren auf Substance share&quot;, während Sie zur neuen Substance share-Plattform wechseln.
+* &lbrack;Substance Engine&rbrack; Unterstützung der Standardfarbe in neuen .sbsar-Dateien
+* &lbrack;Automatisch Entpackt&rbrack; Leistungssteigerung
+* &lbrack;Export&rbrack; Fügen Sie visuelles Feedback hinzu, um anzuzeigen, welche Auflösung der UV-Kachel vom Projektstandard abweicht
+* &lbrack;Export&rbrack; Szene-Größenfaktor zur exportierten Shader-JSON-Datei hinzufügen
+* &lbrack;Sprache&rbrack; Hinzufügen von japanischen Übersetzungen
+* &lbrack;UI&rbrack; Info-Fenster mit Versionierung interner Abhängigkeiten aktualisieren
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Verwalten von Regal-Ressourcen zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Benachrichtigen, wenn ein Projekt zum Baking und Exportieren bereit ist
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Erlaubt zu wissen, wann ein Regal das Crawlen von Ressourcen auf der Festplatte abgeschlossen hat
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Abfragen der Liste der UV-Kacheln pro Textursatz zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Zuweisen einer benutzerdefinierten Vorschau zu Regal-Ressourcen zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Verwalten benutzerdefinierter Regal zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Hinzufügen eines Methodenindex in jedem Untermodul in der Dokumentation
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Neuer Stil für die Dokumentation
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Verbesserung der Ressourcen und Dokumentation des Regals
+* &lbrack;Inhalt&rbrack; Drei neue Werkzeugvorgaben zum Nähen
+* &lbrack;Regal&rbrack; Entfernen Sie vorübergehend &quot;Auf Substance share exportieren&quot;, während Sie zur neuen Substance share-Plattform wechseln.
 
 **Fest:**
 
 * Absturz bei Monitoren mit unterschiedlichen Auflösungen
 * Absturz im Substance Engine mit einigen seltenen Projekten
 * Die Aktualisierung des Viewports schlägt beim Wechseln von Ebenen mit &quot;Ausgeschlossene Geometrie ausblenden/ignorieren&quot; fehl.
-* [2D-Ansicht] Bei einigen Projekten kann 2D-Viewport fehlen
-* [Baking] &quot;Übereinstimmung nach Mesh&quot; ignoriert Teile des Objekts
-* [Ebenenstapel] Durch Klicken auf einen Ebeneneffekt wird der Ordner geöffnet.
-* [Geometriemaske] UV-Kachel wird in der Maske immer noch gezählt, auch wenn der Mesh ohne sie erneut importiert wird
-* [Geometriemaske] Das Kontextmenü im Viewport bietet nicht die richtigen Werkzeuge
-* [Engine] Schwerwiegende Verzögerungen bei bestimmten Projekten
-* [Scripting] Hohe Latenz bei Anforderungen an Remote-JSON-POST unter Windows
-* [Linux] Vram-Menge wird bei bestimmten integrierten GPUs nicht richtig erkannt
-* [Automatisch Entpackt] Absturz oder lange entpack an einigen Projekten
+* &lbrack;2D-Ansicht&rbrack; 2D-Viewport kann in einigen Projekten fehlen
+* &blbrack;Baking&rbrack; &quot;Nach Mesh suchen&quot; ignoriert Teile des Objekts.
+* &lbrack;Ebenenstapel&rbrack; Durch Klicken auf einen Ebeneneffekt wird der Ordner geöffnet.
+* &lbrack;Geometrie-Maske&rbrack; UV-Kachel wird immer noch in der Maske gezählt, auch wenn der Mesh ohne sie erneut importiert wird
+* &lbrack;Geometrie-Maske&rbrack; Das Kontextmenü im Viewport bietet nicht die richtigen Werkzeuge
+* &lbrack;Engine&rbrack; Erhebliche Verzögerungen bei bestimmten Projekten
+* &lbrack;Skripterstellung&rbrack; Hohe Latenz bei JSON-Remote-POST-Anforderungen unter Windows
+* &lbrack;Linux&rbrack; Die VRAM-Menge wird bei bestimmten integrierten GPUs nicht ordnungsgemäß erkannt.
+* &lbrack;Automatisch Entpackt&rbrack; Absturz oder lange entpack an einigen Projekten
 
 ## Version 6
 
 ### 6.2.2 (2020.2.2)
 
-*(Freigegeben: 28. September 2020)*
-Zusammenfassung: **Nebenversion, Bugfix mit einigen Funktionen in der Python-API**
+*(Freigegeben: 28. September 2020 (1&rbrace;)Zusammenfassung:**Nebenversion, Bugfix mit einigen Funktionen in der Python-API***
 
 **Hinzugefügt:**
 
-* [Leistung] Nicht alle UV-Kacheln bei Verwendung der Farb-ID berechnen
-* [Baker]&#x200B;[UI] Textursatz-Beschreibungen anzeigen
-* [Baker] Speichern von Baking-Einstellungen zulassen
-* [Baker] Hinzufügen aller reduzierten/erweiterter Optionen zur Registerkarte &quot;Auswahl&quot;
-* [Liste der Textursatz] Beschreibung ausblenden, wenn leer
-* [UV-Kacheln]&#x200B;[Liste der Textursatz] Durch Klicken auf die UV-Kachel sollte die Liste erweitert/reduziert werden.
-* [Exportieren]&#x200B;[UI] Horizontales Ändern der Größe des Bedienfelds &quot;Textursatz-Liste&quot; zulassen
-* [Exportieren]&#x200B;[UI] Konsistenter QuickInfo-Text für UV-Kacheln und Textursatz-Arbeitsablauf mit nicht ausgewählten Texturen
-* [Scripting]&#x200B;[Python] Verwenden von Exportvorgaben zum Exportieren von Texturen zulassen
-* [Scripting]&#x200B;[Python] Hinzufügen eines Änderungsprotokolls in der Dokumentation
-* [Scripting]&#x200B;[Python] Ermöglicht die Abfrage aller verfügbaren Kanäle auf einem bestimmten Stapel.
-* [Scripting]&#x200B;[Python] Verbesserungen der Konsolen-Benutzeroberfläche
+* &lbrack;Performance&rbrack; Nicht alle UV-Kacheln bei Verwendung der Farb-ID berechnen
+* &lbrack;Baker&rbrack;&lbrack;UI&rbrack; Anzeigen von Textursatz-Beschreibungen
+* &lbrack;Baker&rbrack; Speichern von Baking-Einstellungen zulassen
+* &lbrack;Baker&rbrack; Hinzufügen aller reduzierten/aller erweiterten Optionen zur Registerkarte &quot;Auswahl&quot;
+* &lbrack;Textursatz Liste&rbrack; Beschreibung ausblenden, wenn leer
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Textursatz Liste&rbrack; Klicken auf UV-Kachel sollte Liste erweitern/reduzieren
+* &lbrack;Export&rbrack;&lbrack;UI&rbrack; Horizontale Änderung der Größe des Bedienfelds &quot;Textursatz-Liste&quot; zulassen
+* &lbrack;Export&rbrack;&lbrack;UI&rbrack; Konsistenter QuickInfo-Text für UV-Kacheln und Textursatz-Arbeitsablauf mit nicht ausgewählten Texturen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Verwenden von Exportvorgaben zum Exportieren von Texturen zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Hinzufügen eines Änderungsprotokolls in der Dokumentation
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Zulassen, dass alle verfügbaren Kanäle auf einem bestimmten Stapel abgefragt werden
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Verbesserungen an der Konsolenbenutzeroberfläche
 
 **Fest:**
 
-* [AMD] Falsche Erkennung veralteter Treiberversionen
+* &lbrack;AMD&rbrack; Falsche Erkennung veralteter Treiberversionen
 * Absturz beim erneuten Importieren eines Meshs mit unterschiedlichem UV-Kacheln-Layout in einigen Fällen
 * Absturz bei der Verwendung von Partikeln mit UDIM auf sehr schweren Meshs
-* [UV-Kacheln] Absturz beim Exportieren eines Meshs mit Versatz-Informationen in einigen Fällen
-* [Exportieren]&#x200B;[Absturz] Exportieren von 2D-Ansichten im PSD-Format kann einen Absturz verursachen
+* &blbrack;UV-Kacheln&rbrack; Absturz beim Exportieren eines Meshs mit Versatz-Informationen in einigen Fällen
+* &lbrack;Export&rbrack;&lbrack;Absturz&rbrack; Das Exportieren von 2D-Ansichten im PSD-Format kann einen Absturz verursachen
 * Das Importieren von Bildern als Sequenzen beim Erstellen eines Projekts funktioniert nicht
 * Engine in einer Endlosschleife
-* [Tastaturbefehl] Kamera dreht sich immer im einrasten Modus, wenn die Kurzbefehle für den einrasten Modus geändert werden
+* &lbrack;Tastaturbefehl&rbrack; Kamera dreht sich immer im einrasten Modus, wenn Tastenkombinationen im einrasten Modus geändert werden
 * Mesh werden immer automatisch entpackt, wenn sie erneut importiert werden, auch wenn die Option deaktiviert ist
-* [Liste der Textursatz] Das Textfeld &quot;Beschreibung&quot; ist in der Edition manchmal nicht vollständig sichtbar.
-* [Liste der Textursatz] Dropdown-Menü zum Ein-/Ausblenden von Textursätzen ist nicht vollständig sichtbar
-* [Liste der Textursatz] Wenn Sie auf das Augensymbol klicken, sollte nicht der Name &quot;Textursatz bearbeiten&quot; eingegeben werden.
-* [Kanaleinstellungen] Beim Entfernen eines Textursatzes wird auch der darunter liegende Kanal entfernt
-* [Exportieren] Alle einschließen und Alle zurücksetzen berücksichtigt keine UV-Kacheln
-* [Baker] Während des Bakings werden nicht ausgewählte Baker angezeigt.
+* &lbrack;Textursatz Liste&rbrack; Das Textfeld &quot;Beschreibung&quot; ist während der Edition manchmal nicht vollständig sichtbar.
+* &lbrack;Textursatz Liste&rbrack; Dropdown-Menü zum Ein-/Ausblenden von Textursätzen ist nicht vollständig sichtbar
+* &lbrack;Textursatz Liste&rbrack; Wenn Sie auf das Augensymbol klicken, sollten Sie nicht den Namen des Textursatzes bearbeiten eingeben.
+* &blbrack;Textursatz-Einstellungen&rbrack; Durch Entfernen eines Kanals wird auch der darunter liegende Kanal entfernt
+* &lbrack;Export&rbrack; Alle einschließen und Alle zurücksetzen berücksichtigt keine UV-Kacheln
+* &lbrack;Baker&rbrack; Während des Bakings werden nicht ausgewählte Baker angezeigt
 * Die Behebungsaktualisierung wird bei durch Baking erzeugte Map als Eingabe nicht berücksichtigt
-* [UV-Kacheln]&#x200B;[Viewport] 3D-Viewport friert ein, wenn Intelligente Material nach UV-Kachel mit ausgewählter Ordnermaske hinzugefügt wird
-* [UV-Kacheln]&#x200B;[Viewport] Drahtgitter ist weiterhin für ausgeblendete Kacheln sichtbar, wenn der Modus &quot;Malen durch&quot; aktiviert ist.
-* [Export]&#x200B;[Sketchfab] Probleme mit dem Abonnementtyp &quot;Plus&quot;
-* [Sketchfab] Das Kontrollkästchen &quot;Dieses Asset ist privat&quot; wird nach dem Kontowechsel nicht angezeigt
-* [Exportieren]&#x200B;[Inhalt] &quot;Verwackelt&quot;-Pinselvorgaben können zu Leistungsproblemen führen
-* [Plugin Photoshop] Meldung im Protokoll: nicht kompatibel mit dem UV-Kachel-Workflow
-* [Scripting]&#x200B;[Python] PYTHONPATH env var verhindert den Start der Anwendung
-* [Scripting]&#x200B;[Python] Typo in der Python-Dokumentation
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Viewport&rbrack; 3D-Viewport friert ein, wenn Intelligente Material nach einem UV-Kachel mit ausgewählter Ordnermaske hinzugefügt wird
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Viewport&rbrack; Drahtgitter ist immer noch für ausgeblendete Kacheln mit dem Modus &quot;Malen durch&quot; sichtbar
+* &lbrack;Export&rbrack;&lbrack;Sketchfab&rbrack; Probleme mit dem Abonnementtyp &quot;Plus&quot;
+* &lbrack;Sketchfab&rbrack; Das Kontrollkästchen &quot;Dieses Asset ist privat&quot; wird nach dem Kontowechsel nicht angezeigt
+* &lbrack;Export&rbrack;&lbrack;Content&rbrack; Verwackelte Pinselvorgaben können zu Leistungsproblemen führen.
+* &lbrack;Plugin Photoshop&rbrack; Meldung im Protokoll: nicht kompatibel mit dem UV-Kachel-Workflow
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; PYTHONPATH env var verhindert den Start der Anwendung
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Typo in der Python-Dokumentation
 
 ### 6.2.1 (2020.2.1)
 
-*(Freigegeben: 29. Juli 2020)*
-Zusammenfassung: **Nebenversion, Hotfix**
+*(Freigegeben: 29. Juli 2020 (1&rbrace;)Zusammenfassung:**Nebenversion, Hotfix***
 
 **Hinzugefügt:**
 
-* Umgebungsvariable &quot;SUBSTANCE\_PAINTER\_VRAM\_BUDGET&quot; hinzufügen, um GPU-VRam-Wert zu überschreiben
-* [UV-Kacheln]&#x200B;[Leistung] Nicht alle UV-Kacheln bei Verwendung des Polygon-Füllwerkzeugs berechnen
+* Umgebungsvariable &quot;SUBSTANCE_PAINTER_VRAM_BUDGET&quot; hinzufügen, um den GPU-VRam-Betrag zu überschreiben
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Leistung&rbrack; Nicht alle UV-Kacheln berechnen, wenn das Polygon-Füllwerkzeug verwendet wird
 
 **Fest:**
 
-* [Iray] Beim Speichern des Renderings wird ein Fehler zurückgegeben, der zu einem schwarzen Bild führt
-* [Linux] Absturz nach dem Begrüßungsbildschirm unter CentOS 7.3
-* [Linux] Vram-Menge wird bei bestimmten Konfigurationen nicht richtig erkannt
-* [Absturz] Öffnen eines Projekts mit dem Namen des duplizierten Textursatzes
-* [Engine] Cache-Invalidierungsproblem beim Ändern einer Maske
-* [Liste der Textursatz] Falscher Schrifteffekt, wenn Textursatz deaktiviert ist
+* &lbrack;Iray&rbrack; &quot;Rendering speichern&quot; gibt einen Fehler zurück, der zu einem schwarzen Bild führt
+* &lbrack;Linux&rbrack; Absturz nach dem Begrüßungsbildschirm unter CentOS 7.3
+* &lbrack;Linux&rbrack; Die VRAM-Menge wird bei bestimmten Konfigurationen nicht richtig erkannt.
+* &lbrack;Absturz&rbrack; Öffnen eines Projekts mit dem Namen des duplizierten Textursatzes
+* &lbrack;Engine&rbrack; Problem mit Cache-Invalidierung beim Ändern einer Maske
+* &lbrack;Textursatz Liste&rbrack; Falscher Schrifteffekt, wenn Textursatz deaktiviert ist
 
 **Bekannte Probleme:**
 
-* [Liste der Textursatz] Die Beschreibung kann nicht ausgeblendet werden.
-* [Textursatz List] UI-Probleme
-* [Iray] PSD-Rendering wird nicht geöffnet
-* [Plug-In Photoshop] Nicht kompatibel mit dem Arbeitsablauf für UV-Kacheln
+* &lbrack;Textursatz Liste&rbrack; Beschreibung kann nicht ausgeblendet werden
+* &lbrack;Textursatz Liste&rbrack; UI-Probleme
+* &lbrack;Iray&rbrack; PSD-Rendering wird nicht geöffnet
+* &lbrack;Plugin Photoshop&rbrack; Nicht kompatibel mit dem Arbeitsablauf für UV-Kacheln
 
 ### 6.2.0 (2020.2.0)
 
-*(Freigegeben: 23. Juli 2020)*
-Zusammenfassung: **Hauptversion mit neuem UV-Kacheln-Workflow, Malen über UV-Kacheln hinweg und Leistungsverbesserung**
+*(Freigegeben: 23. Juli 2020 (1&rbrace;)Zusammenfassung:**Hauptversion mit neuem Arbeitsablauf für UV-Kacheln, Malen über UV-Kacheln hinweg und Leistungsverbesserung***
 
 **Hinzugefügt:**
 
 * UV-Kacheln (UDIM)
-* [UV-Kacheln] Malen über UV-Kacheln
-* [UV-Kacheln] Auswahl zwischen neuem und veraltetem Arbeitsablauf für UV-Kacheln zulassen
-* [UV-Kacheln] Importieren von UDIM/UV-Kachel-Bildsequenzen als Ressource
-* [UV-Kacheln] Liste der UV-Kacheln pro Textursatz im Fenster &quot;Liste der Textursatz&quot; hinzufügen
-* [UV-Kacheln] Erlauben Sie, die Auflösung mehrerer UV-Kacheln gleichzeitig in den Textursatz-Einstellungen zu bearbeiten.
-* [UV-Kacheln]&#x200B;[2D-Ansicht] UV-Kacheln als Raster anzeigen
-* [UV-Kacheln]&#x200B;[2D-Ansichten] Neue Viewport-Schaltfläche zum Anzeigen oder Ausblenden von UV-Kacheln-Informationen
-* [UV-Kacheln] Wechseln des Malwerkzeugs für UV-Kachel-Projekte standardmäßig zum Ein Kanal
-* [UV-Kacheln] Neue Schaltfläche in der kontextabhängigen Symbolleiste, um maskierte UV-Kacheln beim Malen zu ignorieren
-* [UV-Kacheln]&#x200B;[Ebenenstapel] Neue Ebenenstapel-Symbole zur Leistungssteigerung
-* [UV-Kacheln]&#x200B;[Ebenenstapel] Verbessern der Symbole &quot;Malen und Füllen&quot; in der Symbolleiste
-* [UV-Kachel Maske]&#x200B;[2D-Ansicht] Mehrere UV-Kacheln gleichzeitig ein- oder ausschließen (Linksklick, Strg+Linksklick)
-* [Ebenenmaske] Neue Ebenenmaske zum Einschließen, Ausschließen von Kacheln pro UV-Kachel mit neuem Symbol
-* [UV-Kacheln-Maske]&#x200B;[Ebenenstapel] Zeigt die Anzahl der UV-Kacheln im UV-Kacheln-Maskensymbol an, wenn nicht alle eingeschlossen sind.
-* [UV-Kachel-Maske]&#x200B;[2D/3D-Ansicht] Fügen Sie einen Hover-Effekt hinzu, um UV-Kacheln unter dem Cursor darzustellen.
-* [UV-Kacheln]&#x200B;[Baker] Auswahl und Baking bestimmter UV-Kacheln zulassen
-* [UV-Kacheln]&#x200B;[Baker] Hinzufügen von Auswahloptionen für Textursatz/UV-Kacheln
-* [UV-Kacheln]&#x200B;[Baker] Kontextmenüoption zum Auswählen von UV-Kacheln in einem Textursatz
-* [UV-Kacheln]&#x200B;[Baker] Ermöglichen Sie eine schnelle Auswahl im Textursatz/in den UV-Kacheln durch Ziehen
-* [UV-Kacheln]&#x200B;[Baker] Ersetzen Sie die Schaltflächen &quot;Alle&quot; und &quot;Keine&quot; in Mesh-Map durch explizitere Auswahloptionen.
-* [UV-Kacheln]&#x200B;[Baker] Anzahl der zu Baking führend Texturen anzeigen
-* [UV-Kacheln]&#x200B;[Exportieren] Auswahl und Export bestimmter UV-Kacheln zulassen
-* [UV-Kacheln]&#x200B;[Exportieren] Ermöglicht die schnelle Auswahl von UV-Kacheln durch Ziehen
-* [UV-Kacheln]&#x200B;[Exportieren] Dropdown-Menüoptionen für UV-Kacheln hinzufügen
-* [UV-Kacheln]&#x200B;[Exportieren] Stellen Sie einige Exportvorgaben nicht zur Verfügung, wenn sie nicht mit UV-Kacheln funktionieren (Adobe Dimension, Sketchfab, glTF, USD)
-* [UV-Kacheln]&#x200B;[Inhalt] Aktualisieren Sie die Exportvorgaben, um das neue $udim-Tag zu verwenden
-* [UV-Kacheln] Verbessern der Fehlerberichterstattung beim Importieren von Meshs mit überlappenden UV-Inseln
-* [UV-Kacheln] In Iray kompatible UV-Kacheln
-* [UV-Kacheln]&#x200B;[Skripterstellung] Hinzufügen einer UV-Kachel-Exportdokumentation zu Python-Dokumenten
+* &blbrack;UV-Kacheln&rbrack; Malen über UV-Kacheln
+* &blbrack;UV-Kacheln&rbrack; Auswahl zwischen neuem und veraltetem Arbeitsablauf für UV-Kacheln zulassen
+* &blbrack;UV-Kacheln&rbrack; Importieren von Bildsequenzen für UDIM/UV-Kacheln als Ressource
+* &blbrack;UV-Kacheln&rbrack; Liste der UV-Kacheln pro Textursatz im Fenster &quot;Liste der Textursatz&quot; hinzufügen
+* &blbrack;UV-Kacheln&rbrack; Ermöglichen der gleichzeitigen Bearbeitung mehrerer UV-Kacheln in den Textursatz-Einstellungen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;2D-Ansicht&rbrack; UV-Kacheln als Raster anzeigen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;2D-Ansicht&rbrack; Neue Viewport-Schaltfläche zum Anzeigen oder Ausblenden von Informationen zu UV-Kacheln
+* &blbrack;UV-Kacheln&rbrack; Beim UV-Kachel von Projekten standardmäßig auf Ein Kanal umstellen
+* &blbrack;UV-Kacheln&rbrack; Neue Schaltfläche in der kontextabhängigen Symbolleiste, um maskierte UV-Kacheln beim Malen zu ignorieren
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Ebenenstapel&rbrack; Neue Ebenenstapel-Symbole zur Leistungsverbesserung
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Ebenenstapel&rbrack; Verbessern der Symbole &quot;Malen und Füllen&quot; in der Symbolleiste
+* &lbrack;UV-Kachel&rbrack;&lbrack;2D-Ansicht&rbrack; Mehrere UV-Kacheln gleichzeitig ein- oder ausschließen (Linksklick, Strg + Linksklick)
+* &blbrack;UV-Kachel mask&rbrack; Neue Ebenenmaske zum Einschließen, Ausschließen von Kacheln pro UV-Kachel mit neuem Symbol
+* &lbrack;UV-Kachel&rbrack;&lbrack;Ebenenstapel&rbrack; Anzahl der UV-Kacheln im Maskensymbol für UV-Kacheln anzeigen, wenn nicht alle eingeschlossen sind
+* &lbrack;UV-Kachel&rbrack;&lbrack;2D/3D-Ansicht&rbrack; Einen Hover-Effekt hinzufügen, um UV-Kacheln unter dem Cursor darzustellen.
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Baker&rbrack; Auswahl und Baking bestimmter UV-Kacheln zulassen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Baker&rbrack; Hinzufügen von Auswahloptionen für Textursatz/UV-Kacheln
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Baker&rbrack; Kontextmenüoption zum Auswählen von UV-Kacheln innerhalb eines Textursatzes
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Baker&rbrack; Schnellauswahl im Textursatz/in den UV-Kacheln durch Ziehen ermöglichen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Baker&rbrack; Ersetzen Sie die Schaltflächen &quot;Alle&quot; und &quot;Keine&quot; in Mesh-Map durch explizitere Auswahloptionen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Baker&rbrack; Anzahl der zu Baking führend Texturen anzeigen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Exportieren&rbrack; Auswahl und Export bestimmter UV-Kacheln zulassen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Exportieren&rbrack; UV-Kacheln durch Ziehen mit der Maus schnell auswählen
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Exportieren&rbrack; Hinzufügen von Dropdown-Menüoptionen für UV-Kacheln
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Exportieren&rbrack; Deaktivieren einiger Exportvorgaben, wenn sie nicht mit UV-Kacheln funktionieren (Adobe Dimension, Sketchfab, glTF, USD)
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Inhalt&rbrack; Exportvorgaben zur Verwendung des neuen Tags $udim aktualisieren
+* &blbrack;UV-Kacheln&rbrack; Verbessern der Fehlerberichterstattung beim Importieren von Meshs mit überlappenden UV-Inseln
+* &blbrack;UV-Kacheln&rbrack; In Iray kompatible UV-Kacheln
+* &lbrack;UV-Kacheln&rbrack;&lbrack;Scripting&rbrack; Hinzufügen einer UV-Kachel-Exportdokumentation zu Python-Dokumenten
 * Leistung
-* [Leistung] Neue Schaltfläche in der kontextabhängigen Symbolleiste, um die Berechnung des Engine bei der Arbeit anzuhalten (UMSCHALT+ESC)
-* [Performance] Schnelleres Öffnen von Projekten durch Verzögerung der Textursatz-Cache-Berechnung
-* [Performance] Warten Sie nicht, bis Mesh-Map beim Öffnen des Projekts geladen sind.
-* [Performance]&#x200B;[2D/3D-Ansicht] Der Maskenkanal im Viewport wird nicht berechnet, wenn er nicht verwendet wird.
-* [Performance] Anwendung nicht blockieren, wenn Mesh-Map in den Viewporten geladen werden
-* [Leistung] Verbessern der inkrementellen Speichergeschwindigkeit beim Speichern eines Projekts
-* [Performance]&#x200B;[Baker] Ändern Sie die Standardeinstellungen für die Ausdehnung, um Zeit und Projektgröße besser zu sparen.
-* [Performance]&#x200B;[Baker] Wechseln Sie auf bestimmten Bakern zu Graustufen, um Zeit und Projektgröße zu sparen.
-* [Performance]&#x200B;[Exportieren] Verbessern der Engine-Performance, um Texturen schneller zu exportieren
-* [Performance]&#x200B;[Export] Verbessern Sie die Reaktionsfähigkeit beim Öffnen des Exportdialogs mit vielen Textursätzen
-* [Leistung]&#x200B;[Export] Verbessern Sie die Leistung beim Wechsel zur Registerkarte &quot;Exportliste&quot;.
-* [Performance]&#x200B;[Iray] Verkürzen der Startzeit von Iray
+* &lbrack;Performance&rbrack; Neue Schaltfläche in der kontextabhängigen Symbolleiste zum Anhalten der Berechnung von Enginen bei der Arbeit (UMSCHALT+ESC)
+* &lbrack;Performance&rbrack; Schnelleres Öffnen von Projekten durch Verzögerung der Textursatz-Cache-Berechnung
+* &lbrack;Performance&rbrack; Warten Sie nicht, bis die Mesh-Map beim Öffnen des Projekts geladen sind
+* &lbrack;Performance&rbrack;&lbrack;2D/3D-Ansicht&rbrack; Maskenkanal im Viewport nicht berechnen, wenn er nicht verwendet wird
+* &lbrack;Performance&rbrack; Anwendung nicht blockieren, wenn Mesh-Map in den Viewporten geladen werden
+* &lbrack;Performance&rbrack; Verbessern der inkrementellen Speichergeschwindigkeit beim Speichern eines Projekts
+* &lbrack;Performance&rbrack;&lbrack;Bakers&rbrack; Ändern Sie die Standardeinstellungen für die Ausdehnung, um die Speicherzeit und die Projektgröße zu verbessern
+* &lbrack;Performance&rbrack;&lbrack;Bakers&rbrack; Wechsel zu Graustufen auf bestimmten Bakern, um Zeit und Projektgröße zu sparen
+* &lbrack;Performance&rbrack;&lbrack;Export&rbrack; Verbessern der Engine-Performance, um Texturen schneller exportieren zu können
+* &lbrack;Performance&rbrack;&lbrack;Export&rbrack; Verbessern der Reaktionsfähigkeit beim Öffnen des Exportdialogs mit vielen Textursätzen
+* &lbrack;Performance&rbrack;&lbrack;Export&rbrack; Verbessern Sie die Leistung beim Wechsel zur Registerkarte &quot;Exportliste&quot;.
+* &lbrack;Performance&rbrack;&lbrack;Iray&rbrack; Iray-Startzeit reduzieren
 * Sonstige
-* [Baker] Hinzufügen von Auswahloptionen für Textursatz
+* &lbrack;Baker&rbrack; Hinzufügen von Auswahloptionen für Textursatz
 * Shader-Instanzen-Management auf Textursatz-Einstellungen verschieben
-* [2D/3D-Ansicht] Fügen Sie am unteren Rand des Viewports eine Nachricht hinzu, die angibt, welcher Maskentyp bearbeitet wird.
-* [Ebenenstapel] Neue Option in den Einstellungen, um zwischen alten und neuen Miniaturansichten zu wechseln
-* [Ebenenstapel] Fügen Sie visuelles Feedback hinzu, um den Ladezustand der Miniaturansichten anzuzeigen
-* [Proj] Neue Projektion &quot;Fill (Match Per UV-Tile)&quot; zum Laden von Bildsequenzen
-* [Proj] Ändern Sie den Modus &quot;Füllebenen-Projektion&quot; in &quot;Füllen (Per UV-Tile abgleichen)&quot; in bestimmten Fällen.
-* [Content] Optimierung der Kohle-Pinselvorgaben zur Verbesserung der Performance
+* &lbrack;2D/3D-Ansicht&rbrack; Nachricht am unteren Rand des Viewports hinzufügen, um anzuzeigen, welcher Maskentyp bearbeitet wird
+* &lbrack;Ebenenstapel&rbrack; Neue Option in den Einstellungen, um zwischen alten und neuen Miniaturansichten zu wechseln
+* &lbrack;Ebenenstapel&rbrack; Visuelles Feedback hinzufügen, um den Ladezustand der Miniaturen anzuzeigen
+* &lbrack;Proj&rbrack; Neue Projektion &quot;Fill (Match Per UV-Tile)&quot; zum Laden von Bildsequenzen
+* &lbrack;Proj&rbrack; Ändern Sie in bestimmten Fällen den Modus &quot;Füllebenen-Projektion&quot; in &quot;Füllen (entspricht pro UV-Kachel)&quot;
+* &lbrack;Inhalt&rbrack; Optimierung der Kohlevergaserleistung zur Verbesserung der Pinselvorgabe
 * Iray auf Version 2020.0.0 aktualisieren
-* [Exportieren] Deaktivieren Sie die Registerkarte &quot;Exportliste&quot;, wenn nichts ausgewählt ist
+* &lbrack;Export&rbrack; Deaktivieren der Registerkarte &quot;Exportliste&quot;, wenn nichts ausgewählt ist
 * Automatisch Entpackt
-* [Automatisch Entpackt] Verbessern der Erfolgsrate des automatischen entpack-Prozesses
-* [Automatisch Entpackt] Verbesserte Parametrierung zur Erhöhung der Geschwindigkeit und Stabilität
+* &lbrack;Automatisch Entpackt&rbrack; Verbesserung der Erfolgsrate des automatischen entpack-Prozesses
+* &lbrack;Automatisch Entpackt&rbrack; Verbesserte Parametrisierung zur Erhöhung der Geschwindigkeit und Stabilität
 
 **Fest:**
 
-* [Alembic] Facesets werden beim Importieren von Dateien ignoriert
-* [Alembic] Unendliche Ladezeit mit bestimmten Dateien
-* [Importieren] Falsche UDIM-Bildsequenz wird importiert, wenn nur die Dateierweiterung unterschiedlich ist
-* [Absturz] Der Versuch, ein Projekt zu öffnen, das durch einen anderen Prozess gesperrt wurde, führt zu einem Absturz
-* [Projektion] Artefakte an dupliziertem Mesh bei Verwendung von triplanare Projektion
-* [Exportieren] Emissive-Kanal wird nicht mit USD exportiert
-* [Inhalt] Intelligente Material &quot;Kohle&quot; enthält Malen-Striche
+* &lbrack;Alembic&rbrack; Facetten werden beim Importieren von Dateien ignoriert
+* &lbrack;Alembic&rbrack; Unendliche Ladezeit mit bestimmten Dateien
+* &lbrack;Import&rbrack; Eine falsche UDIM-Bildsequenz wird importiert, wenn nur die Dateierweiterung unterschiedlich ist
+* &lbrack;Absturz&rbrack; Der Versuch, ein Projekt zu öffnen, das durch einen anderen Prozess gesperrt ist, führt zu einem Absturz
+* &lbrack;Projektion&rbrack; Artefakte an dupliziertem Mesh bei Verwendung von triplanare Projektion
+* &lbrack;Export&rbrack; Emissive-Kanal wird nicht mit USD exportiert
+* &lbrack;Inhalt&rbrack; Intelligente Material &quot;Charcoal&quot; enthält Malen-Striche
 
 **Bekannte Probleme:**
 
-* [Liste der Textursatz] Die Beschreibung kann nicht ausgeblendet werden.
-* [Textursatz List] UI-Probleme
+* &lbrack;Textursatz Liste&rbrack; Beschreibung kann nicht ausgeblendet werden
+* &lbrack;Textursatz Liste&rbrack; UI-Probleme
 
 ### 6.1.3 (2020.1.3)
 
-*(Freigegeben: 16. Juni 2020)*
-Zusammenfassung: **Bugfix**
+*(Freigegeben: 16. Juni 2020 (1&rbrace;)Zusammenfassung:**Bugfix***
 
 **Hinzugefügt:**
 
-* [Exportieren] Hinzufügen von Versatz-Einstellungen in der JSON-Datei für Shader-Parameter
+* &lbrack;Export&rbrack; Versatz-Einstellungen in der JSON-Datei für Shader-Parameter hinzufügen
 
 **Fest:**
 
-* [Absturz]&#x200B;[Engine] Absturz beim Löschen und Ersetzen vorhandener Kanäle
-* [Absturz] Ändern des Shader nach dem Malen einer Maske in der Material-Ebene
-* [Absturz]&#x200B;[Engine] Absturz mit einigen umfangreichen Projekten
-* [Baker] Zuordnung nach Name funktioniert nicht mit aus zBrush exportierten OBJ
-* [Versatz]&#x200B;[SVT] Texturen werden beim Öffnen des Projekts nicht angezeigt, wenn der Versatz aktiviert ist
-* [Exportieren] Einige Texturen werden in einheitlichem Grau exportiert.
-* [Exportieren] Deaktivierte Textursatz sollten nicht für Dimension- und Sketchfab-Exportvorgaben exportiert werden
-* [Scripting]&#x200B;[JavaScript]-Absturz bei der Verwendung der JavaScript-API für den Zugriff auf die Exportkonfiguration im onProjectOpened-Ereignis
-* [Skripterstellung]&#x200B;[Javascript] onExportFinished() wird nach einem Export nicht aufgerufen
+* &lbrack;Absturz&rbrack;&lbrack;Engine&rbrack; Absturz beim Löschen und Ersetzen vorhandener Kanäle
+* &lbrack;Absturz&rbrack; Ändern des Shaders nach dem Malen einer Maske in einer Material-Ebene
+* &lbrack;Absturz&rbrack;&lbrack;Engine&rbrack; Absturz mit einigen umfangreichen Projekten
+* &lbrack;Baker&rbrack; Die Zuordnung nach Name funktioniert nicht mit aus zBrush exportierten OBJ
+* &lbrack;Versatz&rbrack;&lbrack;SVT&rbrack; Texturen werden beim Öffnen des Projekts nicht angezeigt, wenn der Versatz aktiviert ist
+* &lbrack;Export&rbrack; Einige Texturen werden in einheitlichem Grau exportiert
+* &lbrack;Export&rbrack; Deaktivierte Textursatz sollten nicht für Dimension- und Sketchfab-Exportvorgaben exportiert werden
+* &lbrack;Skripterstellung&rbrack;&lbrack;JavaScript&rbrack; Absturz bei der Verwendung der JavaScript-API, um auf die Exportkonfiguration im onProjectOpened-Ereignis zuzugreifen
+* &lbrack;Skripterstellung&rbrack;&lbrack;Javascript&rbrack; onExportFinished() wird nach einem Export nicht aufgerufen
 
 ### 6.1.2 (2020.1.2)
 
-*(Freigegeben: 28. Mai 2020)*
-Zusammenfassung: **Bugfix mit Substance Engine- und Baker-Update**
+*(Freigegeben: 28. Mai 2020*)Zusammenfassung: **Bugfix mit Substance Engine- und Baker-Update**
 
 **Hinzugefügt:**
 
-* [Baker] Update auf die neueste Version
-* [Baker] Neue Sampling-Methode in den Bakern Ambient occlusion, Krümmung, Thickness
+* &lbrack;Baker&rbrack; Aktualisieren Sie auf die neueste Version
+* &lbrack;Baker&rbrack; Neue Sampling-Methode in den Bakern Ambient occlusion, Krümmung, Thickness
 * Aktualisieren Sie auf die neueste Version von Substance Engine
-* [Scripting]&#x200B;[Python] Erstellen der ResourceID für Projektressourcen zulassen
-* [Scripting]&#x200B;[Python] Abfragen von Kanalinformationen zulassen
-* [Scripting]&#x200B;[Python] Fügen Sie Dryrun- und Rückruffunktionen hinzu, um den Export von Texturen zu simulieren
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Erstellen der ResourceID für Projektressourcen zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Abfragen von Kanalinformationen zulassen
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; Hinzufügen von DryRun- und Callback-Funktionen zur Simulation des Textur-Exports
 
 **Fest:**
 
-* [Baker] Falsche Normale im Welt-Raum-Normale-Baker unter Verwendung einer Tangente-Normalen-Map in bestimmten Fällen
-* [Baker] Fehler beim Baking von Ambient occlusion mit Optix, wenn kein hohes Poly
-* [Dynamische Pinselstriche] Verzögerung beim Laden eines bestimmten Textursatzes
-* [Exportieren] Die deaktivierten Textursatz für USD sollten nicht exportiert werden. glTF
-* [Skripterstellung]&#x200B;[JavaScript] Die Einstellungen für den neuen Krümmung-Baker können nicht bearbeitet werden.
-* [Scripting]&#x200B;[JavaScript] alg.texturesets.addChannel() gibt in einigen Fällen keinen Fehler zurück.
-* [Scripting]&#x200B;[JavaScript] Tippfehler in der JavaScript-API-Dokumentation für setProjectExportOptions()
-* [Skripterstellung]&#x200B;[JavaScript] Exportiert immer alle Textursatz
-* [Scripting]&#x200B;[Python] sys.executable gibt einen Pfad zu python.exe anstelle von Substance Painter zurück
+* &lbrack;Baker&rbrack; Falsche Normalen im Welt-Raum-Normale-Baker mit einer Tangente-Normalen-Map in bestimmten Fällen
+* &lbrack;Baker&rbrack; Fehler beim Baking von Ambient occlusion mit Optix, wenn kein hohes Poly
+* &lbrack;Dynamische Pinselstriche&rbrack; Verzögerung beim Laden eines bestimmten Textursatzes
+* &lbrack;Export&rbrack; Sollte die deaktivierten Textursätze nicht für USD exportieren, glTF
+* &lbrack;Skripterstellung&rbrack;&lbrack;JavaScript&rbrack; Die Baker-Einstellungen für neue Krümmungen können nicht bearbeitet werden.
+* &lbrack;Skripterstellung&rbrack;&lbrack;JavaScript&rbrack; alg.texturesets.addChannel() gibt in einigen Fällen keinen Fehler zurück
+* &lbrack;Skripterstellung&rbrack;&lbrack;JavaScript&rbrack; Typo in der JavaScript-API-Dokumentation für setProjectExportOptions()
+* &lbrack;Skripterstellung&rbrack;&lbrack;JavaScript&rbrack; Immer alle Textursatz exportieren
+* &lbrack;Scripting&rbrack;&lbrack;Python&rbrack; sys.executable gibt einen Pfad zu python.exe anstelle von Substance Painter zurück
 * Textur-Cache nicht kompatibel mit Mac OS und Windows/Linux
-* [Livelink UE4] Nur das letzte Material wird für alle Textursatz in einem kombinierten Mesh verwendet.
+* &lbrack;Livelink UE4&rbrack; Nur das letzte Material wird für alle Textursatz in einem kombinierten Mesh verwendet.
 
 **Bekannte Probleme:**
 
-* [Exportieren]&#x200B;[Dimension]&#x200B;[Skecthfab] Die deaktivierten Textursatz sollten nicht exportiert werden.
-* [Absturz] Ändern des Shader nach dem Malen einer Maske in der Material-Ebene
+* &lbrack;Export&rbrack;&lbrack;Dimension&rbrack;&lbrack;Skecthfab&rbrack; Die deaktivierten Textursatz sollten nicht exportiert werden
+* &lbrack;Absturz&rbrack; Shader nach dem Malen einer Maske in einer Material-Ebene ändern
 
 ### 6.1.1 (2020.1.1)
 
-*(Freigegeben: 5. Mai 2020)*
-Zusammenfassung: **Hotfix**
+*(Freigegeben: 05. Mai 2020*)Zusammenfassung: **Hotfix**
 
 **Hinzugefügt:**
 
-* [Export] Überschriebenes visuelles Feedback zu TextureSet
+* &lbrack;Export&rbrack; Visuelles Feedback des überschriebenen Status für TextureSet
 
 **Fest:**
 
-* [Exportieren] Exporter-Fenstergröße ist auf einem Spezialauflösungsmonitor zu groß und kann nicht geändert werden
-* [Export] Optionen werden nach dem Export nicht gespeichert
-* [Exportieren] Absturz oder kann nicht mit der Exportvorgabe &quot;Aus Cache&quot; exportiert werden
-* [Export] Wenn Sie den Export abbrechen, wird eine unerwartete zusätzliche leere Map generiert.
-* [Exportieren] Virtuelle Exportvoreinstellungen korrigieren
-* [Python] PYTHONPATH env var wird nicht berücksichtigt
-* [Python]&#x200B;[Export] Wenn Sie den Export über Python abbrechen, wird ein Ausnahmefehler zurückgegeben.
-* [Python]&#x200B;[Exportieren] export\_project\_Texturen falsches Ergebnis mit psd-Dateiformat
-* [Baker] Absturz unter Linux mit GPU-Raytracing
+* &lbrack;Export&rbrack; Exporter-Fenstergröße ist auf einem Spezialauflösungsmonitor zu groß und kann nicht geändert werden
+* &lbrack;Export&rbrack; Optionen werden nach dem Export nicht gespeichert
+* &lbrack;Export&rbrack; Absturz oder kann nicht mit einer Exportvorgabe vom Cache exportiert werden
+* &lbrack;Export&rbrack; Wenn Sie den Export abbrechen, wird eine unerwartete zusätzliche leere Map generiert.
+* &lbrack;Export&rbrack; Vorgabeeinstellungen für den virtuellen Export korrigieren
+* &lbrack;Python&rbrack; PYTHONPATH env var wird nicht berücksichtigt
+* &lbrack;Python&rbrack;&lbrack;Export&rbrack; Wenn Sie den Export über Python abbrechen, wird ein Ausnahmefehler zurückgegeben
+* &lbrack;Python&rbrack;&lbrack;Export&rbrack; export_project_Texturen falsches Ergebnis mit psd-Dateiformat
+* &lbrack;Baker&rbrack; Absturz unter Linux mit GPU-Raytracing
 
 **Bekannte Probleme:**
 
-* [JavaScript] Die Baker-Einstellungen für neue Krümmungen können nicht bearbeitet werden.
-* [JavaScript]&#x200B;[Export] Exportiert immer alle Textursatz
-* [Exportieren]&#x200B;[USD] Die deaktivierten Textursatz sollten nicht exportiert werden.
-* [Absturz] Ändern des Shader nach dem Malen einer Maske in der Material-Ebene
+* &lbrack;JavaScript&rbrack; Die Baker-Einstellungen für neue Krümmungen können nicht bearbeitet werden.
+* &lbrack;JavaScript&rbrack;&lbrack;Export&rbrack; Immer alle Textursatz exportieren
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; Die deaktivierten Textursatz sollten nicht exportiert werden
+* &lbrack;Absturz&rbrack; Shader nach dem Malen einer Maske in einer Material-Ebene ändern
 
 ### 6.1.0 (2020.1.0)
 
-*(Freigegeben: 22. April 2020)*
-Zusammenfassung: **Hauptversion mit neuer Textur und neuem Mesh-Exporter (mit Versatz und Tessellation), aktualisiertem UV mit mehr Steuerelementen, neuen Bakern, neuer Scripting-Python-API, besserer UX für Decal-entpackte und neuem Inhalt**
+*(Freigegeben: 22. April 2020 (1&rbrace;)Zusammenfassung:**Hauptversion mit neuer Textur und neuem Mesh-Exporter (mit Versatz und Tessellation), aktualisiertem UV mit mehr Steuerelementen, neuen Bakern, neuer Python-API für die Skripterstellung, besserer UX für die Decal-entpackte und neuem Inhalt***
 
 **Hinzugefügt:**
 
 * Exporter &quot;Neue Textur und neuer Mesh&quot;
-* [Exportieren] Neue Exporter-Oberfläche
-* [Exportieren]&#x200B;[Registerkarte &quot;Exportieren&quot;] Ermöglicht die Auswahl der Kartenkanäle, die pro Textursatz exportiert werden.
-* [Exportieren]&#x200B;[Registerkarte &quot;Exportieren&quot;] Modifizierung der Größe des Textursatzes für alle Textursatz in einer Aktion zulassen
-* [Exportieren]&#x200B;[Registerkarte &quot;Exportieren&quot;] Lassen Sie eine andere Vorlage pro Textursatz zu (außer USD, glTF, Sketchfab und Dimension)
-* [Exportieren]&#x200B;[Registerkarte &quot;Exportieren&quot;] Schnelle Aktivierung und Deaktivierung von Karten und Textursätze
-* [Exportieren]&#x200B;[Registerkarte &quot;Exportieren&quot;] Die Exportauflösung 8192x8192 ist nicht mehr experimentell
-* [Exportieren]&#x200B;[Registerkarte &quot;Exportieren&quot;] Änderung des Dateiformats und der Bittiefe pro Map zulassen
-* [Exportieren]&#x200B;[Registerkarte &quot;Exportieren&quot;] Zurücksetzen auf die Werte der Standardparameter zulassen
-* [Exportieren]&#x200B;[Registerkarte &quot;Exportieren&quot;] Speichern von Einstellungen ohne Exportieren zulassen
-* [Exportieren]&#x200B;[Registerkarte &quot;Ausgabevorlagen&quot;] Benennen Sie die Registerkarte &quot;Konfiguration&quot; in die Registerkarte &quot;Ausgabevorlagen&quot; um
-* [Exportieren]&#x200B;[Registerkarte &quot;Ausgabevorlagen&quot;] Definition von Dateiformat und Bittiefe pro voreingestellter Map zulassen
-* [Export]&#x200B;[Registerkarte &quot;Liste der Exporte&quot;] Neue Vorschauregisterkarte zum Zusammenfassen und Anzeigen des Exportvorgangs
-* [Mesh importieren/exportieren] Optimierung der Performance der Import-/Exportzeit
-* [Mesh exportieren] Mesh in FBX exportieren
-* [Mesh exportieren] Exportieren von Mesh mit Versatz und Tessellation
-* [Mesh exportieren]&#x200B;[UI] Neue Einstellungen für die Neuberechnung des normalen Scheitelpunkts, Anwendung der Triangulation
-* [Mesh exportieren] Exportieren der ursprünglichen Mesh-Topologie mit neuen UVs, die durch automatischen entpack generiert werden
+* &lbrack;Export&rbrack; Neue Exporter-Oberfläche
+* &lbrack;Export&rbrack;&lbrack;Export tab&rbrack; Auswahl der pro Textursatz exportierten Kartenkanäle zulassen
+* &lbrack;Export&rbrack;&lbrack;Export tab&rbrack; Ändern der Textursatz-Größe für alle Textursatz in einer Aktion zulassen
+* &lbrack;Export&rbrack;&lbrack;Export tab&rbrack; Andere Vorlagen pro Textursatz zulassen (außer USD, glTF, Sketchfab und Dimension)
+* &lbrack;Export&rbrack;&lbrack;Export tab&rbrack; Schnelle Aktivierung und Deaktivierung von Karten und Textursätze
+* &lbrack;Export&rbrack;&lbrack;Export tab&rbrack; Exportauflösung 8192x8192 nicht mehr experimentell
+* &lbrack;Export&rbrack;&lbrack;Export tab&rbrack; Ändern des Dateiformats und der Bittiefe pro Map zulassen
+* &lbrack;Export&rbrack;&lbrack;Export tab&rbrack; Zurücksetzen auf die Werte der Standardparameter zulassen
+* &lbrack;Export&rbrack;&lbrack;Export tab&rbrack; Speichern von Einstellungen ohne Export zulassen
+* &lbrack;Export&rbrack;&lbrack;Ausgabevorlagen tab&rbrack; Registerkarte &quot;Konfiguration&quot; in Registerkarte &quot;Ausgabevorlagen&quot; umbenennen
+* &lbrack;Export&rbrack;&lbrack;Ausgabevorlagen tab&rbrack; Definition von Dateiformat und Bittiefe pro voreingestellter Map zulassen
+* &lbrack;Export&rbrack;&lbrack;Liste der Exporte tab&rbrack; Neue Vorschauregisterkarte zum Zusammenfassen und Anzeigen des Exportvorgangs
+* &lbrack;Mesh&rbrack; importieren/exportieren Optimierte Performance beim Importieren/Exportieren der Zeit
+* &lbrack;Mesh&rbrack; exportieren Exportieren von Mesh in FBX
+* &lbrack;Mesh&rbrack; exportieren Mesh mit Versatz und Tessellation exportieren
+* &lbrack;Mesh&rbrack;&lbrack;UI&rbrack; exportieren Neue Einstellungen für die Neuberechnung des normalen Scheitelpunkt, Anwendung der Triangulation
+* &lbrack;Mesh&rbrack; exportieren Exportieren der ursprünglichen Mesh-Topologie mit neuen UVs, die durch automatischen entpack generiert werden
 * Automatischer entpack mit weiteren Steuerelementen wurde aktualisiert
-* [UV Entpackend]&#x200B;[UI] Fügen Sie die Einstellung hinzu, um die automatische UV-entpack in einem neuen Projektfenster zu aktivieren
-* [Entpackend UV]&#x200B;[UI] Neue Optionen zum Steuern der entpackend Schritte (Nähte, entpackend Packing)
-* [Entpackend UV]&#x200B;[UI] Beibehaltung bestehender entpackend Nähte/entpackend /Packing zulassen
-* [UV Entpackend]&#x200B;[UI] Neue Optionen zur vollständigen Neuberechnung entpackend Schritte
-* [Entpackend UV]&#x200B;[UI] Neue Option zur Steuerung der Randgröße (keine, kleine, mittlere und große)
+* &lbrack;UV Entpack&rbrack;&lbrack;UI&rbrack; Einstellung hinzufügen, um den automatischen entpack von UV im neuen Projektfenster zu aktivieren
+* &lbrack;UV Entpack&rbrack;&lbrack;UI&rbrack; Neue Optionen zum Steuern der entpackend Schritte (Nähte, entpack, Packing)
+* &lbrack;UV Entpack&rbrack;&lbrack;UI&rbrack; Beibehaltung bestehender entpackend Nähte/entpackend/Packings
+* &lbrack;UV Entpack&rbrack;&lbrack;UI&rbrack; Neue Optionen zur vollständigen Neuberechnung entpackend Schritte
+* &lbrack;UV Entpack&rbrack;&lbrack;UI&rbrack; Neue Option zur Steuerung der Randgröße (keine, kleine, mittlere und große)
 * Neue Baker
-* [Baker] Alte Krümmung durch neue Krümmung aus Mesh ersetzen
-* [Baker] Fügen Sie die Option &quot;Match by Name&quot; hinzu, um die Rückseite im Baker &quot;Ambient occlusion&quot; zu ignorieren
-* [Baker] Option &quot;Boden-Ebene hinzufügen&quot; im Baker &quot;Ambient occlusion&quot;
+* &lbrack;Baker&rbrack; Alte Krümmung durch neue Krümmung aus dem Mesh ersetzen
+* &lbrack;Baker&rbrack; Option &quot;Match by Name&quot; hinzufügen, um die Rückseite im Baker &quot;Ambient occlusion&quot; zu ignorieren
+* &lbrack;Baker&rbrack; Option &quot;Boden-Ebene hinzufügen&quot; im Baker &quot;Ambient occlusion&quot;
 * Neue Python-API für die Skripterstellung (3.7.6)
-* [Python]&#x200B;[UI] Neues Skriptmenü für Python
-* [Python]&#x200B;[UI] Neue Python-Dokumentation im Hilfemenü
-* [Python] Gelegt Substance Painter Python-Module: substance\_painter, alg, display, project.setting, project, texturesets, ui
-* [Python] Neues Python-Modul &quot;substance\_painter&quot; Gelegt
-* [Python] Neues Python-Untermodul Gelegt: alg, display, log, project, resource, texturesets, ui
-* [Python] Listener für Projektänderungen
-* [Python] Neue Beispiele in der Python-Dokumentation
-* [JavaScript]&#x200B;[UI] Menü &quot;Plug-ins&quot; durch JavaScript ersetzt
-* [Viewport] Ermöglichen der Erstellung einer Decal-Projektion durch &quot;Ziehen/Ablegen + ALT&quot; einer Ressource aus dem Regal
+* &lbrack;Python&rbrack;&lbrack;UI&rbrack; Neues Skriptmenü für Python
+* &lbrack;Python&rbrack;&lbrack;UI&rbrack; Neue Python-Dokumentation im Hilfemenü
+* &lbrack;Python&rbrack; Leg der Substance Painter-Pythonmodule: substance_painter, alg, display, project.setting, project, texturesets, ui
+* &lbrack;Python&rbrack; Leg des neuen Python-Moduls &quot;substance_painter&quot;
+* &lbrack;Python&rbrack; Neues Python-Untermodul gelegt: alg, display, log, project, resource, texturesets, ui
+* &lbrack;Python&rbrack; Listener für Projektänderungen
+* &lbrack;Python&rbrack; Neue Beispiele in der Python-Dokumentation
+* &lbrack;JavaScript&rbrack;&lbrack;UI&rbrack; Menü &quot;Plug-ins&quot; durch JavaScript ersetzt
+* &lbrack;Viewport&rbrack; Erstellen einer Aufkleberressource durch Ziehen/Ablegen + ALT aus dem Regal zulassen, wenn eine Projektion aus dem Aufkleber erstellt wird
 * Neue Inhalte
-* [Inhalt] 5 neue Decal-Materialien von Substance Source
-* [Inhalt] Hinzufügen neuer Projektvorlagen und Exportieren von Vorgaben für den Maxwell-Renderer
-* [Inhalt] Hinzufügen einer Projektvorlage für den Keyshot 9-Export
-* [Inhalt] Aktualisieren der Keyshot 9-Exportvoreinstellung, um Versatz und emissive zu unterstützen
-* [Inhalt]&#x200B;[Exporter] Aktualisierung aller Exportvorgaben, um die neuesten Engine- und Renderversionen zu berücksichtigen
-* [Inhalt]&#x200B;[Exporter] Aktualisieren Sie die Exportvoreinstellungsdateien, um neue Format- und Dithering-Einstellungen zu verwenden.
-* [Inhalt] Neue Vorlagen und Shader zur Unterstützung von VRay Material (VRayMtl)
-* [Ebenenstapel] Löschen von Ebeneneffekten mit Papierkorb-Symbol oder Tastaturbefehl-Entf-Taste zulassen
+* &lbrack;Inhalt&rbrack; 5 neue Aufkleber Materialien von Substance Source
+* &lbrack;Inhalt&rbrack; Hinzufügen neuer Projektvorlagen und Exportieren von Vorgaben für den Maxwell-Renderer
+* &lbrack;Inhalt&rbrack; Projektvorlage für Keyshot 9-Export hinzufügen
+* &lbrack;Inhalt&rbrack; Die Exportvorgabe von Keyshot 9 zur Unterstützung von Versatz und emissive aktualisieren
+* &lbrack;Inhalt&rbrack;&lbrack;Exporter&rbrack; Aktualisierung aller Exportvorgaben, um die neuesten Versionen von Game-Enginen und Renderern abzugleichen
+* &lbrack;Inhalt&rbrack;&lbrack;Exporter&rbrack; Exportvoreinstellungsdateien aktualisieren, um neue Format- und Dithering-Einstellungen zu verwenden
+* &lbrack;Inhalt&rbrack; Neue Vorlagen und Shader zur Unterstützung von VRay Material (VRayMtl)
+* &lbrack;Ebenenstapel&rbrack; Löschen von Ebeneneffekten über das Papierkorbsymbol oder den Tastaturbefehl &quot;Löschen&quot; über die Tastatur zulassen
 * Plug-in-Substance Source entfernen (Launcher mit &quot;Senden an&quot;-Funktion verwenden)
-* [Windows] TDR-Warnung nicht auf High-End-GPUs anzeigen
+* &lbrack;Windows&rbrack; Keine TDR-Warnung auf High-End-GPUs anzeigen
 
 **Fest:**
 
 * Übersetzungsprobleme im Dialogfeld &quot;Neue Projektdatei&quot;
-* [Baker] Die Einstellung &quot;Vorverarbeitete Szene speichern&quot; funktioniert nicht mehr.
-* [Planare Projektion] Projektion funktioniert nicht bei Meshs mit sich wiederholenden UVs
-* [Decal] Verhaltensunterschied im Normalkanal bei Verwendung verschiedener Modi zur Projektion der Füllebene
-* [Verwischen]&#x200B;[Klon] Beim Malen in einer Maske kann ein Artefakt angezeigt werden
-* [Engine] Absturz mit bestimmtem Ebeneninhalt
-* [Engine] Zufälliger Absturz beim Malen in einigen Fällen
-* [Ankerpunkt] Der Verweis auf eine leere Maske gibt immer Weiß zurück
-* [Exportieren] Ebene wird in bestimmten Stapel-Konfigurationen nicht berücksichtigt
-* [Mesh exportieren] Kann nicht mit einem Pfad exportiert werden, der Sonderzeichen enthält
-* [Mesh exportieren] GLTF-Dateien können beim Exportieren aus Linux oder MacOS nicht gelesen werden
-* [Mesh importieren] Der erneute Import von DAE, PLY oder glTF funktioniert nicht wie beabsichtigt
+* &lbrack;Baker&rbrack; Die Einstellung &quot;Vorverarbeitete Szene speichern&quot; funktioniert nicht mehr
+* &lbrack;Planare Projektion&rbrack; Projektion funktioniert nicht bei Meshs mit sich wiederholenden UVs
+* &lbrack;Aufkleber&rbrack; Verhaltensunterschiede im Normalkanal bei Verwendung verschiedener Modi zur Projektion der Füllebene
+* &lbrack;Verwischen&rbrack;&lbrack;Klon&rbrack; Beim Malen in einer Maske kann ein Artefakt angezeigt werden
+* &lbrack;Engine&rbrack; Absturz mit bestimmtem Ebeneninhalt
+* &lbrack;Engine&rbrack; Zufälliger Absturz beim Malen in einigen Fällen
+* &lbrack;Ankerpunkt&rbrack; Der Verweis auf eine leere Maske gibt immer Weiß zurück.
+* &lbrack;Export&rbrack; Ebene, die in bestimmten Stapel-Konfigurationen nicht berücksichtigt wurde
+* &lbrack;Mesh&rbrack; exportieren Export mit Pfad, der Sonderzeichen enthält, nicht möglich
+* &lbrack;Mesh&rbrack; exportieren glTF-Dateien können beim Export aus Linux oder MacOS nicht gelesen werden
+* &lbrack;Mesh&rbrack; importieren Das erneute Importieren von DAE, PLY oder glTF funktioniert nicht wie beabsichtigt
 
 **Bekannte Probleme:**
 
-* [Skripterstellung]&#x200B;[JavaScript] Die Einstellungen für den neuen Krümmung-Baker können nicht bearbeitet werden.
-* [Baker] Absturz unter Linux mit GPU-Raytracing
-* [Exportieren]&#x200B;[USD] Die deaktivierten Textursatz sollten nicht exportiert werden.
-* [Absturz] Ändern des Shader nach dem Malen einer Maske in der Material-Ebene
+* &lbrack;Skripterstellung&rbrack;&lbrack;JavaScript&rbrack; Die Baker-Einstellungen für neue Krümmungen können nicht bearbeitet werden.
+* &lbrack;Baker&rbrack; Absturz unter Linux mit GPU-Raytracing
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; Die deaktivierten Textursatz sollten nicht exportiert werden
+* &lbrack;Absturz&rbrack; Shader nach dem Malen einer Maske in einer Material-Ebene ändern
 
 ## Version 5
 
 ### 5.3.3 (2019.3.3)
 
-*(Freigegeben: 6. Februar 2020)*
-Zusammenfassung: **Bugfix mit Upgrade auf Iray 2019.3**
+*(Freigegeben: 06. Februar 2020*)Zusammenfassung: **Bugfix mit Upgrade auf Iray 2019.3**
 
 **Hinzugefügt:**
 
 * Upgrade auf Iray 2019.3
-* [Log] Veraltetes BIOS für Ryzen-CPU anzeigen, was während des Bakings zu Abstürzen führt
-* [ABR] Extrahieren von ABR-Alphas nach Regal
+* &lbrack;Log&rbrack; Veraltetes BIOS für Ryzen-CPU anzeigen, was beim Baking zu Abstürzen führt
+* &lbrack;ABR&rbrack; ABR-Alphas nach Regal extrahieren
 
 **Fest:**
 
-* [Baker] Baking schlägt fehl, wenn High-Poly-Mesh keine UVs enthält
-* [Linux] Benutzerdefinierte Mauskürzel werden nicht gespeichert
-* [Pinsel] Die Kontur verschwindet mit einigen Alpha-Formen
-* [Tablet] Fehlerhafte Erkennung beim Verschieben von Schiebereglern
-* [Tastaturbefehle] Mit Strg+Alt+Mausklick kann kein Tastaturbefehl eingerichtet werden
-* [Regal] Die Ressourcen-QuickInfo wird bei Verwendung eines Stift-Tablets nicht angezeigt
-* [2D-Ansicht]&#x200B;[Exportieren] Die voreingestellte 2D-Ansicht berücksichtigt nicht die normalen Informationen
+* &lbrack;Baker&rbrack; Baking schlägt fehl, wenn der High-Poly-Mesh keine UVs enthält
+* &lbrack;Linux&rbrack; Benutzerdefinierte Mauskürzel werden nicht gespeichert
+* &Klammer;Pinsel&Klammer; Die Kontur verschwindet mit einigen Alpha-Formen
+* &Klammer;Tablet&Klammer; Fehlerhafte Erkennung beim Verschieben von Schiebereglern
+* &blbrack;Shortcuts&rbrack; Mit &quot;Strg+Alt+Mausklick&quot; kann kein Tastaturbefehl eingerichtet werden
+* &lbrack;Regal&rbrack; Die Ressourcen-QuickInfo wird bei Verwendung eines Stift-Tablets nicht angezeigt
+* &lbrack;2D-Ansicht&rbrack;&lbrack;Export&rbrack; Die Voreinstellung &quot;2D-Ansicht&quot; berücksichtigt nicht die normalen Informationen.
 * Einfrieren beim Malen in UV-Ausrichtung mit bestimmten Pinseln
 * Malen unter einem Filter erzeugt Artefakt auf dem laufenden Strich
-* [Viewport] Falscher Texturen-Cache im Viewport nach dem erneuten Importieren eines Meshs
-* [Absturz] Fehler beim Speichern nach dem Export in Photoshop
-* [Absturz] Schreiben von Sonderzeichen im Präfix beim Importieren von Ressourcen
-* [Absturz] Klicken Sie in den Ankerpunkt-Eigenschaften auf die Referenz.
-* [Ankerpunkte] Kanal wird nicht aktualisiert, wenn ein Filter zwischen Ankerpunkt und Referenz vorhanden ist
+* &lbrack;Viewport&rbrack; Falscher Texturen-Cache im Viewport nach dem erneuten Importieren eines Meshs
+* &lbrack;Absturz&rbrack; Fehler beim Speichern nach dem Export in Photoshop
+* &lbrack;Absturz&rbrack; Schreiben spezieller Symbole im Präfix beim Importieren von Ressourcen
+* &lbrack;Absturz&rbrack; Klicken Sie in den Ankerpunkt-Eigenschaften auf die Referenz
+* &lbrack;Ankerpunkte&rbrack; Kanal wird nicht aktualisiert, wenn ein Filter zwischen Ankerpunkt und Referenz vorhanden ist
 * Iray-URL-Link im Hilfemenü funktioniert nicht
 
 **Bekannte Probleme:**
 
-* [Entpackend UV] Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
-* [Entpackend UV] Scheitelpunkt mit genau denselben Koordinaten werden zusammengeführt
-* [UV Entpackend] In seltenen Fällen kann die UV-Generierung auf einigen Mesh-Teilen fehlschlagen.
-* [UV Entpackend] Ungleichmäßiges oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
-* [UV Entpackend] Ungleichmäßiges Textilverhältnis zwischen Textursätzen
-* [UV Entpackend] UV-Insel kann sehr lang sein und passt in manchen Fällen nicht in den UV-Raum
-* [UV Entpackend] Flächen mit degenerierten Flächen oder nicht dreieckigem Mesh mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
+* &lbrack;UV Entpack&rbrack; Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
+* &lbrack;UV Entpack&rbrack; Scheitelpunkt an exakt denselben Koordinaten werden zusammengeführt
+* &lbrack;UV Entpack&rbrack; UV-Generierung kann in seltenen Fällen auf bestimmten Mesh-Komponenten fehlschlagen
+* &lbrack;UV Entpack&rbrack; Uneinheitliches oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
+* &lbrack;UV Entpack&rbrack; Nicht einheitliches Textilverhältnis zwischen Textursätzen
+* &lbrack;UV Entpack&rbrack; Die erzeugte UV-Insel kann sehr lang sein und in manchen Fällen nicht in den UV-Raum passen
+* &lbrack;UV Entpack&rbrack; Degenerierte Flächen oder nicht dreieckige Mesh-Flächen mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
 
 ### 5.3.2 (2019.3.2)
 
-*(Freigegeben: 21. Januar 2020)*
-Zusammenfassung: **Bugfix**
+*(Freigegeben: 21. Januar 2020 (1&rbrace;)Zusammenfassung:**Bugfix***
 
 **Fest:**
 
@@ -2433,149 +2488,146 @@ Zusammenfassung: **Bugfix**
 
 **Bekannte Probleme:**
 
-* [Baker] Absturz im Zusammenhang mit Multithreading auf Ryzen-CPUs
-* [Entpackend UV] Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
-* [Entpackend UV] Scheitelpunkt mit genau denselben Koordinaten werden zusammengeführt
-* [UV Entpackend] In seltenen Fällen kann die UV-Generierung auf einigen Mesh-Teilen fehlschlagen.
-* [UV Entpackend] Ungleichmäßiges oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
-* [UV Entpackend] Ungleichmäßiges Textilverhältnis zwischen Textursätzen
-* [UV Entpackend] UV-Insel kann sehr lang sein und passt in manchen Fällen nicht in den UV-Raum
-* [UV Entpackend] Flächen mit degenerierten Flächen oder nicht dreieckigem Mesh mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
+* &lbrack;Baker&rbrack; Absturz im Zusammenhang mit Multithreading auf Ryzen-CPUs
+* &lbrack;UV Entpack&rbrack; Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
+* &lbrack;UV Entpack&rbrack; Scheitelpunkt an exakt denselben Koordinaten werden zusammengeführt
+* &lbrack;UV Entpack&rbrack; UV-Generierung kann in seltenen Fällen auf bestimmten Mesh-Komponenten fehlschlagen
+* &lbrack;UV Entpack&rbrack; Uneinheitliches oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
+* &lbrack;UV Entpack&rbrack; Nicht einheitliches Textilverhältnis zwischen Textursätzen
+* &lbrack;UV Entpack&rbrack; Die erzeugte UV-Insel kann sehr lang sein und in manchen Fällen nicht in den UV-Raum passen
+* &lbrack;UV Entpack&rbrack; Degenerierte Flächen oder nicht dreieckige Mesh-Flächen mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
 
 ### 5.3.1 (2019.3.1)
 
-*(Freigegeben: 20. Dezember 2019)*
-Zusammenfassung: **Hotfix**
+*(Freigegeben: 20. Dezember 2019*)Zusammenfassung: **Hotfix**
 
 **Fest:**
 
 * Absturz bei der Arbeit an Meshs mit bestimmten UV-Projektionen
-* [ABR] Absturz beim Wechseln zwischen Photoshop-Vorgaben
-* [Linux] Substance Painter kann unter CentOS 7.4 aufgrund eines libGLX-Abhängigkeitsproblems nicht gestartet werden
-* [Baker] Absturz beim Baking nach Verwendung von &quot;Datei&quot; > &quot;Bereinigen&quot;
-* [Baker] Dialogfeld &quot;Baking führend Fortschritt&quot; friert nach Abbruch ein
-* [Baker] Das Baking von Mesh nach dem Exportieren von Texturen funktioniert nicht
-* [Baker] Verwenden von &quot;Match By Name&quot;-Ergebnissen mit schwarzen Mesh-Map
-* [Baker] Käfig wird nicht berücksichtigt.
-* [Regal] Das Importieren von PSD-Dateien führt zu fehlerhaften Bildern
-* [Beispiel] Das Beispielprojekt &quot;Matte&quot; enthält fehlerhafte Kameras und eine falsche Exportvorgabe.
+* &lbrack;ABR&rbrack; Absturz beim Wechseln zwischen Photoshop-Vorgaben
+* &lbrack;Linux&rbrack; Substance Painter kann unter CentOS 7.4 aufgrund eines libGLX-Abhängigkeitsproblems nicht gestartet werden
+* &lbrack;Baker&rbrack; Absturz beim Baking nach Verwendung von &quot;Datei&quot; > &quot;Bereinigen&quot;
+* &lbrack;Baker&rbrack; Baking-Fortschrittsdialog friert nach Abbruch ein
+* &lbrack;Baker&rbrack; Baking von Mesh nach dem Exportieren von Texturen funktioniert nicht
+* &lbrack;Baker&rbrack; Verwenden von &quot;Nach Name abgleichen&quot; mit schwarzen Mesh-Map
+* &lbrack;Baker&rbrack; Käfig wird nicht berücksichtigt
+* &lbrack;Regal&rbrack; Das Importieren von PSD-Dateien führt zu fehlerhaften Bildern
+* &lbrack;Beispiel&rbrack; &quot;Matte&quot;-Beispielprojekt hat fehlerhafte Kameras und falsche Exportvorgabe
 
 **Bekannte Probleme:**
 
-* [Baker] Absturz im Zusammenhang mit Multithreading auf Ryzen-CPUs
-* [Entpackend UV] Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
-* [Entpackend UV] Scheitelpunkt mit genau denselben Koordinaten werden zusammengeführt
-* [UV Entpackend] In seltenen Fällen kann die UV-Generierung auf einigen Mesh-Teilen fehlschlagen.
-* [UV Entpackend] Ungleichmäßiges oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
-* [UV Entpackend] Ungleichmäßiges Textilverhältnis zwischen Textursätzen
-* [UV Entpackend] UV-Insel kann sehr lang sein und passt in manchen Fällen nicht in den UV-Raum
-* [UV Entpackend] Flächen mit degenerierten Flächen oder nicht dreieckigem Mesh mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
+* &lbrack;Baker&rbrack; Absturz im Zusammenhang mit Multithreading auf Ryzen-CPUs
+* &lbrack;UV Entpack&rbrack; Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
+* &lbrack;UV Entpack&rbrack; Scheitelpunkt an exakt denselben Koordinaten werden zusammengeführt
+* &lbrack;UV Entpack&rbrack; UV-Generierung kann in seltenen Fällen auf bestimmten Mesh-Komponenten fehlschlagen
+* &lbrack;UV Entpack&rbrack; Uneinheitliches oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
+* &lbrack;UV Entpack&rbrack; Nicht einheitliches Textilverhältnis zwischen Textursätzen
+* &lbrack;UV Entpack&rbrack; Die erzeugte UV-Insel kann sehr lang sein und in manchen Fällen nicht in den UV-Raum passen
+* &lbrack;UV Entpack&rbrack; Degenerierte Flächen oder nicht dreieckige Mesh-Flächen mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
 
 ### 5.3.0 (2019.3.0)
 
-*(Freigegeben: 17. Dezember 2019)*
-Zusammenfassung: **Hauptversion mit Verbesserung der Benutzererfahrung beim Handmalen, Arbeiten mit Tablets, automatischem UV entpack in der Beta-Version (0.3.0) und verschiedenen neuen Inhalten zum Handmalen**
+*(Freigegeben: 17. Dezember 2019*)Zusammenfassung: **Hauptversion mit Verbesserung der Benutzererfahrung beim Handmalen, Arbeiten mit Tablets, automatischem UV entpack in der Beta-Version (0.3.0) und verschiedenen neuen Inhalten zum Handmalen**
 
 **Hinzugefügt:**
 
 * Integration von Automatic UV entpack 0.3.0 in Substance Painter
-* [UV entpackend] Automatische UV entpackend im Substance Painter, wenn keine UVs oder partielle UVs vorhanden sind
-* [entpackend UV] Eine globale Einstellung zum Aktivieren und Deaktivieren
-* [entpackend UV] In Protokolldatei gemeldete Version
-* [entpackend UV]&#x200B;[UI] Anzeige des Fortschritts beim Entpackend UV
-* [UI] Neue Einstellungen in der kontextabhängigen Symbolleiste zur Auswahl der Pinselvorschau: Vollständige Vorschau, Pinselkontur und Fadenkreuz
-* [Tool] Neuer erweiterter Mischmodus im Alpha-Abschnitt: Aufhellen (Maximal) zusätzlich zu Normal
-* [Ebenenstapel] Gammakorrektur-Option pro Ebene für Alpha oder Maske (Kontextmenü)
-* [Ebenenstapel]&#x200B;[UI] Fügen Sie das Symbol &quot;i&quot; hinzu, wenn ein Alpha-Layer gamma-korrigiert ist
-* [Tablet]&#x200B;[Tool] Gelegt Mindestdruck für Größe und Fluss
-* [Tablet]&#x200B;[UI] Neue Einstellung in der kontextabhängigen Symbolleiste zur Auswahl des Kurvendrucks: linear, easy-in, easy-in-out
-* [Tablet]&#x200B;[UX] Strg+Alt+Klick zum Scrollen hinzufügen
+* &lbrack;UV entpack&rbrack; Automatische UV entpackend im Substance Painter, wenn keine UVs oder partielle UVs vorhanden sind
+* &lbrack;UV entpack&rbrack; Eine globale Einstellung zum Aktivieren und Deaktivieren
+* &lbrack;UV entpack&rbrack; In Protokolldatei gemeldete Version
+* &lbrack;UV entpack&rbrack;&lbrack;UI&rbrack; Anzeige des Fortschritts beim Entpack der UV
+* &lbrack;UI&rbrack; Neue Einstellungen in der kontextabhängigen Symbolleiste zum Auswählen der Pinselvorschau: Vollständige Vorschau, Pinselkontur und Fadenkreuz
+* &lbrack;Werkzeug&rbrack; Neuer erweiterter Mischmodus im Alpha-Bereich: Aufhellen (Maximal) zusätzlich zu Normal
+* &lbrack;Ebenenstapel&rbrack; Gammakorrekturoption pro Ebene für Alpha oder Maske (Kontextmenü)
+* &lbrack;Ebenenstapel&rbrack;&lbrack;UI&rbrack; Symbol &quot;i&quot; hinzufügen, wenn Alpha-Ebene gamma-korrigiert wurde
+* &lbrack;Tablet&rbrack;&lbrack;Tool&rbrack; Gelegt Mindestdruck für Größe und Durchfluss
+* &lbrack;Tablet&rbrack;&lbrack;UI&rbrack; Neue Einstellung in der kontextabhängigen Symbolleiste, um den Kurvendruck auszuwählen: linear, easy-in, easy-in-out
+* &lbrack;Tablet&rbrack;&lbrack;UX&rbrack; Strg- + Alt-Taste + Klicken zum Bildlauf hinzufügen
 * Photoshop-Pinselvorgaben importieren (ABR-Format)
-* [ABR] Support Shape-Parameter
-* [ABR] Unterstützung von Parametern für die Formdynamik
-* [ABR] Support Transfer-Parameter
-* [ABR] Unterstützung von Streuungsparametern
-* [ABR]&#x200B;[Dynamische Pinselstriche] Unterstützung von Rundheit und Spiegelung
-* [ABR]&#x200B;[Regal] Legte die Pinselordnerstruktur im Filtereditor
-* [ABR]&#x200B;[Regal] Photoshop-Symbol in Miniaturansichten hinzufügen
-* [ABR]&#x200B;[Regal] Liste nicht unterstützter Parameter in der detaillierten Miniaturansicht von ABR hinzufügen
-* [Tool]&#x200B;[Dynamische Pinselstriche] Neue dynamische Stricheinstellung zur Steuerung der Anzahl der zu generierenden Zufallszahlen
-* [Tool]&#x200B;[UI] Fügen Sie neue Verteilungs- und Achse-Einstellungen für Streuungs-Jitter hinzu.
-* [Tastaturbefehl] Fügen Sie Strg+Umschalt+B hinzu, um das Baking führend Fenster zu öffnen.
-* [UI]&#x200B;[Menu] Eintrag im Menü &quot;Bearbeiten&quot; hinzufügen, um das Fenster &quot;Baking&quot; zu öffnen
-* [UI]&#x200B;[Einstellungen] Verbesserte Ausrichtung der Liste der Tastaturbefehle
-* [UI] Ersetzen von Drucksteuerelementen (Größe und Fluss) durch Schaltflächen zum Ein- und Ausschalten
-* [Viewport] 2D- und 3D-Viewport können separat fokussiert werden.
+* &lbrack;ABR&rbrack; Unterstützen von Shape-Parametern
+* &lbrack;ABR&rbrack; Unterstützung von Parametern für die Formdynamik
+* &lbrack;ABR&rbrack; Support-Übertragungsparameter
+* &lbrack;ABR&rbrack; Unterstützung von Streuungsparametern
+* &lbrack;ABR&rbrack;&lbrack;Dynamischen Pinselstriche&rbrack; Rundheit und Spiegelung unterstützen
+* &lbrack;ABR&rbrack;&lbrack;Regal&rbrack; Leg der Pinselordnerstruktur im Filtereditor
+* &lbrack;ABR&rbrack;&lbrack;Regal&rbrack; Photoshop-Symbol zu Miniaturansichten hinzufügen
+* &lbrack;ABR&rbrack;&lbrack;Regal&rbrack; Liste nicht unterstützter Parameter in der detaillierten Miniaturansicht der ABR hinzufügen
+* &lbrack;Tool&rbrack;&lbrack;Dynamischen Pinselstriche&rbrack; Neue dynamische Stricheinstellung zur Steuerung der Anzahl der zu erzeugenden Zufallszahlen
+* &lbrack;Tool&rbrack;&lbrack;UI&rbrack; Neue Verteilungs- und Achse-Einstellungen für Streuungs-Jitter hinzufügen
+* &lbrack;Tastaturbefehl&rbrack; Füge Strg+Umschalt+B hinzu, um das Baking-Fenster zu öffnen.
+* &lbrack;UI&rbrack;&lbrack;Menu&rbrack; Eintrag im Menü &quot;Bearbeiten&quot; hinzufügen, um das Baking zu öffnen
+* &lbrack;UI&rbrack;&lbrack;Einstellungen&rbrack; Verbesserung der Ausrichtung der Liste der Tastaturbefehle
+* &lbrack;UI&rbrack; Drucksteuerelemente (Größe und Fluss) durch Schaltflächen zum Ein- und Ausschalten ersetzen
+* &lbrack;Viewport&rbrack; Separates Fokussieren von 2D- und 3D-Viewport zulassen
 * Update auf QT 5.12.5
-* [UI] Anzeige des Ladefortschritts des Meshs
-* [Substance] Zusätzliche Unterstützung für den nicht geklemmten und weichen Bereich mit Schiebereglern
-* [Substance] Erhöhung der Präzision der Substance-Parameter auf bis zu 6 Dezimalstellen
-* [Substance] Berücksichtigen Sie den durch einen Parameter definierten Schritt.
-* [Substance] Optimieren der dynamischen Konturgenerierung mit Unterstützung von Bedingungen in Benutzerdaten
-* [Substance] Graphausgabe als Maske für alle Kanäle über Benutzerdaten festlegen
-* [Inhalt] Aktualisieren des Mat-Beispielprojekts mit Versatz-freundlicher Topologie, neuer ID-Map und neuen Kameras
-* [Inhalt] Integration von drei neuen Filtern (MatFx): Comic-Buch, Aquarell, Öl-Malen (inspiriert von der Arbeit von Emrecan Cubukcu)
-* [Content] Integrieren Sie 102 Photoshop-Pinselvorgaben aus den Packs von Kyle T. Webster
-* [Inhalt] Integrieren Sie 18 neue Pinselvorgaben: Malen Roller Arrow, Malen Roller Warning text, Charcoal Fine und mehr
-* [Inhalt] Integrieren Sie 9 neue Alphas: Brush Maker Malen Roller, Brush Maker Photoshop, Pinselmuster und mehr
-* [Inhalt] Integrieren Sie 2 neue Werkzeugvorgaben: Gouache Dense und Gouache Faded
-* [Inhalt] 1 neuen Generator integrieren : UV-Checker (UV-Inseln und Nähte hervorheben)
-* [Inhalt] Integrieren Sie 2 neue Exportvoreinstellungen: Keyshot 9+ und Spark AR Studio
-* [Inhalt] 1 neue Projektvorlage integrieren : Spark AR Studio (Facebook)
+* &lbrack;UI&rbrack; Ladevorgang des Meshs anzeigen
+* &lbrack;Substance&rbrack; Zusätzliche Unterstützung für nicht geklemmten und weichen Bereich mit Schiebereglern
+* &lbrack;Substance&rbrack; Präzision der Substance-Parameter auf bis zu 6 Dezimalstellen erhöhen
+* &lbrack;Substance&rbrack; Berücksichtigung des durch einen Parameter definierten Schritts
+* &lbrack;Substance&rbrack; Optimieren der dynamischen Konturgenerierung mit Unterstützung von Bedingungen in Benutzerdaten
+* &lbrack;Substance&rbrack; Graphausgabe als Maske für alle Kanäle über Benutzerdaten festlegen
+* &lbrack;Inhalt&rbrack; Update &#39;Mat&#39; Beispielprojekt mit Versatz-freundlicher Topologie, neuer ID-Map und neuen Kameras
+* &lbrack;Inhalt&rbrack; 3 neue Filter (MatFx) integrieren: Comic-Buch, Aquarell, Öl-Malen (inspiriert von der Arbeit von Emrecan Cubukcu)
+* &lbrack;Inhalt&rbrack; 102 Photoshop-Pinselvorgaben aus den Packs von Kyle T. Webster integrieren
+* &lbrack;Inhalt&rbrack; 18 neue Pinselvorgaben integrieren: Malen Roller Arrow, Malen Roller Warning text, Charcoal Fine und mehr
+* &lbrack;Inhalt&rbrack; 9 neue Alphas integrieren: Brush Maker Malen Roller, Brush Maker Photoshop, Pinselmuster und mehr
+* &lbrack;Inhalt&rbrack; 2 neue Werkzeugvorgaben integrieren: Gouache Dense und Gouache Faded
+* &lbrack;Inhalt&rbrack; 1 neuen Generator integrieren : UV-Checker (UV-Inseln und Nähte hervorheben)
+* &lbrack;Inhalt&rbrack; 2 neue Exportvorgaben integrieren: Keyshot 9+ und Spark AR Studio
+* &lbrack;Inhalt&rbrack; 1 neue Projektvorlage integrieren : Spark AR Studio (Facebook)
 
 **Fest:**
 
-* [Tablet] Das Rückgängigmachen von Stiftstrichen (Strg+Z) verzögert sich mehr als das Rückgängigmachen von Mausstrichen
-* [Tablet] Anfangs- und Enddruck werden beim Zeichnen einer Geraden nicht berücksichtigt
-* [Tablet] Der erste Stempel wird bei einer geraden Linie zweimal gezeichnet
-* [Tablet] Verbessern der Unterstützung für Huion-Tablet-Tastaturbefehle
-* [Tablet] Verbesserte Unterstützung für Huion Stift-Buttons
-* [Tablet] Abstand zwischen der Pinselvorschau und dem gezeichneten Stempel
-* [Tablet] Verknüpfungen zum Ändern von Pinseln mit Stift führen in seltenen Fällen zu geringer Leistung
-* [Tablet] Verzögerung beim Malen auf einer bestimmten Ebene
+* &Klammer;Tablet&Klammer; Das Rückgängigmachen von Stiftstrichen (Strg+Z) hinkt mehr hinterher als das Rückgängigmachen von Mausstrichen
+* &Klammer;Tablet&Klammer; Anfangs- und Enddruck werden beim Zeichnen einer Geraden nicht berücksichtigt
+* &Klammer;Tablet&Klammer; Erster Stempel wird zweimal gezeichnet, wenn eine gerade Linie verwendet wird
+* &Klammer;Tablet&Klammer; Verbesserte Unterstützung für Huion-Tablet-Tastaturbefehle
+* &Klammer;Tablet&Klammer; Verbesserte Unterstützung für Huion-Stift-Schaltflächen
+* &Klammer;Tablet&Klammer; Versatz zwischen der Pinselvorschau und dem gezeichneten Stempel
+* &Klammer;Tablet&Klammer; Verknüpfungen zum Ändern von Pinseln mit Stift führen in seltenen Fällen zu geringer Leistung
+* &Klammer;Tablet&Klammer; Verzögerung beim Malen auf einer bestimmten Ebene
 * Unscharfe Texturen können in seltenen Fällen beim Wechseln des Viewport auftreten
-* [UI]&#x200B;[Substance] Bildeingaben werden nicht immer angezeigt
+* &lbrack;UI&rbrack;&lbrack;Substance&rbrack; Bildeingaben werden nicht immer angezeigt
 * Beim Bereinigen werden keine Vorgaben aus dem Regal entfernt, die in ein Projekt importiert wurden
-* [Tool]&#x200B;[Dynamischer Strich] Leistungsproblem beim Anpassen der Stempelzyklusanzahl
+* &lbrack;Werkzeug&rbrack;&lbrack;Dynamischer Strich&rbrack; Leistungsproblem beim Anpassen der Stempelzyklusanzahl
 * Aktualisierungsprobleme beim Malen im 3D/2D-Viewport in seltenen Fällen
 * Wenn Sie einen sehr langen Pinselstrich zeichnen, kann dies zum Einfrieren führen
-* [Tool] Leistungsproblem beim Malen mit bestimmten Dynamischen Pinselstrichen
-* [UI] Kontextbezogene Symbolleiste zeigt weiterhin Pinseleigenschaften an, wenn ein Ordner ausgewählt wird
+* &lbrack;Werkzeug&rbrack; Leistungsproblem beim Malen mit bestimmten Dynamischen Pinselstrichen
+* &lbrack;UI&rbrack; Kontextsymbolleiste zeigt weiterhin Pinseleigenschaften an, wenn ein Ordner ausgewählt wird
 * Werte für die Achse der Symmetrie werden nicht zurückgesetzt
 * Import von EXR Texturen mit Fließkommawerten sind komplett schwarz
 * Alt+Klicken auf einen Kanal zum Isolieren funktioniert nicht für Filter und Generator
-* [Exportieren] Spezifische Projekt-Absturz beim Exportieren
-* [Substance] Falscher Standardwert im Dropdown, wenn der Parameter von Visible If ausgeblendet wird
-* [Shader] Kanäle, die über Material-Ebenen definiert wurden, werden in der Benutzeroberfläche nicht gleich sortiert
-* [Regal] Vorgabenmetadaten werden nicht auf dem Datenträger gespeichert
+* &lbrack;Export&rbrack; Spezifische Projekt-Absturz beim Exportieren
+* &lbrack;Substance&rbrack; Falscher Standardwert in der Dropdown-Liste, wenn der Parameter von Visible If ausgeblendet ist
+* &lbrack;Shader&rbrack; Kanäle, die über Material-Ebenen definiert werden, werden in der Benutzeroberfläche nicht gleich sortiert
+* &lbrack;Regal&rbrack; Vorgabenmetadaten werden nicht auf dem Datenträger gespeichert
 
 **Bekannte Probleme:**
 
-* [Entpackend UV] Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
-* [Entpackend UV] Scheitelpunkt mit genau denselben Koordinaten werden zusammengeführt
-* [UV Entpackend] In seltenen Fällen kann die UV-Generierung auf einigen Mesh-Teilen fehlschlagen.
-* [UV Entpackend] Ungleichmäßiges oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
-* [UV Entpackend] Ungleichmäßiges Textilverhältnis zwischen Textursätzen
-* [UV Entpackend] UV-Insel kann sehr lang sein und passt in manchen Fällen nicht in den UV-Raum
-* [UV Entpackend] Flächen mit degenerierten Flächen oder nicht dreieckigem Mesh mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
+* &lbrack;UV Entpack&rbrack; Die Verarbeitung von Meshs mit hohem Poly-Anteil kann lange dauern
+* &lbrack;UV Entpack&rbrack; Scheitelpunkt an exakt denselben Koordinaten werden zusammengeführt
+* &lbrack;UV Entpack&rbrack; UV-Generierung kann in seltenen Fällen auf bestimmten Mesh-Komponenten fehlschlagen
+* &lbrack;UV Entpack&rbrack; Uneinheitliches oder stark verzerrtes Textilverhältnis in einer einzigen UV-Insel in einigen Fällen
+* &lbrack;UV Entpack&rbrack; Nicht einheitliches Textilverhältnis zwischen Textursätzen
+* &lbrack;UV Entpack&rbrack; Die erzeugte UV-Insel kann sehr lang sein und in manchen Fällen nicht in den UV-Raum passen
+* &lbrack;UV Entpack&rbrack; Degenerierte Flächen oder nicht dreieckige Mesh-Flächen mit kleinen oder überlappenden Kanten werden möglicherweise nicht in UV entpackt
 * Das Metamat-Beispiel hat einige Probleme mit importierten Kameras
 
 ### 5.2.3 (2019.2.3)
 
-*(Freigegeben: 23. Oktober 2019)*
-Zusammenfassung: **Bugfix-Version**
+*(Freigegeben: 23. Oktober 2019*)Zusammenfassung: **Bugfix-Version**
 
 **Hinzugefügt:**
 
-* [Liste der Textursatz] Schaltfläche &quot;Hinzufügen&quot; zum schnellen Aktivieren/Deaktivieren des Fokusmodus
-* [Log] Windows 10-Versionsnummer in die Protokolldatei einfügen
+* &lbrack;Textursatz Liste&rbrack; Schaltfläche &quot;Hinzufügen&quot; zum schnellen Aktivieren/Deaktivieren des Fokusmodus
+* &lbrack;Log&rbrack; Windows 10-Versionsnummer in die Protokolldatei einfügen
 * Aktualisieren Sie auf die neueste Version von Substance Engine
-* [MacOS] Die Software wurde notariell beglaubigt, um die neuen MacOS Catalina-Verteilungsanforderungen zu befolgen
+* &lbrack;MacOS&rbrack; Die Software wurde notariell beglaubigt, um die neuen Verteilungsanforderungen von MacOS Catalina zu erfüllen
 
 **Fest:**
 
-* [Plugin] Plugin Source funktioniert nicht
-* [MacOS]&#x200B;[Shader] Mac OS 10.14.5 und AMD: Material-Ebenen funktionieren nicht wie vorgesehen
+* &lbrack;Plugin&rbrack; Plug-In-Quelle funktioniert nicht
+* &lbrack;MacOS&rbrack;&lbrack;Shader&rbrack; Mac OS 10.14.5 und AMD: Material-Ebenen funktionieren nicht wie vorgesehen
 
 **Bekannte Probleme:**
 
@@ -2585,13 +2637,12 @@ Zusammenfassung: **Bugfix-Version**
 
 ### 5.2.2 (2019.2.2)
 
-*(Freigegeben: 20. September 2019)*
-Zusammenfassung: **Bugfix-Version**
+*(Freigegeben: 20. September 2019*)Zusammenfassung: **Bugfix-Version**
 
 **Fest:**
 
 * Das Importieren von Ressourcen durch Skripterstellung kann zu einem Absturz führen
-* [Plugin] Das Herunterladen des Materials von der Quelle kann zu einem Absturz führen
+* &lbrack;Plugin&rbrack; Das Herunterladen des Materials von der Quelle kann zu einem Absturz führen
 
 **Bekannte Probleme:**
 
@@ -2601,15 +2652,14 @@ Zusammenfassung: **Bugfix-Version**
 
 ### 5.2.1 (2019.2.1)
 
-*(Freigegeben: 17. September 2019)*
-Zusammenfassung: **Bugfix-Version**
+*(Freigegeben: 17. September 2019 (1&rbrace;)Zusammenfassung:**Bugfix-Version***
 
 **Fest:**
 
-* [Mac]&#x200B;[USD] Exportierte USDZ-Dateien aus MacOS können nicht geöffnet werden.
-* [Textursatz] Es ist nicht möglich, einen Textursatz mit dem ALT-Modifizierer zu isolieren
-* [Regal] Vorgaben, Intelligente Materialien und Intelligente Masken werden beim Beenden der Anwendung immer geändert
-* [Ebenenstapel] Effekt kann nach dem Löschen eines anderen Effekts nicht ausgewählt werden
+* &lbrack;Mac&rbrack;&lbrack;USD&rbrack; Exportierte USDZ-Dateien aus MacOS können nicht geöffnet werden
+* &lbrack;Textursatz&rbrack; Es ist nicht möglich, einen Textursatz mit dem ALT-Modifikator zu isolieren
+* &lbrack;Regal&rbrack; Vorgaben, Intelligente Materialien und Intelligente Masken werden beim Beenden der Anwendung immer geändert
+* &lbrack;Ebenenstapel&rbrack; Effekt kann nach dem Löschen eines anderen Effekts nicht ausgewählt werden
 * Flackern bei Verwendung eines Schiebereglers im Bedienfeld &quot;Werkzeugeigenschaften&quot;
 * Absturz beim Exportieren von Vorgaben in Regal
 * Absturz beim Exportieren einer Vorgabe mit zu wenig Speicherplatz
@@ -2623,42 +2673,41 @@ Zusammenfassung: **Bugfix-Version**
 
 ### 5.2.0 (2019.2.0)
 
-*(Freigegeben: 25. Juli 2019)*
-Zusammenfassung: **Hauptversion mit Leistungsaktualisierungen der Baker und einem neuen Vorvisualisierungsmodus + neuem Inhalt**
+*(Freigegeben: 25. Juli 2019*)Zusammenfassung: **Hauptversion mit Leistungsaktualisierungen der Baker und einem neuen Vorvisualisierungsmodus + neuem Inhalt**
 
 **Hinzugefügt:**
 
-* [Baker] Zusätzliche Unterstützung für GPU-Raytracing mit DXR und OptiX (Ambient occlusion, Thickness)
-* [Baker] Optimierungen und Beschleunigungen für CPU-Raytracing
-* [Baker]&#x200B;[VIS-Modus]&#x200B;[UI] Neuer Visualisierungsmodus für Baking im Viewport
-* [Baker]&#x200B;[Voreinstellungen]&#x200B;[Benutzeroberfläche] Neue Baking-Option zum Aktivieren/Deaktivieren von GPU-Raytracing
-* [Baker]&#x200B;[UI] Überarbeitung des Fortschrittsbalken-Dialogfelds
-* [Baker] Verbesserung von Warn- und Fehlermeldungen
-* [Baker] Responsiveres Abbrechen des Bakings zulassen
-* [Baker] Fenster &quot;Baking&quot; nach Klicken auf &quot;Abbrechen&quot; erneut öffnen
-* [Proj]&#x200B;[UX] Verbesserte Verwendbarkeit des Rotations-Manipulators
-* [Einstellungen] Option zur Leistungssteigerung durch Reduzierung der Viewport-Auflösung für HDPI-Bildschirme
-* [Skripterstellung] Ändern der Auflösung von Textursätzen
-* [Skripterstellung] Ausgewählten Textursatz abrufen
-* [Scripting] Benutzer können einen Textursatz auswählen
-* [Skripterstellung] Funktion, um zu erfahren, wann die Auswahl des Textursatzes geändert wurde
-* [Regal] Es wurden 40 neue intelligente Materialien hinzugefügt.
-* [Regal] 20 neue intelligente Masken hinzugefügt
+* &lbrack;Baker&rbrack; Neue Unterstützung für GPU-Raytracing mit DXR und OptiX (Ambient occlusion, Thickness)
+* &lbrack;Baker&rbrack; Optimierungen und Beschleunigungen für CPU-Raytracing
+* &lbrack;Baker&rbrack;&lbrack;vis mode&rbrack;&lbrack;UI&rbrack; Neuer Baking-Visualisierungsmodus im Viewport
+* &lbrack;Baker&rbrack;&lbrack;Voreinstellungen&rbrack;&lbrack;UI&rbrack; Neue Baking-Option zum Aktivieren/Deaktivieren von GPU-Raytracing
+* &lbrack;Baker&rbrack;&lbrack;UI&rbrack; Überarbeitung des Dialogfelds &quot;Fortschrittsleiste&quot;
+* &lbrack;Baker&rbrack; Verbesserung von Warn- und Fehlermeldungen
+* &lbrack;Baker&rbrack; Reaktionsfähigeres Abbrechen des Bakings zulassen
+* &lbrack;Baker&rbrack; Baking-Fenster nach Klicken auf &quot;Abbrechen&quot; erneut öffnen
+* &lbrack;Proj&rbrack;&lbrack;UX&rbrack; Verbesserte Verwendbarkeit des Manipulators der Drehung
+* &lbrack;Einstellungen&rbrack; Option zur Leistungssteigerung durch Reduzierung der Viewport-Auflösung für HDPI-Bildschirme
+* &lbrack;Skripterstellung&rbrack; Ändern der Textursatz auflösung
+* &lbrack;Skripterstellung&rbrack; Ausgewählten Textursatz abrufen
+* &lbrack;Skripterstellung&rbrack; Auswahl eines Textursatzes durch den Benutzer zulassen
+* &lbrack;Skripterstellung&rbrack; Funktion, um zu erfahren, wann die Auswahl des Textursatzes geändert wurde
+* &lbrack;Regal&rbrack; 40 neue intelligente Materialien hinzugefügt
+* &lbrack;Regal&rbrack; 20 neue intelligente Masken hinzugefügt
 
 **Fest:**
 
-* [Ebenenstapel] Einfrieren der Benutzeroberfläche bei Mehrfachauswahl von Ebenen
-* [Ebenenstapel] Beim Gruppieren vieler Ebenen wird die Benutzeroberfläche länger als gewöhnlich eingefroren.
-* [Ebenenstapel] In einigen Fällen können eine Ebene und ein Effekt gleichzeitig ausgewählt werden
+* &lbrack;Ebenenstapel&rbrack; Einfrieren der Benutzeroberfläche bei Mehrfachauswahl von Ebenen
+* &lbrack;Ebenenstapel&rbrack; Beim Gruppieren vieler Ebenen wird die Benutzeroberfläche länger als gewöhnlich fixiert.
+* &lbrack;Ebenenstapel&rbrack; In einigen Fällen können eine Ebene und ein Effekt gleichzeitig ausgewählt werden.
 * In Malwerkzeugen verwendete Substance-Graf werden nicht mit der richtigen Auflösung generiert
-* [Baker] Schaltfläche &quot;Alle Textursatz Baking geführt&quot; ist nicht deaktiviert, wenn keine Baker ausgewählt sind
-* [MacOS] Deaktivieren der Warnmeldung zur Tessellation
+* &lbrack;Baker&rbrack; Die Schaltfläche &quot;Alle Textursatz Baking geführt&quot; ist nicht deaktiviert, wenn keine Baker ausgewählt sind
+* &lbrack;MacOS&rbrack; Warnmeldung zur Tessellation deaktivieren
 * Bei Verwendung mit einer Projektion hat das Maskierungswerkzeug keine Vorschau.
 * Absturz und beschädigte Projekte beim Speichern mit zu wenig Speicherplatz
-* [Regal] Absturz beim Importieren einer Ressource auf dem Datenträger über ein Regal mit nicht genügend Speicherplatz
-* [Regal] Absturz beim Wiederherstellen der Sitzungsvorgabe
-* [Regal] Das Importieren einer Vorgabe mit einem Namen, der mit einem Leerzeichen endet, führt zu einem Absturz
-* [Regal] Das Importieren einer Ressource mit einem Präfix, das mit einem leeren Leerzeichen endet, führt zu einem Absturz
+* &lbrack;Regal&rbrack; Absturz beim Importieren einer Ressource auf dem Datenträger über ein Regal mit nicht genügend Speicherplatz
+* &lbrack;Regal&rbrack; Absturz beim Wiederherstellen der Sitzungsvorgabe
+* &lbrack;Regal&rbrack; Das Importieren einer Vorgabe mit einem Namen, der mit einem Leerzeichen endet, führt zu einem Absturz
+* &lbrack;Regal&rbrack; Das Importieren einer Ressource mit einem Präfix, das mit einem leeren Leerzeichen endet, führt zu einem Absturz
 
 **Bekannte Probleme:**
 
@@ -2668,23 +2717,22 @@ Zusammenfassung: **Hauptversion mit Leistungsaktualisierungen der Baker und eine
 
 ### 5.1.3 (2019.1.3)
 
-*(Freigegeben: Juli 2019)*
-Zusammenfassung: **Bugfix mit 2 neuen Funktionen**
+*(Freigegeben: 1. Juli 2019 (1&rbrace;)Zusammenfassung:**Bugfix mit 2 neuen Funktionen***
 
 **Hinzugefügt:**
 
 * Geben Sie das VRam-Budget über eine Befehlszeile (z. B. —vram-budget 4096)
-* [QML] Leg von wrapMode- und elide-Eigenschaften von QML-Schaltflächen und -Kontrollkästchen
+* &lbrack;QML&rbrack; Leg von wrapMode und elide-Eigenschaften von QML-Schaltflächen und -Kontrollkästchen
 
 **Fest:**
 
 * &quot;Pfad folgen&quot; funktioniert nicht immer
 * Kanalzuordnung funktioniert nicht mit SBSAR, das in Ein Kanal-Steckplätzen verwendet wird
-* [Ebenenstapel] Niedrige Leistung beim Scrollen mit ausgeblendeten Ebenen
-* [TextureSet] Absturz beim Klicken zwischen Masken
-* [SVT] Versatz wird nicht richtig angezeigt und flackert in einigen Fällen
-* [Alembic] Absturz mit Mesh, der Punktnormalen anstelle von Scheitelpunkt-Normalen verwendet
-* [Alembic]&#x200B;[Log] Melden Sie einen Fehler im Log, wenn die Alembic-Datei während des Imports nicht unterstützt wird
+* &lbrack;Ebenenstapel&rbrack; Niedrige Leistung beim Scrollen mit ausgeblendeten Ebenen
+* &lbrack;TextureSet&rbrack; Absturz beim Klicken zwischen Masken
+* &lbrack;SVT&rbrack; Versatz wird nicht richtig angezeigt und flackert in einigen Fällen
+* &lbrack;Alembic&rbrack; Absturz mit Mesh, der Punktnormalen anstelle von Scheitelpunkt-Normalen verwendet
+* &lbrack;Alembic&rbrack;&lbrack;Log&rbrack; Berichtsfehler im Protokoll, wenn Alembic-Datei während des Imports nicht unterstützt wird
 
 **Bekannte Probleme:**
 
@@ -2693,8 +2741,7 @@ Zusammenfassung: **Bugfix mit 2 neuen Funktionen**
 
 ### 5.1.2 (2019.1.2)
 
-*(Freigegeben: 21. Mai 2019)*
-Zusammenfassung: **Hotfix**
+*(Freigegeben: 21. Mai 2019*)Zusammenfassung: **Hotfix**
 
 **Fest:**
 
@@ -2702,8 +2749,7 @@ Zusammenfassung: **Hotfix**
 
 ### 5.1.1 (2019.1.1)
 
-*(Freigegeben: 20. Mai 2019)*
-Zusammenfassung: **Hotfix**
+*(Freigegeben: 20. Mai 2019*)Zusammenfassung: **Hotfix**
 
 **Hinzugefügt:**
 
@@ -2711,21 +2757,21 @@ Zusammenfassung: **Hotfix**
 
 **Fest:**
 
-* [Substance] Visible If wird bei Eingabebildern nicht berücksichtigt
-* [SVT]&#x200B;[Engine] Das Ändern der Textursatz-Auflösung führt in einigen Fällen zu einem Absturz
-* [Engine] In einigen Fällen werden zufällige schwarze Texturen angezeigt
-* [Ebenenstapel]&#x200B;[UI] Wenn Sie mit UMSCHALTTASTE eine Maske umschalten, können Sie mehrere Ebenen gleichzeitig auswählen
-* [Ebenenstapel] Deckkraft hat keine Auswirkungen auf den Malen-Effekt mit dem Mischmodus &quot;Hindurchwirken&quot;
-* [Ebenenstapel] Filtereingabe &quot;Height zu Normal&quot; wird mit dem Pinselstrich des Radiergummis nicht ordnungsgemäß aktualisiert
-* Absturz [LayersStack] beim Rückgängigmachen des Ablagevorgangs für eine intelligente Maske
+* &lbrack;Substance&rbrack; Visible If wird bei Eingabebildern nicht berücksichtigt
+* &lbrack;SVT&rbrack;&lbrack;Engine&rbrack; Das Ändern der Textursatz-Auflösung führt in einigen Fällen zu einem Absturz
+* &lbrack;Engine&rbrack; In einigen Fällen werden zufällige schwarze Texturen angezeigt
+* &lbrack;Ebenenstapel&rbrack;&lbrack;UI&rbrack; Durch Umschalten einer Maske mit UMSCHALTTASTE können mehrere Ebenen gleichzeitig ausgewählt werden
+* &lbrack;Ebenenstapel&rbrack; Deckkraft hat keine Auswirkungen auf den Malen-Effekt mit dem Mischmodus &quot;Hindurchwirken&quot;
+* &lbrack;Ebenenstapel&rbrack; Filtereingabe &quot;Height zu Normal&quot; wird mit dem Pinselstrich des Radiergummis nicht richtig aktualisiert
+* &lbrack;LayersStack&rbrack; Absturz beim Rückgängigmachen des Abfalls einer intelligente Maske
 * Flackerndes Drahtgitter mit aktiviertem temporalem Anti-Aliasing
-* [Versatz] Verzögerung bei AMD mit einigen schweren Meshs
-* [Windows] Absturz beim Öffnen einiger Projekte über den Datei-Explorer
-* [Histogramm] Absturz beim Entfernen von Masken mit Ankerpunkt in einigen Fällen
+* &lbrack;Versatz&rbrack; Verzögerung bei AMD mit einigen starken Meshs
+* &lbrack;Windows&rbrack; Absturz beim Öffnen einiger Projekte über den Datei-Explorer
+* &lbrack;Histogramm&rbrack; Absturz beim Entfernen einer Maske mit Ankerpunkt in einigen Fällen
 * Absturz bei der Vorschauerstellung in einigen seltenen Fällen
-* [Absturz] Ein Projekt kann mit zu vielen Klon- und Verwisch-Tools nicht erneut geöffnet werden
+* &lbrack;Absturz&rbrack; Ein Projekt kann mit zu vielen Klon- und Verwischen-Werkzeugen nicht erneut geöffnet werden
 * Nach dem Speichern wird in einigen Fällen kein Mesh im Materialmodi angezeigt
-* [Scripting] alg.mapexport.documentStructure() gibt falsche Werte für Ordner zurück
+* &lbrack;Skripterstellung&rbrack; alg.mapexport.documentStructure() gibt falsche Werte für Ordner zurück
 
 **Bekannte Probleme:**
 
@@ -2733,98 +2779,96 @@ Zusammenfassung: **Hotfix**
 
 ### 5.1.0 (2019.1.0)
 
-*(Freigegeben: 23. April 2019)*
-Zusammenfassung: **Dynamischer Pinselstrich mit eigenem neuen Inhalt, Versatz und Tessellation in Echtzeit und Iray, Effekt &quot;Vergleichsmaske&quot;, Radiale Symmetrie, Planar und Sphärische Projektion**
+*(Freigegeben: 23. April 2019*)Zusammenfassung: **Dynamischer Pinselstrich mit eigenem neuen Inhalt, Versatz und Tessellation in Echtzeit und Iray, Effekt &quot;Vergleichsmaske&quot;, Radiale Symmetrie, Planar und Sphärische Projektion**
 
 **Hinzugefügt:**
 
-* [Werkzeug] Dynamischer Strich: Substance-Variation entlang eines Pinselstrichs
-* [Dynamische Kontur] Leg eines neuen Stempelindexparameters mit Optionen
-* [Dynamischer Strich] Parameter $time berücksichtigen
-* [Dynamischer Strich] Generieren eines neuen $randomseed-Parameters pro Strich und pro Stempel
-* [Dynamischer Strich] Starten eines dynamischen Strichindex aus einer zufälligen Zahl
-* [Dynamischer Strich]&#x200B;[Regal] Helfen Sie mit dem neuen Symbol, eine dynamische Strichressource zu finden.
+* &lbrack;Werkzeug&rbrack; Dynamischer Strich: Substance-Variation entlang eines Pinselstrichs
+* &lbrack;Dynamischer Strich&rbrack; Leg eines neuen Stempelindexparameters mit Optionen
+* &lbrack;Dynamischer Strich&rbrack; $time-Parameter berücksichtigen
+* &lbrack;Dynamischer Strich&rbrack; Neuen Parameter $randomseed pro Strich und Stempel generieren
+* &lbrack;Dynamischer Strich&rbrack; Dynamischen Strichindex aus einer zufälligen Zahl beginnen
+* &lbrack;Dynamischer Strich&rbrack;&lbrack;Regal&rbrack; Hilfe bei der Suche nach einer dynamischen Konturressource mit eigenem neuen Symbol
 * Versatz und Tessellation im Echtzeit-Viewport
 * Versatz und Tessellation in Iray
-* [Shader-Einstellungen]&#x200B;[UI] Neue Registerkarte für die Steuerung von Versatz und Tessellation
-* [Ebenenstapel] Neuer Effekt &quot;CompareMask&quot;: durch Vergleich zweier Kanäle eine Maske generieren
-* [Ebenenstapel]&#x200B;[UI] Neuer Eintrag im Kontextmenü &quot;Height mit Maskenkombination hinzufügen&quot;, um einen CompareMask-Effekt einzufügen
-* [Symmetrie] Neue Symmetrie: Radialmalerei
-* [Einstellungen für Symmetrie] Erweitern Sie beide Abschnitte &quot;Einstellungen&quot; und &quot;Anzeige&quot;.
-* [Symmetrie-Einstellungen]&#x200B;[UI] Vorschau für radiales Malen
+* &lbrack;Shader-Einstellungen&rbrack;&lbrack;UI&rbrack; Neue Registerkarte zur Steuerung von Versatz und Tessellation
+* &lbrack;Ebenenstapel&rbrack; Neuer Effekt &quot;Maske vergleichen&quot;: durch Vergleich zweier Kanäle eine Maske generieren
+* &lbrack;Ebenenstapel&rbrack;&lbrack;UI&rbrack; Neuer Eintrag im Rechtsklick-Menü &quot;Height mit Maskenkombination hinzufügen&quot;, um einen CompareMask-Effekt einzufügen
+* &lbrack;Symmetrie&rbrack; Neuer Symmetrie-Modus: Radialmalerei
+* &amp;Symmetrie&rbrack;Einstellungen&rbrack; Erweitern Sie beide Abschnitte &quot;Einstellungen&quot; und &quot;Anzeige&quot;
+* &lbrack;Symmetrie&rbrack;&lbrack;UI&rbrack; Vorschau für radiales Malen
 * Leg zweier neuer Modi für die Projektion: planar und kugelförmig
-* [Proj] Neuer Formzuschneidemodus für alle Projektionen
-* [Proj] Planarer Modus mit neuem Manipulator: Oberflächenwerkzeug
-* [Proj]&#x200B;[Tastaturbefehl] Tastaturbefehl UMSCHALTTASTE+W für Oberflächenwerkzeug
-* [Proj] Planare Maskierung von Projektionen mit Tiefe ausblenden und Rückseiten-Ausblendung
-* [Manipulator] Verbesserung des Manipulators der Drehung auf allen drei Achsen für triplanare
-* [Tool]&#x200B;[UX] Alt-Klick auf einen Kanal fokussiert diesen Kanal (aktiviert ihn oder deaktiviert alle anderen)
-* [Engine] Update auf die neueste Version von Substance Engine
-* [Textursatz] Mehrfachauswahl und Auflösungsänderung
-* [Textursatz] Schnelle Aktivierung und Deaktivierung der Textursatz
-* [Textursatz] Kombination von Solo- und allen Optionen in einem neuen Menü
-* [Textursatz]&#x200B;[Ebenenstapel] Neues Symbol für Aktivierung und Deaktivierung
-* [Ebenenstapel]&#x200B;[UX] Einfügen von Effekten über den bereits ausgewählten
-* [Ebenenstapel]&#x200B;[UI] Ebenenstapel-Ansichtenauswahlstil überarbeiten
-* [Ebenenstapel] Der Mischmodus für instanzierte Ebenen ist jetzt standardmäßig im Durchlaufmodus
-* [Exportieren] Option zum Aktivieren und Deaktivieren von Dithering
-* [Plugin] Präzisionsmodifikator für Schieberegler unterstützen (SHIFT)
-* [Plug-in]&#x200B;[UI] Neues Symbol für automatisches Speichern
-* [Scripting] Auflisten des Inhalts eines Ordners
-* [Scripting] Löschen von Dateien zulassen
-* [Skripterstellung] Lesen aller Stapel-Informationen, einschließlich der verwendeten Ressourcen
-* [Inhalt]&#x200B;[Dynamischer Strich] Neue Werkzeuge und Pinselvorgaben
-* [Inhalt]&#x200B;[Dynamischer Strich] Zwei neue prozedurale Verläufe: Farbton und Verlaufsgenerator
-* [Inhalt] 11 neue Filter: MatFx Peeling Malen, MatFx Wassertropfen und mehr
-* [Inhalt] 7 neue Generatoren: &quot;Auto-Stitcher&quot;, &quot;UV-Zufallsfarbe&quot;, &quot;UV-Texeldichte&quot; und weitere Eigenschaften
-* [Inhalt] 93 neue Alphas: neue Texte, Pfeile und verschiedene andere Formen
-* [Inhalt] 2 neue Verfahren: Verlaufsfarbton, Verlaufsgenerator und mehr
-* [Inhalt] 21 neue Tools und Pinselvorgaben für Dynamische Pinselstriche : Kiesel, Fußabdrücke, Spray und mehr
-* [Inhalt] 2 Neue HDRs: Canopus Boden- und Herbstwald
-* [Inhalt] Aktualisieren von Inhalt mit Kuration nach dem Zufallsprinzip in Regal
-* [Inhalt] Neues Symbol mit gelegt Zufallsparameter in Regal
+* &lbrack;Proj&rbrack; Neuer Formzuschneidemodus für alle Projektionen
+* &lbrack;Proj&rbrack; Planarer Modus mit neuem Manipulator: Oberflächenwerkzeug
+* &lbrack;Proj&rbrack;&lbrack;Tastaturbefehl&rbrack; Tastaturbefehl UMSCHALTTASTE+W für Oberflächenwerkzeug
+* &lbrack;Proj&rbrack; Planare Maskierung von Projektionen mit Tiefe ausblenden und Rückseiten-Ausblendung
+* &lbrack;Manipulator&rbrack; Verbesserung des Manipulators der Drehung auf allen drei Achsen für triplanare
+* &lbrack;Tool&rbrack;&lbrack;UX&rbrack; Alt-Klick auf einen Kanal fokussiert diesen Kanal (aktiviert ihn oder deaktiviert alle anderen)
+* &lbrack;Engine&rbrack; Aktualisieren Sie auf die neueste Version von Substance Engine
+* &lbrack;Textursatz&rbrack; Mehrfachauswahl und Änderung der Auflösung
+* &lbrack;Textursatz&rbrack; Schnelle Aktivierung und Deaktivierung der Textursatz
+* &lbrack;Textursatz&rbrack; Einzelne und alle Optionen zu einem neuen Menü kombinieren
+* &lbrack;Textursatz&rbrack;&lbrack;Ebenenstapel&rbrack; Neues Symbol für die Aktivierung und Deaktivierung
+* &lbrack;Ebenenstapel&rbrack;&lbrack;UX&rbrack; Einfügen von Effekten über den bereits ausgewählten
+* &lbrack;Ebenenstapel&rbrack;&lbrack;UI&rbrack; Auswahlstil für die Ebenenstapel-Ansicht überarbeiten
+* &lbrack;Ebenenstapel&rbrack; Der Mischmodus für instanzierte Ebenen ist jetzt standardmäßig im Durchlaufmodus
+* &lbrack;Export&rbrack; Option zum Aktivieren und Deaktivieren von Dithering
+* &lbrack;Plugin&rbrack; Präzisionsmodifikator für Schieberegler unterstützen (SHIFT)
+* &lbrack;Plugin&rbrack;&lbrack;UI&rbrack; Neues Symbol für automatisches Speichern
+* &lbrack;Skripterstellung&rbrack; Auflisten des Inhalts eines Ordners
+* &lbrack;Skripterstellung&rbrack; Löschen von Dateien zulassen
+* &lbrack;Skripterstellung&rbrack; Lesen aller Stapel-Informationen, einschließlich der verwendeten Ressourcen
+* &lbrack;Inhalt&rbrack;&lbrack;Dynamischer Strich&rbrack; Neue Tools und Pinselvorgaben
+* &lbrack;Inhalt&rbrack;&lbrack;Dynamischer Strich&rbrack; Zwei neue prozedurale Farbverläufe: Farbton und Verlaufsgenerator
+* &lbrack;Inhalt&rbrack; 11 neue Filter: MatFx Peeling Malen, MatFx Wassertropfen und mehr
+* &lbrack;Inhalt&rbrack; 7 neue Generatoren: &quot;Auto-Stitcher&quot;, &quot;UV-Zufallsfarbe&quot;, &quot;UV-Texeldichte&quot; und weitere Eigenschaften
+* &lbrack;Inhalt&rbrack; 93 neue Alphas: neue Texte, Pfeile und verschiedene andere Formen
+* &lbrack;Inhalt&rbrack; 2 neue Verfahren: Verlaufsfarbton, Verlaufsgenerator und mehr
+* &lbrack;Inhalt&rbrack; 21 neue Tools und Pinselvorgaben für Dynamische Pinselstriche: Kiesel, Fußabdrücke, Spray und mehr
+* &lbrack;Inhalt&rbrack; 2 Neue HDRs: Canopus Boden- und Herbstwald
+* &lbrack;Inhalt&rbrack; Aktualisieren von Inhalten mit Kuration nach dem Zufallsprinzip in Regal
+* &lbrack;Inhalt&rbrack; Neues Symbol mit gelegt Zufallsparameter in Regal
 
 **Fest:**
 
-* [Ebenen-Stapel] Ebenenstapel wird unendlich lange gezogen
-* [Mac] &quot;Im Finder anzeigen&quot; kann zum Einfrieren führen
-* [Scripting] Einstellungen, die über die benutzerdefinierte Benutzeroberfläche gespeichert wurden, gehen verloren, wenn die Shader-Datei verschoben wird
-* [Scripting] API-Versionsnummer ist falsch und nicht aktuell
-* [Effekt] Histogramminhalt wird nicht korrekt angezeigt
-* [Effekt] Der Histogrammeffekt wird in einigen Fällen nicht aktualisiert
-* [Regal] Die Stiche sind auf Material &quot;Plastic Fabric Pyramide&quot; nicht richtig ausgerichtet.
+* &lbrack;Ebenen Stapel&rbrack; Ebenenstapel wird unendlich lang.
+* &lbrack;Mac&rbrack; &quot;Im Finder anzeigen&quot; kann zum Einfrieren führen
+* &lbrack;Skripterstellung&rbrack; Einstellungen, die über die benutzerdefinierte Benutzeroberfläche gespeichert wurden, gehen verloren, wenn die Shader-Datei verschoben wird
+* &lbrack;Skripterstellung&rbrack; Die API-Versionsnummer ist falsch und nicht aktuell.
+* &blase;Effekt&blase; Histogramminhalt wird nicht korrekt angezeigt
+* &blase;Effekt&blase; Histogrammeffekt wird in einigen Fällen nicht aktualisiert
+* &lbrack;Regal&rbrack; Die Nähte sind auf dem Material &quot;Plastic Fabric Pyramide&quot; nicht richtig ausgerichtet.
 
 **Bekannte Probleme:**
 
 * Durch Doppelklicken auf den Namen des Textursatzes wird dieser vor dem Umbenennungsmodus ausgewählt.
-* [Ebenenstapel]&#x200B;[UI] Wenn Sie mit UMSCHALTTASTE eine Maske umschalten, können Sie mehrere Ebenen gleichzeitig auswählen
+* &lbrack;Ebenenstapel&rbrack;&lbrack;UI&rbrack; Durch Umschalten einer Maske mit UMSCHALTTASTE können mehrere Ebenen gleichzeitig ausgewählt werden
 
 ## Version 4
 
 ### 4.3.3 (2018.3.3)
 
-*(Freigegeben: 7. März 2019)*
-Zusammenfassung: **Bugfix**
+*(Freigegeben: 07. März 2019*)Zusammenfassung: **Bugfix**
 
 **Hinzugefügt:**
 
-* [Inhalt] Neue Projektvorlage integrieren: &quot;PBR - Metallische Rauheit Alpha-blend&quot;
+* &lbrack;Inhalt&rbrack; Neue Projektvorlage integrieren: &quot;PBR - Metallische Rauheit Alpha-blend&quot;
 * Die Suchreihenfolge der dynamischen Linux-Bibliothek wurde geändert, um Bibliotheken im Installationsverzeichnis Priorität einzuräumen, bevor sie auf dem System installiert werden.
 
 **Fest:**
 
 * Mesh verschwindet manchmal vom 3D-Viewport (drücken Sie F, um die Kamera zurückzusetzen)
 * Aktualisieren des Substance Painter Sketchfab-Uploaders mit den neuen Sketchfab-Lizenztypen
-* [Import]&#x200B;[glTF] Falsche Handhabung der Modulation der Eingabe-Textur, wie in glTF-Dateien definiert
-* [Import]&#x200B;[glTF] Boden-Ebene wird beim glTF-Import in einigen Fällen falsch angezeigt
-* [Exportieren]&#x200B;[USD] Deckkraft funktioniert nicht in Arkit
-* [Exportieren]&#x200B;[USD] USDz-Export-Absturz in einigen Fällen
-* [Exportieren]&#x200B;[USD] Exportieren nach USD ohne Speichern führt zu Absturz
-* [Exportieren]&#x200B;[USD] Falsche Kachelung für Texturen, Unterteilungsmodus für Mesh und Ausgabetypen für Shader
-* [Exportieren]&#x200B;[USD] Wenig Exporte von nur einigen Textursätzen mit allen Geometrien
-* [Instanz] Absturz beim Löschen einer beschädigten Instanzebene
-* [Regression]&#x200B;[Exportieren] Einige Maps werden nicht in die ausgewählte Bittiefe exportiert
-* [Linux] Problem mit der Bibliothek libtbb.so.2
+* &lbrack;Import&rbrack;&lbrack;glTF&rbrack; Falsche Handhabung der Modulation der Eingabe-Textur wie in glTF-Dateien definiert
+* &lbrack;Import&rbrack;&lbrack;glTF&rbrack; Boden-Ebene wird beim glTF-Import in einigen Fällen falsch angezeigt
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; Deckkraft funktioniert nicht in Arkit
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; ABSTURZ beim USDz-Export in einigen Fällen
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; Exportieren in USD ohne Speichern führt zu Absturz
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; Ungültiger Kachelung-Modus für Texturen, Unterteilungsmodus für Mesh und Ausgabetypen für Shader
+* &lbrack;Export&rbrack;&lbrack;USD&rbrack; Wenig Exporte von nur einigen Textursätzen mit allen Geometrien
+* &lbrack;Instanz&rbrack; Absturz beim Löschen einer beschädigten Instanzebene
+* &lbrack;Regression&rbrack;&lbrack;Export&rbrack; Einige Maps werden nicht in die ausgewählte Bittiefe exportiert
+* &lbrack;Linux&rbrack; Problem mit der Bibliothek libtbb.so.2
 
 **Bekannte Probleme:**
 
@@ -2833,17 +2877,16 @@ Zusammenfassung: **Bugfix**
 
 ### 4.3.2 (2018.3.2)
 
-*(Freigegeben: 24. Januar 2019)*
-Zusammenfassung: **Hotfix mit neuen Funktionen (USDZ-Export- und Textur-Filterungen im Viewport)**
+*(Freigegeben: 24. Januar 2019*)Zusammenfassung: **Hotfix mit neuen Funktionen (USDZ-Export- und Textur-Filterungen im Viewport)**
 
 **Hinzugefügt:**
 
-* [Export] Export nach USDZ zulassen
-* [Viewport] Zulassen, dass die Qualität der Textur in den Anzeigeeinstellungen gesteuert wird.
-* [Viewport] Die MIP-Voreinstellung wurde in den Anzeigeeinstellungen hinzugefügt.
-* [Viewport] Anisotrope Filterung in den Anzeigeeinstellungen hinzugefügt
-* [Plug-ins] Offizielle Plug-ins aktualisieren, um den Stil von Substance Painter 2018 zu verwenden
-* [Lizenz] Installation der Lizenz standardmäßig in einem Benutzerordner
+* &lbrack;Export&rbrack; Export nach USDZ zulassen
+* &lbrack;Viewport&rbrack; Zulassen, um die Qualität der Textur in den Anzeigeeinstellungen zu steuern
+* &lbrack;Viewport&rbrack; Die Einstellung für die MIP-Voreinstellung in den Anzeigeeinstellungen wurde hinzugefügt.
+* &lbrack;Viewport&rbrack; Anisotrope Filterung in den Anzeigeeinstellungen hinzugefügt
+* &lbrack;plugins&rbrack; Offizielle Plug-ins auf Substance Painter 2018 aktualisieren
+* &lbrack;Lizenz&rbrack; Lizenz standardmäßig in einem Benutzerordner installieren
 
 **Fest:**
 
@@ -2857,8 +2900,8 @@ Zusammenfassung: **Hotfix mit neuen Funktionen (USDZ-Export- und Textur-Filterun
 * Einige Textursatz können nicht im Iray-Rendering angezeigt werden
 * Umbenannte Textursatz werden nach dem Schließen des Projekts nicht gespeichert
 * Drahtgitter-Artefakte beim Ziehen und Ablegen von Materialien auf ID-Map
-* [Scripting] Dateipfaderstellung beim Speichern eines Projekts nicht erzwungen
-* [Scripting] Rückruf von &quot;onProjectAboutToSave()&quot; funktioniert nicht mehr
+* &lbrack;Skripterstellung&rbrack; Dateipfaderstellung beim Speichern eines Projekts nicht erzwungen
+* &lbrack;Skripterstellung&rbrack; Der Rückruf von &quot;onProjectAboutToSave()&quot; funktioniert nicht mehr
 * Fehlerhafte Links im Fenster &quot;Fehler melden&quot;
 
 **Bekannte Probleme:**
@@ -2868,20 +2911,19 @@ Zusammenfassung: **Hotfix mit neuen Funktionen (USDZ-Export- und Textur-Filterun
 
 ### 4.3.1 (2018.3.1)
 
-*(Freigegeben: 6. Dezember 2018)*
-Zusammenfassung: **Hotfix**
+*(Freigegeben: 06. Dezember 2018*)Zusammenfassung: **Hotfix**
 
 **Hinzugefügt:**
 
-* [Symmetrie]&#x200B;[Viewport] Das Malen mit Symmetrien in der 2D-Ansicht ist wieder da und zeigt nun eine Vorschau des Klonpinsels an.
+* &lbrack;Symmetrie&rbrack;&lbrack;Viewport&rbrack; Die Symmetrie in der 2D-Ansicht ist wieder da und zeigt nun eine Vorschau des Klonpinsels an.
 
 **Fest:**
 
-* [Exportieren] Beim Exportieren von 2D-Ansichten wird in einigen Fällen eine schwarze Textur ausgegeben
-* [Iray] Normale Informationen werden in Iray falsch, nachdem eine Material-Ebene instanziiert wurde
+* &lbrack;Export&rbrack; Beim Exportieren der 2D-Ansicht wird in einigen Fällen eine schwarze Textur ausgegeben
+* &lbrack;Iray&rbrack; Normale Informationen werden im Iray falsch, nachdem eine Material-Ebene instanziiert wurde
 * Nicht quadratische Textursatz können in einigen Fällen zu Absturz führen
-* [Rückgängig] Mehrere Strg+Z können in einigen Fällen zufällig zu Absturz führen
-* [QML] AlgScrollView kann in einigen Fällen eine Warnung im Protokoll erstellen (Bindungsschleifen)
+* &lbrack;Rückgängig&rbrack; Mehrere Strg+Z können in einigen Fällen zufällig zu Absturz führen
+* &lbrack;QML&rbrack; AlgScrollView kann in einigen Fällen eine Warnung im Protokoll erstellen (Bindungsschleifen).
 
 **Bekannte Probleme:**
 
@@ -2891,69 +2933,68 @@ Zusammenfassung: **Hotfix**
 
 ### 4.3.0 (2018.3.0)
 
-*(Freigegeben: November 2018)*
-Zusammenfassung: <b>Viewport-Upgrades, ordnungsgemäßer Datenexport, neue UI-Helfer, ein erweitertes Symmetrie-Tool, neue 2D-Ansichten und eine enorme Leistungssteigerung</b>
+*(Freigegeben: 20. November 2018*)Zusammenfassung: **Viewport-Upgrades, ordnungsgemäßer Datenexport, neue UI-Helfer, ein erweitertes Symmetrie-Tool, neue 2D-Ansichten und eine enorme Leistungssteigerung**
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
-* [Glätten]&#x200B;[Viewport] Neue temporale Anti-Aliasing-Filterungen für 3D-Viewport (über Anzeigeeinstellungen)
-* [Exportieren] Exportieren Sie den Inhalt des 2D-Viewports als eine einzige Textur
-* [Exportieren]&#x200B;[Dithering] Dithering beim Exportieren Gelegt
-* [Ebenenstapel] Farben auf Ebenen und Ordnern
-* [Ebenenstapel] Schnelle Aktivierung und Deaktivierung mehrerer Ebenen und Effekte
-* [Ebenenstapel] Einfachere Navigation für Füllmethoden mit Nach-oben-Tasten und Mausbildlauf
-* [Proj]&#x200B;[UI] Zusätzlicher Dreh-Manipulator auf allen drei Achsen für triplanar
-* [Proj]&#x200B;[Tastaturbefehle] - und +, um die Größe des Manipulators der UV-Projektion zu ändern
-* [Shader] Kontrolle beschichteter Schichtparameter mit Kanälen im PBR-beschichteten Shader
-* [Substance] Leg neuer Mesh-basierter Textur-Eingänge für Filter und Generatoren
-* [Symmetrie]&#x200B;[Viewport]&#x200B;[UI] Steuern des Offsets der Symmetrie auf Manipulator
-* [Symmetrie]&#x200B;[Kontextabhängige Symbolleiste]&#x200B;[Benutzeroberfläche] Neues Bedienfeld &quot;Symmetrie&quot; mit Optionen
-* [Symmetrie] Neue Symmetrie Linienüberschneidungsmodus
-* [Symmetrie] Neuer Symmetrie-Clone-Cursor
-* [Symmetrie]&#x200B;[Tastaturbefehle] Q zum Ausblenden und -, + zum Ändern der Größe und Umschalttaste zum einrasten
-* [Log] Verbessern von Fehlermeldungen, wenn Texturen nicht exportiert werden können
-* [Scripting] Ressourcen in den Anzeigeeinstellungen ändern oder aktualisieren
-* [Scripting] Erlaubt das Erstellen oder Entfernen von Kanälen in Textursätzen
-* [Content]&#x200B;[Shaders] Unterstützung für Anisotropie mit einem dedizierten Shader hinzufügen (pbr-metal-rau-Anisotropie-angle)
-* [Inhalt] Aktualisierung der Vorschaukugel mit Anisotropie und verändertem Winkel
-* [Content] Aktualisierte matFx-Shutline
-* [Content] Neuer Scanner zur Texturierung.XYZ-Fläche
-* [Inhalt] Neue anisotrope Verfahren
-* [Inhalt] Neuer Filter: Umgebung mit vorberechnete Beleuchtung
-* [Inhalt] Neue Umgebungs-Map: Studio Automotive Neutral
-* [Inhalt] Neue Projektvorlage: PBR - metallische Rauheit Anisotropy angle (mit Anisotropie-Kanälen)
-* [Inhalt] Neue Projektvorlage: PBR - mit metallische Rauheit beschichtet
-* [SVT]&#x200B;[Engine] Dünn besetzte virtuelle Texturen (SVT)
-* [SVT]&#x200B;[Voreinstellungen]&#x200B;[UI] Beschleunigungsoption für SVT-Hardware-Unterstützung
-* [SVT]&#x200B;[Protokoll] Zusätzliche Informationen für die Funktion &quot;Virtuelle Texturierung mit geringer Dichte&quot; (z. B. Festplatte in Größe)
-* [SVT]&#x200B;[UI] Meldungsfenster beim Start, wenn die Größe auf der Festplatte für den Cache zu niedrig ist
-* [SVT]&#x200B;[Voreinstellungen]&#x200B;[UI] Substance Painter globaler Cachespeicherort
-* [SVT] Neue Umgebungsvariable zur Angabe des Pfads des Substance Painter-Cache
-* [SVT] Neue Umgebungsvariable zum Aktivieren der SVT-Hardware-Support-Beschleunigung
-* [SVT] Erkennen von geringer Unterstützung durch Hardware
-* [SVT]&#x200B;[Hardware Sparse] Erhöhen der Mindesttreiberversion für Nvidia-GPU
-* [SVT]&#x200B;[Shader]&#x200B;[Viewport]&#x200B;[UI] Warnen Sie den Benutzer, wenn beim Öffnen des Projekts Artefakte mit virtueller Texturierung mit geringer Dichte vorhanden sind
+* &lbrack;Glätten&rbrack;&lbrack;Viewport&rbrack; Neue temporale Anti-Aliasing-Filterungen für 3D-Viewport (über Anzeigeeinstellungen)
+* &lbrack;Export&rbrack; Exportieren des Inhalts des 2D-Viewports als eine Textur
+* &lbrack;Export&rbrack;&lbrack;Dithering&rbrack; Gelegt Ditheringe bei der Ausfuhr
+* &lbrack;Ebenenstapel&rbrack; Farben auf Ebenen und Ordnern
+* &lbrack;Ebenenstapel&rbrack; Schnelle Aktivierung und Deaktivierung mehrerer Ebenen und Effekte
+* &lbrack;Ebenenstapel&rbrack; Einfachere Navigation für Füllmethoden dank Tasten nach oben und Mausbildlauf
+* &lbrack;Proj&rbrack;&lbrack;UI&rbrack; Zusätzlicher Dreh-Manipulator auf allen drei Achsen für Triplanar
+* &lbrack;proj&rbrack;&lbrack;Shorcuts&rbrack; - und + , um die Größe des Manipulators für die UV-Projektion zu ändern
+* &lbrack;Shader&rbrack; Kontrolle der Schichtparameter mit Kanälen im PBR-beschichteten Shader
+* &lbrack;Substance&rbrack; Leg neuer Mesh-basierter Texturen für Filter und Generatoren
+* &lbrack;Symmetrie&rbrack;&lbrack;Viewport&rbrack;&lbrack;UI&rbrack; Steuern des Offsets der Symmetrie mit Manipulatoren
+* &lbrack;Symmetrie&rbrack;&lbrack;Kontextsymbolleiste&rbrack;&lbrack;UI&rbrack; Neues Bedienfeld &quot;Symmetrie&quot; mit Optionen
+* &lbrack;Symmetrie&rbrack; Neuer Schnittmodus für Symmetrien-Linien
+* &lbrack;Symmetrie&rbrack; Neuer Symmetrie-Clone-Cursor
+* &lbrack;Symmetrie&rbrack;&lbrack;Shortcuts&rbrack; Q zum Ausblenden und -, + zum Ändern der Größe und Umschalttaste zum einrasten
+* &lbrack;Log&rbrack; Fehlermeldungen verbessern, wenn Texturen nicht exportiert werden können
+* &lbrack;Skripterstellung&rbrack; Ressourcen in den Anzeigeeinstellungen ändern oder aktualisieren
+* &lbrack;Skripterstellung&rbrack; Erstellen oder Entfernen von Kanälen in Textursätzen zulassen
+* &lbrack;Content&rbrack;&lbrack;Shaders&rbrack; Unterstützung für Anisotropie mit einem dedizierten Shader hinzufügen (pbr-metal-rau-Anisotropie-angle)
+* &lbrack;Inhalt&rbrack; Aktualisierung der Vorschaukugel mit Anisotropie und verändertem Winkel
+* &lbrack;Inhalt&rbrack; Aktualisierte matFx Shutline
+* &lbrack;Inhalt&rbrack; Neuer nahtloser Fläche-Scan von Texturing.XYZ
+* &lbrack;Inhalt&rbrack; Neue anisotrope Verfahren
+* &lbrack;Inhalt&rbrack; Neuer Filter: Umgebung mit vorberechnete Beleuchtung
+* &lbrack;Inhalt&rbrack; Neue Umgebungs-Map: Studio Automotive Neutral
+* &lbrack;Inhalt&rbrack; Neue Projektvorlage: PBR - metallische Rauheit Anisotropy angle (mit Anisotropie-Kanälen)
+* &lbrack;Inhalt&rbrack; Neue Projektvorlage: PBR - mit metallische Rauheit beschichtet
+* &lbrack;SVT&rbrack;&lbrack;Engine&rbrack; Dünn besetzte virtuelle Texturen (SVT)
+* &lbrack;SVT&rbrack;&lbrack;Preferences&rbrack;&lbrack;UI&rbrack; Beschleunigungsoption für SVT-Hardware-Unterstützung
+* &lbrack;SVT&rbrack;&lbrack;Log&rbrack; Zusätzliche Informationen zur Funktion &quot;Virtuelle Texturierung mit geringer Dichte&quot; (z. B. Festplatte in Größe)
+* &lbrack;SVT&rbrack;&lbrack;UI&rbrack; Meldungsfenster beim Start, wenn die Größe auf dem Datenträger für den Cache zu niedrig ist
+* &lbrack;SVT&rbrack;&lbrack;Preferences&rbrack;&lbrack;UI&rbrack; Globaler Substance Painter-Cachespeicherort
+* &lbrack;SVT&rbrack; Neue Umgebungsvariable zur Angabe des Cachepfads des Substance Painters
+* &lbrack;SVT&rbrack; Neue Umgebungsvariable zum Aktivieren der SVT-Hardware-Support-Beschleunigung
+* &lbrack;SVT&rbrack; Erkennen von geringer Hardware-Unterstützung
+* &lbrack;SVT&rbrack;&lbrack;Hardware Sparse&rbrack; Erhöhen der Mindesttreiberversion für Nvidia-GPU
+* &lbrack;SVT&rbrack;&lbrack;Shader&rbrack;&lbrack;Viewport&rbrack;&lbrack;UI&rbrack; Benutzer warnen, wenn bei Projektöffnung Artefakte mit virtueller Texturierung mit geringer Dichte vorhanden sind
 
-<b>Fest:</b>
+**Fest:**
 
-* [Farbwähler] Beim Auswählen einer Farbe wird ein Malcursor angezeigt
+* &Klammer;Farbwähler&Klammer; Beim Auswählen einer Farbe wird der Cursor angezeigt.
 * Absturz durch das Auswählen oder Aufheben der Auswahl von Ebenen in einer bestimmten Reihenfolge kann zu Absturz führen
 * Absturz beim Einfügen einer Ebene mit einer Maske als Instanz
-* [Benutzerkanal]&#x200B;[Regression] Absturz beim Umbenennen des Benutzerkanals
-* [Benutzerkanal] Graue Pinselvorschau
-* [Alembic] Nur ein Textursatz aus mehreren Materialien nach dem Import
-* [Engine] Exportierte Textur unterscheidet sich von Viewport für Pinselstempel
-* [Engine] Die Umkehrung mit einem Ebeneneffekt wirkt sich nicht vollständig auf eine Textur aus
+* &lbrack;Benutzerkanal&rbrack;&lbrack;Regression&rbrack; Absturz beim Umbenennen des Benutzerkanals
+* &lbrack;Benutzerkanal&rbrack; Graue Pinselvorschau
+* &lbrack;Alembic&rbrack; Nur ein Textursatz aus mehreren Materialien nach dem Import
+* &lbrack;Engine&rbrack; Die exportierte Textur unterscheidet sich vom Viewport für Pinselstempel
+* &lbrack;Engine&rbrack; Die Umkehrung mit einem Ebeneneffekt wirkt sich nicht vollständig auf eine Textur aus
 * Die Material-Auswahl wendet beim Auswählen einen Pinselstrich an
 * Der Wechsel der Auflösung auf 128 x 128 px führt zu einem Absturz
 * Mesh-Map-Verknüpfungen werden beim Umbrechen oder Instanziieren von Ebenen nicht ordnungsgemäß aktualisiert
-* [Substance] UserData ColorSpace funktioniert nicht bei Baking geführt Mesh Normal, der als Eingabe angefordert wird
+* &lbrack;Substance&rbrack; UserData ColorSpace funktioniert nicht bei Baking geführt Mesh Normal, der als Eingabe angefordert wird
 * MDL-Zuordnungskonflikt bei Verwendung mehrerer Shader-Instanzen
-* [Symmetrie]&#x200B;[Füllebene] Symmetrie-Ebene und ihr in der Füllebene aktiver Manipulator
-* [Viewport] Pivot-Punkt für Übersetzung wird nach dem Klicken nicht immer aktualisiert
-* [UI] Symbole und Entfernen von Platzhaltern für HDPI-Monitore wurden korrigiert
+* &lbrack;Symmetrie&rbrack;&lbrack;Füllebene&rbrack; Symmetrie-Ebene und ihr in der Füllebene aktiver Manipulator
+* &lbrack;Viewport&rbrack; Pivot-Punkt für Übersetzung wird nach dem Klicken nicht immer aktualisiert
+* &lbrack;UI&rbrack; Behobene Symbole und Entfernen von Platzhaltern für HDPI-Monitore
 
-<b>Bekannte Probleme:</b>
+**Bekannte Probleme:**
 
 * Einfrieren der Berechnung in einigen Fällen auf AMD VEGA-GPUs
 * Problem mit Huion-Tablets mit Tastaturbefehlen unter Windows
@@ -2965,10 +3006,10 @@ Zusammenfassung: <b>Viewport-Upgrades, ordnungsgemäßer Datenexport, neue UI-He
 
 **Fest:**
 
-* [2D-Ansicht] Bei der Erstellung eines neuen Projekts ist die 2D-Ansicht mit einigen Meshs beschädigt.
-* [Absturz] Der Wechsel von der UV-Projektion zur dreimal planaren Projektion führt zu einem Absturz
-* [RayCollider] Mehrere Absturz durch &quot;RayCollider&quot;
-* [Werkzeug] Beim Wechseln von Ebenen gehen die geänderten Pinseleigenschaften verloren
+* &lbrack;2D-Ansicht&rbrack; Beim Erstellen eines neuen Projekts ist die 2D-Ansicht mit einigen Meshs beschädigt
+* &lbrack;Absturz&rbrack; Der Wechsel von der UV-Projektion zur planaren Projektion führt zu einem Absturz
+* &lbrack;RayCollider&rbrack; Mehrere Absturz durch &quot;RayCollider&quot;
+* &lbrack;Werkzeug&rbrack; Beim Wechseln von Ebenen gehen die geänderten Pinseleigenschaften verloren
 * Pinseleinstellungen werden beim Wechsel zum Radierer zurückgesetzt
 
 **Bekannte Probleme:**
@@ -2978,32 +3019,31 @@ Zusammenfassung: <b>Viewport-Upgrades, ordnungsgemäßer Datenexport, neue UI-He
 
 ### 4.2.2 (2018.2.2)
 
-*(Freigegeben: 11. September 2018)*
-Zusammenfassung: **Hotfix mit Inhaltsaktualisierung, neuen Skriptfunktionen und der Möglichkeit, das automatische Update zu deaktivieren**
+*(Freigegeben: 11. September 2018 (1&rbrace;)Zusammenfassung:**Hotfix mit Inhaltsaktualisierung, neuen Skriptfunktionen und der Möglichkeit, das automatische Update zu deaktivieren***
 
 **Hinzugefügt:**
 
-* [Inhalt]&#x200B;[Regal] Hinzufügen einer Skin-Regal-Vorgabe
-* [Inhalt]&#x200B;[Regal] Konvertierung von 19 Skinnormalen in Materialien zur Volumenstreuung
-* [Scripting] Erstellen einer Projektvorlage aus einem geöffneten Projekt
-* [Scripting] Abrufen/Festlegen von Exporteinstellungen eines geöffneten Projekts
-* [Updates] Deaktivieren des Popups &quot;Automatische Aktualisierung&quot; in den Einstellungen und der Umgebungsvariablen
-* [Updates] Anzeige erst in der nächsten Version des veralteten Wartungs-Popup
+* &lbrack;Inhalt&rbrack;&lbrack;Regal&rbrack; Hinzufügen einer Skin-Regal-Vorgabe
+* &lbrack;Inhalt&rbrack;&lbrack;Regal&rbrack; Konvertierung von 19 Hautnormalen in Materialien zur Volumenstreuung
+* &lbrack;Skripterstellung&rbrack; Erstellen einer Projektvorlage aus einem geöffneten Projekt
+* &lbrack;Skripterstellung&rbrack; Exporteinstellungen eines geöffneten Projekts abrufen/festlegen
+* &lbrack;Updates&rbrack; Deaktivieren des Popups &quot;Automatische Aktualisierung&quot; unter &quot;Einstellungen&quot; und &quot;Umgebungsvariable&quot;
+* &lbrack;Updates&rbrack; Nicht bis zur nächsten Version auf dem Popup-Fenster mit veralteten Wartungsoptionen anzeigen
 
 **Fest:**
 
-* [Kamera] Falscher Zoom durch Wechsel von orthografisch zu Perspektive
-* [Anzeige] Einige Maps werden linear anstelle von sRGB angezeigt
-* [Viewport] Mesh-Fokus verhält sich nicht richtig
-* [2D-Ansicht] Projekt mit beschädigter Kamera enthält verschwindende UVs-Schalen
-* [SSS]&#x200B;[QuickInfo] QuickInfos zu Volumenstreuung-Tools werden im Protokoll angezeigt
+* &lbrack;Kamera&rbrack; Falscher Zoom durch Wechsel von orthografisch zu Perspektive
+* &lbrack;Anzeige&rbrack; Einige Maps werden linear anstatt sRGB angezeigt
+* &lbrack;Viewport&rbrack; Mesh-Fokus verhält sich nicht richtig
+* &lbrack;2D-Ansicht&rbrack; Bei einem Projekt mit beschädigter Kamera werden UVs-Schalen ausgeblendet.
+* &lbrack;SSS&rbrack;&lbrack;Tooltip&rbrack; QuickInfos zu Volumenstreuungen werden im Protokoll angezeigt
 * Einige Projekte können nicht in 2018.2 geöffnet werden und die Fehlermeldung kann kein Null-Substance-Paket speichern
-* [Maske] Die Farbe des Malen-Werkzeugs kann in einigen Fällen beim Arbeiten in einer Maske hängen bleiben
-* [Material] Karten werden in bestimmten Situationen nicht angezeigt
-* [Proj]&#x200B;[Tools] Manipulator aktiv mit einem Generator
-* [Substance] Fehlende Substance-Parametergruppen
-* [Skripterstellung] Falscher Software-Name in der Dokumentation
-* [UDIM] Keine Informationen im Protokoll über UVs-Schalen auf mehreren UVs-Kacheln
+* &lbrack;Maske&rbrack; Die Farbe des Malen-Werkzeugs kann beim Arbeiten in einer Maske in einigen Fällen hängen bleiben
+* &lbrack;Material&rbrack; Karten werden in bestimmten Situationen nicht angezeigt
+* &lbrack;Proj&rbrack;&lbrack;Tools&rbrack; Generatoraktiver Manipulator
+* &lbrack;Substance&rbrack; Fehlende Substance-Parametergruppen
+* &lbrack;Skripterstellung&rbrack; Falscher Software-Name in der Dokumentation
+* &lbrack;UDIM&rbrack; Keine Informationen im Protokoll über UVs-Schalen auf mehreren UVs-Kacheln
 
 **Bekannte Probleme:**
 
@@ -3025,84 +3065,83 @@ Zusammenfassung: **Hotfix mit Inhaltsaktualisierung, neuen Skriptfunktionen und 
 
 ### 4.2.0 (2018.2.0)
 
-*(Freigegeben: 2. August 2018)*
-Zusammenfassung: **Sommerversion, Volumenstreuung-Support, Verbesserungen bei Projektion und Füllung, Kamera-Import und -Auswahl, Alembic- und glTF-Unterstützung, Drag-and-Drop auf ID-Map, verbesserte Unterstützung für Substance-Formate und neue Inhalte**
+*(Freigegeben: 02. August 2018*)Zusammenfassung: **Sommerversion, Volumenstreuung-Support, Verbesserungen bei Projektion und Füllung, Kamera-Import und -Auswahl, Alembic- und glTF-Unterstützung, Drag-and-Drop auf dem ID-Map, verbesserte Unterstützung für Substance-Formate und neue Inhalte**
 
 **Hinzugefügt:**
 
-* [SSS]&#x200B;[Viewport]&#x200B;[Iray] Generische Volumenstreuung
-* [SSS] Synchronisierungs-MDL- und Volumenstreuung-Parameter
-* [SSS] Es wurde ein neuer Graustufenkanal mit dem Namen &quot;Streuung&quot; hinzugefügt.
-* [SSS]&#x200B;[Shader-Einstellungen] Streutypparameter für die Volumenstreuung (Skin oder transluzent)
-* [SSS]&#x200B;[Shader-Einstellungen] Streuungsparameter für die Volumenstreuung
-* [SSS]&#x200B;[Shader Settings] Farbstreuung-Parameter für Volumenstreuung
-* [SSS]&#x200B;[Anzeigeeinstellungen] Streuung Beispielanzahl für Volumenstreuung
-* [Shader]&#x200B;[Iray] Integrieren von Volumenstreuung-MDL für Iray
-* [Shader] Shader-Update über den Ressourcen-Updater
-* [Shader] API und Dokumentation für Änderungsprotokoll aktualisieren
-* [Werkzeugeigenschaften]&#x200B;[Proj] Neue Parameter für die triplanare Projektion
-* [Viewport]&#x200B;[Proj] Steuern Sie die Eigenschaften der Füllebene in der 3D-Ansicht direkt mit Manipulatoren (triplanare Projektion)
-* [Shortcuts]&#x200B;[Proj] Neue Shortcuts Q, W, E, R, T für triplanare Projektion Manipulator
-* [Viewport]&#x200B;[Proj] Steuern Sie Eigenschaften der Füllebene in 2D-Ansichten direkt mit Manipulatoren (UV-Projektion)
-* [Shortcuts]&#x200B;[Proj] Neuer Tastaturbefehl Q für UV-Projektion Manipulator
-* [Kontextsymbolleiste]&#x200B;[Proj] triplanare Projektion-Manipulator steuern
-* [Kontextsymbolleiste]&#x200B;[Proj] UV-Projektion-Manipulator steuern
-* [Werkzeugeigenschaften] Deaktivieren der Kachelung der Textur mit dem Werkzeug Projektion und Schablone
-* [Schablone] Verwenden von Nicht-quadratischen Bildern mit dem Projektion-Werkzeug/der Schablone
-* [Schablone] Steuerung des Kachelung-Modus im Eigenschaftenfenster zulassen
-* [Schablone] Der Zoom ist nicht auf einer Schablone ohne Kachelung zentriert
-* [Kameras] Importieren von Kameras aus Maya, Max, Blender, Modo, DAE
-* [Kameras]&#x200B;[Viewport] Wählen und steuern Sie importierte Kameras in Viewport
-* [Kameras]&#x200B;[Iray] Importierte Kameras in Iray auswählen und steuern
-* [Kameras]&#x200B;[UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] Kameras importieren ist standardmäßig aktiviert.
-* [Kameras]&#x200B;[Tastaturbefehle] Hinzufügen von Tastaturbefehlen, um zwischen Kameras zu wechseln
-* [Kameras]&#x200B;[Viewport] Rahmen im Viewport hinzufügen
-* [Kameras]&#x200B;[Viewport-Einstellungen] Steuerung der Deckkraft des Rahmens
-* [Kameras]&#x200B;[Kamera-Einstellungen] Maximale Brennweite bei 500 mm
-* [Kameras]&#x200B;[Kameras] Gelegt Verhältnis
-* [Kameras]&#x200B;[Kamera-Einstellungen] Option &quot;Sperren&quot; hinzufügen
-* [Kameras]&#x200B;[Kamera-Einstellungen] Hinzufügen einer Wiederherstellungsoption
-* [Kameras]&#x200B;[Kamera-Einstellungen] Attribut für den Fokusabstand hinzufügen
-* [glTF] Import einer glTF-Datei
-* [glTF] Importieren einer ambient occlusion-Map
-* [Alembic] Importieren von Alembic 1-Rahmen mit statischer Geometrie
-* [Regal] Ziehen Sie Materialien mithilfe von ID-Map mit einem Modifizierer (STRG/Befehlstaste) direkt auf den Mesh.
-* [Ebenenstapel] Automatische Erstellung von ID-Masken durch Ziehen und Ablegen von Materialien auf Mesh mit ID-Map
-* [Ebenenstapel] Automatischer Bildlauf von Ebenen per Drag &amp; Drop über den Ebenenstapel
-* [UI]&#x200B;[Tooleigenschaften] Leg der Vorgabe des Substance
-* [UI]&#x200B;[Hilfemenü] Verbesserung des Hilfemenüs
-* [UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] Reorganisation des Fensters
-* [UI]&#x200B;[Neues Projekt]&#x200B;[Projektkonfiguration] Ersetzen des Meshs durch Datei
-* [UI]&#x200B;[Substance] Anzeigen von Substance-Attributen in der Benutzeroberfläche
-* [Tastaturbefehle] F4 wechselt zwischen 2D- und 3D-Ansicht
-* [Tastaturbefehle] Neue Tastaturbefehle zum Umschalten zwischen Schablone N und schnelle Maske U
-* [Substance-Integration] Berücksichtigung von &quot;visible if&quot;-Anweisungen in den Substance-Parametern
-* [Viewport] Schatten müssen nach dem Verschieben der Kamera nicht berechnet werden.
-* [Inhalt] Aktualisieren von MeetMat mit importierten Kameras
-* [Inhalt] Beispiel mit aktivierter Volumenstreuung hinzufügen - JadeToad
-* [Inhalt] Neue PBR-Projektvorlage mit aktivierter Volumenstreuung hinzufügen
-* [Inhalt] Exportvorgaben wurden aktualisiert, um einen neuen Streuungskanal hinzuzufügen
-* [Inhalt]&#x200B;[Regal] Zusätzliche Unterstützung für Volumenstreuungen für: pbr-metal-rau, pbr-metal-rau-alpha-test, pbr-coated, pbr-spec-gloss
-* [Inhalt]&#x200B;[Regal] Ein Streuungskanal wurde zu 5 intelligenten Materialien (Marmor und Skin) hinzugefügt.
-* [Inhalt]&#x200B;[Regal] 1 neues Jade-Material
-* [Inhalt]&#x200B;[Regal] 1 neues Wachs-Material
+* &lbrack;SSS&rbrack;&lbrack;Viewport&rbrack;&lbrack;Iray&rbrack; Generische Volumenstreuung
+* &lbrack;SSS&rbrack; MDL- und Volumenstreuung-Parameter synchronisieren
+* &lbrack;SSS&rbrack; Es wurde ein neuer Graustufenkanal mit dem Namen &quot;Streuung&quot; hinzugefügt.
+* &lbrack;SSS&rbrack;&lbrack;Shader Settings&rbrack; Streutypparameter für die Volumenstreuung (Skin oder transluzent)
+* &lbrack;SSS&rbrack;&lbrack;Shader Settings&rbrack; Streuskalenparameter für die Volumenstreuung
+* &lbrack;SSS&rbrack;&lbrack;Shader Settings&rbrack; Farbstreuung-Parameter für Volumenstreuung
+* &lbrack;SSS&rbrack;&lbrack;Anzeigeeinstellungen&rbrack; Streuung Sampleanzahl für Volumenstreuung
+* &lbrack;Shader&rbrack;&lbrack;Iray&rbrack; Volumenstreuung MDL für Iray integrieren
+* &lbrack;Shader&rbrack; Shader-Update über den Ressourcen-Updater
+* &lbrack;Shader&rbrack; API und Dokumentation für Änderungsprotokoll aktualisieren
+* &lbrack;Werkzeugeigenschaften&rbrack;&lbrack;Proj&rbrack; Neue Parameter für die triplanare Projektion
+* &lbrack;Viewport&rbrack;&lbrack;Proj&rbrack; Steuern von Ansichtseigenschaften in 3D direkt mit Manipulatoren (Füllebene)
+* &lbrack;Shortcuts&rbrack;&lbrack;Proj&rbrack; Neue Tastaturbefehle Q, W, E, R, T für triplanare Projektion-Manipulator
+* &lbrack;Viewport&rbrack;&lbrack;Proj&rbrack; Steuern von Eigenschaften der Füllebene in 2D-Ansichten direkt über Manipulator (UV-Projektion)
+* &lbrack;Shortcuts&rbrack;&lbrack;Proj&rbrack; Neuer Tastaturbefehl Q für UV-Projektion Manipulator
+* &lbrack;Kontextsymbolleiste&rbrack;&lbrack;Proj&rbrack; Manipulator der triplanare Projektion steuern
+* &lbrack;Kontextsymbolleiste&rbrack;&lbrack;Proj&rbrack; Manipulator der UV-Projektion steuern
+* &lbrack;Werkzeugeigenschaften&rbrack; Kachelung der Textur mit dem Werkzeug &quot;Projektion und Schablone&quot; deaktivieren
+* &lbrack;Schablone&rbrack; Verwenden von Nicht-quadratischen Bildern mit dem Projektion-Werkzeug/der Schablone
+* &lbrack;Schablone&rbrack; Kachelung im Eigenschaftenfenster zulassen
+* &lbrack;Schablone&rbrack; Der Zoom ist nicht auf einer Schablone ohne Kachelung zentriert
+* &blbrack;Kameras&rbrack; Kameras importieren aus Maya, Max, Blender, Modo, DAE
+* &lbrack;Kameras&rbrack;&lbrack;Viewport&rbrack; Auswählen und Steuern importierter Kameras in Viewport
+* &lbrack;Kameras&rbrack;&lbrack;Iray&rbrack; Auswählen und Steuern importierter Kameras in Iray
+* &lbrack;Kameras&rbrack;&lbrack;UI&rbrack;&lbrack;Neues Projekt&rbrack;&lbrack;Projektkonfiguration&rbrack; Kameras importieren ist standardmäßig aktiviert
+* &lbrack;Kameras&rbrack;&lbrack;Shortcuts&rbrack; Hinzufügen von Tastaturbefehlen zum Wechseln zwischen Kameras
+* &lbrack;Kameras&rbrack;&lbrack;Viewport&rbrack; Rahmen zu Viewport hinzufügen
+* &lbrack;Kameras&rbrack;&lbrack;Viewport-Einstellungen&rbrack; Kontrolle der Deckkraft des Rahmens
+* &lbrack;Kameras&rbrack;&lbrack;Kamera&rbrack; Maximale Brennweite bei 500mm
+* &lbrack;Kameras&rbrack;&lbrack;Kamera&rbrack; Leg Ratio
+* &lbrack;Kameras&rbrack;&lbrack;Kamera&rbrack; Option &quot;Sperren&quot; hinzufügen
+* &lbrack;Kameras&rbrack;&lbrack;Kamera&rbrack; Hinzufügen einer Wiederherstellungsoption
+* &lbrack;Kameras&rbrack;&lbrack;Kamera&rbrack; Attribut &quot;Fokusabstand&quot; hinzufügen
+* &lbrack;glTF&rbrack; Importieren einer glTF-Datei
+* &lbrack;glTF&rbrack; Importieren einer ambient occlusion-Map
+* &lbrack;Alembic&rbrack; Alembic 1-Rahmen mit statischer Geometrie importieren
+* &lbrack;Regal&rbrack; Ziehen Sie Materialien mithilfe von ID-Map mit einem Modifizierer (STRG/Befehlstaste) direkt auf den Mesh
+* &lbrack;Ebenenstapel&rbrack; Automatische Erstellung von ID-Masken durch Ziehen und Ablegen von Materialien auf einem Mesh mit ID-Map
+* &lbrack;Ebenenstapel&rbrack; Automatischer Bildlauf von Ebenen per Drag &amp; Drop über den Ebenenstapel
+* &lbrack;UI&rbrack;&lbrack;Werkzeugeigenschaften&rbrack; Leg Substance&#39;s preset
+* &lbrack;UI&rbrack;&lbrack;Hilfemenü&rbrack; Verbesserung des Hilfemenüs
+* &lbrack;UI&rbrack;&lbrack;Neues Projekt&rbrack;&lbrack;Projektkonfiguration&rbrack; Neuorganisation des Fensters
+* &lbrack;UI&rbrack;&lbrack;Neues Projekt&rbrack;&lbrack;Projektkonfiguration&rbrack; Mesh durch Datei ersetzen
+* &lbrack;UI&rbrack;&lbrack;Substance&rbrack; Anzeigen von Substance-Attributen in der Benutzeroberfläche
+* &blbrack;Shortcuts&rbrack; F4 wechselt zwischen 2D- und 3D-Ansicht
+* &blbrack;Shortcuts&rbrack; Neue Tastaturbefehle zum Umschalten zwischen Schablone N und schnelle Maske U
+* &lbrack;Substance-Integration&rbrack; Berücksichtigung von &#39;visible if&#39;-Anweisungen in den Substance-Parametern
+* &lbrack;Viewport&rbrack; Schatten, die nach dem Verschieben der Kamera nicht berechnet werden müssen
+* &lbrack;Inhalt&rbrack; Aktualisieren von MeetMat mit importierten Kameras
+* &lbrack;Inhalt&rbrack; Beispiel mit aktivierter Volumenstreuung hinzufügen - JadeToad
+* &lbrack;Inhalt&rbrack; Neue PBR-Projektvorlage mit aktivierter Volumenstreuung hinzufügen
+* &lbrack;Inhalt&rbrack; Exportvorgaben wurden aktualisiert, um einen neuen Streuungskanal hinzuzufügen
+* &lbrack;Inhalt&rbrack;&lbrack;Regal&rbrack; Unterstützung zusätzlicher Volumenstreuungen für: pbr-metal-rau, pbr-metal-rau-alpha-test, pbr-coated, pbr-spec-gloss
+* &lbrack;Inhalt&rbrack;&lbrack;Regal&rbrack; Hinzugefügter Streuungskanal zu 5 intelligenten Materialien (Marmor und Skins)
+* &lbrack;Inhalt&rbrack;&lbrack;Regal&rbrack; 1 neues Jade-Material
+* &lbrack;Inhalt&rbrack;&lbrack;Regal&rbrack; 1 neues Wachs-Material
 
 **Fest:**
 
-* [CMD] Verschiedene Ergebnisse über dieselbe Befehlszeile mit unterschiedlichen Versionen
-* [TDR] Wenn TdrLevel eingerichtet ist, sind keine Fehler im Protokoll vorhanden.
-* [Baker] Ambient occlusion-Map wird gespiegelt
-* [ID-Map] Absturz beim Kommissionieren außerhalb des 0-1-Bereichs
-* [Iray] Absturz beim Wechseln des Textursatzes und beim Wechseln in den Malen
-* [Viewport] Synchronisieren von Ablagebereichen zwischen Viewporten für Drag &amp; Drop
-* [Engine] Moiré-Artefakt bei der Kachelung von Füllebenen oder beim Malen eines kleinen Pinsels
-* [Lizenz] Prüfung auf fehlerhafte Softwareversion des Lizenzdiensts
-* [Lizenz] Überarbeiten Sie die Art und Weise, wie wir die Authentifizierung verarbeiten
-* [API] Rufen Sie das onNewProjectCreated-Skript-API-Ereignis auf, selbst wenn Sie mit einer Vorlage erstellen.
-* [Shader] Kompilierter Shader wird nicht aus dem Cache geladen, wenn die Shader-Datei nicht kompiliert wird
-* [Regal] Exportieren der HDR-Datei aus dem Regal gibt eine Datei mit festgeklemmten Werten aus
-* [Exportieren] EXR exportieren Klammern RGB Farbwerte zwischen 0-1
-* [Inhalt] Prozedurales Rauschen 3D Perlin Rauschen Fraktal ist verpixelt
+* &lbrack;CMD&rbrack; Verschiedene Ergebnisse bei Verwendung derselben Befehlszeile mit unterschiedlichen Versionen
+* &lbrack;TDR&rbrack; Wenn TdrLevel eingerichtet ist, sind keine Fehler im Protokoll vorhanden.
+* &lbrack;Baker&rbrack; Ambient occlusion-Map wird gespiegelt
+* &lbrack;ID-Map&rbrack; Absturz beim Kommissionieren außerhalb des 0-1-Bereichs
+* &lbrack;Iray&rbrack; Absturz beim Wechseln des Textursatzes und beim Wechseln in den Malen-Modus
+* &lbrack;Viewport&rbrack; Synchronisieren von Ablagebereichen zwischen Viewporten für Drag &amp; Drop
+* &lbrack;Engine&rbrack; Moiré-Artefakt bei der Kachelung von Füllebenen oder beim Malen mit einem kleinen Pinsel
+* &lbrack;Lizenz&rbrack; Prüfung auf fehlerhafte Softwareversion des Lizenzdienstes
+* &lbrack;Lizenz&rbrack; Verarbeitung der Authentifizierungsmethode anpassen
+* &lbrack;API&rbrack; Rufen Sie das onNewProjectCreated-Skript-API-Ereignis auf, selbst wenn Sie mit einer Vorlage erstellen.
+* &lbrack;Shader&rbrack; Kompilierter Shader wird nicht aus dem Cache geladen, wenn die Shader-Datei nicht kompiliert wird
+* &lbrack;Regal&rbrack; Beim Exportieren der HDR aus dem Regal wird eine Datei mit geklemmten Werten ausgegeben
+* &lbrack;Export&rbrack; EXR-Exportklammern RGB von Farbwerten zwischen 0 und 1
+* &lbrack;Inhalt&rbrack; Prozedurales Rauschen 3D Perlin Rauschen Fraktal ist verpixelt
 
 **Bekannte Probleme:**
 
@@ -3115,17 +3154,17 @@ Zusammenfassung: **Sommerversion, Volumenstreuung-Support, Verbesserungen bei Pr
 
 **Hinzugefügt:**
 
-* [Voreinstellungen] Vorschlag zum Speichern des Projekts beim Neustart von Painter
+* &lbrack;Voreinstellungen&rbrack; Projekt beim Neustart von Painter speichern
 
 **Fest:**
 
-* [Plug-In] Substance Source &quot;Suchen&quot; funktioniert nicht
-* [Intelligenten Materials] Das Importieren von Intelligenten Materials führt in einigen Fällen zu einem Absturz
-* [Intelligenten Materials] Das Löschen von Intelligenten Materials führt in einigen Fällen zu einem Absturz
-* [Speichern] Das Speichern führt in einigen seltenen Fällen zu einem Absturz
-* [Regal] Umkehren funktioniert nicht auf den Zellen 2 und 3 der Zellen
-* [Regal] Typo in einigen Alphas
-* [Regal] Einige Substance-Material werden nicht richtig gerendert
+* &lbrack;Plugin&rbrack; Die Substance Source &quot;Suchen&quot; funktioniert nicht
+* &amp;Intelligenten Materials&rbrack; Das Importieren von Intelligente Materialien führt in einigen Fällen zu einem Absturz
+* &amp;Intelligenten Materials&rbrack; Das Löschen von Intelligenten Materialien führt in einigen Fällen zu einem Absturz
+* &lbrack;Speichern&rbrack; Das Speichern führt in einigen seltenen Fällen zu einem Absturz
+* &lbrack;Regal&rbrack; Umkehren funktioniert nicht auf Zellen 2 und Zellen 3
+* &lbrack;Regal&rbrack; Typo in einigen Alphas
+* &lbrack;Regal&rbrack; Einige Substance-Material werden nicht richtig gerendert
 
 **Bekannte Probleme:**
 
@@ -3133,42 +3172,41 @@ Zusammenfassung: **Sommerversion, Volumenstreuung-Support, Verbesserungen bei Pr
 
 ### 4.1.2 (2018.1.2)
 
-*(Freigegeben: Juni 2018)*
-Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichersystem, aktualisierte Schieberegler, aktualisierte Plug-in-API, chinesische Baking, verbesserter Abstand jetzt optional**
+*(Freigegeben: 12. Juni 2018*)Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichersystem, aktualisierte Schieberegler, aktualisierte Plug-in-API, chinesische Baking, verbesserter Abstand jetzt optional**
 
 **Hinzugefügt:**
 
-* [Baker] Leistungsverbesserung mit neuer Baker-Version
+* &lbrack;Baker&rbrack; Leistungsverbesserung mit der neuen Baker-Version
 * Erzwungene Anzeige von Dialogfeldern mit inkompatibler GPU
-* [Speichern] Leg neuer Kompaktprojekt-Funktionen (vollständiger/kompakter Speichermodus)
-* [Speichern] Benutzer informieren, wenn Fehler beim Speichern auftritt
-* [Clean] Nächste Speicherung im Voll-/Kompaktmodus
-* [Schieberegler] Verbesserung der Präzision der Farb-/Graustufenbalken und Schieberegler
-* [Schieberegler] Hinzufügen der Pfeilsteuerungen nach oben/unten
-* [Schieberegler] Dieselbe Erkennungszone für Farb- und Graustufenbalkenschieberegler
-* [Plugin] Automatische Speicherung immer im inkrementellen Modus
-* [Plug-In] Option zum Wechseln von Plug-Ins zu einem neuen Schnittstellenstil
-* [Sprache] Chinesische Übersetzung hinzufügen
-* [Auffüllung] Option zum Wechseln zwischen UV- und 3D-Raum, Nachbar-Auffüllung pro Textursatz in den Textursatz-Einstellungen
-* [Skript] Gelegt Speichermodus: Voll/Kompakt oder inkrementell
-* [Script] Update Scripting/QML documentation
-* [Log] Anzeige des Speichermodus im Protokoll (vollständig/kompakt oder inkrementell)
+* &lbrack;Speichern&rbrack; Leg der neuen Funktion für kompakte Projekte (Speichermodus &quot;Voll/Kompakt&quot;)
+* &lbrack;Speichern&rbrack; Benutzer im Fall eines Speicherfehlers informieren
+* &lbrack;Clean&rbrack; Nächstes Speichern im Voll-/Kompaktmodus
+* &blase;Regler&blase; Verbesserung der Präzision der Farb-/Graustufenbalken und -schieberegler
+* &blase;Regler&blase; Hinzufügen von Nach-oben-/Nach-unten-Steuerelementen
+* &blase;Regler&blase; Dieselbe Erkennungszone für Farb- und Graustufenbalkenschieberegler
+* &lbrack;Plugin&rbrack; Automatisches Speichern immer im inkrementellen Modus
+* &lbrack;Plugin&rbrack; Option zum Wechseln von Plug-ins zu einem neuen Schnittstellenstil
+* &lbrack;Sprache&rbrack; Chinesische Übersetzung hinzufügen
+* &Klammer;Auffüllung&Klammer; Option zum Wechseln zwischen UV- und 3D-Raum, Nachbar-Innenabständen pro Textursatz in den Textursatz-Einstellungen
+* &lbrack;Script&rbrack; Gelegt Speichermodus: Voll/Kompakt oder inkrementell
+* &lbrack;Script&rbrack; Aktualisieren von Skripterstellung/QML-Dokumentation
+* &lbrack;Log&rbrack; Anzeige des Speichermodus im Protokoll (vollständig/kompakt oder inkrementell)
 
 **Fest:**
 
-* [Tool] Kanalsteckplatz transformieren bei Einkanalfüllungen in einen Material-Steckplatz
+* &lbrack;Werkzeug&rbrack; Bei Einkanalfüllungen transformieren der Kanalsteckplatz in einen Material-Steckplatz ein
 * Absturz beim Laden eines Meshs (FBX) mit einigen Flächen, die nicht von einem Material zugewiesen wurden
 * Absturz in Iray mit NVIDIA RASTER 5.2 auf einem virtuellen Computer
 * Absturz beim Rückgängigmachen eines Löschens einer Materialvorgabe
 * Absturz beim Laden einiger Projekte
-* [Befehlszeile] Neue Befehlszeile für UDIM-Mesh, aufgeteilt nach Audio
-* [Symbolleiste] Verkleinern der Symbolleiste
-* [Instanz] Bitmaps können nicht über mehrere Textursatz instanziieren werden
-* [Viewport] Aktualisierung ist nicht abgeschlossen, wenn auf Mesh mit gekachelten UVs gemalt wird
-* [Iray] Normalen-Map wird zweimal für Dielektrika angewendet
-* [Regal] Tippfehler in einigen Substance-Parametern (Alphas, Prozeduren und Matfx)
-* [Regal] Typo für die Bitmap &quot;Authorized Personnel Only&quot;
-* [Script] Funktion alg.shaders.Materials() funktioniert nicht mehr
+* &lbrack;Befehlszeile&rbrack; Neue Befehlszeile für UDIM-Mesh, aufgeteilt nach Audio
+* &blbrack;Symbolleiste&rbrack; Verkleinern der Symbolleiste
+* &lbrack;Instancing&rbrack; Bitmaps können nicht auf mehreren Textursätzen instanziieren werden
+* &lbrack;Viewport&rbrack; Die Aktualisierung ist beim Malen auf Mesh mit gekachelten UVs nicht abgeschlossen
+* &lbrack;Iray&rbrack; Normalen-Map wird zweimal für Dielektrika angewendet
+* &lbrack;Regal&rbrack; Typos in einigen Substance-Parametern (Alphas, Prozedurals und Matfx)
+* &lbrack;Regal&rbrack; Typo für die Bitmap &quot;Nur autorisiertes Personal&quot;
+* &lbrack;Script&rbrack; Die Funktion alg.shaders.Materials() funktioniert nicht mehr
 
 **Bekannte Probleme:**
 
@@ -3180,14 +3218,14 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [Tablet] Problem beim Ändern der Standardinteraktionsoptionen
-* [Baker] Absturz mit Assimp-Bibliothek
-* [Baker] Leistungsrückgang mit A.O.-Map
-* [Iray] Die Verzerrung des Objektivs wird nicht auf den Alphakanal angewendet
-* [Treiber] Aktualisierung der Mindestanforderungen für Treiber
-* [3Dview] Normale werden auf UDIM-Meshs ohne Normale-Informationen nicht korrekt generiert
-* [Intel] Absturz mit Substance Painter 2018.1.0
-* [Intel]&#x200B;[Viewport] Problem mit der Auffüllung (schwarze Artefakte)
+* &Klammer;Tablet&Klammer; Problem beim Ändern der Standardinteraktionsoptionen
+* &lbrack;Baker&rbrack; Absturz mit Assimp-Bibliothek
+* &lbrack;Baker&rbrack; Leistungsrückgang mit A.O.-Karte
+* &lbrack;Iray&rbrack; Die Verzerrung der Linse wird nicht auf den Alphakanal angewendet
+* &lbrack;Treiber&rbrack; Aktualisierung der Mindestanforderungen für Treiber
+* &lbrack;3Dview&rbrack; Normale werden auf UDIM-Meshs ohne Normale nicht korrekt generiert
+* &lbrack;Intel&rbrack; Absturz mit Substance Painter 2018.1.0
+* &lbrack;Intel&rbrack;&lbrack;Viewport&rbrack; Problem mit Innenabständen (schwarze Artefakte)
 
 **Bekannte Probleme:**
 
@@ -3201,74 +3239,74 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 * Neuer allgemeiner Stil (Symbole, Farbe, Verhalten)
 * Neues Standardlayout
-* [Tablet] Benutzererfahrung beim Malen verbessert
-* [Hauptmenü] Sortieren Sie native Elemente zuerst in Ansichten und Symbolleisten
-* [Hauptmenü] Aktionen &quot;schnelle Maske verschieben&quot; im Abschnitt &quot;Viewport&quot;
-* [Hauptmenü] Verschieben von Rechtsklickaktionen in den Abschnitt &quot;Viewport&quot;
-* [Hauptmenü] Menü &quot;Ansicht&quot; in &quot;Fenster&quot; umbenennen
-* [Schnellmenü] Neue Werkzeugeigenschaften durch Rechtsklick im Viewport
-* [Dock-Widget] Neue Dock-Symbolleiste zum schnellen Reduzieren/Zurückrufen
-* [Anzeigeeinstellungen] Fenster &quot;Kamera- und Anzeigeeinstellungen&quot; wurde zusammengeführt
-* [Ebenenstapel] Kontextmenü (rechte Maustaste)
-* [Ebenenstapel] Ziehen und Ablegen, um einen Effekt innerhalb derselben Ebene zu verschieben
-* [Symbolleiste] Neuorganisation der Symbolleiste und neue kontextbezogene Symbolleiste
-* [Werkzeugleiste] Klonwerkzeug in zwei separate Werkzeuge teilen
-* [Werkzeugeigenschaften] Hellerer Graustufenwert im Hintergrund in der Vorschau
-* [Eigenschaften von Tools] Organisation in Registerkarten (Füllung und Werkzeuge)
-* [Tool] Das Malergebnis entspricht der Schablone
-* [Viewport] Neuer Cursor für Füllebene
-* [Viewport] Einfacheres Navigieren und Malen (höhere Rahmen-Rate)
-* [Viewport] Auswahlkombination &quot;Material/Kanal/Karte&quot; im Viewport
-* [Viewport] Flackern beim Drehen reduzieren (Schatten aktiviert)
-* [Regal] Beim Öffnen von Painter werden Materials standardmäßig angezeigt
-* [Regal] Ladezeitverbesserung von Substance-Texturen und -Materialien (2- bis 6-mal schneller)
-* [Regal] Neuordnen von Materialien-Ordnern zum Anpassen an die Substance Source
-* [Regal] Ziehen Sie Materialien per Drag &amp; Drop direkt auf den Mesh im Viewport
-* [Regal] Neue 3D-Rauschen (Perlin, Perlin Fractal, Simplex und Worley)
-* [Regal] Neuer 3D Linear gradient-Maskengenerator mit Mesh-Position
-* [Regal] Die Basis-Rauschen wurden aktualisiert, um die quadratische Ausbreitung zu unterstützen.
-* [Regal] Neue Vorlage und Exportvorgabe für Lens Studio hinzugefügt (Anwendung Einrasten)
-* [Regal] Intelligenten Materials und Intelligente Masken wurden aktualisiert, um die neueste Version des Maskeneditors zu verwenden (Mikrodetails)
-* [Regal] Neues Beispielprojekt &quot;TilingMaterial&quot; zum Erstellen nahtloser Kachelung-Materialien
-* [Regal] Neue Pinselvorgaben (Kalligrafie, Nass, Schraffur usw.)
-* [Schieberegler] Neue Schieberegler und Stil und Verhalten von Graustufen-/Farbbalken
-* [Baker] Erlauben Sie die Verwendung des Begrenzungsrahmens für die volle Szene, um die Positionskarte zu berechnen.
-* [Shader] Entfernen des Height Force-Parameters aus den Standard-Shader-Parametern
-* [Engine] Substance Engine aktualisiert
-* [Engine] Keine oder weniger Diskontinuitäten zwischen UV-Blöcken
-* [Plug-ins] Importieren Sie schneller aus Substance Source heruntergeladene Materials
-* [Plug-ins] Alle Plug-ins aktualisieren, um dem neuen Gesamtstil zu entsprechen
-* [Voreinstellungen] Automatische Vorschau der Hintergrundfarbänderungen
-* [Clean] Geringeres Risiko für Projektbeschädigung
-* [Öffnen] Verbesserung der Projektzeit wird geöffnet
-* [Neues Projekt] Neues Projekt - Verbesserung der Aktualisierungszeit des Meshs
-* [Speichern] Speichern der Zeitverbesserung für das Projekt
-* [Protokoll] Im Protokoll angegebener Lizenztyp
-* [TextureSet] Schaltfläche &quot;Baking Texturen&quot; in &quot;Baking Mesh-Map&quot; umbenennen
+* &Klammer;Tablet&Klammer; Verbessertes Benutzererlebnis beim Malen
+* &lbrack;Hauptmenü&rbrack; Sortieren Sie native Elemente zuerst in Ansichten und Symbolleisten
+* &lbrack;Hauptmenü&rbrack; Aktionen &quot;schnelle Maske verschieben&quot; im Abschnitt &quot;Viewport&quot;
+* &lbrack;Hauptmenü&rbrack; Rechtsklickaktionen in den Abschnitt &quot;Viewport&quot; verschieben
+* &lbrack;Hauptmenü&rbrack; Menü &quot;Ansicht&quot; in &quot;Fenster&quot; umbenennen
+* &lbrack;Schnellmenü&rbrack; Neue Werkzeugeigenschaften durch Rechtsklick im Viewport
+* &lbrack;Andocken-Widget&rbrack; Neue Dock-Symbolleiste für schnelles Reduzieren/Zurückrufen
+* &lbrack;Anzeigeeinstellungen&rbrack; Fenster &quot;Kamera- und Anzeigeeinstellungen&quot; wurde zusammengeführt
+* &lbrack;Ebenenstapel&rbrack; Kontextmenü durch Rechtsklick
+* &lbrack;Ebenenstapel&rbrack; Verschieben Sie jeden Effekt innerhalb derselben Ebene per Drag &amp; Drop
+* &blbrack;Symbolleiste&rbrack; Neuanordnung der Symbolleiste und neue kontextbezogene Symbolleiste
+* &Klammer;Werkzeugleiste&Klammer; Klonwerkzeug in zwei separate Werkzeuge teilen
+* &lbrack;Werkzeugeigenschaften&rbrack; Hellerer Graustufenwert im Hintergrund in der Vorschau
+* &lbrack;Werkzeugeigenschaften&rbrack; Organisation auf Registerkarten (Ausfüllen und Werkzeuge)
+* &lbrack;Werkzeug&rbrack; Das Malergebnis entspricht der Schablone
+* &lbrack;Viewport&rbrack; Neuer Cursor für Füllebene
+* &lbrack;Viewport&rbrack; Einfachere Navigation und besseres Malen (höhere Rahmen-Rate)
+* &lbrack;Viewport&rbrack; Kombinationsfeld &quot;Material-/Kanal-/Kartenauswahl&quot; im Viewport
+* &lbrack;Viewport&rbrack; Flackern beim Drehen reduzieren (Schatten aktiviert)
+* &lbrack;Regal&rbrack; Beim Öffnen von Painter standardmäßig Materials anzeigen
+* &lbrack;Regal&rbrack; Ladezeitverbesserung von Substance-Texturen und Materialien (2- bis 6-mal schneller)
+* &lbrack;Regal&rbrack; Materialien-Ordner an die Struktur einer Substance Source anpassen
+* &lbrack;Regal&rbrack; Ziehen Sie Materialien per Drag &amp; Drop direkt auf den Mesh im Viewport
+* &lbrack;Regal&rbrack; Neue 3D-Rauschen (Perlin, Perlin Fraktal, Simplex und Worley)
+* &lbrack;Regal&rbrack; Neuer 3D Linear gradient-Maskengenerator mit Mesh-Position
+* &lbrack;Regal&rbrack; Die Basis-Rauschen wurden aktualisiert, um quadratische Ausbreitung zu unterstützen
+* &lbrack;Regal&rbrack; Neue Vorlage und Exportvoreinstellung für Lens Studio hinzugefügt (Einrasten Anwendung)
+* &lbrack;Regal&rbrack; Intelligenten Materials und Intelligente Masken wurden aktualisiert, um die neueste Version des Maskeneditors zu verwenden (Mikrodetails)
+* &lbrack;Regal&rbrack; Neues Beispielprojekt &quot;TilingMaterial&quot; zum Erstellen nahtloser Kachelung-Material
+* &lbrack;Regal&rbrack; Neue Pinselvorgaben (Kalligrafie, Nass, Schraffur usw.)
+* &blase;Regler&blase; Neue Schieberegler und Stil und Verhalten von Graustufen-/Farbbalken
+* &lbrack;Baker&rbrack; Erlauben Sie die Verwendung des Begrenzungsrahmens für die volle Szene, um die Positionskarte zu berechnen.
+* &lbrack;Shader&rbrack; Height Force-Parameter aus den Standard-Shader-Parametern entfernen
+* &lbrack;Engine&rbrack; Substance Engine aktualisiert
+* &lbrack;Engine&rbrack; Keine oder weniger Diskontinuitäten zwischen UV-Abschnitten
+* &lbrack;Plugins&rbrack; Schnelleres Importieren von aus Substance Source heruntergeladenen Materials
+* &lbrack;Plugins&rbrack; Alle Plug-ins entsprechend dem neuen Stil aktualisieren
+* &lbrack;Voreinstellungen&rbrack; Automatische Vorschau der Hintergrundfarbänderungen
+* &lbrack;Clean&rbrack; Geringeres Risiko für Projektbeschädigung
+* &lbrack;Open&rbrack; Zeitverbesserung für das Öffnen des Projekts
+* &lbrack;Neues Projekt&rbrack; Neues Projekt - Verbesserung der Aktualisierungszeit des Meshs
+* &lbrack;Speichern&rbrack; Zeitersparnis bei Projekten
+* &lbrack;Log&rbrack; Im Protokoll gemeldeter Lizenztyp
+* &lbrack;TextureSet&rbrack; Die Schaltfläche &quot;Baking-Texturen&quot; in &quot;Baking-Mesh-Map&quot; umbenennen
 * Benennen Sie &quot;Zusätzliche Maps&quot; in &quot;Mesh-Map&quot; um
 
 **Fest:**
 
-* [Viewport] Fehlerhafte Bewegungen mit Meshs, die viele Unterobjekte enthalten
-* [Werkzeugeigenschaften] Kanal deaktiviert, wenn ein Material per Drag &amp; Drop in den Bildschlitz gezogen wird
-* [Werkzeugeigenschaften] Pinselvorschau wird mit Verwisch- und Kopierwerkzeugen beschädigt
-* [Textursatz] Die Reihenfolge der Kanäle ist falsch, wenn Vorlagen verwendet werden
-* [Regal] Fehlendes Symbol für Graustufenkonvertierung-Generator
-* [Regal] Alpha-Zahl für Signaturkreise ist fehlerhaft (fehlende Schriftart)
+* &lbrack;Viewport&rbrack; Fehlerhafte Bewegungen bei Meshs, die viele Unterobjekte enthalten
+* &lbrack;Werkzeugeigenschaften&rbrack; Kanal deaktiviert, wenn ein Material per Drag &amp; Drop in den Bildschlitz gezogen wird
+* &lbrack;Werkzeugeigenschaften&rbrack; Pinselvorschau ist bei Verwisch- und Kopierwerkzeugen defekt
+* &lbrack;Textursatz&rbrack; Die Reihenfolge der Kanäle ist falsch, wenn Vorlagen verwendet werden
+* &lbrack;Regal&rbrack; Fehlendes Symbol für den Graustufenkonvertierungen-Generator
+* &lbrack;Regal&rbrack; Alpha-Zeichen-Kreisnummer ist defekt (fehlende Schriftart)
 * Falsche Erkennung integrierter GPUs beim Start
-* [Absturz] Ziehen und Ablegen einer importierten Ressource mit dem Namen &quot;#&quot;
-* [Engine] Vram-Erkennungsproblem auf integrierter GPU
-* [Engine] Mehrere Absturz im Substance Engine Linker behoben
-* [Engine] Quadratische Artefakte bei der Änderung der Auflösung
-* [Post-Effekte] Die Größe der Benutzeroberfläche ist langsam, wenn Post-Effekte aktiviert sind
-* [Baker] Szene wird für Strahlenentfernungswerte nicht korrekt eingehalten
-* [Baker] AO vom Mesh-Verdeckungsabstand wird unabhängig vom Eingabewert auf 1 geklemmt
-* [Baker] Bei der Namensübereinstimmung werden einige Mesh mit bestimmten Namen ignoriert.
-* [Baker] Die Farbe aus den Einstellungen &quot;Mesh-Polygruppe&quot; und &quot;Teilgitter-ID&quot; gibt immer ein schwarzes Bild zurück.
-* [Baker] ID-Baking schlägt mit binären FBX-Meshs von Blender fehl
-* [Shader] Rauschen in der 2D-Ansicht mit dota-2 und non-pbr-spec-gloss
-* [Linux] Beim Baking wird nur ein CPU-Thread verwendet.
-* [MacOS] Absturz mit dem Pinselcursor, der sich über den Viewport bewegt
+* &lbrack;Absturz&rbrack; Ziehen und Ablegen einer importierten Ressource mit dem Namen &quot;#&quot;
+* &lbrack;Engine&rbrack; Problem mit der VRAM-Erkennung bei integrierter GPU
+* &lbrack;Engine&rbrack; Mehrere Absturz im Substance Engine Linker behoben
+* &lbrack;Engine&rbrack; Quadratische Artefakte bei der Änderung der Auflösung
+* &lbrack;Post-Effekte&rbrack; Die Größe der Benutzeroberfläche ist langsam, wenn Post-Effekte aktiviert sind
+* &lbrack;Baker&rbrack; Szene-Einheit wird bei Strahlenabstandswerten nicht korrekt eingehalten
+* &lbrack;Baker&rbrack; AO vom Mesh Verdeckungsabstand wird unabhängig vom Eingangswert auf 1 geklemmt
+* &lbrack;Baker&rbrack; Bei &quot;Nach Name suchen&quot; werden einige Mesh mit bestimmten Namen ignoriert
+* &lbrack;Baker&rbrack; Die Farbe aus den Einstellungen &quot;Mesh-Polygruppe&quot; und &quot;Teilgitter-ID&quot; gibt immer ein schwarzes Bild zurück.
+* &lbrack;Baker&rbrack; ID-Baking schlägt mit binären FBX Meshs aus Blender fehl
+* &lbrack;Shader&rbrack; Rauschen in der 2D-Ansicht mit dota-2 und non-pbr-spec-gloss
+* &lbrack;Linux&rbrack; Beim Baking wird nur ein CPU-Thread verwendet
+* &lbrack;MacOS&rbrack; Absturz mit dem Pinselcursor, der sich über den Viewport bewegt
 
 **Bekannte Probleme:**
 
@@ -3283,28 +3321,28 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Export] Erhalten Sie den Status eines Exports mit Schrittfortschritt
-* [Exportieren] Abbrechen eines Exports zulassen
-* [Exportieren] Exportieren von Texturen in Sketchfab ohne Qualitätsverlust beim Normalen-Map
-* [Export] Export im glTF-Binärformat (glb)
-* [Export] Zulassen der Spaltengrößenänderung auf der Registerkarte &quot;Konfiguration&quot; des Exportfensters
-* [Shader] Fügen Sie ein Änderungsprotokoll für den Shader-API hinzu.
-* [Scripting] Vor- und Nachher-Rückruffunktionen beim Exportieren von Texturen hinzufügen
-* [Iray] Upgrade auf SDK 2017.1 (Unterstützung für Volta-GPUs)
+* &lbrack;Export&rbrack; Abrufen des Status eines Exports mit Schrittfortschritt
+* &lbrack;Export&rbrack; Abbrechen eines Exports zulassen
+* &lbrack;Export&rbrack; Exportieren von Texturen nach Sketchfab ohne Qualitätsverlust beim Normalen-Map
+* &lbrack;Export&rbrack; Exportieren im glTF-Binärformat (glb)
+* &lbrack;Export&rbrack; Größenänderung der Spalten auf der Registerkarte &quot;Konfiguration&quot; des Exportfensters zulassen
+* &lbrack;Shader&rbrack; Hinzufügen eines Änderungsprotokolls für den Shader-API
+* &lbrack;Skripterstellung&rbrack; Vorher- und Nachher-Rückruffunktionen beim Exportieren von Texturen hinzufügen
+* &lbrack;Iray&rbrack; Upgrade auf SDK 2017.1 (Unterstützung für Volta-GPUs)
 
 **Fest:**
 
 * Absturz beim Beenden der Anwendung, bevor das Hauptfenster angezeigt wird
-* [MAC] Absturz beim Laden von Graustufenkarten mit IRAY
-* [MAC] VRAM Erkennung ist mit dem neuen Betriebssystem High Sierra nicht korrekt.
-* [Plug-In] Das Herunterladen von Assets aus Substance Source funktioniert nicht mehr
-* [Scripting] Falsche Erkennung der Mindestversion des Plug-ins
-* [Exportieren] Exportvorgabe kann nach dem Exportieren von Texturen nicht gespeichert werden
-* [Instanz] Problem mit Generatoren, die in einem TextureSet ohne zusätzliche Maps instanziieren werden
-* [Viewport] Dithering funktioniert nicht mit einer Auflösung über 4k
-* [Viewport] 2D-Ansicht Material Display ist mit Rauschen überzogen
-* [Regal] Verbessern der Ladezeit für Regal-Vorgaben
-* [Engine] Falsche Füllmethode beim Malen unter Farbauswahl
+* &lbrack;MAC&rbrack; Absturz beim Laden von Graustufenkarten mit IRAY
+* &lbrack;MAC&rbrack; VRAM Erkennung ist mit dem neuen Betriebssystem High Sierra nicht korrekt
+* &lbrack;Plugin&rbrack; Das Herunterladen von Assets aus Substance Source funktioniert nicht mehr
+* &lbrack;Skripterstellung&rbrack; Falsche Erkennung der Mindestversion des Plug-ins
+* &lbrack;Export&rbrack; Nach dem Exportieren von Texturen kann die Exportvorgabe nicht gespeichert werden
+* &lbrack;Instancing&rbrack; Problem bei Generatoren, die in einem TextureSet ohne zusätzliche Karten instanziieren wurden
+* &lbrack;Viewport&rbrack; Dithering funktioniert nicht mit einer Auflösung über 4k
+* &lbrack;Viewport&rbrack; 2D-Ansicht Material-Display ist mit Rauschen überzogen
+* &lbrack;Regal&rbrack; Verbessern der Ladezeit für Regal-Vorgaben
+* &lbrack;Engine&rbrack; Falsche Füllmethode beim Malen unter Farbauswahl
 
 ### 3.4.1 (2017.4.1)
 
@@ -3312,28 +3350,28 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Scripting] Exportieren von Mesh über die Scripting-API
-* [Importieren] Import nicht unterstützter Meshdateien deaktivieren (nur obj, fbx, date, play zulassen)
-* [Log] Präzisere Angabe des TDR-Problems in der Protokolldatei
+* &lbrack;Skripterstellung&rbrack; Exportieren von Mesh über die Scripting-API
+* &lbrack;Import&rbrack; Import nicht unterstützter Meshdateien deaktivieren (nur obj, fbx, date, play zulassen)
+* &lbrack;Log&rbrack; Präzisere Angabe des TDR-Problems in der Protokolldatei
 
 **Fest:**
 
 * Absturz, wenn die Anwendung geschlossen wird, bevor das Crawlen der Ressourcen abgeschlossen ist
 * Absturz beim Öffnen von Projekten mit dem Verwischen-/Klon-Werkzeug
 * Absturz bei der Verwendung von &quot;redo&quot; nach einem Rückgängigmachen einer Shader-Änderung in den Anzeigeeinstellungen
-* [Engine] Die Texturierung unterscheidet sich zwischen Painter 2017.2 und 2017.4
-* [Viewport] Beim Auswählen auf einem ID-Map aus einer Instanz wird die falsche Farbe aufgenommen.
-* [Exportieren] Absturz beim Exportieren einer ungültigen Normal- oder Verdeckung-Textur
-* [Exportieren] Beim Öffnen von PSD-Dateien in Photoshop CS6 sind die Gruppen gesperrt
-* [Plugin] Photoshop Plugin ignoriert die Kanalauswahl und exportiert immer alles
-* [Ebenen] Ankerpunkte brechen beim Kopieren/Einfügen über Textursatz hinweg ab
-* [Ebenen] Einige Ankerreferenzen können nicht wiederhergestellt werden, wenn sie beschädigt sind
-* [Shader] Der Parameter für die sekundäre Rauheit mit pbr-Beschichtung ist defekt.
-* [Steam] Popup zur Versionsprüfung sollte beim Start nicht sichtbar sein
+* &lbrack;Engine&rbrack; Die Texturierung unterscheidet sich zwischen Painter 2017.2 und 2017.4
+* &lbrack;Viewport&rbrack; Wenn Sie eine ID-Map aus einer Instanz auswählen, wird die falsche Farbe aufgenommen.
+* &lbrack;Export&rbrack; Absturz beim Exportieren einer ungültigen Normal- oder Verdeckung-Textur
+* &lbrack;Export&rbrack; Beim Öffnen von PSD-Dateien in Photoshop CS6 sind die Gruppen gesperrt
+* &lbrack;Plugin&rbrack; Photoshop-Plugin ignoriert die Kanalauswahl und exportiert immer alles
+* &lbrack;Layers&rbrack; Ankerpunkte werden beim Kopieren/Einfügen über Textursatz hinweg umgebrochen
+* &lbrack;Layers&rbrack; Einige Ankerreferenzen können nicht wiederhergestellt werden, wenn sie beschädigt sind
+* &lbrack;Shader&rbrack; pbr-beschichteter Parameter für sekundäre Rauheit ist defekt
+* &lbrack;Steam&rbrack; Das Popup zur Versionsprüfung sollte beim Start nicht sichtbar sein
 
 **Bekannte Probleme:**
 
-* [AMD] Absturz/Einfrieren beim Malen auf einem Mesh. Kann mit einem GPU-Treiber-Update behoben werden.
+* &lbrack;AMD&rbrack; Absturz/Einfrieren beim Malen auf einem Mesh. Kann mit einem GPU-Treiber-Update behoben werden.
 
 ### 3.4.0 (2017.4.0)
 
@@ -3341,32 +3379,32 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Instanz] Ermöglicht den instanziieren von Parametern über Ebenen hinweg
-* [Instanz] Erlaubt das Wechseln zwischen einer Quellebene und einer Instanz.
-* [Instanz] Hinzufügen einer Aktion &quot;instanziieren über Textursatz hinweg&quot;
-* [Instanz] Geben Sie im Ebenenstapel wieder eintretende Instanzen (Zyklen) an.
-* [Instanz] Instanzen löschen, wenn eine Quelle entfernt wird
-* [Instanz] Verweise auf Anker von außerhalb eines instanzierten Ordners nicht zulassen
-* [UI] Verschieben Sie den Stapel &quot;Rückgängig&quot; in ein eigenes Fenster mit dem Namen &quot;Verlauf&quot;
-* [Plug-In] DCC-Live-Link-Plug-In integrieren
-* [Engine] Verbessern der Malleistung mit Sparse-Malerei
-* [Exportieren] Optionen für Entwürfe und Re-Exporte zum Sketchfab-Exporter hinzufügen
-* [Regal] Hinzufügen einer &quot;Spiegeln&quot;-Steuerung für Schriftsubstanzen
-* [Regal] 20 neue Prozeduren hinzufügen Materials
-* [Regal] 40 neue Grunges Maps hinzufügen (Bitmap-basiert und prozedural)
-* [Viewport] Aktivieren von Kollisionen in der Pinselvorschau auf anderen sichtbaren Textursätzen
+* &lbrack;Instancing&rbrack; Parameter über Ebenen hinweg instanziieren
+* &lbrack;Instancing&rbrack; Wechsel zwischen Quellebene und Instanz zulassen
+* &lbrack;Instancing&rbrack; Aktion &quot;instanziieren zwischen Textursätzen&quot; hinzufügen
+* &lbrack;Instancing&rbrack; Geben Sie im Ebenenstapel wieder eintretende Instanzen (Zyklen) an.
+* &lbrack;Instancing&rbrack; Instanzen löschen, wenn eine Quelle entfernt wird
+* &lbrack;Instancing&rbrack; Ankerverweise von außerhalb eines instanzierten Ordners nicht zulassen
+* &lbrack;UI&rbrack; Den Stapel &quot;Rückgängig&quot; in ein eigenes Fenster mit dem Namen &quot;Verlauf&quot; verschieben
+* &lbrack;Plugin&rbrack; DCC-Live-Link-Plug-in integrieren
+* &lbrack;Engine&rbrack; Verbessern der Malleistung mit Sparse-Malerei
+* &lbrack;Export&rbrack; Optionen für Entwürfe und Re-Exporte für Sketchfab-Exporter hinzufügen
+* &lbrack;Regal&rbrack; Hinzufügen einer &quot;Spiegeln&quot;-Steuerung für Schriftsubstanzen
+* &lbrack;Regal&rbrack; 20 neue Prozeduren hinzufügen - Materials
+* &lbrack;Regal&rbrack; 40 neue Grunges Maps hinzufügen (Bitmap-basiert und prozedural)
+* &lbrack;Viewport&rbrack; Kollisionen in der Pinselvorschau auf anderen sichtbaren Textursätzen aktivieren
 * Mindestanforderungen für AMD GPU-Treiber aktualisieren
 
 **Fest:**
 
 * Absturz Beim Berechnen von Substance mit zu großen Auflösungen
 * Absturz beim Malen mit Partikeln
-* [Viewport] Falsche Specular-Reflexion in der 2D-Ansicht mit bestimmten Meshs
-* [UI] Einige unerwünschte Aktionen werden im Protokollfenster angezeigt
+* &lbrack;Viewport&rbrack; Falsche Specular-Spiegelung in der 2D-Ansicht mit bestimmten Meshs
+* &lbrack;UI&rbrack; Im Verlaufsfenster werden einige unerwünschte Aktionen angezeigt
 
 **Bekannte Probleme:**
 
-* [Ebenen] Einige Ankerreferenzen können nicht wiederhergestellt werden, wenn sie beschädigt sind
+* &lbrack;Layers&rbrack; Einige Ankerreferenzen können nicht wiederhergestellt werden, wenn sie beschädigt sind
 * Absturz bei der Verwendung von &quot;redo&quot; nach einem Rückgängigmachen einer Shader-Änderung in den Anzeigeeinstellungen
 
 ### 3.3.3 (2017.3.3)
@@ -3375,8 +3413,8 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [Steam] Popup zur Versionsprüfung sollte beim Start nicht sichtbar sein
-* [Exportieren] Beim Öffnen von PSD-Dateien in Photoshop CS6 sind die Gruppen gesperrt
+* &lbrack;Steam&rbrack; Das Popup zur Versionsprüfung sollte beim Start nicht sichtbar sein
+* &lbrack;Export&rbrack; Beim Öffnen von PSD-Dateien in Photoshop CS6 sind die Gruppen gesperrt
 
 ### 3.3.2 (2017.3.2)
 
@@ -3384,23 +3422,23 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [UI] Dialogfeld &quot;Neue Version verbessern&quot; und Änderungsprotokoll hinzufügen
-* [UI] Geben Sie an, ob die Wartung im Dialogfeld &quot;Neue Version&quot; abgelaufen ist
-* [Lizenz] Aktualisieren Sie das Lizenzsystem, um Wartungsdaten zu verarbeiten.
-* [Exportieren] Adobe Standard Material in Adobe Dimension umbenennen
+* &lbrack;UI&rbrack; Dialogfeld &quot;Neue Version verbessern&quot; und Änderungsprotokoll hinzufügen
+* &lbrack;UI&rbrack; Anzeigen, ob die Wartung im Dialogfeld &quot;Neue Version&quot; abgelaufen ist
+* &lbrack;Lizenz&rbrack; Lizenzsystem aktualisieren, um Wartungsdaten zu verarbeiten
+* &lbrack;Export&rbrack; Adobe Standard Material in Adobe Dimension umbenennen
 
 **Fest:**
 
-* [Mac] Das Malen führt zu schwarzen Quadraten und Beschädigungen der Textur
-* [Engine] Der Cache kann manchmal im Viewport verschwinden
-* [Engine] Blockige Artefakte werden angezeigt, wenn der Speicherkomprimierungsauslöser aktiviert wird
-* [Baking] Seltsame Fehlermeldungen beim Baking bestimmter Mesh
-* [Exportieren] PSD werden falsch geschrieben und von Photoshop nicht richtig erkannt
-* [Ebenen] Ebenen sollten nicht projektübergreifend kopiert/eingefügt werden können.
-* [Substance] UserData-Farbraum für normale Eingabe wird in einigen Fällen gespiegelt
-* [Regal] Mikronormal in Generatoren gibt invertierte Krümmung aus
-* [Regal] HSL wirken sich auch auf den Alphakanal aus
-* [Linux] Installation auf Centos schlägt aufgrund fehlender Abhängigkeiten fehl.
+* &lbrack;Mac&rbrack; Malen führt zu schwarzen Quadraten und beschädigten Texturen
+* &lbrack;Engine&rbrack; Der Zwischenspeicher kann manchmal im Viewport verschwinden
+* &lbrack;Engine&rbrack; Blockige Artefakte werden angezeigt, wenn der Speicherkomprimierungsauslöser aktiviert wird
+* &blbrack;Baking&rbrack; Seltsame Fehlermeldungen beim Baking bestimmter Mesh
+* &lbrack;Export&rbrack; PSD werden falsch geschrieben und von Photoshop nicht richtig erkannt
+* &lbrack;Layers&rbrack; Ebenen sollten nicht projektübergreifend kopiert/eingefügt werden können.
+* &lbrack;Substance&rbrack; UserData-Farbraum für normale Eingabe wird in einigen Fällen gespiegelt
+* &lbrack;Regal&rbrack; Mikronormal in Generatoren gibt invertierte Krümmung aus
+* &lbrack;Regal&rbrack; HSL beeinflussen auch den Alphakanal
+* &lbrack;Linux&rbrack; Installation auf Centos schlägt aufgrund fehlender Abhängigkeiten fehl
 * Das Installationsprogramm entfernt in bestimmten Fällen nicht alle Ressourcen aus der vorherigen Installation
 
 ### 3.3.1 (2017.3.1)
@@ -3409,8 +3447,8 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Exportieren] Mesh aus einem Projekt exportieren
-* [Regal] Entfernen Sie &quot;Sub-Regal&quot; aus den Registerkartentiteln.
+* &lbrack;Export&rbrack; Exportieren des Meshs aus einem Projekt zulassen
+* &lbrack;Regal&rbrack; &quot;Sub-Regal&quot; aus den Registerkartentiteln entfernen
 * Einstellungen für die Nachbearbeitung in Vorlagen speichern
 * Die TDR-Meldung verständlicher machen
 * Fenster &quot;Einstellungen&quot; verbessern, um Fehler zu melden
@@ -3419,19 +3457,19 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 * Absturz beim Löschen mehrerer untergeordneter Regal
 * Absturz beim Wechsel von einer Ebene zu einer anderen während einer Engine-Berechnung
-* [Mac] Absturz auf der Intel-GPU während der Engine-Berechnungen
-* [Mac]&#x200B;[Viewport] Fehlerhafte Leistung, wenn Dithering aktiviert ist
-* [Mac] MacOS 10.13 wird in der Protokolldatei als &quot;Unbekannte Version&quot; erkannt
-* [Baker] Das Baking führ mit einem Käfig funktioniert nicht mehr
-* [Ebenen] Strg + C Tastaturbefehl (Aktion kopieren) funktioniert nicht mehr
-* [Ebenen] Beim Einfügen von Ebenen wird die Benutzeroberfläche mit Ankerreferenzen nicht aktualisiert
-* [Anker] Duplizieren oder Kopieren/Einfügen der Ebene mit Referenzen unterbricht Verknüpfungen
-* [Exportieren] 8K-Export kann Absturz oder Deadlock-Anwendung in einigen Fällen
-* [Export] Mehrere Probleme im generierten glTF-Dateiformat
-* [Importieren] Der erneute Import eines Meshs mit demselben Dateinamen funktioniert nicht mehr
-* [Plugin] Fenster zum automatischen Speichern wird immer über allem angezeigt
-* [UI] Endlose Schleife, wenn Sie im TDR-Dialog &quot;Escape&quot; drücken
-* [UI] &quot;UI zurücksetzen&quot; zeigt eine zweite Titelleiste im Fenster &quot;Regal&quot; an
+* &lbrack;Mac&rbrack; Absturz auf der Intel-GPU während der Engine-Berechnungen
+* &lbrack;Mac&rbrack;&lbrack;Viewport&rbrack; Fehlerhafte Leistung, wenn Dithering aktiviert ist
+* &lbrack;Mac&rbrack; MacOS 10.13 wird in der Protokolldatei als &quot;Unbekannte Version&quot; erkannt
+* &lbrack;Baker&rbrack; Das Baking führ mit einem Käfig funktioniert nicht mehr
+* &lbrack;Layers&rbrack; Strg + C Tastaturbefehl (Aktion kopieren) funktioniert nicht mehr
+* &lbrack;Layers&rbrack; Beim Einfügen von Ebenen wird die Benutzeroberfläche mit Ankerreferenzen nicht aktualisiert
+* &lbrack;Anker&rbrack; Duplizieren oder Kopieren/Einfügen der Ebene mit Referenzen hebt Verknüpfungen auf
+* &lbrack;Export&rbrack; 8K-Export kann Absturz oder Deadlock-Anwendung in einigen Fällen
+* &lbrack;Export&rbrack; Mehrere Probleme im generierten glTF-Dateiformat
+* &lbrack;Import&rbrack; Das erneute Importieren eines Meshs mit demselben Dateinamen funktioniert nicht mehr
+* &lbrack;Plugin&rbrack; Fenster zum automatischen Speichern wird immer über allem angezeigt
+* &lbrack;UI&rbrack; Endlose Schleife, wenn Sie im TDR-Dialog &quot;Escape&quot; drücken
+* &lbrack;UI&rbrack; UI zum Zurücksetzen zeigt eine zweite Titelleiste im Fenster &quot;Regal&quot; an
 
 ### 3.3.0 (2017.3.0)
 
@@ -3439,48 +3477,48 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Exportieren] Mesh und Texturen für Adobe Project Felix exportieren
-* [Exportieren] Export in das glTF-Dateiformat zulassen
-* [Engine] Optimieren der Größe von Texturen in VRAM mithilfe der Blockkomprimierung
-* [Viewport] Mesh oder Projekt in den Viewport ziehen und dort ablegen
-* [UI] Verbessern der Warnmeldung bei TDR
-* [UI] Protokoll sollte nur auf Anfrage angezeigt werden
-* [UI] Inhalt des Protokollfensters löschen
-* [UI] Anzeigen von Warnungen und Fehlern in der Statuszeile
-* [UI] Registerkarten oben anzeigen wie in Webbrowsern
-* [UI] Verbessern des Kontexts und der Meldungen &quot;nicht bemalbar&quot;
-* [UI] Aktion &quot;Als Kopie speichern&quot; im Dateimenü hinzufügen
-* [Ebene] Legen Sie die Standardeinstellung für die Kachelung standardmäßig auf 1 fest.
-* [Regal] Verbesserter Verlaufsfilter zur Unterstützung von 10 dynamischen Farben
-* [Regal] Fügen Sie ein Leerzeichen in der Standardabfrage des Mini-Regals hinzu
-* [Regal] Hinzufügen einer Aktion &quot;Im Explorer öffnen&quot; für lokale Ressourcen im Regal
-* [Regal] Vorlage und Shader für Adobe Material Standard hinzufügen (Project Felix)
-* [Regal] Erhöhen der maximalen Kachelung in Material-Ebenenschattierungen auf 128
-* [Regal] Hinzugefügte Sobel-Krümmung für Mikrodetails von Maskengeneratoren
-* [Plug-in] Plug-in zum automatischen Speichern mit anpassbarem Zeitintervall hinzufügen
-* [Skripterstellung] Hinzufügen einer Funktion zum Speichern als Kopie
+* &lbrack;Export&rbrack; Exportieren von Mesh und Texturen für Adobe Project Felix zulassen
+* &lbrack;Export&rbrack; Export in das glTF-Dateiformat zulassen
+* &lbrack;Engine&rbrack; Optimieren der Größe von Texturen in VRAM mithilfe der Blockkomprimierung
+* &lbrack;Viewport&rbrack; Ziehen und Ablegen eines Meshs oder Projekts im Viewport
+* &lbrack;UI&rbrack; Verbesserung der Warnmeldungen über TDR
+* &lbrack;UI&rbrack; Das Protokoll sollte nur auf Anfrage angezeigt werden.
+* &lbrack;UI&rbrack; Inhalt des Protokollfensters löschen
+* &lbrack;UI&rbrack; Warnungen und Fehler in der Statuszeile anzeigen
+* &lbrack;UI&rbrack; Registerkarten oben wie in Webbrowsern anzeigen
+* &lbrack;UI&rbrack; Verbesserung des &quot;nicht bemalbaren&quot; Kontexts und der Botschaft
+* &lbrack;UI&rbrack; Aktion &quot;Als Kopie speichern&quot; im Dateimenü hinzufügen
+* &lbrack;Ebene&rbrack; Die Standardeinstellung für die Kachelung auf 1 festlegen
+* &lbrack;Regal&rbrack; Verbesserter Verlaufsfilter zur Unterstützung von 10 dynamischen Farben
+* &lbrack;Regal&rbrack; Fügen Sie ein Leerzeichen in der Standardabfrage des Mini-Regals hinzu
+* &lbrack;Regal&rbrack; Hinzufügen einer Aktion &quot;Im Explorer öffnen&quot; für lokale Ressourcen im Regal
+* &lbrack;Regal&rbrack; Vorlage und Shader für Adobe Material Standard hinzufügen (Project Felix)
+* &lbrack;Regal&rbrack; Erhöhen der maximalen Kachelung auf 128 in Material-Ebenenschattierungen
+* &lbrack;Regal&rbrack; Hinzugefügte Krümmung für Mikrodetails der Maskengenerator
+* &lbrack;Plugin&rbrack; Plug-in zum automatischen Speichern mit anpassbarem Zeitintervall hinzufügen
+* &lbrack;Skripterstellung&rbrack; Funktion &quot;Als Kopie speichern&quot; hinzufügen
 
 **Fest:**
 
-* [UI] Layout wird beim ersten Start beschädigt
-* [Exportieren] Beim Exportieren generierte PSD weisen Formatfehler auf
-* [Exportieren] EXR exportiert immer 8-Bit-Höhen-Map
-* [Exportieren] Absturz beim Exportieren beschädigter zusätzlicher Maps
-* [Importieren] Harte Kanten werden bei niedrigen Poly-Meshs in einigen Fällen nicht beibehalten
-* [Import] Verbesserte Fehlermeldungen beim Importieren von Meshs mit Problemen
-* [Baker] ID-Map-Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; aktiviert ist
-* [Viewport] Tangente-Space wird nicht mit Bakern synchronisiert
-* [Effekt] Das Zurückverschieben einer Ebene stellt die Referenz eines Ankers nicht wieder her.
-* [Effekt] Aktualisierungsproblem beim Erstellen einer Verknüpfung zwischen zwei Masken mit Ankern
-* [Effekt] Maskenanker über der Maske sollten nicht aufgeführt werden
-* [Effekt] Die Einstellung &quot;Alpha aus Ankern extrahieren&quot; funktioniert nicht
-* [Engine] Maske kehrt sich nach dem ersten Pinselstrich um
-* [Engine] Absturz beim Wechseln des Textursatzes in einem bestimmten Projekt
-* [Regal] Absturz beim Löschen einer Vorgabe, die sich in einem Projekt befindet
-* [Regal] Typo in erweitertem Tri-Planar-Filter
-* [Regal] MG Mask Builder AO Rauschen Scale funktioniert nicht richtig
-* [Regal] MG Mask Builder hat invertierte Parameter für die Krümmung
-* [Regal] Importierte Alphas erzeugen eine Material-Kugelvorschau anstelle einer flachen.
+* &lbrack;UI&rbrack; Layout wird beim ersten Start unterbrochen
+* &lbrack;Export&rbrack; Beim Export generierter PSD weist Formatfehler auf
+* &lbrack;Export&rbrack; EXR exportiert immer 8-Bit-Höhen-Map
+* &lbrack;Export&rbrack; Absturz beim Exportieren beschädigter zusätzlicher Maps
+* &lbrack;Import&rbrack; Harte Kanten werden bei niedrigen Poly-Meshs in einigen Fällen nicht beibehalten
+* &lbrack;Import&rbrack; Verbesserte Fehlermeldungen beim Importieren von Meshs mit Problemen
+* &lbrack;Baker&rbrack; ID-Map-Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; aktiviert ist
+* &lbrack;Viewport&rbrack; Tangente-Speicherplatz wird nicht mit Bakern synchronisiert
+* &blase;Effekt&blase; Das Zurückverschieben einer Ebene stellt die Referenz eines Ankers nicht wieder her
+* &blase;Effekt&blase; Problem beim Aktualisieren beim Erstellen einer Verknüpfung zwischen zwei Masken mit Ankern
+* &blase;Effekt&blase; Maskenanker über der Maske sollten nicht aufgeführt werden
+* &blase;Effekt&blase; &quot;Alpha aus Ankerpunkten extrahieren&quot; funktioniert nicht
+* &lbrack;Engine&rbrack; Maske kehrt sich nach dem ersten Pinselstrich um
+* &lbrack;Engine&rbrack; Absturz beim Wechseln des Textursatzes zu einem bestimmten Projekt
+* &lbrack;Regal&rbrack; Absturz beim Löschen einer Vorgabe, die sich in einem Projekt befindet
+* &lbrack;Regal&rbrack; Typo in erweitertem Tri-Planarem Filter
+* &lbrack;Regal&rbrack; MG Mask Builder AO Rauschen Scale funktioniert nicht richtig
+* &lbrack;Regal&rbrack; Der MG-Maskenbildner verfügt über Parameter für invertierte Krümmungen
+* &lbrack;Regal&rbrack; Importierte Alphas erzeugen eine Material-Kugelvorschau anstelle einer flachen.
 
 ### 3.2.0 (2017.2.0)
 
@@ -3489,22 +3527,22 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 **Hinzugefügt:**
 
 * Ankerpunkte - Ebenen- und Maskenreferenzsystem
-* [Ebenen] Möglichkeit, Füll- und Malen-Effekte umzubenennen
-* [Plug-In] Aktualisiertes Substance Source-Plug-In
-* [Scripting] Abfrage der Auflösung des Textursatzes zulassen
-* [Scripting] Ermöglicht das Abrufen des Status des Painting-Engine
-* [Leistung] Verbessertes Laden des Projekts und Optimieren des Pinselstempels
+* &lbrack;Layers&rbrack; Möglichkeit, Füll- und Malen-Effekte umzubenennen
+* &lbrack;Plugin&rbrack; Aktualisiertes Substance Source-Plug-in
+* &lbrack;Skripterstellung&rbrack; Zulassen, dass die Auflösung des Textursatzes abgefragt wird
+* &lbrack;Skripterstellung&rbrack; Abrufen des Status des Engine &quot;Malen&quot; zulassen
+* &lbrack;Performance&rbrack; Verbessertes Laden von Projekten und optimiertes Pinselstempeln
 
 **Fest:**
 
-* [Tool] Leistungsprobleme beim Anpassen von Material-Parametern
-* [Engine] Verschwindende Pinselstriche bei Änderung der Auflösung (4K>2K)
-* [3D-Ansicht] Tangente-Speicherplatz wird nicht mit Bakern synchronisiert
-* [Regal] Der Regal-Pfad in den Benutzerdokumenten wird nicht automatisch erstellt
-* [Regal] Kompatibilität von Vorgaben mit Vorgängerversionen nach einem Update
-* [Shader] Nicht-PBR-Shader funktioniert nicht mehr
-* [Baker] ID-Map-Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; aktiviert ist
-* [Beispiel] Die Namen der Meet Mat-Beispielprojekt-Textursatz sind falsch
+* &lbrack;Werkzeug&rbrack; Leistungsprobleme beim Anpassen von Material-Parametern
+* &lbrack;Engine&rbrack; Verschwindende Pinselstriche bei Änderung der Auflösung (4K>2K)
+* &lbrack;3D-Ansicht&rbrack; Tangente-Speicherplatz wird nicht mit Bakern synchronisiert
+* &lbrack;Regal&rbrack; Der Regal-Pfad in den Benutzerdokumenten wird nicht automatisch erstellt
+* &lbrack;Regal&rbrack; Vorgaben nach einem Update mit früheren Versionen kompatibel machen
+* &lbrack;Shader&rbrack; Shader ohne PBR funktioniert nicht mehr
+* &lbrack;Baker&rbrack; ID-Map-Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; aktiviert ist
+* &lbrack;Beispiel&rbrack; Die Namen der Meet Mat-Beispielprojekt-Textursatz sind falsch
 * Beim Speichern eines Projekts vor dem Erstellen einer Vorlage werden Schreibberechtigungsfehler zurückgegeben.
 
 ### 3.1.0 (2017.1.0)
@@ -3513,19 +3551,19 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Plug-in] Neues Substance Source-Plug-in (ermöglicht das Herunterladen von Assets im Regal)
-* [Regal] 4 Neue Schriftarten (Japanisch + vereinfachtes Chinesisch, Schreibmaschine, Segment)
-* [Regal] 230 Neue Alpha (Mischung aus Mustern, Pinseln und Fingerabdruckscans)
-* [Regal] 50 Neue Prozedurale (Stoffmuster mittelalterlicher und zeitgenössischer Bekleidung)
-* [Regal] 2 neue Umgebungs-Map (Mondarrain und Villa Nova Street)
-* [Regal] 9 Neue Filter (MatFx-Edge Wear &quot;Details&quot;, &quot;Beschränkt&quot;, HBAO usw.)
-* [Regal] Verbessertes standardmäßiges Panorama-Umgebungs-Map
-* [Regal] Neue Arnold 5-Exportvorgaben
-* [Scripting] Importieren der Ressource in das Regal zulassen
+* &lbrack;Plugin&rbrack; Neues Substance Source-Plug-in (ermöglicht das Herunterladen von Assets im Regal)
+* &lbrack;Regal&rbrack; 4 Neue Schriftarten (Japanisch + vereinfachtes Chinesisch, Schreibmaschine, Segment)
+* &lbrack;Regal&rbrack; 230 neue Alpha (Mischung aus Mustern, Pinseln und Fingerabdruckscans)
+* &lbrack;Regal&rbrack; 50 Neue Prozedurale (Stoffmuster mittelalterlicher und zeitgenössischer Kleidung)
+* &lbrack;Regal&rbrack; 2 neue Umgebungs-Map (Mondarrain und Villa Nova Street)
+* &lbrack;Regal&rbrack; 9 neue Filter (MatFx Detail Edge Wear, Beschränk, HBAO, etc.)
+* &lbrack;Regal&rbrack; Verbessertes Panorama-Umgebungs-Map
+* &lbrack;Regal&rbrack; Neue Arnold 5-Exportvorgaben
+* &lbrack;Skripterstellung&rbrack; Importieren von Ressourcen in das Regal zulassen
 
 **Bekannte Probleme:**
 
-* [Exportieren] Die Bearbeitung einer Exportvorgabe ist sehr langsam
+* &lbrack;Export&rbrack; Die Bearbeitung einer Exportvorgabe ist sehr langsam
 
 ## Version 2
 
@@ -3533,28 +3571,28 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 *(Freigegeben: 20. Oktober 2017)*
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
-* [Textursatz] Löschen deaktivierter Textursatz zulassen
-* [Regal] Mehrere Benutzer können im selben Regal-Ordner schreiben
-* [Scripting] Ordner &quot;Plug-ins&quot; neu laden können
-* [Scripting] Fügen Sie eine erforderliche minimale API-Version in den Plug-in-Metadaten hinzu, um die Kompatibilität zu gewährleisten
-* [Iray] Verbesserungen im Dialogfeld &quot;Bild exportieren&quot;
+* &lbrack;Textursatz&rbrack; Löschen deaktivierter Textursatz zulassen
+* &lbrack;Regal&rbrack; Schreiben mehrerer Benutzer in denselben Regal-Ordner zulassen
+* &lbrack;Skripterstellung&rbrack; Ordner &quot;Plug-ins&quot; neu laden können
+* &lbrack;Skripterstellung&rbrack; Fügen Sie eine erforderliche minimale API-Version in den Plug-in-Metadaten hinzu, um die Kompatibilität zu gewährleisten
+* &lbrack;Iray&rbrack; Verbesserungen im Dialogfeld &quot;Bild exportieren&quot;
 
-<b>Fest:</b>
+**Fest:**
 
-* [Engine] Problem mit verschwundenen Strichen beim Ändern der Auflösung (4K>2K)
-* [Baker] ID-Map-Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; aktiviert ist
-* [Baker] Fehlermeldungen sind nicht explizit genug.
-* [3D-Ansicht] Tangente-Speicherplatz wird nicht mit Bakern synchronisiert
-* [Werkzeug] Schwarze Artefakte bei Verwendung des Verwischen-Werkzeugs
-* [Shader] Nicht-PBR-Shader funktioniert nicht mehr
-* [Shader] &quot;pbr-coated&quot; ist gebrochen
-* [Shader] Die Rauheit von &quot;pbr-beschichtetem&quot; Shader hat keine Auswirkungen mehr
-* [Shader] Spec Gloss Shader stimmt nicht mit Iray und SD überein
-* [Regal] Absturz beim Laden zweier Dateien mit demselben Namen, aber unterschiedlichen Dateinamenerweiterungen
-* [Regal] Vorgabe kann in den Regale nicht mehr bearbeitet werden
-* [Regal] Für im Regal importierte Elemente kann keine benutzerdefinierte Vorschau festgelegt werden
+* &lbrack;Engine&rbrack; Problem mit verschwundenen Strichen beim Ändern der Auflösung (4K>2K)
+* &lbrack;Baker&rbrack; ID-Map-Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; aktiviert ist
+* &lbrack;Baker&rbrack; Fehlermeldungen sind nicht explizit genug
+* &lbrack;3D-Ansicht&rbrack; Tangente-Speicherplatz wird nicht mit Bakern synchronisiert
+* &lbrack;Werkzeug&rbrack; Schwarze Artefakte bei Verwendung des Wischfinger-Werkzeugs
+* &lbrack;Shader&rbrack; Shader ohne PBR funktioniert nicht mehr
+* &lbrack;Shader&rbrack; &quot;pbr-coated&quot; ist gebrochen
+* &lbrack;Shader&rbrack; Die Rauheit von &quot;pbr-beschichtetem&quot; Shader hat keine Auswirkungen mehr
+* &lbrack;Shader&rbrack; Spec Gloss Shader stimmt nicht mit Iray und SD überein
+* &lbrack;Regal&rbrack; Absturz beim Laden von zwei Dateien mit demselben Namen, aber unterschiedlichen Erweiterungen
+* &lbrack;Regal&rbrack; Die Vorgabe kann in den Regale nicht mehr bearbeitet werden
+* &lbrack;Regal&rbrack; Für im Regal importierte Elemente kann keine benutzerdefinierte Vorschau festgelegt werden
 * Aus dem Cache geladene Ressourcen verlieren ihre Nutzung
 * Beim Speichern eines Projekts vor dem Erstellen einer Vorlage werden Schreibberechtigungsfehler zurückgegeben.
 * Falsches Speichern des Projekts, wenn Dateiname zwei Punkte enthält
@@ -3566,23 +3604,23 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [TextureSet] Weisen Sie Mesh-Materialien kein Objekt zu.
+* &lbrack;TextureSet&rbrack; Mesh-Material nicht zu nichts zuweisen
 
 **Fest:**
 
 * Absturz beim Wechseln von TextureSet nach dem Ersetzen von durch Baking erzeugte Map
 * Absturz beim Rückgängigmachen und Wiederholen nach dem Ändern der Füllmethode der Ebene
 * Absturz oder Einfrieren bei Verwendung des Effekts &quot;Farbauswahl&quot; mit großem ID-Map
-* [Export] Umbenannte Textursatz werden im Exportfenster nicht alphabetisch sortiert.
-* [TextureSet] Beim Zurücksetzen auf den Standardnamen wird keine Eindeutigkeit überprüft.
-* [TextureSet] Umbenannter Textursatz wird nach dem erneuten Öffnen des Projekts deaktiviert
-* [Regal] Fehlender Standardvorlageninhalt
-* [Regal] Nicht quadratische Texturen werden als Quadrat angezeigt
-* [Shader] Sobald ein Textursatz deaktiviert wurde, wird der zugehörige Shader zerstört.
-* [Scripting] alg.Baking.setTextureSetBakingParameters() funktioniert nicht mehr
-* [Scripting] Tippfehler in Websocket-Tutorial
-* [Scripting] Verschiedene Probleme in AlgWidgets
-* [Log] Falsche Erkennung des verfügbaren virtuellen Arbeitsspeichers in einigen Fällen
+* &lbrack;Export&rbrack; Umbenannte Textursatz werden im Exportfenster nicht alphabetisch sortiert
+* &lbrack;TextureSet&rbrack; Beim Zurücksetzen auf den Standardnamen wird keine Eindeutigkeit überprüft.
+* &lbrack;TextureSet&rbrack; Umbenannter Textursatz wird nach dem erneuten Öffnen des Projekts deaktiviert
+* &lbrack;Regal&rbrack; Fehlender Standardvorlageninhalt
+* &lbrack;Regal&rbrack; Nicht quadratische Texturen werden als Quadrat angezeigt
+* &lbrack;Shader&rbrack; Sobald ein Textursatz deaktiviert wurde, wird der zugehörige Shader gelöscht.
+* &lbrack;Skripterstellung&rbrack; alg.Baking.setTextureSetBakingParameters() funktioniert nicht mehr
+* &lbrack;Skripterstellung&rbrack; Tippfehler im Websocket-Tutorial
+* &lbrack;Skripterstellung&rbrack; Verschiedene Probleme in AlgWidgets
+* &lbrack;Log&rbrack; Fehlerhafte Erkennung des verfügbaren virtuellen Speichers in einigen Fällen
 
 ### 2.6.0
 
@@ -3591,35 +3629,35 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 **Hinzugefügt:**
 
 * Neues Beispielprojekt &quot;Meet Mat&quot; hinzufügen
-* [Plug-In] Neues Plug-In &quot;Resources Updater&quot;
-* [TextureSet] Umbenennen und Hinzufügen einer Beschreibung zu Textursätzen zulassen
-* [TextureSet] Neuzuweisen von Materialien zulassen
-* [TextureSet] Hinzufügen einer Einstellungsschaltfläche im Fenster &quot;Textursatz-Liste&quot;
-* [TextureSet] &quot;Deaktivierte&quot; Textursatz am Ende der Liste anzeigen
-* [Substance] Verwenden Sie bei der aktuellen Textursatz-Auflösung zusätzliche Maps, um die Leistung zu verbessern
-* [Scripting] Aktualisieren einer Ressource, die in einem Projekt verwendet wird (Material, Generator usw.)
-* [Scripting] Hinzufügen einer Möglichkeit zum Hinzufügen/Entfernen eines Regals
-* [Scripting] Ermöglicht das Abfragen von Informationen aus einer Ressource in Projekten.
-* [Skripterstellung] Liste der verfügbaren Shelfs abrufen
-* [Scripting] Tutorial zur Verbesserung der AlgWidget-Miniaturansicht
-* [Exportieren] Deaktivieren/Aktivieren der Bittiefe je nach Dateiformatunterstützung
-* [Log] Plug-In-Namen zum Drucken in der Konsole hinzufügen
-* [Protokoll] Fehler bei ausgeblendeten Textursätzen entfernen
+* &lbrack;Plugin&rbrack; Neues Plug-in &quot;Resources Updater&quot;
+* &lbrack;TextureSet&rbrack; Umbenennen und Hinzufügen einer Beschreibung zu Textursätzen zulassen
+* &lbrack;TextureSet&rbrack; Neuzuweisen von Materialien zulassen
+* &lbrack;TextureSet&rbrack; Einstellungsschaltfläche im Textursatz-Listenfenster hinzufügen
+* &lbrack;TextureSet&rbrack; &quot;Deaktivierte&quot; Textursatz am Ende der Liste anzeigen
+* &lbrack;Substance&rbrack; Verwenden zusätzlicher Maps bei der aktuellen Textursatz-Auflösung, um die Leistung zu verbessern
+* &lbrack;Skripterstellung&rbrack; Aktualisieren einer in einem Projekt verwendeten Ressource (Material, Generator usw.) zulassen
+* &lbrack;Skripterstellung&rbrack; Hinzufügen einer Möglichkeit zum Hinzufügen/Entfernen eines Regals
+* &lbrack;Skripterstellung&rbrack; Abfragen von Informationen aus einer Ressource in Projekten zulassen
+* &lbrack;Skripterstellung&rbrack; Liste der verfügbaren Shelfs abrufen
+* &lbrack;Skripterstellung&rbrack; AlgWidget-Miniaturansicht verbessern
+* &lbrack;Export&rbrack; Deaktivieren/Aktivieren der Bittiefe je nach Dateiformatunterstützung
+* &lbrack;Log&rbrack; Plug-in-Namen zum Drucken in der Konsole hinzufügen
+* &lbrack;Log&rbrack; Fehler zu ausgeblendeten Textursätzen entfernen
 * &quot;Begrüßungsbildschirm&quot; mit neuen Symbolen und Text für Beispiele aktualisieren
 
 **Fest:**
 
 * Absturz beim Aktualisieren eines Meshs in bestimmten Projekten
-* [Viewport] Symmetrie Ebene Innenfarbe ist nicht mehr sichtbar
-* [Viewport] Einige Nachbearbeitungseffekte sind aktiviert, wenn die Solo-Ansicht verwendet wird
-* [Shaders] Überblendung mit &quot;\_premult&quot; funktioniert nicht richtig
-* [Shaders] Warnung vor Alpha-Test mit dem Standard-Shader
-* [Regal] Falsches Analysieren von Tags aus Substance
-* [Regal] MatFX Rost Verwitterung funktioniert nicht richtig
-* [Regal] HSL ist standardmäßig für falsche Kanäle aktiviert.
-* [Regal] Der Scharfzeichner ist standardmäßig für den Height-/Normalkanal aktiviert
-* [Exportieren] Verschiedene Exportvorgaben verwenden keine OpenGL-Normalen-Map
-* [Tool] Ungenauigkeitsprobleme mit dem Klonen-/Verwischen-Werkzeug erzeugen Artefakte
+* &lbrack;Viewport&rbrack; Innenfarbe der Symmetrie-Ebene ist nicht mehr sichtbar
+* &lbrack;Viewport&rbrack; Einige Nachbearbeitungseffekte sind aktiviert, wenn die Einzelansicht verwendet wird
+* &lbrack;Shaders&rbrack; &quot;over_premult&quot;-Füllmethode funktioniert nicht richtig
+* &lbrack;Shaders&rbrack; Warnung zum Alphatest mit dem Standard-Shader
+* &lbrack;Regal&rbrack; Falsches Analysieren von Tags aus Substance
+* &lbrack;Regal&rbrack; MatFX Rost Verwitterung funktioniert nicht richtig
+* &lbrack;Regal&rbrack; HSL Filter ist standardmäßig für falsche Kanäle aktiviert
+* &lbrack;Regal&rbrack; Der Scharfzeichner ist standardmäßig auf dem Height-/Normalkanal aktiviert
+* &lbrack;Export&rbrack; Vray-Exportvorgaben verwenden keine OpenGL-Normalen-Map
+* &lbrack;Werkzeug&rbrack; Ungenauigkeitsprobleme mit dem Klon-/Verwischen-Werkzeug erzeugen Artefakte
 
 ### 2.5.3
 
@@ -3627,11 +3665,11 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [Baker] Absturz beim Baking führ mit bestimmten Meshs
+* &lbrack;Baker&rbrack; Absturz beim Baking führ mit bestimmten Meshs
 
 **Bekannte Probleme:**
 
-* [Mac] Partikeln können in einigen Fällen zu Beschädigungen der Textur führen
+* &lbrack;Mac&rbrack; Partikeln können in einigen Fällen zu Beschädigungen der Textur führen
 
 ### 2.5.2
 
@@ -3639,27 +3677,27 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [Tool] Wacom-Tablets funktionieren unter Linux nicht
-* [Werkzeug] Schwarze Artefakte bei Verwendung des Verwischen-Werkzeugs
-* [Baker] Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; mit einem Käfig verwendet wird
-* [Baker] Ambient occlusion beim Baking nur mit Normalen-Map unterbrochen
-* [Regal] Generische Filter behandeln Alpha nicht ordnungsgemäß (Kontrast/Luminanz, Hochpass usw.)
-* [Viewport] Leistungsproblem beim Laden eines Projekts mit aktivierten Schatten
-* [Viewport] Dithering-Problem in 3D-Ansichten über MacOS
-* [Viewport] Partikel-Vorschauen werden falsch angezeigt, wenn Farbprofil aktiviert ist
-* [Iray] Absturz beim Zurückwechseln des Projekts zu OpenGL, wenn Iray nicht initialisiert werden konnte
-* [Iray] Glanz wird beim Rendern von SpecGloss Shader/mdl ignoriert
-* [Shader] Spec/Gloss Shader stimmt nicht mit Iray und SD überein
-* [Shader] sRGB-Konvertierung unterscheidet sich von der linearen in die sRGB-LUT-Konvertierung
-* [Shader] Falsches Rendering beim Laden eines Projekts mit veralteten Shadern
-* [Shader] &quot;pbr-coated&quot;-Shader funktioniert nicht mehr
-* [Exportieren] Einige Kanäle werden weiterhin exportiert, auch wenn sie nicht im Textursatz vorhanden sind
-* [Ebenen] Der Mischmodus &quot;Normalen-Map inverse detail&quot; funktioniert nicht auf Graustufenkanälen
-* [UI] Problem beim &quot;Farbauswahl window&quot; mit HDPI-Monitor und Anzeigezoom bei 150 %
+* &lbrack;Werkzeug&rbrack; Wacom-Tablets funktionieren unter Linux nicht
+* &lbrack;Werkzeug&rbrack; Schwarze Artefakte bei Verwendung des Wischfinger-Werkzeugs
+* &lbrack;Baker&rbrack; Baking schlägt fehl, wenn &quot;Nach Name abgleichen&quot; mit einem Käfig verwendet wird
+* &lbrack;Baker&rbrack; Ambient occlusion funktioniert nicht, wenn nur mit Normalen-Map Baking geführt wird
+* &lbrack;Regal&rbrack; Generische Filter behandeln Alpha nicht richtig (Kontrast/Luminanz, Hochpass usw.)
+* &lbrack;Viewport&rbrack; Leistungsproblem beim Laden eines Projekts mit aktivierten Schatten
+* &lbrack;Viewport&rbrack; Ditheringe in der 3D-Ansicht über MacOS
+* &lbrack;Viewport&rbrack; Partikel-Vorschauen werden falsch angezeigt, wenn Farbprofil aktiviert ist
+* &lbrack;Iray&rbrack; Absturz beim Zurückwechseln des Projekts zu OpenGL, wenn Iray nicht initialisiert werden konnte
+* &lbrack;Iray&rbrack; Glanz wird beim Rendern von SpecGloss Shader/mdl ignoriert
+* &lbrack;Shader&rbrack; Spec/Gloss Shader stimmt nicht mit Iray und SD überein
+* &lbrack;Shader&rbrack; sRGB-Konvertierung anders als bei der linearen in sRGB-LUT-Konvertierung
+* &lbrack;Shader&rbrack; Falsches Rendering beim Laden des Projekts mit veralteten Shadern
+* &lbrack;Shader&rbrack; &quot;pbr-beschichteter&quot; Shader funktioniert nicht mehr
+* &lbrack;Export&rbrack; Einige Kanäle werden weiterhin exportiert, auch wenn sie nicht im Textursatz vorhanden sind
+* &lbrack;Layers&rbrack; Der Mischmodus &quot;Normalen-Map inverse detail&quot; funktioniert nicht auf Graustufenkanälen
+* &lbrack;UI&rbrack; Problem beim &quot;Farbauswahl window&quot; mit HDPI-Monitor und Anzeigezoom bei 150 %
 
 **Bekannte Probleme:**
 
-* [Mac] Partikeln können in einigen Fällen zu Beschädigungen der Textur führen
+* &lbrack;Mac&rbrack; Partikeln können in einigen Fällen zu Beschädigungen der Textur führen
 
 ### 2.5.1
 
@@ -3667,24 +3705,24 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [Mac] Wacom-Tablet-Eingang in 3D und 2D-Ansicht defekt
-* [Baker] Die Zuordnung nach Namen funktioniert nicht mehr
-* [Baker] Die Einstellung &quot;Normale Mittelwerte&quot; funktioniert nicht mehr.
-* [Iray] Falsches Rendering mit fehlendem Baking geführt Normalen-Map
-* [Iray] Farbprofil verhalten sich anders als beim OpenGL-Renderer
-* [Iray] Exportieren von Rendering als Bitmap beinhaltet keine Farbprofil-Korrektur
-* [Substance] Materialfilter funktionieren nicht mehr
-* [Tool] Die Konturdeckkraft wird nicht in Pinselvorgaben gespeichert
-* [Tool] Klon Brush UV Alignment funktioniert nicht mehr
-* [Versatz] Beim Exportieren in Ganzzahl sollte der Exportkanal auf 0,5 zentriert sein.
-* [Vorlage] Absoluter Pfad wird in Vorlagen gespeichert.
-* [TextureSet] Die Textur des Kanals bleibt nach dem Entfernen des Kanals bestehen.
+* &lbrack;Mac&rbrack; Wacom-Tablet-Eingang in 3D und 2D-Ansicht defekt
+* &lbrack;Baker&rbrack; Die Zuordnung nach Namen funktioniert nicht mehr
+* &lbrack;Baker&rbrack; Die Einstellung &quot;Durchschnittliche Normale&quot; funktioniert nicht mehr
+* &lbrack;Iray&rbrack; Falsches Rendering mit fehlendem Baking geführt Normalen-Map
+* &lbrack;Iray&rbrack; Farbprofil verhalten sich anders als beim OpenGL-Renderer
+* &lbrack;Iray&rbrack; Beim Exportieren des Renderings als Bitmap wird das Farbprofil nicht korrigiert.
+* &lbrack;Substance&rbrack; Materialfilter funktionieren nicht mehr
+* &lbrack;Werkzeug&rbrack; Die Konturdeckkraft wird nicht in Pinselvorgaben gespeichert
+* &lbrack;Werkzeug&rbrack; Klon-Pinsel-UV-Ausrichtung funktioniert nicht mehr
+* &lbrack;Export&rbrack; Beim Exportieren in Ganzzahl sollte der Versatz-Kanal in 0,5 zentriert sein
+* &lbrack;Vorlage&rbrack; Absoluter Pfad wird in Vorlagen gespeichert
+* &lbrack;TextureSet&rbrack; Die Textur des Kanals bleibt auch nach dem Entfernen des Kanals bestehen.
 
 **Bekannte Probleme:**
 
-* [Linux] Wacom-Tablet-Eingaben funktionieren nicht in 3D und 2D-Ansicht
-* [Mac] Partikeln können in einigen Fällen zu Beschädigungen der Textur führen
-* [Exportieren] In sehr seltenen Fällen können auf AMD-GPUs schwarze Rechtecke erscheinen
+* &lbrack;Linux&rbrack; Wacom-Tablet-Eingaben funktionieren nicht in 3D und 2D-Ansicht
+* &lbrack;Mac&rbrack; Partikeln können in einigen Fällen zu Beschädigungen der Textur führen
+* &lbrack;Export&rbrack; In sehr seltenen Fällen können auf AMD-GPUs schwarze Rechtecke erscheinen
 
 ### 2.5.0
 
@@ -3693,82 +3731,82 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 **Hinzugefügt:**
 
 * Unterstützung für AMD Radeon Pro- und AMD FirePro-GPUs
-* [Werkzeug] Unterstützung für Konturdeckkraft hinzufügen
-* [Werkzeug] Fügen Sie einen Modifizierer hinzu, mit dem Sie den letzten Pinselstrich fortsetzen können
-* [Iray] Update zur Unterstützung von Pascal-GPUs
-* [Viewport] Unterstützung für Farbprofil hinzufügen (LUT)
-* [Substance] Integration eines neuen Frameworks (SD6-Engine)
-* [UI] Liste der &quot;zuletzt verwendeten Dateien&quot; im Menü &quot;Datei&quot; vergrößern
-* [Importieren] Verwenden Sie die Kategorie aus Stoffen, um das Präfix im Dialogfeld &quot;Importieren&quot; auszufüllen.
-* [Baker] Baking von 8K-Texturen zulassen
-* [Baker] Baking nicht quadratischer Auflösungen zulassen
-* [Baker] Verbessern Sie den Speicherverbrauch beim Baking führ von großen High-Poly-Meshs
-* [Regal] Sperren von Regalen (und Projekten), um die gleichzeitige Bearbeitung zu verhindern und Beschädigungen zu vermeiden
-* [Regal] Lesen Sie Kategorie und Schlüsselwörter von Stoffen, um sie für die Filterung zu verwenden
-* [Regal] Ausschließen von Ressourcen vom Ergebnis einer Suchabfrage zulassen
-* [Regal] Verbesserte Berechnung der Miniaturansichten
-* [Regal] Einbetten von Vorgaben in Projekte zulassen
-* [Regal] Schnelles Reduzieren/Erweitern der Strukturansicht mit UMSCHALT
-* [Regal] Speichern von Miniaturansichten zulassen, wenn Assets schreibgeschützt sind (lokaler Cache)
-* [Regal] Neuer Inhalt : neue Filter (transformieren, Mirror, Tri-planar usw.)
-* [Regal] Neuer Inhalt : neue LUTs-Profile (klassisch und künstlerisch, z. B. Film Noir, Vintage usw.)
-* [Regal] Neuer Inhalt : 10 neue Font-Substance zur schnellen Generierung benutzerdefinierter Texte
-* [Regal] Neue Vorlagen : Unity 5 und Unreal Engine 4
-* [Regal] Verbesserter HSL, um künstlerfreundlicher zu sein
-* [Shader] Unterstützung für Specular level-Kanal in PBR-Shadern hinzufügen
-* [Shader] Unterstützung für Dithering in Alpha Test Shader hinzufügen
-* [Shader] Unterstützung für Parallax Verdeckung Mapping in PBR Shadern hinzufügen
-* [Shader] Definieren einer benutzerdefinierten Benutzeroberfläche für Shader-Parameter zulassen
-* [MatteLayering] Neuen Maskenkanal für den Workflow der Material-Ebene erstellen
-* [Skripterstellung] Metadaten in einem SP-Projekt schreiben dürfen
-* [Scripting] Export mit einer bestimmten Exportvorgabe zulassen
-* [Scripting] Ermöglicht das Abrufen von Shader-Parametern als JSON.
-* [Scripting] Unterstützung für WebSocket-Verbindungen hinzufügen
-* [Scripting] Hinzufügen der Möglichkeit zum Laden von Shader-Instanzen
-* [Scripting] Fügen Sie die Möglichkeit hinzu, ein neues Projekt zu erstellen
-* [Scripting] Ermöglicht das Abrufen der URL des in ein Projekt importierten Meshs.
-* [Skripterstellung] Nicht quadratisches Baking zulassen
-* [Scripting] Berichtsfehler beim Festlegen von Daten über die Scripting-API
-* [Substance] Benutzerdaten-Tag hinzufügen, um Normalen-Map-Format anzugeben
+* &lbrack;Werkzeug&rbrack; Unterstützung für Konturdeckkraft hinzufügen
+* &lbrack;Werkzeug&rbrack; Fügen Sie einen Modifizierer hinzu, mit dem Sie den letzten Pinselstrich fortsetzen können
+* &lbrack;Iray&rbrack; Update zur Unterstützung von Pascal-GPUs
+* &lbrack;Viewport&rbrack; Unterstützung für Farbprofil hinzufügen (LUT)
+* &lbrack;Substance&rbrack; Neues Framework integrieren (SD6-Engine)
+* &lbrack;UI&rbrack; Liste &quot;Zuletzt verwendete Datei&quot; im Menü &quot;Datei&quot; vergrößern
+* &lbrack;Import&rbrack; Kategorie aus Stoffen verwenden, um das Präfix im Dialogfeld &quot;Einfuhr&quot; auszufüllen
+* &lbrack;Baker&rbrack; Baking von 8K-Texturen zulassen
+* &lbrack;Baker&rbrack; Nicht quadratische Auflösungen können Baking geführt werden
+* &lbrack;Baker&rbrack; Verbessern Sie den Speicherverbrauch beim Baking führ von hochpolaren Meshs
+* &lbrack;Regal&rbrack; Regale (und Projekte) sperren, um gleichzeitige Bearbeitung zu verhindern und Beschädigungen zu vermeiden
+* &lbrack;Regal&rbrack; Lesen Sie Kategorie und Schlüsselwörter von Stoffen, um sie für die Filterung zu verwenden
+* &lbrack;Regal&rbrack; Ausschließen von Ressourcen vom Ergebnis einer Suchabfrage zulassen
+* &lbrack;Regal&rbrack; Verbesserte Berechnung der Miniaturansichten
+* &lbrack;Regal&rbrack; Einbetten von Vorgaben in Projekte zulassen
+* &lbrack;Regal&rbrack; Schnelles Ein- und Ausblenden der Strukturansicht mit UMSCHALTTASTE
+* &lbrack;Regal&rbrack; Speichern von Miniaturansichten zulassen, wenn Assets schreibgeschützt sind (lokaler Cache)
+* &lbrack;Regal&rbrack; Neue Inhalte : neue Filter (transformieren, Mirror, Tri-planar usw.)
+* &lbrack;Regal&rbrack; Neue Inhalte : neue LUTs-Profile (klassisch und künstlerisch, z. B. Film Noir, Vintage usw.)
+* &lbrack;Regal&rbrack; Neue Inhalte : 10 neue Font-Substance zur schnellen Generierung benutzerdefinierter Texte
+* &lbrack;Regal&rbrack; Neue Vorlagen : Unity 5 und Unreal Engine 4
+* &lbrack;Regal&rbrack; Verbesserter HSL-Filter für mehr Künstlerfreundlichkeit
+* &lbrack;Shader&rbrack; Unterstützung für Specular level-Kanal in PBR-Shadern hinzufügen
+* &lbrack;Shader&rbrack; Unterstützung für Dithering in Alpha Test Shader hinzufügen
+* &lbrack;Shader&rbrack; Unterstützung für die Zuordnung von Parallax-Verdeckungen in PBR-Shadern hinzufügen
+* &lbrack;Shader&rbrack; Definieren einer benutzerdefinierten Benutzeroberfläche für Shader-Parameter zulassen
+* &lbrack;MatLayering&rbrack; Neuen Maskenkanal für Material-Ebenen-Workflow erstellen
+* &lbrack;Skripterstellung&rbrack; Schreiben von Metadaten in ein SP-Projekt zulassen
+* &lbrack;Skripterstellung&rbrack; Exportieren mit einer bestimmten Exportvorgabe zulassen
+* &lbrack;Skripterstellung&rbrack; Shader-Parameter als JSON abrufen
+* &lbrack;Skripterstellung&rbrack; Unterstützung für WebSocket-Verbindungen hinzufügen
+* &lbrack;Skripterstellung&rbrack; Shader-Instanzen können geladen werden.
+* &lbrack;Skripterstellung&rbrack; Hinzufügen der Möglichkeit, ein neues Projekt zu erstellen
+* &lbrack;Skripterstellung&rbrack; Abrufen der URL des in ein Projekt importierten Meshs zulassen
+* &lbrack;Skripterstellung&rbrack; Nicht quadratisches Baking zulassen
+* &lbrack;Skripterstellung&rbrack; Fehler beim Festlegen von Daten über die Skript-API melden
+* &lbrack;Substance&rbrack; Benutzerdaten-Tag zum Angeben von Normalen-Map-Format hinzufügen
 
 **Fest:**
 
 * Absturz bei der Farbauswahl mit Stoffen
 * Absturz beim Laden eines Nicht-RGBA32f-Bildes als Umgebungs-Map
 * Absturz beim Malen auf AMD-GPUs
-* [Mesh] OBJ Import erkennt keine Materialien ohne MTL-Datei.
-* [Mesh] Die Generierung des UDIM-Textursatzes kann auf einigen Meshs falsch sein
-* [UI] Schaltfläche &quot;Rückgängig/Wiederholen&quot; in Anzeigeeinstellung &quot;Fokus stehlen&quot; und Mausbildlauf anhalten
-* [UI] Einige Beschriftungen werden in High-DPI falsch beschnitten
-* [Ebene] Der Ersetzungsmodus für den Malen-Effekt hat ein falsches Verhalten auf der Maske.
-* [Ebene] Der Subtrahieren-Mischmodus verhält sich mit Alpha nicht korrekt.
-* [Tool] Die Pinselgröße wird in der 2D-Ansicht enorm, wenn auf UV-Rahmen gemalt wird
-* [Tool] Einrasten gerade Linie hat ein ungleichmäßiges Verhalten mit High-DPI
-* [Tool] Die Auflösung der Schablone ist manchmal falsch
-* [Baker] Die Werte für &quot;Max. Verdeckungsabstand&quot; werden festgeklemmt, wenn &quot;relativ zum Begrenzungsrahmen&quot; &quot;Aus&quot; ist.
-* [Shader] Stapel- und automatische Parameterkanaldefinitionen stimmen nicht überein
-* [3D-Ansicht] Inkonsistente Anzeige des Normalkanals je nach Projekteinstellung
-* [Viewport] Einige Normalen-Map haben Werte eingeklemmt, die als Artefakte erscheinen
-* [Viewport] Nacheffekte sind standardmäßig immer deaktiviert
-* [Export] Die normale Mischeinstellung ist falsch, wenn der normale Kanal fehlt
-* [Exportieren] Falsche Generierung von Texturen in einigen Fällen auf AMD-GPUs
-* [Exportieren] Shader-Parameter werden nicht ordnungsgemäß exportiert, wenn sie sich in einer Gruppe befinden
-* [Exportieren] Beim Bearbeiten einer Exportvorgabe in einem benutzerdefinierten Regal wird ein Protokollfehler ausgegeben
-* [Regal] Die Filterungen der Strukturansicht stimmen nicht genau mit dem Ordnernamen überein
-* [Regal] Das Umbenennen einer Regal-Vorgabe ist schwer zu lesen
-* [Regal] In das Regal importierte Shader-Ressource bleibt nach dem Neustart nicht erhalten
-* [Regal] Inhalt : Werkzeugvorgabe fehlt
-* [Regal] Inhalt : Tile Generator funktioniert nicht richtig
-* [Regal] Inhalt : Falsche Maske auf Gummireifen-Schmutziges intelligente Material behoben
-* [Regal] Inhalt : Falscher Gruppenname auf dem Material der Ledertasche wurde behoben
-* [Iray] Die Hälfte der Meshs fehlt in Iray
-* [Linux] Absturz beim Ziehen einer Ressource über die 3D-Ansicht
-* [Mac] Voreinstellungen werden bei jedem Start in Sierra zurückgesetzt
+* &lbrack;Mesh&rbrack; OBJ Import erkennt Materialien ohne MTL-Datei nicht
+* &lbrack;Mesh&rbrack; Die Generierung des Namens des UDIM-Textursatzes kann auf einigen Meshs falsch sein
+* &lbrack;UI&rbrack; Schaltfläche &quot;Rückgängig/Wiederholen&quot; in Anzeigeeinstellung &quot;Fokus stehlen&quot; und Mausbildlauf anhalten
+* &lbrack;UI&rbrack; Einige Beschriftungen werden in High-DPI falsch beschnitten
+* &lbrack;Ebene&rbrack; Der Ersetzungsmodus für den Malen-Effekt hat ein falsches Verhalten auf der Maske.
+* &lbrack;Ebene&rbrack; Der subtrahieren-Mischmodus verhält sich mit Alpha nicht korrekt.
+* &lbrack;Werkzeug&rbrack; Die Pinselgröße wird in der 2D-Ansicht sehr groß, wenn auf UV-Rahmen gemalt wird
+* &lbrack;Werkzeug&rbrack; Einrasten Gerade hat ein ungleichmäßiges Verhalten mit High-DPI.
+* &lbrack;Werkzeug&rbrack; Die Auflösung der Schablone ist manchmal falsch
+* &lbrack;Baker&rbrack; Die Werte für &quot;Max. Verdeckungsabstand&quot; werden festgeklemmt, wenn &quot;relativ zum Begrenzungsrahmen&quot; &quot;Aus&quot; ist.
+* &lbrack;Shader&rbrack; Kanaldefinitionen für Stapel und automatische Parameter stimmen nicht überein
+* &lbrack;3D-Ansicht&rbrack; Inkonsistente Anzeige des normalen Kanals abhängig von der Projekteinstellung
+* &lbrack;Viewport&rbrack; Einige Normalen-Map haben eingeklemmte Werte, die als Artefakte erscheinen
+* &lbrack;Viewport&rbrack; Post-Effect sind standardmäßig immer deaktiviert
+* &lbrack;Export&rbrack; Normale Mischeinstellung ist falsch, wenn normaler Kanal fehlt
+* &lbrack;Export&rbrack; Falsche Generierung von Texturen in einigen Fällen auf AMD-GPUs
+* &lbrack;Export&rbrack; Shader-Parameter werden nicht ordnungsgemäß exportiert, wenn sie sich in einer Gruppe befinden
+* &lbrack;Export&rbrack; Beim Bearbeiten einer Exportvorgabe in einem benutzerdefinierten Regal wird ein Protokollfehler ausgegeben
+* &lbrack;Regal&rbrack; Die Filterungen in der Strukturansicht stimmen nicht genau mit dem Ordnernamen überein
+* &lbrack;Regal&rbrack; Das Umbenennen einer Regal-Vorgabe ist schwer zu lesen
+* &lbrack;Regal&rbrack; Im Regal importierte Shader-Ressource bleibt nach dem Neustart nicht erhalten
+* &lbrack;Regal&rbrack; Inhalt : Werkzeugvorgabe fehlt
+* &lbrack;Regal&rbrack; Inhalt : Tile Generator funktioniert nicht richtig
+* &lbrack;Regal&rbrack; Inhalt : Falsche Maske auf Gummireifen-Schmutziges intelligente Material behoben
+* &lbrack;Regal&rbrack; Inhalt : Falscher Gruppenname auf dem Material der Ledertasche wurde behoben
+* &lbrack;Iray&rbrack; Die Hälfte der Mesh fehlt in Iray
+* &lbrack;Linux&rbrack; Absturz beim Ziehen einer Ressource über die 3D-Ansicht
+* &lbrack;Mac&rbrack; Die Voreinstellungen werden bei jedem Start in Sierra zurückgesetzt
 
 **Bekannte Probleme:**
 
-* [Exportieren] In sehr seltenen Fällen können auf AMD-GPUs schwarze Rechtecke erscheinen
-* [Iray] Farbprofile können sich manchmal seltsam verhalten
+* &lbrack;Export&rbrack; In sehr seltenen Fällen können auf AMD-GPUs schwarze Rechtecke erscheinen
+* &lbrack;Iray&rbrack; Farbprofil können sich manchmal seltsam verhalten
 
 ### 2.4.1
 
@@ -3778,9 +3816,9 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 * Absturz beim Erstellen eines Projekts mit einer Vorlage
 * Absturz beim Schließen des Exportdialogfelds während eines Exports
-* [Mac] Fehler beim Speichern des Projekts (Speichern der Exportvorgabe nicht möglich)
-* [Regal] Beim Erstellen einer neuen Vorgabe wird diese zweimal angezeigt
-* [Regal] Vorgaben können ohne Administratorrechte nicht im schreibgeschützten Modus geladen werden
+* &lbrack;Mac&rbrack; Fehler beim Speichern des Projekts (Exportvorgabe kann nicht gespeichert werden)
+* &lbrack;Regal&rbrack; Beim Erstellen einer neuen Vorgabe wird sie zweimal angezeigt
+* &lbrack;Regal&rbrack; Vorgaben können ohne Administratorrechte nicht im schreibgeschützten Modus geladen werden.
 
 ### 2.4.0
 
@@ -3788,16 +3826,16 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Regal] Neue Benutzeroberfläche zum Durchsuchen von Ressourcen (Strukturansicht, Filter usw.)
-* [Regal] Speichern einer Suche als Vorgabe zulassen
-* [Regal] Erstellen eines neuen Fensters aus einer Vorgabe zulassen
-* [Regal] Neue Benutzeroberfläche für den Import von Ressourcen
-* [Regal] Kopieren Sie kein standardmäßiges allegorisches Regal im Ordner &quot;Dokumente&quot;
-* [Regal] Neue Partikeln-Vorgaben : Stromkreis, elektrische Leitungen, Rokoko, Kleinvenen
-* [Regal] Verbesserte Vorgaben für ältere Partikeln, die einfacher zu verwenden sind (z. B. &quot;Rain&quot;)
-* [Regal] Neue Informationen zum Kontextmenü der Ressource hinzufügen
-* [Viewport] Verbessern der Leistung beim Laden von Umgebungs-Map
-* [Viewport] Unterstützung für Umgebungs-Map hinzufügen, die nicht die Macht von zwei sind
+* &lbrack;Regal&rbrack; Neue Benutzeroberfläche zum Durchsuchen von Ressourcen (Strukturansicht, Filter usw.)
+* &lbrack;Regal&rbrack; Speichern einer Suche als Vorgabe zulassen
+* &lbrack;Regal&rbrack; Erstellen eines neuen Fensters aus einer Vorgabe zulassen
+* &lbrack;Regal&rbrack; Neue Benutzeroberfläche für den Import von Ressourcen
+* &lbrack;Regal&rbrack; Kopieren Sie kein standardmäßiges allegorisches Regal im Ordner &quot;Dokumente&quot;
+* &lbrack;Regal&rbrack; Neue Partikeln-Vorgaben : Stromkreis, elektrische Leitungen, Rokoko, Kleinvenen
+* &lbrack;Regal&rbrack; Verbesserte Vorgaben für ältere Partikeln, um einfacher zu verwenden (z. B. &quot;Rain&quot;)
+* &lbrack;Regal&rbrack; Neue Informationen zum Kontextmenü der Ressource hinzufügen
+* &lbrack;Viewport&rbrack; Verbessern der Leistung beim Laden von Umgebungs-Map
+* &lbrack;Viewport&rbrack; Unterstützung für Umgebungs-Map, die nicht die Macht von zwei sind
 
 **Fest:**
 
@@ -3805,13 +3843,13 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 * Absturz beim Malen nach dem Speichern einer Vorgabe
 * Absturz mit Umgebungsunschärfe bei einigen GPUs
 * Absturz beim Zuweisen einer falschen Ressource zum Mini-Regal
-* [Regal] Bereinigen + Speichern: Entfernen Sie Tags und Metadaten für Ressourcen im Projekt.
-* [Regal] Beim Importieren einer Vorgabe werden die Ressourcen im Regal angezeigt
-* [Exportieren] Normalen-Map, die aus dem Height-Kanal generiert wird, hat eine geringe Intensität.
-* [Exportieren] Normal aus Mesh ist in der endgültigen Normalen-Map nicht immer vorhanden
-* [Exportieren] Ausdehnung mit Transparenz kann manchmal ohne Transparenz erfolgen
-* [Scripting] &quot;alg.plugin\_root\_directory&quot; kann einen abgeschnittenen Netzwerkpfad zurückgeben
-* [TextureSet] Sperrschaltfläche ist aktiviert, wenn nicht quadratische Projekte erneut geöffnet werden
+* &lbrack;Regal&rbrack; Bereinigen + Speichern - Entfernen von Tags und Metadaten für Ressourcen im Projekt
+* &lbrack;Regal&rbrack; Beim Importieren einer Vorgabe werden ihre Ressourcen im Regal angezeigt
+* &lbrack;Export&rbrack; Normalen-Map, die aus dem Height-Kanal generiert wird, ist niedrig
+* &lbrack;Export&rbrack; Normal vom Mesh ist in der endgültigen Normalen-Map nicht immer vorhanden
+* &lbrack;Export&rbrack; Ausdehnung mit Transparenz kann manchmal ohne Transparenz erfolgen
+* &lbrack;Skripterstellung&rbrack; &quot;alg.plugin_root_directory&quot; kann einen abgeschnittenen Netzwerkpfad zurückgeben
+* &lbrack;TextureSet&rbrack; Sperrschaltfläche ist aktiviert, wenn nicht quadratische Projekte erneut geöffnet werden
 
 ### 2.3.1
 
@@ -3819,20 +3857,20 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Plugin]&#x200B;[Photoshop] Geben Sie an, welches Material/welcher Stapel/welche Kanäle exportiert werden sollen.
-* [Scripting] Funktionsnamen weisen einige Inkonsistenzen auf.
+* &lbrack;Plugin&rbrack;&lbrack;Photoshop&rbrack; Geben Sie an, welches Material/welcher Stapel/welche Kanäle exportiert werden sollen.
+* &lbrack;Skripterstellung&rbrack; Funktionsnamen weisen einige Inkonsistenzen auf.
 
 **Fest:**
 
-* [Exportieren] Alpha kann in benutzerdefinierten Exportvorgaben verworfen werden
-* [Exportieren] Alpha erhält falsche Gamma-Konvertierung auf sRGB-Kanälen
-* [Exportieren] Nicht quadratische Dokumente werden als quadratisch exportiert
-* [Exportieren] Zusätzliche Karten können nicht exportiert werden, wenn eine fehlt
-* [Iray] Einige Parameter (wie &quot;emissive-Intensität&quot;) haben keine Auswirkungen
-* [NVIDIA] Absturz beim Start mit NVIDIA Quadro K2200/GTX 750/760
-* [AMD] Falscher Farbsatz für Miniaturen und Vorschauen
-* [AMD] Einfrieren und Treiberfehler beim Öffnen neuer Dateien und Dateien
-* [Log] &quot;software-version&quot; fehlt in der Protokolldatei
+* &lbrack;Export&rbrack; Alpha kann in benutzerdefinierten Exportvorgaben verworfen werden
+* &lbrack;Export&rbrack; Alpha erhält falsche Gamma-Konvertierung auf sRGB-Kanälen
+* &lbrack;Export&rbrack; Nicht quadratische Dokumente werden als quadratische
+* &lbrack;Export&rbrack; Es ist nicht möglich, zusätzliche Maps zu exportieren, wenn eine fehlt
+* &lbrack;Iray&rbrack; Einige Parameter (z. B. &quot;emissive-Intensität&quot;) haben keine Auswirkungen
+* &lbrack;NVIDIA&rbrack; Absturz beim Start mit NVIDIA Quadro K2200/GTX 750/760
+* &lbrack;AMD&rbrack; Falscher Farbsatz für Miniaturen und Vorschauen
+* &lbrack;AMD&rbrack; Einfrieren und Treiberfehler beim Öffnen neuer Dateien und Dateien
+* &lbrack;Log&rbrack; &quot;software-version&quot; fehlt in der Protokolldatei
 
 ### 2.3.0
 
@@ -3840,53 +3878,53 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Plug-In] Neues Plug-In &quot;Nach Photoshop exportieren&quot; (vollständiger Ebenenstapel exportieren)
-* [Exportieren] Geben Sie die Breite der Auffüllung an (in Pixel oder unendlich).
-* [Exportieren] Festlegen des Hintergrundtyps außerhalb der UVs zulassen
-* [Regal] Neues Material mit Shader-Ebenen zum Überblenden von 10 Materialien
-* [Regal] Neuer Tonkanal zur Anzeige von Shadern mit dem Height-/Normalkanal
-* [Regal] Neuer Baking geführt Lichtfilter mit Umgebungseingabe
-* [Regal] Einige Maskengenerator wurden aktualisiert, um nicht quadratische Transformationen hinzuzufügen.
-* [Viewport] Hinzufügen von Composite-Normalen-Map (Normal+Height+Baking) zum Solomodus
-* [Skripterstellung] Exportieren zusätzlicher Maps zulassen
-* [Skripterstellung] Abfrage verfügbarer zusätzlicher Maps pro Textursatz zulassen
-* [Scripting] Kanalformat kann abgerufen werden.
-* [Skripterstellung] Hinzufügen von Beispielen in der Dokumentation zum Baking
-* [Scripting] Ermöglicht das Abfragen der Sichtbarkeit einer Ebene.
-* [Skripterstellung] Ermöglicht das Abfragen der Füllmethode und Deckkraft der Ebene
-* [Skripterstellung] Exportieren konvertierter Maps (endgültige Normalen-Map, gemischte AO usw.)
-* [Substance] Benutzerdefinierte Verwendungen lesen und verbinden
-* [Shortcuts] Zusatztaste (SHIFT) hinzufügen, um Solo-Modus rückwärts zu durchlaufen
-* [Exportieren] Standardvorgabe für den Export wurde aktualisiert, um Alpha zu deaktivieren
-* [UI] Miniaturen werden jetzt nur berechnet, wenn das Engine verfügbar ist
-* [UI] Anzeigen einer Erwähnung bei der Berechnung von Miniaturansichten
+* &lbrack;Plugin&rbrack; Neues Plug-in &quot;Nach Photoshop exportieren&quot; (vollständiger Ebenenstapel exportieren)
+* &lbrack;Export&rbrack; Zulassen, dass die Breite der Auffüllung (in Pixeln oder unendlich) angegeben wird
+* &lbrack;Export&rbrack; Festlegen des Hintergrundtyps außerhalb der UVs zulassen
+* &lbrack;Regal&rbrack; Neues Material mit Shader-Ebenen zum Überblenden von 10 Materialien
+* &lbrack;Regal&rbrack; Neuer Ton-Shader zur Anzeige von Details mit dem Height-/Normalkanal
+* &lbrack;Regal&rbrack; Neuer Baking geführt Lichtfilter mit Umgebungseingabe
+* &lbrack;Regal&rbrack; Einige Maskengenerator wurden aktualisiert, um nicht quadratische Transformationen hinzuzufügen
+* &lbrack;Viewport&rbrack; Composited Normalen-Map (Normal+Height+Baking) zum Solomodus hinzufügen
+* &lbrack;Skripterstellung&rbrack; Exportieren zusätzlicher Maps zulassen
+* &lbrack;Skripterstellung&rbrack; Abfragen verfügbarer zusätzlicher Maps pro Textursatz zulassen
+* &lbrack;Skripterstellung&rbrack; Abrufen des Kanalformats zulassen
+* &lbrack;Skripterstellung&rbrack; Fügen Sie der Baking führend Dokumentation Beispiele hinzu
+* &lbrack;Skripterstellung&rbrack; Abfragen der Sichtbarkeit einer Ebene zulassen
+* &lbrack;Skripterstellung&rbrack; Füllmethode und Deckkraft der Ebene abfragen
+* &lbrack;Skripterstellung&rbrack; Exportieren konvertierter Maps (endgültige Normalen-Map, gemischte AO usw.) zulassen
+* &lbrack;Substance&rbrack; Benutzerdefinierte Verwendungen lesen und verbinden
+* &blbrack;Shortcuts&rbrack; Zusatztaste (SHIFT) hinzufügen, um Solo-Modus rückwärts zu durchlaufen
+* &lbrack;Export&rbrack; Standardexportvorgabe wurde aktualisiert, um Alpha zu deaktivieren
+* &lbrack;UI&rbrack; Miniaturen werden jetzt nur berechnet, wenn das Engine verfügbar ist
+* &lbrack;UI&rbrack; Anzeigen einer Erwähnung bei der Berechnung von Miniaturansichten
 
 **Fest:**
 
 * Absturz zu einigen alten Projekten beim Öffnen
 * Absturz mit beschädigtem Textur-Kanal-Cache
 * Absturz beim Mischen von mehr als 4 Materialien mit dem Material-Ebenen-Arbeitsablauf
-* [UI] Tastenkombinationen funktionieren nicht, wenn die Symbolleiste ausgeblendet ist
-* [UI] Iray-Symbolleiste ist im Menü &quot;Ansicht&quot; mit &quot;Unbenannt&quot; beschriftet
-* [UI] Plug-in-Symbolleisten werden im Menü &quot;Ansicht&quot; als &quot;Nicht geneigt&quot; bezeichnet
-* [Baker] Drücken der Eingabetaste beim Bearbeiten einer Baking-Einstellung startet den Baking-Prozess
-* [Baker] Falsche Bereiche für einige Parameter
-* [Importieren] OBJ Mesh können aufgrund sehr großer Zahlen nicht importiert werden.
-* [Importieren] Einige OBJ werden mit zu vielen Unterobjekten importiert
-* [Export] Kanalhintergrund wird beim Export mit Schwarz anstelle der Standardfarbe gefüllt
-* [Tool] Partikeln funktionieren nicht richtig, wenn der FOV-Wert zu niedrig ist
-* [Tool] Die Pinselvorschaufarbe ist bei Masken in untergeordneten Stapeln falsch
-* [Viewport] Wenn der Pinsel in leere Bereiche in der 2D-Ansicht geht, wird er gigantisch
-* [Viewport] Leere Pinselvorschau beim Malen mit normalen Texturen
-* [Skripterstellung] Falsche Dokumentation : &quot;ao&quot; anstelle von &quot;ambientocclusion&quot; aufgeführt
-* [Skripterstellung] Der mit subprocess() begonnene Prozess wird beim Schließen von Painter beendet
-* [Regal] Baking geführt Beleuchtungsfilter verwenden falsche AO-Eingabe
-* [MacOS] Entferntes Fire Hydrant-Projekt (inkompatibel)
+* &lbrack;UI&rbrack; Tastaturbefehle funktionieren nicht, wenn die Symbolleiste ausgeblendet ist
+* &lbrack;UI&rbrack; Iray-Werkzeugleiste ist im Ansichtsmenü mit &quot;Unbenannt&quot; beschriftet
+* &lbrack;UI&rbrack; Plug-in-Symbolleisten werden im Menü &quot;Ansicht&quot; als &quot;Nicht geneigt&quot; bezeichnet
+* &lbrack;Baker&rbrack; Durch Drücken der Eingabetaste beim Bearbeiten einer Baking-Einstellung wird der Baking-Prozess gestartet
+* &lbrack;Baker&rbrack; Falsche Bereiche für einige Parameter
+* &lbrack;Import&rbrack; Import von OBJ-Meshs aufgrund sehr großer Zahlen nicht möglich
+* &lbrack;Import&rbrack; Einige OBJ werden mit zu vielen Unterobjekten importiert
+* &lbrack;Export&rbrack; Kanalhintergrund wird beim Export mit Schwarz anstelle der Standardfarbe gefüllt
+* &lbrack;Werkzeug&rbrack; Partikeln funktionieren nicht richtig, wenn der FOV-Wert zu niedrig ist
+* &lbrack;Werkzeug&rbrack; Die Pinselvorschaufarbe ist bei Masken in untergeordneten Stapeln falsch
+* &lbrack;Viewport&rbrack; Wenn der Pinsel in leere Bereiche in der 2D-Ansicht übergeht, wird er gigantisch
+* &lbrack;Viewport&rbrack; Leere Pinselvorschau beim Malen mit normalen Texturen
+* &lbrack;Skripterstellung&rbrack; Falsche Dokumentation : &quot;ao&quot; anstelle von &quot;ambientocclusion&quot; aufgeführt
+* &lbrack;Skripterstellung&rbrack; Der mit subprocess() gestartete Prozess wird beim Schließen von Painter beendet
+* &lbrack;Regal&rbrack; Baking geführt Beleuchtungsfilter verwenden falsche AO-Eingabe
+* &lbrack;MacOS&rbrack; Entferntes Fire Hydrant-Projekt (inkompatibel)
 * Standardprojekt wird beim Laden einer \*.spt-Datei geöffnet (anstelle von \*.spp).
 
 **Bekannte Probleme:**
 
-* [Plugin] Aufgrund von Photoshop können das Height und der normale Kanal nicht wie besehen Kamera bewogen werden
+* &lbrack;Plugin&rbrack; Aufgrund von Photoshop können das Height und der normale Kanal nicht unverändert Kamera bewogen werden.
 
 ### 2.2.0
 
@@ -3894,31 +3932,31 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Regal] Verbesserung des Suchsystems und der Suchanfragen
-* [Regal] Hinzufügen eines Suchfelds für Mini-Regals
-* [Shader] Festlegen der Schrittgenauigkeit für Schieberegler
-* [Shader] Hinzufügen einer Schaltfläche &quot;Rückgängig/Wiederholen&quot; für Shader-Parameter
-* [Shader] Das erneute Laden eines Shader sollte seine Parameter nicht zurücksetzen.
-* [MathLayering] Unterstützung für Dynamische Materialüberlagerung und Sub-Stapel hinzufügen
-* [MatLayering] Importieren der JSON-Datei zum Einrichten der Shader-Einstellungen zulassen
-* [MathLayering] Limit für Textur-Sampler entsperren (Wechsel zu Bindless-Texturen)
-* [Scripting] Einstellung der Baker erlauben und Berechnung starten
-* [Substance] &quot;Verwendung&quot; für Ein-/Ausgangsverbindungen zusätzlich zu Identifizierungen verwenden
-* [Tool] Ermöglicht die Auswahl des Vorschaukanals im Viewport für das Projektion-Tool
+* &lbrack;Regal&rbrack; Verbesserung des Suchsystems und der Suchanfragen
+* &lbrack;Regal&rbrack; Hinzufügen eines Suchfelds für Mini-Regals
+* &lbrack;Shader&rbrack; Festlegen der Schrittgenauigkeit für Schieberegler
+* &lbrack;Shader&rbrack; Hinzufügen einer Schaltfläche &quot;Rückgängig/Wiederholen&quot; für Shader-Parameter
+* &lbrack;Shader&rbrack; Das erneute Laden eines Shader sollte seine Parameter nicht zurücksetzen.
+* &lbrack;MatLayering&rbrack; Unterstützung für Dynamische Materialüberlagerung und Sub-Stapel hinzufügen
+* &lbrack;MatLayering&rbrack; JSON-Datei zum Einrichten der Shader-Einstellungen importieren
+* &lbrack;MatLayering&rbrack; Limit für Textur-Sampler entsperren (Wechsel zu Bindless-Texturen)
+* &lbrack;Skripterstellung&rbrack; Festlegen der Baker-Einstellungen und Starten der Berechnung zulassen
+* &lbrack;Substance&rbrack; &quot;Verwendung&quot; für Ein-/Ausgangsverbindungen zusätzlich zu den Identifizierungen verwenden
+* &lbrack;Werkzeug&rbrack; Auswahl des Vorschaukanals im Viewport für das Projektion-Werkzeug zulassen
 
 **Fest:**
 
 * Absturz beim Start, wenn sich die Substanzen im falschen Ordner befinden
 * Der Absturz-Bericht funktioniert aufgrund einer falschen Protokolldatei manchmal nicht
-* [Iray] Post-Effekte werden nicht aktualisiert, wenn Iray angehalten wird
-* [Iray] Autofokus-Tastaturbefehl funktioniert nicht mehr
-* [Iray] Das Verhalten des Blende-Schiebereglers ändert sich je nach Elementgröße.
-* [Ebenen] Der Kanal des ersten Materials ist standardmäßig nicht aktiviert, wenn alle deaktiviert sind
-* [Shader] Es werden keine Fehler ausgegeben, wenn ein &quot;param auto&quot; nicht korrekt ist.
+* &lbrack;Iray&rbrack; Post-Effekte werden nicht aktualisiert, wenn das Iray angehalten wird
+* &lbrack;Iray&rbrack; Autofokus-Tastaturbefehl funktioniert nicht mehr
+* &lbrack;Iray&rbrack; Verhalten des Reglers &quot;Blende&quot; ändert sich je nach Elementgröße.
+* &lbrack;Layers&rbrack; Der Kanal des ersten Materials ist standardmäßig nicht aktiviert, wenn alle deaktiviert sind
+* &lbrack;Shader&rbrack; Es werden keine Fehler gedruckt, wenn ein &quot;automatischer Parameter&quot; falsch ist
 
 **Bekannte Probleme:**
 
-* [Mac] Grenzwert für Textur-Samples auf 16 gesperrt (GPU-Treiberproblem)
+* &lbrack;Mac&rbrack; Grenzwert für Textur-Samples auf 16 gesperrt (GPU-Treiberproblem)
 
 ### 2.1.1
 
@@ -3926,45 +3964,45 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Lizenz] Ändern des Speicherorts der Lizenzdatei
-* [Viewport] Fügen Sie einen &quot;B&quot;-Tastaturbefehl hinzu, um zwischen weiteren Karten zu wechseln.
-* [Importieren] FBX 2016/2017 ordnungsgemäß importieren
-* [Tool] Entfernen von Häkchen bei Verwendung der schnelle Maske
-* [Iray] Informationen zu den Abmessungen der Szene hinzufügen
-* [Iray] Maximale Anzahl von Samples und Renderzeit erhöhen
-* [UI] Aktualisieren Sie das Ergebnis sofort, wenn Sie die Schaltfläche &quot;+/-&quot; für Schieberegler verwenden
-* [UI] Höhere Präzision für Graustufen-Schieberegler
-* [Exportieren] Exportieren Sie keinen Alphakanal für Texturen, die nur RGB sind
-* [Exportieren] Dota 2-Exportvorgabe aktualisieren
-* [Regal] Neues Muster &quot;Sechseckfliesen&quot;
-* [Regal] Neues Werkzeug &quot;Verschweißt&quot;
-* [Regal] Aktualisierte Abschlussfilter, um Richtungssteuerungen bereitzustellen
+* &lbrack;Lizenz&rbrack; Ändern des Speicherorts der Lizenzdatei
+* &lbrack;Viewport&rbrack; Hinzufügen eines &quot;B&quot;-Tastaturbefehl, um zwischen weiteren Karten zu wechseln
+* &lbrack;Import&rbrack; FBX 2016/2017 ordnungsgemäß importieren
+* &lbrack;Werkzeug&rbrack; Entfernen von Häkchen bei Verwendung der schnelle Maske
+* &lbrack;Iray&rbrack; Informationen zu den Abmessungen der Szene hinzufügen
+* &lbrack;Iray&rbrack; Zulassen, dass die maximale Anzahl von Samples und die Renderzeit erhöht werden
+* &lbrack;UI&rbrack; Ergebnis sofort aktualisieren, wenn +/- Taste auf Schiebereglern verwendet wird
+* &lbrack;UI&rbrack; Höhere Präzision bei den Graustufen-Reglern
+* &lbrack;Export&rbrack; Exportieren Sie keinen Alphakanal für Texturen, die nur RGB sind
+* &lbrack;Export&rbrack; Exportvorgabe &quot;Dota 2 aktualisieren&quot;
+* &lbrack;Regal&rbrack; Neues Muster &quot;Sechseckfliesen&quot;
+* &lbrack;Regal&rbrack; Neues Werkzeug &quot;Verschweißt&quot;
+* &lbrack;Regal&rbrack; Die Abschlussfilter wurden aktualisiert, um Richtungssteuerungen bereitzustellen.
 
 **Fest:**
 
-* [Exportieren] PSD-Dateien können nicht in 8 Bit exportiert werden
-* [Export] 8K-Export ist bei einigen Hardware-Konfigurationen nicht verfügbar.
-* [Exportieren] Sketchfab-Fenster wird beschnitten
-* [Exportieren] Falsche Rauheit-Map in der Spezifikation/Glanz-Exportvoreinstellung
-* [UI] Die Eingabe in Graustufenreglern funktioniert nicht mehr
-* [UI] Filter können nicht in Substance-Eingaben (wie Generatoren) eingefügt werden
-* [UI] Einige Regler haben ein seltsames Verhalten.
-* [UI] DeltaTime +/- für Partikeln ist zu groß
-* [Iray] Einige Projekte blockieren die Anwendung beim Wechsel zu Iray
-* [Iray] Absturz beim Erkennen der Hardware
-* [Werkzeug] Die Pinselvorschaufarbe ist im Maskenmodus falsch
-* [Tool] Material Picker kann mit inkompatiblen Tools verwendet werden
-* [Tool] Projektion-Vorschau wechselt nicht zu Diffuse mit Spec/Gloss-Workflow
-* [Regal] Ändern des Standard-Shader unterbricht Smart Mats/intelligente Masken-Vorschauen
-* [Regal] Einige intelligente Material haben falsche Namen
-* [Regal] Zusätzliche Alpha-Formen sind beschädigt und werden nicht geladen
-* [Viewport] Wechseln in den Modus &quot;Zusätzliche Karte&quot; zeigt zuerst &quot;andere&quot; an
-* [Viewport] Viewport wechseln zurück zu &quot;Andere&quot;, wenn keine zusätzliche Map vorhanden ist
-* [Absturz]&#x200B;[Linux] Absturz-Bericht funktioniert nicht auf Ubuntu (Steam)
-* [Absturz]&#x200B;[Linux] Web-URL-Links funktionieren nicht auf Ubuntu (Steam)
-* [Absturz]&#x200B;[Windows] Entfernen Sie &quot;crashwatcher&quot;, wenn Substance Painter nicht mehr ausgeführt wird.
-* [Absturz]&#x200B;[Mac] Absturz-Berichtssystem funktioniert nicht richtig
-* [Absturz] Das Importieren eines Meshs, während bereits ein Mesh importiert wurde, führt zu einem Absturz
+* &lbrack;Export&rbrack; PSD-Dateien mit 8 Bit können nicht exportiert werden
+* &lbrack;Export&rbrack; 8K-Export ist bei einigen Hardware-Konfigurationen nicht verfügbar
+* &lbrack;Export&rbrack; Das Sketchfab-Fenster ist zugeschnitten
+* &lbrack;Export&rbrack; Falsche Rauheit in der Vorgabe für den Export von Spezifikation/Glanz
+* &lbrack;UI&rbrack; Die Eingabe in Graustufenreglern funktioniert nicht mehr
+* &lbrack;UI&rbrack; Es ist nicht möglich, Filter in Substance-Eingaben zu integrieren (wie Generatoren)
+* &lbrack;UI&rbrack; Einige Regler haben ein seltsames Verhalten.
+* &lbrack;UI&rbrack; DeltaTime +/- für Partikeln ist zu groß
+* &lbrack;Iray&rbrack; Einige Projekte blockieren die Anwendung beim Wechsel zu Iray
+* &lbrack;Iray&rbrack; Absturz beim Erkennen von Hardware
+* &lbrack;Werkzeug&rbrack; Die Pinselvorschaufarbe ist im Maskenmodus falsch
+* &lbrack;Werkzeug&rbrack; Die Werkzeugauswahl kann mit inkompatiblen Materialien verwendet werden
+* &lbrack;Werkzeug&rbrack; Projektion-Vorschau wechselt nicht zu Diffuse mit Spec/Gloss-Workflow
+* &lbrack;Regal&rbrack; Ändern des Standard-Shader unterbricht Smart Mats/intelligente Masken-Vorschauen
+* &lbrack;Regal&rbrack; Einige intelligente Material haben falsche Namen.
+* &lbrack;Regal&rbrack; Zusätzliche Alpha-Formen sind beschädigt und werden nicht geladen.
+* &lbrack;Viewport&rbrack; Wechseln in den Modus &quot;Zusätzliche Karte&quot; zeigt zuerst &quot;andere&quot; an
+* &lbrack;Viewport&rbrack; Viewport wechseln zurück zu &quot;Andere&quot;, wenn keine zusätzliche Map vorhanden ist
+* &lbrack;Absturz&rbrack;&lbrack;Linux&rbrack; Absturz-Bericht funktioniert nicht auf Ubuntu (Steam)
+* &lbrack;Absturz&rbrack;&lbrack;Linux&rbrack; Web-URL-Links funktionieren nicht auf Ubuntu (Steam)
+* &lbrack;Absturz&rbrack;&lbrack;Windows&rbrack; Entfernen Sie &quot;crashwatcher&quot;, wenn Substance Painter nicht mehr ausgeführt wird.
+* &lbrack;Absturz&rbrack;&lbrack;Mac&rbrack; Absturz-Berichtssystem funktioniert nicht richtig
+* &lbrack;Absturz&rbrack; Das Importieren eines Meshs, während bereits ein Mesh importiert wurde, führt zu einem Absturz
 * Textursatz beim Auswählen eines Tastaturbefehl nach einem Neustart auf nichts zurückgesetzt
 
 ### 2.1.0
@@ -3973,41 +4011,41 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [UDIM] Importieren von UDIM-Kacheln von einem Mesh als Textursatz
-* [Linux] Zusätzliche Unterstützung für CentOS 6.6 und Ubuntu 12.4
-* [Exportieren] 8K-Auflösung hinzufügen (experimentell)
-* [Exportieren] Auswahl der Bittiefe während des Exports zulassen
-* [Baker] Mehrere Textursatz gleichzeitig Baking geführt werden können
+* &lbrack;UDIM&rbrack; Importieren von UDIM-Kacheln aus einem Mesh als Textursatz
+* &lbrack;Linux&rbrack; Neue Unterstützung für CentOS 6.6 und Ubuntu 12.4
+* &lbrack;Export&rbrack; Hinzufügen einer 8K-Auflösung (experimentell)
+* &lbrack;Export&rbrack; Auswahl der Bittiefe während des Exports zulassen
+* &lbrack;Baker&rbrack; Baking mehrerer Textursatz gleichzeitig zulassen
 * Unterstützung hochauflösender Monitore (hohe DPI-Skalierung)
-* [Skripterstellung] Benutzerdefinierte Auflösung und Auffüllung pro Textur beim Export festlegen
-* [Viewport] Umschalten zwischen Textursatz durch Klicken auf den Mesh zulassen (über Strg+Alt+Klick)
-* [Viewport] Setzen Sie den Mauszeiger an die Stelle, wenn Sie mit dem Mausrad zoomen.
-* [UI] Standardhintergrundfarbe und Umgebungs-Map-Anzeige aktualisieren
-* [UI] Hinzufügen von QuickInfos mit Originalnamen für Benutzerkanäle
-* [UI] Hintergrundfarbe für Kanäle ändern, die nicht umbenannt werden können
-* [Tool] Entfernen von Häkchen bei Verwendung der schnelle Maske
-* [Shader] Gruppen für Shader-Parameter und Materialien/Masken definieren
-* [Engine] Optimierung von Kleinstprägungen
-* [Schablone] Fügen Sie &quot;W&quot; als Tastaturbefehl hinzu, um die Maske vorübergehend zu aktivieren oder zu deaktivieren.
-* [Regal] Fügen Sie eine Kreuzschaltfläche hinzu, um das Suchfeld zu löschen.
-* [Regal] Alpha mit einem Klick laden
-* [Regal] Neue Exportvorgabe : Vray UDIM, Arnold UDIM, Spec/Gloss von Metal/Rough
-* [Regal] Neue Alphas : geometrische Formen, Adern und Zeichen
+* &lbrack;Skripterstellung&rbrack; Benutzerdefinierte Auflösung und Innenabstände pro Textur beim Export festlegen
+* &lbrack;Viewport&rbrack; Erlaubt das Wechseln zwischen Textursatz durch Klicken auf den Mesh (über Strg+Alt+Klick)
+* &lbrack;Viewport&rbrack; Bewegen des Mauszeigers beim Zoomen mit dem Mausrad
+* &lbrack;UI&rbrack; Standardhintergrundfarbe und Umgebungs-Map-Anzeige aktualisieren
+* &lbrack;UI&rbrack; QuickInfos mit Originalnamen für Benutzerkanäle hinzufügen
+* &lbrack;UI&rbrack; Hintergrundfarbe für Kanäle ändern, die nicht umbenannt werden können
+* &lbrack;Werkzeug&rbrack; Entfernen von Häkchen bei Verwendung der schnelle Maske
+* &lbrack;Shader&rbrack; Erlaubt das Definieren von Gruppen für Shader-Parameter und Materialien/Masken.
+* &lbrack;Engine&rbrack; Optimierung der Kleinstprägung
+* &lbrack;Schablone&rbrack; W als Tastaturbefehl hinzufügen, um die Maske vorübergehend zu aktivieren bzw. zu deaktivieren
+* &lbrack;Regal&rbrack; Kreuzschaltfläche zum Löschen des Suchfelds hinzufügen
+* &lbrack;Regal&rbrack; Alpha mit einem Klick laden
+* &lbrack;Regal&rbrack; Neue Exportvorgabe : Vray UDIM, Arnold UDIM, Spec/Gloss von Metal/Rough
+* &lbrack;Regal&rbrack; Neue Alphas : geometrische Formen, Adern und Zeichen
 * Namen und Version in den Eigenschaften der ausführbaren Substance Painter-Datei hinzufügen
 
 **Fest:**
 
-* [Substance] Es ist nicht möglich, den normalen Kanal und die zusätzliche Karte gleichzeitig zu verwenden.
-* [Iray] MDL-Brechung und Einstellung der Absorption funktionieren nicht
-* [Iray] Originalskala der Szene wird nicht beibehalten
-* [Regal] Specular/Glanz-Vorlage verwendet einen falschen Shader
-* [Exportieren] Die Standard-Exportvorgabe exportiert einige Maps (wie AO) nicht
-* [Viewport] Der Pivot-Punkt wird nicht aktualisiert, wenn Sie außerhalb der UVs in der 2D-Ansicht klicken
-* [UI] Reglerwerte sind gerundet
-* [UI] Manchmal ist beim Bearbeiten von Reglerwerten ein sehr kleiner freier Speicherplatz vorhanden
-* [Neues Projekt] Die Dropdown-Liste &quot;Vorlage&quot; wird nicht korrekt aktualisiert (von 1.x zu 2.x)
-* [Scripting] Behobenes &quot;Hover&quot;-Verhalten bei benutzerdefinierten Schaltflächen
-* [Mac] Durch Rückgängigmachen in einem leeren Projekt wird die Kamera gesperrt
+* &lbrack;Substance&rbrack; Es ist nicht möglich, den normalen Kanal und die zusätzliche Karte gleichzeitig zu verwenden
+* &lbrack;Iray&rbrack; MDL-Brechung und Absorption-Einstellung funktionieren nicht
+* &lbrack;Iray&rbrack; Originalskala der Szene wird nicht beibehalten
+* &lbrack;Regal&rbrack; Specular/Glanz-Vorlage verwendet falschen Shader
+* &lbrack;Export&rbrack; Bei der Standard-Exportvorgabe werden einige Maps (wie AO) nicht exportiert.
+* &lbrack;Viewport&rbrack; Pivot-Punkt wird nicht aktualisiert, wenn Sie außerhalb der UVs in der 2D-Ansicht klicken
+* &lbrack;UI&rbrack; Reglerwerte sind abgerundet
+* &lbrack;UI&rbrack; Manchmal ist beim Bearbeiten der Reglerwerte der Speicherplatz sehr klein
+* &lbrack;Neues Projekt&rbrack; Die Dropdown-Liste für Vorlagen wurde nicht korrekt aktualisiert (von 1.x auf 2.x)
+* &lbrack;Skripterstellung&rbrack; &quot;Hover&quot;-Verhalten bei benutzerdefinierten Schaltflächen behoben
+* &lbrack;Mac&rbrack; Durch Rückgängigmachen für ein leeres Projekt wird die Kamera gesperrt
 
 **Bekannte Probleme:**
 
@@ -4020,17 +4058,17 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Regal] Hinzugefügte/aktualisierte Nicht-PBR-Vorlage, Shader- und Exportvoreinstellung
-* [Regal] Die UE4-Exportvorgabe wurde aktualisiert und enthält jetzt Ambient occlusion.
+* &lbrack;Regal&rbrack; Hinzugefügte/aktualisierte Nicht-PBR-Vorlage, Shader- und Exportvoreinstellung
+* &lbrack;Regal&rbrack; Die UE4-Exportvorgabe wurde aktualisiert und enthält jetzt auch Ambient occlusion
 
 **Fest:**
 
 * Absturz beim Öffnen und Speichern einiger Projekte mit beschädigten Ressourcen
-* [Viewport] Drahtgitter scheint in der 2D-Ansicht beschädigt zu sein
-* [Regal] Verbesserte Leistung einiger Studio-Umgebungs-Map
-* [Regal] Einige Studio-Umgebungs-Map werden dupliziert.
-* [Regal] Fehlendes &quot;Baking geführt Beleuchtungs-Material&quot;
-* [Regal] Fehlender Graustufen-Konvertierungsgenerator
+* &lbrack;Viewport&rbrack; Drahtgitter erscheint in der 2D-Ansicht beschädigt
+* &lbrack;Regal&rbrack; Verbesserte Performance einiger Studio-Umgebungs-Map
+* &lbrack;Regal&rbrack; Einige Studio-Umgebungs-Map sind dupliziert.
+* &lbrack;Regal&rbrack; Fehlendes &quot;Baking geführt Beleuchtungs-Material&quot;
+* &lbrack;Regal&rbrack; Fehlender Generator für &quot;Graustufen-Konvertierung&quot;
 
 ### 2.0.4
 
@@ -4041,30 +4079,30 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 * Verbessern von Mesh-Kollisionen und Optimieren des Drahtgitter-Renderings
 * Verbessern der Performance und des Arbeitsspeicher-Managements durch umfangreiche Projekte
 * Verbessern der Schiebereglerpräzision und des Schrittmachers
-* [UI] Engine nur beim Überprüfen eines Schiebereglers aktualisieren (nicht bei der Eingabe eines Werts)
-* [UI] Verschieben Sie den Iray-Schalter auf eine dedizierte Schaltfläche in der Hauptsymbolleiste (und ändern Sie den Tastaturbefehl).
-* [Tool] Hinzufügen einer Einstellung für das Verhalten &quot;Speicherort der Klonwerkzeugquelle&quot;
-* [Shader] Lesen der Mesh-Scheitelpunkt-Farben in benutzerdefinierten Shadern zulassen
-* [Scripting] Liste der Textursatz, Kanäle und Ebenen abrufen
-* [Skripterstellung] Hinzufügen von Helfer-Funktionen (URL zum Pfad, Exportpfad aus Projekt abrufen)
-* [Mac] Erkennen der Mac OS-&quot;El Capitan&quot;-Version in der Protokolldatei
+* &lbrack;UI&rbrack; Engine nur bei der Validierung eines Schiebereglers aktualisieren (nicht bei der Eingabe eines Werts)
+* &lbrack;UI&rbrack; Iray-Switch auf eine dedizierte Schaltfläche in der Hauptsymbolleiste bewegen (und seinen Tastaturbefehl ändern)
+* &lbrack;Werkzeug&rbrack; Einstellung für das Quellspeicherortverhalten des Klonwerkzeugs hinzufügen
+* &lbrack;Shader&rbrack; Lesen der Scheitelpunkt-Farben von Meshs in benutzerdefinierten Shadern zulassen
+* &lbrack;Skripterstellung&rbrack; Liste der Textursatz, Kanäle und Ebenen abrufen
+* &lbrack;Skripterstellung&rbrack; Helfer-Funktionen hinzufügen (URL zum Pfad, Exportpfad aus Projekt abrufen)
+* &lbrack;Mac&rbrack; Erkennen der Mac OS-&quot;El Capitan&quot;-Version in der Protokolldatei
 
 **Fest:**
 
 * Absturz nach zweitem Export auf Substance share
 * Absturz beim Kopieren einer Ebene zwischen Textursätzen mit Schnelle Maske-Daten.
 * Einige Projekte haben einen sehr langen Updater, der viel Speicher beansprucht
-* [Tool] Absturz bei der Auswahl einer Partikel-Vorgabe mit dem Klon-/Verwischen-Werkzeug
-* [Baker] Das Laden von FBX dauert bei großen Meshs zu lange
-* [Viewport] Gedehnt Umgebungs-Map auf einigen Computern
-* [Viewport] Falsche Gamma-Konvertierung des Alpha-Werts des Pinsels
-* [Exportieren] Alpha wird als Transparenz gespeichert und nicht als separater Kanal mit Tiff-Dateien.
-* [Export] Der normale Kanal wird immer als OpenGL exportiert
-* [Iray] Fehlende Schiebereglernamen für Iray-Einstellungen
-* [Iray] Rendern erfolgt mit einer falschen Auflösung bei Retina/hohem DPI-Wert
-* [Iray] Absturz beim Ändern der Größe der Benutzeroberfläche im Iray-Modus
-* [Iray] Hohe Leistungsverlangsamung beim Rendern mit einigen niedrigen Auflösungen
-* [Iray] Pause funktioniert nicht (Iray wird noch im Hintergrund berechnet)
+* &lbrack;Werkzeug&rbrack; Absturz beim Auswählen einer Partikel-Vorgabe mit dem Klon-/Verwischen-Werkzeug
+* &lbrack;Baker&rbrack; Das Laden von FBX dauert bei großen Meshs zu lange
+* &lbrack;Viewport&rbrack; Gedehnt Umgebungs-Map auf einigen Computern
+* &lbrack;Viewport&rbrack; Falsche Gamma-Konvertierung der Alpha-Zahl des Pinsels
+* &lbrack;Export&rbrack; Alpha wird als Transparenz gespeichert und nicht als separater Kanal mit Tiff-Dateien.
+* &lbrack;Export&rbrack; Normaler Kanal wird immer als OpenGL exportiert
+* &lbrack;Iray&rbrack; Fehlende Schiebereglernamen für Iray-Einstellungen
+* &lbrack;Iray&rbrack; Das Rendern erfolgt mit einer falschen Auflösung bei Retina/High DPI.
+* &lbrack;Iray&rbrack; Absturz beim Skalieren der Benutzeroberfläche im Iray-Modus
+* &lbrack;Iray&rbrack; Hohe Leistungsverlangsamung beim Rendern mit einigen niedrigen Auflösungen
+* &lbrack;Iray&rbrack; Pause funktioniert nicht (Iray wird noch im Hintergrund berechnet)
 * Normale Kanäle weisen manchmal schwarze Quadrate auf.
 * Normale Kanäle werden durch Graustufenfilter invertiert.
 * Der Normalkanal wird nicht richtig überblendet, wenn der Stapel über Alpha verfügt
@@ -4079,11 +4117,11 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Iray] Spezifikations-/Glanzvorlage und Shader aktualisieren, um mit Iray kompatibel zu sein
-* [Exportieren] Möglichkeit zum Export von Screenshots nach ArtStation
-* [Skripterstellung] Unterstützen Sie die Ausführung aus dem Plug-In-Verzeichnis
-* [Skripterstellung] &quot;Speichern unter&quot; zulassen
-* [UI] Doppelklicken auf einen Schieberegler zulassen, um seinen Wert zu bearbeiten
+* &lbrack;Iray&rbrack; Spezifikations-/Glanzvorlage und Shader aktualisieren, um mit Iray kompatibel zu sein
+* &lbrack;Export&rbrack; Screenshots nach ArtStation exportieren
+* &lbrack;Skripterstellung&rbrack; Unterstützt die Ausführung aus dem Plug-in-Verzeichnis
+* &lbrack;Skripterstellung&rbrack; &quot;Speichern unter&quot; zulassen
+* &lbrack;UI&rbrack; Doppelklicken auf einen Schieberegler, um den Wert zu bearbeiten
 * Vela-Beispiel auf Substance share verschieben
 * Neues Beispielprojekt : Kugelvorschau
 * Benutzer vor einem Konflikt mit Shellerweiterungen warnen
@@ -4091,16 +4129,16 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 **Fest:**
 
 * Installation von Substance Painter 1.x durch Installationsprogramm außer Kraft gesetzt
-* [UI] Das Layout der Kanalliste wurde mit Filtern unterbrochen
-* [UI] Shader-Parameter werden nicht angezeigt.
-* [UI] Die Größenänderung des Ebenenfensters schneidet den Inhalt falsch zu
-* [Werkzeug] Der Deckkraftkanal wird nicht immer richtig verwendet
-* [Tool] Verwischen/Klon funktioniert nicht mit Symmetrie
-* [Werkzeug] Die Deckkraft der Pinselvorschau ist bei einigen Kanälen falsch
-* [Iray] Absturz bei Verwendung von Iray, obwohl es noch nicht erstellt wurde
-* [Iray] Die Grafikeinstellungsdaten können nicht aus dem Projekt geladen werden.
-* [Iray] Iray kümmert sich nicht um die Einstellungsänderung, nachdem sie angehalten wurde
-* [Regal] Das Importieren eines Materials in das Regal funktioniert nicht
+* &lbrack;UI&rbrack; Das Layout der Kanalliste wurde mit Filtern unterbrochen
+* &lbrack;UI&rbrack; Shader-Parameter werden nicht angezeigt
+* &lbrack;UI&rbrack; Durch Ändern der Größe des Ebenenfensters wird der Inhalt falsch zugeschnitten
+* &lbrack;Werkzeug&rbrack; Der Deckkraftkanal wird nicht immer richtig verwendet
+* &lbrack;Werkzeug&rbrack; Verwischen/Klon funktioniert nicht mit Symmetrie
+* &lbrack;Werkzeug&rbrack; Die Deckkraft der Pinselvorschau ist bei einigen Kanälen falsch
+* &lbrack;Iray&rbrack; Absturz bei der Verwendung von Iray, obwohl es noch nicht erstellt wurde
+* &lbrack;Iray&rbrack; Die Rastereinstellungsdaten aus dem Projekt können nicht geladen werden.
+* &lbrack;Iray&rbrack; Iray kümmert sich nicht um die Einstellungsänderung, nachdem sie angehalten wurde
+* &lbrack;Regal&rbrack; Das Importieren eines Materials in das Regal funktioniert nicht
 * Schablone funktioniert nicht mit dem normalen Kanal
 * Absturz beim Malen in einigen Projekten
 * Absturz beim Malen mit Partikeln in einigen Projekten
@@ -4123,43 +4161,43 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 * Hinzufügen eines normalen Kanals standardmäßig für neue Projekte
 * Benutzerdaten-Tag vom Ausgabeknoten lesen, um Kanäle einer Substanz standardmäßig zu aktivieren/deaktivieren
 * Normale/AO-Füllmethode in den TextureSet-Einstellungen gelegt
-* [Werkzeug] Neues Verwischen-Werkzeug zum Mischen und Verteilen von Farben
-* [Tool] Neues Klon-Tool zum Kopieren von Teilen von Texturen
-* [Tool] Kanäle für das Verwischen-, Klon- und Radiergummi-Werkzeug auswählen
-* [Ebene] Hinzufügen eines Substance-Namens für den Namen des Fülleffekts
-* [Ebene] Maske in Zwischenablage exportieren
-* [Viewport] Wechseln zwischen Perspektive und orthografischem Modus
-* [Viewport] Sichtfeld im Perspektive-Modus steuern
-* [Viewport] Erlaubt das Festlegen der Tiefe des Feldabstands mit STRG+Mittelklick.
-* [Viewport] Lassen Sie zu ziehen und legen Sie Umgebungs-Map in der 3D-Ansicht.
-* [Viewport] Verbessertes Feedback, wenn das Engine starke Berechnungen ausführt
-* [Exportieren] Exportieren von Shader-Parametern in eine JSON-Datei zulassen
-* [UI] Benutzeroberfläche mit neuen Symbolen, Farben und Layout aktualisieren
-* [UI] Hinzufügen von Elementnamen zu Mini-Regalen
-* [UI] &quot;Kanal-Mapping&quot; standardmäßig reduzieren
-* [Shader] Wählen Sie eine benutzerdefinierte Farbe für die Parameter der Shader-Textur aus.
-* [Regal] Fragen Sie beim Ziehen und Ablegen von Ressourcen nach dem Speicherort für den Import von Dateien
-* [Regal] Neuer Vorschaubereich für Intelligente Material und Generatoren
-* [Regal] Specular-Glanz-Shader hinzufügen
-* [Regal] Neue Hard Surface-Formen
-* [Regal] Neue Alphas Texturen und Formen
-* [Regal] Neue Skin-Texturen
-* [Regal] Neue scanbasierte Material und Smart-Material
-* [Regal] Neue intelligenten Materials und Spec/Gloss-Unterstützung für alte
-* [Regal] Neue Finish-Filter für metallic Oberflächensimulation
-* [Regal] Neuer leistungsstarker Maskengenerator &quot;Mask Editor&quot;
-* [Regal] Überarbeitete und bereinigte alte Material
+* &lbrack;Werkzeug&rbrack; Neues Verwischen-Werkzeug zum Mischen und Verteilen von Farben
+* &lbrack;Werkzeug&rbrack; Neues Klon-Werkzeug zum Kopieren von Teilen einer Textur
+* &lbrack;Werkzeug&rbrack; Auswählen von Kanälen für das Verwischen-, Klon- und Radiergummi-Werkzeug zulassen
+* &lbrack;Ebene&rbrack; Name des Substance für den Fülleffekt hinzufügen
+* &lbrack;Ebene&rbrack; Exportieren der Maske in die Zwischenablage zulassen
+* &lbrack;Viewport&rbrack; Zwischen Perspektive und orthografischem Modus wechseln
+* &lbrack;Viewport&rbrack; Sichtfeld im Perspektive-Modus steuern
+* &lbrack;Viewport&rbrack; Erlaubt das Festlegen der Tiefe des Feldabstands mit STRG + Mittelklick
+* &lbrack;Viewport&rbrack; Lassen Sie zu ziehen und Umgebungs-Map in der 3D-Ansicht ablegen.
+* &lbrack;Viewport&rbrack; Verbessertes Feedback bei umfangreichen Berechnungen des Engine
+* &lbrack;Export&rbrack; Exportieren von Shader-Parametern in eine JSON-Datei zulassen
+* &lbrack;UI&rbrack; Benutzeroberfläche mit neuen Symbolen, Farben und Layout aktualisieren
+* &lbrack;UI&rbrack; Namen von Elementen zu Mini-Regals hinzufügen
+* &lbrack;UI&rbrack; &quot;Kanal-Mapping&quot; standardmäßig reduzieren
+* &lbrack;Shader&rbrack; Benutzerdefinierte Farbe für die Parameter der Shader-Textur auswählen
+* &lbrack;Regal&rbrack; Frage beim Ziehen und Ablegen von Ressourcen nach dem Speicherort für Dateien
+* &lbrack;Regal&rbrack; Neuer Vorschaubereich für Intelligente Material und Generatoren
+* &lbrack;Regal&rbrack; Specular Glanz Shader hinzufügen
+* &lbrack;Regal&rbrack; Neue Formen für harte Oberflächen
+* &lbrack;Regal&rbrack; Neue Alphas Texturen und Formen
+* &lbrack;Regal&rbrack; Neue Skin-Texturen
+* &lbrack;Regal&rbrack; Neue Scan-basierte Material und Smart-Material
+* &lbrack;Regal&rbrack; Neue intelligente Materialien und Spec/Gloss-Unterstützung von alten
+* &lbrack;Regal&rbrack; Neue Finish-Filter für die metallic Oberflächensimulation
+* &lbrack;Regal&rbrack; Neuer leistungsstarker Maskengenerator &quot;Maskeneditor&quot;
+* &lbrack;Regal&rbrack; Alte Materialien überarbeitet und bereinigt
 * Neues Beispielprojekt &quot;Vela&quot;
 
 **Fest:**
 
-* [Einstellungen] Drehung und Zoomgeschwindigkeit der Kamera werden vom Projekt überschrieben.
-* [Viewport] Präzisionsproblem bei der standardmäßigen normalen Textur führt zu falschen Reflexionen
-* [Viewport] Vignette ist standardmäßig aktiviert
-* [Viewport] Artefakte erscheinen an den Umgebungs-Map-Rändern (Nvidia-GPUs)
-* [Viewport] Miniaturansicht im Modus &quot;Projektion/Schablone&quot; ist sehr lang zum Laden
-* [Baker] Baking geführt Texturen in 16-Bit- statt in 32-Bit-Ganzzahl speichern
-* [Layer] Veraltete Stoffe werden im Stapel falsch dargestellt
+* &lbrack;Einstellungen&rbrack; Die Drehung der Kamera und die Zoomgeschwindigkeit werden vom Projekt außer Kraft gesetzt.
+* &lbrack;Viewport&rbrack; Genauigkeitsproblem bei der standardmäßigen normalen Textur führt zu falschen Reflexionen
+* &lbrack;Viewport&rbrack; Vignette ist standardmäßig aktiviert
+* &lbrack;Viewport&rbrack; Artefakte werden an den Umgebungs-Map-Rändern angezeigt (Nvidia-GPUs)
+* &lbrack;Viewport&rbrack; Miniaturansicht im Modus &quot;Projektion/Schablone&quot; ist sehr lang zum Laden
+* &lbrack;Baker&rbrack; Baking geführt Texturen in 16-Bit- statt in 32-Bit-Ganzzahl speichern
+* &lbrack;Ebene&rbrack; Veraltete Stoffe werden im Stapel falsch dargestellt
 * Standardfarbe und Bit-Tiefe für einige Kanäle sind falsch (z. B. : Specular, Glanz)
 * Radierverhalten zum Deaktivieren der Füllmethode im Passthrough-Modus wurde korrigiert
 
@@ -4176,8 +4214,8 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Exportieren] Fügen Sie eine Option hinzu, um die Auffüllung zu deaktivieren.
-* [Regal] Untergeordnete Elementhierarchie innerhalb eines Regal-Regals unterstützen
+* &lbrack;Export&rbrack; Hinzufügen einer Option zum Deaktivieren der Auffüllung
+* &lbrack;Regal&rbrack; Untergeordnete Elementhierarchie innerhalb eines Regal-Regals unterstützen
 
 **Fest:**
 
@@ -4185,10 +4223,10 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 * Absturz beim Öffnen eines zweiten Projekts
 * Absturz beim Laden einiger Miniaturansichten (Regal, Ebenen oder QuickInfos)
 * Die Deaktivierung von &quot;Konturpositionen auf dem Mesh beibehalten&quot; funktioniert nicht
-* [Exportieren] Hochskalieren von Bitmaps erfolgt mit nächstgelegenen Filterungen
-* [Regal] Die Suche nach Ressourcen ist sehr langsam.
-* [Regal] Weichzeichnungsfilter sind nicht 16-Bit-kompatibel.
-* [Tool] Symmetrie funktioniert nicht, wenn Sie eine alte Werkzeugvorgabe laden
+* &lbrack;Export&rbrack; Die Hochskalierung von Bitmaps erfolgt mit nächstgelegenen Filterungen
+* &lbrack;Regal&rbrack; Die Suche nach Ressourcen ist sehr langsam
+* &lbrack;Regal&rbrack; Weichzeichnungsfilter sind nicht 16 Bit kompatibel
+* &lbrack;Werkzeug&rbrack; Symmetrie funktioniert nicht, wenn Sie eine alte Werkzeugvorgabe laden
 * Das Farbdialogfeld für den Specular-Kanal führt keine Farbraumkonvertierung durch
 
 ### 1.7.2
@@ -4197,14 +4235,14 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Ebenen] Standardbearbeitung für Füllebenen zulassen
+* &lbrack;Layers&rbrack; Festlegen der Standardbearbeitung für Füllebenen zulassen
 
 **Fest:**
 
-* [Export] Sketchfab-Export funktioniert nicht mehr
-* [Ebene] Bilineare Filterungen werden auch auf die Füllung ohne Transformation angewendet
-* [Tool] Schlechte Performance bei Verwendung von Substanz mit Bildeingaben im Projektion-Modus
-* [Tool] Material-Auswahl ist defekt
+* &lbrack;Export&rbrack; Sketchfab-Export funktioniert nicht mehr
+* &lbrack;Ebene&rbrack; Bilineare Filterung wird auch bei &quot;Füllung&quot; ohne Transformation angewendet
+* &lbrack;Werkzeug&rbrack; Schlechte Projektion durch Substance-Effekte mit Bildeingaben im Bewegungsmodus
+* &lbrack;Werkzeug&rbrack; Material-Auswahl ist defekt
 
 ### 1.7.1
 
@@ -4221,42 +4259,42 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Performances] Berechnen des Inhalts von Ebenen und ihrer Miniaturansichten gleichzeitig
-* [Export] Speichern Sie den Exportpfad als relativ, wenn Sie ihn neben dem Projekt
-* [Ebenen] Neue Füllmethode hinzugefügt : Subtrahieren und Hinzufügen/Subtrahieren
-* [Layers] Neue Bilineare HQ-Filterungen für Füllebenen
-* [Shader] Legen Sie in den Voreinstellungen einen Standard-Shader für die Miniaturgenerierung fest.
-* [Shader] Geben Sie einen Shader pro Textursatz an.
-* [Shader] Texturen aus dem Regal aufnehmen
-* [Werkzeug] Neues Pinselverhalten &quot;Umbrechen&quot; für das Malen
-* [Tool] Verbesserte Filterung und reduziertes Aliasing beim Malen
-* [Tool] Verbesserte Malqualität unter Pixeln
-* [Tool] &quot;Einfache&quot; Anzeige für Pinseleinstellungen entfernt und das Symbol zum Öffnen/Schließen des Rahmens verbessert
-* [Menü] Hinzufügen von Effektsymbolen im Kontextmenü
+* &lbrack;Performances&rbrack; Berechnen des Inhalts von Ebenen und ihrer Miniaturansichten gleichzeitig
+* &lbrack;Export&rbrack; Speichern Sie den Exportpfad als relativ, wenn er sich neben dem Projekt befindet
+* &lbrack;Layers&rbrack; Neuer Mischmodus hinzugefügt : Subtrahieren und Hinzufügen/Subtrahieren
+* &lbrack;Layers&rbrack; Neue Bilineare Filterungen des Hauptquartiers für Füllebenen
+* &lbrack;Shader&rbrack; Legen Sie in den Voreinstellungen einen Standard-Shader für die Miniaturansichtenerstellung fest.
+* &lbrack;Shader&rbrack; Geben Sie einen Shader pro Textursatz an
+* &lbrack;Shader&rbrack; Texturen aus dem Regal aufnehmen
+* &lbrack;Werkzeug&rbrack; Neues Pinselverhalten &quot;Umbrechen&quot; für das Malen
+* &lbrack;Werkzeug&rbrack; Verbesserte Filterung und reduziertes Aliasing beim Malen
+* &lbrack;Werkzeug&rbrack; Verbesserte Malqualität von Subpixeln
+* &lbrack;Werkzeug&rbrack; &quot;Einfache&quot; Anzeige für Pinseleinstellungen entfernt und das Symbol zum Öffnen/Schließen des Rahmens verbessert
+* &lbrack;Menü&rbrack; Hinzufügen von Effektsymbolen im Kontextmenü
 * Vorlagenerstellung aus Projekten
-* [Regal] Neue Vorlagen : PBR, Dota 2
-* [Regal] Neue Exportvorgabe : Dota 2
-* [Regal] Neue Shader : Dota 2, PBR Car Malen, PBR Coated, PBR Velvet
-* [Regal] Neues Material : Rost und Verschleiß aus Stahl, Stilisierte Beleuchtung
-* [Regal] Neue Filter : Weichzeichnen von gerichtetem, stilisiertem Licht
-* [Regal] Neuer Pinsel : Standardmäßige weiche und Standardfestplatte mit einem neuen Alpha für eine bessere Steuerung der Härte
-* [Regal] Neue Generatoren : 3D-Abstand und -Licht
-* [Regal] Aktualisierte Pinsel mit Projektion und Rückseiten-Ausblendung des Umbruchs (standardmäßig aktiviert)
-* [Regal] Weißer Rauschen mit Pixelprozessor-Version wurde für eine schnellere Berechnung aktualisiert
+* &lbrack;Regal&rbrack; Neue Vorlagen : PBR, Dota 2
+* &lbrack;Regal&rbrack; Neue Exportvorgabe : Dota 2
+* &lbrack;Regal&rbrack; Neue Shader : Dota 2, PBR Car Malen, PBR Coated, PBR Velvet
+* &lbrack;Regal&rbrack; Neues Material : Rost und Verschleiß aus Stahl, Stilisierte Beleuchtung
+* &lbrack;Regal&rbrack; Neue Filter : Weichzeichnen von gerichtetem, stilisiertem Licht
+* &lbrack;Regal&rbrack; Neuer Pinsel : Standardmäßige weiche und Standardfestplatte mit einem neuen Alpha für eine bessere Steuerung der Härte
+* &lbrack;Regal&rbrack; Neue Generatoren : 3D-Abstand und -Licht
+* &lbrack;Regal&rbrack; Aktualisierte Pinsel mit Projektion und Rückseiten-Ausblendung des Textumbruchs (standardmäßig aktiviert)
+* &lbrack;Regal&rbrack; Weißer Rauschen mit Pixelprozessor-Version wurde für eine schnellere Berechnung aktualisiert
 
 **Fest:**
 
-* [Begrüßungsbildschirm] Tutorials-Link an alte Videos senden
-* [Channels] Wenn &quot;Nein&quot; zur Erstellung von Füllebenen mit AO gesagt wird, wird immer noch die Ebene erstellt.
-* [Kanäle] UserX-Kanalnamen werden in der Schnittstelle nicht weitergegeben
-* [Viewport] Der Maskeneintrag ist in der Liste der Solokanäle leer.
-* [Freigeben] Exportieren eines Alpha-Elements von SP aus in die Freigabe erstellt eine unlesbare .image-Datei
-* [Lizenz] Aktivierung für Benutzernamen mit Nicht-ASCII-Zeichen beheben
-* [Shader] Farbparameterdialog verschwindet beim Auswählen einer Farbe
-* [Regal] Miniaturansichten werden nicht aus dem Speicher entladen, wenn sie nicht verwendet werden
-* [Regal] Filter mit festem Verlauf
-* [Tool] Symmetrie funktioniert nicht mit Schablone/Projektion
-* [Tool] Falscher Name beim Erstellen einer neuen Pinselvorgabe
+* &lbrack;Begrüßungsbildschirm&rbrack; Link &quot;Tutorials&quot; - an alte Videos senden
+* &lbrack;Channels&rbrack; Wenn Sie &quot;Nein&quot; zur Erstellung einer Füllebene mit AO sagen, wird trotzdem die Ebene erstellt.
+* &lbrack;Channels&rbrack; Benutzer-X-Kanalnamen werden in der Schnittstelle nicht weitergegeben
+* &lbrack;Viewport&rbrack; Der Maskeneintrag ist in der Liste der Solokanäle leer.
+* &lbrack;Share&rbrack; Beim Exportieren eines Alpha-Elements in die Freigabe vom SP wird eine unlesbare .image-Datei erstellt.
+* &lbrack;Lizenz&rbrack; Aktivierung für Benutzernamen mit Nicht-ASCII-Zeichen beheben
+* &lbrack;Shader&rbrack; Dialogfeld &quot;Farbparameter&quot; wird beim Auswählen einer Farbe ausgeblendet
+* &lbrack;Regal&rbrack; Miniaturen werden nicht aus dem Speicher entladen, wenn sie nicht verwendet werden
+* &lbrack;Regal&rbrack; Filter mit festem Verlauf
+* &lbrack;Werkzeug&rbrack; Symmetrie funktioniert nicht mit Schablone/Projektion
+* &lbrack;Werkzeug&rbrack; Falscher Name beim Erstellen einer neuen Pinselvorgabe
 * Die Option &quot;Kontur beibehalten&quot; bleibt auch beim erneuten Importieren eines Meshs deaktiviert
 * TDR (Driver Reset) beim Berechnen von Partikeln mit großen Abmessungen.
 
@@ -4268,9 +4306,9 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 * Absturz beim Öffnen des Projekts, wenn die 2D-Ansicht sichtbar ist
 * Absturz beim Erstellen einer neuen Exportvorgabe, wenn das aktuelle Regal nicht vorhanden ist
-* [Tool] Symbol für die Material-Auswahl kann angezeigt bleiben
-* [Material] Mausauswahl blendet den Mauszeiger aus, wenn gleichzeitig gemalt wird
-* [Regal] Metadaten werden nach jedem Beenden auf die Festplatte geschrieben
+* &lbrack;Werkzeug&rbrack; Symbol für die Material-Auswahl kann angezeigt bleiben
+* &lbrack;Werkzeug&rbrack; Material-Auswahl blendet den Mauszeiger aus, wenn gleichzeitig gemalt wird
+* &lbrack;Regal&rbrack; Metadaten werden nach jedem Beenden auf die Festplatte geschrieben
 
 ### 1.6.0
 
@@ -4279,46 +4317,46 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 **Hinzugefügt:**
 
 * Offizielle Unterstützung für Windows 10
-* [Substance] Reduzieren von Stoffparametergruppen standardmäßig
-* [Substance] Neues Framework hinzufügen (Verbessern der Leistung des Pixelprozessors)
-* [Viewport] Erlaubt die Deaktivierung der Anzeige der Symmetrie im Symmetrie-Modus.
-* [Viewport] Verbessern des Schattenrenderings und der Leistung
-* [Viewport] Berechnung von Schatten beim Malen anhalten
-* [Viewport] Verbessern der Drahtgitter-Renderleistung
-* [Engine] Verbessern Sie die VRAM-Speicherverwaltung, um den Speicherbedarf zu reduzieren.
-* [Engine] Verbessern der Leistungsaktualisierung auf AMD-GPUs für eine bessere Textur
-* [Engine] Deaktivieren der Einstellung für die Threaded-Optimierung auf NVIDIA-GPUs für bessere Leistung
-* [Effekt] Fügen Sie ein Tag hinzu, um eine &quot;aufgefüllte&quot; Bildeingabe anzufordern.
-* [Ebene] Präzision des UV-Versatzes/der Skalierung in der Füllung erhöhen
-* [Ebene] Skalieren Sie den Schieberegler exponentiell in der Füllung
-* [Ebene] Materialien können direkt in den Ebenenstapel gezogen und dort abgelegt werden.
-* [Ebene] Filter können direkt in den Ebenenstapel gezogen und dort abgelegt werden
-* [Ebene] Passen Sie die Maskenpinselfarbe an die neu erstellte Maskenfarbe an
-* [Shader] Mehrere Textcodes Gelegt
-* [Shader] Leg einer Gamma-/Tonzuordnungsfunktion, um benutzerdefinierte Funktionen zu ermöglichen
-* [Baker] Ändern der Standardeinstellungen für den Baker &quot;Position&quot; für die Verwendung von TriPlanar
-* [Werkzeug] Benennen Sie &quot;Geometry Decal&quot; in &quot;Polygon Fill&quot; um.
-* [Regal] Update-Generatoren zur Unterstützung von TriPlanar : MG Metallkantenverschleiß, MG Maskenbildner, MG Glasfaser, MG Dirt
-* [Regal] Aktualisieren von Materialien mit neuen Einstellungen und Entfernen nicht verwendeter Material
-* [Regal] 22 Neue intelligente Materialien (Kunststoff, Eisen, Stoff, Stahl und mehr)
-* [Regal] Aktualisieren Sie die Scharfzeichner-, Weichzeichner- und Verkrümmungsfilter mit gepolsterter Bildeingabe, um Nähte zu vermeiden
-* [Regal] Verbessern der Verkrümmungseinstellungen für eine einfachere Verwendung
-* [Regal] 2 Neue prozedurale Rauschen : 3D Perlin Rauschen und 3D Worley Rauschen
+* &lbrack;Substance&rbrack; Substanzparametergruppen standardmäßig reduzieren
+* &lbrack;Substance&rbrack; Neues Framework hinzufügen (Verbesserung der Pixelprozessor-Performance)
+* &lbrack;Viewport&rbrack; Erlaubt die Deaktivierung der Anzeige der Symmetrie-Ebene im Symmetrie-Modus.
+* &lbrack;Viewport&rbrack; Verbessern des Renderings von Schatten und der Leistung
+* &lbrack;Viewport&rbrack; Berechnung von Schatten beim Malen anhalten
+* &lbrack;Viewport&rbrack; Verbessern der Drahtgitter-Renderleistung
+* &lbrack;Engine&rbrack; Verbesserte VRAM-Speicherverwaltung zur Reduzierung des Speicherplatzbedarfs
+* &lbrack;Engine&rbrack; Verbessern der Leistungsaktualisierung auf AMD-GPUs für eine bessere Textur
+* &lbrack;Engine&rbrack; Deaktivieren der Einstellung für die Threadoptimierung auf NVIDIA-GPUs für bessere Leistung
+* &blase;Effekt&blase; Tag hinzufügen, um eine &quot;aufgefüllte&quot; Bildeingabe anzufordern
+* &lbrack;Ebene&rbrack; Präzision des UV-Versatzes/der Skalierung in der Füllung erhöhen
+* &lbrack;Ebene&rbrack; Skalierungsregler in der Füllung exponentiell machen
+* &lbrack;Ebene&rbrack; Erlauben Sie, Materialien direkt in den Ebenenstapel zu ziehen und abzulegen.
+* &lbrack;Ebene&rbrack; Ermöglicht das Ziehen und Ablegen von Filtern direkt in den Ebenenstapel
+* &lbrack;Ebene&rbrack; Maskenpinselfarbe an die neu erstellte Maskenfarbe anpassen
+* &lbrack;Shader&rbrack; Leg mehrerer Texcoords
+* &lbrack;Shader&rbrack; Leg der Gamma-/Tonzuordnungsfunktion, um benutzerdefinierte Funktionen zu ermöglichen
+* &lbrack;Baker&rbrack; Ändern der Standardeinstellungen des Bakers &quot;Position&quot; für die Verwendung von TriPlanar
+* &lbrack;Werkzeug&rbrack; Benennen Sie &quot;Geometry Decal&quot; in &quot;Polygon Fill&quot; um.
+* &lbrack;Regal&rbrack; Generatoren zur Unterstützung von TriPlanar aktualisieren : MG Metallkantenverschleiß, MG Maskenbildner, MG Glasfaser, MG Dirt
+* &lbrack;Regal&rbrack; Aktualisieren von Materials mit neuen Einstellungen und Entfernen nicht verwendeter Materials
+* &lbrack;Regal&rbrack; 22 neue intelligente Materialien (Kunststoff, Eisen, Stoff, Stahl und mehr)
+* &lbrack;Regal&rbrack; Die Filter &quot;Schärfen&quot;, &quot;Weichzeichnen&quot; und &quot;Verformen&quot; mit aufgefüllten Bilddaten aktualisieren, um Nähte zu vermeiden
+* &lbrack;Regal&rbrack; Verbessern der Verkrümmungseinstellungen für eine einfachere Verwendung
+* &lbrack;Regal&rbrack; 2 neue prozedurale Rauschen: 3D Perlin Rauschen und 3D Worley Rauschen
 
 **Fest:**
 
-* [Engine] Die Vram-Betragserkennung für die dedizierte GPU ist auf Mac falsch
-* [Engine] Texturen werden im Viewport dunkler
-* [Engine] Schlechte Performance beim Malen unter mehreren Ebenen
-* [Engine] Beim Öffnen des Projekts berechnete Ebenen unterscheiden sich von der zwischengespeicherten Version
-* [Substance] Falsche Ergebnisse in 4K auf Mac
-* [Substance] Die Parameter haben die falsche Reihenfolge.
-* [Shader] Toon- und Pixelshader sind komplett schwarz.
-* [Shader] Parameter verschwinden nach dem Ändern von env-map
-* [Regal] Absturz beim Bereitstellen von PNG-Dateien im Generatorordner
-* [Regal] Miniaturansichten werden mit niedriger Rauheit generiert
-* [Tool] Absturz bei Verwendung einer Bitmap im Pinsel-Alpha unter Windows
-* [Exportieren] Zusätzliche Kartenexportvoreinstellung exportiert jetzt eine RGB-Karte für die Position
+* &lbrack;Engine&rbrack; Die VRAM-Betragserkennung für die dedizierte GPU ist auf Mac falsch
+* &lbrack;Engine&rbrack; Texturen werden im Viewport dunkler
+* &lbrack;Engine&rbrack; Schlechte Leistung beim Malen unter mehreren Ebenen
+* &lbrack;Engine&rbrack; Beim Öffnen des Projekts berechnete Ebenen unterscheiden sich von der zwischengespeicherten Version
+* &lbrack;Substance&rbrack; Falsche Ergebnisse in 4K auf Mac
+* &lbrack;Substance&rbrack; Die Parameter haben die falsche Reihenfolge.
+* &lbrack;Shader&rbrack; Toon und verpixelte Shader sind total schwarz
+* &lbrack;Shader&rbrack; Parameter verschwinden nach dem Ändern der env-map
+* &lbrack;Regal&rbrack; Absturz beim Bereitstellen von PNG-Dateien im Generatorordner
+* &lbrack;Regal&rbrack; Miniaturansichten werden mit niedriger Rauheit generiert
+* &lbrack;Werkzeug&rbrack; Absturz bei Verwendung einer Bitmap im Pinsel-Alpha unter Windows
+* &lbrack;Export&rbrack; Eine zusätzliche Kartenexportvorgabe exportiert jetzt eine RGB-Karte für die Position
 
 ### 1.5.7
 
@@ -4334,15 +4372,15 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Regal] Verbessern der Qualität der Miniaturansichten (verwenden Sie 1K-Texturen)
+* &lbrack;Regal&rbrack; Verbessern der Qualität der Miniaturansichten (verwenden Sie 1K-Texturen)
 
 **Fest:**
 
-* [Freigeben] Kann nicht mit einem anderen Konto signiert werden
-* [Regal] Miniaturansichten sind auf der Festplatte zu groß
-* [Regal] Intelligente Materialien werden sehr langsam geladen
-* [Windows] Installation des Lizenzdiensts beheben
-* [Channels] Transmissive-Map wird standardmäßig als G8 erstellt
+* &lbrack;Share&rbrack; Anmeldung mit einem anderen Konto nicht möglich
+* &lbrack;Regal&rbrack; Miniaturansichten sind auf der Festplatte zu groß
+* &lbrack;Regal&rbrack; Intelligente Materialien sind sehr langsam
+* &lbrack;Windows&rbrack; Installation des Lizenz-Service beheben
+* &lbrack;Channels&rbrack; Transmissive map wird standardmäßig als G8 erstellt
 
 ### 1.5.5
 
@@ -4350,61 +4388,61 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Regal] Exportieren von Assets auf Substance share
-* [Regal] Hinzufügen einer neuen Kugelvorschau für Materialien
-* [Regal] Verwenden Sie die Env-Map &quot;Glaser Patio&quot; zum Generieren von Miniaturen
-* [Regal] Erhöhung der Auflösung der Miniaturbildgröße auf 512 x 512 Pixel
-* [3D-Ansicht] Umgebungsrotationswert Gelegt
-* [Windows] Anwendung signieren
+* &lbrack;Regal&rbrack; Exportieren von Assets auf Substance share
+* &lbrack;Regal&rbrack; Neue Kugelvorschau für Materialien hinzufügen
+* &lbrack;Regal&rbrack; Verwenden Sie die Env-Karte &quot;Glasüberdachter Patio&quot; zum Generieren von Miniaturen
+* &lbrack;Regal&rbrack; Auflösung der Miniaturbildgröße auf 512 x 512 Pixel erhöhen
+* &lbrack;3D-Ansicht&rbrack; Umgebungsdrehungswert gelegt
+* &lbrack;Windows&rbrack; Anwendung signieren
 
 **Fest:**
 
-* [Baker] Falsche Ergebnisse beim gleichzeitigen Baking führ von Maps
-* [3D-Ansicht] Die Env-Map wird angezeigt, wenn kein Projekt geöffnet ist
-* [Ebenen] Maskengenerator funktionieren nicht auf Ebeneninhalten
-* [Ebenen] Sie können auf ausgeblendeten Ebenen Malen
-* [Regal] Dirt\_5 und Dirt\_6 Rauschen sind identisch.
-* [Regal] Einige Maskengenerator sind verpixelt oder haben eine niedrige Qualität
-* [Werkzeug] Falsche Gizmo-Drehung um bestimmte Winkel.
-* [Tool] Zu viele Kanäle führen zum Ausschneiden der Kanalschaltflächen
-* [Tool] Umkehren des Tastaturbefehl der Maske für die Schnelle Maske funktioniert nicht
-* [Exportieren] Sketchfab: Schaltfläche &quot;Abbrechen&quot; wird nicht korrekt berücksichtigt
-* [Lizenz] Aktivierung fehlgeschlagen, wenn die Lizenz nicht kopiert werden kann
+* &lbrack;Baker&rbrack; Falsche Ergebnisse beim gleichzeitigen Baking von Karten
+* &lbrack;3D-Ansicht&rbrack; Die Env-Map wird angezeigt, wenn kein Projekt geöffnet ist
+* &lbrack;Layers&rbrack; Maskengenerator funktionieren nicht auf Ebeneninhalten
+* &lbrack;Layers&rbrack; Sie können Malen auf ausgeblendeten Ebenen durchführen
+* &lbrack;Regal&rbrack; Rauschen mit Dirt_5 und Dirt_6 sind identisch
+* &lbrack;Regal&rbrack; Einige Maskengenerator sind verpixelt oder haben eine niedrige Qualität
+* &lbrack;Werkzeug&rbrack; Falsche Gizmo-Drehung um bestimmte Winkel.
+* &lbrack;Werkzeug&rbrack; Zu viele Kanäle führen dazu, dass die Kanalschaltflächen abgeschnitten werden
+* &lbrack;Werkzeug&rbrack; Tastaturbefehl der Maske für Schnelle Maske umkehren funktioniert nicht
+* &lbrack;Export&rbrack; Sketchfab: Schaltfläche &quot;Abbrechen&quot; wird nicht korrekt berücksichtigt
+* &lbrack;Lizenz&rbrack; Aktivierung fehlgeschlagen, wenn die Lizenz nicht kopiert werden kann
 * Der Framerate-Begrenzer funktioniert nicht mehr auf der Benutzeroberfläche
 
 ### 1.5.0
 
 *(Freigegeben: 20. August 2015)*
 
-<b>Hinzugefügt:</b>
+**Hinzugefügt:**
 
-* [Shader] Zeilennummer in Fehlermeldungen beim Kompilieren des Shader hinzufügen
-* [Regal] Verbessern der Qualität von Miniaturansichten
-* [Regal] Automatisierte Miniaturgenerierung für Intelligenten Materials
-* [Tool] Tastaturbefehl zur Einstellung der Härte im Stoff
-* [Werkzeug] Graustufen-Widget für Geometrieaufkleber verwenden, wenn Sie sich über einer Maske befinden
-* [Tool] Tastaturbefehl zum Invertieren der Malen-Farbe beim Malen auf einer Graustufenkarte
-* [Viewport] Drahtgitter anzeigen und Farbänderung zulassen
-* [Viewport] Weichzeichnen des Umgebungshintergrunds
-* [Steuerelemente] Hinzufügen der Drehung zu Kurzbefehlen der Pinselmaus
-* [Exportieren] Nach Sketchfab exportieren
-* [Exportieren] Erstellen von Exportvorgaben für Renderer
-* [Exportieren] Konvertierte Map-Reflexion hinzufügen, F0 und 1/IOR
-* [UI] Begrüßungsbildschirm hinzufügen
-* [UI] Standardlayout aktualisieren
-* [UI] Hinzufügen fehlender QuickInfos und Umbenennen einiger Menüeinträge
-* [Ebenen] Exportieren der aktuell ausgewählten Maske als Bitmap
-* [Ebenen] Hinzufügen der Aktion &quot;Maske umkehren&quot; im Kontextmenü
+* &lbrack;Shader&rbrack; Zeilennummer in Fehlermeldungen beim Kompilieren von Shader hinzufügen
+* &lbrack;Regal&rbrack; Verbessern der Vorschauqualität von Miniaturen
+* &lbrack;Regal&rbrack; Miniaturansichten für Intelligenten Materials automatisch erstellen
+* &lbrack;Werkzeug&rbrack; Tastaturbefehl zur Einstellung der Härte im Stoff
+* &lbrack;Werkzeug&rbrack; Graustufen-Widget für Geometrieaufkleber verwenden, wenn Sie sich über einer Maske befinden
+* &lbrack;Werkzeug&rbrack; Tastaturbefehl zum Umkehren der Malen-Farbe beim Malen auf einer Graustufenkarte
+* &lbrack;Viewport&rbrack; Anzeige des Drahtgitter und Farbänderung zulassen
+* &lbrack;Viewport&rbrack; Hintergrund der Umgebung weichzeichnen
+* &blbrack;Steuerung&blbrack; Hinzufügen von Drehung zu Pinselmaus-Kurzbefehlen
+* &lbrack;Export&rbrack; Exportieren nach Sketchfab
+* &lbrack;Export&rbrack; Erstellen von Exportvorgaben für Renderer
+* &lbrack;Export&rbrack; Konvertierte Abbildung hinzufügen - Reflexion, F0 und 1/IOR
+* &lbrack;UI&rbrack; Startbildschirm hinzufügen
+* &lbrack;UI&rbrack; Standardlayout aktualisieren
+* &lbrack;UI&rbrack; Hinzufügen fehlender QuickInfos und Umbenennen einiger Menüeinträge
+* &lbrack;Layers&rbrack; Exportieren der aktuell ausgewählten Maske als Bitmap
+* &lbrack;Layers&rbrack; Aktion &quot;Maske umkehren&quot; im Kontextmenü hinzufügen
 
-<b>Fest:</b>
+**Fest:**
 
-* [Project] Wenn sich die Mesh-Pivots im FBX unterscheiden, werden die Mesh beim Importieren aufgelöst
-* [Substance] Substance in Projektion-Tools sind in 256\*256 gesperrt
-* Absturz [Ebenen] bei Verwendung von &quot;Maske löschen&quot;
-* [Exportieren] Falsche Gamma-Konvertierung auf sehr dunklen Texturen
-* [Export] Positionszuordnung kann nur in Exportvorgaben als Graustufenzuordnung verwendet werden
-* [Tool] Die Anfangsfarbe des Geometrie-Aufklebers ist schwarz, wenn er auf einer Maske verwendet wird
-* [Tool] Der Tastaturbefehl &quot;Drehung&quot; funktioniert nicht, wenn keine Härte im Alpha-Wert vorhanden ist
+* &lbrack;Projekt&rbrack; Wenn sich die Pivot-Werte der Meshs in der FBX unterscheiden, werden die Meshs beim Importieren explodiert
+* &lbrack;Substance&rbrack; Substance in Projektion-Tools sind in 256\*256 gesperrt
+* &lbrack;Layers&rbrack; Absturz bei Verwendung von &quot;Maske löschen&quot;
+* &lbrack;Export&rbrack; Falsche Gamma-Konvertierung auf sehr dunklen Texturen
+* &lbrack;Export&rbrack; Die Positionszuordnung kann nur in Exportvorgaben als Graustufenzuordnung verwendet werden.
+* &lbrack;Werkzeug&rbrack; Die Anfangsfarbe des Geometrie-Aufklebers ist schwarz, wenn er auf einer Maske verwendet wird
+* &lbrack;Werkzeug&rbrack; &quot;Drehung - Tastaturbefehl&quot; funktioniert nicht, wenn keine Härte im Alpha-Wert vorhanden ist
 
 ### 1.4.2
 
@@ -4412,7 +4450,7 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [Tool] Absturz bei Verwendung von Geometrieaufkleber mit schnelle Maske
+* &lbrack;Werkzeug&rbrack; Absturz bei der Verwendung von Geometrieaufklebern mit schnelle Maske
 * Beim Aktualisieren des Projekts von 1.4.0 auf 1.4.1 wird der gesamte Computerspeicher belegt.
 * Falscher Import des alten Projektformats
 * Bei benutzerdefinierten Regalen wird die gesamte Hierarchie analysiert, und Assets werden überall dupliziert.
@@ -4423,24 +4461,24 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Viewport] Fenster nebeneinander andocken
-* [Effekt] Hinzufügen eines Hintergrunds und eines Lineals für den Ebeneneffekt
-* [Effekt] Fügen Sie einen Malen-Effekt hinzu, der es ermöglicht, über andere Effekte zu arbeiten
+* &lbrack;Viewport&rbrack; Andocken von Fenstern nebeneinander zulassen
+* &blase;Effekt&blase; Hinzufügen eines Hintergrunds und eines Lineals für den Ebeneneffekt
+* &blase;Effekt&blase; Einen Malen-Effekt hinzufügen, der es ermöglicht, über andere Effekte zu arbeiten
 
 **Fest:**
 
-* [Regal] Miniaturgenerierung funktioniert nicht, wenn kein Projekt geöffnet ist
-* [Regal] Materialvorgabe-Vorschau kann nicht generiert werden
-* [Regal] Material-Vorschauen werden auf einem Mesh mit invertierten Normalwerten generiert
-* [Regal] Miniaturansichten werden aufgrund einer falschen Hashfunktion immer neu berechnet
-* [Regal] Durch Klicken auf ein Substance-Material werden keine zusätzlichen Maps verbunden.
-* [Tool] Falscher Wert, der mit der Material-Auswahl aufgenommen wurde
-* [Tool] Farbwähler wählt Viewport-Cursorfarbe aus
-* [2D-Ansicht] Sehr niedrige Framerate/Performance
-* [Exportieren] Absturz beim Öffnen des Exportfensters mit zu aktuellen Exportvorgaben.
-* [Exportieren] Height-Kanal auf Normalen-Map wird in den falschen Speicherplatz konvertiert
-* [Mac] BaseColor aus Substance-Effekten wird als Linear angezeigt
-* [Mac] Das Widget für gerade Linien ist auf der Retina falsch gezeichnet
+* &lbrack;Regal&rbrack; Miniaturgenerierung funktioniert nicht, wenn kein Projekt geöffnet ist
+* &lbrack;Regal&rbrack; Materialvorgabe-Vorschau kann nicht generiert werden
+* &lbrack;Regal&rbrack; Material-Vorschauen werden auf einem Mesh mit invertierten Normalen generiert
+* &lbrack;Regal&rbrack; Miniaturen werden aufgrund einer falschen Hash-Funktion immer neu berechnet
+* &lbrack;Regal&rbrack; Wenn Sie auf ein Substance-Material klicken, werden keine zusätzlichen Maps verbunden.
+* &lbrack;Werkzeug&rbrack; Falscher Wert, der mit der Material-Auswahl aufgenommen wurde
+* &lbrack;Werkzeug&rbrack; Farbwähler Viewport auswählen Cursorfarbe
+* &lbrack;2D-Ansicht&rbrack; Sehr niedrige Framerate/Performance
+* &lbrack;Export&rbrack; Absturz beim Öffnen des Exportfensters mit zu aktuellen Exportvorgaben.
+* &lbrack;Export&rbrack; Height-Kanal auf Normalen-Map wird in den falschen Bereich konvertiert
+* &lbrack;Mac&rbrack; BaseColor aus Substance-Effekten wird als Linear angezeigt
+* &lbrack;Mac&rbrack; Widget für gerade Linien wurde auf der Retina falsch gezeichnet
 * Gerade Linien können auch bei einem Loslassen des Tastaturbefehl aktiviert bleiben.
 * Gerade Linien Guizmo verschwinden nach dem Drehen des Umgebungs-Map
 * Ambient occlusion-Ausgänge von Stoffen werden nicht automatisch an den AO-Kanal angeschlossen
@@ -4452,13 +4490,13 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Exportieren] Fügen Sie der Liste der verfügbaren Eingabe-Map weitere Maps hinzu
-* [Regal] Verwenden von SBSAR-Materialien als Materialvorgaben
-* [Regal] Benutzerdefinierte Bibliothekspfade verwenden
-* [Regal] Mindestgröße ändern
-* [Regal] Neuer Inhalt : 20 neue intelligente Material
-* [Regal] Neuer Inhalt : neuer prozeduraler Stoff (Gewebe, Mesh)
-* [Regal] Aktualisierter Weichzeichnungsfilter
+* &lbrack;Export&rbrack; Zusätzliche Maps in der Liste der verfügbaren Eingabe-Map hinzufügen
+* &lbrack;Regal&rbrack; SBSAR-Materialien als Materialvorgaben verwenden
+* &lbrack;Regal&rbrack; Verwenden benutzerdefinierter Bibliothekspfade zulassen
+* &lbrack;Regal&rbrack; Die Mindestgröße ändern.
+* &lbrack;Regal&rbrack; Neue Inhalte : 20 neue intelligente Material
+* &lbrack;Regal&rbrack; Neue Inhalte : neuer prozeduraler Stoff (Gewebe, Mesh)
+* &lbrack;Regal&rbrack; Aktualisierter Weichzeichnungsfilter
 * Zeichnen von geraden Linien mit einer Zusatztaste
 * Hinzufügen eines Ambient occlusion-Kanals und Überarbeiten des AO/Normal-Verhaltens im Ebenenstapel
 * Lesen der Standardfarbe aus der Bildeingabe, die in den Substance-Benutzerdaten definiert ist
@@ -4466,19 +4504,19 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [Baker]&#x200B;[Mac] Absturz mit Normal vom Mesh Baker
-* [Baker] Absturz, wenn die Käfig-Datei keine UVs enthält
-* [Baker] Das Abgleichen nach Namen funktioniert nicht mit aus zBrush exportierten OBJ
-* [Baker] Das Baking mit einem Käfig überschreibt das Baking, wenn mehrere Textursatz und überlappende UVs verwendet werden.
-* [Baker] Bestimmte OBJ führen zu schwarzen Texturen
-* [Regal] Ressourcen können nicht gelesen werden, wenn sie auf schreibgeschützt festgelegt sind
-* [Regal] Asset-Dateien werden in Painter geschrieben, wenn sie im Projekt verwendet wurden.
-* [Regal] Das erneute Laden von Stoffen aktualisiert auch die Schicht
-* [Exportieren] Tiff exportiert 32-Bit-Bilder, die von Photoshop oder Game-Enginen nicht richtig gelesen werden können
-* [Exportieren] Standardkanalvoreinstellung exportiert immer als RGB
-* [Material] Diffuse-Kanal überschreibt BaseColor-Zuordnung mit Substanzen
-* [3D-Ansicht] Falsche Beleuchtung von Diffusen mit spezifischen Umgebungskarten
-* [Tool] Ein Pinsel kann nicht in einen bestimmten Winkel gedreht werden
+* &lbrack;Baker&rbrack;&lbrack;Mac&rbrack; Absturz mit Normal vom Mesh Baker
+* &lbrack;Baker&rbrack; Absturz, wenn die Käfig-Datei keine UVs enthält
+* &lbrack;Baker&rbrack; Das Abgleichen nach Namen funktioniert nicht mit aus zBrush exportierten OBJ
+* &lbrack;Baker&rbrack; Beim Baking mit einem Käfig wird das Baking überschrieben, wenn mehrere Textursatz und überlappende UVs verwendet werden.
+* &lbrack;Baker&rbrack; Bestimmte OBJ führen zu schwarzen Texturen
+* &lbrack;Regal&rbrack; Ressourcen können nicht gelesen werden, wenn sie auf schreibgeschützt festgelegt sind
+* &lbrack;Regal&rbrack; Asset-Dateien werden in Painter geschrieben, wenn sie im Projekt verwendet wurden.
+* &lbrack;Regal&rbrack; Durch erneutes Laden von Stoffen wird auch die Schicht aktualisiert
+* &lbrack;Export&rbrack; Tiff exportiert 32-Bit-Bilder, die von Photoshop oder Game-Enginen nicht richtig gelesen werden können
+* &lbrack;Export&rbrack; Standardkanalvorgaben werden immer als RGB exportiert
+* &lbrack;Material&rbrack; Diffuse-Kanal überschreibt BaseColor-Zuordnung mit Stoffen
+* &lbrack;3D-Ansicht&rbrack; Falsche Diffuse mit spezifischen Umgebungskarten
+* &lbrack;Werkzeug&rbrack; Pinsel kann nicht in einen bestimmten Winkel gedreht werden
 * Viewport erhält den Fokus, wenn der Mauszeiger während der Eingabe in einem Textfeld auf
 * Absturz mit zu aktuellen Vorgaben für die aktuelle Version des Regals
 * Absturz nach dem Ersetzen von Mesh
@@ -4491,11 +4529,11 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Lizenz] Aktivierungsproblem, wenn eine bereits vorhandene Lizenzdatei vorhanden ist
-* [Mac] Absturz beim Laden bestimmter FBX
-* [Mac]&#x200B;[3D-Ansicht] Falsche Reflektion für integrierte GPU
-* [3D-Ansicht] Schnelle Maske-Schriftart ist defekt
-* [3D-Ansicht] Material-Picker macht den Viewport komplett schwarz
+* &lbrack;Lizenz&rbrack; Aktivierungsproblem, wenn eine bereits vorhandene Lizenzdatei vorhanden ist
+* &lbrack;Mac&rbrack; Absturz beim Laden bestimmter FBX
+* &lbrack;Mac&rbrack;&lbrack;3D-Ansicht&rbrack; Falsche Spiegelung für integrierte GPU
+* &lbrack;3D-Ansicht&rbrack; Schnelle Maske-Schrift ist defekt
+* &lbrack;3D-Ansicht&rbrack; Material-Picker macht den Viewport komplett schwarz
 * Absturz nach dem Öffnen von Projekten, die in 1.3.3 erstellt wurden
 * Die Vorschau des Materials ist leer, wenn Shader mit Alpha verwendet werden
 * Malerei funktioniert nicht mehr an bestimmten Meshs
@@ -4507,8 +4545,8 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 * Verbesserte Berechnung des Projekts, das extrem lange geladen werden muss
 * Ändern Sie das Fenster &quot;GPU-Fehlerbehebung&quot;, um verständlicher zu sein
-* [Ebenen] Speichern Sie den Status der Verhältnissperre für Füllebenen und machen Sie sie standardmäßig &quot;Ein&quot;
-* [Baker] Bei der Namensübereinstimmung wird jetzt das Suffix als Trennzeichen verwendet.
+* &lbrack;Layers&rbrack; Speichern Sie den Status der Verhältnissperre für Füllebenen und stellen Sie sie standardmäßig auf &quot;Ein&quot;
+* &lbrack;Baker&rbrack; Bei der Zuordnung nach Namen wird jetzt das Suffix als Trennzeichen verwendet.
 
 ### 1.3.4
 
@@ -4516,16 +4554,16 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Mac] Absturz mit Mac OS X Yosemite (10.10)
-* [Mac] Vollbildmodus kann nicht beendet werden
-* [Baker] Das Baking der Option &quot;Nach Namen abgleichen&quot; funktioniert nicht
-* [Baker] Mikk-Tangente-Speicherplatz in SP funktioniert nicht mit UE4
-* [Baker] ID-Baker kann die ID-Farben des Materials nicht Baking geführt werden
-* [2D-Ansicht] Drahtgitter wird bei Verwendung des Geometry Decal-Werkzeugs nicht angezeigt
-* [Tool] Pinsel-Alphakanal wird bei Materialien als Checker anstelle von Transparenz angezeigt
-* [Tool] Absturz mit Geometry Decal
-* [Ebenen] Material-Slot ist bei der Füllebene standardmäßig ausgeblendet
-* [Exportieren] Absturz beim Exportieren mit einer höheren Auflösung als der Textursatz
+* &lbrack;Mac&rbrack; Absturz mit Mac OS X Yosemite (10.10)
+* &lbrack;Mac&rbrack; Vollbildmodus kann nicht beendet werden
+* &lbrack;Baker&rbrack; Baking der Option &quot;Namensübereinstimmungen&quot; funktioniert nicht
+* &lbrack;Baker&rbrack; Mikk-Tangente-Speicherplatz in SP funktioniert nicht mit UE4
+* &lbrack;Baker&rbrack; ID-Baker kann die ID-Farben des Materials nicht Baking geführt haben
+* &lbrack;2D-Ansicht&rbrack; Drahtgitter wird bei Verwendung des Geometry-Aufklebers nicht angezeigt
+* &lbrack;Werkzeug&rbrack; Pinsel-Alphakanal wird bei Materialien als Checker anstelle von Transparenz angezeigt
+* &lbrack;Werkzeug&rbrack; Absturz mit geometrischem Aufkleber
+* &lbrack;Layers&rbrack; Der Steckplatz des Materials ist bei der Füllebene standardmäßig ausgeblendet
+* &lbrack;Export&rbrack; Absturz beim Exportieren mit einer höheren Auflösung als der Textursatz
 * Specular-Kanal wird in Filtern nicht erkannt.
 * Clean + save entfernt die Ressourcen nicht ordnungsgemäß aus dem Archiv von spp
 * Speichern Sie die Low-Poly-Transformation nicht in einer High-Poly-Assbin-Datei
@@ -4549,25 +4587,25 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 * Fügen Sie Softwareversion und Projektnamen in der Titelleiste hinzu
 * Bereinigen von Textursatznamen und Intelligente Material-Namen
 * Substance Engine auf V5 aktualisieren
-* [Regal] Neue Umgebungs-Map hinzufügen : Korsika Strand, Studio 05, Tornoco Studio und mehr
-* [Regal] MG Mask Builder mit neuen Parametern aktualisieren
-* [Regal] Aktualisieren und Kalibrieren alter Umgebungs-Map
+* &lbrack;Regal&rbrack; Neue Umgebungs-Map hinzufügen : Korsika Strand, Studio 05, Tornoco Studio und mehr
+* &lbrack;Regal&rbrack; MG-Maskenbildner mit neuen Parametern aktualisieren
+* &lbrack;Regal&rbrack; Alte Umgebungs-Map aktualisieren und kalibrieren
 
 **Fest:**
 
 * Absturz beim Öffnen des Exportfensters
 * Drag &amp; Drop im UI-Widget ist nicht möglich, wenn abgedockt
 * &quot;Nach Updates suchen&quot; funktioniert nicht
-* [Ebenen] Wählen Sie die Maske nicht aus, wenn Sie bei gedrückter Alt-Taste darauf klicken
-* [Tool] Tri-planar funktioniert nicht mit dem Normalkanal
-* [3D-Ansicht] Diffuse Beleuchtung von env map ist falsch
-* [3D-Ansicht] Die Berechnung der Belichtung unterscheidet sich von Designer
-* [3D-Ansicht] Schatten sollten auf 100% metallic Fläche nicht sichtbar sein.
-* [3D-Ansicht] Mesh mit gespiegelten UVs hat gespiegelte Tangente/Binomale
-* [3D-Ansicht] Schatten führen bei bestimmten Meshs zu falschen Ergebnissen
-* [Baker] Entfernen Sie den Ordner &quot;.alg\_meta&quot;, der mit Assbin-Dateien erstellt wurde
-* [Baker] Absturz beim Baking, wenn Painter ein TextureSet gleichzeitig neu berechnet
-* [Mac] Benutzeroberflächenfehler beim Starten der Anwendung
+* &lbrack;Layers&rbrack; Wählen Sie die Maske nicht aus, wenn Sie bei gedrückter Alt-Taste darauf klicken
+* &lbrack;Werkzeug&rbrack; Tri-planar funktioniert nicht mit dem normalen Kanal
+* &lbrack;3D-Ansicht&rbrack; Diffuse Beleuchtung von env map ist nicht korrekt
+* &lbrack;3D-Ansicht&rbrack; Die Berechnung der Belichtung unterscheidet sich von der in Designer
+* &lbrack;3D-Ansicht&rbrack; Schatten sollten auf 100 % metallic Fläche nicht sichtbar sein.
+* &lbrack;3D-Ansicht&rbrack; Mesh mit gespiegelten UVs hat gespiegelte Tangente/Binomale
+* &lbrack;3D-Ansicht&rbrack; Schatten führen bei bestimmten Meshs zu falschen Ergebnissen
+* &lbrack;Baker&rbrack; Ordner &quot;.alg_meta&quot;, der mit Assbin-Dateien erstellt wurde, entfernen
+* &lbrack;Baker&rbrack; Absturz beim Baking, wenn Painter ein TextureSet gleichzeitig neu berechnet
+* &lbrack;Mac&rbrack; Benutzeroberflächenfehler beim Starten der Anwendung
 
 ### 1.3.2
 
@@ -4575,7 +4613,7 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [3D-Ansicht] Eine mit dem Projekt gespeicherte Env-Map kann nicht neu geladen werden.
+* &lbrack;3D-Ansicht&rbrack; Fehler beim erneuten Laden einer mit dem Projekt gespeicherten Env-Map.
 
 ### 1.3.1
 
@@ -4583,18 +4621,18 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Baker] Fügen Sie eine zwischengespeicherte Version von Meshs mit hohem Poly hinzu, um die Berechnung zu beschleunigen
-* [Baker] Fügen Sie ein Warnsymbol hinzu, wenn kein hochpolarer Mesh geladen wird.
-* [Baker] Wenn kein Mesh mit hoher Poly-Qualität geladen wird, verwenden Sie stattdessen den Projekt-Mesh
+* &lbrack;Baker&rbrack; Fügen Sie eine zwischengespeicherte Version von Meshs mit hohem Poly-Anteil hinzu, um die Berechnung zu beschleunigen
+* &lbrack;Baker&rbrack; Warnsymbol hinzufügen, wenn kein Mesh mit hoher Poly-Qualität geladen wird
+* &lbrack;Baker&rbrack; Wenn kein Mesh mit hoher Poly-Qualität geladen wird, verwenden Sie stattdessen den Projekt-Mesh
 
 **Fest:**
 
-* [Baker] Drücken der &quot;Eingabetaste&quot; beim Bearbeiten des Werts eines Schiebereglers, um das Fenster zu schließen
-* [Baker] Das Aktivieren/Deaktivieren eines Bakers löst ebenfalls die Schaltfläche aus.
-* [Baker] Es kann nicht Baking geführt werden, wenn Sie die Schaltfläche &quot;all/none&quot; verwenden.
-* [Baker] Die Sortierung der Baker-Schaltflächen erfolgt nicht in der richtigen Reihenfolge.
-* [Baker] Kontrollkästchen werden ignoriert und alle Baker werden immer verarbeitet.
-* [Baker] Der Fortschritt der Fortschrittsleiste wurde behoben.
+* &lbrack;Baker&rbrack; Drücken der &quot;Eingabe&quot; beim Bearbeiten des Werts eines Schiebereglers, um das Fenster zu schließen
+* &lbrack;Baker&rbrack; Das Aktivieren/Deaktivieren eines Bakers löst ebenfalls die Schaltfläche aus.
+* &lbrack;Baker&rbrack; Es kann nicht Baking geführt werden, wenn Sie die Schaltfläche &quot;all/none&quot; verwenden.
+* &lbrack;Baker&rbrack; Die Sortierung der Baker-Schaltflächen ist nicht in der richtigen Reihenfolge.
+* &lbrack;Baker&rbrack; Kontrollkästchen werden ignoriert und alle Baker werden immer verarbeitet.
+* &lbrack;Baker&rbrack; Fortschritt der Fortschrittsleiste behoben
 
 ### 1.3.0
 
@@ -4602,28 +4640,28 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Baker]&#x200B;[3D-Ansicht] Verwenden Sie die Mikkt-Tangente-Space-Berechnung, wenn keine Tangenten/Binormale gefunden wurden.
-* [Baker] Neue Baker hinzugefügt: Normal, ID, Verdeckung, Krümmung, Thickness, Position
-* [Effekte] Effekt-Stapel ist jetzt invertiert und von oben nach unten dargestellt (wie Ebenen)
-* [Effects] Hinzufügen neuer Symbole auf dem Stapel des Effekts
-* [Effects] Hinzufügen eines Mischmodus zwischen Füllaktionen im Effekt-Stapel
-* [Effekte] Umbenennen von Effekten (Substance-Effekt = Filter usw.)
+* &lbrack;Baker&rbrack;&lbrack;3D-Ansicht&rbrack; Mikkt-Tangente-Raum-Berechnung verwenden, wenn keine Tangenten/Binormale gefunden wurden
+* &lbrack;Baker&rbrack; Neue Baker hinzugefügt : Normal, ID, Verdeckung, Krümmung, Thickness, Position
+* &blase;Effekte&blase; Der Stapel &quot;Effekt&quot; ist jetzt invertiert und wird von oben nach unten (wie Ebenen) angezeigt.
+* &blase;Effekte&blase; Hinzufügen neuer Symbole auf dem Stapel des Effekts
+* &blase;Effekte&blase; Fülloptionen im Stapel &quot;Effekt&quot; mit Füllmethode versehen
+* &blase;Effekte&blase; Effekte umbenennen (Substance-Effekt = Filter, usw.)
 * Hinzufügen einer &quot;gesperrten&quot; Datei während des Speichervorgangs
-* [Effects] Aktion &quot;Füllen&quot; im Stapel &quot;Effekt&quot; hinzufügen
+* &blase;Effekte&blase; Aktion &quot;Füllen&quot; im Stapel &quot;Effekt&quot; hinzufügen
 * Neue Ressource hinzugefügt : Intelligente Materialien
-* [Ebenen] Neuanordnung von Ebeneneffekten zulassen
-* [Tool] Drei-Planare Projektion hinzufügen
-* [3D-Ansicht] Unterstützung für Schatten hinzufügen
-* [3D-Ansicht] Möglichkeit, erforderliche OpenGL-Status in benutzerdefinierte Shader umzuwandeln
-* [3D-Ansicht] Unterstützung für Alpha über neue Shader
-* [3D-Ansicht] Shader sind jetzt versioniert und vollständig in einem Projekt gespeichert
-* [3D-Ansicht] Warnen Sie den Benutzer, wenn der Shader nicht mehr kompiliert wird
+* &lbrack;Layers&rbrack; Neuanordnung von Ebeneneffekten zulassen
+* &lbrack;Werkzeug&rbrack; Planare Projektion hinzufügen
+* &lbrack;3D-Ansicht&rbrack; Unterstützung für Schatten hinzufügen
+* &lbrack;3D-Ansicht&rbrack; Möglichkeit, erforderliche OpenGL-Status in benutzerdefinierte Shader umzuwandeln
+* &lbrack;3D-Ansicht&rbrack; Unterstützung für Alpha über neue Shader
+* &lbrack;3D-Ansicht&rbrack; Shader sind jetzt versioniert und vollständig in einem Projekt gespeichert
+* &lbrack;3D-Ansicht&rbrack; Benutzer warnen, wenn der Shader nicht mehr kompiliert wird
 
 **Fest:**
 
-* [Ebenen] Ablegen unter einem reduzierten Ordner korrigieren
-* [Regal] Beheben der Filterung von Inhalten in Mini-Regals
-* [Regal] Umbenennen von Kategorien und Neuorganisieren von Registerkarten
+* &lbrack;Layers&rbrack; Ablegen unter einem reduzierten Ordner korrigieren
+* &lbrack;Regal&rbrack; Filterung von Inhalten in Mini-Regals korrigieren
+* &lbrack;Regal&rbrack; Umbenennen von Kategorien und Neuanordnen von Registerkarten
 
 ### 1.2.1
 
@@ -4632,18 +4670,18 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 **Hinzugefügt:**
 
 * \*.spp-Dateien können jetzt durch einen Doppelklick im Explorer geöffnet werden
-* [Export] Neues Tag &quot;$project&quot; für Exportvorgaben
-* [Exportieren] Fügen Sie unter jedem Textursatz eine Kartenliste (mit Nomenklatur) hinzu
-* [Exportieren] Hinzufügen einer Schaltfläche Alle/Keine , um die Textursatz auszuwählen
-* [Exportieren] Leere Karten werden während des Exports verworfen
+* &lbrack;Export&rbrack; Neues Tag &quot;$project&quot; für Exportvorgaben
+* &lbrack;Export&rbrack; Kartenliste (mit Nomenklatur) unter jedem Textursatz hinzufügen
+* &lbrack;Export&rbrack; Schaltfläche &quot;Alle/Keine&quot; hinzufügen, um die Textursatz auszuwählen
+* &lbrack;Export&rbrack; Leere Karten werden beim Export verworfen
 
 **Fest:**
 
-* [Exportieren] Unity5-Vorgaben haben invertierte Karten
-* [Exportieren] Das Hinzufügen eines Schrägstrichs in einem Vorgabename führt zu einem beschädigten Ordner
-* [Exportieren] Height-Kanal, der in 32-Bit-Formate exportiert wird, ist falsch eingespannt
-* [Exportieren] Textursatz-Liste wird nicht wie im Projekt sortiert
-* [Tool] Rückseiten-Ausblendung funktioniert nicht mehr
+* &lbrack;Export&rbrack; Unity5-Vorgaben haben invertierte Karten
+* &lbrack;Export&rbrack; Durch Hinzufügen eines Schrägstrichs in einem Vorgabename wird ein beschädigter Ordner erstellt.
+* &lbrack;Export&rbrack; Height-Kanal, der in 32-Bit-Formate exportiert wird, ist falsch eingespannt
+* &lbrack;Export&rbrack; Die Liste der Textursatz wird nicht wie im Projekt sortiert
+* &lbrack;Werkzeug&rbrack; Rückseiten-Ausblendung funktioniert nicht mehr
 * Speichern funktioniert nicht mit Sonderzeichen im Pfad
 
 ### 1.2.0
@@ -4653,21 +4691,21 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 **Hinzugefügt:**
 
 * Neuer Normalkanal, der das Malen von Normalen-Map-Daten und das Kombinieren der Ergebnisse ermöglicht
-* [Exportieren] Neues Exportfenster mit der Möglichkeit, ein benutzerdefiniertes Packing zu erstellen und benutzerdefinierte Namen festzulegen
+* &lbrack;Export&rbrack; Neues Exportfenster mit der Möglichkeit, ein benutzerdefiniertes Packing zu erstellen und benutzerdefinierte Namen festzulegen
 * Das Projektdateiformat ist jetzt eine einzelne Datei anstelle von Ordnern
-* [Exportieren] Unterstützung verschiedener Normalformate (DirectX, OpenGL)
-* [Exportieren] Erstellen einer temporären Sperrdatei während des Exports
-* [Ebenen] Mit Umschalt+Nach-links-Taste können Sie eine Maske umschalten
-* [Parameter] Legt den Farbraum am unteren Rand einer Bildeingabe bei
-* [Regal] Effekt &quot;MG Mask Builder&quot; hat jetzt neue Einstellungen
-* [3D-Ansicht] Ambient occlusion-Map verschließt jetzt den diffusen Beitrag, nicht den Specular
+* &lbrack;Export&rbrack; Unterstützung verschiedener Normalformate (DirectX, OpenGL)
+* &lbrack;Export&rbrack; Erstellen einer temporären Sperrdatei während des Exports
+* &lbrack;Layers&rbrack; Umschalt+Linksklick kann zum Umschalten einer Maske verwendet werden
+* &lbrack;Parameter&rbrack; Legt den Farbraum am unteren Rand einer Bildeingabe bei
+* &lbrack;Regal&rbrack; Effekt &quot;MG Mask Builder&quot; hat jetzt neue Einstellungen
+* &lbrack;3D-Ansicht&rbrack; Ambient occlusion-Map verschließt jetzt den diffusen Beitrag, nicht den Specular
 
 **Fest:**
 
 * Projektion Material/Schablone Vorschau wird im Viewport nicht richtig angezeigt
-* [3D-Ansicht] Tastaturbefehl-QuickInfo wird nicht angezeigt, wenn &quot;S&quot; (Schablone) Tastaturbefehl verwendet wird
-* [Regal] Der Effekt &quot;MatFx Skin Scale&quot; bietet jetzt eine bessere Leistung bei niedriger Auflösung.
-* [Exportieren] Texturen vom Export werden einfach hochskaliert, wenn eine größere Dokumentgröße angegeben wird
+* &lbrack;3D-Ansicht&rbrack; Tastaturbefehl-QuickInfo wird nicht angezeigt, wenn &quot;S&quot; (Schablone) Tastaturbefehl verwendet wird
+* &lbrack;Regal&rbrack; Effekt &quot;MatFx Skin Scale&quot; hat jetzt bessere Leistung bei niedriger Auflösung
+* &lbrack;Export&rbrack; Texturen aus dem Export werden beim Festlegen einer größeren Dokumentgröße einfach hochskaliert
 
 ### 1.1.2
 
@@ -4693,17 +4731,17 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Ebene] Wählen Sie die Ebene oben aus, wenn Sie ein Projekt öffnen/den Textursatz wechseln.
+* &lbrack;Ebene&rbrack; Auswählen der Ebene oben beim Öffnen eines Projekts/Wechseln zwischen Textursätzen
 * Verbesserte Geschwindigkeit beim Speichern und Speichern unter mit neuem Komprimierungsalgorithmus
 * Anzeige eines Fehlers beim Öffnen eines zu aktuellen Projekts für Painter
 
 **Fest:**
 
-* [Tool] Geometrie Decal produziert Speicherbeschädigungen
-* [Pinsel] Gleitkommawerte unter 1 können für die Pinselgröße nicht manuell eingegeben werden
-* [Ebene] Durch Erstellen eines Farbauswahl-Effekts wird dieser nicht in den Ebenenstapel eingefügt
-* [Ebene] Wenn Sie den Mauszeiger über die Ebenen bewegen, schnipst Painter in die Taskleiste
-* [Ebene] Das Hinzufügen einer Bitmap als Maske kann zu einem Absturz führen
+* &lbrack;Werkzeug&rbrack; Geometry Decal produziert Speicherbeschädigungen
+* &Klammer;Pinsel&Klammer; Es ist nicht möglich, Schwimmerwerte unter 1 für die Pinselgröße manuell einzugeben
+* &lbrack;Ebene&rbrack; Durch das Erstellen eines Farbauswahl-Effekts wird dieser nicht in den Ebenenstapel eingefügt
+* &lbrack;Ebene&rbrack; Wenn Sie den Mauszeiger über die Ebenen bewegen, wechselt Painter in die Taskleiste.
+* &lbrack;Ebene&rbrack; Das Hinzufügen einer Bitmap als Maske kann zu einem Absturz führen
 * GUI für den Solo-Modus mit dem Height-Kanal ist falsch
 * &quot;Projekt speichern&quot; kann fehlschlagen und ein Projekt beschädigen
 * Absturz beim Öffnen eines Projekts nach dem Laden eines anderen Projekts mit einem veralteten Shader
@@ -4714,24 +4752,24 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Effekt] Ersteller einer neuen Materialien-ID-Maske
+* &blase;Effekt&blase; Erstellen einer neuen Materialien-ID-Maske
 * Neue gepunktete weiße/schwarze Linie für das Pinsel-Gizmo
 * Neuer Parameter &quot;Winkelfolge&quot;
 * Neuer Parameter &quot;Rückseiten-Ausblendung&quot;
 * Neuer Parameter für die Verzögerte Mausbewegung
-* [Ebenen] Unterstützung für Mehrfachauswahl und -verwaltung
-* [Ebenen] Kopieren und Einfügen von einem Textursatz in einen anderen
-* [Exportieren] Adobe Photoshop PSD-Format
-* [Regal] Neues Tool : Fell, Metallstiche und Reißverschluss
-* [Regal] Neuer Pinsel : Schimmel, Bleistift, scharfe Linie und Stich
-* [Regal] Neues Alpha : Gaußsches Rauschen, scharfe Linie, Form, Stift, Spritzen, Stich, Reißverschluss
+* &lbrack;Layers&rbrack; Unterstützung für Mehrfachauswahl und -verwaltung
+* &lbrack;Layers&rbrack; Kopieren und Einfügen von einem Textursatz in einen anderen
+* &lbrack;Export&rbrack; PSD-Format von Adobe Photoshop
+* &lbrack;Regal&rbrack; Neues Werkzeug : Fell, Metallstiche und Reißverschluss
+* &lbrack;Regal&rbrack; Neuer Pinsel : Schimmel, Bleistift, scharfe Linie und Stich
+* &lbrack;Regal&rbrack; Neues Alpha : Gaußsches Rauschen, scharfe Linie, Form, Stift, Spritzen, Stich, Reißverschluss
 * Verbesserte Malleistung durch Aktualisierung nur eines Teils der benötigten Texturen
 
 **Fest:**
 
-* [Regal] Es ist nicht möglich, einen Stoff mit Graf mit identischen Kennzeichnungen zu laden.
-* [Ebenen] Der Mischmodus &quot;Hindurchwirken&quot; funktioniert nicht mit Masken
-* [Schablone] Skalierung in 2D-Ansicht unterbrochen
+* &lbrack;Regal&rbrack; Es ist nicht möglich, einen Stoff mit Graf mit gleichen Etiketten zu laden.
+* &lbrack;Layers&rbrack; Der Mischmodus &quot;Hindurchwirken&quot; funktioniert nicht mit Masken
+* &lbrack;Schablone&rbrack; Skalierung in 2D-Ansicht funktioniert nicht
 * Probleme und Absturz auf Mac OS Yosemite
 
 ### 1.0.2
@@ -4743,15 +4781,15 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 * Verbesserte Performance bei der Vorschau von Materialien mit Substanzen
 * Verbesserte Leistung mit der Vorschau des Pinselstrichs beim Aktualisieren des Dokuments
 * Verbesserte Leistung im Viewport mit niedrigerer Aktualisierungsrate für nicht funktionierenden Bereich
-* [Post-Effekte] Verbesserte Benutzeroberfläche zum Verwalten von Einstellungen
-* [Post-Effekte] Auf Standardwerte zurücksetzen
+* &lbrack;Post-Effekte&rbrack; Verbesserte Benutzeroberfläche zum Verwalten von Einstellungen
+* &lbrack;Post-Effekte&rbrack; Auf Standardwerte zurücksetzen
 * Substance von Effekten und Ebenenoperationen im Kontextmenü
 * Unterstützung für die vormultiplizierte Ein-/Ausgabe in Stoffen
 
 **Fest:**
 
-* [3D-Ansicht] Benutzerdefinierte Shader-Parameter werden durch einen großen Leerraum voneinander getrennt.
-* [Export] Fehlende sRGB-Konvertierung für Unity4-Voreinstellung
+* &lbrack;3D-Ansicht&rbrack; Benutzerdefinierte Shader-Parameter werden durch einen großen Leerraum voneinander getrennt
+* &lbrack;Export&rbrack; Fehlende sRGB-Konvertierung für Unity4-Vorgabe
 * Möglicher Absturz beim Laden von FBX-Meshs
 * Absturz kann beim Laden von einfachen obj-Meshs auftreten
 * Die Rechenleiste bleibt beim Laden auf 100 % blockiert.
@@ -4764,7 +4802,7 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Hinzugefügt:**
 
-* [Tool] Verbesserte Verwendung von Material-Parametern
+* &lbrack;Werkzeug&rbrack; Verbesserte Verwendung von Material-Parametern
 * Neuer Tastaturbefehl zur UserVoice-Website im Hilfemenü
 * Verschiedene Leistungsverbesserungen im Engine
 
@@ -4785,15 +4823,15 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 * Unterstützung für 4K-Auflösung
 * Beispielzeichenprojekte
 * Fortschrittsleiste für lange Berechnungen anzeigen
-* [Exportieren] Fügen Sie vor dem Nachbearbeiten der Ausdehnung eine Diffusion hinzu.
+* &lbrack;Export&rbrack; Fügen Sie vor dem Nachbearbeiten der Diffusion eine Ausdehnung hinzu.
 * Befehlszeilenargumente in SP für einfache Vorgänge
 * Neue Material und Effekte
 * Werkzeugvorschau (separate Echtzeitvorschau von Materialien und Bereich für Konturtests)
 * Beim Starten von Painter kein Standarddokument erstellen
-* [Tool] Fügen Sie die Möglichkeit hinzu, einen Graustufenwert manuell zu bearbeiten
+* &lbrack;Werkzeug&rbrack; Hinzufügen der Möglichkeit zum manuellen Bearbeiten eines Graustufenwerts
 * Verschiedene Verbesserungen für die Schablonen (Einrasten, Reset)
 * Partikeln sind jetzt Unterwerkzeuge des Malpinsels, des Radiergummis und der Projektion
-* [3D-Ansicht] Baking geführt AO im Viewport-Rendering verwenden
+* &lbrack;3D-Ansicht&rbrack; Baking geführt AO im Viewport-Rendering verwenden
 * Teilen der Steuerelemente für Schablonen zwischen der 2D- und 3D-Ansicht
 * Kleine Anpassung der Daumengröße in der Bibliothek
 * Suchfelder sind für jedes Fenster spezifisch
@@ -4801,15 +4839,15 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 
 **Fest:**
 
-* [Substance] Switch funktioniert nicht
-* [Farbdialogfeld] Farbtonverlauf wird nicht aktualisiert
+* &lbrack;Substance&rbrack; Schalter funktioniert nicht
+* &blbrack;Farbdialog&rbrack; Farbtonverlauf nicht aktualisiert
 * Mesh kann nicht aktualisiert werden, wenn der Dateiname identisch ist
 * Werkzeug ist in zu kleinen Ansichten nicht sichtbar
 * Das Aufkleber-Werkzeug auf dem Retina-Display funktioniert nicht richtig
-* [Substance] Int1 werden als float1 angezeigt
-* [Substance] Grundfarbeingabe/Ausgabe wird nicht erkannt
-* [Substance] Filter können nicht neu geladen werden.
-* [Tool] Graustufen-Widget ist immer ausgeblendet
+* &lbrack;Substance&rbrack; Int1 werden als float1 angezeigt
+* &lbrack;Substance&rbrack; Grundfarbeingabe/-ausgabe werden nicht erkannt
+* &lbrack;Substance&rbrack; Filter können nicht neu geladen werden
+* &lbrack;Werkzeug&rbrack; Graustufen-Widget ist immer ausgeblendet
 
 ## Beta
 
@@ -5064,7 +5102,7 @@ Zusammenfassung: **Verbesserte Wiedergabegeschwindigkeit, verbessertes Speichers
 * Material-Pipette (P Tastaturbefehl)
 * Miniaturen unter der 3D-Werkzeugvorschau
 * Lizenzierungssystem für eigenständige Versionen
-* [ und ] Tastaturbefehle für Pinselgröße
+* &lbrack; und &rbrack; Tastaturbefehle für die Pinselgröße
 * Innenabstände exportierter Karten
 * Aktualisierter Werkzeugfensterstil
 * Aktualisierter Reglerstil

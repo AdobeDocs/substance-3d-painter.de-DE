@@ -4,22 +4,20 @@ description: Informieren Sie sich über bekannte Probleme bei Substance 3D Paint
 title: Bekannte Probleme
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '932'
 ht-degree: 0%
 ---
 
 # Bekannte Probleme
 
-Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Substance 3D Painter aufgeführt:
+Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.2.0 von Substance 3D Painter aufgeführt:
 
 * `[Baking]` Falsche AO bei einfachen Würfeln
 * `[Baking]` Die Interpretation des Namensuffixes stimmt nicht überein.
 * `[Baking]` UV-Nähte werden nach dem erneuten Importieren von Mes nicht angezeigt
 * `[Baking]` Raster-ähnliche Artefakte mit einigen Einstellungen
-* `[Baking]` Ambient occlusion Rückseitenignorierung nach Mesh funktioniert nicht
-* `[Baking]` `[AMD]` Gerät beim Baking führ mit einem hohen Poly-Mesh verloren
 
 * `[Substance]` Mehrere Rechtschreibfehler in Ressourcen
 * `[Substance]` Bedingung für leere Leerraumunterbrechungen für Sichtbarkeit
@@ -33,10 +31,6 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Su
 * `[Color Management]` Inkompatible Bindungen mit Generator werden nicht in der Maske verwendet
 * `[Color Management]` Filterausgabe wird nicht ordnungsgemäß berücksichtigt.
 * `[Color Management]` HDR. Farbraumkonvertierungen mit ACE unter Linux erzeugen eingeklemmte Farben
-
-* `[USD]` Falsche Benutzerzuweisung in einigen Fällen
-* `[USD]` Die exportierte USD wird entlang der UV-Ränder verschoben.
-* `[USD]` Einfrieren beim Laden von falsch formatiertem USDz
 
 * `[Shelf]` Ressourcen erhalten die falsche Verwendung, wenn sie in einen Ordner mit einem bestimmten Namen platziert werden
 * `[Shelf]` `[Substance]` Benutzerdaten werden für die Generierung von Regal-Miniaturansichten nicht berücksichtigt
@@ -52,6 +46,12 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Su
 
 * Das in der Grundfarbe-Ansicht gespeicherte Projekt &quot;`[Single Channel View]`&quot; sieht nach dem Versionsupdate von Painter dunkler aus
 * Das in der Grundfarbe-Ansicht gespeicherte Projekt &quot;`[Single Channel View]`&quot; sieht nach dem Versionsupdate von Painter dunkler aus
+
+* `[Viewport]` Cursor-Verzögerung am unteren Rand des Viewports im Baking-Modus
+* `[Viewport]` Das Ziehen der Polygonfüllauswahl von einem Fenster in ein anderes kann zu Verzögerungen beim Viewport führen
+
+* `[Cage Painting]` Käfig-Geometrielöcher beim Malen auf einer UV-Insel
+* Leistungsproblem `[Cage Painting]` im Viewport &quot;Baking&quot; auf Mac
 
 * `[gltf]` Dateien, die über Babylon Exporter exportiert wurden, können nicht geöffnet werden
 * `[Displacement]` Störung beim Malen
@@ -89,12 +89,17 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Su
 * `[User Channels]` Vorschau des Farbmischraums ist falsch
 * Die Geometrieauswahl &quot;`[Mask]`&quot; ist nach dem Wechsel in den Baking-Modus noch aktiv.
 * `[Sonoma]` Symbole werden nicht in Menüs angezeigt
+* `[USD]` Falsche Benutzerzuweisung in einigen Fällen
 * `[Polygon Fill]` Durch Ändern des Farbraums der Grundfarbe wird die Farbauswahl nicht aktualisiert
 * `[UV Padding]` Artefakte beim Hochskalieren der Textur von 4K auf 8K beim Export
-* `[Performances]` Painter VRAM Verwendung
 * `[FBX]` Größenprobleme
 * `[Texture set list]` UV-Kacheln können gleichzeitig mit einem Textursatz ausgewählt werden.
-* `[Viewport]` Cursor-Verzögerung am unteren Rand des Viewports im Baking-Modus
+* `[Paint Properties]` Durch Rechtsklick im Fenster mit den Malen-Eigenschaften wird das Popup-Menü für die Vorgabe nicht geöffnet
+* `[MACOS]` `[Subsurface Scattering]` Speicher-Rauschen mit einigen SS-Radius-Skalierungswerten
+* `[Mac]` Mipmap-Vorurteile aus Textur-Filterungen in den Anzeigeeinstellungen haben keine Auswirkungen.
+* Das Popup &quot;Speichern&quot; (`[Project]`) wird beim Schließen angezeigt, auch wenn das Projekt nicht geändert wurde.
+* `[Library]` Painter kann beim Generieren von Miniaturansichten von Umgebungs-Map hängen bleiben
+* `[Windows]` `[Nvidia]` Die Generierung von Pinsel- und Material-Vorschauen kann zu einem TDR führen.
 * Nicht quadratische Ressourcen werden gedehnt, wenn sie in den Steckplätzen des Pinselkanals verwendet werden
 * Substanz konnte nicht decodiert werden
 * Nicht perfekt überlagerte UVs können Artefakte erzeugen
@@ -113,6 +118,7 @@ Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.1.5 von Su
 * Pinselparameter, die von der kontextabhängigen Symbolleiste geändert werden, werden im Verlauf nicht angezeigt
 * Exportvorgaben können nicht umbenannt oder gelöscht werden, wenn Sie sie in dieser Sitzung bereits gelöscht und neu erstellt haben
 * Kanalzuordnung funktioniert in einigen Fällen nicht für die Vorschau des Projektion-Tools
+* Mesh-Zuordnungsfehler ignoriert andere hohe Polygone nicht, wenn &quot;Nur nach Name abgleichen&quot; und &quot;Nur ausgewählter Textursatz&quot; aktiviert sind
 
 ## Stabilität
 
