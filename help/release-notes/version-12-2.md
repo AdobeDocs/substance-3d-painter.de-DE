@@ -2,9 +2,9 @@
 title: Version 12.2
 description: Versionshinweise zu Version 12.2
 helpx_description: "Substance 3D Painter"
-source-git-commit: 4b341d73e5dcd79cdcf601f7f12f1ffb49337b5d
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 
@@ -94,7 +94,7 @@ Das Werkzeug **Polygonfüllung** wurde mit einer neuen Schnittstelle und neuen A
 
 >[!NOTE]
 >
-> Weitere Informationen zum Werkzeug **Polygonfüllung** finden Sie auf der [Seite der dedizierten Dokumentation](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
+> Weitere Informationen zum Werkzeug **Polygonfüllung** finden Sie auf der [Seite der dedizierten Dokumentation](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill).
 
 ### Malen mit neuem Käfig im Baking-Modus
 
@@ -158,7 +158,7 @@ Der neue **Käfig-Malmodus** ist ein Käfig-Offset pro Pixel, der über den glob
 
 >[!NOTE]
 >
-> Weitere Informationen zum Baking finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/baking/baking).
+> Weitere Informationen zum Baking finden Sie auf der [dedizierten Dokumentationsseite ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking).
 
 ### Hervorhebung von neuem Textursatz im Viewport
 
@@ -228,10 +228,58 @@ In dieser Version wurden zusätzliche Funktionen und Verbesserungen hinzugefügt
 
   Für das Substance von Materialien und Filtern ist eine neue `mesh_uv_neighbor`-Engine-Map-Eingabe verfügbar. Es funktioniert wie eine UV Advektion-Textur, um die andere Seite einer UV-Insel-Naht zu finden. Die Rot- und Grün-Kanäle speichern den UV-Vorschub, der verwendet wird, um die benachbarten Pixel über eine UV-Naht zu erreichen.
 
-  Weitere Informationen zu diesen Engine-Texturen finden Sie auf der [dedizierten Dokumentationsseite &#x200B;](https://experienceleague.adobe.com/de/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
+  Weitere Informationen zu diesen Engine-Texturen finden Sie auf der [dedizierten Dokumentationsseite ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input).
 
 ## Versionshinweise
 
 ### 12.2.0
 
-Demnächst verfügbar.
+Freigabedatum: **2026/10/21**
+
+Zusammenfassung: **Dieses Update ist eine Hauptversion, es fügt eine neue Funktion zum Zeichnen von Käfigen für das Baking hinzu und verbessert die Funktionen zum Füllen von Polygonen. Weitere Informationen finden Sie in den vollständigen Versionshinweisen.**
+
+**Hinzugefügt:**
+
+* Baking, Käfig malen
+* &amp;lbrack;Käfig malen&amp;rbrack; Einfache Käfig-Malen-Benutzeroberfläche erstellen
+* &amp;lbrack;Käfig malen&amp;rbrack; Neue Optionen zur Visualisierung von Käfig
+* &amp;lbrack;Käfig malen&amp;rbrack; Bearbeitbares Auswahl-/Füllwerkzeug
+* &amp;lbrack;Käfig malen&amp;rbrack; Überblendung-Modus in Symbolleiste anzeigen
+* &amp;lbrack;Käfig malen&amp;rbrack; HDR. Regler Änderungen an der Benutzeroberfläche
+* &amp;lbrack;Käfig malen&amp;rbrack; Visualisierungs-Shader
+* &amp;lbrack;Käfig malen&amp;rbrack; Optionen zum Zurücksetzen des Stapels
+* Verbesserungen am Werkzeug &quot;Polygonfüllung&quot;
+* &amp;blbrack;Polygon Fill&amp;rbrack; Polygon-Ausbesserung hinzufügen
+* &amp;blbrack;Polygon Fill&amp;rbrack; Polygonschleife hinzufügen
+* &amp;blbrack;Polygon Fill&amp;rbrack; Symmetrie-Unterstützung mit Loop/Patch
+* &amp;blbrack;Polygon Fill&amp;rbrack; Symmetrie Edge Preview
+* &amp;blbrack;Polygon Fill&amp;rbrack; Dreiecke mit Endlosschleifen und Partialschleifen entfernen
+* &amp;blbrack;Polygon Fill&amp;rbrack; Drahtgitter nur für aktiven Textursatz sichtbar
+* &amp;Klammer;Polygonfüllung&amp;Klammer; Rote Kantenmarkierung bei nicht klickbaren Dreiecken
+* &amp;Klammer;Polygonfüllung&amp;Klammer; Deaktivieren Sie nicht die Füllmodusoptionen
+* &amp;blbrack;Polygon Fill&amp;rbrack; Festlegen aller Kanaleigenschaften mit der Polygonfüllung zulassen
+* &amp;blbrack;Polygon Fill&amp;rbrack; Vorherigen Strich fortsetzen funktioniert mit Polygonfüllung
+* &amp;Klammer;Polygonfüllung&amp;Klammer; Unzulässige Cursorposition auf nicht aktiven Textursätzen anzeigen
+* &amp;blbrack;Polygon Fill&amp;rbrack; ALT-Sofortvorschau
+* &amp;blbrack;Polygon Fill&amp;rbrack; Tastaturbefehl für temporären Wechsel zu Polyloop (UMSCHALT+A)
+* &amp;lbrack;Viewport&amp;rbrack; Markierung für Textursatz-/UV-Kacheln-Auswahl anzeigen
+* &amp;lbrack;Viewport&amp;rbrack; Unterstützung für &quot;Order Independent Transparency&quot; im Echtzeit-Viewport hinzufügen
+* &amp;lbrack;Anzeigeeinstellungen&amp;rbrack; Anzeigeeinstellungen in neuen Gruppen neu organisieren
+* &amp;lbrack;Werkzeug&amp;rbrack; Hinzufügen von Unterstützung für das additive Mischen mit Pinselstrichen
+* &amp;lbrack;Werkzeug&amp;rbrack; Unterstützung für additive Überblendung mit der Polygonfüllung hinzufügen
+* &amp;lbrack;USD&amp;rbrack; Exportierte USD mit Deckkraftmap werden in Arnold transparent dargestellt
+* &amp;lbrack;Nvidia&amp;rbrack; Fügen Sie eine Warnung zu den neuesten Nvidia-Treibern hinzu (616.56 bis 617.14)
+* Neue Eingabe für &quot;Mesh_UV_Neighbor&quot;-Engine hinzufügen
+* Baker auf Version 3.23.0 aktualisieren
+* Substance Engine auf Version 9.6.1 aktualisieren
+
+**Fest:**
+
+* &amp;blbrack;Baking&amp;rbrack; Ambient occlusion &quot;Rückseitige ignorierung nach Mesh&quot; funktioniert nicht
+* &amp;blbrack;Baking&amp;rbrack; &amp;lbrack;AMD&amp;rbrack; Gerät beim Baking führ mit hochpolaren Meshs verloren
+* &amp;lbrack;Performances&amp;rbrack; Painter VRAM Verwendung
+* &amp;lbrack;Viewport&amp;rbrack; Fehlende Texturen beim Öffnen von Projekten auf HDPI-Bildschirmen
+* &amp;lbrack;Werkzeug&amp;rbrack; Füllmethode ist ausgegraut, wenn in eine Maske gemalt wird
+* Temporäre Ordner werden nach dem Export im Netzwerk nicht gelöscht
+* &amp;lbrack;USD&amp;rbrack; Die exportierte USD wird entlang der UV-Begrenzungslinien geteilt
+* &amp;lbrack;USD&amp;rbrack; Einfrieren beim Laden von falsch geformtem USDz
