@@ -21,4 +21,4 @@ Hinzugefügt:
 
 Fest:
 
-* &amp;blbrack;Baking&amp;rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
+* &blbrack;Baking&rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
