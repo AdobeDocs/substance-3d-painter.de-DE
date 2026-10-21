@@ -4,10 +4,10 @@ description: Lesen Sie die Versionshinweise für Substance 3D Painter , um über
 title: Versionshinweise
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 956741845e5808dd59eda31b0c0915ce463cb87a
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 8%
+source-wordcount: '72'
+ht-degree: 11%
 ---
 
 # Versionshinweise
@@ -15,6 +15,7 @@ ht-degree: 8%
 Hier finden Sie alles, was für jede Version hinzugefügt, geändert oder korrigiert wurde:
 
 * [Alle Änderungen](all-changes.md)
+* [Version 12.2](version-12-2.md)
 * [Version 12.1](version-12-1.md)
 * [Version 12.0](version-12-0.md)
 * [Version 11.1](version-11-1.md)
