@@ -1,9 +1,9 @@
 ---
 description: Erfahren Sie mehr über die aktuelle Substance 3D Painter Beta-Version mit neuen Funktionen und einem vollständigen Änderungsprotokoll.
 title: Beta-Version
-source-git-commit: cbd6fb09788fd9c97a69f995fa93d7f14128584e
+source-git-commit: d84430d131a0857e981006698faf536d59aa707b
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '146'
 ht-degree: 0%
 ---
 
@@ -13,12 +13,28 @@ ht-degree: 0%
 
 Diese Betaversion von Substance 3D Painter bietet native Unterstützung für Windows auf ARM-Systemen (ARM64). In den kommenden Wochen werden weitere Versionen veröffentlicht, da das Team an der Verbesserung der Stabilität arbeitet.
 
+### **Build 2**
+
+Freigabedatum: **2. November 2026**
+
+**Hinzugefügt**:
+
+* &blbrack;Baking&rbrack; Visualisierung der Fehlersuche &quot;Highpoly Matching&quot; verwendet &quot;Match by Name&quot;
+
+**Fest**:
+
+* &lbrack;Python&rbrack; Einige veraltete Funktionen geben eine Warnung aus, sagen aber nicht, wer sie sind
+* &blbrack;Baking&rbrack; Beim Malen auf einer UV-Insel kann die Geometrie des Käfigs Bohrungen aufweisen.
+* &lbrack;Mac&rbrack;&lbrack;Baking&rbrack; Leistungsproblem im Viewport &quot;Baking-Modus&quot; beim Malen mit dem Käfig
+
+### **Build 1**
+
 Freigabedatum: **21. Oktober 2026**
 
-Hinzugefügt:
+**Hinzugefügt**:
 
 * Substance 3D Painter unterstützt jetzt nativ WinARM-Computer.
 
-Fest:
+**Fest**:
 
 * &blbrack;Baking&rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
