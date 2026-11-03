@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie mehr über die aktuelle Substance 3D Painter Beta-Version mit neuen Funktionen und einem vollständigen Änderungsprotokoll.
 title: Beta-Version
-source-git-commit: 1df909bd0658eac40b726b493e73758e64c01d16
+source-git-commit: d84430d131a0857e981006698faf536d59aa707b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -15,17 +15,17 @@ Diese Betaversion von Substance 3D Painter bietet native Unterstützung für Win
 
 ### **Build 2**
 
-Freigabedatum: **29. Oktober 2026**
+Freigabedatum: **2. November 2026**
 
 **Hinzugefügt**:
 
-* &blbrack;Baking&rbrack; Visualisierung der Fehlersuche &quot;Highpoly Matching&quot; verwendet &quot;Match by Name&quot;
+* &amp;blbrack;Baking&amp;rbrack; Visualisierung der Fehlersuche &quot;Highpoly Matching&quot; verwendet &quot;Match by Name&quot;
 
 **Fest**:
 
-* &lbrack;Python&rbrack; Einige veraltete Funktionen geben eine Warnung aus, sagen aber nicht, wer sie sind
-* &blbrack;Baking&rbrack; Beim Malen auf einer UV-Insel kann die Geometrie des Käfigs Bohrungen aufweisen.
-* &lbrack;Mac&rbrack;&lbrack;Baking&rbrack; Leistungsproblem im Viewport &quot;Baking-Modus&quot; beim Malen mit dem Käfig
+* &amp;lbrack;Python&amp;rbrack; Einige veraltete Funktionen geben eine Warnung aus, sagen aber nicht, wer sie sind
+* &amp;blbrack;Baking&amp;rbrack; Beim Malen auf einer UV-Insel kann die Geometrie des Käfigs Bohrungen aufweisen.
+* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;Baking&amp;rbrack; Leistungsproblem im Viewport &quot;Baking-Modus&quot; beim Malen mit dem Käfig
 
 ### **Build 1**
 
@@ -37,4 +37,4 @@ Freigabedatum: **21. Oktober 2026**
 
 **Fest**:
 
-* &blbrack;Baking&rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
+* &amp;blbrack;Baking&amp;rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
