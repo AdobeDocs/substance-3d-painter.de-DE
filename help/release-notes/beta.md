@@ -19,13 +19,13 @@ Freigabedatum: **29. Oktober 2026**
 
 **Hinzugefügt**:
 
-* &amp;blbrack;Baking&amp;rbrack; Visualisierung der Fehlersuche &quot;Highpoly Matching&quot; verwendet &quot;Match by Name&quot;
+* &blbrack;Baking&rbrack; Visualisierung der Fehlersuche &quot;Highpoly Matching&quot; verwendet &quot;Match by Name&quot;
 
 **Fest**:
 
-* &amp;lbrack;Python&amp;rbrack; Einige veraltete Funktionen geben eine Warnung aus, sagen aber nicht, wer sie sind
-* &amp;blbrack;Baking&amp;rbrack; Beim Malen auf einer UV-Insel kann die Geometrie des Käfigs Bohrungen aufweisen.
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;Baking&amp;rbrack; Leistungsproblem im Viewport &quot;Baking-Modus&quot; beim Malen mit dem Käfig
+* &lbrack;Python&rbrack; Einige veraltete Funktionen geben eine Warnung aus, sagen aber nicht, wer sie sind
+* &blbrack;Baking&rbrack; Beim Malen auf einer UV-Insel kann die Geometrie des Käfigs Bohrungen aufweisen.
+* &lbrack;Mac&rbrack;&lbrack;Baking&rbrack; Leistungsproblem im Viewport &quot;Baking-Modus&quot; beim Malen mit dem Käfig
 
 ### **Build 1**
 
@@ -37,4 +37,4 @@ Freigabedatum: **21. Oktober 2026**
 
 **Fest**:
 
-* &amp;blbrack;Baking&amp;rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
+* &blbrack;Baking&rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
