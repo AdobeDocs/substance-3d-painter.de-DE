@@ -17,9 +17,9 @@ Diese Betaversion von Substance 3D Painter bietet native Unterstützung für Win
 
 **Fest**:
 
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;OpenPBR&amp;rbrack; Textur-Artefakte im Viewport mit bestimmten Skalenwerten für den Radius des Untergrunds
-* &amp;lbrack;Mac&amp;rbrack; Mipmap-Vorspannung aus Textur-Filterungen in den Anzeigeeinstellungen hat keine Auswirkungen
-* &amp;lbrack;Windows&amp;rbrack;&amp;lbrack;Nvidia&amp;rbrack; Die Generierung von Pinsel- und Material-Vorschauen kann zu einem TDR führen.
+* &lbrack;Mac&rbrack;&lbrack;OpenPBR&rbrack; Textur-Artefakte im Viewport mit bestimmten Skalenwerten für den Radius des Untergrunds
+* &lbrack;Mac&rbrack; Mipmap-Vorspannung aus Textur-Filterungen in den Anzeigeeinstellungen hat keine Auswirkungen
+* &lbrack;Windows&rbrack;&lbrack;Nvidia&rbrack; Die Generierung von Pinsel- und Material-Vorschauen kann zu einem TDR führen.
 
 ### Build 2
 
@@ -27,13 +27,13 @@ Freigabedatum: **2. November 2026**
 
 **Hinzugefügt**:
 
-* &amp;blbrack;Baking&amp;rbrack; Visualisierung der Fehlersuche &quot;Highpoly Matching&quot; verwendet &quot;Match by Name&quot;
+* &blbrack;Baking&rbrack; Visualisierung der Fehlersuche &quot;Highpoly Matching&quot; verwendet &quot;Match by Name&quot;
 
 **Fest**:
 
-* &amp;lbrack;Python&amp;rbrack; Einige veraltete Funktionen geben eine Warnung aus, sagen aber nicht, wer sie sind
-* &amp;blbrack;Baking&amp;rbrack; Beim Malen auf einer UV-Insel kann die Geometrie des Käfigs Bohrungen aufweisen.
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;Baking&amp;rbrack; Leistungsproblem im Viewport &quot;Baking-Modus&quot; beim Malen mit dem Käfig
+* &lbrack;Python&rbrack; Einige veraltete Funktionen geben eine Warnung aus, sagen aber nicht, wer sie sind
+* &blbrack;Baking&rbrack; Beim Malen auf einer UV-Insel kann die Geometrie des Käfigs Bohrungen aufweisen.
+* &lbrack;Mac&rbrack;&lbrack;Baking&rbrack; Leistungsproblem im Viewport &quot;Baking-Modus&quot; beim Malen mit dem Käfig
 
 ### Build 1
 
@@ -45,4 +45,4 @@ Freigabedatum: **21. Oktober 2026**
 
 **Fest**:
 
-* &amp;blbrack;Baking&amp;rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
+* &blbrack;Baking&rbrack; Leistungsproblem im Viewport des Baking-Modus auf Mac mit Käfig-Malfunktion.
