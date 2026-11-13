@@ -4,9 +4,9 @@ description: Prüfen Sie die Systemanforderungen für Substance 3D Painter , um 
 title: Systemanforderungen
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
+source-git-commit: 0937bc291815e86b7a33d804729dbef599748d13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '798'
 ht-degree: 1%
 ---
 
@@ -56,9 +56,8 @@ Um bei der Verwendung des Arbeitsablaufs für die UV-Kachel eine gute Leistung z
 Sonstiges:
 
 * Viele Substance-Apps sind für RHEL8/9-Kompatibilität auf OpenSSL 1.1.1 angewiesen. Bei Systemen mit neueren OpenSSL-Versionen muss der Kunde diese manuell bereitstellen.
-* Für die Arbeit unter angenehmen Bedingungen empfehlen wir einen Monitor mit einer vertikalen Auflösung größer als 1000 Pixel und breiter als 1280 Pixel.
-* Für den Export mit **8K** (8192\*8192 Pixel) ist eine GPU mit **mehr als** 2 GB VRam erforderlich.
-* Nur die Versionen 2019.x und höher wurden notariell beglaubigt, um auf MacOS 10.15 (Catalina) ausgeführt zu werden.
+* Für komfortable Arbeitsbedingungen empfehlen wir einen Monitor mit einer vertikalen Auflösung von mehr als 1000 Pixel und einer Breite von mehr als 1280 Pixel.
+* Exportieren mit **8K** (8192\*8192 Pixel) ist auf GPUs mit **weniger als** 2 GB VRAM nicht verfügbar.
 * Informationen zum Verwenden der Software über RDP (Remote Desktop) finden Sie auf der dedizierten [Dokumentationsseite](../pipeline-and-integration/configuration/remote-desktop.md).
 * Absturz auf Ryzen CPU beim Baking, kann durch Aktualisierung des BIOS behoben werden.
 
@@ -107,7 +106,7 @@ Um GPU-Raytracing über Optix oder DXR zu aktivieren, müssen die oben empfohlen
 
 **DXR** erfordert ebenfalls die folgende Mindestkonfiguration:
 
-* **Windows 10** Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/substance-3d/bakers/features/gpu-raytracing).
+* **Windows 10** Version 1809. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).
 * **GPU mit Pascal-Architektur** (Nvidia GeForce 10XX)
 
 >[!TIP]
