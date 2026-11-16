@@ -4,9 +4,9 @@ description: Informieren Sie sich über bekannte Probleme bei Substance 3D Paint
 title: Bekannte Probleme
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
+source-git-commit: a03b6eb503f036d0ea991ebffe4996fde2f0ffb9
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 0%
 Auf dieser Seite werden alle aktiven bekannten Probleme in Version 12.2.0 von Substance 3D Painter aufgeführt:
 
 * `[Baking]` Falsche AO bei einfachen Würfeln
-* `[Baking]` Die Interpretation des Namensuffixes stimmt nicht überein.
 * `[Baking]` UV-Nähte werden nach dem erneuten Importieren von Mes nicht angezeigt
 * `[Baking]` Raster-ähnliche Artefakte mit einigen Einstellungen
 
