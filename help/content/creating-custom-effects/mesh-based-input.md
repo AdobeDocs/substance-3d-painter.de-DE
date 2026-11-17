@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Mesh-basierte Eingaben in benutzerdefinierten
 title: Mesh-basierte Eingabe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 4432887b652896f77fc3c99010436ef44aeb8a3e
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '279'
 ht-degree: 1%
 ---
 
@@ -28,3 +28,4 @@ ht-degree: 1%
 | *Welt-Raum Bitangent (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | Rufen Sie eine Textur ab, die den Scheitelpunkt bi-Tangente (bi-normal) im Welt-Raum enthält. |
 | *Texelgröße (Graustufen)* | **Mesh\_texel\_size** | **meshTexelSize** | Rufen Sie eine Textur ab, die die Textgröße (Differenz zwischen Pixeldichte und Mesh-UV) enthält. |
 | *UV-Maske (Graustufen)* | **Mesh\_uv\_mask** | **meshUVMask** | Rufen Sie eine Textur als schwarze (Außen) und weiße (Innen) Maske der Mesh-UV-Inseln ab. |
+| *UV Neighbor (RGB)* | **Mesh\_uv\_Nachbar** | **meshUVNeighbor** | Rufen Sie eine Textur mit zwei Informationen ab. Das Innere der UV-Inseln speichert die Koordinaten der regulären UV. Die Außenseite der UV-Inseln speichert die UV-Koordinaten des Pixels auf der anderen Seite der UV-Naht. Diese Textur kann verwendet werden, um nahtlose Effekte zu erzeugen. |
